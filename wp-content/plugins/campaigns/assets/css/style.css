@@ -1,0 +1,164 @@
+/*-----------------------------------
+Campaigns plugin
+----------------------------------*/
+.cmp_list .status_tag{
+	text-align: right;
+	padding-right: 20px;
+}
+.ideas_count_circle{
+	border-radius: 100px;
+    position: relative;
+    float: left;
+    color: white;
+    padding: 4px 10px;
+    top: -3px;
+    left: -3px;
+}
+.non_first .ideas_count_circle{
+	margin: 5px auto;
+}
+.ideas_count_circle.info{
+	background: #5bc0de;
+}
+.ideas_count_circle.primary{
+	background: #367bb7;
+}
+.ideas_count_circle.danger{
+	background: #d2322d;
+}
+.ideas_count_circle.success{
+	background: #47a447;
+}
+.status_tag{
+	font-size:10px;
+	margin: 0 0 10px 0;
+	border-radius: 4px;
+    border: solid 1px;
+}
+.idea_user_points{
+	color: #ccc;
+}
+.campaign_stats{
+	margin-bottom: 5px;
+	font-size: 20px;
+	line-height: 25px;
+    margin-top: 10px;
+    color: #367bb7;
+    border-radius: 5px;
+    background: #DFDFDF;
+    padding: 5px 0;
+}
+.campaign_stats>div:nth-child(2){
+	border-left:solid 1px #ccc;
+	border-right:solid 1px #ccc;
+}
+.campaign_stats>div>div:nth-child(1){
+	font-weight: bold;
+}
+.flipclock {
+    width: 460px;
+    display: inline-block;
+    height: 80px;
+}
+.flip-clock-wrapper ul {width: 40px;height: 78px;margin: 0 2px;}
+.flip-clock-wrapper ul li {line-height: 78px;}
+.flip-clock-wrapper ul li a div div.inn {border-radius: 3px;font-size: 50px;}
+.flip-clock-wrapper ul li a div.down {border-bottom-left-radius: 3px; border-bottom-right-radius: 3px;}
+.flip-clock-wrapper ul li a div.up:after {top: 38px;height: 2px;}
+.flip-clock-divider .flip-clock-label {right:-57px;}
+.flip-clock-divider.minutes .flip-clock-label {right: -63px}
+.flip-clock-divider.seconds .flip-clock-label {right: -65px}
+.flip-clock-dot.bottom {bottom:40px}
+.flip-clock-dot.top {top:20px}
+
+.status_tag.info{
+	color:#5bc0de;
+	border: solid 1px #5bc0de;
+}
+.status_tag.primary{
+	color:#367bb7;
+	border: solid 1px #367bb7;
+}
+.status_tag.danger{
+	color:#d2322d;
+	border: solid 1px #d2322d;
+}
+.status_tag.success{
+	color:#47a447;
+	border: solid 1px #47a447;
+}
+.idea_status.in.discussion{
+	color:#5bc0de;
+}
+.idea_status.selected{
+	color:#367bb7;
+}
+.idea_status.rejected{
+	color:#d2322d;
+}
+.idea_status.in.project{
+	color:#47a447;
+}
+.idea-avatar{
+	margin: 10px 10px 0 0;
+}
+.idea-avatar img{
+	border-radius: 100px;
+}
+.cmp_add_idea_cont {
+	margin: 0 -15px 20px -15px;
+	position: relative;
+}
+.add-idea-button, button.idea_search{
+	background: #367bb7 !important;
+}
+.cmp_add_idea_cont .add-idea-button{
+	border-radius: 5px;
+}
+.campaign_ideas .item-likes:before {
+	display: none;
+}
+.campaign_ideas .item-likes-count,.campaign_ideas .item-likes-postfix{
+	display: inline !important;
+}
+.campaign_ideas  .item-likes.liked{
+	color:#00E000;
+}
+.cmp_idea_title{
+	max-height: 40px;
+    overflow: hidden;
+    display: block;
+    margin-top:5px;
+}
+.top_box{
+	border: solid 1px #ccc;
+    border-radius: 5px;
+    padding: 20px 20px 0 20px;
+    background: #F7F7F7;
+}
+.days .flip-clock-label{
+	right:-78px;
+}
+.campaign_ideas .col-md-6{
+	padding: 0 0 0 14px;
+}
+.campaign_idea_favorite{
+	cursor: pointer;
+}
+.single_campaign .tiles{
+  display: none;
+}
+
+@media all and (max-width: 1200px){
+	.flipclock{
+	   zoom: 0.7;
+	   -moz-transform: scale(0.7)
+	}
+}
+
+@media all and (max-width: 479px){
+	.flipclock{
+	   zoom: 0.5;
+	   -moz-transform: scale(0.5)
+	}
+}

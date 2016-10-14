@@ -1,0 +1,265 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: BuddyPress Follow\n"
+"POT-Creation-Date: 2015-07-16 08:02+0200\n"
+"PO-Revision-Date: 2015-07-16 08:13+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: loader.php\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: _inc/bp-follow-actions.php:35
+#, php-format
+msgid "You are already following %s."
+msgstr "Vous suivez déjà %s."
+
+#: _inc/bp-follow-actions.php:39
+#, php-format
+msgid "There was a problem when trying to follow %s, please try again."
+msgstr ""
+"Il y avait un problème en essayant de suivre %s, s'il vous plaît essayer à "
+"nouveau."
+
+#: _inc/bp-follow-actions.php:41
+#, php-format
+msgid "You are now following %s."
+msgstr "Vous suivez maintenant%s."
+
+#: _inc/bp-follow-actions.php:74
+#, php-format
+msgid "You are not following %s."
+msgstr "Vous ne suivez pas%s."
+
+#: _inc/bp-follow-actions.php:78
+#, php-format
+msgid "There was a problem when trying to stop following %s, please try again."
+msgstr ""
+"Il y avait un problème en essayant de cesser de suivre %s, s' il vous plaît "
+"essayer à nouveau."
+
+#: _inc/bp-follow-actions.php:80
+#, php-format
+msgid "You are no longer following %s."
+msgstr "Vous ne suivez plus %s.."
+
+#: _inc/bp-follow-actions.php:117
+#, php-format
+msgid "%1$s | %2$s | Following Activity"
+msgstr "%1$s | %2$s | Activité suivante"
+
+#: _inc/bp-follow-actions.php:120
+#, php-format
+msgid "Activity feed for people that %s is following."
+msgstr "Flux d'activités pour les personnes que %s suit."
+
+#: _inc/bp-follow-actions.php:163
+msgid "Already following"
+msgstr "Vous suivez déjà."
+
+#: _inc/bp-follow-actions.php:168
+msgid "Error following user"
+msgstr "Erreur dans le suivi de cet utilisateur."
+
+#: _inc/bp-follow-actions.php:212
+msgid "Not following"
+msgstr "Non suivi"
+
+#: _inc/bp-follow-actions.php:218
+msgid "Error unfollowing user"
+msgstr "Erreur dans le suivi de cet utilisateur."
+
+#: _inc/bp-follow-hooks.php:194
+msgid "The public activity for everyone you are following on this site."
+msgstr "Activité publique de tous les membres que vous suivez sur ce site."
+
+#: _inc/bp-follow-hooks.php:194 _inc/bp-follow-hooks.php:217
+#: bp-follow-core.php:149
+#, php-format
+msgid "Following <span>%d</span>"
+msgstr "Abonnements <span>%d</span>"
+
+#: _inc/bp-follow-hooks.php:481
+msgid "You are following some users, but they haven't posted yet."
+msgstr "Vous suivez certains utilisateurs, mais ils n'ont pas encore affiché."
+
+#: _inc/bp-follow-hooks.php:483
+msgid "You are not following anyone yet."
+msgstr "Vous ne suivez pas encore d'abonnement."
+
+#: _inc/bp-follow-hooks.php:489
+msgid "This user is following some users, but they haven't posted yet."
+msgstr ""
+"Cet utilisateur suit certains utilisateurs, mais ils n'ont pas encore posté."
+
+#: _inc/bp-follow-hooks.php:491
+msgid "This user isn't following anyone yet."
+msgstr "Cet utilisateur n'a encore d'abonnement."
+
+#: _inc/bp-follow-notifications.php:29 _inc/bp-follow-notifications.php:316
+#, php-format
+msgid "%s is now following you"
+msgstr "%s vous suit a présent"
+
+#: _inc/bp-follow-notifications.php:33
+#, php-format
+msgid "%d more users are now following you"
+msgstr "%d d'utilisateurs en plus vous suivent désormais"
+
+#: _inc/bp-follow-notifications.php:253 bp-follow-core.php:40
+msgid "Follow"
+msgstr "Suivre"
+
+#: _inc/bp-follow-notifications.php:254
+msgid "Yes"
+msgstr "Oui"
+
+#: _inc/bp-follow-notifications.php:255
+msgid "No"
+msgstr "Non"
+
+#: _inc/bp-follow-notifications.php:262
+msgid "A member starts following your activity"
+msgstr "Un membre commence à suivre votre activité"
+
+#: _inc/bp-follow-notifications.php:319
+#, php-format
+msgid ""
+"%s is now following your activity.\n"
+"\n"
+"To view %s's profile: %s"
+msgstr "%s suit désormais votre activité"
+
+#: _inc/bp-follow-notifications.php:326
+#, php-format
+msgid ""
+"\n"
+"\n"
+"---------------------\n"
+"To disable these notifications please log in and go to:\n"
+"%s"
+msgstr ""
+"Pour désactiver ces notifications, veuillez vous connecter et vous rendre "
+"sur : %s"
+
+#: _inc/bp-follow-screens.php:196
+msgid "Order By:"
+msgstr "Trier par :"
+
+#: _inc/bp-follow-screens.php:198
+msgid "Last Active"
+msgstr "Dernier actif"
+
+#: _inc/bp-follow-screens.php:199
+msgid "Newest Registered"
+msgstr "Plus récent en premier"
+
+#: _inc/bp-follow-screens.php:202
+msgid "Alphabetical"
+msgstr "alphabétique"
+
+#: _inc/bp-follow-templatetags.php:161
+msgctxt "Button"
+msgid "Unfollow"
+msgstr "Se désabonner"
+
+#: _inc/bp-follow-templatetags.php:171
+msgctxt "Button"
+msgid "Follow"
+msgstr "Suivre"
+
+#: _inc/bp-follow-widgets.php:25
+msgid "Show a list of member avatars that the logged-in user is following."
+msgstr "Afficher une liste d'avatars membres que l'utilisateur connecté suit."
+
+#: _inc/bp-follow-widgets.php:31
+msgid "(BP Follow) Users I'm Following"
+msgstr "(BP Suivre) Utilisateurs que je suis"
+
+#: _inc/bp-follow-widgets.php:99
+msgid "Users I'm Following"
+msgstr "Utilisateurs que je suit"
+
+#: _inc/bp-follow-widgets.php:104
+msgid "Title:"
+msgstr "Titre:"
+
+#: _inc/bp-follow-widgets.php:107
+msgid "Max members to show:"
+msgstr "Nombre maximum d'utilisateurs à afficher :"
+
+#: _inc/bp-follow-widgets.php:108
+msgid ""
+"Note: This widget is only displayed if a member is logged in and if the "
+"logged-in user is following some users."
+msgstr ""
+"Remarque : Ce widget ne s'affiche que si un membre s'est connecté et si "
+"l'utilisateur connecté  suit certains utilisateurs."
+
+#: bp-follow-core.php:160
+#, php-format
+msgid "Followers <span>%d</span>"
+msgstr "Abonnés <span>%d</span>"
+
+#: bp-follow-core.php:174
+msgctxt "Activity subnav tab"
+msgid "Following"
+msgstr "Abonnement"
+
+#: bp-follow-core.php:206 bp-follow-core.php:281
+msgctxt "Adminbar main nav"
+msgid "Follow"
+msgstr "Suivre"
+
+#: bp-follow-core.php:214 bp-follow-core.php:292
+msgctxt "Adminbar follow subnav"
+msgid "Following"
+msgstr "Abonnement"
+
+#: bp-follow-core.php:222 bp-follow-core.php:303
+msgctxt "Adminbar follow subnav"
+msgid "Followers"
+msgstr "Abonnés"
+
+#: bp-follow-core.php:231
+msgctxt "Adminbar activity subnav"
+msgid "Following"
+msgstr "Abonnement"
+
+#: loader.php:38
+#, php-format
+msgid ""
+"Hey! BP Follow v1.2 requires BuddyPress 1.5 or higher.  If you are still "
+"using BuddyPress 1.2 and you don't plan on upgrading, use <a href='%s'>BP "
+"Follow v1.1.1 instead</a>."
+msgstr ""
+"Hey! BP Suivre v1.2 nécessite BuddyPress 1.5 ou supérieur. Si vous utilisez "
+"encore BuddyPress 1.2 et vous ne prévoyez pas de mise à niveau, utilisez <a "
+"href='%s'>BP Suivez v1.1.1 place</a> ."
+
+#. Plugin Name of the plugin/theme
+msgid "BuddyPress Follow"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://wordpress.org/extend/plugins/buddypress-followers"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Follow members on your BuddyPress site with this nifty plugin."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Andy Peatling, r-a-y"
+msgstr ""

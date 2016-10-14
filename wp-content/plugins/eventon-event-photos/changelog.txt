@@ -1,0 +1,7 @@
+﻿Event Photos (EP) addon for EventON Plugin
+====================================
+v 0.2 (2016-3-8)
+FIXED: language translations dissapear when using this addon
+
+v 0.1 (2016-3-3)
+Initial release

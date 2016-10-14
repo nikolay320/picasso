@@ -1,0 +1,46 @@
+.sabai-fieldui {margin-top:10px; min-height:400px;}
+#sabai-fieldui-active-wrap {float:left; width:100%; margin-right:-299px;}
+#sabai-fieldui-active {margin-right:299px; position:relative; min-width:299px;}
+#sabai-fieldui-active > div.sabai-row-fluid {padding-top:10px; border-bottom:2px dashed #eee;}
+#sabai-fieldui-active > div.sabai-row-fluid.sabai-fieldui-placeholder {border-color:#ddd;}
+#sabai-fieldui-active > div.sabai-row-fluid-last {border-bottom:0;}
+#sabai-fieldui-active > div.sabai-row-fluid-first {padding-top:0;}
+#sabai-fieldui-active .sabai-fieldui-fields {min-height: 50px;}
+#sabai-fieldui-available-wrap {width:284px; float:right;}
+.sabai-fieldui-available {margin:0 0 15px; clear:both;}
+.sabai-fieldui-title {margin:0; padding:0; border:1px solid #ddd; color:#222; background-color:#fafafa; font-weight:bold;}
+.sabai-fieldui-label {margin:0; padding:8px 10px 6px;}
+.sabai-fieldui-control {float:right; padding:8px;}
+.sabai-fieldui-available .sabai-fieldui-content {border:1px solid #ddd; border-top:0; background-color:#fff;}
+.sabai-fieldui-available.sabai-fieldui-layout .sabai-fieldui-content {text-align:center; padding:10px;}
+.sabai-fieldui-available.sabai-fieldui-fields .sabai-fieldui-content {padding:0 0 10px 10px;}
+.sabai-fieldui-field {position:relative; text-align:left; border:1px dashed transparent; line-height:1.4em; margin-bottom:10px;}
+.sabai-fieldui-field:hover,
+.sabai-fieldui-field-selected {border:1px solid #ddd;}
+.sabai-fieldui-field:hover .sabai-fieldui-field-info,
+.sabai-fieldui-field-selected .sabai-fieldui-field-info {background-color:#fafafa; color:#222;}
+.sabai-fieldui-field-placeholder {margin-bottom:10px; border:2px dashed #ddd; padding:-1px;}
+.sabai-fieldui-available.sabai-fieldui-fields .sabai-fieldui-content .sabai-btn {white-space:nowrap; overflow:hidden; margin:10px 10px 0 0; float:left; font-size:12px; width:126px; padding:4px 12px !important;}
+.sabai-fieldui-available.sabai-fieldui-fields .sabai-fieldui-content .sabai-btn span {font-size:0.9em; opacity:0.5;}
+.sabai-fieldui-field-info {visibility:hidden; padding:8px 10px 7px; border-bottom:1px solid #ddd;}
+.sabai-fieldui-field-title {font-weight:bold;}
+.sabai-fieldui-field-label,
+.sabai-fieldui-field-preview label {overflow:hidden; white-space:nowrap; font-size:12px; height:16px; text-align:left; font-weight:bold; padding:0;}
+.sabai-fieldui-field-control {float:right;}
+.sabai-fieldui-field-control i {margin-right:2px;}
+.sabai-fieldui-field:hover > .sabai-fieldui-field-info,
+.sabai-fieldui-field-selected > .sabai-fieldui-field-info {visibility:visible; cursor:move;}
+
+.sabai-fieldui-field-preview {padding:10px;}
+.sabai-fieldui-field-preview .sabai-fieldui-filter-form > div {padding:10px 0;}
+.sabai-fieldui-field-preview .sabai-fieldui-filter-label,
+.sabai-fieldui-field-preview label {display:block; font-weight:bold; margin:0;}
+.sabai-fieldui-field-preview .sabai-fieldui-filter-form > div.sabai-fieldui-filter-label {padding:0;}
+.sabai-fieldui-field-preview .sabai-fieldui-filter-preview-hidden .sabai-fieldui-filter-label {font-weight:normal;}
+.sabai-fieldui-field-preview .sabai-fieldui-filter-form,
+.sabai-fieldui-field-preview .sabai-fieldui-filter-description {margin-top:5px;}
+
+.sabai-fieldui-field-preview .sabai-fieldui-filter-preview-disabled {opacity:0.3;}
+
+.sabai-fieldui-field:hover .sabai-fieldui-field-preview,
+.sabai-fieldui-field-selected .sabai-fieldui-field-preview {background-color:#fff;}

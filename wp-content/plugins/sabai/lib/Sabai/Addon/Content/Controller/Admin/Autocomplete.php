@@ -1,0 +1,2 @@
+<?php
+class Sabai_Addon_Content_Controller_Admin_Autocomplete extends Sabai_Addon_Content_Controller_Autocomplete {}

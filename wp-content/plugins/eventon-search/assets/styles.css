@@ -1,0 +1,59 @@
+/*
+	Styles
+	Version: 0.1
+*/
+
+.evo_cal_above .evo-search:before{
+	content:"\f002";
+	display: inline-block;
+	font-family: 'evo_FontAwesome';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	width: 12px;
+}
+.evo_cal_above .evo-search{
+	position: relative;
+	height: 20px;
+}
+
+
+.evo_search_bar{
+	height: 30px;
+	display: none;
+	overflow: hidden;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	border-radius: 5px;	
+	position: relative;
+}
+.evo_search_bar_in{
+	position: absolute;	
+	bottom: 0;
+	background-color: #F2F2F2;
+	border: 2px solid #EDEDED;
+	width: 100%;
+	height: 30px;
+}
+.evo_search_bar input:focus{
+	border:none;
+}
+.evo_search_bar input{
+	background-color: transparent;
+	width: 100%;
+	border:none;
+	padding:5px;
+	font:italic 14px arial;
+	line-height: normal;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/*-- Responsive --*/
+@media (max-width: 480px){
+	
+}	

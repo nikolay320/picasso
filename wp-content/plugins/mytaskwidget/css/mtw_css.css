@@ -1,0 +1,33 @@
+.sl_link_box { border: 1px solid #ddd; margin: 10px 0; padding: 5px 0px; text-align: center; }
+.sl_link_box span.hdr-lnk-box { display: block; font-family: sans-serif; font-size: 11px; padding-right: 10px; text-align: right; }
+
+ul.sl-cpm-todolists { clear:none; }
+ul.sl-cpm-todolists .sl-sticky_list { background: #fff none repeat scroll 0 0; border: 1px solid #e5e5e5; box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04); padding: 0px; position: relative; margin-bottom:10px; }
+ul.sl-cpm-todolists .sl-sticky_list .sl-cpm-list-header { background: #f9fafa none repeat scroll 0 0; border-bottom: 1px solid #e5e5e5; margin-bottom:0px; padding: 10px; }
+ul.sl-cpm-todolists .sl-sticky_list .sl-sub-title { display:block; font-weight: bold; padding: 10px 0 0 10px; font-size:14px; }
+
+ul.sl-cpm-todolists .sl-sticky_list .sl-cpm-todos { background: #fff none repeat scroll 0 0; box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04); padding: 6px 3px 5px 5px; position: relative; }
+ul.sl-cpm-todolists .sl-sticky_list .sl-cpm-todos .sl-cpm-todo-openlist { background: #ffffff none repeat scroll 0 0;padding: 0 8px 5px 5px; }
+ul.sl-cpm-todolists .sl-sticky_list .sl-cpm-todos .sl-cpm-todo-openlist img.avatar { border: 1px solid #ccc; border-radius: 50%; height: auto; vertical-align: middle; width: 22px; }
+
+.sl-cpm-todos .sl-cpm-todo-openlist .sl-cpm-overdue-date { background: #cd7a7a none repeat scroll 0 0; border-radius: 3px; color: #fff; font-size: 12px; line-height: 12px; margin-right: 5px; padding: 1px 7px; white-space:nowrap; }
+.sl-cpm-todos .sl-cpm-todo-openlist .sl-cpm-current-date { background: #ddd none repeat scroll 0 0; border-radius: 3px; color: #999; font-size: 12px; line-height: 12px; margin-right: 5px; padding: 1px 7px; white-space:nowrap; }
+.sl-cpm-todos .sl-cpm-todo-openlist .sl-cpm-achieved-date { background: #ddd none repeat scroll 0 0; border-radius: 3px; color: #999; font-size: 12px; line-height: 12px; margin-right: 5px; padding: 1px 7px; white-space:nowrap; }
+	
+
+.sl-cpm-todos .sl-cpm-todo-openlist .cpm-assigned-user { padding:0 5px; }
+
+ul.sl-cpm-todolists .sl-sticky_list .sl-no-records { background: #f9fafa none repeat scroll 0 0; border-bottom: 1px solid #e5e5e5; margin-bottom:0px; padding: 10px; text-align:center; color:#888888; font-size:14px; }
+
+.sl-cpm-todos .cpm-single-task { border:0px; margin:0px; }
+img.new-task-icon { margin-top:-5px; }
+table.sl-table-box { margin-top: 8px; }
+td.sl-task-td { border-right:1px solid #999; }
+
+
+i.redfont { color:#ff0000; }
+span.close-wg-box { position:absolute; z-index:9999; font-weight:lighter; font-size:15px; margin-top:-11px; right:24px; cursor:pointer; }
+
+.sl-table-box-2 { display:block; width:100%; text-align:center; }
+.sl-table-box-2 span.tbl_cont { width:auto; min-width:78px; font-size:12px; padding:0px !important; white-space:nowrap; }
+.sl-table-box-2 span.tbl_cont_sep { width:auto; font-size:13px; padding:0px !important; }

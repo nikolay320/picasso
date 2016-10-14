@@ -1,0 +1,1180 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Ideas plugin\n"
+"POT-Creation-Date: 2016-07-26 20:25+0200\n"
+"PO-Revision-Date: 2016-07-26 21:59+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: ideas.php\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr "Installer les plugins requis"
+
+#: class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr "Installer les modules"
+
+#: class-tgm-plugin-activation.php:337
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr "Installation des plugins : %s"
+
+#: class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr "Mise à jour du plugin %s"
+
+#: class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr "Quelque chose s’est mal passé avec l’API du plugin."
+
+#: class-tgm-plugin-activation.php:343
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] "Ce thème nécessite le plugin suivant: %1$s."
+msgstr[1] ""
+
+#: class-tgm-plugin-activation.php:349
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] "Ce thème recommande le plugin suivant: %1$s."
+msgstr[1] ""
+
+#: class-tgm-plugin-activation.php:355
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+"Le plugin doit être mis à jour dans sa dernière version afin d’assurer une "
+"compatibilité maximale avec ce thème : %1$s."
+msgstr[1] ""
+
+#: class-tgm-plugin-activation.php:361
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] "Il y a une mise à jour disponible pour: %1$s."
+msgstr[1] ""
+
+#: class-tgm-plugin-activation.php:367
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] "Le plugin requis est actuellement inactif : %1$s."
+msgstr[1] ""
+
+#: class-tgm-plugin-activation.php:373
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] "Le plugin recommandé est actuellement inactif: %1$s."
+msgstr[1] ""
+
+#: class-tgm-plugin-activation.php:378
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "Commencer l’installation du plugin"
+msgstr[1] ""
+
+#: class-tgm-plugin-activation.php:383
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] "Commencer à mettre à jour les extensions"
+msgstr[1] ""
+
+#: class-tgm-plugin-activation.php:388
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "Commencez l'activation du plugin"
+msgstr[1] ""
+
+#: class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr "Retour à l'installateur des extensions obligatoires"
+
+#: class-tgm-plugin-activation.php:393 class-tgm-plugin-activation.php:920
+#: class-tgm-plugin-activation.php:2626 class-tgm-plugin-activation.php:3673
+msgid "Return to the Dashboard"
+msgstr "Revenir au Tableau de Bord"
+
+#: class-tgm-plugin-activation.php:394 class-tgm-plugin-activation.php:3252
+msgid "Plugin activated successfully."
+msgstr "L’extension a correctement été activée."
+
+#: class-tgm-plugin-activation.php:395 class-tgm-plugin-activation.php:3045
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] "L’extension suivant a été activée avec succès"
+msgstr[1] ""
+
+#: class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "Pas d’action requise. L’extension %1$s était déjà active."
+
+#: class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+"Le plugin n’est pas activé. Une version plus récente du plugin %s est "
+"nécessaire pour ce thème. Veuillez mettre à jour votre extension."
+
+#: class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Tous les plugins ont été installés et activés avec succés. %1$s"
+
+#: class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr "Ignorer la recommandation"
+
+#: class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+"Il y a une ou plusieurs extensions requise ou recommandées à installer, "
+"mettez-les à jour ou activez-les."
+
+#: class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr "Veuillez contacter l'administrateur de ce site pour obtenir de l'aide."
+
+#: class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+"Ce plugin a besoin d’être mis-à-jour pour être compatible avec votre thème."
+
+#: class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr "Mise à jour nécessaire"
+
+#: class-tgm-plugin-activation.php:725
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+"Définissez la variable de configuration en remplacement de parent_slug."
+
+#: class-tgm-plugin-activation.php:1027
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+"Le pack d’extension à distance ne contient pas le dossier avec le tag "
+"souhaité et le renommage ne fonctionne pas."
+
+#: class-tgm-plugin-activation.php:1027 class-tgm-plugin-activation.php:1030
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+"Veuillez contacter le développeur de l’extension et lui demander "
+"d’empaqueter son extension en respectant les instructions de WordPress."
+
+#: class-tgm-plugin-activation.php:1030
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+"Le paquet de l’extension contient plus d’un fichier, mais les fichiers ne "
+"sont pas empaquetés dans un dossier."
+
+#: class-tgm-plugin-activation.php:1214 class-tgm-plugin-activation.php:3041
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr "et [ plugin A *et* plugin B ]"
+
+#: class-tgm-plugin-activation.php:2075
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2366
+msgid "Required"
+msgstr "Obligatoire"
+
+#: class-tgm-plugin-activation.php:2369
+msgid "Recommended"
+msgstr "Recommandé(e)."
+
+#: class-tgm-plugin-activation.php:2385
+msgid "WordPress Repository"
+msgstr "Dépôt de WordPress"
+
+#: class-tgm-plugin-activation.php:2388
+msgid "External Source"
+msgstr "Lien externe"
+
+#: class-tgm-plugin-activation.php:2391
+msgid "Pre-Packaged"
+msgstr "Pré-installé"
+
+#: class-tgm-plugin-activation.php:2408
+msgid "Not Installed"
+msgstr "Non installé "
+
+#: class-tgm-plugin-activation.php:2412
+msgid "Installed But Not Activated"
+msgstr "Installée Mais Désactivée"
+
+#: class-tgm-plugin-activation.php:2414
+msgid "Active"
+msgstr "Actif"
+
+#: class-tgm-plugin-activation.php:2420
+msgid "Required Update not Available"
+msgstr ""
+"\n"
+"Mise à jour requise non disponible"
+
+#: class-tgm-plugin-activation.php:2423
+msgid "Requires Update"
+msgstr "Mise à jour requise"
+
+#: class-tgm-plugin-activation.php:2426
+msgid "Update recommended"
+msgstr "Mise à jour Recommandée"
+
+#: class-tgm-plugin-activation.php:2435
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr "%1$s à %2$s"
+
+#: class-tgm-plugin-activation.php:2481
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "Tous <span class=“count”>(%s)</span>"
+msgstr[1] ""
+
+#: class-tgm-plugin-activation.php:2485
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] "À installer <span class=\"count\">(%s)</span>"
+msgstr[1] ""
+
+#: class-tgm-plugin-activation.php:2489
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] "Mise à jour disponible <span class=\"count\">(%s)</span>"
+msgstr[1] ""
+
+#: class-tgm-plugin-activation.php:2493
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] "À activer <span class=\"count\">(%s)</span>"
+msgstr[1] ""
+
+#: class-tgm-plugin-activation.php:2575
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+"\n"
+"Inconnu"
+
+#: class-tgm-plugin-activation.php:2583
+msgid "Installed version:"
+msgstr "Version Installée :"
+
+#: class-tgm-plugin-activation.php:2591
+msgid "Minimum required version:"
+msgstr "Aucun minimum"
+
+#: class-tgm-plugin-activation.php:2603
+msgid "Available version:"
+msgstr "Version disponible: "
+
+#: class-tgm-plugin-activation.php:2626
+msgid "No plugins to install, update or activate."
+msgstr "Aucune extensions à installer, à mettre à jour ou à activer."
+
+#: class-tgm-plugin-activation.php:2640
+msgid "Plugin"
+msgstr "Plugin"
+
+#: class-tgm-plugin-activation.php:2641
+msgid "Source"
+msgstr "Source "
+
+#: class-tgm-plugin-activation.php:2642
+msgid "Type"
+msgstr "Type"
+
+#: class-tgm-plugin-activation.php:2646
+msgid "Version"
+msgstr "Version"
+
+#: class-tgm-plugin-activation.php:2647 ideas.php:255
+msgid "Status"
+msgstr "statut"
+
+#: class-tgm-plugin-activation.php:2696
+#, php-format
+msgid "Install %2$s"
+msgstr "Installation de %2$s"
+
+#: class-tgm-plugin-activation.php:2701
+#, php-format
+msgid "Update %2$s"
+msgstr "Mise à jour de %2$s"
+
+#: class-tgm-plugin-activation.php:2707
+#, php-format
+msgid "Activate %2$s"
+msgstr "Activation de %2$s"
+
+#: class-tgm-plugin-activation.php:2777
+msgid "Upgrade message from the plugin author:"
+msgstr "Améliorez message de l'auteur du plugin :"
+
+#: class-tgm-plugin-activation.php:2810
+msgid "Install"
+msgstr "Installer"
+
+#: class-tgm-plugin-activation.php:2816
+msgid "Update"
+msgstr "Mise à jour effectuée avec succès."
+
+#: class-tgm-plugin-activation.php:2819
+msgid "Activate"
+msgstr "Activation"
+
+#: class-tgm-plugin-activation.php:2850
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+"Aucune extension n’a été sélectionnée pour être installée.  Aucune action "
+"effectuée."
+
+#: class-tgm-plugin-activation.php:2852
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+"Aucune extension n’a été sélectionnée pour être mise à jour. Aucune action "
+"n'a été effectuée."
+
+#: class-tgm-plugin-activation.php:2893
+msgid "No plugins are available to be installed at this time."
+msgstr "Aucune extension n’est disponible à l’installation pour le moment."
+
+#: class-tgm-plugin-activation.php:2895
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+"Aucune extension n’est disponible pour être mise à jour à l’heure actuelle."
+
+#: class-tgm-plugin-activation.php:3001
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+"Aucune extension n’a été sélectionnée pour être activée. Aucune action "
+"effectuée."
+
+#: class-tgm-plugin-activation.php:3027
+msgid "No plugins are available to be activated at this time."
+msgstr "Aucun extension n’est disponible à être activée pour le moment."
+
+#: class-tgm-plugin-activation.php:3251
+msgid "Plugin activation failed."
+msgstr "Extension activée sans succès."
+
+#: class-tgm-plugin-activation.php:3591
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "Mise à jour extension(s) %1$s (%2$d/%3$d)"
+
+#: class-tgm-plugin-activation.php:3594
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "Une erreur est survenue en installant %1$s : <strong>%2$s</strong>."
+
+#: class-tgm-plugin-activation.php:3596
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr "L’installation de %1$s a échoué. "
+
+#: class-tgm-plugin-activation.php:3600
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+"Le processus d’installation et d’activation démarre. Ce processus peut "
+"prendre quelques instants chez certains hébergeurs, merci de patienter."
+
+#: class-tgm-plugin-activation.php:3602
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s installé et activé avec succès. "
+
+#: class-tgm-plugin-activation.php:3602 class-tgm-plugin-activation.php:3610
+msgid "Show Details"
+msgstr "Voir les détails"
+
+#: class-tgm-plugin-activation.php:3602 class-tgm-plugin-activation.php:3610
+msgid "Hide Details"
+msgstr "Cacher les détails"
+
+#: class-tgm-plugin-activation.php:3603
+msgid "All installations and activations have been completed."
+msgstr ""
+"Toutes les installations et les activations ont été effectuées avec succès."
+
+#: class-tgm-plugin-activation.php:3605
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Installation et activation du Plugin %1$s ( %2$d / %3$d )"
+
+#: class-tgm-plugin-activation.php:3608
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+"Le processus d’installation commence. Cela peut prendre un peu de temps "
+"selon l’hébergeur, merci de patienter."
+
+#: class-tgm-plugin-activation.php:3610
+#, php-format
+msgid "%1$s installed successfully."
+msgstr "%1$s installé et activé avec succès."
+
+#: class-tgm-plugin-activation.php:3611
+msgid "All installations have been completed."
+msgstr "Toutes les installations ont été effectuées avec succès."
+
+#: class-tgm-plugin-activation.php:3613
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "L'extension %1$s (%2$d/%3$d) est en cours d'installation"
+
+#: idea-metaboxes.php:13
+msgid "Idea Settings Extended"
+msgstr "paramètres étendus"
+
+#: idea-metaboxes.php:22
+msgid "Disable User Reviews"
+msgstr "Disable User reviews"
+
+#: idea-metaboxes.php:23
+msgid "Check it to disable user reviews."
+msgstr "Consultez-la pour désactiver les commentaires de l’utilisateur."
+
+#: idea-metaboxes.php:29
+msgid "User Reviews Deadline"
+msgstr "Délai de commentaires de l’utilisateur"
+
+#: idea-metaboxes.php:36
+msgid "Disable Expert Reviews"
+msgstr "Désactiver les évaluations des experts"
+
+#: idea-metaboxes.php:37
+msgid "Check it to disable expert reviews."
+msgstr "Cocher ici pour désactiver les évaluations des experts."
+
+#: idea-metaboxes.php:43
+msgid "Idea Owners"
+msgstr "Propriétaires de l’idée"
+
+#: idea-metaboxes.php:44
+msgid "Assign idea owners who can post idea update."
+msgstr ""
+"Assigner les propriétaires d’idée qui peuvent poster idée une mise à jour."
+
+#: ideas.php:106
+msgid "Ideas"
+msgstr "Idées"
+
+#: ideas.php:107
+msgid "Idea"
+msgstr ""
+
+#: ideas.php:108
+msgid "All Ideas"
+msgstr "Toutes les idées"
+
+#: ideas.php:109 ideas.php:110
+msgid "Add New Idea"
+msgstr "Ajouter nouvelle idée"
+
+#: ideas.php:111 templates/archive-ideas.php:543 templates/single-ideas.php:547
+msgid "Edit"
+msgstr "Editer"
+
+#: ideas.php:112 templates/archive-ideas.php:142 templates/single-ideas.php:306
+msgid "Edit Idea"
+msgstr "Modifier l'dée"
+
+#: ideas.php:113
+msgid "New Idea"
+msgstr "Nouvelle Idée"
+
+#: ideas.php:114
+msgid "View Idea"
+msgstr "Voir l'idée"
+
+#: ideas.php:115
+msgid "Search Idea"
+msgstr "Rechercher dans les idées"
+
+#: ideas.php:116
+msgid "Nothing found in the Database."
+msgstr "Rien trouvé dans la base de données."
+
+#: ideas.php:117
+msgid "Nothing found in Trash"
+msgstr "Aucun élément trouvé dans la Corbeille"
+
+#: ideas.php:120
+msgid "Comments about ideas"
+msgstr "Commentaires récents à propos des idées"
+
+#: ideas.php:121
+msgid "Idea Comments"
+msgstr "Commentaires de l'idée"
+
+#: ideas.php:122
+#, php-format
+msgid "%1$s a commenté l'idée <a href=\"%2$s\">item</a>"
+msgstr "%1$s a commenté l'idée <a href=\"%2$s\">item</a>"
+
+#: ideas.php:123
+#, php-format
+msgid "%1$s commented on the <a href=\"%2$s\">Idea</a>, on the site %3$s"
+msgstr "%1$s a commenté l'idée <a href=\"%2$s\"></a>, sur le site %3$s"
+
+#: ideas.php:126
+msgid "Homepage Ideas for "
+msgstr "Page d'accueil idées pour"
+
+#: ideas.php:162
+msgid "Idea settings"
+msgstr "Paramètres de l'idée"
+
+#: ideas.php:220
+msgid "Image"
+msgstr "Image"
+
+#: ideas.php:225
+msgid "Enter a URL or upload an image"
+msgstr "Entrez une URL ou téléchargez une image"
+
+#: ideas.php:227
+msgid "Add Image"
+msgstr "Ajoutez une image"
+
+#: ideas.php:228 ideas.php:239
+msgid "Clear"
+msgstr "Effacer"
+
+#: ideas.php:233
+msgid "Attachment"
+msgstr "Pièce jointe"
+
+#: ideas.php:237
+msgid "Add File"
+msgstr "Ajouter un Fichier"
+
+#: ideas.php:244 templates/idea-details.php:39
+msgid "Video"
+msgstr "Vidéo"
+
+#: ideas.php:258
+msgid "No Status"
+msgstr "Aucun statut."
+
+#: ideas.php:259
+msgid "Idea in discussion"
+msgstr "Idée en discussion"
+
+#: ideas.php:260
+msgid "Idea selected"
+msgstr "Idée sélectionnée"
+
+#: ideas.php:261
+msgid "Idea rejected"
+msgstr "Idée non sélectionnée"
+
+#: ideas.php:262
+msgid "Idea in project"
+msgstr "Idée en projet"
+
+#: ideas.php:263
+msgid "Ideas in review"
+msgstr "Idées en examen"
+
+#: ideas.php:264
+msgid "Ideas already reviewed"
+msgstr "Idées déjà examinées"
+
+#: ideas.php:269 templates/idea_modal.php:160
+msgid "Video (youtube)"
+msgstr "Vidéo (youtube)"
+
+#: ideas.php:354
+msgid "Thank you. Idea will appear after moderation."
+msgstr "Merci. Votre Idée apparaîtra après modération."
+
+#: ideas.php:356
+msgid "Thank you. Idea successfully added."
+msgstr "Merci. Idée ajoutée. Cliquez pour la voir."
+
+#: ideas.php:362
+msgid "Idea not added!"
+msgstr "Idée non ajoutée !"
+
+#: ideas.php:400
+msgid "Comment successfully added!"
+msgstr "Commentaire ajouté avec succès !"
+
+#: ideas.php:558
+msgid "Ideas Plugin. Any info here."
+msgstr "Plugin d'idées. Des infos ici."
+
+#: ideas.php:594
+msgctxt "post type general name"
+msgid "Reviews"
+msgstr "Avis "
+
+#: ideas.php:595
+msgctxt "post type singular name"
+msgid "Review"
+msgstr "Avis"
+
+#: ideas.php:596
+msgctxt "admin menu"
+msgid "Reviews"
+msgstr "Avis "
+
+#: ideas.php:597
+msgctxt "add new on admin bar"
+msgid "Review"
+msgstr "Avis"
+
+#: ideas.php:598
+msgctxt "review"
+msgid "Add New"
+msgstr "Ajouter nouvel avis"
+
+#: ideas.php:599
+msgid "Add New Review"
+msgstr "Ajouter un nouvel avis"
+
+#: ideas.php:600
+msgid "New Review"
+msgstr "Nouvel avis"
+
+#: ideas.php:601
+msgid "Edit Review"
+msgstr "Editer l’avis"
+
+#: ideas.php:602
+msgid "View Review"
+msgstr "Afficher l'avis"
+
+#: ideas.php:603
+msgid "All Reviews"
+msgstr "Tous les avis"
+
+#: ideas.php:604
+msgid "Search Reviews"
+msgstr "Chercher dans les avis"
+
+#: ideas.php:605
+msgid "Parent Reviews:"
+msgstr "Avis parents :"
+
+#: ideas.php:606
+msgid "No review found."
+msgstr "Pas d'avis trouvés !"
+
+#: ideas.php:607
+msgid "No review found in Trash."
+msgstr "Aucune critique trouvée dans la corbeille."
+
+#: ideas.php:915
+#, php-format
+msgid "[%s] You are an expert"
+msgstr "[%s] Vous avez invité pour expertiser une idée."
+
+#: ideas.php:928
+msgid "(no campaign assigned)"
+msgstr "(Pas de campagne assignée)"
+
+#: ideas.php:935 ideas.php:1230
+msgid "Hello,"
+msgstr "Bonjour,"
+
+#: ideas.php:939
+#, php-format
+msgid ""
+"You have been invited by %1$s to review the idea named %2$s in the campaign "
+"%3$s. You will have until the date of deadline to post your review. Your "
+"review will only be seen by your invite and site admin."
+msgstr ""
+"Vous avez été invité par %1$s pour examiner l'idée nommée  %2$s dans la "
+"campagne%3$s. Vous avez jusqu'à la date limite pour poster votre avis. Votre "
+"commentaire sera vu uniquement par la personne qui vous a invité et les "
+"administrateurs du site."
+
+#: ideas.php:947 ideas.php:1238
+msgid "Please see the idea to review here: "
+msgstr "S'il-vous-plaît donner votre avis sur cette idée ici :"
+
+#: ideas.php:951 ideas.php:1242
+#, php-format
+msgid "Idea link: %1$s"
+msgstr "lien Idée : %1$s"
+
+#: ideas.php:955 ideas.php:1246
+#, php-format
+msgid "Deadline: %1$s"
+msgstr "Dernier délai pour laisser votre avis : %1$s"
+
+#: ideas.php:959 ideas.php:1250
+msgid "Thank you"
+msgstr "Merci."
+
+#: ideas.php:1150
+msgid "posted today"
+msgstr "Publié ce jour"
+
+#: ideas.php:1152
+msgid "posted yesterday"
+msgstr "publié hier"
+
+#: ideas.php:1154
+#, php-format
+msgid "posted %s %s ago"
+msgstr "publié il y a %s %s "
+
+#: ideas.php:1154
+msgid "day"
+msgid_plural "days"
+msgstr[0] "jour"
+msgstr[1] ""
+
+#: ideas.php:1223
+#, php-format
+msgid "[%s] You have pending review requiring attention"
+msgstr ""
+"[%s] Votre attention est requise. Vous devez donner votre avis sur une idée."
+
+#: ideas.php:1234
+msgid ""
+"You will have until the date of deadline to post your review. Your review "
+"will only be seen by your invite and site admin."
+msgstr ""
+"Vous aurez jusqu'à la date de la date limite pour poster votre avis. Votre "
+"commentaire ne sera vu par votre invitation et administrateur du site."
+
+#: ideas.php:1589
+msgid "Search user"
+msgstr "Chercher un utilisateur"
+
+#: ideas.php:1759
+msgid "See More"
+msgstr "Lire la suite"
+
+#: plugin-settings.php:38 plugin-settings.php:166
+msgid "Settings"
+msgstr "Configuration"
+
+#: plugin-settings.php:39
+msgid "Idea Settings"
+msgstr "Paramètres de l'idée"
+
+#: plugin-settings.php:140
+msgid "User Roles"
+msgstr "Rôles des utilisateurs"
+
+#: plugin-settings.php:149
+msgid "Idea Modifier Roles"
+msgstr "Rôles de modificateur d’idée"
+
+#: plugin-settings.php:150
+msgid "Who can assign experts and deadline for ideas?."
+msgstr "Qui peut affecter experts et délai d’idées ?."
+
+#: plugin-settings.php:157
+msgid "Idea Expert Roles"
+msgstr "rôles Expert d'idées"
+
+#: plugin-settings.php:158
+msgid "Who can give review for ideas?."
+msgstr "Qui peut examiner les idées ?"
+
+#: plugin-settings.php:173
+msgid "Modify Reviews"
+msgstr "Modifier des avis"
+
+#: plugin-settings.php:174
+msgid "Do the modifiers can edit reviews?"
+msgstr "Les modificateurs peuvent modifier des commentaires ?"
+
+#: plugin-settings.php:182
+msgid "Receive Reminder"
+msgstr "Recevoir le rappel"
+
+#: plugin-settings.php:183
+msgid "Do the experts will receive reminder before ending the deadline?"
+msgstr ""
+"Les experts recevront  ils un rappel avant de mettre fin à la date limite ?"
+
+#: plugin-settings.php:191
+msgid "Reminder Buffer"
+msgstr "Tampon de rappel"
+
+#: plugin-settings.php:192
+msgid "How many days before do your experts will receive alert?"
+msgstr "Combien de jours avant que vos experts reçoivent une alerte?"
+
+#: plugin-settings.php:203
+msgid "Review Criteria"
+msgstr "Critère d’évaluation"
+
+#: plugin-settings.php:210
+msgid "Criteria"
+msgstr "Critère"
+
+#: plugin-settings.php:211
+msgid "You can assign as many criteria as you want."
+msgstr "Vous pouvez affecter autant de critères que vous le souhaitez."
+
+#: templates/archive-ideas.php:109 templates/single-campaigns.php:86
+msgid "Add Comment"
+msgstr "Ajouter commentaire"
+
+#: templates/archive-ideas.php:115 templates/single-campaigns.php:92
+msgid "Comment text"
+msgstr "Texte de commentaire"
+
+#: templates/archive-ideas.php:122
+msgid "To post a comment please login"
+msgstr "Pour poster un commentaire s'il vous plaît, connecter vous..."
+
+#: templates/archive-ideas.php:127 templates/archive-ideas.php:171
+#: templates/expert-rating-chart.php:9 templates/expert-rating-chart.php:25
+#: templates/idea_modal.php:214 templates/single-campaigns.php:104
+#: templates/single-ideas.php:292 templates/single-ideas.php:335
+msgid "Close"
+msgstr "Fermer"
+
+#: templates/archive-ideas.php:129 templates/idea_modal.php:215
+#: templates/single-campaigns.php:106
+msgid "Add"
+msgstr "Ajouter"
+
+#: templates/archive-ideas.php:146 templates/idea_modal.php:152
+#: templates/single-ideas.php:310
+msgid "Idea Title"
+msgstr "Titre de l'idée"
+
+#: templates/archive-ideas.php:153 templates/idea_modal.php:168
+#: templates/single-ideas.php:317
+msgid "Campaigns"
+msgstr "Challenges"
+
+#: templates/archive-ideas.php:155 templates/idea_modal.php:170
+#: templates/single-ideas.php:319
+msgid "Select campaign"
+msgstr "Sélectionnez votre challenge"
+
+#: templates/archive-ideas.php:172 templates/assign-experts.php:39
+#: templates/single-ideas.php:293 templates/single-ideas.php:336
+msgid "Save"
+msgstr "Sauvegarder"
+
+#: templates/archive-ideas.php:208 templates/single-campaigns.php:267
+msgid "Newest First"
+msgstr "Plus récente en premier"
+
+#: templates/archive-ideas.php:209
+msgid "Oldest First"
+msgstr "Plus ancien en premier"
+
+#: templates/archive-ideas.php:210
+msgid "Recently Active"
+msgstr "Récemment actives"
+
+#: templates/archive-ideas.php:211 templates/single-campaigns.php:267
+msgid "Most Votes"
+msgstr "Les plus votées"
+
+#: templates/archive-ideas.php:212 templates/single-campaigns.php:267
+msgid "Most Answers"
+msgstr "Le plus de réponses"
+
+#: templates/archive-ideas.php:213
+msgid "My Ideas"
+msgstr "Mes idées"
+
+#: templates/archive-ideas.php:375 templates/single-campaigns.php:304
+#: templates/single-ideas.php:456
+msgid "in discussion"
+msgstr "En discussion"
+
+#: templates/archive-ideas.php:379 templates/single-campaigns.php:308
+#: templates/single-ideas.php:460
+msgid "selected"
+msgstr "sélectionné"
+
+#: templates/archive-ideas.php:383 templates/single-campaigns.php:312
+#: templates/single-ideas.php:464
+msgid "rejected"
+msgstr "Non sélectionné"
+
+#: templates/archive-ideas.php:387 templates/single-campaigns.php:316
+#: templates/single-ideas.php:468
+msgid "in project"
+msgstr "En projet:"
+
+#: templates/archive-ideas.php:391 templates/single-campaigns.php:320
+#: templates/single-ideas.php:472
+msgid "in review"
+msgstr "en examen"
+
+#: templates/archive-ideas.php:395 templates/single-campaigns.php:324
+#: templates/single-ideas.php:476
+msgid "already reviewed"
+msgstr "déjà passé en revue"
+
+#: templates/archive-ideas.php:408 templates/single-campaigns.php:337
+#: templates/single-ideas.php:489
+msgid "views"
+msgstr "vues"
+
+#: templates/archive-ideas.php:459 templates/experts-table.php:7
+#: templates/single-campaigns.php:380
+msgid "Experts"
+msgstr "Experts"
+
+#: templates/archive-ideas.php:499 templates/single-campaigns.php:420
+msgid "Assign Experts"
+msgstr "Nommer des experts"
+
+#: templates/archive-ideas.php:505 templates/single-campaigns.php:426
+msgid "Post Expert Review"
+msgstr "Publier un avis d'expert"
+
+#: templates/archive-ideas.php:511 templates/single-campaigns.php:432
+msgid "Post User Review"
+msgstr "Publier un avis utilisateur"
+
+#: templates/archive-ideas.php:517 templates/single-campaigns.php:438
+msgid "Post Idea Update"
+msgstr "Éditer l'idée"
+
+#: templates/archive-ideas.php:528 templates/single-campaigns.php:449
+#: templates/single-ideas.php:532
+msgid "posted"
+msgstr "publié"
+
+#: templates/archive-ideas.php:536 templates/single-campaigns.php:456
+#: templates/single-ideas.php:540
+msgid "updated"
+msgstr "mis à jour"
+
+#: templates/assign-experts.php:17
+msgid "Assign expert"
+msgstr "Nommer expert"
+
+#: templates/assign-experts.php:24
+msgid "Search expert"
+msgstr "Chercher un expert"
+
+#: templates/assign-experts.php:34
+msgid "Idea deadline"
+msgstr "Date limite sur l'idée"
+
+#: templates/assign-experts.php:39
+msgid "Successfully updated"
+msgstr "Mis à jour avec succès"
+
+#: templates/expert-rating-chart.php:10
+msgid "Expert Rating Details"
+msgstr "Détails de l'avis d'expert"
+
+#: templates/expert-rating-chart.php:15
+msgid "Rating distribution"
+msgstr "Distribution des notes"
+
+#: templates/expert-rating-chart.php:19
+msgid "Rating summary"
+msgstr "Résumé des notes"
+
+#: templates/experts-table.php:10
+msgid "Action"
+msgstr "Action"
+
+#: templates/experts-table.php:28
+msgid "Successfully removed"
+msgstr "Supprimé avec succès"
+
+#: templates/experts-table.php:28
+msgid "Remove"
+msgstr "Retirer"
+
+#: templates/idea-details.php:7
+msgid "Attachments"
+msgstr "Pièces jointes"
+
+#: templates/idea-tabs.php:9
+msgid "Idea Details"
+msgstr "Détails de l’idée"
+
+#: templates/idea-tabs.php:10
+msgid "Comments"
+msgstr "Commentaires"
+
+#: templates/idea-tabs.php:12
+msgid "Expert Reviews"
+msgstr "Avis d'experts"
+
+#: templates/idea-tabs.php:16
+msgid "User Reviews"
+msgstr "Avis des utilisateurs"
+
+#: templates/idea-tabs.php:20 templates/post-idea-update.php:40
+msgid "Idea Update"
+msgstr "Éditer l'idée"
+
+#: templates/idea_button.php:2 templates/idea_modal.php:147
+msgid "Add Idea"
+msgstr "Ajouter l'idée"
+
+#: templates/idea_button.php:5
+msgid "Please wait"
+msgstr "Merci de patienter"
+
+#: templates/idea_modal.php:47 templates/idea_modal.php:53
+msgid "Field is required"
+msgstr "Ce champs est requis"
+
+#: templates/idea_modal.php:156
+msgid "Idea Content"
+msgstr "Contenu de l'idée"
+
+#: templates/idea_modal.php:188 templates/idea_modal.php:195
+#: templates/idea_modal.php:202
+msgid "Max file size"
+msgstr "Taille max. du fichier"
+
+#: templates/idea_modal.php:190
+msgid "Upload image"
+msgstr "Envoyer image"
+
+#: templates/idea_modal.php:197
+msgid "Upload video"
+msgstr "Envoyer vidéo"
+
+#: templates/idea_modal.php:204
+msgid "Upload attachment"
+msgstr "Envoyer pièce jointe"
+
+#: templates/post-expert-review.php:54 templates/post-user-review.php:54
+msgid "Add review"
+msgstr "Ajouter un avis"
+
+#: templates/post-expert-review.php:61 templates/post-user-review.php:61
+#: templates/reviews.php:60
+msgid "Rating"
+msgstr "Evaluation"
+
+#: templates/post-expert-review.php:85 templates/post-user-review.php:85
+#: templates/reviews.php:104
+msgid "Comment"
+msgstr "Commentaire(s)"
+
+#: templates/post-expert-review.php:94 templates/post-idea-update.php:45
+#: templates/post-user-review.php:94 templates/reviews.php:113
+msgid "Submit"
+msgstr ""
+
+#: templates/post-expert-review.php:94 templates/post-user-review.php:94
+msgid "Your review was posted successfully"
+msgstr "Votre commentaire a été publié avec succès"
+
+#: templates/post-idea-update.php:45
+msgid "Your update was posted successfully"
+msgstr "Votre mise à jour a été publié avec succès"
+
+#: templates/reviews.php:9
+msgid "Average Rating"
+msgstr "Note moyenne"
+
+#: templates/reviews.php:113
+msgid "Review updated successfully"
+msgstr "Avis mis à jour avec succès"
+
+#: templates/reviews.php:124
+msgid "No review found"
+msgstr "Pas d'avis trouvés !"
+
+#: templates/single-campaigns.php:266
+msgid "Sort by"
+msgstr "Trier par"
+
+#: templates/single-ideas.php:17
+msgid "Average"
+msgstr "Moyenne"
+
+#: templates/single-ideas.php:22
+msgid "Ratings"
+msgstr "Réponses"
+
+#: templates/single-ideas.php:286
+msgid "Edit Comment"
+msgstr "Éditer le commentaire"
+
+#: templates/single-ideas.php:417
+msgid "Time left"
+msgstr "Temps restant :"
+
+#: templates/single-ideas.php:418
+msgid "Ideas count"
+msgstr "Nombre d'idées"
+
+#: templates/single-ideas.php:510
+#, php-format
+msgid "%d review"
+msgid_plural "%d reviews"
+msgstr[0] "%d avis"
+msgstr[1] "%d avis"
+
+#. Plugin Name of the plugin/theme
+msgid "Ideas plugin"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://github.com/shamimmoeen"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Ideas plugin."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Shamim"
+msgstr ""

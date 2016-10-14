@@ -1,0 +1,206 @@
+# Copyright (C) 2014 
+# This file is distributed under the same license as the  package.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/wp-basic-elements\n"
+"POT-Creation-Date: 2014-05-03 22:47:07+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2014-09-03 08:58+0100\n"
+"Last-Translator: Borisa Djuraskovic <borisad@webhostinghub.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: Poedit 1.5.7\n"
+
+#: index.php:78
+msgid "Version"
+msgstr "Verzija"
+
+#: index.php:81
+msgid "WP Basic Elements"
+msgstr "WP Basic Elements"
+
+#: index.php:82
+msgid ""
+"With WP Basic Elements you can disable unnecessary features and speed up "
+"your site. Make the WP Admin simple and clean. You can activate gzip "
+"compression, change admin footers in backend, activate shortcodes in "
+"widgets, remove admin toolbar options and you can clean the code markup from "
+"unnecessary code snippets like WordPress generator meta tag and a bunch of "
+"other non important code snippets in the code. Cleaning the code markup will "
+"speed up your sites loadtime and increase the overall performance."
+msgstr ""
+"Zahvaljujući osnovnim WP elementima, možete deaktivirati nepotrebne funkcije "
+"i ubrzati svoj sajt. Neka vam WP Admin bude jednostavan i čist. Možete "
+"aktivirati gzip kompresiju, promeniti administratorska podnožja stranice na "
+"backend-u, pokrenuti shortcode za widget-e, ukloniti opcije za "
+"administratorski meni i očistiti kod od nepotrebnih snippet-a, kao što su "
+"WordPress generator meta tag, kao i od mnogih drugih nevažnih snippet-a u "
+"kodu. Čišćenje oznaka koda ubrzaće vreme učitavanja vaših sajtova i "
+"poboljšati opšte performanse."
+
+#: index.php:85
+msgid "Get Started"
+msgstr "Počnite"
+
+#: index.php:86
+msgid "Follow me on Twitter to keep up with the latest updates."
+msgstr ""
+"Pratite me na Twitter-u da biste bili u toku sa najnovijim ažuriranjima."
+
+#: index.php:87
+msgid "Donate to support open source."
+msgstr "Donirajte da biste podržali otvoreni izvor."
+
+#: index.php:89
+msgid "TWITTER"
+msgstr "TWITTER"
+
+#: index.php:92
+msgid "DONATE"
+msgstr "DONIRAJTE"
+
+#: index.php:94
+msgid "WP Optimisation"
+msgstr "WP optimizacija"
+
+#: index.php:99
+msgid "Remove Post, Comment and Category feeds"
+msgstr "Ukloni novosti za post, komentar i kategoriju"
+
+#: index.php:105
+msgid "Remove EditURI link"
+msgstr "Ukloni link za URL uređivanje"
+
+#: index.php:111
+msgid "Remove Windows Live Writer Manifest File"
+msgstr "Ukloni Windows Live Writer Manifest File"
+
+#: index.php:117
+msgid "Remove WordPress Generator Meta Tag"
+msgstr "Ukloni WordPress Generator Meta Tag"
+
+#: index.php:123
+msgid "Remove Index link"
+msgstr "Ukloni Index link"
+
+#: index.php:129
+msgid "Remove Prev link"
+msgstr "Ukloni Prev link"
+
+#: index.php:135
+msgid "Remove Start link"
+msgstr "Ukloni Start link"
+
+#: index.php:141
+msgid "Remove Relational links for the Posts"
+msgstr "Ukloni linkove povezane sa postovima"
+
+#: index.php:147
+msgid "Remove WordPress Shortlink"
+msgstr "Ukloni WordPress Shortlink"
+
+#: index.php:153
+msgid "Remove WordPress Pingbacks"
+msgstr "Ukloni WordPress Pingbacks"
+
+#: index.php:159
+msgid "Remove Canonical link"
+msgstr "Ukloni Canonical link"
+
+#: index.php:165
+msgid "WP Admin Toolbar"
+msgstr "WP Admin traka sa alatima"
+
+#: index.php:170
+msgid "Remove WP Logo"
+msgstr "Ukloni WP Logo"
+
+#: index.php:176
+msgid "Remove WP Updates"
+msgstr "Ukloni WP ažuriranja"
+
+#: index.php:182
+msgid "Remove WP Comments"
+msgstr "Ukloni WP komentare"
+
+#: index.php:188
+msgid "Remove WP Search"
+msgstr "Ukloni WP pretragu"
+
+#: index.php:192
+msgid "Plugins"
+msgstr "Plugins"
+
+#: index.php:197
+msgid "Remove W3 Total Cache"
+msgstr "Ukloni W3 Total Cache"
+
+#: index.php:203
+msgid "Remove All in One Seo"
+msgstr "Ukloni All in One Seo"
+
+#: index.php:209
+msgid "Remove Yoast SEO"
+msgstr "Ukloni Yoast SEO"
+
+#: index.php:215
+msgid "Remove WP Zoom Framework"
+msgstr "Ukloni WP Zoom Framework"
+
+#: index.php:219
+msgid "WP Users"
+msgstr "WP korisnici"
+
+#: index.php:224
+msgid "Disable Color Scheme selector for users"
+msgstr "Deaktiviraj selektor sheme boja za korisnike"
+
+#: index.php:230
+msgid "Disable AIM field from users contact field"
+msgstr "Deaktiviraj AIM polje iz polja za kontakt korisnika"
+
+#: index.php:236
+msgid "Disable Jabber field from users contact field"
+msgstr "Deaktiviraj Jabber polje iz polja za kontakt korisnika"
+
+#: index.php:242
+msgid "Disable Yahoo IM field from users contact field"
+msgstr "Deaktiviraj Yahoo IM polje iz polja za kontakt korisnika"
+
+#: index.php:248
+msgid "Disable Google Plus field from users contact field"
+msgstr "Deaktiviraj Google Plus polje iz polja za kontakt korisnika"
+
+#: index.php:252
+msgid "WP Core"
+msgstr "WP Core"
+
+#: index.php:257
+msgid "Enable GZIP compression"
+msgstr "Aktiviraj GZIP kompresiju"
+
+#: index.php:263
+msgid "Enable Shortcode in widgets"
+msgstr "Aktiviraj shortcode u widget-ima"
+
+#: index.php:269
+msgid "WP Admin Footer"
+msgstr "WP Admin podnožje"
+
+#: index.php:273
+msgid "Text Left (HTML allowed)"
+msgstr "Tekst levo (dozvoljen HTML) "
+
+#: index.php:279
+msgid "Text Right (HTML allowed)"
+msgstr "Tekst desno (dozvoljen HTML) "
+
+#: index.php:286
+msgid "Save Changes"
+msgstr "Sačuvaj izmene"
+
+#: index.php:287
+msgid "Information"
+msgstr "Informacije"

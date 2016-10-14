@@ -1,0 +1,188 @@
+﻿RSVP (RS) addon for EventON Plugin
+====================================
+v 2.3.3 (2016-2-23)
+FIXED: First name only entries not showing in several places
+UPDATED: Option to choose initials or full name for guest list
+
+v 2.3.2 (2016-2-22)
+FIXED: event pending text in language not saving translated text
+FIXED: be the first to RSVP showing empty box infront
+
+v 2.3.1 (2015-12-14)
+FIXED: Change RSVP not showing up
+
+v 2.3 (2015-12-10)
+ADDED: Multiple line textbox as rsvp form field
+ADDED: Support for additional notes field when not attending event
+ADDED: Option to show remainging spots on eventtop
+ADDED: confirmation email to have event detail
+ADDED: Admin to get notification email when rsvp changed
+ADDED: option for minimum capacity for event to happen 
+ADDED: Option to hide change rsvp option for only rsvped guests
+ADDED: Nice RSVP count bar to event edit
+ADDED: Daily digest email for events with RSVP data
+FIXED: EventON 2.3.13 compatibility
+FIXED: Nonce error on form submission
+FIXED: RSVP options to show on eventcard when eventtop rsvp is on
+FIXED: When rsvp deleted RSVP count get sync
+FIXED: RSVP options not translating correct
+FIXED: Form error message not showing anything for some stages
+UPDATED: Email templates
+UPDATED: Email time and date format to reflect wp format settings
+UPDATED: Eventtop rsvping option settings to an easier method
+UPDATED: Moved change rsvp button to its own location
+UPDATED: User rsvp data store in event meta instead of options
+UPDATED: RTL Styles
+UPDATED: guests list on hover show full name
+UPDATED: RSVP section UI and layout
+TESTED: change rsvp not changing rsvp count
+TESTED: manually add rsvp and auto sync rsvp count
+
+v 2.2.5 (2015-10-20)
+FIXED: change rsvp confirmation not showing up and giving error
+
+v 2.2.4 (2015-10-10)
+FIXED: additional fields for RSVP form not going through
+UODATED: change rsvp option available even after capacity met
+
+v 2.2.3 (2015-9-30)
+FIXED: Additional fields non required not working properly
+FIXED: Errors on notification email dates
+
+v 2.2.2 (2015-9-23)
+FIXED: Missing language translations for rsvp form
+FIXED: Confirmation email week of the day translation missing
+FIXED: Subject and email names translations not working for emails
+FIXED: Fixed notification emails not going through for RSVP submissions
+UPDATED: To send new rsvp confirmation email upon changing RSVP
+UPDATED: email sending functions
+
+v 2.2.1 (2015-9-2)
+UPDATED: email template instructions added to template files
+FIXED: View attendees list not working for non repeating events
+
+v 2.2 (2015-8-6)
+ADDED: Eventtop to display RSVP count
+ADDED: RSVP tab to eventON submenu on left panel
+ADDED: support for dropdown field in RSVP form
+ADDED: Ability to add new RSVPs from wp-admin & set repeat intervals
+ADDED: Logged-in user be able to RSVP with one click from eventtop
+ADDED: Phone number to CSV download attendees
+ADDED: Phone number and other information to RSVP edit page
+ADDED: Phoner number to lightbox attendee list
+ADDED: Show if logged-in user already RSVPed or not (v2.2+)
+ADDED: RSVP capacity for each repeating interval for events
+ADDED: Whos coming adjusted for repeating event intervals
+ADDED: Validation for party size with capacity limit
+ADDED: input placeholder & font color to appearance settings
+ADDED: Receive updates info added to notification email
+ADDED: Sync RSVP count when RSVP is trashed
+ADDED: Terms & conditions link for RSVP form
+ADDED: Event time to notification email
+ADDED: Additional information for only loggedin RSVP-ed users
+ADDED: Additional information on confirmation email
+ADDED: Sync RSVP count when an RSVP enabled event is duplicated
+ADDED: loggin button for when user is not loggedin
+ADDED: Capability to disable editing of prefill fields
+ADDED: Support for additional basic text line in the form
+ADDED: Ability to email RSVP list
+ADDED: Ability to email attendees list to someone
+ADDED: Ability to email just the guests coming to event
+ADDED: Bcc emailing to list
+ADDED: Ability to see attendees for each repeating intervals
+ADDED: Ability to restrict number of spaces per RSVP
+ADDED: RSVP user manager
+FIXED: same email RSVPing more than once
+FIXED: Remaining spots showing correctly on event card
+FIXED: prefill forms not filling data correctly
+FIXED: RSVP options responsive styles
+FIXED: language error on rsvp options
+FIXED: changing RSVP to NO not updating rsvp count
+
+v 2.1.5 (2015-5-20)
+FIXED: Missing terms in confirmation email
+FIXED: Incorrect success message on rsvp submission
+UPDATED: Compatibility to eventon 2.3.2
+
+v 2.1.4 (2015-3-30)
+FIXED: Confirmation email not going with correct data
+
+v 2.1.3 (2015-3-17)
+ADDED: Settings link to plugins page
+FIXED: RSVP options not hidden when there are no spots left
+FIXED: Language translations for RSVP options
+
+v 2.1.2 (2015-1-5)
+FIXED: RSVP options not showing when capacity limit was on
+
+v 2.1.1 (2014-12-19)
+FIXED: Show who’s not coming not saving for events
+FIXED: Phone field not translating correctly
+
+v 2.1 (2014-11-26)
+FIXED: RSVP Form styles
+FIXED: RSVP settings fields not being able to disable
+FIXED: Incorrectly restricting rsvp for one email address
+UPDATED: whos coming section to be turned off per each event
+
+v 2.0 (2014-10-22)
+ADDED: Search rsvp by rsvp id on admin pages
+ADDED: Admin rsvp column sorting capabilities
+ADDED: Ability to show who is coming with attendee list per event
+ADDED: Option to hide change RSVP button via settings
+ADDED: Ability to resend RSVP confirmation email
+ADDED: Ability to send RSVP confirmation to custom emails
+ADDED: Restrict user to rsvp only once for event
+FIXED: RSVP not setting time correct for repeat events
+FIXED: closing RSVP for repeat events closing for wrong time
+FIXED: Missing custom fields from confirmation and notification emails
+FIXED: Email proper language translations
+FIXED: Site wide proper translation of checkin status text
+FIXED: Show spots remaining for events to rsvp
+UPDATED: COmpletely re designed the front-end of the form and eventCard RSVP integration
+
+v 1.2 (2014-9-18)
+FIXED: Widget Styles
+FIXED: view and edit links to admin not working
+FIXED: RSVP option no and maybe be able to deselect from selection
+UPDATED: Compatibilty with eventon 2.2.17
+
+v 1.1.1(2014-8-26)
+FIXED: Rsvp not working when switched months and sorting
+
+v1.1 (2014-8-7)
+FIXED: Additional email addresses for each Event to receive notifications
+FIXED: change rsvp not working for some
+
+v1.0 (2014-6-18)
+ADDED: Ability to allow rsvp only for logged-in users
+ADDED: Ability to pre-fill fields if user is logged-in
+ADDED: Option to select which RSVP status options to show on the form
+ADDED: Option to select which fields to show on form
+ADDED: Ability to add upto 3 additional custom text fields and set required or not
+ADDED: Captcha verification code before submitting RSVP form
+ADDED: Ability to set capacity and remaining RSVPs
+ADDED: Ability to close RSVP X minutes before event end
+ADDED: Option to set only logged-in users to change RSVP
+ADDED: RSVP notification email to have reply-to email and email address of RSVP
+UPDATED: RSVP post page to show a RSVP card
+UPDATED: Send out email confirmation form RSVP automatically without having to activate 
+UPDATED: ajax form submission validations
+UPDATED: CSS for mobile responsive design
+FIXED: Email notifications not sending through
+FIXED: Compatibility to event on 2.2.13
+FIXED: Retina yes no buttons for rsvp on wp-admin
+
+v0.4 (2014-6-1)
+UPDATED: Compatibility with eventON 2.2.12
+
+v0.3 (2014-5-27)
+UPDATED: Yes no button compatibility for wp-admin
+
+v0.2 (2014-5-20)
+FIXED: Slowness on wp-admin 
+FIXED: RSVP count not syncing and calculating correct
+FIXED: incorrect rsvp apperance settings on eventon settings page
+
+v0.1 (2014-3-26)
+Initial release

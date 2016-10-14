@@ -1,0 +1,43 @@
+#accordion-section-glcdesign-hashtag-wp {
+
+  .accordion-section-title {
+
+    &:before {
+
+      content: '';
+
+      display: inline-block;
+      height: 20px;
+      width: 20px;
+
+      float: left;
+
+      margin-right: 7px;
+
+      background-image: url(../images/icon.png);
+      background-repeat: no-repeat;
+
+    }
+
+  }
+
+  .accordion-section-content {
+
+    .customize-section-title {
+
+      h3 {
+
+        padding-left: 45px;
+
+        background-image: url(../images/icon.png);
+        background-repeat: no-repeat;
+        background-position: 14px center;
+
+      }
+
+    }
+
+  }
+
+}
+

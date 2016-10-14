@@ -1,0 +1,1606 @@
+/*
+Theme Name:     Kleo Child
+Theme URI:
+Description:    Child theme for Kleo
+Author:         SeventhQueen
+Author URI:     http://seventhqueen.com
+Template:       kleo
+Tags:  one-column, two-columns, right-sidebar, fluid-layout, custom-menu, featured-images, post-formats, sticky-post, translation-ready
+License: GNU General Public License
+License URI: license.txt
+*/
+.kleo-mycred-rank {
+	position: absolute;
+	z-index: 20;
+	width: 16px;
+	height: 16px;
+	left: 0px;
+	bottom: 5px;
+}
+
+
+li#activity-filter-select.last{
+display: none;}
+
+/*
+* Please add your custom styles below
+*/
+
+/* Task 1 - timeline and Like box */
+/*Activity Page*/#buddypress .activity ul.item-list > li {
+	position: relative;
+	min-height: 75px;
+}
+
+.wpulike .counter a.image, .wpulike .counter a.image-unlike {
+	padding: 10px;
+}
+/* Task 1 - timeline and Like box */
+
+/* Task 2 */
+#buddypress form#whats-new-form p.activity-greeting {
+	float: left;
+}
+#buddypress ul.activity-list {
+	padding-top: 0px;
+}
+/* Task 2 */
+
+/* PRIVACY BUTTON - TOP */
+#buddypress form#whats-new-form #whats-new-options select, .customSelect {
+	font-size: 14px !important;
+}
+
+#activity-visibility {
+	height: 20px;
+	line-height: 20px;
+	border-radius: 4px;
+	font-size: 14px;
+}
+
+.customSelect.customSelectHover {
+	background-color: #DADADA !important;
+	transition: all 0.4s ease-in-out 0s;
+	color: #444444;
+	border-color: #e5e5e5;
+	border-radius: 4px;
+	font-size: 14px;
+}
+
+.customSelect.customSelectFocus {
+	outline: 0;
+	font-size: 14px;
+}
+
+.customSelect.customSelectOpen {
+	border-color: #e5e5e5;
+	box-shadow: none;
+	-webkit-box-shadow: none;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	font-size: 14px;
+}
+/* PRIVACY BUTTON - TOP */
+
+/* LIKE */
+.wpulike {
+	margin-right: 10px;
+}
+
+.wpulike .counter a.image, .wpulike .counter a.image-unlike {
+	background: none;
+	padding: 1px;
+}
+
+.wpulike .counter a.image:before {
+	font-family: 'FontAwesome';
+	font-size: 17px;
+	content: "\f164";
+	color: rgba(0,0,0,.5);
+}
+
+.wpulike .counter a.image-unlike:before {
+	font-family: 'FontAwesome';
+	font-size: 17px;
+	content: "\f164";
+	color: #c0392b;
+}
+
+.wpulike .counter a.image:hover:before {
+	color: rgba(0,0,0,.65);
+}
+
+#buddypress div.activity-meta .wpulike .counter a.loading {
+	padding: 8px !important;
+}
+
+.wpulike .counter a {
+	border-radius: 0px;
+	border: 0px;
+	color: rgba(0,0,0,.5);
+	background: none;
+}
+
+.wpulike .counter a:hover, .wpulike .counter a:active {
+	background-color: transparent;
+	color: rgba(0,0,0,.65);
+	text-shadow: none;
+}
+/* LIKE */
+
+/* COMMENT */
+#buddypress div.activity-meta {
+	margin-top: 0px;
+}
+
+#buddypress div.activity-meta a.acomment-reply {
+	color: transparent;
+	font-size: 0px;
+	position: relative;
+	/*margin: 0px 30px 0px 0px;*/
+	cursor: pointer;
+	display: inline-block;
+	padding: 0px;/*0px 8px*/
+	/*line-height: normal;*/
+	/*max-height: 25px;*/
+	vertical-align: middle;
+	/*height: 100%;*/
+}
+
+#buddypress div.activity-meta a.acomment-reply.button, #buddypress div.activity-meta a.acomment-reply.button:hover,
+#buddypress div.activity-meta a.acomment-reply.button:focus, #buddypress div.activity-meta a.acomment-reply.button:active {
+	border-color: transparent;
+	background-color: transparent;
+	border-style: none;
+}
+
+#buddypress div.activity-meta a.acomment-reply:before {
+	font-family: 'FontAwesome';
+	font-size: 17px;
+	content: "\f086";
+	color: rgba(0,0,0,.5);
+}
+
+#buddypress div.activity-meta a.acomment-reply:hover:before, #buddypress .activity-meta a.delete-activity:hover:before,
+#buddypress .activity-meta a.buddyboss_edit_activity:hover:before {
+	color: rgba(0,0,0,.65);
+}
+
+#buddypress a.acomment-reply span {
+	position: relative;
+	display: inline-block;
+	border: 1px solid #898F9C;
+	border-radius: .25em;
+	vertical-align: middle;
+	color: #333;
+	font-size: 10.5px;
+	text-align: center;
+	text-decoration: none;
+	background-color: #fff;
+	box-sizing: border-box;
+	padding: .24em .3em;
+	margin-left: .5em;
+	line-height: 1em;
+	min-width: 2.25em;
+	margin-top: -10px;
+}
+
+#buddypress a.acomment-reply span:before {
+	content: '';
+	width: .25em;
+	height: .25em;
+	position: absolute;
+	border: 1px solid transparent;
+	background: #fff;
+	border-bottom-color: #898F9C;
+	left: -.2125em;
+	top: 50%;
+	margin-top: -.2em;
+	border-left-color: #898F9C;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
+	filter: progid:DXImageTransform.Microsoft.Matrix(M11=0.7071067811865476,M12=-0.7071067811865475,M21=0.7071067811865475,M22=0.7071067811865476,sizingMethod='auto expand');
+}
+/* COMMENT */
+
+.logged-in #buddypress div.activity-meta {
+	padding-bottom: 5px;/*0px changed*/
+}
+
+#buddypress div.activity-meta .wpulike .counter a.wp_ulike_btn {
+	padding: 0px !important;
+}
+
+/* REMOVE - SUPRIMER */
+#buddypress .activity-meta a.delete-activity, #buddypress .activity-meta a.delete-activity:hover, #buddypress .activity-meta a.delete-activity:active,
+#buddypress .activity-meta a.delete-activity:focus {
+	color: transparent;
+	font-size: 0px;
+	position: relative;
+	margin: 0px;
+	cursor: pointer;
+	display: inline-block;
+	padding: 0px 5px 0px 0px;
+	line-height: 1;
+	max-height: 25px;
+	vertical-align: middle;
+	height: 100%;
+}
+
+#buddypress .activity-meta a.delete-activity:before {
+	font-family: 'FontAwesome';
+	font-size: 17px;
+	content: "\f1f8";
+	color: rgba(0,0,0,.5);
+}
+
+#buddypress div.activity-meta a.delete-activity.button, #buddypress div.activity-meta a.delete-activity.button:hover,
+#buddypress div.activity-meta a.delete-activity.button:focus, #buddypress div.activity-meta a.delete-activity.button:active {
+	border-color: transparent;
+	background-color: transparent;
+}
+/* REMOVE - SUPRIMER */
+
+/* COMMENTARY REMOVE - SUPRIMER */
+#buddypress div.acomment-options a.acomment-delete:before {
+	font-family: 'FontAwesome';
+	font-size: 17px;
+	content: "\f1f8";
+	color: rgba(0,0,0,.5);
+}
+
+#buddypress div.acomment-options a.acomment-delete, #buddypress div.acomment-options a.acomment-delete:hover,
+#buddypress div.acomment-options a.acomment-delete:focus, #buddypress div.acomment-options a.acomment-delete:active {
+	color: transparent;
+	font-size: 0px;
+	border-color: transparent;
+	background-color: transparent;
+}
+/* COMMENTARY REMOVE - SUPRIMER */
+
+/* EDIT - EDITER */
+#buddypress .activity-meta a.buddyboss_edit_activity, #buddypress .activity-meta a.buddyboss_edit_activity:hover,
+#buddypress .activity-meta a.buddyboss_edit_activity:active, #buddypress .activity-meta a.buddyboss_edit_activity:focus {
+	border-radius: 0px;
+	border: 0px;
+	color: transparent;
+	font-size: 0px;
+	position: relative;
+	margin: 0px 30px 0px 0px;
+	cursor: pointer;
+	display: inline-block;
+	padding: 0px 8px;
+	line-height: 1;
+	max-height: 25px;
+}
+
+#buddypress .activity-meta a.buddyboss_edit_activity:before {
+	font-family: 'FontAwesome';
+	font-size: 17px;
+	content: "\f040";
+	color: rgba(0,0,0,.5);
+}
+
+#buddypress div.activity-meta a.buddyboss_edit_activity.button, #buddypress div.activity-meta a.buddyboss_edit_activity.button:hover,
+#buddypress div.activity-meta a.buddyboss_edit_activity.button:focus, #buddypress div.activity-meta a.buddyboss_edit_activity.button:active {
+	border-color: transparent;
+	background-color: transparent;
+}
+
+/* EDIT - EDITER */
+
+/* COMMENTARY EDIT */
+
+#buddypress div.acomment-options a.buddyboss_edit_activity_comment:before {
+	font-family: 'FontAwesome';
+	font-size: 17px;
+	content: "\f040";
+	color: rgba(0,0,0,.5);
+}
+
+#buddypress div.acomment-options a.buddyboss_edit_activity_comment, #buddypress div.acomment-options a.buddyboss_edit_activity_comment:hover,
+#buddypress div.acomment-options a.buddyboss_edit_activity_comment:focus, #buddypress div.acomment-options a.buddyboss_edit_activity_comment:active {
+	color: transparent;
+	font-size: 0px;
+	border-color: transparent;
+	background-color: transparent;
+}
+/* COMMENTARY EDIT */
+
+/* EDIT - SAVE */
+#buddypress div.activity-meta a.buddyboss_edit_activity.button.action-save:before {
+	font-family: 'FontAwesome';
+	font-size: 17px;
+	content: "\f00c" !important;
+	color: rgba(0,0,0,.5);
+}
+/* EDIT - SAVE */
+
+/* COMMENTARY EDIT - SAVE */
+#buddypress div.acomment-options a.buddyboss_edit_activity_comment.action-save:before {
+	font-family: 'FontAwesome';
+	font-size: 17px;
+	content: "\f00c" !important;
+	color: rgba(0,0,0,.5);
+}
+/* COMMENTARY EDIT - SAVE */
+
+/* EDIT CANCEL - ANNULER */
+#buddypress .activity-meta a.buddyboss_edit_activity_cancel, #buddypress .activity-meta a.buddyboss_edit_activity_cancel:hover,
+#buddypress .activity-meta a.buddyboss_edit_activity_cancel:active, #buddypress .activity-meta a.buddyboss_edit_activity_cancel:focus {
+	color: transparent;
+	font-size: 0px;
+	position: relative;
+	cursor: pointer;
+	display: inline-block;
+	padding: 0px 8px;
+	line-height: 1;
+	max-height: 25px;
+}
+
+#buddypress .activity-meta a.buddyboss_edit_activity_cancel:before {
+	font-family: 'FontAwesome';
+	font-size: 17px;
+	content: "\f00d";
+	color: #777777;
+}
+
+#buddypress div.activity-meta a.buddyboss_edit_activity_cancel.button, #buddypress div.activity-meta a.buddyboss_edit_activity_cancel.button:hover,
+#buddypress div.activity-meta a.buddyboss_edit_activity_cancel.button:focus, #buddypress div.activity-meta a.buddyboss_edit_activity_cancel.button:active {
+	border-color: transparent;
+	background-color: transparent;
+}
+/* EDIT CANCEL - ANNULER */
+
+
+/* COMMENTARY EDIT CANCEL - ANNULER */
+#buddypress div.acomment-options a.buddyboss_edit_activity_cancel:before {
+	font-family: 'FontAwesome';
+	font-size: 17px;
+	content: "\f00d";
+	color: #777777;
+}
+
+#buddypress div.acomment-options a.buddyboss_edit_activity_cancel, #buddypress div.acomment-options a.buddyboss_edit_activity_cancel:hover,
+#buddypress div.acomment-options a.buddyboss_edit_activity_cancel:focus, #buddypress div.acomment-options a.buddyboss_edit_activity_cancel:active {
+	color: transparent;
+	font-size: 0px;
+	border-color: transparent;
+	background-color: transparent;
+}
+/* COMMENTARY EDIT CANCEL - ANNULER */
+
+
+/* SELECT BOX IN COMMENT*/
+.bp-ap-selectbox {
+	color: #777777 !important;
+	font-size: 11px !important;
+	text-transform: uppercase;
+	border-radius: 12px !important;
+	border-style: solid;
+	border-width: 1px;
+	transition: all 0.4s ease-in-out 0s;
+	line-height: 22px;
+	padding: 0px 8px !important;
+	height: 25px !important;
+}
+
+.bp-ap-selectbox:hover, .bp-ap-selectbox:focus, .bp-ap-selectbox:active {
+	color: #444444;
+	background-color: #f7f7f7;
+	border-color: #e5e5e5;
+}
+/* SELECT BOX IN COMMENT*/
+
+/* ELEMENTS INLINE */
+#buddypress #activity-stream .activity-content > p, #buddypress .activity-list .activity-content ul.tiles, #buddypress .activity-list .activity-comments ul.tiles {
+	display: inline-block;
+}
+
+#buddypress .activity-list .activity-content ul.tiles {
+	margin: 0px !important;
+	vertical-align: middle;
+}
+
+#buddypress .activity-list .activity-comments ul.tiles {
+	margin: 0px 0px 12px 0px !important;
+	vertical-align: middle;
+}
+
+#buddypress a.activity-time-since {
+	float: right;
+}
+
+#buddypress .activity-header, #buddypress .activity-header p a:last-child {
+	overflow: hidden;
+}
+
+#buddypress .activity-header {
+	width: 95%;/*100%*/
+}
+
+/* For BSALA */
+/*#buddypress .activity-header p {
+	width: 70%;
+}*/
+
+/*#buddypress .activity-header p a:last-child {
+	float: left;
+}*/
+/* ELEMENTS INLINE */
+
+/* SPACE DECREASING */
+#buddypress #whats-new-options > div {
+	padding-top: 0px;
+}
+
+#buddyboss-media-preview {
+	margin: 0px;
+}
+
+#buddypress form#whats-new-form textarea {
+	margin: 5px;
+	resize: vertical;
+	clear: both;
+}
+
+#buddypress form#whats-new-form #whats-new-content {
+	margin-bottom: 5px;
+}
+
+#buddypress div.item-list-tabs#subnav {
+	margin: 0px;
+}
+
+#buddypress div.item-list-tabs#subnav ul li a {
+	padding: 4px 0px;
+}
+
+.buddyboss-activity-media-add-photo-button {
+	padding: 0px 6px !important;
+}
+
+#buddypress div.activity-content div.activity-meta a.image-unlike {
+	padding: 0px !important;
+}
+
+#buddypress div.activity-comments div.acomment-content {
+	margin: 0px;
+}
+
+#buddypress .activity-list .activity-content .activity-inner {
+	margin: 0px 0px 5px 0px;
+}
+
+.activity-content br {
+	display: none;
+}
+
+#buddypress ul.item-list li {
+	padding-top: 3px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	padding-left: 0px;
+	margin-right: 5px;
+}
+
+#buddypress ul.item-list.activity-list li.has-comments {
+	padding-bottom: 0px;
+}
+
+#buddypress #activity-stream p {
+	margin: 0px;
+}
+
+
+<!--waqas changes start-->
+.tiles {
+	margin: 0px !important;
+	display:none !important;
+}
+<!--waqas changes end -->
+
+#buddypress .acomment-options {
+	margin: 0px;
+}
+/* SPACE DECREASING */
+
+/* ---------- KLEO MYCRED CHAIN ---------- */
+
+.kleo-mycred-chain-line {
+	width: 1px;
+	height: 186px;
+	position: absolute;
+	border-right: 1px solid #acd9f6;
+	top: -46px;
+	animation: fadeIn 3s ease-out;
+}
+
+.kleo-mycred-chain-current-points {
+	position: absolute;
+	top: -75px;
+	border: 1px solid #acd9f6;
+	border-radius: 20px;
+	width: 100px;
+	height: 30px;
+	text-align: center;
+	padding-top: 3px;
+	font-size: 14px;
+	color: #fff;
+	box-shadow: 1px 0px 5px 0px #ccc;
+	animation: fadeIn 3s ease-out;
+}
+
+.kleo-mycred-chain-next-status-points {
+	position: absolute;
+	top: 110px;
+	border: 1px solid #acd9f6;
+	width: 125px;
+	height: 50px;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	padding-top: 3px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-left: 5px;
+	line-height: 1.5;
+	animation: fadeIn 3s ease-out;
+}
+
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.kleo-mycred-chain-wrap {
+	color: #444;
+	margin: 40px auto;
+	max-width: 1200px;
+	position: relative;
+}
+
+ul.kleo-mycred-chain-bar li {
+	display: block;
+	font-size: 14px;
+	font-weight: 600;
+	padding: 14px 20px 14px 80px;
+	position: relative;
+}
+
+ul.kleo-mycred-chain-bar li span.kleo-mycred-chain-item-top-title {
+	display: inline-block;
+	width: 28px;
+	position: absolute;
+	top: -50px;
+}
+
+ul.kleo-mycred-chain-bar li span.kleo-mycred-chain-item-bottom-title {
+	display: inline-block;
+	width: 28px;
+	position: absolute;
+	top: 30px;
+}
+
+ul.kleo-mycred-chain-bar li:before {
+	-webkit-box-shadow: inset 2px 2px 2px 0px rgba(0, 0, 0, 0.2);
+	box-shadow: inset 2px 2px 2px 0px rgba(0, 0, 0, 0.2);
+	background: #ddd;
+	border: 2px solid #FFF;
+	border-radius: 50%;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 700;
+	left: 20px;
+	line-height: 37px;
+	height: 35px;
+	position: absolute;
+	text-align: center;
+	text-shadow: 1px 1px rgba(0, 0, 0, 0.2);
+	top: 4px;
+	width: 35px;
+	z-index: 999;
+}
+
+ul.kleo-mycred-chain-bar img {
+	height: 28px;
+	width: 28px;
+	position: absolute;
+	top: -21px;
+}
+
+@media all and (min-width: 768px) {
+	.kleo-mycred-chain-wrap {
+		margin-top: 80px;
+		margin-bottom: 240px;
+		margin-left: 0px;
+		margin-right: auto;
+		width: 55%;
+	}
+
+	ul.kleo-mycred-chain-bar {
+		-webkit-box-shadow: inset 2px 2px 2px 0px rgba(0, 0, 0, 0.2);
+		box-shadow: inset 2px 2px 2px 0px rgba(0, 0, 0, 0.2);
+		background-size: 35px 35px;
+		background-color: #DEDEDE;
+		border-radius: 15px;
+		height: 20px;
+		margin: 0 auto;
+		padding: 0;
+		position: absolute;
+		width: 100%;
+	}
+
+	ul.kleo-mycred-chain-bar:before {
+		background-size: 35px 35px;
+		background-color: #B40404;
+		-webkit-box-shadow: inset 2px 2px 2px 0px rgba(0, 0, 0, 0.2);
+		box-shadow: inset 2px 2px 2px 0px rgba(0, 0, 0, 0.2);
+		border-top-right-radius: 0px;
+		border-top-left-radius: 15px;
+		border-bottom-right-radius: 0px;
+		border-bottom-left-radius: 15px;
+		content: " ";
+		height: 20px;
+		left: 0;
+		position: absolute;
+		-moz-animation: bounceIn 2s ease-out; /* Mozilla */
+		-webkit-animation: bounceIn 2s ease-out; /* Chrome, Safari, Opera */
+		animation: bounceIn 2s ease-out;
+	}
+
+	ul.kleo-mycred-chain-bar.chain-5 li {
+		display: inline-block;
+		margin: 50px 0 0;
+		padding: 0;
+		text-align: center;
+		width: 19%;
+	}
+	ul.kleo-mycred-chain-bar.chain-7 li {
+		display: inline-block;
+		padding: 0;
+		text-align: center;
+		width: 13.65%;
+	}
+}
+
+@media (max-width:767px) {
+	.kleo-mycred-chain-wrap {
+		display: none;
+	}
+}
+/* ---------- KLEO MYCRED CHAIN ---------- */
+
+/* ---------- KLEO MYCRED PROFILE RANK ---------- */
+.buddypress div#main div#item-header {
+	padding-bottom: 4px;
+}
+
+.kleo-mycred-profile-rank {
+	width: 35%;
+	margin: 0 auto;
+	background-color: #fff;
+	border-radius: 4px;
+	box-shadow: 0px 0px 5px 2px #ccc;
+	-webkit-box-shadow: 0px 0px 5px 2px #ccc;
+	-moz-box-shadow: 0px 0px 5px 2px #ccc;
+	margin-top: 20px;
+	position: relative;
+	z-index: 2;
+}
+
+.profile-rank-header {
+	text-transform: uppercase;
+	font-size: 11px;
+	color: #777777;
+	vertical-align: middle;
+}
+
+.points-count {
+	color: #777777;
+	font-size: 11px;
+	vertical-align: middle;
+}
+
+.profile-rank-img img {
+	width: 28px;
+	height: 28px;
+}
+
+#mycred-users-badges {
+	display: inline-block;
+}
+/* ---------- KLEO MYCRED PROFILE RANK ---------- */
+
+.directory .directory-title {
+	display: none;
+}
+
+p.currently-viewing {
+	margin-top: 0px;
+}
+
+#buddypress .item-list-tabs #bp-docs-all-docs li {
+	background-color: #fff;
+}
+
+.main-color #buddypress div.item-list-tabs#subnav #bp-docs-all-docs li a {
+	color: #367bb7;
+}
+
+.main-color #buddypress div.item-list-tabs#subnav #bp-docs-all-docs li a:hover, 
+.main-color #buddypress div.item-list-tabs#subnav #bp-docs-all-docs li a:active {
+	color: #00b9f7;
+}
+
+div.article-content div.docs-info-header {
+	background-color: #fff;
+	padding-top:0px;
+}
+
+/* BUTTONS */
+.main-color #buddypress #bp-docs-all-docs a.button, #doc-attachments #insert-media-button, #doc-submit-options #doc-edit-submit {
+	font-weight: normal;
+	border: none;
+	color: #fff;
+	background: #237ebd;
+	text-transform: uppercase;
+	text-decoration: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+#doc-attachments #insert-media-button {
+	padding: 7px;
+}
+
+.main-color #buddypress #bp-docs-all-docs a.button:hover, .main-color #buddypress #bp-docs-all-docs a.button:focus,
+#doc-attachments #insert-media-button:hover, #doc-attachments #insert-media-button:focus,
+#doc-submit-options #doc-edit-submit:hover, #doc-submit-options #doc-edit-submit:focus {
+	color: #fff;
+	opacity: 0.7;
+	transition: all .3s ease-in-out 0s;
+	outline: 0;
+}
+
+.main-color #buddypress #docs-filter-section-attachments input[type=submit], .main-color #buddypress #respond .form-submit input#submit,
+#buddypress .alignleft input.button-secondary, #buddypress #item-body #subnav #bp-create-doc-button {
+	background: #237ebd;
+	border: none;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: normal;
+}
+
+.main-color #buddypress #docs-filter-section-attachments input[type=submit]:hover,
+.main-color #buddypress #docs-filter-section-attachments input[type=submit]:active,
+.main-color #buddypress #respond .form-submit input#submit:hover, .main-color #buddypress #respond .form-submit input#submit:active,
+#buddypress .alignleft input.button-secondary:hover, #buddypress .alignleft input.button-secondary:active,
+#buddypress #item-body #subnav #bp-create-doc-button:hover, #buddypress #item-body #subnav #bp-create-doc-button:active {
+	font-weight: normal;
+	background: #237ebd;
+	color: #fff;
+	border: none;
+	transition: all 0.4s ease-in-out 0s;
+}
+
+.main-color #buddypress #docs-filter-section-attachments select {
+	padding: 2px 30px 2px 9px !important;
+}
+
+#main #buddypress table.doctable tr:nth-child(even) {
+	background-color: #fff;
+}
+/* BUTTONS */
+
+#buddypress .doc-content p:nth-of-type(2) {
+	display: inline-block;
+}
+
+.doc-content ul.tiles, .comment-content ul.tiles {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.doc-content ul.tiles li {
+	margin: 0px !important;
+}
+
+.doc-content ul.tiles li a img {
+	margin: 10px 3px;
+}
+
+#comments .comments-closed {
+	background-color: #fff;
+}
+
+#comments #respond .form-submit input#submit {
+	padding: 7px 10px;
+}
+
+.doctable tbody tr td {
+	border-bottom: 1px solid #ddd;
+}
+
+.doctable tbody tr:not(:first-child) td {
+	padding-top: 11px;
+}
+
+.buddypress .alternate-color #item-header #item-header-avatar, .buddypress .main-color #main-container .activity .activity-avatar {
+	/*width: 12em; height: 12em;*/
+	border-radius: 50%;
+	background: transparent;
+	-webkit-transition:.5s;
+	-moz-transition:.5s;
+	transition:.5s;
+}
+
+.member-inner-list .item-avatar {
+	z-index: 1;/* For 1/4 colored circle */
+}
+
+#item-header-avatar:before, .activity-avatar:before, .member-inner-list .item-avatar:before {
+	-webkit-animation: animix 5.5s 0.5;
+	-webkit-animation-fill-mode: forwards;
+	-moz-animation: animix 5.5s 0.5;
+	-moz-animation-fill-mode: forwards;
+	-o-animation: animix 5.5s 0.5;
+	-o-animation-fill-mode: forwards;
+	-ms-animation: animix 5.5s 0.5;
+	-ms-animation-fill-mode: forwards;
+	animation: animix 5.5s 0.5;
+	animation-delay: 5s;
+	animation-fill-mode: forwards;
+	border-style: solid;
+	border-radius: 100%;
+	content: "";
+	position: absolute;
+	/*background: transparent;*/
+	opacity: 0;
+}
+
+#item-header-avatar:before {
+	width: 154px;
+	height: 154px;
+	top: -12px;
+	left: -12px;
+	border-width: 12px;
+	border-top-color: transparent;
+	border-right-color: transparent;
+	border-bottom-color: transparent;
+	border-left-color: transparent;
+	z-index: -1;
+}
+
+.activity-avatar:before, .member-inner-list .item-avatar:before {
+      	width: 60px;
+	height: 60px;
+	top: -5px;
+	left: -5px;
+	border-width: 5px;
+	border-top-color: transparent;
+	border-right-color: transparent;
+	border-bottom-color: transparent;
+	border-left-color: transparent;
+	z-index: -1;
+}
+
+body.is-user-profile #item-header-avatar:before {
+	border-width: 6px;
+	width: 142px;
+	height: 142px;
+	top: -6px;
+	left: -6px;
+}
+/*Animate*/
+@keyframes animix {
+	0% { 
+		opacity: 1;
+	}
+
+	25% { 
+		opacity: 1;
+		-ms-transform: rotate(45deg);
+		-webkit-transform: rotate(45deg);
+		-o-transform: rotate(45deg);
+		-moz-transform: rotate(45deg);
+		transform: rotate(45deg);
+	}
+
+	50% { 
+		opacity: 1;
+		-ms-transform: rotate(45deg);
+		-webkit-transform: rotate(45deg);
+		-o-transform: rotate(45deg);
+		-moz-transform: rotate(45deg);
+		transform: rotate(45deg);
+	}
+
+	75% { 
+		opacity: 1;
+		-ms-transform: rotate(45deg);
+		-webkit-transform: rotate(45deg);
+		-o-transform: rotate(45deg);
+		-moz-transform: rotate(45deg);
+		transform: rotate(45deg);
+	}
+
+	100% {
+		opacity: 1;
+		-ms-transform: rotate(45deg);
+		-webkit-transform: rotate(45deg);
+		-o-transform: rotate(45deg);
+		-moz-transform: rotate(45deg);
+		transform: rotate(45deg);
+	}
+}
+/*@keyframes animix {
+	0% { 
+		opacity: 1;
+		border-top-color: transparent;
+		border-right-color: transparent;
+		border-bottom-color: transparent;
+		border-left-color: transparent;
+	}
+
+	25% { 
+		opacity: 1;
+		border-top-color: red;
+		border-right-color: transparent;
+		border-bottom-color: transparent;
+		border-left-color: transparent;
+		transform: rotate(45deg);
+	}
+
+	50% { 
+		opacity: 1;
+		border-top-color: red;
+		border-right-color: transparent;
+		border-bottom-color: transparent;
+		border-left-color: transparent;
+		transform: rotate(45deg);
+	}
+
+	75% { 
+		opacity: 1;
+		border-top-color: red;
+		border-right-color: transparent;
+		border-bottom-color: transparent;
+		border-left-color: transparent;
+		transform: rotate(45deg);
+	}
+
+	100% {
+		opacity: 1;
+		border-top-color: red;
+		border-right-color: transparent;
+		border-bottom-color: transparent;
+		border-left-color: transparent;
+		transform: rotate(45deg);
+	}
+}*/
+
+
+
+/* ---------- BUDDYPRESS DOC ---------- */
+/*Author*/
+#buddypress .doctable .activity-avatar {
+	position: relative;
+	z-index: 2;
+	border-style: solid;
+	border-width: 5px;
+	margin-left: 19px;
+	width: 60px;
+	height: 60px;
+	border-color: #f7f7f7;
+}
+
+#buddypress .activity-avatar.rounded img.avatar {
+	border-radius: 100%;
+}
+/*Author*/
+
+.doctable .title-cell>a {
+	display: inline !important;
+}
+
+#buddypress .doctable .title-cell .doc-excerpt .tiles {
+	display:inline-block;
+	vertical-align: middle;
+}
+
+#buddypress .doctable .title-cell .doc-excerpt .tiles li {
+	vertical-align: middle;
+}
+
+#buddypress .doctable .title-cell .doc-excerpt .tiles img {
+	width: 23px;
+	height: 23px;
+	margin-right: 5px;
+}
+
+.kleo-child-bp-docs-multiply-filetype {
+	background: url('assets/img/multiply_filetype.png');
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 3px;
+}
+
+/* FILES */
+.doc-attachment-mime-png, .doc-attachment-mime-jpg, .doc-attachment-mime-zip, .doc-attachment-mime-mp3, .doc-attachment-mime-wav, 
+.doc-attachment-mime-gif, .doc-attachment-mime-pdf, .doc-attachment-mime-xls, .doc-attachment-mime-txt, .doc-attachment-mime-css,
+.doc-attachment-mime-html, .doc-attachment-mime-flv, .doc-attachment-mime-mov, .doc-attachment-mime-doc, .doc-attachment-mime-docx,
+.doc-attachment-mime-psd, .doc-attachment-mime-ppt {
+	width: 55px !important;
+	height: 55px !important;
+}
+
+.doc-attachment-mime-png { background: url('assets/img/png.png') !important; }
+.doc-attachment-mime-jpg { background: url('assets/img/jpg.png') !important; }
+.doc-attachment-mime-zip { background: url('assets/img/zip.png') !important; }
+.doc-attachment-mime-mp3 { background: url('assets/img/mp3.png') !important; }
+.doc-attachment-mime-wav { background: url('assets/img/wav.png') !important; }
+.doc-attachment-mime-gif { background: url('assets/img/gif.png') !important; }
+.doc-attachment-mime-pdf { background: url('assets/img/pdf.png') !important; }
+.doc-attachment-mime-xls { background: url('assets/img/xls.png') !important; }
+.doc-attachment-mime-txt { background: url('assets/img/txt.png') !important; }
+.doc-attachment-mime-css { background: url('assets/img/css.png') !important; }
+.doc-attachment-mime-html { background: url('assets/img/html.png') !important; }
+.doc-attachment-mime-flv { background: url('assets/img/flv.png') !important; }
+.doc-attachment-mime-mov { background: url('assets/img/mov.png') !important; }
+.doc-attachment-mime-doc { background: url('assets/img/doc.png') !important; }
+.doc-attachment-mime-docx { background: url('assets/img/doc.png') !important; }
+.doc-attachment-mime-psd { background: url('assets/img/psd.png') !important; }
+.doc-attachment-mime-ppt { background: url('assets/img/ppt.png') !important; }
+
+.bp-docs-attachment-drawer>ul>li, #doc-attachments-ul li {
+	height: 65px;
+}
+
+.kleo-child-bp-doc-attachment>ul>li>a, ul.kleo-child-bp-doc-single-doc-attachment>li>a {
+	line-height: 60px;
+}
+
+.doc-attachments #doc-attachments-ul li.even {
+	background-color: #fff;
+}
+/* FILES */
+/* ---------- BUDDYPRESS DOC ---------- */
+
+/* ---------- BUDDYPRESS MEMBER ---------- */
+#buddypress div.item-list-tabs #kleo_bp_member_select.kleo_bp_member_select {
+	margin-top: 4px;
+}
+#kleo_child_bp_member_type_select option {
+	color: #777777 !important;
+}
+/* ---------- BUDDYPRESS MEMBER ---------- */
+
+.wpulike .counter a.image-unlike:before, .bp-has-acomment:before {
+	color: #5cb85c !important;
+}
+
+#buddypress a.button.unfav:before, #buddypress a.unfav.bp-secondary-action:before {
+	color: #efc700;	
+}
+
+.wpulike .count-box {
+	font-size: 1em !important;
+	padding: .25em .5em !important;
+}
+
+.activity-meta .fav_box {
+	position: absolute;
+	top: -7px;
+	right: 25px;
+	width: 23%;
+}
+
+#buddypress a.button.fav, #buddypress a.button.unfav {
+	padding: 0px;
+	width: 2%;
+}
+
+.activity-meta .fav_box .fav-ul-list {
+	padding-left: 0px;
+	width: 100%;
+	display: inline-block;
+	vertical-align: middle;
+	text-align: right;
+}
+
+#buddypress .activity-meta .fav_box .fav-ul-list li {
+	margin-right: 3px;
+}
+
+#buddypress .activity-meta .fav_box .fav-ul-list .activity_fav_users {
+	padding: 4px 6px;
+}
+
+#mycred-users-badges img.mycred-badge {
+	width: 50px !important;
+	height: auto;
+	margin: 1px 5px !important;
+}
+
+/* ---------- TOOLTIP ---------- */
+/*.tooltip {
+	display: inline;
+	position: relative;
+}
+
+.tooltip:hover:after {
+	background: #333;
+	background: rgba(0,0,0,.8);
+	border-radius: 5px;
+	bottom: 26px;
+	color: #fff;
+	content: attr(title);
+	left: 20%;
+	padding: 5px 15px;
+	position: absolute;
+	z-index: 98;
+	width: 220px;
+}
+
+.tooltip:hover:before {
+	border: solid;
+	border-color: #333 transparent;
+	border-width: 6px 6px 0 6px;
+	bottom: 20px;
+	content: "";
+	left: 50%;
+	position: absolute;
+	z-index: 99;
+}*/
+/* ---------- TOOLTIP ---------- */
+
+
+
+#buddypress .activity_comment .activity-meta .hide_main {
+    display: none !important;
+}
+#mpp-video-upload {
+    position: absolute;
+    top: 15px;
+    right: 93px;
+    background: url('assets/img/multimedia.png');
+    width: 25px;
+    height: 25px;
+    background-size: 100%;
+    margin-top: -2px;
+}
+.mpp-upload-buttons a img{
+	display:none !important; 
+}
+
+#buddypress form#whats-new-form #whats-new-content {
+	margin-bottom: 50px;
+}
+input#cancel_upload {
+    right: 6px;
+    position: absolute;
+}
+button#buddyboss-media-open-uploader-button {
+    border: none !important;
+}
+.buddyboss-activity-media-add-photo-button:before, .buddyboss-bbpress-media-add-photo-button:before, .buddyboss-comment-media-add-photo-button:before{
+	font-size:25px;
+}
+/*Greg Customized Start*/
+/* PhanL modify May6 2016 */
+/* .sabai-form-field legend, */
+.sabai-form-field.sabai-entity-field-type-file-image legend,
+.sabai-form-field.sabai-entity-field-type-file-file legend,
+.sabai-form-field.sabai-entity-field-type-directory-photos legend,
+/* end of PhanL modify May6 2016 */
+.sabai-form-field.sabai-file-current.sabai-form-nolabel.sabai-form-type-grid .sabai-table tr.sabai-file-row td input,
+.sabai-form-field.sabai-file-current.sabai-form-nolabel.sabai-form-type-grid .sabai-table thead,
+.sabai-form-field-description
+ {display:none;}
+ 
+.sabai-form-field.sabai-file-current.sabai-form-nolabel.sabai-form-type-grid .sabai-table tbody tr td {line-height:0px !important; font-size:0px !important;}
+.sabai-file-row i {font-size:45px !important;}
+ .sabai-file-row td img {display:block;}
+ fieldset.sabai-entity-field-type-file-image,
+ fieldset.sabai-entity-field-type-file-file
+ {float:left}
+ fieldset.sabai-entity-field-type-file-image:after {content:'Supported file formats: gif jpeg jpg png'}
+ fieldset.sabai-entity-field-type-directory-photos:after {content:'Supported file formats: gif jpeg jpg png'} /* PhanL modify May6 2016 */
+ fieldset.sabai-entity-field-type-file-file:after {content:'Supported file formats: txt pdf zip'}
+.sabai-voting-arrow-down {display:none !important;}
+.sabai-voting-updown span {
+    height: 0.5em;
+    line-height: 0.5em;
+    display: block;
+    font-weight: bold;
+    font-size: 15px;
+    vertical-align: middle;
+    margin: 6px 0;
+}
+div.sabai-voting-arrow-up a, div.sabai-voting-arrow-up a:hover {
+    border-bottom: 15px solid transparent !important;
+	position: absolute;
+    right: 15px;
+    min-height: 30px;
+    top: -5px;
+}
+.sabai-voting-arrow-up:before {position: absolute; font-size: 25px;
+    right: 20px;
+    top: 10px;}
+.sabai-voting-updown-up .fa-thumbs-up:before {color:#24B129 }
+.kleo-mycred-rank {
+	position: absolute;
+	z-index: 20;
+	width: 16px;
+	height: 16px;
+	left: 0px;
+	bottom: 5px;
+}
+@media screen and (max-width: 1440px)  {
+div.sabai-voting-arrow-up a, div.sabai-voting-arrow-up a:hover {right:10px;}
+.sabai-voting-arrow-up:before {right:15px}
+}
+@media screen and (max-width: 1200px) {
+div.sabai-voting-arrow-up a, div.sabai-voting-arrow-up a:hover {right:5px;}
+.sabai-voting-arrow-up:before {right:10px}
+fieldset.sabai-entity-field-type-file-image,
+ fieldset.sabai-entity-field-type-file-file,
+.sabai-entity-field-type-file-image .sabai-form-fields,
+.sabai-entity-field-type-file-file .sabai-form-fields,
+.sabai-entity-field-type-video .sabai-form-fields,
+.sabai-entity-field-type-video .sabai-form-fields input[type="text"]
+ {max-width:200px;
+ margin-right:10px;}
+ fieldset.sabai-entity-field-type-file-image:after,
+ fieldset.sabai-entity-field-type-file-file:after
+ {font-size:11px;}
+}
+@media screen and (max-width: 992px) and (min-width: 768px) {
+div.sabai-voting-arrow-up a, div.sabai-voting-arrow-up a:hover {right:-3px;}
+.sabai-voting-arrow-up:before {right:2px}
+}
+.js .tmce-active .wp-editor-area {
+color: #000 !important;
+background: #fff !important;
+}
+/*Greg Customized End*/
+
+/* Hide BUDDYPRESS Profile activity */
+.xprofile.updated_profile.activity-item.mini.animated.animate-when-almost-visible.bottom-to-top.start-animation {
+display: none;
+}
+.profile.new_avatar.activity-item.mini.animated.animate-when-almost-visible.bottom-to-top.start-animation {
+display: none;
+}
+
+/* Hide BUDDYPRESS Profile activity ends here */
+
+/*custom css after here- camera*/
+
+.main-color #buddypress button, .main-color #buddypress a.button,
+.main-color .kleo-toggle-menu .minicart-buttons .btn-default{
+    color: #ffa02f;
+}
+
+/*custom css after here- smile icon*/
+
+
+
+/* ========== ACTIVITY LAST CHILD ========== */
+
+
+
+/* ========== ACTIVITY LAST CHILD ========== */
+
+#evcal_list .eventon_list_event .evcal_desc em.evors_rsvped_status_user {
+	background: #fe5815 none repeat scroll 0 0;
+}
+
+.evo_info .evors_eventtop_rsvp em {
+	border: 1px solid #fe5815 !important;
+}
+
+#evcal_list .eventon_list_event .evcal_desc em {
+	/*color: #fff !important;*//*TEMPORARILY COMMENTED*/
+}
+
+
+/* ========== ABOUT PAGE ========== */
+.kleo-child-about-page-container {
+	display: none;
+	position: absolute;
+	/*top: 100px;
+	left: 25%;
+	width: 200px;
+	height: 200px;*/
+	top: 60px;
+	background-color: #ff6a38;
+	z-index: 10000;
+	color: #fff;
+}
+
+.kleo-child-about-page-container a.kleo-child-big-link {
+	color: #fff;
+	font-size: 25px;
+}
+/* ========== ABOUT PAGE ========== */
+
+
+/* ========== Popup window Video Size ========== */
+.kleo-child-about-page-container .mejs-container {
+	/*max-width: 100% !important;
+	max-height: 100% !important;*/
+	width: 350px !important;
+	height: 195px !important;
+	background: transparent !important;
+}
+.kleo-child-about-page-container .mejs-container .wp-video-shortcode {
+	width: 350px !important;
+	height: 190px !important;
+}
+/* ========== Popup window Video Size ========== */
+
+ <!--waqas changes start-->
+.single_idea .whole .tiles{
+ 
+ display :none !important;
+
+}
+
+.whole .tiles
+{
+
+ display:none !important;
+
+
+}
+.campaign_ideas .wpulike .count-box {
+	font-size: 1em !important;
+    padding: 5px 12px 13px 7px !important;
+}
+
+
+.article-content .tiles
+{
+  display:none !important;
+
+
+}
+
+ <!--waqas changes end-->
+
+
+/* ========== Homepage submit fields ========== */
+@media screen and (max-width: 1200px) {
+	fieldset.sabai-entity-field-type-directory-photos, .sabai-entity-field-type-directory-photos .sabai-form-fields {
+		max-width:200px;
+		margin-right:10px;
+	}
+	fieldset.sabai-entity-field-type-directory-photos:after {
+		font-size:11px;
+	}
+}
+
+fieldset.sabai-entity-field-type-directory-photos {
+	float:left;
+}
+/* ========== Homepage submit fields ========== */
+
+
+
+/* ==========          ==========
+   ========== TURN OFF ==========
+   ==========          ==========
+*/
+
+/* ---------- BSALA ---------- */
+/*Line 425*/
+#buddypress div.activity-meta .fav_box {
+	display: none !important;
+}
+/* ---------- BSALA ---------- */
+
+body.is-user-profile #item-header-avatar:before {
+	display: none !important;
+}
+
+.kleo-mycred-profile-rank {
+	display: none !important;
+}
+
+#item-header-avatar:before, .activity-avatar:before, .member-inner-list .item-avatar:before {
+	display: none !important;
+}
+
+.kleo-mycred-chain-wrap {
+	display: none !important;
+}
+
+.kleo-mycred-rank {
+	display: none !important;
+}
+
+.kleo-online-status {
+	display: none !important;
+}
+
+/* ==========          ==========
+   ========== TURN OFF ==========
+   ==========          ==========
+*/
+
+#buddypress a.activity-time-since span.time-since {
+	padding-right: 20px;
+}
+
+#buddypress .activity-header p a:last-child {
+	margin-right: 0px;
+}
+#eventon_form .evoau_table .label {text-align: left;}
+
+/* HIDE CREATE DOCUMENT IN PROFILE */
+/*body.is-user-profile #bp-create-doc-button {*/
+#bp-create-doc-button {
+	display: none;
+}
+
+.evcal_evdata_cell .evors_rsvped_status_user {
+	background-color: #f76636;
+	color: #fff;
+	border-color: #f76636;
+	border-radius: 8px;
+}
+
+.single-campaigns .col-md-5 .wpulike
+{
+
+   display:none !important;
+
+}
+
+.sabai-questions-questions .cmp_list .status_tag {
+	padding-right: 7px;
+}
+
+body.post-type-archive-ideas .wpulike .count-box {
+	font-size: 10px !important;
+}
+
+/* Phan La edit remove vote button at profile page */
+.idea_tab .sabai-questions-vote-count.idea_vote {
+	display: none;
+}
+
+/* added by websky, change background for dropdown */
+ul.rs-dropdown{
+	background: #001a70 !important;
+}
+#buddypress #whats-new-form{
+	/*background-color: #001a70 !important;*/
+    /*padding: 10px !important;*/
+	display:block;
+	border: 2px solid #D3D8E8;
+	background-color: #D3D8E8;
+	padding:15px 15px 0px 15px;
+}
+
+#buddypress form#whats-new-form textarea {
+	width: 99%;
+}
+
+body #evcal_list .eventon_list_event .evcal_desc .evcal_desc3 .evors_eventtop_data em{
+    color: #fff !important;
+    background-color: orange !important;
+    border-color: orange !important;
+}
+
+body .eventon_fc_days .evo_fc_day { 
+    color: #000;
+}
+.evoRS_status_option_selection span#y {    
+    background-color: #237ebd !important;
+    color: #fff !important;
+}
+.evoRS_status_option_selection span#n {    
+    background-color: orange !important;
+    color: #fff !important;
+}
+.evoRS_status_option_selection span#m {    
+    background-color: #EAEAEA !important;
+    color: #000 !important;
+}
+
+body.sabai-entity-bundle-name-questions fieldset.sabai-form-buttons {
+    margin-top: -46px;
+}
+
+/*body.sabai-questions-demande .tpl-right, body.sabai-add-directory-listing .tpl-right {
+	background: #D3D8E8;
+	padding: 5px;
+}*/
+
+body.sabai-add-directory-listing fieldset.sabai-form-buttons {
+    margin-top: 0px;
+	positioN: relative;
+    top: -31px;
+}
+
+/*#main .main-color.container-wrap {
+	background-color: #D3D8E8;
+}*/
+
+.evcal_evdata_cell .evors_rsvped_status_user {
+    background-color: #237ebd;
+    color: #fff;
+    border-color: #237ebd;
+    border-radius: 8px;
+}
+
+body.post-type-archive-ideas .sabai-questions-vote-count .wpulike .counter{
+	height: 24px;
+    padding-top: 4px;
+}
+
+body .ui-corner-all{
+z-index: 999999 !important;
+}
+
+body.page-id-6 .kleo-page #main #main-container .template-page{
+	margin-bottom: 0px;
+    margin-top: 0px;
+    max-height: 599px;
+}
+body.page-id-59 .kleo-page #main .main-color{
+	background-color:#D3D8E8;
+}
+body.home-page .kleo-page #main .container-wrap.main-title {
+	background-color: #D3D8E8;
+}
+body.home-page .kleo-page #main .main-color .container .row .template-page{
+	padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+}
+body.home-page .kleo-page #main .main-color .container .row .template-page .wrap-content{
+	padding-left: 0px;
+    padding-right: 0px;	
+}
+body.home-page .kleo-page #main .main-color .container .row .template-page .wrap-content .activity{
+	padding-left: 4px;
+    padding-right: 20px;
+}
+body.home-page .kleo-page #main .main-color .container .row .template-page .wrap-content .activity ul li{
+margin-bottom:15px;
+}
+body.page-id-2369 .kleo-page #main .main-color .container .row .template-page .wrap-content .article-content p strong code{
+	display:none;
+}
+body.page-id-2369 .kleo-page #main .main-color .container .row .template-page .wrap-content .article-content code {    
+    color: #000;    
+    background-color: transparent;    
+}
+#buddypress .activity-timeline {
+    left: 43px;    
+}
+body.page-id-5 .kleo-page #main .main-color {
+    background-color: #D3D8E8;
+}
+body.page-id-5 .main-color #search-members-form{
+	background-color: #fff;
+}
+body.page-id-5 .main-color select {
+    background-color: #fff;
+}
+body.page-id-5 #buddypress div.pagination .pagination-links {
+    background-color: #fff;
+}

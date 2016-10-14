@@ -1,0 +1,774 @@
+/**
+ * EventON wp-admin all styles
+ * @version 2.3.11
+ */
+
+/* OVERRIDE AJDE base styles */
+	.evcal_admin_meta .ajde_yn_btn, .evo .ajde_yn_btn, .evors .ajde_yn_btn, 
+	body.post-type-evo-subscriber .ajde_yn_btn,
+	body.post-type-ajde_events .ajde_yn_btn,
+	.eventon_shortcode .ajde_yn_btn
+	{	
+		background-color: #F9D29F;	}
+	.evcal_admin_meta .ajde_yn_btn.NO, .evo .ajde_yn_btn.NO, .evors .ajde_yn_btn.NO, 
+	body.post-type-evo-subscriber .ajde_yn_btn.NO,
+	body.post-type-ajde_events .ajde_yn_btn.NO,
+	.eventon_shortcode .ajde_yn_btn.NO
+	{	
+		background-color: #fff;	}
+	.ajdePOSH_footer .ajdePOSH_insert{background-color:#DFA872 }
+	#ajde_customization #acus_left ul a.focused{border-left-color:#F9CA8D;}
+	table .backender_left .ajde-collapse-menu:hover span, 
+	table .backender_left .ajde-collapse-menu:hover #collapse-button div:after{
+		color: #F9CA8D;
+	}
+	.evors .ajde_yn_btn, .evors .ajde_yn_btn{position: absolute;	}
+	.evors .yesno_leg_line label,.evotx .yesno_leg_line label{
+		padding-left: 80px;
+ 		line-height: 1.8;}
+ 	.yesno_leg_line span.ajde_yn_btn {position: absolute;}
+ 	.evomb_body .ajdeToolTip:before{color: #CECECE}
+ 	.evomb_body .ajdeToolTip{opacity: 0.9;}
+ 	.ajde_icons.fa em{z-index: 1;}
+ 	/*.yesno_row {display: inline-block;}*/
+
+/* transitions */
+	.ajde_popup_text .eventon_shortcode_btn, table.evo_metatable tr{
+		-webkit-transition: all .2s ease;
+		-moz-transition: all .2s ease;
+		-ms-transition: all .2s ease;
+		-o-transition: all .2s ease;
+		transition: all .2s ease;
+	}
+	.evo_loader{
+		background: url(../../images/evo-loader.gif) center center no-repeat;
+		min-height: 100px; min-width: 100px;
+		opacity: 0.4
+	}
+/* general */
+	.evo_hide_this{display: none;!important}
+	.highl{background-color: #F7F1C8;}
+	/*-- eventon buttons */
+		.evo_admin_btn{
+			margin-left:0;
+			border:none;
+			font:bold 14px 'Open Sans', arial;
+			text-transform:uppercase;
+			line-height:150%;
+			display:inline-block;
+			cursor:pointer;
+			box-sizing:border-box;
+			padding:4px 10px;
+			margin-bottom:3px;
+			text-decoration:none;
+			border-radius: 4px;
+		}
+		#evcal_settings .eventon_guide_btn.button-primary, .evo_admin_btn.button-primary{
+			margin-left:0;
+			background-color: #dfa872;
+			background-image:none;
+			border:none;
+			font:bold 14px 'Open Sans';
+			text-transform:uppercase;
+			line-height:150%;
+			-webkit-box-shadow: none;
+			box-shadow: none;
+			border-radius:0px;
+			-webkit-border-radius: 0px;
+		}
+		#evcal_settings .eventon_guide_btn.button-primary:hover, .evo_admin_btn.button-primary:hover{
+			background-image: -webkit-gradient(linear,left top,left bottom,from(#e5a667),to(#da9551));
+			background-image: -webkit-linear-gradient(top,#e5a667,#da9551);
+			background-image: -moz-linear-gradient(top,#e5a667,#da9551);
+			background-image: -ms-linear-gradient(top,#e5a667,#da9551);
+			background-image: -o-linear-gradient(top,#e5a667,#da9551);
+			background-image: linear-gradient(to bottom,#e5a667,#da9551);
+			background-color: #dfa872;
+			-webkit-box-shadow: none;
+			box-shadow: none;
+		}
+		.evo_admin_btn.btn_prime:hover{background-color:#cd935a;}
+		.evo_admin_btn.btn_prime{
+			background-color:#dfa872; color:#fff;
+		}
+		.evo_admin_btn.btn_secondary:hover{background-color:#b04537;}
+		.evo_admin_btn.btn_secondary{
+			background-color: #ca594a;
+			color:#fff;	
+		}
+		.evo_admin_btn.btn_triad{background-color:#d4d4d4;color:#fff;}
+		.evo_admin_btn.btn_triad:hover{background-color:#A0A0A0;color:#fff;}
+		.evo_admin_btn.btn_tritiary{background-color:#487e8a;color:#fff;}
+		.evo_admin_btn.btn_tritiary:hover{background-color:#3a717d;}
+
+	.wp-media-buttons .evo_admin_btn.btn_prime{margin-right: 5px;}
+/* custom fonts for icon */
+	@font-face {
+		font-family: 'eventon';
+		src:url('../../fonts/eventon.eot');
+		src:url('../../fonts/eventon.eot?#iefix') format('embedded-opentype'),
+			url('../../fonts/eventon.ttf') format('truetype'),
+			url('../../fonts/eventon.woff') format('woff'),
+			url('../../fonts/eventon.svg#eventon') format('svg');
+		font-weight: normal;
+		font-style: normal;
+	}
+/* Eventon in-window lightbox */
+	.ajde_popup .message {
+	  font-size: 15px !important;
+	  display: none;
+	  background-color: #efcfaf;
+	  color: #915b25;
+	  margin: 0;
+	  padding: 12px 20px;
+	  font: italic 13px 'open sans';
+	  text-align: center;
+	}
+	.ajde_popup .message.bad {
+	  background-color: #ca594a;
+	  color: #fff;
+	}
+	.eventon_popup .message.good {
+	  background-color: #7FC585;
+	  color: #fff;
+	}
+/* events edit page */
+	body.post-type-ajde_events .wp-list-table.posts #evo_featured, body.post-type-ajde_events .wp-list-table.posts #woo.column-woo{
+		width: 46px;
+		text-align: left!important;
+	}
+	body.post-type-ajde_events .wp-list-table.posts #name{
+		width: 200px;
+		min-width: 200px
+	}
+	body.post-type-ajde_events .wp-list-table.posts #repeat{
+		width: 55px;
+		text-align: left!important;
+	}
+	a.evoevent_image{
+		position: absolute;
+		
+	}
+	.evoevent_image .evoEventCirc{
+		display: inline-block;		
+		height: 45px;
+		width: 45px;
+		border-radius: 50%;
+		border: 3px solid transparent;
+	}
+	.evoevent_image .evoEventCirc:hover{
+		border-color: #3d3d3d;
+	}
+	.column-name .evo_item_details{
+		display: inline-block;
+		padding-left: 60px;
+	}
+/* taxonomy section */
+	#evo_et1_color .evo_et1_color_circle{
+		height: 50px; width: 50px;
+		border:3px solid #fff;
+		border-radius:50%;cursor: pointer;
+	}
+	#evo_et1_color .evo_et1_color_circle:hover{border-color:#BBB;}
+	.event_type_id span{
+		display: block; float: left;
+		line-height: 130%
+	}.evoterm_color{		
+		width: 20px;height: 20px;
+		border-radius: 50%;
+		margin-left: 10px;
+	}
+	.event_type_id span.evoterm_icon{margin-left: 10px;margin-top: 2px;}
+	.evo_metafield_image .image_src{display: block;}
+	.evo_metafield_image .image_src img{width: 100%; height: auto;}
+
+	/* location */
+		.evotax_location_image img{width: 50px; height: auto; border-radius: 50%; overflow: hidden;}
+
+	/* event organizer tax */
+		body.taxonomy-event_organizer table.wp-list-table th.column-id, body.taxonomy-event_location table.wp-list-table th.column-id{
+			width: 40px;
+		}
+/*-- widget --*/	.eventon_widget_settings p.evo_widget_textarea textarea{
+		width: 100%;
+	}
+	#eventon_widget_settings .eventon_widget_top{
+		margin:-12px -12px 0px -12px;
+		background-color:#dfa872;
+		border-bottom:1px solid #dfdfdf;
+		padding:10px 0;
+		border-top: 3px solid #d0945a;
+	}
+	#eventon_widget_settings .eventon_widget_top p{
+		margin:0;
+		background:#dfa872 url(../../images/admin/widget_image.jpg) 10px center no-repeat;
+		height:33px;
+	}
+	#eventon_widget_settings .divider{
+		margin:0 -12px 0px;	
+		border-bottom:1px solid #dfdfdf;
+	}
+
+	.evo_widget_outter{
+		margin:0 -12px 0;
+	}
+	.evowig em{
+		background-color:#f6efe8;
+		padding:7px 11px;
+		display:block;
+		color:#c3b9af;
+		font: italic 12px 'open sans',arial;
+		line-height:110%;
+	}
+	.evo_wig_item .ajdeToolTip{
+		right:10px;
+		top:10px;
+	}
+
+	.evo_wig_item.select_row select{
+		border:none; box-shadow: none
+	}
+	.evo_wig_item.select_row label{
+		padding-left: 10px;
+		font: italic 15px 'open sans',arial;
+	}
+	.evo_wig_item{
+		border-bottom:1px solid #dfdfdf;
+		position:relative;
+	}
+
+	.evowig input{
+		background-color: transparent;
+		border: 0;
+		-webkit-box-sizing: border-box;
+		outline: 0;
+		width: 100%;
+		resize:none;
+		vertical-align:bottom;
+		overflow:hidden;
+		font: italic 15px 'open sans',arial;
+		-webkit-appearance: none;
+		-webkit-border-radius: 0;
+		box-shadow:none;
+		padding:7px 11px;
+	}
+	.evowig input:focus{
+		-webkit-appearance: none;
+		-webkit-border-radius: 0;
+		box-shadow:none
+	}
+	#eventon_widget_settings .evo_wig_item p{
+		padding:6px;margin:0;
+		font: italic 13px 'open sans',arial;
+	}
+	.evo_wug_hid{display:none}
+	#eventon_widget_settings .evo_wig_item p.evowig_chbx{
+		cursor:pointer;
+		background-color:#dfa872;
+		width:46px; height:35px;
+		display:block;
+		float:left;
+		margin-right:8px;
+		margin-bottom:0;
+		padding:0;
+	}
+	#eventon_widget_settings .evo_wig_item:hover p.evowig_chbx:before{
+		background-image:url(../../images/backend_post/checkmark_2.png);
+		background-position:center center;
+		background-repeat:no-repeat;
+		content:"";
+		opacity:0.3;
+		width:100%; height:100%; display:block;
+	}
+	#adminmenuwrap #adminmenu #toplevel_page_eventon a .wp-menu-image:before {
+		font-size: 20px;
+		margin-top: 3px;
+		margin-left: 5px;
+		position: absolute;
+	}
+	.evowig_chbx.selected{
+		background-image:url(../../images/backend_post/checkmark_2.png);
+		background-position:center center;
+		background-repeat:no-repeat;
+	}
+
+	/** added v 2.2.24 */
+	.evo_wig_item.input_checkboxes{padding: 4px;}
+	.evo_wig_item.input_checkboxes input{
+		width: auto;
+		display: inline-block;
+		border:1px solid #C8C8C8;
+		border-radius: 4px;
+	}
+	.evo_wig_item.input_checkboxes span{
+		display: block; padding-bottom: 5px;
+	}
+/* stylish meta box with table of content */
+	table.evo_metatable{border:none; border-spacing: 0px;
+	    border-collapse: separate;
+	    border-radius:8px; overflow:hidden;
+	    font-size: 14px;
+	    font-style: italic;
+	}
+	table.evo_metatable td{
+		padding: 10px;
+		border-bottom:1px dashed #E6E6E6;
+	}
+	table.evo_metatable tr:last-child td{border:none;}
+	table.evo_metatable tr:hover{
+		background-color: #FDF8EF;
+	}
+/* edit events page */
+	.inline-edit-ajde_events .input_time{
+		padding-right:60px;
+		display:block;
+		position:relative
+	}
+	.inline-edit-ajde_events .input_time em{
+		position:absolute;
+		right:5px;
+		top:5px;
+		width:50px;
+	}
+/* icon eventon */
+	#adminmenuwrap #adminmenu #toplevel_page_eventon a .wp-menu-image img {
+		display: none;
+	}	
+	#adminmenuwrap #adminmenu #toplevel_page_eventon a .wp-menu-image:before {
+		font-family: 'eventon' !important;
+		content: '\e600';
+		speak: none;
+		font-style: normal;
+		font-weight: normal;
+		font-variant: normal;
+		text-transform: none;
+		line-height: 1;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	}
+
+	#adminmenuwrap #menu-posts-ajde_events .wp-menu-image:before{
+		content: "\f133";
+		display: inline-block;
+		font-family: evo_FontAwesome;
+		font-style: normal;
+		font-weight: normal;
+		line-height: 1;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	}
+/* event locations */
+	body.taxonomy-event_location form #the-list span.view{display:none;}
+/* evcal settings page */
+	::-webkit-input-placeholder { /* WebKit browsers */
+	    color:    #EED1B5;
+	}
+	:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+	    color:    #EED1B5;
+	}
+	::-moz-placeholder { /* Mozilla Firefox 19+ */
+	    color:    #EED1B5;
+	}
+	:-ms-input-placeholder { /* Internet Explorer 10+ */
+	    color:    #EED1B5;
+	}
+	#meta_tabs a{cursor:pointer}
+	#meta_tabs a.evcal_5{
+		background-color: #F0E5DF
+	}
+	.postbox hr{background-color:#DFDFDF;border:none;height:1px;border-bottom:1px solid #fff}
+
+	#evcal_5 .notice {
+		margin: 15px -12px 15px -11px;
+		padding: 5px 20px;
+		background-color: #f2e3c2;
+		border-top: 1px solid #e9cfab;
+		border-bottom: 1px solid #e9cfab;
+	}
+	.evo_button_h1 p{padding: 10px;}
+	#evcal_004a .evo_EVC_arrange p span.fa:before{content:"\f10c";opacity: 0.4;}
+	#evcal_004a .evo_EVC_arrange p span.fa.hide:before{content:"\f058";opacity: 1;}
+	.evo_settings_box{
+		margin-top:10px;
+	}
+	.evo_diag {
+		margin-bottom:10px;
+		margin-top:10px;
+		padding-left:155px;
+	}
+	.evo_diag a{opacity:0.3; }
+	.evo_diag a:hover{opacity:1}
+	.evo_inside{
+		position:relative;
+		/*margin:0 -15px 0 -20px;*/
+	}
+	#evcal_012 p#evo_set_shortcodes{
+		font-size:16px;
+	}
+
+/** general site wide - wp-admin */
+	.evcal_admin_meta p{
+		font:13px 'open sans';
+		margin:5px 0;
+	}
+	.js .postbox.evcal_admin_meta h3{cursor:default}
+	/** import export styles */
+		.evo_lang_export{
+			position: relative;
+		}
+		#import_box{
+			background-color: #fff;
+			width: 300px;
+			z-index: 10;
+			position: absolute;
+			bottom: 40px;
+			padding: 10px;
+			box-shadow: 0px 0px 5px 0px #C8C8C8;
+			border-radius: 5px;
+		}
+		#import_box .msg{
+			margin: 10px -10px -10px;
+			padding: 10px;
+			background-color: #F7E3CF;
+			bottom: 0;
+		}
+		#import_box #close{
+			  cursor: pointer;
+			  color: #DFA872;
+			  position: absolute;
+			  top: 10px;
+			  right: 10px;
+			  font-size: 14px;
+			  border: 1px solid #DFA872;
+			  border-radius: 50%;
+			  font-family: 'open sans';
+			  height: 22px;
+			  width: 25px;
+			  text-align: center;
+			  padding-top: 3px;
+			  opacity: 0.5;
+		}
+		#import_box #close:hover{
+			opacity: 1;
+		}
+	/* appearance section */
+		#evo_theme_selection .evo_theme_selection{padding: 10px 0;}
+		#evo_theme_selection .evo_theme{
+			height: 20px;
+			padding: 4px; margin: 0;
+			display: inline-block;
+			border:1px solid #DFDFDF;
+			border-radius: 5px;
+			background-color: #fff;
+			margin-right: 15px;
+			float: left;
+			width: 150px;
+		}
+		#evo_theme_selection .evo_theme span{
+			display: block; float: left;
+			height: 20px; width: 30px;
+		}
+
+/*	ADDONS and license */
+	.evo_addons_page{	padding: 5px;}
+	.evo_addons_page .addon >*{	color: #444444;}
+	.evo_addons_page .addon{		
+		float: left;
+		padding: 20px;
+		background-color: #eadacb;
+		height: 280px;
+		box-sizing:border-box;
+		-moz-box-sizing:border-box; /* Firefox 28 and earlier*/
+		width: 25%;
+		border:5px solid #fff;
+		border-radius: 8px
+	}
+	.evo_addons_page .addon.activated{background-color: #B6D6E6;}
+	.evo_addons_page .addon.justactivate{background-color: #B2DCEC;}
+	.evo_addons_page .addon.activated.hasupdate{background-color: #E0AEA2;}
+	.evo_addons_page .addon:hover{opacity: 0.8;}
+	.evo_addons_page .addon.donthaveit{
+		background-color: #e7e7e7;
+	}
+	.evo_addons_page .addon.main{
+		background-color: #e2c0a1;
+		width: 50%;
+	}
+	.evo_addons_page .addon h2{font-size: 22px;}
+	.evo_addons_page .addon.main h2{
+		font-weight: 600;
+	}
+	.evo_addons_page .addon.main .links a{color:#fff;}
+	.evo_addons_page .addon.main .links a:hover{text-decoration: none;}
+	.evo_addons_page .version{font-size: 20px;margin: 0;padding: 0;}
+	.evo_addons_page .version span{ opacity: 0.4;}
+	.evo_addons_page .action{padding-top: 10px;}
+	.evo_addons_page .links a{color: #444444; text-decoration: none; font-size: 13px;}
+	.evo_addons_page .links a:hover, .evo_addons_page .links span:hover{text-decoration: underline;}
+	.eventon_guide_btn{cursor: pointer;}
+	.evo_update_plugins{
+		position: absolute;
+		font-family: sans-serif;
+		font-size: 9px;
+		line-height: 17px;
+		font-weight: bold;
+		margin-top: -8px;
+		-webkit-border-radius: 10px;
+		border-radius: 10px;
+		z-index: 26;
+		background-color: #464646;
+		color: #fff;
+		-webkit-box-shadow: rgba(255,255,255,0.5) 0 1px 0;
+		box-shadow: rgba(255,255,255,0.5) 0 1px 0;
+		text-shadow: 0 -1px 0 #333;
+	}
+	.evo_update_count{
+		display: block;
+		padding: 0 6px;
+		font-family: sans-serif;
+		font-size: 9px;
+		line-height: 17px;
+		font-weight: bold;
+		color: #fff;
+	}
+	@media (max-width: 768px){
+		.evo_addons_page .addon{padding: 10px;}
+	}
+	@media (max-width: 680px){
+		.evo_addons_page .addon{width: 50%;}
+	}
+
+/*-- language page--*/
+	.evoLANG_section_header:hover{background-color: #f4f4f4;color: #3d3d3d;}
+	.evoLANG_section_header.open:before{
+		border-width: 5px 5px 0 5px;
+		border-color: #ffffff transparent transparent transparent;
+		margin-top: 6px;
+		margin-left: -18px;
+	}
+	.evoLANG_section_header:before{
+		margin-left: -16px;
+		margin-top: 3px;
+		position: absolute;
+		content:"";
+		width: 0px;
+		height: 0px;
+		border-style: solid;
+		border-width: 5px 0 5px 5px;
+		border-color: transparent transparent transparent #ffffff;
+	}	
+	.evoLANG_section_header{
+		border-top: 1px solid #d9d7d7;
+		position: relative;
+		padding: 6px 20px 6px 25px;
+		background-color: #eeeeee;
+		color: #a8a8a8;
+		text-transform: uppercase;
+		font-size: 14px;
+		cursor: pointer;
+		margin: 0 -12px;
+	}
+	.evo_settings_togbox{display: none;}
+	.evo_settings_togbox{margin:0 -12px 0 -12px; padding: 15px;
+		background-color: #dfa872;
+	}
+	.evcal_lang_box input.evcal_lang{
+		background-color:#e9c6a4;
+		border:none;
+		height:26px;
+		width: 100%;
+		padding:0 8px;
+		font:13px 'open sans';
+		margin-right: 4px;
+		-webkit-box-shadow: none;
+		-moz-box-shadow: none;
+		box-shadow: none;
+		border-right: 3px solid #dfa872;
+		border-radius: 5px;
+	}
+	.evcal_lang_box input.evcal_lang::-webkit-input-placeholder{color:#fff;} 
+	.evcal_lang_box input.evcal_lang:-ms-input-placeholder{color:#fff;}
+	.evcal_lang_box input.evcal_lang::-moz-placeholder{color:#fff;	}
+
+	.eventon_custom_lang_lines{margin-top: 10px;}
+	.evcal_lang_box input.evcal_lang:hover, .evcal_lang_box input.evcal_lang:focus{
+		background-color:#F3DBC3;
+	}
+	.evcal_admin_meta .evcal_lang_p{
+		float:left; margin:0;
+		padding:0;
+		width: 33.3%;
+	}
+	.eventon_custom_lang_line:hover{border-color:#efd0b2}
+	.eventon_custom_lang_line:hover .eventon_cl_label_out{background-color:#efd0b2}
+	.eventon_custom_lang_line.onfocus{
+		border-color:#f4e3d3
+	}
+	.eventon_custom_lang_line.onfocus .eventon_cl_label_out{
+		color: #b07235;
+		border-color:#f4e3d3;
+		background-color:#f4e3d3;
+	}
+	.eventon_custom_lang_line.onfocus .eventon_cl_label{color: #000;} 
+	.eventon_custom_lang_line{
+		border:1px solid #e9be94;
+		position:relative;
+		-webkit-border-radius: 3px;
+		border-radius: 3px;
+		margin-bottom:3px;
+	}
+	.eventon_cl_label_out, .eventon_cl_input{float:left}
+	.eventon_cl_label_out{
+		width:38%;
+		background-color:#e6bc92;
+		margin:0;
+		height:100%;
+		text-align:right;
+		border-right:1px solid #e9be94;
+	}
+	.evcal_admin_meta .eventon_cl_label{
+		padding:5px; margin:0;
+		color: #fff;
+	    filter: dropshadow(color=#ffffff, offx=0, offy=1);
+		font-size:12px;
+	}
+	.evo_settings_togbox .eventon_cl_input:focus{
+		outline:none; border:none; box-shadow:none;
+	}
+	.evo_settings_togbox .eventon_cl_input{
+		font-size: 12px;
+		color: #fff;
+		-webkit-box-shadow: none;
+		-moz-box-shadow: none;
+		box-shadow: none;
+		margin:0;
+		padding:4px 6px;
+		width:60%;
+		border:none;
+		background-color:transparent;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		-ms-box-sizing: border-box;
+		box-sizing: border-box;	
+	}
+	.evcal_admin_meta .eventon_cl_legend{
+		margin:0 0 2px;
+		padding-bottom: 4px;
+		font-size:11px;
+		color:#925b25;
+		padding-left: 160px;
+		font-style: italic;
+	}
+	.evoLANG_subheader{
+		color: #fff; padding: 5px 0; text-transform: uppercase;
+	}
+	.evoLANG_subsec{padding-left: 10px; padding-bottom: 10px;}
+	.eventon_custom_lang_line span.ajdeToolTip{margin-top: 5px;}
+	.eventon_custom_lang_line span.ajdeToolTip:before{color:#000;}
+/* RTL for backend */
+	.evo_settings_box.adminRTL .yesno_row span.field_name{padding-left: 0;padding-right: 80px;}
+	.evo_settings_box.adminRTL .ajde_yn_btn.NO .btn_inner{margin-right: -43px; }
+	.evo_settings_box.adminRTL .catchHandle:before{margin-right: 0px;}
+/* support */	
+	.evo_support_box{
+		border-radius:3px;
+		padding:20px;
+		margin-bottom:20px;
+		background-color:#F3F3F3;
+		display:block;
+		color:#333;
+		text-decoration:none
+	}	
+	.evo_support_box:hover{background-color: #DFDFDF;}	
+	#evcal_5 h3{color: #616161; padding: 0;margin: 0;}
+	.js .postbox.evcal_admin_meta .evo_support_box h3{
+		margin-bottom:10px;
+		cursor:pointer;
+		padding: 0;
+	}
+	.evo_support_box.evo_troubleshoot{	background-color:#F4E3D4;	}
+	.evo_support_box.special{	background-color:#F0DFBB;	}
+	.evo_support_box.special:hover{	background-color:#F6DA9E;	}
+	.evo_support_box.twitter{	background-color:#8AC7E4;	}
+	.evo_support_box.twitter:hover{	background-color:#66C1EC;	}
+	.evo_support_box.twitter >*{color: #fff!important}
+	.evo_support_box p{
+		font-size:14px;
+		color:#747474
+	}
+	.evo_support_box a.btn:hover{opacity: 0.7}
+	.evo_support_box a.btn{
+		  background-color: #D07575;
+		  padding: 3px 10px;
+		  border-radius: 5px;
+		  text-decoration: none;
+		  color: #fff;
+		  font-size: 14px;
+		  text-transform: uppercase;
+		  margin: 15px 0;
+	}	
+	.eventon_searchbox{	margin-top: 15px;	}
+	.eventon_searchbox #searchform {
+		position: relative;
+		border: 2px solid #d7d7d7;
+		border-radius: 30px;
+		margin-bottom: 10px;
+	}
+	.eventon_searchbox input[type=text]:focus{outline:none;}
+	.eventon_searchbox input[type=text] {
+		padding: 15px 20px;
+		font: 300 20px 'open sans';
+		border: none;
+		background: transparent;
+		width: 100%;
+		outline: none;
+		box-shadow:none;
+	}
+	.eventon_searchbox input[type=submit] {
+		cursor: pointer;
+		background: #dfa872;
+		border: none;
+		font: 700 18px 'open sans';
+		color: #fff;
+		display: inline-block;
+		padding: 5px 14px;
+		border-bottom: 3px solid #cf955c;
+		text-transform: uppercase;
+		border-radius: 20px;
+		position: absolute;
+		right: 10px;
+		top: 10px;
+	}
+	.postbox .evotrouble_documentation h2{padding: 0;}
+
+	/* 2.3.20 */
+	h3#troubleshoot_videos{
+		cursor: pointer;
+		padding: 0px 10px;
+	}
+	.evotrouble_left, .evotrouble_right{float: left;}
+	.evotrouble_left{width: 60%;}
+	.evotrouble_right{width: 40%;}
+	.evotrouble_left h4,.evotrouble_left h5{
+		border:1px solid #EFEFEF;
+		padding: 7px;
+		cursor: pointer;
+		margin: 0;
+	}
+	.evotrouble_left h4{background-color: #F4FBDA}
+	.evotrouble_left h5{font-size: 13px; padding-left: 15px;}
+	.evotrouble_left h4:hover,.evotrouble_left h5:hover{background-color: #FFFBEF}
+	.evotrouble_left .evotrouble_qas p{
+		border:1px solid #EFEFEF;
+		margin: 0;
+		padding: 15px;
+		background-color: #F9F9F9
+	}
+	.evotrouble_left p{border-bottom: none;}
+	.evotrouble_qas{padding-top: 15px;}
+
+	@media (max-width: 600px){
+		.evotrouble_left, .evotrouble_right{float: none; width: 100%;}
+	}
+
+.clear{clear:both}

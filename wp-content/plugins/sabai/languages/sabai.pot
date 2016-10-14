@@ -1,0 +1,3522 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the sabai-directory package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: sabai\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-11-01 00:56+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+msgid "Filter"
+msgstr ""
+
+msgid "This page requires JavaScript enabled in your browser."
+msgstr ""
+
+msgid "Edit field"
+msgstr ""
+
+msgid "Delete field"
+msgstr ""
+
+msgid "Available Fields"
+msgstr ""
+
+#, php-format
+msgid "Existing Fields (%s)"
+msgstr ""
+
+msgid "Form Layout"
+msgstr ""
+
+#, php-format
+msgid "%d row"
+msgid_plural "%d rows"
+msgstr[0] ""
+msgstr[1] ""
+
+#, php-format
+msgid "%d column"
+msgid_plural "%d columns"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "Filterable Fields"
+msgstr ""
+
+msgid "If you are not redirected automatically, please click the button below:"
+msgstr ""
+
+msgid "Continue"
+msgstr ""
+
+msgid "There was an error processing the form."
+msgstr ""
+
+#, php-format
+msgid "%s Title: %s"
+msgstr ""
+
+#, php-format
+msgid "%s Content: %s"
+msgstr ""
+
+msgid "Status:"
+msgstr ""
+
+#, php-format
+msgid "Status: %s"
+msgstr ""
+
+msgid "Published on:"
+msgstr ""
+
+#, php-format
+msgid "Published on: %s"
+msgstr ""
+
+msgid "Untitled"
+msgstr ""
+
+msgid "Publish"
+msgstr ""
+
+msgid "Move to Trash"
+msgstr ""
+
+msgid "Update"
+msgstr ""
+
+msgid "Cancel"
+msgstr ""
+
+msgid "Enter title here"
+msgstr ""
+
+#, php-format
+msgid "%s Description: %s"
+msgstr ""
+
+msgid "Delete"
+msgstr ""
+
+#, php-format
+msgctxt "Delete taxonomy term modal window title"
+msgid "Delete this %s"
+msgstr ""
+
+msgid "Permalink:"
+msgstr ""
+
+msgid "Click to edit this part of the permalink"
+msgstr ""
+
+msgid "Edit"
+msgstr ""
+
+msgid "Add Comment"
+msgstr ""
+
+msgid "Save Changes"
+msgstr ""
+
+msgid "Disable voting on this comment"
+msgstr ""
+
+msgid "Disable flagging this comment"
+msgstr ""
+
+msgid "User"
+msgstr ""
+
+msgid "Submitted at"
+msgstr ""
+
+msgid "Spam score"
+msgstr ""
+
+msgid "Reason"
+msgstr ""
+
+msgid "Offensive"
+msgstr ""
+
+msgid "Spam"
+msgstr ""
+
+msgid "Off topic"
+msgstr ""
+
+msgid "Comment"
+msgstr ""
+
+msgid "Votes"
+msgstr ""
+
+msgid "Flags"
+msgstr ""
+
+msgid "Author"
+msgstr ""
+
+msgid "Date"
+msgstr ""
+
+#, php-format
+msgid "View %s"
+msgstr ""
+
+#, php-format
+msgid "%d vote"
+msgid_plural "%d votes"
+msgstr[0] ""
+msgstr[1] ""
+
+#, php-format
+msgid "%d flag (spam score: %d)"
+msgid_plural "%d flags (spam score: %d)"
+msgstr[0] ""
+msgstr[1] ""
+
+#, php-format
+msgid "All (%d)"
+msgstr ""
+
+msgid "All"
+msgstr ""
+
+#, php-format
+msgid "Published (%d)"
+msgstr ""
+
+msgid "Published"
+msgstr ""
+
+#, php-format
+msgid "Hidden (%d)"
+msgstr ""
+
+msgid "Hidden"
+msgstr ""
+
+msgid "Bulk Actions"
+msgstr ""
+
+msgid "Mark as published"
+msgstr ""
+
+msgid "Mark as hidden"
+msgstr ""
+
+msgid "Apply"
+msgstr ""
+
+msgid "Spam score threshold"
+msgstr ""
+
+msgid ""
+"When a comment is flagged, the comment is assigned a \"spam score\". "
+"Comments with spam scores exceeding the threshold value are marked as spam "
+"and become hidden from the public."
+msgstr ""
+
+msgid "Auto-delete spam"
+msgstr ""
+
+msgid ""
+"When checked, comments that are marked as spam will be deleted by the system."
+msgstr ""
+
+msgid "Delete spam after:"
+msgstr ""
+
+msgid ""
+"Enter the number of days the system will wait before auto-deleting comments "
+"marked as spam."
+msgstr ""
+
+msgid "days"
+msgstr ""
+
+msgid "Show login link to guest users"
+msgstr ""
+
+msgid "Voted at"
+msgstr ""
+
+msgid "Score"
+msgstr ""
+
+msgid "Delete Comment"
+msgstr ""
+
+msgid ""
+"Are you sure you want to <em>permanently</em> delete this comment? This "
+"cannot be undone."
+msgstr ""
+
+msgid "You have already voted for or flagged this comment"
+msgstr ""
+
+msgid "It is spam"
+msgstr ""
+
+msgid "It contains offensive language or content"
+msgstr ""
+
+msgid "It does not belong here"
+msgstr ""
+
+msgid "I am flagging this comment as"
+msgstr ""
+
+msgid "Flag Comment"
+msgstr ""
+
+msgid "Unhide this comment"
+msgstr ""
+
+msgid "Hide this comment"
+msgstr ""
+
+msgid "Are you sure you want to unhide this comment?"
+msgstr ""
+
+msgid ""
+"Hidden comments will not be visible to users without the \"Moderate comments"
+"\" permission. Are you sure you want to hide this comment?"
+msgstr ""
+
+msgid "Hide Comment"
+msgstr ""
+
+msgid "Unhide Comment"
+msgstr ""
+
+msgid "Comments"
+msgstr ""
+
+msgid "Edit this Comment"
+msgstr ""
+
+msgid "Delete this Comment"
+msgstr ""
+
+msgid "Unhide"
+msgstr ""
+
+msgid "Unhide this Comment"
+msgstr ""
+
+msgid "flag"
+msgstr ""
+
+msgid "Flag this comment"
+msgstr ""
+
+msgid "vote"
+msgstr ""
+
+msgid "Vote for this comment"
+msgstr ""
+
+#, php-format
+msgid "this comment was edited %1$s"
+msgid_plural "this comment was edited %2$d times, last edited %1$s"
+msgstr[0] ""
+msgstr[1] ""
+
+#, php-format
+msgid "%d hidden comment"
+msgid_plural "%d hidden comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#, php-format
+msgid "%d more comment"
+msgid_plural "%d more comments"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "Expand to show all comments on this post"
+msgstr ""
+
+msgid "add comment"
+msgstr ""
+
+msgid "Add a new comment"
+msgstr ""
+
+#, php-format
+msgid ""
+"You must <a href=\"%s\" class=\"sabai-login popup-login\">login</a> to post "
+"comments"
+msgstr ""
+
+#, php-format
+msgid "Comments for \"%s\""
+msgstr ""
+
+msgid "Edit Comment"
+msgstr ""
+
+#, php-format
+msgid "Comments (%d)"
+msgstr ""
+
+#, php-format
+msgid "%s (%d)"
+msgstr ""
+
+#, php-format
+msgid "Add comment to %s"
+msgstr ""
+
+#, php-format
+msgid "Edit own comments on %s"
+msgstr ""
+
+#, php-format
+msgid "Edit any comment on %s"
+msgstr ""
+
+#, php-format
+msgid "Delete own comments on %s"
+msgstr ""
+
+#, php-format
+msgid "Vote up comments on %s"
+msgstr ""
+
+#, php-format
+msgid "Vote up own comments on %s"
+msgstr ""
+
+#, php-format
+msgid "Flag comments on %s"
+msgstr ""
+
+msgid "Clear comments"
+msgstr ""
+
+#, php-format
+msgid "Deleted %d comment spam(s)"
+msgstr ""
+
+msgid "Allow HTML block elements"
+msgstr ""
+
+#, php-format
+msgid "Post %s"
+msgstr ""
+
+msgid "Your post has been submitted successfully."
+msgstr ""
+
+#, php-format
+msgid "Back to %s"
+msgstr ""
+
+msgid "Thanks for your submission, we will review it and get back with you."
+msgstr ""
+
+#, php-format
+msgid "Add %s"
+msgstr ""
+
+msgid "Status"
+msgstr ""
+
+msgid "Draft"
+msgstr ""
+
+msgid "Published on"
+msgstr ""
+
+msgid "Featured"
+msgstr ""
+
+#, php-format
+msgid "This is a featured %s"
+msgstr ""
+
+msgid "Priority"
+msgstr ""
+
+msgctxt "priority"
+msgid "High"
+msgstr ""
+
+msgctxt "priority"
+msgid "Normal"
+msgstr ""
+
+msgctxt "priority"
+msgid "Low"
+msgstr ""
+
+msgid "End Date"
+msgstr ""
+
+#, php-format
+msgid "%s posted successfully."
+msgstr ""
+
+msgid "Are you sure you want to permanently delete this post?"
+msgstr ""
+
+msgid "Delete Permanently"
+msgstr ""
+
+msgid "Pending"
+msgstr ""
+
+#, php-format
+msgid "%s updated successfully."
+msgstr ""
+
+msgid "Title"
+msgstr ""
+
+msgid "Views"
+msgstr ""
+
+#, php-format
+msgid "%s posted for %s: %s"
+msgstr ""
+
+msgid "(no title)"
+msgstr ""
+
+msgid "Restore"
+msgstr ""
+
+msgid "Restore this Post"
+msgstr ""
+
+msgid "Delete this Post"
+msgstr ""
+
+msgid "Trash"
+msgstr ""
+
+msgid "Trash this Post"
+msgstr ""
+
+msgid "Preview"
+msgstr ""
+
+msgid "View"
+msgstr ""
+
+msgid "Empty Trash"
+msgstr ""
+
+msgid "Are you sure you want to restore this post from trash?"
+msgstr ""
+
+msgid "Restore from Trash"
+msgstr ""
+
+msgid "Are you sure you want to move this post to trash?"
+msgstr ""
+
+msgid "Active"
+msgstr ""
+
+msgid "Added"
+msgstr ""
+
+msgid "Recent posts"
+msgstr ""
+
+#, php-format
+msgid "The most %d recent posts"
+msgstr ""
+
+msgid "Newest First"
+msgstr ""
+
+msgid "Oldest First"
+msgstr ""
+
+msgctxt "sort"
+msgid "Title"
+msgstr ""
+
+msgid "Are you sure you want to delete this post?"
+msgstr ""
+
+msgid "Reason for deletion"
+msgstr ""
+
+#, php-format
+msgid "Delete %s"
+msgstr ""
+
+msgid "Published date"
+msgstr ""
+
+msgid "ID"
+msgstr ""
+
+msgid "Content type"
+msgstr ""
+
+msgid "Slug"
+msgstr ""
+
+msgid "Text input field"
+msgstr ""
+
+msgid "Hidden field"
+msgstr ""
+
+msgid "Field size"
+msgstr ""
+
+msgid "Small"
+msgstr ""
+
+msgid "Medium"
+msgstr ""
+
+msgid "Large (responsive)"
+msgstr ""
+
+msgid "Minimum length"
+msgstr ""
+
+msgid "The minimum length of value in characters."
+msgstr ""
+
+msgid "Maximum length"
+msgstr ""
+
+msgid "The maximum length of value in characters."
+msgstr ""
+
+msgid "Other reason"
+msgstr ""
+
+msgid "Trashed"
+msgstr ""
+
+msgid "Spam or offensive"
+msgstr ""
+
+msgid "Link to post"
+msgstr ""
+
+msgid "Add featured post icon"
+msgstr ""
+
+#, php-format
+msgid "Add %s (without approval)"
+msgstr ""
+
+#, php-format
+msgid "Edit own %s"
+msgstr ""
+
+#, php-format
+msgid "Edit any %2$s"
+msgstr ""
+
+#, php-format
+msgid "Delete own %s"
+msgstr ""
+
+#, php-format
+msgid "Delete any %2$s / Manage flagged %1$s"
+msgstr ""
+
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#, php-format
+msgid "%s for \"%s\""
+msgstr ""
+
+msgid "Body"
+msgstr ""
+
+msgid "Keyword"
+msgstr ""
+
+msgid "Featured/Unfeatured"
+msgstr ""
+
+msgid "Guest Author"
+msgstr ""
+
+#, php-format
+msgctxt "tab"
+msgid "All %s"
+msgstr ""
+
+#, php-format
+msgid "Unfeatured %d content post(s)"
+msgstr ""
+
+msgid "Number of months to show in date picker"
+msgstr ""
+
+msgctxt "range separator"
+msgid "to"
+msgstr ""
+
+msgid "The second date must be later than the first date."
+msgstr ""
+
+msgid "Date/Time picker"
+msgstr ""
+
+msgid "Set current date selected by default"
+msgstr ""
+
+msgid "Hour"
+msgstr ""
+
+msgid "Minute"
+msgstr ""
+
+msgid "AM"
+msgstr ""
+
+msgid "PM"
+msgstr ""
+
+msgctxt "timepicker"
+msgid "Now"
+msgstr ""
+
+msgid "Deselect"
+msgstr ""
+
+msgid "Please select a date."
+msgstr ""
+
+msgid "Invalid date."
+msgstr ""
+
+#, php-format
+msgid "Date must be between %s and %s."
+msgstr ""
+
+#, php-format
+msgid "Date must be later than %s."
+msgstr ""
+
+#, php-format
+msgid "Date must be earlier than %s."
+msgstr ""
+
+#, php-format
+msgid "%s (desc)"
+msgstr ""
+
+msgid "Enable time (hour and minute)"
+msgstr ""
+
+msgid ""
+"Check this option to allow the user to enter the time (hour and minute) as "
+"well as the date."
+msgstr ""
+
+msgid "Restrict dates"
+msgstr ""
+
+msgid "Check this option to set the range of allowed dates for this field."
+msgstr ""
+
+msgid "Minimum date:"
+msgstr ""
+
+msgid "Maximum date:"
+msgstr ""
+
+msgid "The first date must be later than the second date."
+msgstr ""
+
+#, php-format
+msgid "Filter <span class=\"sabai-badge\">%d</span>"
+msgstr ""
+
+msgid "Clear all filters"
+msgstr ""
+
+msgid "Random"
+msgstr ""
+
+msgid "Unfeatured"
+msgstr ""
+
+msgctxt "option"
+msgid "Any"
+msgstr ""
+
+msgid "Show featured only"
+msgstr ""
+
+msgid "Guest author field"
+msgstr ""
+
+#, php-format
+msgid ""
+"Post as a guest by filling out the fields below or <a href=\"%s\" class="
+"\"sabai-login popup-login\">login</a> if you already have an account."
+msgstr ""
+
+msgid "visible to anonymous users only"
+msgstr ""
+
+msgid "Hide the Website field"
+msgstr ""
+
+msgid "Hide the header message"
+msgstr ""
+
+msgid "Header message"
+msgstr ""
+
+msgid "Do not allow e-mail address used by registered users"
+msgstr ""
+
+msgid "Check MX record of e-mail address"
+msgstr ""
+
+msgid "E-mail"
+msgstr ""
+
+msgid "Name"
+msgstr ""
+
+msgid "Website"
+msgstr ""
+
+msgid "IP Address"
+msgstr ""
+
+msgid "User Agent"
+msgstr ""
+
+msgid "The email address may not be used."
+msgstr ""
+
+msgid "Invalid domain name."
+msgstr ""
+
+msgid "Add More"
+msgstr ""
+
+#, php-format
+msgid "%s posted %s"
+msgstr ""
+
+#, php-format
+msgid "last edited %s"
+msgstr ""
+
+#, php-format
+msgid "last active %s"
+msgstr ""
+
+msgid "This post is featured."
+msgstr ""
+
+msgid "Autocomplete text field"
+msgstr ""
+
+msgid "ON/OFF"
+msgstr ""
+
+msgid "Checked"
+msgstr ""
+
+msgid "Unchecked"
+msgstr ""
+
+msgid "Form element type"
+msgstr ""
+
+msgid "Single checkbox"
+msgstr ""
+
+msgid "Radio buttons"
+msgstr ""
+
+msgid "Select list"
+msgstr ""
+
+msgid "Display inline"
+msgstr ""
+
+msgid "Check this to align all options on the same line."
+msgstr ""
+
+msgid "Option labels"
+msgstr ""
+
+msgid "Checkbox label"
+msgstr ""
+
+msgid "Enter the label displayed next to the checkbox."
+msgstr ""
+
+msgid "Min. length of keywords in characters"
+msgstr ""
+
+msgid "Match any or all"
+msgstr ""
+
+msgid "Match any"
+msgstr ""
+
+msgid "Match all"
+msgstr ""
+
+msgid "Choice"
+msgstr ""
+
+msgid "Checkboxes"
+msgstr ""
+
+msgid "Number of options to display"
+msgstr ""
+
+msgid ""
+"If there are more options than the number specified here, those options will "
+"be displayed in a popup window."
+msgstr ""
+
+msgid "Label for link to open popup window"
+msgstr ""
+
+#, php-format
+msgid "More %s"
+msgstr ""
+
+msgid "Default text"
+msgstr ""
+
+msgid "Range input field"
+msgstr ""
+
+msgid "Range separator"
+msgstr ""
+
+msgid "Range slider step"
+msgstr ""
+
+#, php-format
+msgid ""
+"The full specified value range of the slider (%s - %s) should be evenly "
+"divisible by the step"
+msgstr ""
+
+msgid "Default"
+msgstr ""
+
+msgid "Carousel"
+msgstr ""
+
+msgid "Yes"
+msgstr ""
+
+msgid "No"
+msgstr ""
+
+msgid "ON label"
+msgstr ""
+
+msgid "OFF label"
+msgstr ""
+
+msgid "Format"
+msgstr ""
+
+msgid "Link"
+msgstr ""
+
+msgid "Thumbnail (small)"
+msgstr ""
+
+msgid "Thumbnail (medium)"
+msgstr ""
+
+msgid "Thumbnail (large)"
+msgstr ""
+
+msgid "Thumbnail (small) with link"
+msgstr ""
+
+msgid "Thumbnail (medium) with link"
+msgstr ""
+
+msgid "Decimal point"
+msgstr ""
+
+msgid "Thousands separator"
+msgstr ""
+
+msgid "Open link in"
+msgstr ""
+
+msgid "Current window"
+msgstr ""
+
+msgid "New window"
+msgstr ""
+
+msgid "Add to rel attribute"
+msgstr ""
+
+msgid "Add \"nofollow\""
+msgstr ""
+
+msgid "Add \"external\""
+msgstr ""
+
+msgid "Show link as"
+msgstr ""
+
+msgid "Text link"
+msgstr ""
+
+msgid "Button"
+msgstr ""
+
+msgid "Trim text"
+msgstr ""
+
+msgid "Maximum number of characters:"
+msgstr ""
+
+msgid "Suffix text:"
+msgstr ""
+
+msgid "Number of columns"
+msgstr ""
+
+msgid "The value must be greater than the first value."
+msgstr ""
+
+msgid "CAPTCHA"
+msgstr ""
+
+msgid "Options"
+msgstr ""
+
+msgid "Email"
+msgstr ""
+
+msgid "HTML"
+msgstr ""
+
+msgid "Number"
+msgstr ""
+
+msgid "Minimum"
+msgstr ""
+
+msgid "The minimum value allowed in this field."
+msgstr ""
+
+msgid "Maximum"
+msgstr ""
+
+msgid "The maximum value allowed in this field."
+msgstr ""
+
+msgid "Decimals"
+msgstr ""
+
+msgid "The number of digits to the right of the decimal point."
+msgstr ""
+
+msgid "0 (no decimals)"
+msgstr ""
+
+msgid "Field prefix"
+msgstr ""
+
+msgid "Example: $, #, -"
+msgstr ""
+
+msgid "Field suffix"
+msgstr ""
+
+msgid "Example: km, %, g"
+msgstr ""
+
+msgid "Phone Number"
+msgstr ""
+
+msgid "Range"
+msgstr ""
+
+msgid "Section Break"
+msgstr ""
+
+msgid "Single Line Text"
+msgstr ""
+
+msgid "Character validation"
+msgstr ""
+
+msgid "Allow only integer numbers"
+msgstr ""
+
+msgid "Allow only alphabetic characters"
+msgstr ""
+
+msgid "Allow only alphanumeric characters"
+msgstr ""
+
+msgid "Allow only lowercase characters"
+msgstr ""
+
+msgid "Allow only uppercase characters"
+msgstr ""
+
+msgid "Must be a valid URL"
+msgstr ""
+
+msgid "Must be a valid e-mail address"
+msgstr ""
+
+msgid "Must match a regular expression"
+msgstr ""
+
+msgid "No validation"
+msgstr ""
+
+msgid "Regular Expression"
+msgstr ""
+
+msgid "Example: /^[0-9a-z]+$/i"
+msgstr ""
+
+msgid "Input mask"
+msgstr ""
+
+msgid ""
+"Use \"a\" to mask letter inputs (A-Z,a-z), \"9\" for numbers (0-9) and \"*\" "
+"for both."
+msgstr ""
+
+msgid "Paragraph Text"
+msgstr ""
+
+msgctxt "field type"
+msgid "User"
+msgstr ""
+
+msgid "Video"
+msgstr ""
+
+msgid "Make this field checked by default"
+msgstr ""
+
+msgid ""
+"Auto-populate e-mail address field with the current user's e-mail address"
+msgstr ""
+
+msgid "HTML fragment"
+msgstr ""
+
+msgid "Link field"
+msgstr ""
+
+msgid "Default link title"
+msgstr ""
+
+msgid "Do not allow custom link title"
+msgstr ""
+
+msgid "Link Title:"
+msgstr ""
+
+msgid "reCAPTCHA theme"
+msgstr ""
+
+msgctxt "reCAPTCHA theme"
+msgid "Light"
+msgstr ""
+
+msgctxt "reCAPTCHA theme"
+msgid "Dark"
+msgstr ""
+
+msgid "reCAPTCHA type"
+msgstr ""
+
+msgctxt "reCAPTCHA type"
+msgid "Image"
+msgstr ""
+
+msgctxt "reCAPTCHA type"
+msgid "Audio"
+msgstr ""
+
+msgid "Please fill out this field."
+msgstr ""
+
+#, php-format
+msgid "Failed verifying reCAPTCHA input: %s"
+msgstr ""
+
+msgid "- Select -"
+msgstr ""
+
+msgid "Slider input field"
+msgstr ""
+
+msgid "Textarea field"
+msgstr ""
+
+msgid "Rows"
+msgstr ""
+
+msgid "Preserve line breaks"
+msgstr ""
+
+msgid "Auto-populate field"
+msgstr ""
+
+msgid "Do not auto-populate"
+msgstr ""
+
+msgid "E-mail address of current user"
+msgstr ""
+
+msgid "Website URL of current user"
+msgstr ""
+
+msgid "User name of current user"
+msgstr ""
+
+msgid "Display name of current user"
+msgstr ""
+
+msgid "Set current user selected by default"
+msgstr ""
+
+msgid "Enable enhanced user interface (recommended)"
+msgstr ""
+
+msgid "Select User"
+msgstr ""
+
+msgid "Video field"
+msgstr ""
+
+msgid "Video ID:"
+msgstr ""
+
+msgid "reCAPTCHA Site Key"
+msgstr ""
+
+msgid "reCAPTCHA Secret Key"
+msgstr ""
+
+msgid "Add Field"
+msgstr ""
+
+msgid "Invalid field type."
+msgstr ""
+
+msgid "Next"
+msgstr ""
+
+msgid ""
+"Select the type of form element you would like to present to the user when "
+"editing this field."
+msgstr ""
+
+msgid "Field name"
+msgstr ""
+
+msgid ""
+"Enter a machine readable name for this form field. Only lowercase "
+"alphanumeric characters and underscores are allowed."
+msgstr ""
+
+msgid "Field Settings"
+msgstr ""
+
+msgid "Display Settings"
+msgstr ""
+
+msgid "Access Control Settings"
+msgstr ""
+
+msgid "Advanced Settings"
+msgstr ""
+
+msgid "Label"
+msgstr ""
+
+msgid "Hide label"
+msgstr ""
+
+msgid "Description"
+msgstr ""
+
+msgid "Enter a short description of the field displayed to the user."
+msgstr ""
+
+msgid "Required"
+msgstr ""
+
+msgid "Disabled"
+msgstr ""
+
+msgid "Maximum number of values"
+msgstr ""
+
+msgid "Maximum number of values users can enter for this field."
+msgstr ""
+
+#, php-format
+msgid "Display Settings (%s)"
+msgstr ""
+
+msgid "Display this field"
+msgstr ""
+
+msgid "Field renderer"
+msgstr ""
+
+msgid "A field renderer determines how the value of a field will be displayed."
+msgstr ""
+
+msgid "Field title"
+msgstr ""
+
+msgid "Use the form label"
+msgstr ""
+
+msgid "Custom"
+msgstr ""
+
+msgid "None"
+msgstr ""
+
+msgid "Field value separator"
+msgstr ""
+
+#, php-format
+msgid "Inherit display settings from %s"
+msgstr ""
+
+msgid ""
+"Select user roles to which this field is visible when submitting the form."
+msgstr ""
+
+msgid "Select user roles that can view this field."
+msgstr ""
+
+msgid "Default value"
+msgstr ""
+
+msgid "Unlimited"
+msgstr ""
+
+msgid "The name is already in use by another field."
+msgstr ""
+
+msgid "Select filter"
+msgstr ""
+
+msgid "Filter Settings"
+msgstr ""
+
+msgid "Form element type:"
+msgstr ""
+
+msgid "Select user roles that can edit this field."
+msgstr ""
+
+msgid "Invalid field."
+msgstr ""
+
+msgid "Filter type:"
+msgstr ""
+
+#, php-format
+msgctxt "filter_type"
+msgid "%s (target field: %s)"
+msgstr ""
+
+#, php-format
+msgid "%s (hidden)"
+msgstr ""
+
+msgid "(hidden)"
+msgstr ""
+
+msgctxt "sabai"
+msgid "Manage Form"
+msgstr ""
+
+msgctxt "admin-tab"
+msgid "Fields"
+msgstr ""
+
+msgctxt "sabai"
+msgid "Manage Filters"
+msgstr ""
+
+msgid ""
+"One or more fields have not been saved. You must save or delete these fields "
+"first before submitting the form."
+msgstr ""
+
+msgid ""
+"You have made changes but it has not been saved. You must submit the form "
+"for the changes to be saved permanently."
+msgstr ""
+
+msgid "Are you sure?"
+msgstr ""
+
+msgid "Photo size"
+msgstr ""
+
+msgid "Thumbnail photo"
+msgstr ""
+
+msgid "Medium size photo"
+msgstr ""
+
+msgid "Large size photo"
+msgstr ""
+
+msgid "Original size photo"
+msgstr ""
+
+msgid "You have already uploaded enough files!"
+msgstr ""
+
+#, php-format
+msgid "Failed uploading file. Error code: %d"
+msgstr ""
+
+msgid "Failed creating temporary file"
+msgstr ""
+
+msgid "Failed opening temporary file with write permission"
+msgstr ""
+
+msgid "Failed reading php input stream"
+msgstr ""
+
+msgid "Image size"
+msgstr ""
+
+msgid "Thumbnail"
+msgstr ""
+
+msgid "Medium size"
+msgstr ""
+
+msgid "Large size"
+msgstr ""
+
+msgid "Original size"
+msgstr ""
+
+msgid "File"
+msgstr ""
+
+msgid "Image"
+msgstr ""
+
+msgid "File upload field"
+msgstr ""
+
+msgid "Maximum file size"
+msgstr ""
+
+msgid ""
+"The maximum file size of uploaded files in kilobytes. Leave this field blank "
+"for no limit."
+msgstr ""
+
+msgid "Allowed file extensions"
+msgstr ""
+
+msgid ""
+"Enter a list of allowed file extensions separated by commas (i.e. jpg, gif, "
+"png, pdf)."
+msgstr ""
+
+#, php-format
+msgid "Failed fetching content of file %s."
+msgstr ""
+
+#, php-format
+msgid "Failed generating hash value for file %s."
+msgstr ""
+
+#, php-format
+msgid "%.1fMB"
+msgstr ""
+
+#, php-format
+msgid "%.1fKB"
+msgstr ""
+
+#, php-format
+msgid "%dB"
+msgstr ""
+
+#, php-format
+msgid "Supported file formats: %s"
+msgstr ""
+
+msgid "There are currently no files uploaded."
+msgstr ""
+
+#, php-format
+msgid "Maximum number of files %d, maximum file size %s."
+msgstr ""
+
+#, php-format
+msgid "Maximum file size %s."
+msgstr ""
+
+msgid "File Name"
+msgstr ""
+
+msgid "Size"
+msgstr ""
+
+#, php-format
+msgid "You may not upload more than %d files."
+msgstr ""
+
+#, php-format
+msgid "You may not upload more than %d files"
+msgstr ""
+
+#, php-format
+msgid "Deleted %d expired file upload token(s)."
+msgstr ""
+
+#, php-format
+msgid "Failed saving file %s to the upload directory."
+msgstr ""
+
+#, php-format
+msgid "File %s does not exist."
+msgstr ""
+
+#, php-format
+msgid "Failed opening stream for file %s."
+msgstr ""
+
+msgid "File Attachments"
+msgstr ""
+
+msgid "This post has one or more files attached."
+msgstr ""
+
+msgid "This post has one or more images attached."
+msgstr ""
+
+msgid "File upload directory"
+msgstr ""
+
+#, php-format
+msgid ""
+"Enter the path to a directory where uploaded files are stored. Leave blank "
+"to use the system default (%s). This directory must be writeable by the "
+"server."
+msgstr ""
+
+msgid "Temporary file upload directory"
+msgstr ""
+
+#, php-format
+msgid ""
+"Enter the path to a directory where temporary uploaded files are stored. "
+"Leave blank to use the system default (%s). This directory must be writeable "
+"by the server."
+msgstr ""
+
+msgid "Thumbnail directory"
+msgstr ""
+
+#, php-format
+msgid ""
+"Enter the path to a directory where thumbnail files are stored. Leave blank "
+"to use the system default (%s). This directory must be writeable by the "
+"server and accessible by the web browser."
+msgstr ""
+
+msgid "Thumbnail size"
+msgstr ""
+
+msgid "Enter the dimension of thumbnail files in pixels."
+msgstr ""
+
+msgid "Thumbnail resize method"
+msgstr ""
+
+msgid "Crop"
+msgstr ""
+
+msgid "Scale"
+msgstr ""
+
+msgid "Disable pretty URLs"
+msgstr ""
+
+msgid "The path must be different fom the other two."
+msgstr ""
+
+msgid "Redirecting..."
+msgstr ""
+
+msgid "cancel"
+msgstr ""
+
+#, php-format
+msgid "Sort by %s"
+msgstr ""
+
+msgid "Address Line 1"
+msgstr ""
+
+msgid "Address Line 2"
+msgstr ""
+
+msgid "City"
+msgstr ""
+
+msgid "State / Province / Region"
+msgstr ""
+
+msgid "Postal / Zip Code"
+msgstr ""
+
+msgid "Country"
+msgstr ""
+
+msgid "This field may not be empty."
+msgstr ""
+
+#, php-format
+msgid "Maximum of %d items is allowed for this field."
+msgstr ""
+
+msgid "No matches found"
+msgstr ""
+
+#, php-format
+msgid "Please enter %d or more characters"
+msgstr ""
+
+msgid "Selection required."
+msgstr ""
+
+msgid "Invalid option selected."
+msgstr ""
+
+#, php-format
+msgid "Maximum of %d selections allowed."
+msgstr ""
+
+msgid "File must be uploaded."
+msgstr ""
+
+msgid "No records found."
+msgstr ""
+
+msgid "Value"
+msgstr ""
+
+msgid "Add from CSV"
+msgstr ""
+
+#, php-format
+msgid "The input value did not match the regular expression: %s"
+msgstr ""
+
+msgid "Please select at least one option."
+msgstr ""
+
+#, php-format
+msgid "The input range must be between %s and %s."
+msgstr ""
+
+msgid "Selection is required for this field."
+msgstr ""
+
+#, php-format
+msgid "Maximum of %d selections is allowed for this field."
+msgstr ""
+
+msgid "Submit"
+msgstr ""
+
+msgid "Invalid token"
+msgstr ""
+
+msgid "An error occurred while processing the form."
+msgstr ""
+
+msgid "Please correct the error(s) below."
+msgstr ""
+
+msgid "The input value must be an integer."
+msgstr ""
+
+msgid "The input value must be numeric."
+msgstr ""
+
+msgid "The input value must consist of alphabets only."
+msgstr ""
+
+msgid "The input value must consist of alphanumeric characters only."
+msgstr ""
+
+msgid "The input value must consist of lowercasae characters only."
+msgstr ""
+
+msgid "The input value must consist of uppercase characters only."
+msgstr ""
+
+msgid "The input value is not a valid URL."
+msgstr ""
+
+msgid "The input value is not a valid E-mail address."
+msgstr ""
+
+#, php-format
+msgid "The input value must be %d characters."
+msgstr ""
+
+#, php-format
+msgid "The input value must be between %d and %d characters."
+msgstr ""
+
+#, php-format
+msgid "The input value must be shorter than %d characters."
+msgstr ""
+
+#, php-format
+msgid "The input value must be longer than %d characters."
+msgstr ""
+
+#, php-format
+msgid "The value must be equal or greater than %s."
+msgstr ""
+
+#, php-format
+msgid "The value must not be greater than %s."
+msgstr ""
+
+msgid "Next step"
+msgstr ""
+
+msgid "Save"
+msgstr ""
+
+msgid "Previous"
+msgstr ""
+
+msgid "Markdown editor"
+msgstr ""
+
+msgid "Hide editor buttons"
+msgstr ""
+
+msgid "Hide preview"
+msgstr ""
+
+msgid "Strong <strong> Ctrl+B  4"
+msgstr ""
+
+msgid "strong text"
+msgstr ""
+
+msgid "Emphasis <em> Ctrl+I"
+msgstr ""
+
+msgid "emphasized text"
+msgstr ""
+
+msgid "Hyperlink <a> Ctrl+L"
+msgstr ""
+
+msgid "enter link description here"
+msgstr ""
+
+msgid "<h2>Insert Hyperlink</h2><p>http://example.com/ \"optional title\"</p>"
+msgstr ""
+
+msgid "Blockquote <blockquote> Ctrl+Q"
+msgstr ""
+
+msgid "Blockquote"
+msgstr ""
+
+msgid "Code Sample <pre><code> Ctrl+K"
+msgstr ""
+
+msgid "enter code here"
+msgstr ""
+
+msgid "Image <img> Ctrl+G"
+msgstr ""
+
+msgid "enter image description here"
+msgstr ""
+
+msgid ""
+"<h2>Insert Image</h2><p>http://example.com/images/diagram.jpg \"optional "
+"title\"</p>"
+msgstr ""
+
+msgid "Numbered List <ol> Ctrl+O"
+msgstr ""
+
+msgid "Bulleted List <ul> Ctrl+U"
+msgstr ""
+
+msgid "List item"
+msgstr ""
+
+msgid "Heading <h1>/<h2> Ctrl+H"
+msgstr ""
+
+msgid "Heading"
+msgstr ""
+
+msgid "Horizontal Rule <hr> Ctrl+R"
+msgstr ""
+
+msgid "Undo - Ctrl+Z"
+msgstr ""
+
+msgid "Redo - Ctrl+Y"
+msgstr ""
+
+msgid "Redo - Ctrl+Shift+Z"
+msgstr ""
+
+msgid "Markdown Editing Help"
+msgstr ""
+
+msgid "Enable markdown help"
+msgstr ""
+
+msgid "Help URL"
+msgstr ""
+
+msgid ""
+"Enter the URL of a page that will open up in a popup window when the help "
+"button on the Markdown editor is clicked."
+msgstr ""
+
+msgid "Help window dimension"
+msgstr ""
+
+msgid "Enter the dimension of the popup help window in pixels."
+msgstr ""
+
+msgid "Icon size"
+msgstr ""
+
+msgid "Large"
+msgstr ""
+
+msgid "X-Large"
+msgstr ""
+
+msgid "Social Accounts"
+msgstr ""
+
+msgid "Social medias"
+msgstr ""
+
+msgid "Share"
+msgstr ""
+
+#, php-format
+msgid "Share this %s"
+msgstr ""
+
+msgid "Enable social sharing"
+msgstr ""
+
+msgid "Settings saved."
+msgstr ""
+
+msgid "Permissions"
+msgstr ""
+
+#, php-format
+msgid "Configure %s Add-on"
+msgstr ""
+
+msgid "Clone Add-on"
+msgstr ""
+
+#, php-format
+msgid "Press the button below to clone the <strong>%s</strong> add-on."
+msgstr ""
+
+msgid "Add-on Name"
+msgstr ""
+
+msgid "The name is already in use by another add-on."
+msgstr ""
+
+msgid "There is already a cloned add-on with that name."
+msgstr ""
+
+#, php-format
+msgid "Add-on %s could not be created."
+msgstr ""
+
+#, php-format
+msgid "Add-on %s has been created."
+msgstr ""
+
+msgid "Delete Add-on"
+msgstr ""
+
+#, php-format
+msgid "Are you sure you want to delete <strong>%s</strong>?"
+msgstr ""
+
+#, php-format
+msgid "Add-on %s has been deleted."
+msgstr ""
+
+msgid "Enable this email notification"
+msgstr ""
+
+#, php-format
+msgid ""
+"Enter the message that should be sent with this notification. Available "
+"template tags: %s"
+msgstr ""
+
+msgid "Subject"
+msgstr ""
+
+msgid "User Roles"
+msgstr ""
+
+msgid "Select the user roles to which this email notification is sent."
+msgstr ""
+
+msgid "Send this notification to guest authors"
+msgstr ""
+
+msgid "Send a copy to users of selected roles"
+msgstr ""
+
+msgid ""
+"Select the user roles to which a copy of this email notification is sent."
+msgstr ""
+
+msgid "Install Add-on"
+msgstr ""
+
+#, php-format
+msgid ""
+"You are about to install the <strong>%s</strong> (version: <strong>%s</"
+"strong>) add-on."
+msgstr ""
+
+#, php-format
+msgid "Add-on %s has been installed."
+msgstr ""
+
+msgid "Reload Add-on"
+msgstr ""
+
+#, php-format
+msgid ""
+"Press the button below to reload the current version of <strong>%s</strong>."
+msgstr ""
+
+#, php-format
+msgid "Add-on %s has been upgraded."
+msgstr ""
+
+msgid "Uninstall Add-on"
+msgstr ""
+
+#, php-format
+msgid ""
+"Are you sure you want to uninstall <strong>%s</strong>? All data of this "
+"addon will be deleted."
+msgstr ""
+
+#, php-format
+msgid "Add-on %s has been uninstalled."
+msgstr ""
+
+msgid "Upgrade Add-on"
+msgstr ""
+
+#, php-format
+msgid ""
+"Press the button below to upgrade <strong>%s</strong> to version <strong>%s</"
+"strong>."
+msgstr ""
+
+msgid "Guest"
+msgstr ""
+
+msgid "---------- Forwarded message ----------"
+msgstr ""
+
+#, php-format
+msgid "Sent From: %s"
+msgstr ""
+
+#, php-format
+msgid "Sent to: %s <%s>"
+msgstr ""
+
+#, php-format
+msgid "Sent to: %s <%s> and %d other recipient(s)"
+msgstr ""
+
+#, php-format
+msgid "Original Subject: %s"
+msgstr ""
+
+#, php-format
+msgid "FW: %s"
+msgstr ""
+
+msgid "General"
+msgstr ""
+
+msgid "Sabai Settings"
+msgstr ""
+
+msgid "System Settings"
+msgstr ""
+
+msgid "System Information"
+msgstr ""
+
+msgid "Run Cron"
+msgstr ""
+
+msgid "Settings"
+msgstr ""
+
+msgid "Clear Cache"
+msgstr ""
+
+msgid "Sabai Add-Ons"
+msgstr ""
+
+msgid "Version"
+msgstr ""
+
+msgid "Installable Add-ons"
+msgstr ""
+
+msgid "Upgrade this add-on"
+msgstr ""
+
+#, php-format
+msgid "Upgrade %s Add-on"
+msgstr ""
+
+msgid "Uninstall this add-on"
+msgstr ""
+
+#, php-format
+msgid "Uninstall %s Add-on"
+msgstr ""
+
+msgid "Configure this add-on"
+msgstr ""
+
+msgid "Clone this add-on"
+msgstr ""
+
+#, php-format
+msgid "Clone %s Add-on"
+msgstr ""
+
+msgid "Reload this add-on"
+msgstr ""
+
+#, php-format
+msgid "Reload %s Add-on"
+msgstr ""
+
+#, php-format
+msgid "<strong>%s</strong> by %s"
+msgstr ""
+
+#, php-format
+msgid "%s addon for Sabai"
+msgstr ""
+
+msgid "Install this add-on"
+msgstr ""
+
+#, php-format
+msgid "Install %s"
+msgstr ""
+
+msgid "Delete this add-on"
+msgstr ""
+
+msgid "Unknown"
+msgstr ""
+
+msgctxt "Upgrade add-ons"
+msgid "Upgrade Checked"
+msgstr ""
+
+msgctxt "Reload add-ons"
+msgid "Reload Checked"
+msgstr ""
+
+msgid "\"No Image\" image URL"
+msgstr ""
+
+#, php-format
+msgid "Leave blank to use the system default (%s)."
+msgstr ""
+
+msgid "\"No Image\" image URL (small)"
+msgstr ""
+
+msgid "Do not load jQuery UI CSS"
+msgstr ""
+
+msgid "Do not load bxslider javascript library on startup"
+msgstr ""
+
+#, php-format
+msgid "%s created successfully."
+msgstr ""
+
+#, php-format
+msgid "Are you sure you want to delete this %s?"
+msgstr ""
+
+#, php-format
+msgctxt "Delete taxonomy term form submit button"
+msgid "Delete %s"
+msgstr ""
+
+#, php-format
+msgid "Recount %s"
+msgstr ""
+
+msgid "Are you sure you want to <em>permanently</em> delete this item?"
+msgstr ""
+
+#, php-format
+msgid "Recent posts tagged %s"
+msgstr ""
+
+#, php-format
+msgid "The most recent %d posts tagged %s"
+msgstr ""
+
+msgid "Creation Date"
+msgstr ""
+
+msgid "Taxonomy"
+msgstr ""
+
+msgid "Parent Term"
+msgstr ""
+
+#, php-format
+msgid "Select %s"
+msgstr ""
+
+msgid "Number of term options"
+msgstr ""
+
+msgid "Depth of term hierarchy tree"
+msgstr ""
+
+msgid "Icon"
+msgstr ""
+
+msgid "Maximum number of items to display (0 or unlimited)"
+msgstr ""
+
+msgid "Separator"
+msgstr ""
+
+msgid "Taxonomy Terms"
+msgstr ""
+
+msgid "Enable enhanced user interface"
+msgstr ""
+
+#, php-format
+msgid ""
+"Check this to apply the jQuery %s plugin to this field to enable ajax auto-"
+"suggestion and more user friendly input method."
+msgstr ""
+
+msgid "Allow adding new items"
+msgstr ""
+
+msgid ""
+"Check this to allow the user to add new items that do not currently exist in "
+"the list. This requires the \"Add XXX\" permission granted to the user, "
+"where XXX is the type of item such as Categories, Tags, and etc."
+msgstr ""
+
+msgid "Enter a text string used to separate multiple terms."
+msgstr ""
+
+#, php-format
+msgid "Parent %s"
+msgstr ""
+
+#, php-format
+msgid "The following %s do not exist: %s"
+msgstr ""
+
+msgid "Info"
+msgstr ""
+
+#, php-format
+msgctxt "Delete taxonomy term page title"
+msgid "Delete %s"
+msgstr ""
+
+#, php-format
+msgid "%s count"
+msgstr ""
+
+#, php-format
+msgid "Edit this %s"
+msgstr ""
+
+#, php-format
+msgid "Delete this %s"
+msgstr ""
+
+#, php-format
+msgid "Assign %s"
+msgstr ""
+
+#, php-format
+msgid "Remove %s"
+msgstr ""
+
+#, php-format
+msgctxt "Filter"
+msgid "All %s"
+msgstr ""
+
+msgid "Time"
+msgstr ""
+
+msgid "Enable day of week"
+msgstr ""
+
+msgid "Enable end time"
+msgstr ""
+
+msgid "Time picker"
+msgstr ""
+
+msgid "Set current time selected by default"
+msgstr ""
+
+msgid "Invalid time."
+msgstr ""
+
+msgid "Please pick a time."
+msgstr ""
+
+msgid "Please select a day of week."
+msgstr ""
+
+msgid "Please select an end time."
+msgstr ""
+
+msgid "Monday"
+msgstr ""
+
+msgid "Tuesday"
+msgstr ""
+
+msgid "Wednesday"
+msgstr ""
+
+msgid "Thursday"
+msgstr ""
+
+msgid "Friday"
+msgstr ""
+
+msgid "Saturday"
+msgstr ""
+
+msgid "Sunday"
+msgstr ""
+
+msgid "Opening Hours"
+msgstr ""
+
+msgctxt "opening hours"
+msgid "Closed"
+msgstr ""
+
+msgid "Show days without any entry as closed"
+msgstr ""
+
+msgid "Label for closed days"
+msgstr ""
+
+msgid "Date added"
+msgstr ""
+
+msgid "Date flagged"
+msgstr ""
+
+msgid "IP address"
+msgstr ""
+
+msgid "Yes / No"
+msgstr ""
+
+msgid "Rating"
+msgstr ""
+
+msgid "Recent"
+msgstr ""
+
+msgctxt "sort"
+msgid "Flags"
+msgstr ""
+
+msgid "Are you sure you want to ignore all the flags submitted?"
+msgstr ""
+
+msgid "Ignore Flags"
+msgstr ""
+
+msgid "Redo Submit"
+msgstr ""
+
+msgid "Vote"
+msgstr ""
+
+msgid "Helpful"
+msgstr ""
+
+msgid "Favorite"
+msgstr ""
+
+msgid "Flag"
+msgstr ""
+
+msgid "You do not have the permission to perform this action."
+msgstr ""
+
+msgid "Other reason (Enter comment below)"
+msgstr ""
+
+#, php-format
+msgid "%s & Up"
+msgstr ""
+
+#, php-format
+msgid "%d stars"
+msgstr ""
+
+#, php-format
+msgid "%d stars & up"
+msgstr ""
+
+msgid "Mark/unmark this post as favorite (click again to undo)"
+msgstr ""
+
+msgid "Mark/unmark this post as favorite"
+msgstr ""
+
+msgid "System Message"
+msgstr ""
+
+#, php-format
+msgid "%.2f out of 5 stars"
+msgstr ""
+
+msgid "This post is useful (click again to undo)"
+msgstr ""
+
+msgid "Mark this post as useful"
+msgstr ""
+
+msgid "This post is not useful (click again to undo)"
+msgstr ""
+
+msgid "Unmark this post as useful"
+msgstr ""
+
+msgid "Rating Details"
+msgstr ""
+
+#, php-format
+msgid "The input value must be between %d and %d."
+msgstr ""
+
+msgid "Invalid value."
+msgstr ""
+
+#, php-format
+msgid "Vote for \"%s\""
+msgstr ""
+
+#, php-format
+msgid "Vote up %s"
+msgstr ""
+
+#, php-format
+msgid "Vote up own %s"
+msgstr ""
+
+#, php-format
+msgid "Vote down %s"
+msgstr ""
+
+#, php-format
+msgid "Vote %s helpful"
+msgstr ""
+
+#, php-format
+msgid "Vote own %s helpful"
+msgstr ""
+
+#, php-format
+msgid "Rate %s"
+msgstr ""
+
+#, php-format
+msgid "Rate own %s"
+msgstr ""
+
+msgid "Favorites"
+msgstr ""
+
+#, php-format
+msgid "Flag %s"
+msgstr ""
+
+msgid "Reason for flagging"
+msgstr ""
+
+#, php-format
+msgid "You have already flagged this %s. Press the button to redo flagging."
+msgstr ""
+
+msgid "Redo Flagging"
+msgstr ""
+
+msgid "Thanks, we will take a look at it."
+msgstr ""
+
+#, php-format
+msgid "Vote for this %s"
+msgstr ""
+
+#, php-format
+msgid "Unvote for this %s"
+msgstr ""
+
+#, php-format
+msgid "Bookmark this %s"
+msgstr ""
+
+#, php-format
+msgid "Unbookmark this %s"
+msgstr ""
+
+msgid "Bookmark"
+msgstr ""
+
+#, php-format
+msgid "Flag this %s"
+msgstr ""
+
+msgid "Flagged"
+msgstr ""
+
+#, php-format
+msgid "This post has %d flags"
+msgstr ""
+
+#, php-format
+msgid "Clear %s"
+msgstr ""
+
+msgid "Flagged/Unflagged"
+msgstr ""
+
+msgid "Unflagged"
+msgstr ""
+
+msgid "Ratings"
+msgstr ""
+
+#, php-format
+msgid "%d vote (score: %d)"
+msgid_plural "%d votes (score: %d)"
+msgstr[0] ""
+msgstr[1] ""
+
+#, php-format
+msgid "%d favorite"
+msgid_plural "%d favorites"
+msgstr[0] ""
+msgstr[1] ""
+
+#, php-format
+msgid ""
+"Comment posted by %s on %s has been marked as spam (spam score: %d, flag "
+"count: %d)"
+msgstr ""
+
+msgid "Bookmarks"
+msgstr ""
+
+msgid "CAPTCHA image size"
+msgstr ""
+
+msgid "You did not enter the correct characters."
+msgstr ""
+
+msgid "The Really Simple CAPTCHA plugin must be installed and active."
+msgstr ""
+
+msgid "Use an existing page"
+msgstr ""
+
+msgid "Create a new page"
+msgstr ""
+
+msgid "Title:"
+msgstr ""
+
+msgid "Slug:"
+msgstr ""
+
+msgid "No page (use the parent page)"
+msgstr ""
+
+msgid "Page Settings"
+msgstr ""
+
+msgid "Slug Settings"
+msgstr ""
+
+msgid "WordPress editor"
+msgstr ""
+
+msgid "Disable Visual mode"
+msgstr ""
+
+msgid "Disable toolbar in Text mode"
+msgstr ""
+
+msgid "OK"
+msgstr ""
+
+msgid "Process shortcode(s)"
+msgstr ""
+
+#, php-format
+msgid "User roles allowed to use shortcodes: %s"
+msgstr ""
+
+msgctxt "tab"
+msgid "Pages"
+msgstr ""
+
+msgid "CodeCanyon.net Purchase Code Settings"
+msgstr ""
+
+msgid ""
+"Enter the item purchase code you received from CodeCanyon.net to enable "
+"automatic updates for each plugin. Make sure that you enter a valid purchase "
+"code here otherwise it will just slow your site down."
+msgstr ""
+
+msgid "User roles allowed to use shortcodes in content"
+msgstr ""
+
+msgid "Token has expired. Please reload the page and try again."
+msgstr ""
+
+msgid "Transition mode"
+msgstr ""
+
+msgctxt "transition mode"
+msgid "Horizontal"
+msgstr ""
+
+msgctxt "transition mode"
+msgid "Vertical"
+msgstr ""
+
+msgctxt "transition mode"
+msgid "Fade"
+msgstr ""
+
+msgid "Automatically cycle slides"
+msgstr ""
+
+msgid "The amount of time to delay between automatically cycling slides."
+msgstr ""
+
+msgid "Show captions"
+msgstr ""
+
+msgid "Show prev/next controls"
+msgstr ""
+
+msgid "Show indicator circles"
+msgstr ""
+
+msgid "Afghanistan"
+msgstr ""
+
+msgid "Aland Islands"
+msgstr ""
+
+msgid "Albania"
+msgstr ""
+
+msgid "Algeria"
+msgstr ""
+
+msgid "American Samoa"
+msgstr ""
+
+msgid "Andorra"
+msgstr ""
+
+msgid "Angola"
+msgstr ""
+
+msgid "Anguilla"
+msgstr ""
+
+msgid "Antarctica"
+msgstr ""
+
+msgid "Antigua And Barbuda"
+msgstr ""
+
+msgid "Argentina"
+msgstr ""
+
+msgid "Armenia"
+msgstr ""
+
+msgid "Aruba"
+msgstr ""
+
+msgid "Australia"
+msgstr ""
+
+msgid "Austria"
+msgstr ""
+
+msgid "Azerbaijan"
+msgstr ""
+
+msgid "Bahamas"
+msgstr ""
+
+msgid "Bahrain"
+msgstr ""
+
+msgid "Bangladesh"
+msgstr ""
+
+msgid "Barbados"
+msgstr ""
+
+msgid "Belarus"
+msgstr ""
+
+msgid "Belgium"
+msgstr ""
+
+msgid "Belize"
+msgstr ""
+
+msgid "Benin"
+msgstr ""
+
+msgid "Bermuda"
+msgstr ""
+
+msgid "Bhutan"
+msgstr ""
+
+msgid "Bolivia"
+msgstr ""
+
+msgid "Bosnia And Herzegovina"
+msgstr ""
+
+msgid "Botswana"
+msgstr ""
+
+msgid "Bouvet Island"
+msgstr ""
+
+msgid "Brazil"
+msgstr ""
+
+msgid "British Indian Ocean Territory"
+msgstr ""
+
+msgid "Brunei Darussalam"
+msgstr ""
+
+msgid "Bulgaria"
+msgstr ""
+
+msgid "Burkina Faso"
+msgstr ""
+
+msgid "Burundi"
+msgstr ""
+
+msgid "Cambodia"
+msgstr ""
+
+msgid "Cameroon"
+msgstr ""
+
+msgid "Canada"
+msgstr ""
+
+msgid "Cape Verde"
+msgstr ""
+
+msgid "Cayman Islands"
+msgstr ""
+
+msgid "Central African Republic"
+msgstr ""
+
+msgid "Chad"
+msgstr ""
+
+msgid "Chile"
+msgstr ""
+
+msgid "China"
+msgstr ""
+
+msgid "Christmas Island"
+msgstr ""
+
+msgid "Cocos (Keeling) Islands"
+msgstr ""
+
+msgid "Colombia"
+msgstr ""
+
+msgid "Comoros"
+msgstr ""
+
+msgid "Congo"
+msgstr ""
+
+msgid "Congo, Democratic Republic"
+msgstr ""
+
+msgid "Cook Islands"
+msgstr ""
+
+msgid "Costa Rica"
+msgstr ""
+
+msgid "Cote D'Ivoire"
+msgstr ""
+
+msgid "Croatia"
+msgstr ""
+
+msgid "Cuba"
+msgstr ""
+
+msgid "Cyprus"
+msgstr ""
+
+msgid "Czech Republic"
+msgstr ""
+
+msgid "Denmark"
+msgstr ""
+
+msgid "Djibouti"
+msgstr ""
+
+msgid "Dominica"
+msgstr ""
+
+msgid "Dominican Republic"
+msgstr ""
+
+msgid "Ecuador"
+msgstr ""
+
+msgid "Egypt"
+msgstr ""
+
+msgid "El Salvador"
+msgstr ""
+
+msgid "Equatorial Guinea"
+msgstr ""
+
+msgid "Eritrea"
+msgstr ""
+
+msgid "Estonia"
+msgstr ""
+
+msgid "Ethiopia"
+msgstr ""
+
+msgid "Falkland Islands (Malvinas)"
+msgstr ""
+
+msgid "Faroe Islands"
+msgstr ""
+
+msgid "Fiji"
+msgstr ""
+
+msgid "Finland"
+msgstr ""
+
+msgid "France"
+msgstr ""
+
+msgid "French Guiana"
+msgstr ""
+
+msgid "French Polynesia"
+msgstr ""
+
+msgid "French Southern Territories"
+msgstr ""
+
+msgid "Gabon"
+msgstr ""
+
+msgid "Gambia"
+msgstr ""
+
+msgid "Georgia"
+msgstr ""
+
+msgid "Germany"
+msgstr ""
+
+msgid "Ghana"
+msgstr ""
+
+msgid "Gibraltar"
+msgstr ""
+
+msgid "Greece"
+msgstr ""
+
+msgid "Greenland"
+msgstr ""
+
+msgid "Grenada"
+msgstr ""
+
+msgid "Guadeloupe"
+msgstr ""
+
+msgid "Guam"
+msgstr ""
+
+msgid "Guatemala"
+msgstr ""
+
+msgid "Guernsey"
+msgstr ""
+
+msgid "Guinea"
+msgstr ""
+
+msgid "Guinea-Bissau"
+msgstr ""
+
+msgid "Guyana"
+msgstr ""
+
+msgid "Haiti"
+msgstr ""
+
+msgid "Heard Island & Mcdonald Islands"
+msgstr ""
+
+msgid "Holy See (Vatican City State)"
+msgstr ""
+
+msgid "Honduras"
+msgstr ""
+
+msgid "Hong Kong"
+msgstr ""
+
+msgid "Hungary"
+msgstr ""
+
+msgid "Iceland"
+msgstr ""
+
+msgid "India"
+msgstr ""
+
+msgid "Indonesia"
+msgstr ""
+
+msgid "Iran"
+msgstr ""
+
+msgid "Iraq"
+msgstr ""
+
+msgid "Ireland"
+msgstr ""
+
+msgid "Isle Of Man"
+msgstr ""
+
+msgid "Israel"
+msgstr ""
+
+msgid "Italy"
+msgstr ""
+
+msgid "Jamaica"
+msgstr ""
+
+msgid "Japan"
+msgstr ""
+
+msgid "Jersey"
+msgstr ""
+
+msgid "Jordan"
+msgstr ""
+
+msgid "Kazakhstan"
+msgstr ""
+
+msgid "Kenya"
+msgstr ""
+
+msgid "Kiribati"
+msgstr ""
+
+msgid "Korea"
+msgstr ""
+
+msgid "Kuwait"
+msgstr ""
+
+msgid "Kyrgyzstan"
+msgstr ""
+
+msgid "Lao People's Democratic Republic"
+msgstr ""
+
+msgid "Latvia"
+msgstr ""
+
+msgid "Lebanon"
+msgstr ""
+
+msgid "Lesotho"
+msgstr ""
+
+msgid "Liberia"
+msgstr ""
+
+msgid "Libyan Arab Jamahiriya"
+msgstr ""
+
+msgid "Liechtenstein"
+msgstr ""
+
+msgid "Lithuania"
+msgstr ""
+
+msgid "Luxembourg"
+msgstr ""
+
+msgid "Macao"
+msgstr ""
+
+msgid "Macedonia"
+msgstr ""
+
+msgid "Madagascar"
+msgstr ""
+
+msgid "Malawi"
+msgstr ""
+
+msgid "Malaysia"
+msgstr ""
+
+msgid "Maldives"
+msgstr ""
+
+msgid "Mali"
+msgstr ""
+
+msgid "Malta"
+msgstr ""
+
+msgid "Marshall Islands"
+msgstr ""
+
+msgid "Martinique"
+msgstr ""
+
+msgid "Mauritania"
+msgstr ""
+
+msgid "Mauritius"
+msgstr ""
+
+msgid "Mayotte"
+msgstr ""
+
+msgid "Mexico"
+msgstr ""
+
+msgid "Federated States of Micronesia"
+msgstr ""
+
+msgid "Moldova"
+msgstr ""
+
+msgid "Monaco"
+msgstr ""
+
+msgid "Mongolia"
+msgstr ""
+
+msgid "Montenegro"
+msgstr ""
+
+msgid "Montserrat"
+msgstr ""
+
+msgid "Morocco"
+msgstr ""
+
+msgid "Mozambique"
+msgstr ""
+
+msgid "Myanmar"
+msgstr ""
+
+msgid "Namibia"
+msgstr ""
+
+msgid "Nauru"
+msgstr ""
+
+msgid "Nepal"
+msgstr ""
+
+msgid "Netherlands"
+msgstr ""
+
+msgid "Netherlands Antilles"
+msgstr ""
+
+msgid "New Caledonia"
+msgstr ""
+
+msgid "New Zealand"
+msgstr ""
+
+msgid "Nicaragua"
+msgstr ""
+
+msgid "Niger"
+msgstr ""
+
+msgid "Nigeria"
+msgstr ""
+
+msgid "Niue"
+msgstr ""
+
+msgid "Norfolk Island"
+msgstr ""
+
+msgid "Northern Mariana Islands"
+msgstr ""
+
+msgid "Norway"
+msgstr ""
+
+msgid "Oman"
+msgstr ""
+
+msgid "Pakistan"
+msgstr ""
+
+msgid "Palau"
+msgstr ""
+
+msgid "Palestinian Territories"
+msgstr ""
+
+msgid "Panama"
+msgstr ""
+
+msgid "Papua New Guinea"
+msgstr ""
+
+msgid "Paraguay"
+msgstr ""
+
+msgid "Peru"
+msgstr ""
+
+msgid "Philippines"
+msgstr ""
+
+msgid "Pitcairn"
+msgstr ""
+
+msgid "Poland"
+msgstr ""
+
+msgid "Portugal"
+msgstr ""
+
+msgid "Puerto Rico"
+msgstr ""
+
+msgid "Qatar"
+msgstr ""
+
+msgid "Reunion"
+msgstr ""
+
+msgid "Romania"
+msgstr ""
+
+msgid "Russian Federation"
+msgstr ""
+
+msgid "Rwanda"
+msgstr ""
+
+msgid "Saint Barthelemy"
+msgstr ""
+
+msgid "Saint Helena"
+msgstr ""
+
+msgid "Saint Kitts And Nevis"
+msgstr ""
+
+msgid "Saint Lucia"
+msgstr ""
+
+msgid "Saint Martin"
+msgstr ""
+
+msgid "Saint Pierre And Miquelon"
+msgstr ""
+
+msgid "Saint Vincent And Grenadines"
+msgstr ""
+
+msgid "Samoa"
+msgstr ""
+
+msgid "San Marino"
+msgstr ""
+
+msgid "Sao Tome And Principe"
+msgstr ""
+
+msgid "Saudi Arabia"
+msgstr ""
+
+msgid "Senegal"
+msgstr ""
+
+msgid "Serbia"
+msgstr ""
+
+msgid "Seychelles"
+msgstr ""
+
+msgid "Sierra Leone"
+msgstr ""
+
+msgid "Singapore"
+msgstr ""
+
+msgid "Slovakia"
+msgstr ""
+
+msgid "Slovenia"
+msgstr ""
+
+msgid "Solomon Islands"
+msgstr ""
+
+msgid "Somalia"
+msgstr ""
+
+msgid "South Africa"
+msgstr ""
+
+msgid "South Georgia And Sandwich Isl."
+msgstr ""
+
+msgid "Spain"
+msgstr ""
+
+msgid "Sri Lanka"
+msgstr ""
+
+msgid "Sudan"
+msgstr ""
+
+msgid "Suriname"
+msgstr ""
+
+msgid "Svalbard And Jan Mayen"
+msgstr ""
+
+msgid "Swaziland"
+msgstr ""
+
+msgid "Sweden"
+msgstr ""
+
+msgid "Switzerland"
+msgstr ""
+
+msgid "Syrian Arab Republic"
+msgstr ""
+
+msgid "Taiwan"
+msgstr ""
+
+msgid "Tajikistan"
+msgstr ""
+
+msgid "Tanzania"
+msgstr ""
+
+msgid "Thailand"
+msgstr ""
+
+msgid "Timor-Leste"
+msgstr ""
+
+msgid "Togo"
+msgstr ""
+
+msgid "Tokelau"
+msgstr ""
+
+msgid "Tonga"
+msgstr ""
+
+msgid "Trinidad And Tobago"
+msgstr ""
+
+msgid "Tunisia"
+msgstr ""
+
+msgid "Turkey"
+msgstr ""
+
+msgid "Turkmenistan"
+msgstr ""
+
+msgid "Turks And Caicos Islands"
+msgstr ""
+
+msgid "Tuvalu"
+msgstr ""
+
+msgid "Uganda"
+msgstr ""
+
+msgid "Ukraine"
+msgstr ""
+
+msgid "United Arab Emirates"
+msgstr ""
+
+msgid "United Kingdom"
+msgstr ""
+
+msgid "United States"
+msgstr ""
+
+msgid "United States Outlying Islands"
+msgstr ""
+
+msgid "Uruguay"
+msgstr ""
+
+msgid "Uzbekistan"
+msgstr ""
+
+msgid "Vanuatu"
+msgstr ""
+
+msgid "Venezuela"
+msgstr ""
+
+msgid "Viet Nam"
+msgstr ""
+
+msgid "British Virgin Islands"
+msgstr ""
+
+msgid "U.S. Virgin Islands"
+msgstr ""
+
+msgid "Wallis And Futuna"
+msgstr ""
+
+msgid "Western Sahara"
+msgstr ""
+
+msgid "Yemen"
+msgstr ""
+
+msgid "Zambia"
+msgstr ""
+
+msgid "Zimbabwe"
+msgstr ""
+
+msgid "F j, Y"
+msgstr ""
+
+msgid "F j, Y g:i a"
+msgstr ""
+
+msgid "Access denied."
+msgstr ""
+
+#, php-format
+msgid "An error occurred while importing content. Error: %s"
+msgstr ""
+
+msgid "Could not import content."
+msgstr ""
+
+msgid " "
+msgstr ""
+
+msgid "g:i a"
+msgstr ""
+
+msgctxt "whitspace"
+msgid " "
+msgstr ""
+
+msgid "The uploaded file exceeds the upload_max_filesize directive in php.ini."
+msgstr ""
+
+msgid ""
+"The uploaded file exceeds the MAX_FILE_SIZE directive specified in the HTML "
+"form."
+msgstr ""
+
+msgid "The uploaded file was only partially uploaded."
+msgstr ""
+
+msgid "No file was uploaded."
+msgstr ""
+
+msgid "Missing a temporary folder."
+msgstr ""
+
+msgid "Failed to write file to disk."
+msgstr ""
+
+msgid "File upload stopped by PHP extension."
+msgstr ""
+
+msgid "No valid file was uploaded."
+msgstr ""
+
+msgid "Only image files are allowed."
+msgstr ""
+
+#, php-format
+msgid "Could not get unique file name for file %s."
+msgstr ""
+
+#, php-format
+msgid "File %s (%s) already exists."
+msgstr ""
+
+msgid "Failed saving file to the upload directory."
+msgstr ""
+
+msgid "Allowed file extensions may not be empty."
+msgstr ""
+
+msgid "Invalid file extension."
+msgstr ""
+
+#, php-format
+msgid "File with file extension %s is not allowed."
+msgstr ""
+
+msgid "No matching mime types for the file were found."
+msgstr ""
+
+#, php-format
+msgid "Image file with file extension %s is not allowed."
+msgstr ""
+
+#, php-format
+msgid ""
+"File type associated with file extension %s (%s) was not found or is not "
+"allowed."
+msgstr ""
+
+#, php-format
+msgid "File size may not exceed %s KB."
+msgstr ""
+
+msgid "Failed detecting image dimensions."
+msgstr ""
+
+#, php-format
+msgid "Image size must not be larger than W%d x H%d pixels."
+msgstr ""
+
+#, php-format
+msgid "Image size must be larger than W%d x H%d pixels."
+msgstr ""
+
+#, php-format
+msgid "Directory %s does not exist."
+msgstr ""
+
+#, php-format
+msgid "Directory %s is not writeable by the server."
+msgstr ""
+
+msgid "Username"
+msgstr ""
+
+msgid "E-mail Address"
+msgstr ""
+
+msgid "The username is already taken."
+msgstr ""
+
+msgid "The e-mail address is already taken."
+msgstr ""
+
+#, php-format
+msgid "%s ago"
+msgstr ""
+
+msgid ""
+"You must <a href=\"options-permalink.php\">change your permalink structure</"
+"a> for Sabai plugins to work properly."
+msgstr ""
+
+#, php-format
+msgid ""
+"There are %1$d upgradable Sabai add-on(s). Please go to the <a href=\"%2$s"
+"\">add-on listing section</a> and upgrade all add-ons."
+msgstr ""
+
+msgid "View profile"
+msgstr ""
+
+msgid "Top"
+msgstr ""
+
+msgid "Your browser sent a request that this server could not understand."
+msgstr ""
+
+#, php-format
+msgid ""
+"You must <a href=\"%s\" class=\"sabai-login popup-login\">login</a> to "
+"perform the requested action."
+msgstr ""
+
+msgid "Your request may not be processed."
+msgstr ""
+
+msgid "The requested page was not found."
+msgstr ""
+
+msgid "The requested method is not allowed."
+msgstr ""
+
+msgid "The requested page is not acceptable by the browser."
+msgstr ""
+
+msgid "The requested method is not implemented."
+msgstr ""
+
+msgid ""
+"The server is currently unable to handle the request. Please try again later."
+msgstr ""
+
+msgid "The server encountered an error processing your request."
+msgstr ""

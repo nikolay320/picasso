@@ -1,0 +1,343 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Ideas plugin\n"
+"POT-Creation-Date: 2016-04-21 20:24+0200\n"
+"PO-Revision-Date: 2016-04-25 19:10+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: ideas.php\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: ideas.php:82
+msgid "Ideas"
+msgstr "Idées"
+
+#: ideas.php:83
+msgid "Idea"
+msgstr "Idée"
+
+#: ideas.php:84
+msgid "All Ideas"
+msgstr "Toutes les idées"
+
+#: ideas.php:85 ideas.php:86
+msgid "Add New Idea"
+msgstr "Ajouter nouvelle idée"
+
+#: ideas.php:87
+msgid "Edit"
+msgstr "Editer"
+
+#: ideas.php:88
+msgid "Edit Idea"
+msgstr "Modifier l'dée"
+
+#: ideas.php:89
+msgid "New Idea"
+msgstr "Nouvelle Idée"
+
+#: ideas.php:90
+msgid "View Idea"
+msgstr "Voir l'idée"
+
+#: ideas.php:91
+msgid "Search Idea"
+msgstr "Recherche les idées"
+
+#: ideas.php:92
+msgid "Nothing found in the Database."
+msgstr "Rien trouvé dans la base de données."
+
+#: ideas.php:93
+msgid "Nothing found in Trash"
+msgstr "Aucun élément trouvé dans la Corbeille"
+
+#: ideas.php:96
+msgid "Comments about ideas"
+msgstr "Commentaires récents à propos des idées"
+
+#: ideas.php:97
+msgid "Idea Comments"
+msgstr "Commentaires de l'idée"
+
+#: ideas.php:98
+#, php-format
+msgid "%1$s commented on the <a href=\"%2$s\">Idea</a>"
+msgstr "%1$s a commenté <a href=\"%2$s\">l'idée</a>"
+
+#: ideas.php:99
+#, php-format
+msgid "%1$s commented on the <a href=\"%2$s\">Idea</a>, on the site %3$s"
+msgstr "%1$s a commenté <a href=\"%2$s\">l'idée</a>, sur le site %3$s"
+
+#: ideas.php:102
+msgid "Homepage Ideas for "
+msgstr "Page d'accueil idées pour"
+
+#: ideas.php:138
+msgid "Idea settings"
+msgstr "Paramètres de l'idée"
+
+#: ideas.php:187
+msgid "Image"
+msgstr ""
+
+#: ideas.php:192
+msgid "Enter a URL or upload an image"
+msgstr "Entrez une URL ou téléchargez une image"
+
+#: ideas.php:194
+msgid "Add Image"
+msgstr "Ajoutez une image"
+
+#: ideas.php:195 ideas.php:206
+msgid "Clear"
+msgstr "Effacer"
+
+#: ideas.php:200
+msgid "Attachment"
+msgstr "Pièce jointe"
+
+#: ideas.php:204
+msgid "Add File"
+msgstr "Ajouter un fichier"
+
+#: ideas.php:211
+msgid "Status"
+msgstr "statut"
+
+#: ideas.php:214
+msgid "No Status"
+msgstr "Aucun statut."
+
+#: ideas.php:215
+msgid "Idea in discussion"
+msgstr "Idée en discussion"
+
+#: ideas.php:216
+msgid "Idea selected"
+msgstr "Idée sélectionnée"
+
+#: ideas.php:217
+msgid "Idea rejected"
+msgstr "Idée rejetée"
+
+#: ideas.php:218
+msgid "Idea in project"
+msgstr "Idée en projet"
+
+#: ideas.php:223 templates/idea_modal.php:159
+msgid "Video (youtube)"
+msgstr "Vidéo (youtube)"
+
+#: ideas.php:223 templates/idea_modal.php:159
+msgid "Video"
+msgstr "Vidéo"
+
+#: ideas.php:299
+msgid "Thank you. Idea will appear after moderation."
+msgstr "Merci. Votre Idée apparaîtra après modération."
+
+#: ideas.php:301
+msgid "Thank you. Idea successfully added."
+msgstr "Merci. Idée ajoutée. Cliquez pour la voir."
+
+#: ideas.php:307
+msgid "Idea not added!"
+msgstr "Idée non ajoutée !"
+
+#: ideas.php:345
+msgid "Comment successfully added!"
+msgstr "Commentaire ajouté avec succès !"
+
+#: ideas.php:475
+msgid "Ideas Plugin. Any info here."
+msgstr "Plugin d'idées. Des infos ici."
+
+#: templates/idea_button.php:2 templates/idea_modal.php:146
+msgid "Add Idea"
+msgstr "Ajouter une idée"
+
+#: templates/idea_button.php:5
+msgid "Please wait"
+msgstr "Merci de patienter"
+
+#: templates/idea_modal.php:65 templates/idea_modal.php:71
+msgid "Field is required"
+msgstr "Ce champs est requis"
+
+#: templates/idea_modal.php:151
+msgid "Idea Title"
+msgstr "Titre de l'idée"
+
+#: templates/idea_modal.php:155
+msgid "Idea Content"
+msgstr "Contenu de l'idée"
+
+#: templates/idea_modal.php:167
+msgid "Campaign"
+msgstr "Campagne"
+
+#: templates/idea_modal.php:169
+msgid "Select campaign"
+msgstr "Hors campagne"
+
+#: templates/idea_modal.php:183
+msgid "Reset image"
+msgstr "Réinitialiser image de l'icône"
+
+#: templates/idea_modal.php:185
+msgid "Upload image"
+msgstr "Télécharger une image"
+
+#: templates/idea_modal.php
+msgid "Upload video"
+msgstr "Télécharger une vidéo"
+
+#: templates/idea_modal.php:189
+msgid "Upload attachment"
+msgstr "Envoyer une pièce jointe"
+
+#: templates/idea_modal.php:189
+msgid "Max file size"
+msgstr "Taille max. du fichier"
+
+#: templates/idea_modal.php:196
+msgid "Close"
+msgstr "Fermer"
+
+#: templates/idea_modal.php:197
+msgid "Add"
+msgstr "Ajouter"
+
+#. Plugin Name of the plugin/theme
+msgid "Ideas plugin"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Custom Ideas plugin"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Alex Karev"
+msgstr ""
+
+#: archive-ideas.php:210
+msgid "Newest First"
+msgstr "Nouvelles en premier"
+
+#: archive-ideas.php:211
+msgid "Oldest First"
+msgstr "Anciennes en premier"
+
+#: archive-ideas.php:212
+msgid "Recently Active"
+msgstr "Récemment actives"
+
+#: archive-ideas.php:213
+msgid "Most Votes"
+msgstr "Les plus votées"
+
+#: archive-ideas.php:214
+msgid "Most Answers"
+msgstr "Les plus commentées"
+
+#: archive-ideas.php:303
+msgid "views"
+msgstr "vues"
+
+#: archive-ideas.php
+msgid "Edit"
+msgstr "Editer"
+
+#: archive-ideas.php
+msgid "posted"
+msgstr "a posté il y a"
+
+#: archive-ideas.php
+msgid "updated"
+msgstr "actualisé il y a"
+
+#: archive-ideas.php
+msgid "Add Comment"
+msgstr "Ajouter commentaire"
+
+#: archive-ideas.php
+msgid "Comment text"
+msgstr "Texte du commentaire"
+
+#: archive-campaign.php
+msgid "Campaigns"
+msgstr "Challenges"
+
+#: archive-campaign.php
+msgid "In discussion"
+msgstr "En discussion"
+
+#: archive-campaign.php
+msgid "Selected"
+msgstr "Sélectionnées"
+
+#: archive-campaign.php
+msgid "Rejected"
+msgstr "Non sélectionnées"
+
+#: archive-campaign.php
+msgid "In project"
+msgstr "En Projet"
+
+#: archive-campaign.php
+msgid "Campaign end date"
+msgstr "Date de fin du challenge:"
+
+#: archive-campaign.php
+msgid "Time left"
+msgstr "Temps restant"
+
+#: archive-campaign.php
+msgid "Ideas count"
+msgstr "Nombre d'idées"
+
+#: archive-campaign.php
+msgid "Save"
+msgstr "Mettre à jour"
+
+#: archive-campaign.php
+msgid "Edit Comment"
+msgstr "Modifier commentaire"
+
+#: single-ideas.php
+msgid "Attachments"
+msgstr "Pièces jointes"
+
+#: single-campaign.php
+msgid "Sort by"
+msgstr "Trier par"
+
+#: marylink custom plugin
+msgid "My Ideas"
+msgstr "Mes idées"
+
+#: marylink custom plugin
+msgid "My Comments"
+msgstr "Mes commentaires"
+
+#: marylink custom plugin
+msgid "My Bookmarks"
+msgstr "Mes favoris"
+
+#: marylink custom plugin
+msgid "In reply to"
+msgstr "En rèponse"

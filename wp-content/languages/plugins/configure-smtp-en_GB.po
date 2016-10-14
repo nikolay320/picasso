@@ -1,0 +1,245 @@
+# Translation of Stable (latest release) in English (UK)
+# This file is distributed under the same license as the Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-02-24 12:38:00+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/1.0-alpha-1100\n"
+"Project-Id-Version: Stable (latest release)\n"
+
+#: configure-smtp.php:188
+msgid "Be sure to specify your full GMail email address (including the \"@gmail.com\") as the SMTP username, and your GMail password as the SMTP password."
+msgstr "Be sure to specify your full GMail email address (including the \"@gmail.com\") as the SMTP username, and your GMail password as the SMTP password."
+
+#: configure-smtp.php:239
+msgid "This message was sent with this time-stamp: %s"
+msgstr "This message was sent with this time-stamp: %s"
+
+#: configure-smtp.php:242
+msgid "Test message from your WordPress blog"
+msgstr "Test message from your WordPress blog"
+
+#: configure-smtp.php:253
+msgid "Test e-mail sent."
+msgstr "Test email sent."
+
+#: configure-smtp.php:268
+msgid "Send A Test"
+msgstr "Send A Test"
+
+#. Plugin URI of the plugin/theme
+msgid "http://coffee2code.com/wp-plugins/configure-smtp/"
+msgstr "http://coffee2code.com/wp-plugins/configure-smtp/"
+
+#. Author of the plugin/theme
+msgid "Scott Reilly"
+msgstr "Scott Reilly"
+
+#. Author URI of the plugin/theme
+msgid "http://coffee2code.com"
+msgstr "http://coffee2code.com"
+
+#: configure-smtp.php:247
+msgid "An error was encountered while trying to send the test e-mail."
+msgstr "An error was encountered while trying to send the test email."
+
+#: configure-smtp.php:269
+msgid "Click the button below to send a test email to yourself to see if things are working.  Be sure to save any changes you made to the form above before sending the test e-mail.  Bear in mind it may take a few minutes for the e-mail to wind its way through the internet."
+msgstr "Click the button below to send a test email to yourself to see if things are working. Be sure to save any changes you made to the form above before sending the test e-mail. Bear in mind it may take a few minutes for the email to wind its way through the internet."
+
+#. Description of the plugin/theme
+msgid "Configure SMTP mailing in WordPress, including support for sending e-mail via SSL/TLS (such as GMail)."
+msgstr "Configure SMTP mailing in WordPress, including support for sending email via SSL/TLS (such as GMail)."
+
+#: configure-smtp.php:241
+msgid "Congratulations!  Your blog is properly configured to send e-mail."
+msgstr "Congratulations!  Your site is properly configured to send email."
+
+#: configure-smtp.php:237
+msgid "Hi, this is the %s plugin e-mailing you a test message from your WordPress blog."
+msgstr "Hi, this is the %s plugin emailing you a test message from your WordPress site."
+
+#: configure-smtp.php:275
+msgid "Send test e-mail"
+msgstr "Send test email"
+
+#: configure-smtp.php:254
+msgid "The body of the e-mail includes this time-stamp: %s."
+msgstr "The body of the email includes this timestamp: %s."
+
+#: configure-smtp.php:270
+msgid "This e-mail will be sent to your e-mail address, %s."
+msgstr "This email will be sent to your email address, %s."
+
+#: c2c-plugin.php:778
+msgid "Reset Settings"
+msgstr "Reset Settings"
+
+#: c2c-plugin.php:777
+msgid "Save Changes"
+msgstr "Save Changes"
+
+#: c2c-plugin.php:278
+msgid "Settings reset."
+msgstr "Settings reset."
+
+#: c2c-plugin.php:511
+msgid "Settings"
+msgstr "Settings"
+
+#: c2c-plugin.php:59
+msgid "Invalid file specified for C2C_Plugin: %s"
+msgstr "Invalid file specified for C2C_Plugin: %s"
+
+#: c2c-plugin.php:289 c2c-plugin.php:297
+msgid "A value is required for: \"%s\""
+msgstr "A value is required for: \"%s\""
+
+#: c2c-plugin.php:306
+msgid "Expected integer value for: %s"
+msgstr "Expected integer value for: %s"
+
+#: c2c-plugin.php:418
+msgid "More information about %1$s %2$s"
+msgstr "More information about %1$s %2$s"
+
+#: c2c-plugin.php:419
+msgid "Click for more help on this plugin"
+msgstr "Click for more help on this plugin"
+
+#: c2c-plugin.php:420
+msgid " (especially check out the \"Other Notes\" tab, if present)"
+msgstr " (especially check out the \"Other Notes\" tab, if present)"
+
+#: c2c-plugin.php:745
+msgid "See the \"Help\" link to the top-right of the page for more help."
+msgstr "See the \"Help\" link to the top-right of the page for more help."
+
+#: c2c-plugin.php:766
+msgid "A plugin by coffee2code"
+msgstr "A plugin by coffee2code"
+
+#: c2c-plugin.php:784
+msgid "Scott Reilly, aka coffee2code"
+msgstr "Scott Reilly, aka coffee2code"
+
+#: c2c-plugin.php:785
+msgid "This plugin brought to you by %s."
+msgstr "This plugin brought to you by %s."
+
+#: c2c-plugin.php:786
+msgid "Please consider a donation"
+msgstr "Please consider a donation"
+
+#: c2c-plugin.php:787
+msgid "Did you find this plugin useful?"
+msgstr "Did you find this plugin useful?"
+
+#. #-#-#-#-#  tmp-configure-smtp.pot (Configure SMTP 3.1)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: configure-smtp.php:106
+msgid "Configure SMTP"
+msgstr "Configure SMTP"
+
+#: configure-smtp.php:107
+msgid "SMTP"
+msgstr "SMTP"
+
+#: configure-smtp.php:138
+msgid "Only check this if you are experiencing problems and would like more error reporting to occur. <em>Uncheck this once you have finished debugging.</em>"
+msgstr "Only check this if you are experiencing problems and would like more error reporting to occur. <em>Uncheck this once you have finished debugging.</em>"
+
+#: configure-smtp.php:144
+msgid "Sender name"
+msgstr "Sender name"
+
+#: configure-smtp.php:145
+msgid "Sets the From name for all outgoing messages. Leave blank to use the WordPress default. This value will be used even if you don't enable SMTP."
+msgstr "Sets the From name for all outgoing messages. Leave blank to use the WordPress default. This value will be used even if you don't enable SMTP."
+
+#: configure-smtp.php:173
+msgid "Configure SMTP Settings"
+msgstr "Configure SMTP Settings"
+
+#: configure-smtp.php:176
+msgid "test"
+msgstr "test"
+
+#: configure-smtp.php:178
+msgid "SMTP mailing is currently <strong>NOT ENABLED</strong> because no SMTP host has been specified."
+msgstr "SMTP mailing is currently <strong>NOT ENABLED</strong> because no SMTP host has been specified."
+
+#: configure-smtp.php:179
+msgid "After you have configured your SMTP settings, use the %s to send a test message to yourself."
+msgstr "After you have configured your SMTP settings, use the %s to send a test message to yourself."
+
+#: configure-smtp.php:112
+msgid "Clicking this will override many of the settings defined below. You will need to input your GMail username and password below."
+msgstr "Clicking this will override many of the settings defined below. You will need to input your GMail username and password below."
+
+#: configure-smtp.php:115
+msgid "SMTP host"
+msgstr "SMTP host"
+
+#: configure-smtp.php:116
+msgid "If \"localhost\" doesn't work for you, check with your host for the SMTP hostname."
+msgstr "If \"localhost\" doesn't work for you, check with your host for the SMTP hostname."
+
+#: configure-smtp.php:118
+msgid "SMTP port"
+msgstr "SMTP port"
+
+#: configure-smtp.php:119
+msgid "This is generally 25."
+msgstr "This is generally 25."
+
+#: configure-smtp.php:121
+msgid "Secure connection prefix"
+msgstr "Secure connection prefix"
+
+#: configure-smtp.php:123
+msgid "Sets connection prefix for secure connections (prefix method must be supported by your PHP install and your SMTP host)"
+msgstr "Sets connection prefix for secure connections (prefix method must be supported by your PHP install and your SMTP host)"
+
+#: configure-smtp.php:125
+msgid "Use SMTPAuth?"
+msgstr "Use SMTPAuth?"
+
+#: configure-smtp.php:126
+msgid "If checked, you must provide the SMTP username and password below"
+msgstr "If checked, you must provide the SMTP username and password below"
+
+#: configure-smtp.php:128
+msgid "SMTP username"
+msgstr "SMTP username"
+
+#: configure-smtp.php:131
+msgid "SMTP password"
+msgstr "SMTP password"
+
+#: configure-smtp.php:134
+msgid "Wordwrap length"
+msgstr "Wordwrap length"
+
+#: configure-smtp.php:135
+msgid "Sets word wrapping on the body of the message to a given number of characters."
+msgstr "Sets word wrapping on the body of the message to a given number of characters."
+
+#: configure-smtp.php:137
+msgid "Enable debugging?"
+msgstr "Enable debugging?"
+
+#: configure-smtp.php:111
+msgid "Send e-mail via GMail?"
+msgstr "Send email via GMail?"
+
+#: configure-smtp.php:141
+msgid "Sender e-mail"
+msgstr "Sender email"
+
+#: configure-smtp.php:142
+msgid "Sets the From e-mail address for all outgoing messages. Leave blank to use the WordPress default. This value will be used even if you don't enable SMTP. NOTE: This may not take effect depending on your mail server and settings, especially if using SMTPAuth (such as for GMail)."
+msgstr "Sets the From email address for all outgoing messages. Leave blank to use the WordPress default. This value will be used even if you don't enable SMTP. NOTE: This may not take effect depending on your mail server and settings, especially if using SMTPAuth (such as for GMail)."

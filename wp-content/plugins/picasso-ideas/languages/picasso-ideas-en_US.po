@@ -1,0 +1,824 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Picasso Ideas\n"
+"POT-Creation-Date: 2016-09-08 22:25+0600\n"
+"PO-Revision-Date: 2016-09-08 22:25+0600\n"
+"Last-Translator: Shamim Al Mamun <shamim.moeen@gmail.com>\n"
+"Language-Team: \n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_n\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../templates/frontend-submisssion/edit-idea.php:33
+#: ../templates/frontend-submisssion/create-idea.php:23
+msgid ""
+"The Idea you are trying to access does not exist or is not available for "
+"you, or it may have been deleted. Please contact the site administrator for "
+"more information."
+msgstr ""
+
+#: ../templates/frontend-submisssion/sumitted-idea.php:19
+#: ../templates/frontend-submisssion/submit-idea-form.php:83
+#: ../templates/partials/tabs/idea-details.php:12
+#: ../includes/idea-metaboxes.php:20
+msgid "Images"
+msgstr ""
+
+#: ../templates/frontend-submisssion/sumitted-idea.php:41
+#: ../templates/frontend-submisssion/submit-idea-form.php:92
+#: ../templates/partials/tabs/idea-details.php:34
+#: ../includes/idea-metaboxes.php:30
+msgid "Attachments"
+msgstr ""
+
+#: ../templates/frontend-submisssion/sumitted-idea.php:79
+#: ../templates/frontend-submisssion/submit-idea-form.php:101
+#: ../templates/partials/tabs/idea-details.php:72
+#: ../includes/idea-metaboxes.php:40
+msgid "Videos"
+msgstr ""
+
+#: ../templates/frontend-submisssion/sumitted-idea.php:102
+#: ../templates/frontend-submisssion/submit-idea-form.php:110
+#: ../templates/partials/tabs/idea-details.php:95
+#: ../includes/idea-metaboxes.php:50
+msgid "Youtube Video"
+msgstr ""
+
+#: ../templates/frontend-submisssion/create-idea.php:59
+msgid "Similar Ideas"
+msgstr ""
+
+#: ../templates/frontend-submisssion/create-idea.php:83
+#: ../includes/idea-functions.php:636
+msgid "No similar idea found!"
+msgstr ""
+
+#: ../templates/frontend-submisssion/create-idea.php:88
+msgid "Waiting for your input"
+msgstr ""
+
+#: ../templates/frontend-submisssion/upload-file.php:18
+#: ../includes/idea-functions.php:834
+#, php-format
+msgid "Exceeded filesize limit. Maximum size should be %dMB."
+msgstr ""
+
+#: ../templates/frontend-submisssion/upload-file.php:24
+#: ../includes/idea-functions.php:756
+msgid "Upload"
+msgstr ""
+
+#: ../templates/frontend-submisssion/submit-idea-form.php:13
+msgid "Update Idea"
+msgstr ""
+
+#: ../templates/frontend-submisssion/submit-idea-form.php:25
+#: ../templates/partials/idea-search-box.php:35
+msgid "Add Idea"
+msgstr ""
+
+#: ../templates/frontend-submisssion/submit-idea-form.php:47
+msgid "Idea Title"
+msgstr ""
+
+#: ../templates/frontend-submisssion/submit-idea-form.php:56
+msgid "Idea Content"
+msgstr ""
+
+#: ../templates/frontend-submisssion/submit-idea-form.php:65
+#: ../includes/idea-metaboxes.php:83
+msgid "Campaign"
+msgstr ""
+
+#: ../templates/frontend-submisssion/submit-idea-form.php:86
+msgid "Browse Image"
+msgstr ""
+
+#: ../templates/frontend-submisssion/submit-idea-form.php:95
+msgid "Browse Attachment"
+msgstr ""
+
+#: ../templates/frontend-submisssion/submit-idea-form.php:104
+msgid "Browse Video"
+msgstr ""
+
+#: ../templates/frontend-submisssion/submit-idea-form.php:120
+#: ../includes/idea-functions.php:531 ../includes/idea-functions.php:581
+msgid "Cancel"
+msgstr ""
+
+#: ../templates/partials/content-single-idea.php:60
+msgid "Time left"
+msgstr ""
+
+#: ../templates/partials/content-single-idea.php:63
+msgid "Ideas count"
+msgstr ""
+
+#: ../templates/partials/content-single-idea.php:100
+#: ../templates/partials/content-idea.php:57
+msgid "views"
+msgstr ""
+
+#: ../templates/partials/content-single-idea.php:101
+#: ../templates/partials/content-idea.php:58
+msgid "Put in favorites"
+msgstr ""
+
+#: ../templates/partials/content-single-idea.php:122
+#: ../templates/partials/content-idea.php:80
+#, php-format
+msgid "%d expert review"
+msgstr ""
+
+#: ../templates/partials/content-single-idea.php:135
+#: ../templates/partials/content-idea.php:93
+#, php-format
+msgid "%d user review"
+msgstr ""
+
+#: ../templates/partials/content-single-idea.php:150
+msgid "See More"
+msgstr ""
+
+#: ../templates/partials/content-single-idea.php:173
+#: ../templates/partials/content-single-idea.php:175
+#: ../templates/partials/content-idea.php:137
+#: ../templates/partials/content-idea.php:139
+msgid "Posted"
+msgstr ""
+
+#: ../templates/partials/content-single-idea.php:177
+#: ../templates/partials/content-idea.php:141
+msgid "Updated"
+msgstr ""
+
+#: ../templates/partials/content-single-idea.php:185
+#: ../templates/partials/content-idea.php:149
+msgid "Edit"
+msgstr ""
+
+#: ../templates/partials/idea-actions.php:17
+#: ../templates/partials/idea-experts-table.php:9
+msgid "Experts"
+msgstr ""
+
+#: ../templates/partials/idea-actions.php:56
+msgid "Add experts"
+msgstr ""
+
+#: ../templates/partials/idea-actions.php:65
+msgid "Edit your expert review"
+msgstr ""
+
+#: ../templates/partials/idea-actions.php:67
+msgid "Post your expert review now!"
+msgstr ""
+
+#: ../templates/partials/idea-actions.php:83
+msgid "Edit your review"
+msgstr ""
+
+#: ../templates/partials/idea-actions.php:85
+#: ../templates/partials/idea-post-review.php:92
+#: ../templates/partials/idea-post-review.php:125
+#: ../templates/partials/tabs/idea-reviews.php:98
+#: ../templates/partials/tabs/idea-reviews.php:131
+msgid "Post your review now!"
+msgstr ""
+
+#: ../templates/partials/idea-actions.php:100
+msgid "Edit your update"
+msgstr ""
+
+#: ../templates/partials/idea-actions.php:102
+msgid "Post idea update"
+msgstr ""
+
+#: ../templates/partials/idea-post-update.php:8
+#: ../templates/partials/idea-add-experts.php:9
+msgid "Back to details"
+msgstr ""
+
+#: ../templates/partials/idea-post-update.php:11
+#: ../templates/partials/idea-tabs.php:21
+msgid "Idea Update"
+msgstr ""
+
+#: ../templates/partials/idea-post-update.php:21
+#: ../templates/partials/idea-post-review.php:161
+#: ../templates/partials/tabs/idea-reviews.php:167
+msgid "Submit"
+msgstr ""
+
+#: ../templates/partials/idea-add-experts.php:12
+msgid "Add Expert"
+msgstr ""
+
+#: ../templates/partials/idea-add-experts.php:17
+msgid "Search expert"
+msgstr ""
+
+#: ../templates/partials/idea-add-experts.php:32
+msgid "Idea deadline"
+msgstr ""
+
+#: ../templates/partials/idea-add-experts.php:39
+#: ../includes/idea-functions.php:532
+msgid "Add"
+msgstr ""
+
+#: ../templates/partials/idea-experts-table.php:2
+msgid "Idea Experts"
+msgstr ""
+
+#: ../templates/partials/idea-experts-table.php:12
+msgid "Action"
+msgstr ""
+
+#: ../templates/partials/idea-experts-table.php:42
+msgid "Remove"
+msgstr ""
+
+#: ../templates/partials/idea-tabs.php:10
+msgid "Idea Details"
+msgstr ""
+
+#: ../templates/partials/idea-tabs.php:11
+msgid "Comments"
+msgstr ""
+
+#: ../templates/partials/idea-tabs.php:13
+msgid "Expert Reviews"
+msgstr ""
+
+#: ../templates/partials/idea-tabs.php:17
+msgid "User Reviews"
+msgstr ""
+
+#: ../templates/partials/idea-post-review.php:97
+#: ../templates/partials/tabs/idea-reviews.php:103
+msgid "Rating"
+msgstr ""
+
+#: ../templates/partials/idea-post-review.php:143
+#: ../templates/partials/tabs/idea-reviews.php:149
+msgid "Comment"
+msgstr ""
+
+#: ../templates/partials/idea-search-box.php:21
+msgid "Keyword..."
+msgstr ""
+
+#: ../templates/partials/tabs/idea-updates.php:32
+msgid "No update found!"
+msgstr ""
+
+#: ../templates/partials/tabs/idea-reviews.php:22
+msgid "Average Expert Rating"
+msgstr ""
+
+#: ../templates/partials/tabs/idea-reviews.php:24
+msgid "Average User Rating"
+msgstr ""
+
+#: ../templates/partials/tabs/idea-reviews.php:51
+msgid "No review found!"
+msgstr ""
+
+#: ../includes/class-picasso-ideas-submission.php:59
+#: ../includes/class-picasso-ideas-review.php:30
+#: ../includes/class-picasso-ideas-review.php:186
+#: ../includes/class-picasso-ideas-review.php:257
+#: ../includes/class-picasso-ideas-review.php:378
+msgid "Nonce mismatched"
+msgstr ""
+
+#: ../includes/class-picasso-ideas-submission.php:76
+msgid "Idea requires a title"
+msgstr ""
+
+#: ../includes/class-picasso-ideas-submission.php:107
+msgid "Permission denied"
+msgstr ""
+
+#: ../includes/class-picasso-ideas-submission.php:143
+#, php-format
+msgid "Your new idea has been submitted successfully. %s"
+msgstr ""
+
+#: ../includes/class-picasso-ideas-submission.php:143
+#: ../includes/class-picasso-ideas-submission.php:145
+msgid "Go to idea"
+msgstr ""
+
+#: ../includes/class-picasso-ideas-submission.php:145
+#, php-format
+msgid "Your idea has been updated successfully. %s"
+msgstr ""
+
+#: ../includes/idea-functions.php:421
+msgid "posted today"
+msgstr ""
+
+#: ../includes/idea-functions.php:423
+msgid "posted yesterday"
+msgstr ""
+
+#: ../includes/idea-functions.php:425
+#, php-format
+msgid "posted %s %s ago"
+msgstr ""
+
+#: ../includes/idea-functions.php:425
+msgid "day"
+msgstr ""
+
+#: ../includes/idea-functions.php:451
+msgid "Average"
+msgstr ""
+
+#: ../includes/idea-functions.php:456
+msgid "Ratings"
+msgstr ""
+
+#: ../includes/idea-functions.php:490
+msgid "Rating distribution"
+msgstr ""
+
+#: ../includes/idea-functions.php:495
+msgid "Rating summary"
+msgstr ""
+
+#: ../includes/idea-functions.php:523
+msgid "Add your comment"
+msgstr ""
+
+#: ../includes/idea-functions.php:573
+msgid "Edit your comment"
+msgstr ""
+
+#: ../includes/idea-functions.php:582
+msgid "Save"
+msgstr ""
+
+#: ../includes/idea-functions.php:806
+msgid "Please choose a file."
+msgstr ""
+
+#: ../includes/idea-functions.php:828
+msgid "Invalid file format."
+msgstr ""
+
+#: ../includes/idea-functions.php:839
+msgid "Something went worng."
+msgstr ""
+
+#: ../includes/helper-functions.php:71
+msgid "No campaign"
+msgstr ""
+
+#: ../includes/helper-functions.php:90
+msgid "Newest First"
+msgstr ""
+
+#: ../includes/helper-functions.php:91
+msgid "Oldest First"
+msgstr ""
+
+#: ../includes/helper-functions.php:92
+msgid "Recently Active"
+msgstr ""
+
+#: ../includes/helper-functions.php:93
+msgid "Most Votes"
+msgstr ""
+
+#: ../includes/helper-functions.php:94
+msgid "Most Answers"
+msgstr ""
+
+#: ../includes/helper-functions.php:95
+msgid "My Ideas"
+msgstr ""
+
+#: ../includes/helper-functions.php:108
+msgid "NO STATUS"
+msgstr ""
+
+#: ../includes/helper-functions.php:109
+msgid "VOTES"
+msgstr ""
+
+#: ../includes/helper-functions.php:110
+msgid "SELECTED"
+msgstr ""
+
+#: ../includes/helper-functions.php:111
+msgid "NOT SELECTED"
+msgstr ""
+
+#: ../includes/helper-functions.php:112
+msgid "REVIEW"
+msgstr ""
+
+#: ../includes/helper-functions.php:113
+msgid "NO GO"
+msgstr ""
+
+#: ../includes/helper-functions.php:114
+msgid "IN PROJECT"
+msgstr ""
+
+#: ../includes/class-picasso-ideas-post-types.php:15
+msgid "Add New Idea"
+msgstr ""
+
+#: ../includes/class-picasso-ideas-post-types.php:16
+msgid "New Idea"
+msgstr ""
+
+#: ../includes/class-picasso-ideas-post-types.php:17
+msgid "Edit Idea"
+msgstr ""
+
+#: ../includes/class-picasso-ideas-post-types.php:18
+msgid "View Idea"
+msgstr ""
+
+#: ../includes/class-picasso-ideas-post-types.php:19
+msgid "All Ideas"
+msgstr ""
+
+#: ../includes/class-picasso-ideas-post-types.php:20
+msgid "Search Ideas"
+msgstr ""
+
+#: ../includes/class-picasso-ideas-post-types.php:21
+msgid "Parent Ideas:"
+msgstr ""
+
+#: ../includes/class-picasso-ideas-post-types.php:22
+msgid "No idea found."
+msgstr ""
+
+#: ../includes/class-picasso-ideas-post-types.php:23
+msgid "No idea found in Trash."
+msgstr ""
+
+#: ../includes/class-picasso-ideas-post-types.php:48
+msgid "Add New Review"
+msgstr ""
+
+#: ../includes/class-picasso-ideas-post-types.php:49
+msgid "New Review"
+msgstr ""
+
+#: ../includes/class-picasso-ideas-post-types.php:50
+msgid "Edit Review"
+msgstr ""
+
+#: ../includes/class-picasso-ideas-post-types.php:51
+msgid "View Review"
+msgstr ""
+
+#: ../includes/class-picasso-ideas-post-types.php:52
+msgid "All Reviews"
+msgstr ""
+
+#: ../includes/class-picasso-ideas-post-types.php:53
+msgid "Search Reviews"
+msgstr ""
+
+#: ../includes/class-picasso-ideas-post-types.php:54
+msgid "Parent Reviews:"
+msgstr ""
+
+#: ../includes/class-picasso-ideas-post-types.php:55
+msgid "No review found."
+msgstr ""
+
+#: ../includes/class-picasso-ideas-post-types.php:56
+msgid "No review found in Trash."
+msgstr ""
+
+#: ../includes/class-picasso-ideas-post-types.php:167
+msgid "You must be logged in to comment"
+msgstr ""
+
+#: ../includes/class-picasso-ideas-post-types.php:171
+msgid "Post id is required"
+msgstr ""
+
+#: ../includes/class-picasso-ideas-post-types.php:175
+#: ../includes/class-picasso-ideas-post-types.php:223
+#: ../includes/class-picasso-ideas-review.php:397
+msgid "Comment is required"
+msgstr ""
+
+#: ../includes/class-picasso-ideas-post-types.php:193
+#, php-format
+msgid "You comment has been posted successfully! %s"
+msgstr ""
+
+#: ../includes/class-picasso-ideas-post-types.php:193
+msgid "See your comment"
+msgstr ""
+
+#: ../includes/class-picasso-ideas-post-types.php:196
+#: ../includes/class-picasso-ideas-post-types.php:240
+msgid "Something went wrong."
+msgstr ""
+
+#: ../includes/class-picasso-ideas-post-types.php:219
+msgid "Comment id is required"
+msgstr ""
+
+#: ../includes/class-picasso-ideas-post-types.php:236
+msgid "You comment has been updated successfully!"
+msgstr ""
+
+#: ../includes/class-picasso-ideas-review.php:35
+msgid "You can't assign expert"
+msgstr ""
+
+#: ../includes/class-picasso-ideas-review.php:45
+#: ../includes/class-picasso-ideas-review.php:198
+#: ../includes/class-picasso-ideas-review.php:266
+#: ../includes/class-picasso-ideas-review.php:393
+msgid "Idea id is required"
+msgstr ""
+
+#: ../includes/class-picasso-ideas-review.php:49
+msgid "Deadline is required"
+msgstr ""
+
+#: ../includes/class-picasso-ideas-review.php:127
+#, php-format
+msgid "[%s] You are an expert"
+msgstr ""
+
+#: ../includes/class-picasso-ideas-review.php:144
+msgid "(no campaign assigned)"
+msgstr ""
+
+#: ../includes/class-picasso-ideas-review.php:148
+msgid "Hello,"
+msgstr ""
+
+#: ../includes/class-picasso-ideas-review.php:149
+#, php-format
+msgid "You have been invited by %1$s to review the %2$s in the challenge %3$s."
+msgstr ""
+
+#: ../includes/class-picasso-ideas-review.php:150
+#, php-format
+msgid "You have until %1$s to review the idea."
+msgstr ""
+
+#: ../includes/class-picasso-ideas-review.php:151
+msgid ""
+"Your individual review and grades will only be seen by admin and your "
+"inviter."
+msgstr ""
+
+#: ../includes/class-picasso-ideas-review.php:152
+msgid "Thanks for support!"
+msgstr ""
+
+#: ../includes/class-picasso-ideas-review.php:159
+msgid "Expert added successfully"
+msgstr ""
+
+#: ../includes/class-picasso-ideas-review.php:161
+msgid "Idea deadline updated successfully"
+msgstr ""
+
+#: ../includes/class-picasso-ideas-review.php:191
+msgid "You can't remove expert"
+msgstr ""
+
+#: ../includes/class-picasso-ideas-review.php:202
+msgid "Expert id is required"
+msgstr ""
+
+#: ../includes/class-picasso-ideas-review.php:229
+msgid "Expert was not found for this idea"
+msgstr ""
+
+#: ../includes/class-picasso-ideas-review.php:240
+msgid "Expert removed successfully"
+msgstr ""
+
+#: ../includes/class-picasso-ideas-review.php:270
+msgid "Idea update is required"
+msgstr ""
+
+#: ../includes/class-picasso-ideas-review.php:347
+msgid "Idea update was not found"
+msgstr ""
+
+#: ../includes/class-picasso-ideas-review.php:351
+msgid "Idea update posted successfully"
+msgstr ""
+
+#: ../includes/class-picasso-ideas-review.php:353
+msgid "Idea update updated successfully"
+msgstr ""
+
+#: ../includes/class-picasso-ideas-review.php:364
+msgid "You can't post idea update"
+msgstr ""
+
+#: ../includes/class-picasso-ideas-review.php:389
+msgid "Something went wrong"
+msgstr ""
+
+#: ../includes/class-picasso-ideas-review.php:413
+#: ../includes/class-picasso-ideas-review.php:457
+msgid "Review deadline has already passed"
+msgstr ""
+
+#: ../includes/class-picasso-ideas-review.php:437
+msgid "You don't have the permission"
+msgstr ""
+
+#: ../includes/class-picasso-ideas-review.php:441
+#: ../includes/class-picasso-ideas-review.php:538
+msgid "Review updated successfully"
+msgstr ""
+
+#: ../includes/class-picasso-ideas-review.php:443
+#: ../includes/class-picasso-ideas-review.php:540
+msgid "Review posted successfully"
+msgstr ""
+
+#: ../includes/class-picasso-ideas-review.php:449
+msgid "Reviewer id is required"
+msgstr ""
+
+#: ../includes/idea-metaboxes.php:11
+msgid "Idea Attachments"
+msgstr ""
+
+#: ../includes/idea-metaboxes.php:25
+msgid "Add or Upload Images"
+msgstr ""
+
+#: ../includes/idea-metaboxes.php:35
+msgid "Add or Upload Attachments"
+msgstr ""
+
+#: ../includes/idea-metaboxes.php:45
+msgid "Add or Upload Videos"
+msgstr ""
+
+#: ../includes/idea-metaboxes.php:51
+msgid "Enter a youtube video link."
+msgstr ""
+
+#: ../includes/idea-metaboxes.php:67 ../includes/plugin-options-panel.php:30
+#: ../includes/plugin-options-panel.php:39
+msgid "Idea Settings"
+msgstr ""
+
+#: ../includes/idea-metaboxes.php:76
+msgid "Status"
+msgstr ""
+
+#: ../includes/idea-metaboxes.php:90
+msgid "Enable User Reviews"
+msgstr ""
+
+#: ../includes/idea-metaboxes.php:91
+msgid "Check it to enable user reviews."
+msgstr ""
+
+#: ../includes/idea-metaboxes.php:97
+msgid "User Reviews Deadline"
+msgstr ""
+
+#: ../includes/idea-metaboxes.php:104
+msgid "Enable Expert Reviews"
+msgstr ""
+
+#: ../includes/idea-metaboxes.php:105
+msgid "Check it to enable expert reviews."
+msgstr ""
+
+#: ../includes/idea-metaboxes.php:111
+msgid "Expert Reviews Deadline"
+msgstr ""
+
+#: ../includes/idea-metaboxes.php:118
+msgid "Enable Idea Updates"
+msgstr ""
+
+#: ../includes/idea-metaboxes.php:119
+msgid "Check it to enable idea updates."
+msgstr ""
+
+#: ../includes/idea-metaboxes.php:125
+msgid "Idea Owners"
+msgstr ""
+
+#: ../includes/idea-metaboxes.php:126
+msgid "Assign idea owners who can post idea update."
+msgstr ""
+
+#: ../includes/plugin-options-panel.php:38
+#: ../includes/plugin-options-panel.php:166
+msgid "Settings"
+msgstr ""
+
+#: ../includes/plugin-options-panel.php:140
+msgid "User Roles"
+msgstr ""
+
+#: ../includes/plugin-options-panel.php:149
+msgid "Idea Modifier Roles"
+msgstr ""
+
+#: ../includes/plugin-options-panel.php:150
+msgid "Who can assign experts and deadline for ideas?."
+msgstr ""
+
+#: ../includes/plugin-options-panel.php:157
+msgid "Idea Expert Roles"
+msgstr ""
+
+#: ../includes/plugin-options-panel.php:158
+msgid "Who can give review for ideas?."
+msgstr ""
+
+#: ../includes/plugin-options-panel.php:174
+msgid "Create Idea Page"
+msgstr ""
+
+#: ../includes/plugin-options-panel.php:175
+msgid "Choose the page that will be used to create idea."
+msgstr ""
+
+#: ../includes/plugin-options-panel.php:181
+msgid "Edit Idea Page"
+msgstr ""
+
+#: ../includes/plugin-options-panel.php:182
+msgid "Choose the page that will be used to edit idea."
+msgstr ""
+
+#: ../includes/plugin-options-panel.php:187
+msgid "Modify Reviews"
+msgstr ""
+
+#: ../includes/plugin-options-panel.php:188
+msgid "Do the modifiers can edit reviews?"
+msgstr ""
+
+#: ../includes/plugin-options-panel.php:196
+msgid "Modifier User Reviews"
+msgstr ""
+
+#: ../includes/plugin-options-panel.php:197
+msgid "Do the modifiers can post user reviews?"
+msgstr ""
+
+#: ../includes/plugin-options-panel.php:205
+msgid "Receive Reminder"
+msgstr ""
+
+#: ../includes/plugin-options-panel.php:206
+msgid "Do the experts will receive reminder before ending the deadline?"
+msgstr ""
+
+#: ../includes/plugin-options-panel.php:214
+msgid "Reminder Buffer"
+msgstr ""
+
+#: ../includes/plugin-options-panel.php:215
+msgid "How many days before do your experts will receive alert?"
+msgstr ""
+
+#: ../includes/plugin-options-panel.php:226
+msgid "Review Criteria"
+msgstr ""
+
+#: ../includes/plugin-options-panel.php:233
+msgid "Criteria"
+msgstr ""
+
+#: ../includes/plugin-options-panel.php:234
+msgid "You can assign as many criteria as you want."
+msgstr ""
+
+#: ../includes/cmb2-custom-fields/users-with-avatar.php:19
+msgid "Search user"
+msgstr ""

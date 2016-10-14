@@ -1,0 +1,1 @@
+<?php $this->displayTemplate('directory_listing_photo_single_full', array('entity' => $entity, 'id' => $id, 'class' => $class, 'links' => $links, 'buttons' => $buttons, 'no_comments' => true));?>

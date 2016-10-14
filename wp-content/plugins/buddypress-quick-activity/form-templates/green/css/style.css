@@ -1,0 +1,142 @@
+/** BPQA green stylesheet **/
+
+div#bpqa-popup-template-holder-green {
+    z-index: 99999;
+    display:none;
+    position: fixed;
+    width:100%;
+    height:100%;
+    top:0;
+}
+
+.bpqa-form-wrapper-green {
+    background: rgba(255,255,255,0.98);
+	-webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, .25);
+	-webkit-border-radius: 3px;
+	border: 1px solid rgba(100, 100, 100, .4);
+	-webkit-background-clip: padding-box;
+	-webkit-border-radius: 3px; 
+	-moz-border-radius: 3px; 
+	border-radius: 3px;
+	max-width:400px;
+	margin:0 auto;
+	position:relative;
+	box-sizing: border-box;
+	top:20%;
+	border: 1px solid rgba(129, 219, 108, 0.87);
+	margin:15px 0px;
+	display:block;
+}
+
+div#bpqa-popup-template-holder-green .bpqa-form-wrapper-green {
+	margin:0 auto;
+}
+
+div.bpqa-form-wrapper-green form textarea {
+	width: 100% !important;
+	font-family: 'Proxima Nova Regular';
+	font-size: 14px;
+	line-height: 22px;
+	padding: 10px;
+	margin: 0px;
+	color: #666665;
+	background-color: white;
+	box-sizing: border-box;
+	height: 155px;
+	margin-bottom: 1px;
+	border:0;
+}
+
+div.bpqa-form-wrapper-green form div.bpqa-characters-count {
+	position: absolute;
+	bottom:40px;
+	right:5px;
+	font-size: 11px;
+	color:#666;
+	padding:5px;
+}
+
+div.bpqa-form-wrapper-green form div.bpqa-buttons-wrapper {
+    float: right;
+}
+
+div.bpqa-form-wrapper-green form div.bpqa-buttons-wrapper input[type="button"], 
+div.bpqa-form-wrapper-green form div.bpqa-buttons-wrapper input[type="submit"] {
+	background:#f3f3f3;
+	border-radius: 2px;
+	color: rgba(76, 128, 64, 0.87);
+	font-size: 11px;
+	font-weight: 400;
+	margin:0px;
+	padding: 4px 10px;	
+	border:1px solid #ccc;
+	line-height: 16px;
+}
+
+div.bpqa-form-wrapper-green form select.bpqa-whats-new-post-in {
+	height:25px;
+	font-size: 11px;
+	color:#555;
+	margin: 1px 0px 0px;
+	border:1px solid  #ddd;
+	padding: 5px 10px;
+	color: rgba(76, 128, 64, 0.87);
+}
+
+div.bpqa-form-wrapper-green form div.bpqa-form-footer-wrapper {
+	background-color: rgba(142, 240, 119, 0.87);
+	text-align:center;
+	display: block;
+	color:#375348;
+	font-size:12px;
+	padding:6px 10px;
+	width:100%;
+	box-sizing: border-box;
+	height: 38px
+}
+
+div.bpqa-form-wrapper-green form  div.bpqa-post-in-wrapper {
+	float:left;
+}
+
+div.bpqa-form-wrapper-green form input[type="text"] {
+    float: left;
+    width: 100% !important;
+    font-family: 'Proxima Nova Light';
+    font-size: 15px;
+    line-height: 22px;
+    padding: 7.5px;
+    margin: 0px;
+    color: #444;
+    border: 1px solid rgb(238, 238, 238);
+    background-color: white;
+    -webkit-box-shadow: rgba(2, 2, 2, 0980392) 0px 0px 5px inset;
+    box-shadow: rgba(0, 0, 0, 0.0980392) 0px 0px 5px inset;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    box-sizing: border-box;
+    text-shadow: none !important;
+    font-family: arial, sans-serif;
+}
+
+div.bpqa-form-wrapper-green form input[type="button"], 
+div.bpqa-form-wrapper-green form input[type="submit"]  {
+    font-size: 14px;
+    padding: 7px 13px;
+    text-shadow: none;
+    font-weight: normal;
+}
+
+div.bpqa-form-wrapper-green form .bpqa-warning {
+    border: 1px solid rgb(233, 130, 130) !important;
+}
+
+@media only screen and (max-width: 550px) {
+
+    div.bpqa-form-wrapper-green {
+        max-width: 100%;
+		top:0;
+    }
+}

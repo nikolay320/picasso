@@ -1,0 +1,36 @@
+AJDE Library Changelog
+----------------------------
+v 1.5.9 (2016-5-20)
+UPDATED: Font awesome 4.6.2
+UPDATED: backender settings to support alt yesno buttons
+
+v 1.5.8 (2016-4-19)
+FIXED: dropdown fiels options have type radio
+
+v 1.5.7. (2016-3-3)
+FIXED: rearrange order not showing newly added items
+
+v 1.5.6 (2016-2-8)
+FIXED: class exitst conflict solved
+
+v 1.5.5 (2016-1-29)
+UPDATED: With font awesome icons 4.5 version
+FIXED: First icon showing up as blank
+
+v 1.5.4 (2016-1-7)
+UPDATED: Image uploader to new version in WP 3.5
+FIXED: shortcode generator <p> not going all the way across
+
+v 1.5.3 (2015-12-8)
+ADDED: Legends tooltip for several mission field types in settings
+
+v 1.5.2 (2015-12-1)
+ADDED: Tooltop support for image setting type
+FIXED: rearrange order fields duplicate removed for display
+FIXED: Image settings type undefined error
+
+v 1.5.1 (2015-11-18)
+UPDATED: font awesome fonts to version 4.4
+
+v 1.5 (2015-11-17)
+ADDED: settings to support password type input fields

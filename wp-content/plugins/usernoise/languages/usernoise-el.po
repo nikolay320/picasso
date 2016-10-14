@@ -1,0 +1,679 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Artemis Kasomoulis <arkas.lam@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ default
+#: inc/model.php:90
+msgid "A new"
+msgstr "Ένα νέο"
+
+# @ usernoise
+#: inc/model.php:25
+msgid "Add new"
+msgstr "Προσθήκη νέου"
+
+# @ usernoise
+#: inc/model.php:26
+msgid "Add new feedback"
+msgstr "Προσθήκη νέας πρότασης"
+
+# @ usernoise
+#: admin/settings.php:134
+msgid "Admin notifications"
+msgstr "Ενημερώσεις Διαχειριστή"
+
+# @ usernoise
+#: admin/feedback-list.php:55
+msgid "All feedback types"
+msgstr "Όλες οι μορφές προτάσεων"
+
+# @ usernoise
+#: admin/settings.php:113
+msgid "Ask for a summary"
+msgstr "Ζητήστε μία περίληψη"
+
+# @ usernoise
+#: admin/settings.php:117
+msgid "Ask for an email"
+msgstr "Ζητήστε email"
+
+# @ usernoise
+#: admin/settings.php:109
+msgid "Ask for feedback type"
+msgstr "Ζητήστε τον τύπο της πρότασης"
+
+# @ default
+#: admin/editor-page.php:86
+msgid "Author"
+msgstr "Συγγραφέας"
+
+# @ usernoise
+#: admin/settings.php:73
+msgid "Background color"
+msgstr "Χρώμα background"
+
+# @ usernoise
+#: admin/settings.php:72
+msgid "Button"
+msgstr "Κουμπί"
+
+# @ default
+#: html/publish-meta-box.php:61
+msgid "Delete Permanently"
+msgstr "Μόνιμη Διαγραφή"
+
+# @ default
+#: html/publish-meta-box.php:29
+msgid "Draft"
+msgstr "Πρόχειρο"
+
+# @ usernoise
+#: admin/settings.php:100
+msgid "Feedback form"
+msgstr "Φόρμα σχολιασμού"
+
+# @ usernoise
+#: inc/model.php:35
+msgid "Feedback left by users using a form in a lightbox"
+msgstr "Η πρόταση έγινε από χρήστες που χρησιμοποιούν φόρμα σε lightbox"
+
+# @ usernoise
+#: inc/model.php:31
+msgid "Feedback not found"
+msgstr "Δεν βρέθηκε πρόταση"
+
+# @ usernoise
+#: inc/model.php:32
+msgid "Feedback not found in Trash"
+msgstr "Δεν βρέθηκε κάποιο σχόλιο στον κάδο"
+
+# @ usernoise
+#: admin/settings.php:66
+msgid "Font"
+msgstr "Γραμματοσειρά"
+
+# @ usernoise
+#: admin/settings.php:101
+msgid "Form title"
+msgstr "Τίτλος Φόρμας"
+
+# @ usernoise
+#: admin/settings.php:57
+msgid "General"
+msgstr "Γενικά"
+
+# @ usernoise
+# @ default
+#: html/form-feedback.php:16 usernoise.php:101
+msgid "Idea"
+msgstr "Ιδέα"
+
+# @ usernoise
+#: admin/settings.php:105
+msgid "Introductional text"
+msgstr "Εισαγωγικό κείμενο"
+
+# @ default
+#: html/publish-meta-box.php:40
+msgid "M j, Y @ G:i"
+msgstr "M j, Y @ G:i"
+
+# @ default
+#: html/publish-meta-box.php:63
+msgid "Move to Trash"
+msgstr "Μεταφορά στον κάδο"
+
+# @ default
+#: inc/model.php:95
+msgid "New"
+msgstr "Νέο"
+
+# @ usernoise
+#: admin/dashboard.php:13 inc/model.php:28
+msgid "New feedback"
+msgstr "Νέα πρόταση"
+
+# @ usernoise
+#: admin/settings.php:135
+msgid "New feedback received"
+msgstr "Νέα πρόταση ελήφθη"
+
+# @ usernoise
+#: html/publish-meta-box.php:25
+msgid "Pending Review"
+msgstr "Εν αναμονή κριτική"
+
+# @ usernoise
+#: inc/model.php:55
+msgid "Please enter a summary."
+msgstr "Παρακαλώ εισάγετε μία περίληψη."
+
+# @ usernoise
+#: inc/model.php:61
+msgid "Please enter a valid email address."
+msgstr "Παρακαλώ εισάγετε μία έγκυρη διεύθυνση email."
+
+# @ usernoise
+#: inc/model.php:58
+msgid "Please enter the feedback."
+msgstr "Παρακαλώ εισάγετε το σχόλιο/πρόταση σας."
+
+# @ usernoise
+#: inc/template.php:102 usernoise.php:74
+msgid ""
+"Please tell us what do you think, any kind of feedback is highly appreciated."
+msgstr ""
+"Παρακαλούμε, πείτε μας ότι σκέφτεστε, κάθε είδους κριτική - σχόλιο εκτιμάται "
+"ιδιαίτερα."
+
+# @ usernoise
+#: html/form-feedback.php:19 usernoise.php:102
+msgid "Praise"
+msgstr "Εγκώμιο"
+
+# @ default
+#: html/publish-meta-box.php:16
+msgid "Privately Published"
+msgstr "Απόρρητη Δημοσίευση"
+
+# @ usernoise
+#: html/form-feedback.php:17 usernoise.php:101
+msgid "Problem"
+msgstr "Πρόβλημα"
+
+# @ default
+#: admin/editor-page.php:19 html/publish-meta-box.php:72
+msgid "Publish"
+msgstr "Δημοσίευση"
+
+# @ usernoise
+#: html/form-feedback.php:18 usernoise.php:101
+msgid "Question"
+msgstr "Ερώτηση"
+
+# @ usernoise
+#: html/publish-meta-box.php:19 html/publish-meta-box.php:73
+msgid "Reviewed"
+msgstr "Αξιολογήθηκε"
+
+# @ default
+#: html/publish-meta-box.php:22
+msgid "Scheduled"
+msgstr "Προγραμματίστηκε"
+
+# @ usernoise
+#: inc/model.php:30
+msgid "Search feedback"
+msgstr "Αναζήτη σχόλιου"
+
+# @ default
+#: admin/settings.php:169
+msgid "Select a Color"
+msgstr "Επιλέξτε ένα χρώμα"
+
+# @ default
+#: html/publish-meta-box.php:41
+#, php-format
+msgid "Sent on: <b>%1$s</b>"
+msgstr "Στάλθηκε στο: <b>%1$s</b>"
+
+# @ usernoise
+#: html/form-feedback.php:25 inc/controller.php:28
+msgid "Short summary"
+msgstr "Σύντομη περίληψη"
+
+# @ usernoise
+#: admin/settings.php:71
+msgid "Site default font"
+msgstr "Προκαθορισμένη γραμματοσειρά"
+
+# @ default
+#: html/publish-meta-box.php:11
+msgid "Status:"
+msgstr "Κατάσταση:"
+
+# @ usernoise
+#: admin/settings.php:121
+msgid "Submit button text"
+msgstr "Κείμενο κουμπιού υποβολής"
+
+# @ usernoise
+#: inc/template.php:97 usernoise.php:78 usernoise.php:82
+msgid "Submit feedback"
+msgstr "Υποβολή"
+
+# @ usernoise
+#: admin/settings.php:77
+msgid "Text"
+msgstr "Κείμενο"
+
+# @ usernoise
+#: admin/settings.php:81
+msgid "Text color"
+msgstr "Χρώμα κειμένου"
+
+# @ usernoise
+#: usernoise.php:79
+msgid "Thank you"
+msgstr "Σας ευχαριστώ"
+
+# @ usernoise
+#: admin/settings.php:125
+msgid "Thank you screen"
+msgstr "Ευχαριστήρια εικόνα"
+
+# @ usernoise
+#: admin/settings.php:126
+msgid "Thank you screen title"
+msgstr "Τίτλος ευχαριστήριας εικόνας"
+
+# @ usernoise
+#: admin/settings.php:130
+msgid "Thank you text"
+msgstr "Ευχαριστήριο κείμενο"
+
+# @ usernoise
+#: admin/feedback-list.php:32
+msgid "Type"
+msgstr "Τύπος"
+
+# @ default
+#: html/publish-meta-box.php:75
+msgid "Update"
+msgstr "Ενημέρωση"
+
+# @ usernoise
+# @ default
+#: admin/menu.php:14 admin/settings.php:18 html/powered-by.php:3
+#: inc/model.php:33
+msgid "Usernoise"
+msgstr "Usernoise"
+
+# @ usernoise
+#: admin/settings.php:25
+msgid "Usernoise settings"
+msgstr "Ρυθμίσεις του Usernoise"
+
+# @ usernoise
+#: inc/model.php:27 inc/model.php:29
+msgid "View feedback"
+msgstr "Προβολή σχολίων"
+
+# @ default
+#: inc/model.php:91
+msgid "View it:"
+msgstr "Δείτε το:"
+
+# @ usernoise
+#: html/form-feedback.php:28 inc/controller.php:32
+msgid "Your email (will not be published)"
+msgstr "Το email σας(δεν θα δημοσιευθεί)"
+
+# @ usernoise
+#: html/form-feedback.php:23 inc/controller.php:30
+msgid "Your feedback"
+msgstr "Το σχόλιο σας"
+
+# @ usernoise
+#: usernoise.php:80
+msgid "Your feedback has been received."
+msgstr "Το σχόλιο σας έχει ληφθεί."
+
+# @ usernoise
+#: inc/model.php:21 inc/model.php:23 inc/model.php:24
+msgctxt "admin"
+msgid "Feedback"
+msgstr "Σχόλιο"
+
+# @ usernoise
+#: usernoise.php:69
+msgctxt "button"
+msgid "Feedback"
+msgstr "Σχόλιο"
+
+# @ default
+#: inc/model.php:89
+msgid "feedback"
+msgstr "σχόλιο"
+
+# @ usernoise
+#: usernoise.php:73
+msgctxt "form"
+msgid "Feedback"
+msgstr "Σχόλιο"
+
+# @ default
+#: inc/model.php:95
+msgid "submitted at"
+msgstr "υποβλήθηκε σε"
+
+# @ default
+#: admin/admin-bar.php:15
+#, php-format
+msgid "Usernoise %s"
+msgstr "Usernoise %s"
+
+# @ default
+#: admin/dashboard.php:29
+msgid "by"
+msgstr "από"
+
+# @ default
+#: admin/dashboard.php:37
+msgid "View all feedback"
+msgstr "Δες όλες τις προτάσεις"
+
+# @ usernoise
+#: admin/dashboard.php:40
+msgid "No new feedback now."
+msgstr "Αυτή τη στιγμή δεν υπάρχει κάποια νέα πρόταση."
+
+# @ default
+#: admin/editor-page.php:27
+msgid "Reply"
+msgstr "Απάντηση"
+
+# @ default
+#: admin/editor-page.php:42 pro/inc/model.php:37
+msgid "Hacking, huh?"
+msgstr "Hacking, ε;"
+
+# @ default
+#: admin/editor-page.php:45
+msgid "Please enter some message."
+msgstr "Παρακαλώ εισάγετε κάποιο μήνυμα."
+
+# @ default
+#: admin/editor-page.php:56
+msgid "Feedback author email is unknown."
+msgstr "Το email του σχολιαστή είναι άγνωστο."
+
+# @ default
+#: admin/editor-page.php:61
+msgid "Email sent successfully."
+msgstr "Το email στάλθηκε με επιτυχία."
+
+# @ default
+#: admin/editor-page.php:66
+msgid "Feedback was marked as reviewed"
+msgstr "Τα σχόλια έχουν επιλεχθεί ως αξιολογημένα"
+
+# @ default
+#: admin/menu.php:16
+msgid "Settings"
+msgstr "Ρυθμίσεις"
+
+# @ default
+#: admin/settings.php:32
+msgid "Save Changes"
+msgstr "Αποθήκευση αλλαγών"
+
+# @ usernoise
+#: admin/settings.php:59
+msgid "Show Powered by"
+msgstr "Εμφάνιση του \"Πραγματοποιήθηκε από\""
+
+# @ usernoise
+#: admin/settings.php:63
+msgid ""
+"I like Usernoise and want to show <em>\"Powered by Usernoise\"</em>  link at "
+"the modal window."
+msgstr ""
+"Μ'αρέσει το Usernoise και θέλω να εμφανίζεται ο σύνδεσμος <em>\"Υλοποιήθηκε "
+"από τη Usernoise\"</em> στο αποκλειστικό παράθυρο."
+
+# @ default
+#: admin/settings.php:85
+msgid "Left"
+msgstr "Αριστερά"
+
+# @ default
+#: admin/settings.php:85
+msgid "Right"
+msgstr "Δεξιά"
+
+# @ default
+#: admin/settings.php:85
+msgid "Top"
+msgstr "Στην κορυφή"
+
+# @ default
+#: admin/settings.php:86
+msgid "Bottom"
+msgstr "Κάτω"
+
+# @ usernoise
+#: admin/settings.php:87
+msgid "Show border"
+msgstr "Εμφάνιση ορίων"
+
+# @ usernoise
+#: admin/settings.php:91
+msgid "Position"
+msgstr "Θέση"
+
+# @ usernoise
+#: admin/settings.php:96
+msgid "Hide on mobile devices"
+msgstr "Απόκρυψη στις κινητές συσκευές"
+
+# @ usernoise
+#: admin/settings.php:143
+msgid "Notification emails will be sent to:"
+msgstr "Τα email ενημέρωσης θα στέλνονται στο:"
+
+# @ usernoise
+#: admin/settings.php:145
+msgid "you can change it at"
+msgstr "μπορείς να το αλλάξεις σε"
+
+# @ default
+#: admin/settings.php:145
+msgid "General Options"
+msgstr "Γενικές επιλογές"
+
+# @ default
+#: html/powered-by.php:2
+msgid "Powered by"
+msgstr "Υλοποιήθηκε από"
+
+# @ default
+#: html/publish-meta-box.php:76
+msgid "OK"
+msgstr "ΟΚ"
+
+# @ default
+#: html/reply-meta-box.php:4
+msgid "Subject"
+msgstr "Θέμα"
+
+# @ usernoise
+#: html/reply-meta-box.php:5 inc/integration.php:22 inc/template.php:93
+msgid "Feedback"
+msgstr "Σχόλιο"
+
+# @ default
+#: html/reply-meta-box.php:8
+msgid "Send"
+msgstr "Αποστολή"
+
+# @ default
+#: inc/model.php:90
+msgid "has been submitted."
+msgstr "έχει υποβληθεί."
+
+# @ default
+#: inc/template.php:60
+msgid "or"
+msgstr "ή"
+
+# @ usernoise-pro
+#: pro/admin/editor-page.php:19
+msgid "Details"
+msgstr "Λεπτομέρειες"
+
+# @ usernoise-pro
+#: pro/admin/editor-page.php:21
+msgid "HTML Dump"
+msgstr "HTML Dump"
+
+# @ usernoise-pro
+#: pro/admin/editor-page.php:25
+msgid "Rewrite rules"
+msgstr "Επανεγγραφή κανόνων"
+
+# @ usernoise-pro
+#: pro/admin/editor-page.php:28
+msgid "SQL Queries"
+msgstr "Ερωτήματα SQL"
+
+# @ usernoise-pro
+#: pro/admin/editor-page.php:31
+msgid "WP query_vars"
+msgstr "WP query_vars"
+
+# @ usernoise-pro
+#: pro/admin/editor-page.php:35
+msgid "WP filters"
+msgstr "WP filters"
+
+# @ default
+#: pro/admin/editor-page.php:70
+msgid "View in new tab"
+msgstr "Προβολή σε νέα καρτέλα"
+
+# @ usernoise-pro
+#: pro/admin/settings.php:11
+msgid "Debug"
+msgstr "Εντοπισμός Σφαλμάτων"
+
+# @ usernoise
+#: pro/admin/settings.php:12
+msgid ""
+"Enable advanced debug info <br><small><em>(dont use in production!)</em></"
+"small>"
+msgstr ""
+"Ενεργοποίηση προηγμένουν εντοπισμού σφαλμάτων πληροφοριών <br><small><em>(να "
+"μην χρησιμοποιηθεί στην παραγωγή!)</em></small>"
+
+# @ default
+#: pro/html/details_meta_box.php:2
+msgid "URL:"
+msgstr "Διεύθυνση(URL):"
+
+# @ default
+#: pro/html/details_meta_box.php:6
+msgid "Browser:"
+msgstr "Περιηγητής:"
+
+# @ default
+#: pro/html/details_meta_box.php:11
+msgid "Client IP:"
+msgstr "Client IP:"
+
+# @ default
+#: pro/html/details_meta_box.php:18
+msgid "X-Forwarded-For:"
+msgstr "X-Forwarded-For:"
+
+# @ default
+#: pro/html/feedback-discussion.php:14 pro/html/feedback-item.php:19
+msgid "Leave a comment"
+msgstr "Σχολιάστε"
+
+# @ default
+#: pro/html/feedback-discussion.php:30
+msgid "Cancel"
+msgstr "Ακύρωση"
+
+# @ default
+#: pro/html/feedback-item.php:8
+msgid "I like it!"
+msgstr "Μ'αρέσει!"
+
+# @ default
+#: pro/html/feedback-item.php:17
+msgid "comment"
+msgid_plural "comments"
+msgstr[0] "σχόλιο"
+msgstr[1] "σχόλια"
+
+# @ usernoise
+#: pro/html/feedback-list.php:2
+msgid "Back"
+msgstr "Πίσω"
+
+# @ default
+#: pro/html/feedback-list.php:3
+msgid "Popular ideas"
+msgstr "Δημοφιλείς Ιδέες"
+
+# @ default
+#: pro/html/feedback-list.php:19
+msgid "Load more"
+msgstr "Φόρτωση περισσότερων"
+
+# @ default
+#: pro/html/feedback-list.php:28
+msgid "Sorry, there are no ideas available."
+msgstr "Μας συγχωρείτε, δεν υπάρχουν διαθέσιμες ιδέες."
+
+# @ default
+#: pro/html/filters-meta-box.php:3 pro/html/query-vars-meta-box.php:3
+msgid "Name"
+msgstr "Όνομα"
+
+# @ default
+#: pro/html/filters-meta-box.php:4
+msgid "Hooks"
+msgstr "Hooks"
+
+# @ default
+#: pro/html/query-vars-meta-box.php:4
+msgid "Value"
+msgstr "Αξία"
+
+# @ default
+#: pro/html/query-vars-meta-box.php:18
+msgid "Empty query vars"
+msgstr "Empty query vars"
+
+# @ default
+#: pro/html/sql-queries-meta-box.php:3
+msgid "SQL"
+msgstr "SQL"
+
+# @ default
+#: pro/html/sql-queries-meta-box.php:4
+msgid "Time"
+msgstr "Χρόνος"
+
+# @ default
+#: pro/html/sql-queries-meta-box.php:5
+msgid "Stacktrace"
+msgstr "Stacktrace"
+
+# @ default
+#: pro/html/sql-queries-meta-box.php:13 pro/html/sql-queries-meta-box.php:19
+msgid "ms"
+msgstr "ms"
+
+# @ default
+#: pro/html/sql-queries-meta-box.php:18
+msgid "queries"
+msgstr "ερωτήματα"

@@ -1,0 +1,698 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Usernoise v2.0.4\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/usernoise\n"
+"POT-Creation-Date: 2012-03-21 12:31:33+00:00\n"
+"PO-Revision-Date: 2012-10-15 06:24:17+0000\n"
+"Last-Translator: Ahmad Mohammad - ProBloG <Ahm4Droid@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: admin/admin-bar.php:17
+#, php-format
+#@ default
+msgid "Usernoise %s"
+msgstr ""
+
+#: admin/admin-bar.php:23
+#: html/reply-meta-box.php:5
+#: html/window.php:20
+#: inc/integration.php:21
+#: inc/template.php:119
+#@ usernoise
+msgid "Feedback"
+msgstr "الآراء"
+
+#: admin/admin-bar.php:30
+#: admin/menu.php:16
+#: html/window.php:23
+#: vendor/plugin-options-framework/plugin-options-framework.php:95
+#@ usernoise
+#@ default
+msgid "Settings"
+msgstr "الإعدادات"
+
+#: admin/dashboard.php:15
+#: inc/model.php:28
+#@ usernoise
+msgid "New feedback"
+msgstr "رأي جديد"
+
+#: admin/dashboard.php:32
+#@ default
+msgid "by"
+msgstr "بواسطة"
+
+#: admin/dashboard.php:42
+#@ usernoise
+msgid "View all feedback"
+msgstr "عرض جميع الآراء"
+
+#: admin/dashboard.php:45
+#@ usernoise
+msgid "No new feedback now."
+msgstr "لا توجد آراء حالياً."
+
+#: admin/editor-page.php:29
+#: html/publish-meta-box.php:68
+#@ default
+msgid "Publish"
+msgstr "نشر"
+
+#: admin/editor-page.php:36
+#@ usernoise
+msgid "HTTP Headers"
+msgstr ""
+
+#: admin/editor-page.php:38
+#@ default
+msgid "Discussion"
+msgstr "نقاش"
+
+#: admin/editor-page.php:39
+#@ usernoise
+msgid "WordPress Debug Info"
+msgstr ""
+
+#: admin/editor-page.php:57
+#@ usernoise
+msgid "Feedback was marked as reviewed"
+msgstr "تم تحديد الرأي بـ تمت مراجعته"
+
+#: admin/editor-page.php:76
+#@ default
+msgid "Author"
+msgstr "الكاتب"
+
+#: admin/feedback-list.php:33
+#@ usernoise
+msgid "Type"
+msgstr "نوع"
+
+#: admin/feedback-list.php:56
+#@ usernoise
+msgid "All feedback types"
+msgstr "جميع انواع الآراء"
+
+#: admin/menu.php:14
+#: inc/model.php:33
+#@ usernoise
+msgid "Usernoise"
+msgstr ""
+
+#: admin/notifications.php:20
+#, php-format
+#@ usernoise
+msgid "Usernoise is disabled now. You can enable and configure it at the <a href=\"%s\">settings page</a>."
+msgstr "Usernoise معطَّل الآن. تستطيع تفعيله و تكوينه في <a href=\"%s\">صفحة الخيارات</a>."
+
+#: admin/settings.php:13
+#@ usernoise
+msgid "Usernoise settings"
+msgstr "خيارات Usernoise"
+
+#: admin/settings.php:23
+#@ default
+msgid "Left"
+msgstr "يسار"
+
+#: admin/settings.php:23
+#@ default
+msgid "Right"
+msgstr "يمين"
+
+#: admin/settings.php:23
+#@ default
+msgid "Top"
+msgstr "الأعى"
+
+#: admin/settings.php:24
+#@ default
+msgid "Bottom"
+msgstr "الأسفل"
+
+#: admin/settings.php:26
+#: vendor/plugin-options-framework/plugin-options-framework.php:393
+#@ usernoise
+#@ default
+msgid "General"
+msgstr "عام"
+
+#: admin/settings.php:28
+#@ usernoise
+msgid "Enable Usernoise"
+msgstr "تفعيل Usernoise"
+
+#: admin/settings.php:31
+#@ usernoise
+msgid "Show Powered by"
+msgstr "إظهار مدعوم بـ ؟"
+
+#: admin/settings.php:32
+#@ usernoise
+msgid "Show <strong>\"Powered by Usernoise\"</strong> link at the modal window. Check this, please!"
+msgstr "إظهار <strong>\"مدعوم بـ  Usernoise\"</strong في النافذه المنبثقه. أظهر لنا دعمك رجاءً!"
+
+#: admin/settings.php:34
+#@ default
+msgid "The link will only be visible at the modal window."
+msgstr "الرابط فقط سيظهر في النافذه المنبثقه."
+
+#: admin/settings.php:36
+#: admin/settings.php:37
+#@ usernoise
+msgid "Disable on mobile devices"
+msgstr "تعطيل على أجهزة الهاتف النقال"
+
+#: admin/settings.php:39
+#: admin/upgrade.php:42
+#@ usernoise
+msgid "Button"
+msgstr "الزر"
+
+#: admin/settings.php:41
+#@ usernoise
+msgid "Position"
+msgstr "الموضع"
+
+#: admin/settings.php:44
+#@ usernoise
+msgid "Text"
+msgstr "النص"
+
+#: admin/settings.php:45
+#@ usernoise
+msgctxt "button"
+msgid "Feedback"
+msgstr "الرأي"
+
+#: admin/settings.php:47
+#@ usernoise
+msgid "Text color"
+msgstr "لون النص"
+
+#: admin/settings.php:50
+#@ usernoise
+msgid "Background color"
+msgstr "لون الخلفيه"
+
+#: admin/settings.php:53
+#@ usernoise
+msgid "Show border"
+msgstr "أظهر الحدود"
+
+#: admin/settings.php:57
+#: admin/settings.php:58
+#@ usernoise
+msgid "Form"
+msgstr "الإستمارة"
+
+#: admin/settings.php:63
+#@ usernoise
+msgid "Form title"
+msgstr "عنوان الإستماره"
+
+#: admin/settings.php:64
+#@ usernoise
+msgctxt "form"
+msgid "Feedback"
+msgstr "رآيك مهم !"
+
+#: admin/settings.php:66
+#@ usernoise
+msgid "Introductional text"
+msgstr "النص الترحيبي"
+
+#: admin/settings.php:67
+#: inc/template.php:128
+#@ usernoise
+msgid "Please tell us what do you think, any kind of feedback is highly appreciated."
+msgstr "رجاءً قل لنا رأيك، أبسط فكره قد تصبح عظيمة."
+
+#: admin/settings.php:68
+#: admin/settings.php:92
+#@ default
+msgid "This text will be wrapped into &lt;p&gt; tag. You can still use HTML code."
+msgstr ""
+
+#: admin/settings.php:71
+#: admin/settings.php:72
+#@ usernoise
+msgid "Ask for feedback type"
+msgstr "أطلب منه نوع الرأي"
+
+#: admin/settings.php:75
+#: admin/settings.php:76
+#@ usernoise
+msgid "Ask for a summary"
+msgstr "أطلب منه ملخص "
+
+#: admin/settings.php:79
+#: admin/settings.php:80
+#@ usernoise
+msgid "Ask for an email"
+msgstr "أطلب منه البريد الإلكتروني"
+
+#: admin/settings.php:83
+#@ usernoise
+msgid "Submit button text"
+msgstr "نص زر الإرسال"
+
+#: admin/settings.php:84
+#: inc/template.php:123
+#@ usernoise
+msgid "Submit feedback"
+msgstr "أرسل رأيك"
+
+#: admin/settings.php:85
+#@ usernoise
+msgid "Thank you screen"
+msgstr "شاشة الشكر"
+
+#: admin/settings.php:87
+#@ usernoise
+msgid "Thank you screen title"
+msgstr "عنوان شاشة الشكر"
+
+#: admin/settings.php:88
+#: html/window.php:32
+#@ usernoise
+msgid "Thank you"
+msgstr "شكراً لك. أنت رآئع!"
+
+#: admin/settings.php:90
+#@ usernoise
+msgid "Thank you text"
+msgstr "نص الشكر"
+
+#: admin/settings.php:91
+#: html/window.php:34
+#@ usernoise
+msgid "Your feedback has been received."
+msgstr "لقد تم إحتضان رآيك."
+
+#: admin/settings.php:95
+#@ usernoise
+msgid "Notifications"
+msgstr "التنبيهات"
+
+#: admin/settings.php:97
+#@ usernoise
+msgid "New feedback received admin notification"
+msgstr "تنبيه مدير الموقع بوصول رأي جديد"
+
+#: admin/settings.php:98
+#@ usernoise
+msgid "Enable"
+msgstr "تفعيل"
+
+#: admin/settings.php:101
+#, php-format
+#@ usernoise
+msgid "Notification emails will be sent to: <a href=\"mailto:%s\">%s</a>"
+msgstr "رسائل التبيهات سوف ترسل لـ : <a href=\"mailto:%s\">%s</a>"
+
+#: admin/settings.php:104
+#, php-format
+#@ usernoise
+msgid "(you can change it at <a href=\"%s\">%s</a> page)."
+msgstr "(تستطيع تغييرها في صفحة  <a href=\"%s\">%s</a> )."
+
+#: admin/settings.php:105
+#@ default
+msgid "General Options"
+msgstr "الخيارات العامه"
+
+#: admin/settings.php:118
+#@ usernoise
+msgid "Notifications do not work right?"
+msgstr "التنبيهات لا تعمل؟"
+
+#: admin/upgrade.php:18
+#@ usernoise
+msgid "Pro Settings"
+msgstr "خيارات Pro"
+
+#: admin/upgrade.php:19
+#: admin/upgrade.php:20
+#@ usernoise
+msgid "Upgrade to Pro"
+msgstr "ترقية إلى Pro"
+
+#: admin/upgrade.php:21
+#, php-format
+#@ usernoise
+msgid "Please <a href=\"%s\" class=\"un-upgrade\" target='_new'>Upgrade to Pro</a> to enable the settings below."
+msgstr "رجاء قم  <a href=\"%s\" class=\"un-upgrade\" target='_new'>بالترقيه إلى Pro</a> لتفعيل الخيارات في الأسفل."
+
+#: admin/upgrade.php:26
+#: admin/upgrade.php:27
+#@ usernoise
+msgid "Enable feedback list &amp; discussions."
+msgstr "تفعيل قائمة الآراء ومناقشتها."
+
+#: admin/upgrade.php:30
+#: admin/upgrade.php:36
+#@ usernoise
+msgid "Screenshots"
+msgstr "معاية."
+
+#: admin/upgrade.php:34
+#: admin/upgrade.php:35
+#@ usernoise
+msgid "Gather advanced debug info"
+msgstr "جمع معلومات متقدمه للتصحيح"
+
+#: admin/upgrade.php:44
+#: admin/upgrade.php:45
+#@ usernoise
+msgid "Hide Feedback button"
+msgstr "إخفاء زر الآراء"
+
+#: admin/upgrade.php:46
+#@ usernoise
+msgid "You can hide Feedback button to show it programmatically."
+msgstr ""
+
+#: admin/upgrade.php:49
+#@ usernoise
+msgid "Alternate \"Feedback\" button ID"
+msgstr "معرف زر متغير لـ \"الرأي\""
+
+#: admin/upgrade.php:51
+#@ usernoise
+msgid "Usernoise window will be shown upon click of element with that ID. For example, if you have the next link: <code>&lt;a href=\"#\" id=\"my-link\"&gt;some link&lt;/a&gt;</code>, put \"my-link\" here."
+msgstr "نافذة Usernoise سوف تظهر على العنصر مع هذا المعرف. مثال , إذا كان لديك هذا الرابط : <code>&lt;a href=\"#\" id=\"رآبطك\"&gt;some link&lt;/a&gt;</code>, ضع  \"رآبطك\"  هنا."
+
+#: admin/upgrade.php:54
+#@ usernoise-pro
+msgid "Custom CSS properties"
+msgstr "خصائص CSS "
+
+#: admin/upgrade.php:55
+#@ usernoise-pro
+msgid "Usernoise button custom CSS properties. Remove /* and */ to enable. Don't put here HTML tags."
+msgstr ""
+
+#: admin/upgrade.php:59
+#@ usernoise-pro
+msgid "Form design"
+msgstr "تصميم الإستماره"
+
+#: admin/upgrade.php:61
+#@ usernoise-pro
+msgid "Custom CSS for Usernoise window"
+msgstr "CSS مخصص لنافذة Usernoise"
+
+#: admin/upgrade.php:63
+#@ usernoise-pro
+msgid "You can override the form's style by applying your own CSS. Don't forget to remove comment symbols and do not put HTML tags here."
+msgstr "بإمكانك تعديل الإستماره بتطبيق CSS خاصه فيك.  لا تنسى ان تزيل رموز التعليقات ولا تضع HTML هنا ."
+
+#: html/powered-by.php:2
+#@ usernoise
+msgid "Powered by"
+msgstr "دمعوم بواسطة "
+
+#: html/publish-meta-box.php:7
+#@ default
+msgid "Status:"
+msgstr "الحاله:"
+
+#: html/publish-meta-box.php:12
+#@ default
+msgid "Privately Published"
+msgstr "منشور سرياً"
+
+#: html/publish-meta-box.php:15
+#: html/publish-meta-box.php:69
+#@ usernoise
+msgid "Reviewed"
+msgstr "تمت مراجعته"
+
+#: html/publish-meta-box.php:18
+#@ default
+msgid "Scheduled"
+msgstr "مجدول"
+
+#: html/publish-meta-box.php:21
+#@ usernoise
+msgid "Pending Review"
+msgstr "تعليق المراجعه"
+
+#: html/publish-meta-box.php:25
+#@ default
+msgid "Draft"
+msgstr "مسودة"
+
+#: html/publish-meta-box.php:36
+#@ default
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: html/publish-meta-box.php:37
+#, php-format
+#@ default
+msgid "Sent on: <b>%1$s</b>"
+msgstr "أرسلت في:  <b>%1$s</b>"
+
+#: html/publish-meta-box.php:57
+#@ default
+msgid "Delete Permanently"
+msgstr "حذف نهائي"
+
+#: html/publish-meta-box.php:59
+#@ default
+msgid "Move to Trash"
+msgstr "نقل إلى سلة المهملات"
+
+#: html/publish-meta-box.php:71
+#@ default
+msgid "Update"
+msgstr "تحديث"
+
+#: html/publish-meta-box.php:72
+#@ default
+msgid "OK"
+msgstr "موافق"
+
+#: html/reply-meta-box.php:4
+#@ usernoise
+msgid "Subject"
+msgstr "عنوان"
+
+#: html/reply-meta-box.php:8
+#@ usernoise
+msgid "Send"
+msgstr "إرسال"
+
+#: html/window.php:14
+#@ usernoise
+msgid "Close"
+msgstr "إغلاق"
+
+#: inc/form.php:12
+#: usernoise.php:84
+#@ usernoise
+#@ default
+msgid "Idea"
+msgstr "فكره"
+
+#: inc/form.php:13
+#: usernoise.php:84
+#@ usernoise
+msgid "Problem"
+msgstr "مشكلة"
+
+#: inc/form.php:14
+#: usernoise.php:84
+#@ usernoise
+msgid "Question"
+msgstr "سؤال"
+
+#: inc/form.php:15
+#: usernoise.php:85
+#@ usernoise
+msgid "Praise"
+msgstr "مدح"
+
+#: inc/controller.php:37
+#: inc/form.php:19
+#@ usernoise
+msgid "Your feedback"
+msgstr "رآيك"
+
+#: inc/controller.php:35
+#: inc/form.php:21
+#@ usernoise
+msgid "Short summary"
+msgstr "ملخص قصير"
+
+#: inc/controller.php:39
+#: inc/form.php:24
+#@ usernoise
+msgid "Your email (will not be published)"
+msgstr "بريدك الإلكتروني ( لن يتم نشره )"
+
+#: inc/model.php:21
+#: inc/model.php:23
+#: inc/model.php:24
+#@ usernoise
+msgctxt "admin"
+msgid "Feedback"
+msgstr "رأي"
+
+#: inc/model.php:25
+#@ usernoise
+msgid "Add new"
+msgstr "أضف جديد"
+
+#: inc/model.php:26
+#@ usernoise
+msgid "Add new feedback"
+msgstr "أضف رأي جديد"
+
+#: inc/model.php:27
+#: inc/model.php:29
+#@ usernoise
+msgid "View feedback"
+msgstr "عرض الرأي"
+
+#: inc/model.php:30
+#@ usernoise
+msgid "Search feedback"
+msgstr "بحث عن رأي"
+
+#: inc/model.php:31
+#@ usernoise
+msgid "Feedback not found"
+msgstr "لم يتم إيجاد رأي !"
+
+#: inc/model.php:32
+#@ usernoise
+msgid "Feedback not found in Trash"
+msgstr "لم يتم العثور على الرأي في سلة المهملات"
+
+#: inc/model.php:35
+#@ usernoise
+msgid "Feedback left by users using a form in a lightbox"
+msgstr ""
+
+#: inc/model.php:54
+#@ usernoise
+msgid "Please enter a summary."
+msgstr "رجاءً أكتب الملخص."
+
+#: inc/model.php:57
+#@ usernoise
+msgid "Please enter the feedback."
+msgstr "رجاءً أكتب رأيك."
+
+#: inc/model.php:60
+#@ usernoise
+msgid "Please enter a valid email address."
+msgstr "رجاءً ضع بريد إلكتروني صحيح."
+
+#: inc/model.php:91
+#@ default
+msgid "feedback"
+msgstr "رأي"
+
+#: inc/model.php:92
+#, php-format
+#@ default
+msgid "A new %s has been submitted. View it: <a href=\"%s\">%s</a>."
+msgstr " %s جديد تمت إضافته . لعرضه: : <a href=\"%s\">%s</a>."
+
+#: inc/model.php:100
+#, php-format
+#@ default
+msgid "New %s submitted at %s"
+msgstr "%s جديد  أُرسل في  %s"
+
+#: inc/model.php:153
+#@ usernoise
+msgid "ideas"
+msgstr "الأفكار"
+
+#: inc/model.php:154
+#@ usernoise
+msgid "questions"
+msgstr "الأسئلة"
+
+#: inc/model.php:155
+#@ usernoise
+msgid "problems"
+msgstr "المشاكل"
+
+#: inc/model.php:156
+#@ usernoise
+msgid "praises"
+msgstr "المدح"
+
+#: inc/template.php:75
+#@ usernoise
+msgid "or"
+msgstr "أو"
+
+#: vendor/plugin-options-framework/plugin-options-framework.php:151
+#@ default
+msgid "Please provide some settings fields when creating an options framework instance"
+msgstr ""
+
+#: vendor/plugin-options-framework/plugin-options-framework.php:171
+#@ default
+msgid "This page requires JavaScript to be enabled in your browser. Please enable JavaScript."
+msgstr "هذه الصفحه تتطلب JavaScript مفعل في متصفحك. رجاءً فعل JavaScript ."
+
+#: vendor/plugin-options-framework/plugin-options-framework.php:218
+#@ default
+msgid "Save Options"
+msgstr "حفظ الخيارات"
+
+#: vendor/plugin-options-framework/plugin-options-framework.php:219
+#@ default
+msgid "Restore Defaults"
+msgstr "إستعادة الإعدادت الإفتراضيه"
+
+#: vendor/plugin-options-framework/plugin-options-framework.php:219
+#@ default
+msgid "Click OK to reset. All the settings will be reset to defaults!"
+msgstr "أضغط موافق لإستعاة الإفتراضيات. جميع الإعدادت سوف تعاد للإفتراضي!"
+
+#: vendor/plugin-options-framework/plugin-options-framework.php:296
+#@ default
+msgid "Select a Color"
+msgstr "أختر لون"
+
+#: vendor/plugin-options-framework/plugin-options-framework.php:330
+#@ default
+msgid "Upgrade to WordPress 3.3 or later to enable WYSIWYG editor"
+msgstr "قم بالترقيه إلى ووردبريس 3.3 أو أحدث لتفعيل محرر WYSIWYG "
+
+#: admin/settings.php:59
+#@ usernoise
+msgid "Font"
+msgstr ""
+
+#: admin/settings.php:60
+#@ usernoise
+msgid "Site default font"
+msgstr ""
+
+#: admin/settings.php:119
+#@ usernoise
+msgid "Check out <a href='http://codecanyon.net/item/all-in-one-email-for-wordpress/1290390'>All in One Email plugin</a>. It adds email options missing in WordPress natively."
+msgstr ""
+

@@ -1,0 +1,2 @@
+<?php
+class Sabai_Addon_File_Controller_Admin_UploadFile extends Sabai_Addon_File_Controller_UploadFile {}

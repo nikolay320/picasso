@@ -1,0 +1,8 @@
+CREATE TABLE %s (
+  id bigint(20) NOT NULL auto_increment,
+  member_id bigint(20) NOT NULL,
+  viewer_id bigint(20) NOT NULL,
+  last_view timestamp NOT NULL,
+  viewer_ip varchar(15) NOT NULL,
+  PRIMARY KEY  (id)
+)

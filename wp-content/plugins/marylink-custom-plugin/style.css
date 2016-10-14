@@ -1,0 +1,51 @@
+.custom_idea .item-likes {
+  color: grey;
+}
+
+.new_idea .activity-meta .acomment-reply {
+  display: none !important;
+}
+
+#buddypress input[type=submit][name=post_idea_review] {
+    color: #fff !important;
+    padding: 6px 12px;
+    height: inherit;
+    line-height: inherit;
+    background-color: #367bb7 !important;
+}
+#buddypress input[type=submit][name=post_idea_review]:hover {
+    background-color: rgba(54,123,183, 0.7) !important;
+}
+
+.idea-avatar img {
+	border-radius: 50%;
+}
+
+.idea_tab .template-page {
+	padding-bottom: 0px;
+}
+
+.idea_tab #item-body {
+	background-color: #e9ebee;
+}
+
+.idea_tab .sabai-questions-questions {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.idea_tab .idea_search {
+	background-color: #fff;
+	padding: 10px;
+	border: 1px solid #dfe0e4;
+	border-radius: 5px;
+	margin-bottom: 14px !important;
+}
+
+.idea_tab .sabai-entity {
+	background-color: #fff;
+	padding: 10px;
+	border: 1px solid #dfe0e4;
+	border-radius: 5px;
+	margin-bottom: 14px !important;
+}

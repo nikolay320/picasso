@@ -1,0 +1,338 @@
+.screen-reader-text {
+    display: none;
+}
+
+.post-type-archive-campaign .template-page.tpl-right .wrap-content,
+.single-campaign .template-page.tpl-right .wrap-content {
+    padding-left: 0;
+}
+
+.table {
+    display: table;
+}
+
+.table-cell {
+    display: table-cell;
+}
+
+/*campaign-list*/
+.campaign-list {
+	margin-bottom: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ccc;
+}
+.campaign-list:last-child {
+	border-bottom: none;
+	margin-bottom: 0;
+}
+.campaign-list .campaign-body {
+	padding-top: 15px;
+}
+.campaign-list .campaign-image {
+	padding-top: 25px;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	.campaign-list .campaign-body {
+		padding-top: 0;
+		padding-left: 0;
+	}
+}
+@media (min-width: 768px) {
+	.campaign-list .campaign-image {
+		padding-left: 0;
+		padding-right: 0;
+	}
+}
+@media (max-width: 767px) {
+	.campaign-list .campaign-image {
+		padding-bottom: 25px;
+		text-align: center;
+	}
+}
+@media (min-width: 992px) {
+	.campaign-list .campaign-statistics {
+		padding-left: 0;
+		padding-right: 0;
+	}
+}
+@media (max-width: 767px) {
+	.campaign-list .campaign-statistics {
+		margin-top: 25px;
+	}
+}
+.campaign-statistics .count-ideas {
+	font-size: 10px;
+	margin: 0 0 5px 0;
+	border-radius: 4px;
+	border: 1px solid;
+	padding: 0 7px 0 0;
+	position: relative;
+}
+.count-ideas .count {
+	color: #fff;
+	float: left;
+	position: absolute;
+	border-radius: 100%;
+	width: 25px;
+	height: 25px;
+	text-align: center;
+	line-height: 25px;
+	top: -2px;
+	left: -5px;
+}
+.count-ideas .status {
+	float: right;
+}
+
+.campaign-statistics .count-ideas::before,
+.campaign-statistics .count-ideas::after {
+	clear: both;
+	content: "";
+	display: table;
+}
+
+.campaign-statistics .count-ideas.status-votes .count {
+	background-color: #CEECF5;
+}
+.campaign-statistics .count-ideas.status-no-status .count {
+	background-color: #2E2EFE;
+}
+.campaign-statistics .count-ideas.status-selected .count {
+	background-color: #9FF781;
+}
+.campaign-statistics .count-ideas.status-not-selected .count {
+	background-color: #FE9A2E;
+}
+.campaign-statistics .count-ideas.status-review .count {
+	background-color: #F4FA58;
+}
+.campaign-statistics .count-ideas.status-no-go .count {
+	background-color: #FF0000;
+}
+.campaign-statistics .count-ideas.status-in-project .count {
+	background-color: #04B404;
+}
+
+/*.campaign-statistics .status-selected,*/
+.campaign-statistics .status-not-selected,
+.campaign-statistics .status-no-go {
+	margin-left: 25px;
+}
+
+.campaign-statistics .status-wrapper {
+	display: table;
+	width: 100%;
+}
+
+.campaign-statistics .count-ideas-wrapper,
+.campaign-statistics .line-wrapper {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.campaign-statistics .status-wrapper .line {
+	border-left: 4px solid #777777;
+	position: relative;
+	top: -2px;
+	left: 5px;
+}
+
+.campaign-statistics .status-wrapper .dot {
+	position: relative;
+}
+
+.campaign-statistics .status-wrapper .dot::before,
+.campaign-statistics .status-wrapper .dot::after {
+	content: '';
+	width: 8px;
+	height: 8px;
+	background-color: #777777;
+	display: inline-block;
+	border-radius: 100%;
+	position: absolute;
+	left: -6px;
+}
+
+.campaign-statistics .status-wrapper .dot::before {
+	top: -5px;
+}
+
+.campaign-statistics .status-wrapper .dot::after {
+	bottom: -5px;
+}
+
+.campaign-list .campaign-title {
+	font-size: 1.15em;
+	display: block;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.campaign-list .campaign-excerpt {
+	margin: 0.85em 0;
+}
+
+.campaign-list .campaign-deadline {
+	font-weight: bold;
+	font-size: 16px;
+	color: #FF9F2F;
+}
+
+.campaign-ideas .idea-list .idea-actions .table-cell {
+	display: block;
+	margin: 5px 0;
+}
+/*end campaign-list*/
+
+/*pagination*/
+.post-type-archive-campaign .pagination-nav .page-numbers {
+    color: #367bb7;
+    border: 1px solid #367bb7;
+}
+
+.post-type-archive-campaign .pagination-nav .page-numbers.current,
+.post-type-archive-campaign .pagination-nav .page-numbers:not(.dots):hover {
+    color: #fff;
+    background-color: #367bb7;
+}
+/*end pagination*/
+
+/*single campaign page*/
+.campaign-youtube-video,
+.campaign-image,
+.campaign-content {
+	margin-bottom: 20px;
+}
+
+.campaign-content .wpulike {
+	display: none;
+}
+.campaign-ideas .sort-idea {
+	margin-bottom: 20px;
+}
+/*end single campaign page*/
+
+/*campaign-stats*/
+.campaign-body .campaign-stats::before,
+.campaign-body .campaign-stats::after,
+.campaign-info-box .campaign-stats::before,
+.campaign-info-box .campaign-stats::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+.campaign-body .campaign-stats,
+.campaign-info-box .campaign-stats {
+	font-size: 20px;
+	line-height: 25px;
+	color: #367bb7;
+	border-radius: 5px;
+	background: #DFDFDF;
+	padding: 5px 0;
+}
+.campaign-body .campaign-stats > div,
+.campaign-info-box .campaign-stats > div {
+	float: left;
+	width: 33.333333333%;
+	text-align: center;
+}
+.campaign-body .campaign-stats .total-comments,
+.campaign-info-box .campaign-stats .total-comments {
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+}
+
+.campaign-body .campaign-stats {
+	max-width: 250px;
+	margin: 15px 0;
+	line-height: 1;
+	font-size: 18px;
+}
+/*end campaign-stats*/
+
+.campaign-add-idea .add-idea-btn {
+	width: 100%;
+	display: block;
+	text-align: center;
+	border-radius: 4px;
+	border: none;
+	line-height: 30px;
+	padding: 0 10px;
+	margin-top: 10px;
+}
+
+@media (max-width: 991px) {
+	.campaign-add-idea {
+		margin-bottom: 30px;
+	}
+}
+
+.countdown-clock {
+	display: inline-block;
+	list-style-type: none;
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+}
+
+.countdown-clock li {
+	display: inline-block;
+}
+
+.countdown-clock li:not(.seperator) {
+	padding: 0 5px;
+}
+
+.countdown-clock li span {
+	display: inline-block;
+	font-size: 55px;
+	font-weight: 300;
+	line-height: 55px;
+}
+
+.countdown-clock li.seperator {
+	font-size: 40px;
+	line-height: 55px;
+	vertical-align: top;
+}
+
+.countdown-clock li p {
+	color: #a7abb1;
+	font-size: 14px;
+	margin: 0;
+}
+@media (max-width: 991px) {
+	.countdown-clock li span {
+		font-size: 40px;
+		line-height: 40px;
+	}
+
+	.countdown-clock li.seperator {
+		font-size: 25px;
+		line-height: 40px;
+	}
+}
+
+.countdown-clock-2 li span {
+	font-size: 30px;
+	line-height: 30px;
+}
+.countdown-clock-2 li.seperator {
+	font-size: 15px;
+	line-height: 30px;
+}
+.countdown-clock-2 li p {
+	font-size: 12px;
+}
+
+.campaign-deadline-info h2 {
+	margin: 0;
+}
+
+@media (min-width: 1192px) {
+    .single-campaign-wrapper .single-campaign-content {
+        padding-right: 0;
+    }
+}

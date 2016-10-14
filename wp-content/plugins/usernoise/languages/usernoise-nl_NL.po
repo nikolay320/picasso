@@ -1,0 +1,976 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Usernoise Pro v4.0.17\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2015-09-14 09:10:23+0000\n"
+"Last-Translator: Dennis Hunink <dennishunink@me.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.8.4\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: inc/model.php:42
+#@ usernoise
+msgid "Add new"
+msgstr "Nieuwe toevoegen"
+
+#: inc/model.php:43
+#@ usernoise
+msgid "Add new feedback"
+msgstr "Nieuwe feedback toevoegen"
+
+#: admin/feedback-list.php:80
+#: admin/feedback-types.php:39
+#@ usernoise
+#@ usernoise-pro
+msgid "All feedback types"
+msgstr "Alle feedback types"
+
+#: admin/settings.php:152
+#: admin/settings.php:153
+#@ usernoise
+msgid "Ask for a summary"
+msgstr "Vraag om een samenvatting"
+
+#: admin/settings.php:156
+#: admin/settings.php:157
+#@ usernoise
+msgid "Ask for an email"
+msgstr "Vraag om een e-mailadres"
+
+#: admin/editor-page.php:55
+#@ default
+msgid "Author"
+msgstr "Auteur"
+
+#: admin/settings.php:121
+#@ usernoise
+msgid "Background color"
+msgstr "Achtergrondkleur"
+
+#: html/publish-meta-box.php:51
+#@ default
+msgid "Delete Permanently"
+msgstr "Permanent verwijderen"
+
+#: inc/model.php:52
+#@ usernoise
+msgid "Feedback left by users using a form in a lightbox"
+msgstr "Feedback achtergelaten door een gebruiker via een formulier in een lightbox"
+
+#: inc/model.php:48
+#@ usernoise
+msgid "Feedback not found"
+msgstr "Feedback niet gevonden"
+
+#: inc/model.php:49
+#@ usernoise
+msgid "Feedback not found in Trash"
+msgstr "Feedback niet gevonden in de prullenbak"
+
+#: admin/settings.php:16
+#@ usernoise
+msgid "General"
+msgstr "Algemeen"
+
+#: inc/db-upgrade.php:28
+#@ usernoise
+msgid "Idea"
+msgstr "Idee"
+
+#: html/publish-meta-box.php:27
+#@ default
+msgid "M j, Y @ G:i"
+msgstr "M j, Y @ G:i"
+
+#: html/publish-meta-box.php:53
+#@ default
+msgid "Move to Trash"
+msgstr "Naar prullenbak verplaatsen"
+
+#: admin/dashboard.php:16
+#: inc/model.php:45
+#@ usernoise
+msgid "New feedback"
+msgstr "Nieuwe feedback"
+
+#: inc/model.php:71
+#@ usernoise
+msgid "Please enter a summary."
+msgstr "Vul een samenvatting in."
+
+#: inc/model.php:79
+#@ usernoise
+msgid "Please enter a valid email address."
+msgstr "Vul een geldig e-mailadres in."
+
+#: inc/model.php:74
+#@ usernoise
+msgid "Please enter the feedback."
+msgstr "Vul de feedback in."
+
+#: inc/template.php:152
+#@ usernoise
+msgid "Please tell us what do you think, any kind of feedback is highly appreciated."
+msgstr "Vertel ons wat je denkt. Elke vorm van feedback wordt gewaardeerd."
+
+#: inc/db-upgrade.php:29
+#@ usernoise
+msgid "Praise"
+msgstr "Waardering"
+
+#: inc/db-upgrade.php:28
+#@ usernoise
+msgid "Problem"
+msgstr "Probleem"
+
+#: admin/editor-page.php:40
+#: html/publish-meta-box.php:61
+#@ default
+msgid "Publish"
+msgstr "Publiceer"
+
+#: inc/db-upgrade.php:28
+#@ usernoise
+msgid "Question"
+msgstr "Vraag"
+
+#: inc/model.php:47
+#@ usernoise
+msgid "Search feedback"
+msgstr "Zoek in feedback"
+
+#: vendor/plugin-options-framework/plugin-options-framework.php:306
+#@ usernoise
+msgid "Select a Color"
+msgstr "Selecteer een kleur"
+
+#: html/publish-meta-box.php:28
+#, php-format
+#@ default
+msgid "Sent on: <b>%1$s</b>"
+msgstr "Verzonden op: <b>%1$s</b>"
+
+#: inc/template.php:287
+#@ usernoise
+msgid "Short summary"
+msgstr "Korte samenvatting"
+
+#: html/publish-meta-box.php:9
+#: html/publish-meta-box.php:42
+#@ default
+msgid "Status:"
+msgstr "Status:"
+
+#: inc/template.php:147
+#@ usernoise
+msgid "Submit feedback"
+msgstr "Verzend feedback"
+
+#: admin/settings.php:110
+#@ usernoise
+msgid "Text"
+msgstr "Tekst"
+
+#: admin/settings.php:118
+#@ usernoise
+msgid "Text color"
+msgstr "Tekst kleur"
+
+#: admin/feedback-list.php:53
+#: inc/model.php:152
+#@ usernoise
+#@ usernoise-pro
+msgid "Type"
+msgstr "Type:"
+
+#: html/publish-meta-box.php:64
+#: html/publish-meta-box.php:65
+#@ default
+msgid "Update"
+msgstr "Update"
+
+#: admin/menu.php:14
+#: inc/model.php:50
+#@ usernoise
+msgid "Usernoise"
+msgstr "Usernoise"
+
+#: admin/admin-bar.php:17
+#, php-format
+#@ default
+msgid "Usernoise %s"
+msgstr "Usernoise %s"
+
+#: admin/settings.php:46
+#@ usernoise
+msgid "Usernoise settings"
+msgstr "Usernoise instellingen"
+
+#: inc/model.php:44
+#: inc/model.php:46
+#@ usernoise
+msgid "View feedback"
+msgstr "Bekijk feedback"
+
+#: inc/model.php:38
+#: inc/model.php:40
+#: inc/model.php:41
+#@ usernoise
+msgctxt "admin"
+msgid "Feedback"
+msgstr "Feedback"
+
+#: admin/settings.php:111
+#@ usernoise
+msgctxt "button"
+msgid "Feedback"
+msgstr "Feedback"
+
+#: inc/model.php:136
+#@ default
+msgid "feedback"
+msgstr "feedback"
+
+#: admin/admin-bar.php:23
+#: inc/template.php:143
+#: inc/template.php:315
+#: inc/template.php:348
+#@ usernoise
+msgid "Feedback"
+msgstr "Feedback"
+
+#: admin/admin-bar.php:30
+#: admin/menu.php:16
+#: vendor/plugin-options-framework/plugin-options-framework.php:110
+#@ usernoise
+#@ default
+msgid "Settings"
+msgstr "Instellingen"
+
+#: admin/dashboard.php:33
+#@ default
+msgid "by"
+msgstr "door"
+
+#: admin/dashboard.php:43
+#@ usernoise
+msgid "View all feedback"
+msgstr "Bekijk alle feedback"
+
+#: admin/dashboard.php:46
+#@ usernoise
+msgid "No new feedback now."
+msgstr "Geen nieuwe feedback"
+
+#: admin/editor-page.php:90
+#@ usernoise
+msgid "Feedback was marked as reviewed"
+msgstr "Feedback is gemarkeerd als beoordeeld"
+
+#: admin/settings.php:89
+#@ usernoise
+msgid "Left"
+msgstr "Links"
+
+#: admin/settings.php:90
+#@ usernoise
+msgid "Right"
+msgstr "Rechts"
+
+#: admin/settings.php:92
+#@ usernoise
+msgid "Top"
+msgstr "Boven"
+
+#: admin/settings.php:91
+#@ usernoise
+msgid "Bottom"
+msgstr "Onder"
+
+#: admin/feedback-types.php:63
+#: admin/feedback-types.php:85
+#: admin/settings.php:107
+#@ usernoise-pro
+#@ usernoise
+msgid "Position"
+msgstr "Positie"
+
+#: admin/settings.php:173
+#, php-format
+#@ usernoise
+msgid "Notification emails will be sent to: <a href=\"mailto:%s\">%s</a>"
+msgstr "Notificatie e-mails worden verzonden naar: <a href=\"mailto:%s\">%s</a>"
+
+#: admin/settings.php:176
+#, php-format
+#@ usernoise
+msgid "(you can change it at <a href=\"%s\">%s</a> page)."
+msgstr "(je kunt dit aanpassen via de <a href=\"%s\">%s</a> pagina)"
+
+#: admin/settings.php:177
+#@ default
+msgid "General Options"
+msgstr "Algemene instellingen"
+
+#: inc/model.php:160
+#, php-format
+#@ default
+msgid "New %s submitted at %s"
+msgstr "Nieuwe %s ingediend op %s"
+
+#: inc/template.php:83
+#@ usernoise
+msgid "or"
+msgstr "of"
+
+#: vendor/plugin-options-framework/plugin-options-framework.php:157
+#@ default
+msgid "Please provide some settings fields when creating an options framework instance"
+msgstr "Geef alsjeblieft een aantal instellingen-velden op bij het aanmaken van een nieuwe instance van het options framework"
+
+#: vendor/plugin-options-framework/plugin-options-framework.php:222
+#@ usernoise
+msgid "Save Options"
+msgstr "Instellingen opslaan"
+
+#: vendor/plugin-options-framework/plugin-options-framework.php:223
+#@ usernoise
+msgid "Restore Defaults"
+msgstr "Herstel standaardinstellingen"
+
+#: vendor/plugin-options-framework/plugin-options-framework.php:223
+#@ default
+msgid "Click OK to reset. All the settings will be reset to defaults!"
+msgstr "Klik OK om te herstellen. Alle instellingen worden teruggezet naar de standaardinstellingen!"
+
+#: vendor/plugin-options-framework/plugin-options-framework.php:352
+#@ default
+msgid "Upgrade to WordPress 3.3 or later to enable WYSIWYG editor"
+msgstr "Werk WordPress bij naar versie 3.3 of nieuwe om gebruik te kunnen maken van de WYSIWYG bewerker"
+
+#: admin/settings.php:95
+#: admin/settings.php:96
+#@ usernoise
+msgid "Publish feedback directly without approval"
+msgstr "Publiceer feedback direct zonder goedkeuring"
+
+#: admin/settings.php:98
+#: admin/settings.php:99
+#@ usernoise
+msgid "Disable on mobile devices"
+msgstr "Uitschakelen op mobiele apparaten"
+
+#: admin/settings.php:112
+#@ usernoise
+msgid "Button Icon"
+msgstr "Knop icoon"
+
+#: admin/settings.php:113
+#@ usernoise
+msgid "No icon"
+msgstr "Geen icoon"
+
+#: admin/settings.php:114
+#@ usernoise
+msgid "Icon used on the button. <strong>May conflict with Twitter Bootstrap-based themes</strong>"
+msgstr "Icoon gebruikt in de knop. <strong>Geeft mogelijk problemen met thema’s die gebaseerd zijn op Twitter Bootstrap</strong>"
+
+#: admin/settings.php:21
+#: admin/settings.php:128
+#@ usernoise
+msgid "Form"
+msgstr "Formulier"
+
+#: admin/settings.php:148
+#: admin/settings.php:149
+#@ usernoise
+msgid "Ask for feedback type"
+msgstr "Vraag om feedback type"
+
+#: admin/settings.php:26
+#@ usernoise
+msgid "Notifications"
+msgstr "Notificaties"
+
+#: admin/settings.php:169
+#@ usernoise
+msgid "New feedback received admin notification"
+msgstr "Admin notificatie bij nieuwe feedback"
+
+#: admin/settings.php:170
+#@ usernoise
+msgid "Enable"
+msgstr "Inschakelen"
+
+#: admin/settings.php:225
+#@ usernoise
+msgid "Notifications do not work right?"
+msgstr "Werken notificaties niet naar behoren?"
+
+#: admin/settings.php:226
+#@ usernoise
+msgid "Check out <a href='http://codecanyon.net/item/all-in-one-email-for-wordpress/1290390'>All in One Email plugin</a>. It adds email options missing in WordPress natively."
+msgstr "Kijk eens naar de <a href='http://codecanyon.net/item/all-in-one-email-for-wordpress/1290390'>All in One Email plugin</a>. Deze plugin biedt alle e-mail mogelijkheden die WordPress standaard mist."
+
+#: html/publish-meta-box.php:14
+#@ default
+msgid "Published"
+msgstr "Gepubliceerd"
+
+#: html/publish-meta-box.php:17
+#@ default
+msgid "Hidden"
+msgstr "Verborgen"
+
+#: inc/template.php:360
+#@ usernoise
+msgid "Close"
+msgstr "Sluiten"
+
+#: inc/db-upgrade.php:9
+#@ usernoise
+msgid "Ideas"
+msgstr "Ideeën"
+
+#: inc/db-upgrade.php:9
+#@ usernoise
+msgid "Questions"
+msgstr "Vragen"
+
+#: inc/db-upgrade.php:9
+#@ usernoise
+msgid "Problems"
+msgstr "Problemen"
+
+#: inc/db-upgrade.php:9
+#@ usernoise
+msgid "Praises"
+msgstr "Waarderingen"
+
+#: vendor/plugin-options-framework/plugin-options-framework.php:176
+#@ default
+msgid "This page requires JavaScript to be enabled in your browser. Please enable JavaScript."
+msgstr "Deze pagina vereist JavaScript. Schakel JavaScript in je browser in."
+
+#: admin/settings.php:160
+#: admin/settings.php:161
+#@ usernoise
+msgid "Ask for name"
+msgstr "Vraag naam"
+
+#: inc/template.php:278
+#: inc/template.php:371
+#@ usernoise
+msgid "Your name"
+msgstr "Jouw naam"
+
+#: html/publish-meta-box.php:62
+#@ usernoise
+msgid "PublishSave"
+msgstr "PubliceerOpslaan"
+
+#: inc/model.php:81
+#@ usernoise
+msgid "Please enter your name."
+msgstr "Voer alsjeblieft je naam in"
+
+#: inc/model.php:137
+#, php-format
+#@ usernoise
+msgid "A new %s has been submitted. View it: %s."
+msgstr "Een nieuw %s is ingediend. Bekijk het: %s"
+
+#: admin/editor-page.php:44
+#@ usernoise
+msgid "Screenshot"
+msgstr "Schermafbeelding"
+
+#: admin/editor-page.php:46
+#: inc/template.php:355
+#@ usernoise
+msgid "Details"
+msgstr "Details"
+
+#: admin/editor-page.php:60
+#@ usernoise
+msgid "Page"
+msgstr "Pagina"
+
+#: admin/feedback-types.php:37
+#: inc/model.php:35
+#@ usernoise-pro
+#@ usernoise
+msgid "Feedback types"
+msgstr "Feedback typen"
+
+#: admin/feedback-types.php:38
+#: inc/template.php:294
+#@ usernoise-pro
+#@ usernoise
+msgid "Feedback type"
+msgstr "Feedback type"
+
+#: admin/feedback-types.php:40
+#@ usernoise-pro
+msgid "Edit feedback type"
+msgstr "Bewerk feedback type"
+
+#: admin/feedback-types.php:41
+#@ usernoise-pro
+msgid "View feedback type"
+msgstr "Bekijk feedback type"
+
+#: admin/feedback-types.php:42
+#@ usernoise-pro
+msgid "Update feedback type"
+msgstr "Werk feedback type bij"
+
+#: admin/feedback-types.php:43
+#@ usernoise-pro
+msgid "Add new feedback type"
+msgstr "Voeg nieuw feedback type toe"
+
+#: admin/feedback-types.php:44
+#@ usernoise-pro
+msgid "New feedback type name"
+msgstr "Naam van nieuw feedback type"
+
+#: admin/feedback-types.php:50
+#@ usernoise-pro
+msgid "Feedback Types"
+msgstr "Feedback types"
+
+#: admin/feedback-types.php:58
+#: admin/feedback-types.php:80
+#@ usernoise-pro
+msgid "Icon"
+msgstr "Icoon"
+
+#: admin/feedback-types.php:60
+#: admin/feedback-types.php:82
+#@ usernoise-pro
+msgid "Icon used for this feedback type"
+msgstr "Icoon voor dit feedback type"
+
+#: admin/feedback-types.php:65
+#: admin/feedback-types.php:87
+#@ usernoise-pro
+msgid "Type position among other feedback types"
+msgstr "Positie van dit feedback type t.o.v. andere typen"
+
+#: admin/feedback-types.php:68
+#: admin/feedback-types.php:90
+#@ usernoise-pro
+msgid "Name in plural form"
+msgstr "Naam in meervoud"
+
+#: admin/feedback-types.php:70
+#: admin/feedback-types.php:92
+#@ usernoise-pro
+msgid "Plural form used by some of the UI"
+msgstr "Meervoud zoals gebruikt op sommige plekken in de gebruikers interface"
+
+#: html/headers-meta-box.php:2
+#@ default
+msgid "URL:"
+msgstr "URL:"
+
+#: html/headers-meta-box.php:6
+#@ default
+msgid "Browser:"
+msgstr "Browser:"
+
+#: html/headers-meta-box.php:11
+#@ default
+msgid "Client IP:"
+msgstr "Client IP:"
+
+#: html/headers-meta-box.php:18
+#@ default
+msgid "X-Forwarded-For:"
+msgstr "X-Forwarded-For:"
+
+#: html/headers-meta-box.php:25
+#@ default
+msgid "View page snapshot"
+msgstr "Bekijk pagina snapshot"
+
+#: inc/controller.php:81
+#: inc/controller.php:129
+#@ usernoise
+msgid "ago"
+msgstr "ago"
+
+#: inc/controller.php:170
+#@ default
+msgid "Hackin, huh?"
+msgstr "Hackin, huh?"
+
+#: inc/controller.php:180
+#: inc/model.php:148
+#@ default
+#@ usernoise-pro
+msgid "Name"
+msgstr "Naam"
+
+#: inc/template.php:349
+#@ usernoise
+msgid "Enter your feedback here"
+msgstr "Geef hier je feedback"
+
+#: inc/template.php:350
+#@ usernoise
+msgid "Next"
+msgstr "Volgende"
+
+#: inc/template.php:351
+#@ usernoise
+msgid "Taking screenshot"
+msgstr "Schermafbeelding aan het maken"
+
+#: inc/template.php:352
+#@ usernoise
+msgid "Take a screenshot"
+msgstr "Maak schermafbeelding"
+
+#: inc/template.php:353
+#@ usernoise
+msgid "screenshot.png"
+msgstr "schermafbeelding.png"
+
+#: inc/template.php:354
+#@ usernoise
+msgid "Cancel"
+msgstr "Annuleer"
+
+#: inc/template.php:356
+#@ usernoise
+msgid "Back"
+msgstr "Terug"
+
+#: inc/template.php:357
+#@ usernoise
+msgid "Submit"
+msgstr "Versturen"
+
+#: inc/template.php:358
+#@ usernoise
+msgid "Submitting"
+msgstr "Bezig met versturen"
+
+#: inc/template.php:359
+#@ usernoise
+msgid "Error sending feedback"
+msgstr "Fout bij het verzenden van feedback"
+
+#: inc/model.php:440
+#: inc/template.php:362
+#@ usernoise
+msgid "Done"
+msgstr "Klaar"
+
+#: inc/template.php:363
+#@ usernoise
+msgid "Please enter a valid email address"
+msgstr "Voer een geldig e-mailadres in"
+
+#: inc/template.php:364
+#@ usernoise
+msgid "This field is required"
+msgstr "Dit is een verplicht veld"
+
+#: inc/template.php:365
+#@ usernoise
+msgid "My feedback"
+msgstr "Mijn feedback"
+
+#: inc/template.php:366
+#@ usernoise
+msgid "No feedback matching the criteria"
+msgstr "Geen feedback voldoet aan de opgegeven criteria"
+
+#: inc/template.php:367
+#@ usernoise
+msgid "Comments:"
+msgstr "Reacties:"
+
+#: inc/template.php:368
+#@ usernoise
+msgid "Leave a comment"
+msgstr "Laat een reactie achter"
+
+#: inc/template.php:369
+#@ usernoise
+msgid "Like"
+msgstr "Vind ik leuk"
+
+#: inc/template.php:370
+#@ usernoise
+msgid "Your email"
+msgstr "Jouw e-mail"
+
+#: inc/template.php:372
+#@ usernoise
+msgid "Comment text"
+msgstr "Reactie tekst"
+
+#: inc/template.php:373
+#@ usernoise
+msgid "All feedback"
+msgstr "Alle feedback"
+
+#: inc/model.php:146
+#@ usernoise-pro
+msgid "From:"
+msgstr "Van:"
+
+#: inc/model.php:156
+#@ usernoise-pro
+msgid "Summary:"
+msgstr "Samenvatting:"
+
+#: inc/model.php:318
+#, php-format
+#@ usernoise
+msgid "Your feedback \"%s\" has been published by admin. Thanks for your feedback!"
+msgstr "Jouw feedback “%s” is goedgekeurd en gepubliceerd door de beheerder. Bedankt voor je feedback!"
+
+#: inc/model.php:319
+#, php-format
+#@ usernoise
+msgid "You can view it at %s"
+msgstr "Je kunt het bekijken op %s"
+
+#: inc/model.php:320
+#, php-format
+#@ usernoise
+msgid "Feedback approved at %s"
+msgstr "Feedback goedgekeurd op %s"
+
+#: inc/model.php:354
+#: inc/model.php:371
+#: inc/model.php:388
+#@ default
+msgid "Hacking, huh?"
+msgstr "Hacking, huh?"
+
+#: inc/model.php:436
+#@ usernoise
+msgid "New"
+msgstr "Nieuw"
+
+#: inc/model.php:437
+#@ usernoise
+msgid "Rejected"
+msgstr "Afgewezen"
+
+#: inc/model.php:438
+#@ usernoise
+msgid "Planned"
+msgstr "Gepland"
+
+#: inc/model.php:439
+#@ usernoise
+msgid "In progress"
+msgstr "In ontwikkeling"
+
+#: inc/model.php:462
+#, php-format
+#@ usernoise
+msgid "Your feedback \"%s\" was changed from %s to %s."
+msgstr "Jouw feedback “%s” is aangepast van %s naar %s."
+
+#: inc/model.php:463
+#, php-format
+#@ usernoise
+msgid "You can view your feedback at %s"
+msgstr "Je kunt jouw feedback bekijken op %s"
+
+#: inc/model.php:464
+#@ usernoise
+msgid "Original feedback was:"
+msgstr "Originele feedback was:"
+
+#: inc/model.php:466
+#, php-format
+#@ usernoise
+msgid "Feedback status changed at %s"
+msgstr "Feedback status veranderd op %s"
+
+#: inc/model.php:497
+#, php-format
+#@ default
+msgid "[%1$s] Comment: \"%2$s\""
+msgstr "[%1$s] Reactie: \"%2$s\""
+
+#: inc/model.php:498
+#, php-format
+#@ usernoise
+msgid "New comment on your feedback \"%s\" at %s"
+msgstr "Nieuwe reactie op jouw feedback “%s” op %s"
+
+#. translators: 1: comment author, 2: author IP, 3: author domain
+#: inc/model.php:502
+#@ default
+msgid "Comment: "
+msgstr "Reactie:"
+
+#: inc/template.php:235
+#, php-format
+#@ usernoise
+msgid "%s week"
+msgid_plural "%s weeks"
+msgstr[0] "%s week"
+msgstr[1] "%s weken"
+
+#: inc/template.php:237
+#, php-format
+#@ usernoise
+msgid "%s month"
+msgid_plural "%s months"
+msgstr[0] "%s maand"
+msgstr[1] "%s maanden"
+
+#: inc/template.php:239
+#, php-format
+#@ usernoise
+msgid "%s year"
+msgid_plural "%s years"
+msgstr[0] "%s jaar"
+msgstr[1] "%s jaren"
+
+#: inc/template.php:269
+#@ usernoise
+msgid "Email address"
+msgstr "E-mailadres"
+
+#: inc/template.php:270
+#@ usernoise
+msgid "you@example.com"
+msgstr "jij@voorbeeld.com"
+
+#: inc/template.php:279
+#@ usernoise
+msgid "John Smith"
+msgstr "Karel Appel"
+
+#: inc/template.php:286
+#@ usernoise
+msgid "Summary"
+msgstr "Samenvatting"
+
+#: inc/template.php:296
+#@ usernoise
+msgid "Please select"
+msgstr "Selecteer"
+
+#: admin/settings.php:31
+#@ usernoise
+msgid "Discussions"
+msgstr "Discussies"
+
+#: admin/settings.php:41
+#@ usernoise
+msgid "Pro"
+msgstr "Pro"
+
+#: admin/settings.php:54
+#@ usernoise
+msgid "Use <code>[feedbacks]</code> shortcode to display the discussion on any page you want."
+msgstr "Gebruik de <code>[feedbacks]</code> shortcode om discussies weer te geven op een pagina."
+
+#: admin/settings.php:70
+#@ usernoise
+msgid "This tab was discontinued in 4.0. Please contact the support if you need any options those were here."
+msgstr "Dit tabblad wordt niet meer gebruikt sinds versie 4.0. Mis je opties die voorheen in dit tabblad aanwezig waren, neem dan contact op met support."
+
+#: admin/settings.php:102
+#: admin/settings.php:103
+#@ usernoise
+msgid "Show feedback button"
+msgstr "Toon de feedback knop"
+
+#: admin/settings.php:130
+#: admin/settings.php:131
+#@ usernoise
+msgid "Enable screenshots"
+msgstr "Screenshots inschakelen"
+
+#: admin/settings.php:136
+#@ usernoise
+msgid "Screenshot format"
+msgstr "Screenshot formaat"
+
+#: admin/settings.php:142
+#@ usernoise
+msgid "JPEG image quality"
+msgstr "Kwaliteit JPEG afbeelding"
+
+#: inc/template.php:361
+#@ usernoise
+msgid "Your feedback was submitted successfully"
+msgstr "Je feedback is succesvol verzonden"
+
+#: admin/editor-page.php:48
+#@ default
+msgid "Comments"
+msgstr ""
+
+#: admin/feedback-list.php:20
+#@ usernoise
+msgid "Status"
+msgstr ""
+
+#: admin/feedback-list.php:32
+#@ usernoise-pro
+msgid "All feedback statuses"
+msgstr ""
+
+#: admin/settings.php:36
+#@ usernoise
+msgid "External"
+msgstr ""
+
+#: admin/settings.php:60
+#@ usernoise
+msgid "Enable public comments"
+msgstr ""
+
+#: admin/settings.php:133
+#@ usernoise
+msgid "Please note, that screenshots may be inaccurate, as they are based on html2canvas library"
+msgstr ""
+
+#: admin/settings.php:146
+#@ usernoise
+msgid "Decrease quality if your screenshots do not save properly"
+msgstr ""
+
+#: admin/settings.php:182
+#@ usernoise
+msgid "Admin email for notifications"
+msgstr ""
+
+#: admin/settings.php:185
+#: admin/settings.php:186
+#@ usernoise
+msgid "Site URL in notification text"
+msgstr ""
+
+#: admin/settings.php:196
+#@ usernoise
+msgid "Code for external usage"
+msgstr ""
+

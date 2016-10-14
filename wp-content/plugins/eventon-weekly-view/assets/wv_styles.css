@@ -1,0 +1,140 @@
+/*
+	Eventon Weekly Calendar styles
+	version 0.14
+*/
+	
+	.evoWV #eventon_loadbar_section{
+		border-bottom:none;
+	}
+	.eventon_weeklyview{
+		width: 100%;
+		background-color: #D2988A;
+		color: #fff;
+		text-align: center;
+		font-family: 'open sans';
+		overflow: hidden;
+		position: relative;
+	}
+	
+	.eventon_weeklyview .evowv_arrow.evowv_prev{
+		/*border-right:1px solid #fff;*/
+		
+	}
+	.eventon_weeklyview .evowv_arrow.evowv_next{
+		right: 0;
+		
+	}
+	.eventon_weeklyview .evowv_arrow{
+		position: absolute;
+		cursor: pointer;
+		float: left;
+		height: 100%;
+		margin: 0;
+		width: 50px;
+		display: block;
+		color: #fff;
+		-webkit-transition: all .2s ease;
+		-moz-transition: all .2s ease;
+		-ms-transition: all .2s ease;
+		-o-transition: all .2s ease;
+		transition: all .2s ease;
+	}
+	.eventon_weeklyview .evowv_arrow:hover{color: #fff; opacity: 0.6}
+	.eventon_weeklyview .evowv_arrow i{
+		font-size: 30px;
+		margin-top: 30px;
+	}	
+	.evoWV_days{
+		overflow: hidden;
+		position: relative;
+		margin: 0px 50px 0;	
+		height: 95px;
+	}
+
+	
+	.eventon_weeklyview .evowv_arrow.disable i, .eventon_weeklyview .evowv_arrow.disable:hover i{opacity: 0.3!important; cursor: default;
+		color: #fff;
+	}
+
+	
+	.evoWV_days .evo_wv_day{
+		display: inline-block;
+		margin: 0;
+		padding: 10px 0px;
+		-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+		-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+		box-sizing: border-box;
+		float: left;
+		text-align: center;
+		width: 42px;
+		height: 95px;
+		background: url(../images/border.png) top left repeat-y;
+		/*border-left:1px solid #fff;*/
+	}
+	.evoWV_days .evo_wv_day span{
+		display: block;
+		
+	}
+	.evoWV_days .evo_wv_day span.num_events{
+		color: #fff;
+		border-radius: 50%;
+		background-color: #A15F4F;
+		width: 18px;
+		height: 18px;
+		text-align: center;
+		font-size: 11px;
+		margin: 3px auto 0;		
+		line-height: 18px;
+	}
+	.evoWV_days .evo_wv_day span.day_num{
+		font-family: oswald, 'arial narrow';
+		font-size: 24px;
+	}
+	.evoWV_days .evo_wv_day span.day_name{
+		font-family: oswald, 'arial narrow';
+		font-weight:300;
+		text-transform: uppercase;	
+		font-size: 12px;
+	}
+
+	.eventon_wv_days{
+		width: 1600px;
+	}
+	.evoWV em.evo_time{display: none;}
+
+/* widget only */
+	.evo_widget .eventon_weeklyview .evowv_arrow{
+			width: 30px;
+	}
+	.evo_widget .eventon_weeklyview .evowv_arrow i{
+		font-size: 22px;
+		margin-left: 0;
+		left: 10px;
+	}
+	.evo_widget .evoWV_days{margin: 0 30px;}
+	.evo_widget .eventon_weeklyview p.evoWV_top{font-size: 24px;}
+	.evo_widget .evoWV_days .evo_wv_day span.day_num{
+		font-size: 16px; font-weight: 300;}
+	.evo_widget .evoWV_days .evo_wv_day span.day_name{font-size: 10px;}
+	.evo_widget .evoWV_days .evo_wv_day span.num_events{
+		height: 15px;width: 15px;
+		font-size: 9px;
+	}
+	.evo_widget .evoWV_days, .evo_widget .evoWV_days .evo_wv_day{min-height: 80px;}
+
+/* responsive */
+	@media (max-width: 480px){
+		.eventon_weeklyview .evowv_arrow{
+			width: 30px;
+		}
+		.eventon_weeklyview .evowv_arrow i{
+			font-size: 22px;
+			margin-left: 0;
+			left: 10px;
+		}
+		.evoWV_days{margin: 0 30px;}
+		.eventon_weeklyview p.evoWV_top{font-size: 24px;}
+		.evoWV_days .evo_wv_day span.day_num{font-size: 18px; font-weight: 300;}
+		.evoWV_days .evo_wv_day span.day_name{font-size: 11px;}
+
+	}

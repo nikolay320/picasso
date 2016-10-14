@@ -1,0 +1,940 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Idea Reviews\n"
+"POT-Creation-Date: 2016-07-26 21:22+0600\n"
+"PO-Revision-Date: 2016-07-26 21:23+0600\n"
+"Last-Translator: Shamim Al Mamun <shamim.moeen@gmail.com>\n"
+"Language-Team: \n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_n\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../ideas.php:106
+msgid "Ideas"
+msgstr ""
+
+#: ../ideas.php:107
+msgid "Idea"
+msgstr ""
+
+#: ../ideas.php:108
+msgid "All Ideas"
+msgstr ""
+
+#: ../ideas.php:109 ../ideas.php:110
+msgid "Add New Idea"
+msgstr ""
+
+#: ../ideas.php:111 ../templates/archive-ideas.php:543
+#: ../templates/single-ideas.php:547
+msgid "Edit"
+msgstr ""
+
+#: ../ideas.php:112 ../templates/archive-ideas.php:142
+#: ../templates/single-ideas.php:306
+msgid "Edit Idea"
+msgstr ""
+
+#: ../ideas.php:113
+msgid "New Idea"
+msgstr ""
+
+#: ../ideas.php:114
+msgid "View Idea"
+msgstr ""
+
+#: ../ideas.php:115
+msgid "Search Idea"
+msgstr ""
+
+#: ../ideas.php:116
+msgid "Nothing found in the Database."
+msgstr ""
+
+#: ../ideas.php:117
+msgid "Nothing found in Trash"
+msgstr ""
+
+#: ../ideas.php:120
+msgid "Comments about ideas"
+msgstr ""
+
+#: ../ideas.php:121
+msgid "Idea Comments"
+msgstr ""
+
+#: ../ideas.php:122
+#, php-format
+msgid "%1$s a commenté l'idée <a href=\"%2$s\">item</a>"
+msgstr ""
+
+#: ../ideas.php:123
+#, php-format
+msgid "%1$s commented on the <a href=\"%2$s\">Idea</a>, on the site %3$s"
+msgstr ""
+
+#: ../ideas.php:126
+msgid "Homepage Ideas for "
+msgstr ""
+
+#: ../ideas.php:162
+msgid "Idea settings"
+msgstr ""
+
+#: ../ideas.php:220
+msgid "Image"
+msgstr ""
+
+#: ../ideas.php:225
+msgid "Enter a URL or upload an image"
+msgstr ""
+
+#: ../ideas.php:227
+msgid "Add Image"
+msgstr ""
+
+#: ../ideas.php:228 ../ideas.php:239
+msgid "Clear"
+msgstr ""
+
+#: ../ideas.php:233
+msgid "Attachment"
+msgstr ""
+
+#: ../ideas.php:237
+msgid "Add File"
+msgstr ""
+
+#: ../ideas.php:244 ../templates/idea-details.php:39
+msgid "Video"
+msgstr ""
+
+#: ../ideas.php:255 ../class-tgm-plugin-activation.php:2647
+msgid "Status"
+msgstr ""
+
+#: ../ideas.php:258
+msgid "No Status"
+msgstr ""
+
+#: ../ideas.php:259
+msgid "Idea in discussion"
+msgstr ""
+
+#: ../ideas.php:260
+msgid "Idea selected"
+msgstr ""
+
+#: ../ideas.php:261
+msgid "Idea rejected"
+msgstr ""
+
+#: ../ideas.php:262
+msgid "Idea in project"
+msgstr ""
+
+#: ../ideas.php:263
+msgid "Ideas in review"
+msgstr ""
+
+#: ../ideas.php:264
+msgid "Ideas already reviewed"
+msgstr ""
+
+#: ../ideas.php:269 ../templates/idea_modal.php:160
+msgid "Video (youtube)"
+msgstr ""
+
+#: ../ideas.php:354
+msgid "Thank you. Idea will appear after moderation."
+msgstr ""
+
+#: ../ideas.php:356
+msgid "Thank you. Idea successfully added."
+msgstr ""
+
+#: ../ideas.php:362
+msgid "Idea not added!"
+msgstr ""
+
+#: ../ideas.php:400
+msgid "Comment successfully added!"
+msgstr ""
+
+#: ../ideas.php:558
+msgid "Ideas Plugin. Any info here."
+msgstr ""
+
+#: ../ideas.php:599
+msgid "Add New Review"
+msgstr ""
+
+#: ../ideas.php:600
+msgid "New Review"
+msgstr ""
+
+#: ../ideas.php:601
+msgid "Edit Review"
+msgstr ""
+
+#: ../ideas.php:602
+msgid "View Review"
+msgstr ""
+
+#: ../ideas.php:603
+msgid "All Reviews"
+msgstr ""
+
+#: ../ideas.php:604
+msgid "Search Reviews"
+msgstr ""
+
+#: ../ideas.php:605
+msgid "Parent Reviews:"
+msgstr ""
+
+#: ../ideas.php:606
+msgid "No review found."
+msgstr ""
+
+#: ../ideas.php:607
+msgid "No review found in Trash."
+msgstr ""
+
+#: ../ideas.php:915
+#, php-format
+msgid "[%s] You are an expert"
+msgstr ""
+
+#: ../ideas.php:928
+msgid "(no campaign assigned)"
+msgstr ""
+
+#: ../ideas.php:935 ../ideas.php:1230
+msgid "Hello,"
+msgstr ""
+
+#: ../ideas.php:939
+#, php-format
+msgid ""
+"You have been invited by %1$s to review the idea named %2$s in the campaign "
+"%3$s. You will have until the date of deadline to post your review. Your "
+"review will only be seen by your invite and site admin."
+msgstr ""
+
+#: ../ideas.php:947 ../ideas.php:1238
+msgid "Please see the idea to review here: "
+msgstr ""
+
+#: ../ideas.php:951 ../ideas.php:1242
+#, php-format
+msgid "Idea link: %1$s"
+msgstr ""
+
+#: ../ideas.php:955 ../ideas.php:1246
+#, php-format
+msgid "Deadline: %1$s"
+msgstr ""
+
+#: ../ideas.php:959 ../ideas.php:1250
+msgid "Thank you"
+msgstr ""
+
+#: ../ideas.php:1150
+msgid "posted today"
+msgstr ""
+
+#: ../ideas.php:1152
+msgid "posted yesterday"
+msgstr ""
+
+#: ../ideas.php:1154
+#, php-format
+msgid "posted %s %s ago"
+msgstr ""
+
+#: ../ideas.php:1154
+msgid "day"
+msgstr ""
+
+#: ../ideas.php:1223
+#, php-format
+msgid "[%s] You have pending review requiring attention"
+msgstr ""
+
+#: ../ideas.php:1234
+msgid ""
+"You will have until the date of deadline to post your review. Your review "
+"will only be seen by your invite and site admin."
+msgstr ""
+
+#: ../ideas.php:1589
+msgid "Search user"
+msgstr ""
+
+#: ../ideas.php:1759
+msgid "See More"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:337
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:393
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:394
+#: ../class-tgm-plugin-activation.php:3252
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:395
+#: ../class-tgm-plugin-activation.php:3045
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:2075
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:2366
+msgid "Required"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:2369
+msgid "Recommended"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:2385
+msgid "WordPress Repository"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:2388
+msgid "External Source"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:2391
+msgid "Pre-Packaged"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:2408
+msgid "Not Installed"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:2412
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:2414
+msgid "Active"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:2420
+msgid "Required Update not Available"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:2423
+msgid "Requires Update"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:2426
+msgid "Update recommended"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:2485
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:2489
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:2493
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:2583
+msgid "Installed version:"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:2591
+msgid "Minimum required version:"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:2603
+msgid "Available version:"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:2640
+msgid "Plugin"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:2641
+msgid "Source"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:2642
+msgid "Type"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:2646
+msgid "Version"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:2696
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:2701
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:2707
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:2810
+msgid "Install"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:2816
+msgid "Update"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:2819
+msgid "Activate"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:2850
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:2852
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:2893
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:2895
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:3251
+msgid "Plugin activation failed."
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:3591
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:3594
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:3596
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:3600
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:3602
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:3603
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:3605
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:3608
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:3611
+msgid "All installations have been completed."
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:3613
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../plugin-settings.php:38 ../plugin-settings.php:166
+msgid "Settings"
+msgstr ""
+
+#: ../plugin-settings.php:39
+msgid "Idea Settings"
+msgstr ""
+
+#: ../plugin-settings.php:140
+msgid "User Roles"
+msgstr ""
+
+#: ../plugin-settings.php:149
+msgid "Idea Modifier Roles"
+msgstr ""
+
+#: ../plugin-settings.php:150
+msgid "Who can assign experts and deadline for ideas?."
+msgstr ""
+
+#: ../plugin-settings.php:157
+msgid "Idea Expert Roles"
+msgstr ""
+
+#: ../plugin-settings.php:158
+msgid "Who can give review for ideas?."
+msgstr ""
+
+#: ../plugin-settings.php:173
+msgid "Modify Reviews"
+msgstr ""
+
+#: ../plugin-settings.php:174
+msgid "Do the modifiers can edit reviews?"
+msgstr ""
+
+#: ../plugin-settings.php:182
+msgid "Receive Reminder"
+msgstr ""
+
+#: ../plugin-settings.php:183
+msgid "Do the experts will receive reminder before ending the deadline?"
+msgstr ""
+
+#: ../plugin-settings.php:191
+msgid "Reminder Buffer"
+msgstr ""
+
+#: ../plugin-settings.php:192
+msgid "How many days before do your experts will receive alert?"
+msgstr ""
+
+#: ../plugin-settings.php:203
+msgid "Review Criteria"
+msgstr ""
+
+#: ../plugin-settings.php:210
+msgid "Criteria"
+msgstr ""
+
+#: ../plugin-settings.php:211
+msgid "You can assign as many criteria as you want."
+msgstr ""
+
+#: ../idea-metaboxes.php:13
+msgid "Idea Settings Extended"
+msgstr ""
+
+#: ../idea-metaboxes.php:22
+msgid "Disable User Reviews"
+msgstr ""
+
+#: ../idea-metaboxes.php:23
+msgid "Check it to disable user reviews."
+msgstr ""
+
+#: ../idea-metaboxes.php:29
+msgid "User Reviews Deadline"
+msgstr ""
+
+#: ../idea-metaboxes.php:36
+msgid "Disable Expert Reviews"
+msgstr ""
+
+#: ../idea-metaboxes.php:37
+msgid "Check it to disable expert reviews."
+msgstr ""
+
+#: ../idea-metaboxes.php:43
+msgid "Idea Owners"
+msgstr ""
+
+#: ../idea-metaboxes.php:44
+msgid "Assign idea owners who can post idea update."
+msgstr ""
+
+#: ../templates/archive-ideas.php:109 ../templates/single-campaigns.php:86
+msgid "Add Comment"
+msgstr ""
+
+#: ../templates/archive-ideas.php:115 ../templates/single-campaigns.php:92
+msgid "Comment text"
+msgstr ""
+
+#: ../templates/archive-ideas.php:122
+msgid "To post a comment please login"
+msgstr ""
+
+#: ../templates/archive-ideas.php:127 ../templates/archive-ideas.php:171
+#: ../templates/single-campaigns.php:104 ../templates/idea_modal.php:214
+#: ../templates/expert-rating-chart.php:9
+#: ../templates/expert-rating-chart.php:25 ../templates/single-ideas.php:292
+#: ../templates/single-ideas.php:335
+msgid "Close"
+msgstr ""
+
+#: ../templates/archive-ideas.php:129 ../templates/single-campaigns.php:106
+#: ../templates/idea_modal.php:215
+msgid "Add"
+msgstr ""
+
+#: ../templates/archive-ideas.php:146 ../templates/idea_modal.php:152
+#: ../templates/single-ideas.php:310
+msgid "Idea Title"
+msgstr ""
+
+#: ../templates/archive-ideas.php:153 ../templates/idea_modal.php:168
+#: ../templates/single-ideas.php:317
+msgid "Campaigns"
+msgstr ""
+
+#: ../templates/archive-ideas.php:155 ../templates/idea_modal.php:170
+#: ../templates/single-ideas.php:319
+msgid "Select campaign"
+msgstr ""
+
+#: ../templates/archive-ideas.php:172 ../templates/assign-experts.php:39
+#: ../templates/single-ideas.php:293 ../templates/single-ideas.php:336
+msgid "Save"
+msgstr ""
+
+#: ../templates/archive-ideas.php:208 ../templates/single-campaigns.php:267
+msgid "Newest First"
+msgstr ""
+
+#: ../templates/archive-ideas.php:209
+msgid "Oldest First"
+msgstr ""
+
+#: ../templates/archive-ideas.php:210
+msgid "Recently Active"
+msgstr ""
+
+#: ../templates/archive-ideas.php:211 ../templates/single-campaigns.php:267
+msgid "Most Votes"
+msgstr ""
+
+#: ../templates/archive-ideas.php:212 ../templates/single-campaigns.php:267
+msgid "Most Answers"
+msgstr ""
+
+#: ../templates/archive-ideas.php:213
+msgid "My Ideas"
+msgstr ""
+
+#: ../templates/archive-ideas.php:375 ../templates/single-campaigns.php:304
+#: ../templates/single-ideas.php:456
+msgid "in discussion"
+msgstr ""
+
+#: ../templates/archive-ideas.php:379 ../templates/single-campaigns.php:308
+#: ../templates/single-ideas.php:460
+msgid "selected"
+msgstr ""
+
+#: ../templates/archive-ideas.php:383 ../templates/single-campaigns.php:312
+#: ../templates/single-ideas.php:464
+msgid "rejected"
+msgstr ""
+
+#: ../templates/archive-ideas.php:387 ../templates/single-campaigns.php:316
+#: ../templates/single-ideas.php:468
+msgid "in project"
+msgstr ""
+
+#: ../templates/archive-ideas.php:391 ../templates/single-campaigns.php:320
+#: ../templates/single-ideas.php:472
+msgid "in review"
+msgstr ""
+
+#: ../templates/archive-ideas.php:395 ../templates/single-campaigns.php:324
+#: ../templates/single-ideas.php:476
+msgid "already reviewed"
+msgstr ""
+
+#: ../templates/archive-ideas.php:408 ../templates/single-campaigns.php:337
+#: ../templates/single-ideas.php:489
+msgid "views"
+msgstr ""
+
+#: ../templates/archive-ideas.php:459 ../templates/experts-table.php:7
+#: ../templates/single-campaigns.php:380
+msgid "Experts"
+msgstr ""
+
+#: ../templates/archive-ideas.php:499 ../templates/single-campaigns.php:420
+msgid "Assign Experts"
+msgstr ""
+
+#: ../templates/archive-ideas.php:505 ../templates/single-campaigns.php:426
+msgid "Post Expert Review"
+msgstr ""
+
+#: ../templates/archive-ideas.php:511 ../templates/single-campaigns.php:432
+msgid "Post User Review"
+msgstr ""
+
+#: ../templates/archive-ideas.php:517 ../templates/single-campaigns.php:438
+msgid "Post Idea Update"
+msgstr ""
+
+#: ../templates/archive-ideas.php:528 ../templates/single-campaigns.php:449
+#: ../templates/single-ideas.php:532
+msgid "posted"
+msgstr ""
+
+#: ../templates/archive-ideas.php:536 ../templates/single-campaigns.php:456
+#: ../templates/single-ideas.php:540
+msgid "updated"
+msgstr ""
+
+#: ../templates/experts-table.php:10
+msgid "Action"
+msgstr ""
+
+#: ../templates/experts-table.php:28
+msgid "Successfully removed"
+msgstr ""
+
+#: ../templates/experts-table.php:28
+msgid "Remove"
+msgstr ""
+
+#: ../templates/post-user-review.php:54 ../templates/post-expert-review.php:54
+msgid "Add review"
+msgstr ""
+
+#: ../templates/post-user-review.php:61 ../templates/reviews.php:60
+#: ../templates/post-expert-review.php:61
+msgid "Rating"
+msgstr ""
+
+#: ../templates/post-user-review.php:85 ../templates/reviews.php:104
+#: ../templates/post-expert-review.php:85
+msgid "Comment"
+msgstr ""
+
+#: ../templates/post-user-review.php:94 ../templates/reviews.php:113
+#: ../templates/post-expert-review.php:94 ../templates/post-idea-update.php:45
+msgid "Submit"
+msgstr ""
+
+#: ../templates/post-user-review.php:94 ../templates/post-expert-review.php:94
+msgid "Your review was posted successfully"
+msgstr ""
+
+#: ../templates/reviews.php:9
+msgid "Average Rating"
+msgstr ""
+
+#: ../templates/reviews.php:113
+msgid "Review updated successfully"
+msgstr ""
+
+#: ../templates/reviews.php:124
+msgid "No review found"
+msgstr ""
+
+#: ../templates/assign-experts.php:17
+msgid "Assign expert"
+msgstr ""
+
+#: ../templates/assign-experts.php:24
+msgid "Search expert"
+msgstr ""
+
+#: ../templates/assign-experts.php:34
+msgid "Idea deadline"
+msgstr ""
+
+#: ../templates/assign-experts.php:39
+msgid "Successfully updated"
+msgstr ""
+
+#: ../templates/single-campaigns.php:266
+msgid "Sort by"
+msgstr ""
+
+#: ../templates/idea-details.php:7
+msgid "Attachments"
+msgstr ""
+
+#: ../templates/idea-tabs.php:9
+msgid "Idea Details"
+msgstr ""
+
+#: ../templates/idea-tabs.php:10
+msgid "Comments"
+msgstr ""
+
+#: ../templates/idea-tabs.php:12
+msgid "Expert Reviews"
+msgstr ""
+
+#: ../templates/idea-tabs.php:16
+msgid "User Reviews"
+msgstr ""
+
+#: ../templates/idea-tabs.php:20 ../templates/post-idea-update.php:40
+msgid "Idea Update"
+msgstr ""
+
+#: ../templates/idea_button.php:2 ../templates/idea_modal.php:147
+msgid "Add Idea"
+msgstr ""
+
+#: ../templates/idea_button.php:5
+msgid "Please wait"
+msgstr ""
+
+#: ../templates/idea_modal.php:47 ../templates/idea_modal.php:53
+msgid "Field is required"
+msgstr ""
+
+#: ../templates/idea_modal.php:156
+msgid "Idea Content"
+msgstr ""
+
+#: ../templates/idea_modal.php:188 ../templates/idea_modal.php:195
+#: ../templates/idea_modal.php:202
+msgid "Max file size"
+msgstr ""
+
+#: ../templates/idea_modal.php:190
+msgid "Upload image"
+msgstr ""
+
+#: ../templates/idea_modal.php:197
+msgid "Upload video"
+msgstr ""
+
+#: ../templates/idea_modal.php:204
+msgid "Upload attachment"
+msgstr ""
+
+#: ../templates/expert-rating-chart.php:10
+msgid "Expert Rating Details"
+msgstr ""
+
+#: ../templates/expert-rating-chart.php:15
+msgid "Rating distribution"
+msgstr ""
+
+#: ../templates/expert-rating-chart.php:19
+msgid "Rating summary"
+msgstr ""
+
+#: ../templates/single-ideas.php:17
+msgid "Average"
+msgstr ""
+
+#: ../templates/single-ideas.php:22
+msgid "Ratings"
+msgstr ""
+
+#: ../templates/single-ideas.php:286
+msgid "Edit Comment"
+msgstr ""
+
+#: ../templates/single-ideas.php:417
+msgid "Time left"
+msgstr ""
+
+#: ../templates/single-ideas.php:418
+msgid "Ideas count"
+msgstr ""
+
+#: ../templates/single-ideas.php:510
+#, php-format
+msgid "%d review"
+msgstr ""
+
+#: ../templates/post-idea-update.php:45
+msgid "Your update was posted successfully"
+msgstr ""

@@ -1,0 +1,120 @@
+.customize-control {
+  margin: 10px 0;
+}
+#customize-controls p.description {
+  margin-bottom: 5px;
+}
+.titan-framework-panel-wrap {
+  margin-top: 20px;
+}
+
+body.plugin-page-732 {
+  overflow-x: hidden;
+}
+body.plugin-page-732 #header-container-732 {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  margin-left: -20px;
+  top: -30px;
+  z-index: 0;
+}
+body.plugin-page-732 #header-container-732 .header-732 {
+  display: block;
+  background: #ffffff url("../img/pattern-bg.png") no-repeat top right;
+  background-size: 50% auto;
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+  padding: 20px;
+}
+body.plugin-page-732 #header-container-732 .header-732:after {
+  max-width: 100%;
+  bottom: -50px;
+  left: 0;
+  position: absolute;
+  content: " ";
+  overflow: hidden;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 50px 0px 0 1920px;
+  border-color: #ffffff transparent transparent transparent;
+}
+body.plugin-page-732 #header-container-732 .logo-732 {
+  float: left;
+  position: relative;
+  height: 72px;
+}
+body.plugin-page-732 #header-container-732 .logo-732 img {
+  height: 72px;
+}
+body.plugin-page-732 #header-container-732 .author-732 {
+  float: right;
+}
+body.plugin-page-732 #header-container-732 .author-732 img {
+  max-height: 72px;
+  width: auto;
+}
+body.plugin-page-732 #screen-meta {
+  margin: 0 0 0px -20px;
+  z-index: 999;
+}
+body.plugin-page-732 #screen-meta-links {
+  margin-right: 120px;
+}
+body.plugin-page-732 .screen-meta-toggle,
+body.plugin-page-732 .contextual-help-wrap {
+  z-index: 999;
+}
+body.plugin-page-732 .header-732-desc {
+  display: block;
+  padding: 100px 200px 120px 200px;
+  text-align: center;
+}
+body.plugin-page-732 .header-732-desc p {
+  font-size: 20pt;
+  line-height: 1.5em;
+  color: #444444;
+  font-weight: lighter;
+}
+body.plugin-page-732 .header-732-desc a.button {
+  text-transform: uppercase;
+  font-size: 10pt;
+}
+body.plugin-page-732 .footer-732 {
+  margin: 0 -20px -30px -20px;
+  padding: 20px;
+  position: relative;
+  background-color: #F1F1F1;
+  text-align: center;
+}
+body.plugin-page-732 .footer-732 .footer-732-logo {
+  display: none;
+}
+body.plugin-page-732 .footer-732 .footer-732-logo,
+body.plugin-page-732 .footer-732 .footer-732-logo img {
+  max-width: 50px;
+}
+body.plugin-page-732 .footer-732 .footer-732-menu {
+  margin: 0;
+  padding: 0;
+}
+body.plugin-page-732 .footer-732 .footer-732-menu li {
+  margin: 0 7px;
+  display: inline-block;
+}
+
+/**
+ * CCHBC
+ */
+#cchbc-form {
+  h3 {
+    margin: 0;
+  }
+  
+  label {
+    display: block;
+  }
+}

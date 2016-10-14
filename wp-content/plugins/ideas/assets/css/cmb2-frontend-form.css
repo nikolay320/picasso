@@ -1,0 +1,62 @@
+#main-container .cmb-row {
+	display: table;
+	width: 100%;
+}
+#main-container .cmb-th {
+	float: none;
+	display: table-cell;
+}
+#main-container .cmb-td {
+	display: table-cell;
+	float: none;
+}
+#main-container .cmb-td .regular-text {
+	padding: 10px;
+	width: 100%;
+}
+#main-container .cmb-td .wp-editor-container {
+	border: 1px solid #e5e5e5;
+}
+#main-container .cmb-td .cmb2-upload-file {
+	float: left;
+	width: 65%;
+}
+#main-container .cmb-td .cmb2-upload-button {
+	background-color: #e5e5e5;
+	border: 0 none;
+	color: #363636;
+	float: left;
+	height: 40px;
+	margin: 0;
+	width: 35%;
+}
+#main-container .cmb-td .cmb2-media-status::before,
+#main-container .cmb-td .cmb2-media-status::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+#main-container .cmb-td .cmb2-media-status {
+	clear: both;
+	padding: 0;
+}
+#main-container .cmb-td .cmb2-media-status .file-status {
+	margin: 15px 0 0 0;
+}
+#main-container .cmb-form .button-primary {
+	background-color: #367bb7;
+	border: 0 none;
+	color: #fff;
+	float: right;
+	height: 40px;
+	padding: 0 25px;
+}
+
+#main-container .cmb2-wrap input:focus,
+#main-container .cmb2-wrap textarea:focus {
+	background-color: #f7f7f7;
+}
+
+.media-toolbar .attachment-filters {
+	height: 32px;
+}

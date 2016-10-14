@@ -1,0 +1,182 @@
+
+/** My Task Page design **/
+/**Common CSS**/
+@gray: #eee;
+
+.cpm-project-head {
+   .cpm-edit-project {
+        margin-top: -50px;
+    }
+}
+
+.cpm-my-tasks{
+    .avatar {
+        border: 1px solid #ccc;
+        border-radius: 50%;
+        height: auto;
+        vertical-align: middle;
+        margin-right: 10px;
+    }
+
+    a.cpm-my-taskoverview {
+        background-image: url('../images/activity.svg');
+        padding-left: 50px !important;
+        background-position: 20% 30% !important;
+    }
+    .active{
+        border-bottom: 2px solid #019dd6 !important;
+    }
+    .active .cpm-my-taskoverview,
+    a.cpm-my-taskoverview:hover {
+        background-image : url('../images/activity_hover.svg') ;
+    }
+
+    a.cpm-my-taskactivity {
+        background-image : url('../images/activity.svg') ;
+    }
+
+    .active .cpm-my-taskactivity,
+    a.cpm-my-taskactivity:hover {
+        background-image : url('../images/activity_hover.svg');
+    }
+
+    a.cpm-my-currenttask {
+        background-image: url('../images/activity.svg') ;
+    }
+
+    .active .cpm-my-currenttask,
+    a.cpm-my-currenttask:hover {
+        background-image: url('../images/activity_hover.svg') ;
+    }
+
+    a.cpm-my-outstandigntask {
+        background-image: url('../images/overview.svg') ;
+    }
+
+    .active .cpm-my-outstandigntask,
+    a.cpm-my-outstandigntask:hover {
+        background-image: url('../images/overview_hover.svg') ;
+    }
+
+    a.cpm-my-completetask {
+        background-image: url('../images/completed.svg') ;
+    }
+
+    .active .cpm-my-completetask,
+    a.cpm-my-completetask:hover {
+        background-image: url('../images/completed_hover.svg') ;
+    }
+
+    .cpm-user-select select{
+        margin-top: 20px ;
+        width: 100%;
+    }
+
+    #cpm-mytask-page-content{
+        padding: 0px;
+
+        .cpm-mytask-overview-page{
+
+            .cpm-mytask-chart-overview{
+                height: auto;
+                background: #fff;
+                padding: 0px;
+                margin-right : 25px;
+                padding-bottom : 25px;
+                border: 1px solid #e5e5e5;
+                box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+
+                .cpm-box-title {
+                    margin-bottom: 15px;
+                }
+
+                #cart-at-glance{
+                    padding: 0px;
+                    margin: 0px;
+                    width: 100%;
+                    height: auto;
+                }
+
+                ul li{
+                      margin: 10px;
+                    .color-plate{
+                        width: 10px;
+                        padding: 0px 10px;
+                        margin-right: 10px;
+                    }
+                    .task-count{
+                        border :@gray solid 1px;
+                        padding :1px 10px;
+                        margin-right: 20px;
+                        text-align: center;
+                    }
+                }
+            }
+
+            .cpm-mytask-chart-statistics {
+                background: #fff;
+                margin: 0px;
+                padding : 0px;
+                height: auto !important;
+                font-size: 12px;
+                border: 1px solid #e5e5e5;
+                box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+
+                .color-plate{
+                    width: 10px;
+                    padding: 0px 10px;
+                    margin-right: 5px;
+                    margin-left: 10px;
+                }
+
+                .cpm-right{
+                    text-align: right;
+                    margin-top: 10px;
+                    padding-right: 20px;
+                }
+
+                canvas{
+                    padding: 20px;
+                }
+
+                .cpm-error{
+                    text-align: center;
+                    padding: 50px 10px;
+                    color: red;
+                    padding-bottom: 0px !important;
+                }
+
+            }
+        }
+    }
+
+    .cpm-mycalender{
+        margin-top: 10px;
+        border: 1px solid #e5e5e5;
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+
+        .cpm-col-12 {
+            background: #fff;
+        }
+        .cpm-calender-content{
+            padding: 20px;
+        }
+    }
+}
+
+
+.cpm-front-end{
+    a{
+        text-decoration: none !important;
+    }
+    .project-overview{
+         .overview-menu {
+            ul {
+                display: flex;
+            }
+         }
+        .cpm-col-10{
+            width: 81.45795196225%;
+        }
+    }
+}

@@ -1,0 +1,21 @@
+.glcdesign-hashtag-wp {
+  display: inline-block;
+  padding: 2px;
+  background-color: #fafafa;
+  border: 1px #eaeaea solid;
+  font-size: 0.750em; }
+  .glcdesign-hashtag-wp i {
+    color: #747474;
+    font-size: 0.825em;
+    margin-right: 1px; }
+
+.glcdesign-hashtag-wp-node, .glcdesign-hashtag-wp-comment-node {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  width: 0 !important;
+  height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important; }
+
+/*# sourceMappingURL=glcdesign-hashtag-wp.css.map */

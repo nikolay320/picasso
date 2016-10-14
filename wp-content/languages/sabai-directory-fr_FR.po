@@ -1,0 +1,4333 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Sabai Directory\n"
+"POT-Creation-Date: 2015-09-01 21:03+0200\n"
+"PO-Revision-Date: 2016-04-03 18:57+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: sabai-directory.php\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: assets/templates/directory_categories.html.php:11
+#: assets/templates/directory_categories.html.php:20
+#: assets/templates/directory_category_single_full.html.php:20
+#: lib/Directory/Controller/Admin/ListingClaims.php:53
+#: lib/Directory/Widget.php:959
+#, php-format
+msgid "%s (%d)"
+msgstr "%s (%d)"
+
+#: assets/templates/directory_category_list.html.php:4
+#: assets/templates/directory_listing_photo_list.html.php:35
+#: assets/templates/directory_listing_review_list.html.php:10
+#: assets/templates/directory_listings_nav.html.php:39
+#: assets/templates/directorybookmarks_bookmarks.html.php:6
+#, php-format
+msgid "Sort by: <strong>%s</strong>"
+msgstr "Trier par : <strong>%s</strong>"
+
+#: assets/templates/directory_listing_lead_single.html.php:4
+msgid "Field"
+msgstr "Champ "
+
+#: assets/templates/directory_listing_lead_single.html.php:5
+msgid "Value"
+msgstr "Valeur"
+
+#: assets/templates/directory_listing_lead_single.html.php:10
+#: lib/Directory/Controller/Leads.php:46
+msgid "Name"
+msgstr "Nom"
+
+#: assets/templates/directory_listing_lead_single.html.php:14
+#: lib/Directory/ContactFieldRenderer.php:45
+#: lib/Directory/ContactFieldRenderer.php:100
+#: lib/Directory/Controller/Admin/ViewListingClaim.php:58
+#: lib/Directory/Controller/ClaimListing.php:91
+#: lib/Directory/Controller/Leads.php:47 lib/Directory/FieldWidget.php:293
+#: lib/Directory/FieldWidget.php:675 lib/Directory/Helper/FieldOptions.php:29
+#: lib/DirectoryCSVImport/Controller/Admin/Import.php:88
+msgid "E-mail"
+msgstr "E-mail"
+
+#: assets/templates/directory_listing_lead_single.html.php:18
+#: lib/Directory.php:1442 lib/Directory/ContentType.php:368
+#: lib/Directory/Controller/Leads.php:45
+msgid "Message"
+msgstr "Message"
+
+#: assets/templates/directory_listing_map.html.php:42
+#: assets/templates/directory_searchbox.html.php:11
+#: assets/templates/directory_searchbox.html.php:25
+#: assets/templates/directory_searchbox.html.php:45
+#: assets/templates/directory_searchbox.html.php:63
+#: sabai-googlemaps/lib/GoogleMaps/Helper/RenderMap.php:97
+msgid "Enter a location"
+msgstr "Entrez un lieu"
+
+#: assets/templates/directory_listing_map.html.php:56
+msgid "By car"
+msgstr "En voiture"
+
+#: assets/templates/directory_listing_map.html.php:57
+#: sabai-googlemaps/lib/GoogleMaps/Helper/RenderMap.php:102
+msgid "By public transit"
+msgstr "Par transport en commun"
+
+#: assets/templates/directory_listing_map.html.php:58
+msgid "Walking"
+msgstr "A pied"
+
+#: assets/templates/directory_listing_map.html.php:59
+#: sabai-googlemaps/lib/GoogleMaps/Helper/RenderMap.php:104
+msgid "Bicycling"
+msgstr "A vélo"
+
+#: assets/templates/directory_listing_map.html.php:62
+#: sabai-googlemaps/lib/GoogleMaps/Helper/RenderMap.php:100
+msgid "Get Directions"
+msgstr "Obtenez l'itinéraire"
+
+#: assets/templates/directory_listing_photo_list.html.php:54
+#: assets/templates/directory_listing_review_list.html.php:34
+#: assets/templates/directory_listings_pager.html.php:8
+#: assets/templates/directorybookmarks_bookmarks.html.php:23
+#, php-format
+msgid "Showing %d - %d of %s results"
+msgstr "Affichage %d - %d sur % s résultats"
+
+#: assets/templates/directory_listing_photo_list.html.php:61
+#: assets/templates/directory_listing_review_list.html.php:41
+#: assets/templates/directory_listings_pager.html.php:15
+#: assets/templates/directorybookmarks_bookmarks.html.php:30
+#, php-format
+msgid "Showing %s result"
+msgid_plural "Showing %s results"
+msgstr[0] "Afficher le résultat %s"
+msgstr[1] "Afficher le résultat %s"
+
+#: assets/templates/directory_listing_ratings.html.php:32
+msgid "Rating distribution"
+msgstr "Distribution des notes"
+
+#: assets/templates/directory_listing_ratings.html.php:47
+msgid "Rating summary"
+msgstr "Résumé des notes"
+
+#: assets/templates/directory_listing_review_single_full.html.php:10
+#: assets/templates/directory_listing_review_single_summary.html.php:21
+#, php-format
+msgid "%d of %d people found the following review helpful"
+msgstr "%d personnes sur %d ont trouvé ce commentaire intéressant"
+
+#: assets/templates/directory_listing_review_single_full.html.php:21
+#: assets/templates/directory_listing_review_single_summary.html.php:30
+#, php-format
+msgid "%s reviewed %s"
+msgstr "%s a noté %s"
+
+#: assets/templates/directory_listing_review_single_full.html.php:36
+#, php-format
+msgid "<span>Was this review helpful to you?</span> %s %s"
+msgstr ""
+"<span>Est-ce que ce commentaire vous a semblé intéressant ?</span> %s %s"
+
+#: assets/templates/directory_listing_single_column.html.php:17
+#: assets/templates/directory_listing_single_full.html.php:18
+#: assets/templates/directory_listing_single_infobox.html.php:17
+#: assets/templates/directory_listing_single_summary.html.php:20
+#: lib/Directory.php:1898 lib/Directory.php:1929
+#, php-format
+msgid "%s review"
+msgstr "%s commantaire(s) "
+
+#: assets/templates/directory_listing_single_column.html.php:17
+#: assets/templates/directory_listing_single_full.html.php:18
+#: assets/templates/directory_listing_single_infobox.html.php:17
+#: assets/templates/directory_listing_single_summary.html.php:20
+#, php-format
+msgid "%s reviews"
+msgstr "%s commentaire(s) "
+
+#: assets/templates/directory_listing_single_column.html.php:29
+#: assets/templates/directory_listing_single_infobox.html.php:29
+#: assets/templates/directory_listing_single_summary.html.php:32
+#, php-format
+msgid "%s mi"
+msgstr ""
+
+#: assets/templates/directory_listing_single_column.html.php:29
+#: assets/templates/directory_listing_single_infobox.html.php:29
+#: assets/templates/directory_listing_single_summary.html.php:32
+#, php-format
+msgid "%s km"
+msgstr "%s km"
+
+#: assets/templates/directory_listing_single_summary.html.php:16
+#, php-format
+msgid "(%d)"
+msgstr ""
+
+#: assets/templates/directory_listings_list_with_map.html.php:113
+#: assets/templates/directory_listings_map.html.php:90
+msgid "Redo search when map moved"
+msgstr "Refaire la recherche lorsque la carte bouge"
+
+#: assets/templates/directory_listings_nav.html.php:10
+msgid "Browse Category:"
+msgstr "Parcourir les catégories :"
+
+#: assets/templates/directory_listings_nav.html.php:16
+msgid "Keywords:"
+msgstr "Mots-clés :"
+
+#: assets/templates/directory_searchbox.html.php:1
+#: assets/templates/directory_searchbox.html.php:18
+#: assets/templates/directory_searchbox.html.php:58
+#: lib/Directory/Widget.php:996
+msgid "Select category"
+msgstr "Choisir une catégorie"
+
+#: assets/templates/directory_searchbox.html.php:8
+#: assets/templates/directory_searchbox.html.php:21
+#: assets/templates/directory_searchbox.html.php:41
+#: assets/templates/directory_searchbox.html.php:60
+msgid "Search..."
+msgstr "Chercher..."
+
+#: assets/templates/directory_searchbox.html.php:276
+msgid "Location Options"
+msgstr "Options de lieu"
+
+#: assets/templates/directory_searchbox.html.php:278
+#, php-format
+msgid "Search Radius: %s mi"
+msgstr "Cherchez dans un rayon de : %s mi"
+
+#: assets/templates/directory_searchbox.html.php:278
+#, php-format
+msgid "Search Radius: %s km"
+msgstr "Chercher dans un rayon de : %s km"
+
+#: assets/templates/directory_searchbox.html.php:281
+msgid "Get My Location"
+msgstr "Obtenir ma position"
+
+#: assets/templates/directory_searchbox.html.php:362
+#: lib/Directory/Controller/Listings.php:133
+msgid "Invalid location"
+msgstr "Adresse non valide"
+
+#: include/shortcodes.php:121 lib/Directory.php:114 lib/Directory.php:863
+#: lib/Directory/Controller/Dashboard.php:164
+#: lib/Directory/Controller/Dashboard.php:171 lib/Directory/Widget.php:30
+#: lib/Directory/Widget.php:366
+#: lib/PaidDirectoryListings/Controller/AddListing.php:188
+msgid "Add Listing"
+msgstr "Ajouter un article"
+
+#: lib/Directory.php:71
+msgid "Directory Index Page"
+msgstr "Page Index du répertoire"
+
+#: lib/Directory.php:78
+msgid "Category List Page"
+msgstr "Page de la liste des catégories"
+
+#: lib/Directory.php:79
+#, php-format
+msgid "%s Categories"
+msgstr "%s de Catégories"
+
+#: lib/Directory.php:83
+msgid "Review List Page"
+msgstr "Page des commentaires"
+
+#: lib/Directory.php:84
+#, php-format
+msgid "%s Reviews"
+msgstr "%s Avis"
+
+#: lib/Directory.php:88
+msgid "Photo List Page"
+msgstr "Page de la liste des photos"
+
+#: lib/Directory.php:89
+#, php-format
+msgid "%s Photos"
+msgstr "%s Photos"
+
+#: lib/Directory.php:93
+msgid "Single Listing Page"
+msgstr "Page article Unique"
+
+#: lib/Directory.php:94
+#, php-format
+msgid "%s Listing"
+msgstr " %s articles(s)"
+
+#: lib/Directory.php:98
+msgid "Claim Listing Page"
+msgstr "Page de revendication des articles"
+
+#: lib/Directory.php:104
+msgid "Directory Dashboard Page"
+msgstr "Page Tableau de Bord des articles"
+
+#: lib/Directory.php:107
+msgid "Directory Dashboard"
+msgstr "Tableau de bord"
+
+#: lib/Directory.php:111
+msgid "Add Listing Page"
+msgstr "Ajouter une page d'article"
+
+#: lib/Directory.php:439
+#, php-format
+msgid "Posts by %s"
+msgstr "Publiées par %s"
+
+#: lib/Directory.php:529 lib/Directory.php:533 lib/Directory.php:556
+msgctxt "tab"
+msgid "Listings"
+msgstr "Idées "
+
+#: lib/Directory.php:536 lib/Directory.php:558
+#: lib/PaidDirectoryListings.php:176
+msgctxt "tab"
+msgid "Reviews"
+msgstr "Avis "
+
+#: lib/Directory.php:541 lib/Directory.php:549
+#: lib/PaidDirectoryListings.php:181
+#, php-format
+msgctxt "tab"
+msgid "%s (%d)"
+msgstr ""
+
+#: lib/Directory.php:544 lib/Directory.php:560
+msgctxt "tab"
+msgid "Photos"
+msgstr ""
+
+#: lib/Directory.php:552 lib/Directory.php:799
+#: lib/Directory/Controller/Listings.php:262
+msgid "Map"
+msgstr "Carte"
+
+#: lib/Directory.php:554
+#, php-format
+msgid "Add Photos - %s"
+msgstr "Ajouter photos - %s"
+
+#: lib/Directory.php:562 lib/PaidDirectoryListings/Feature.php:19
+msgid "Claim Listing"
+msgstr "﻿Revendiquer un article"
+
+#: lib/Directory.php:564
+msgid "Edit Listing"
+msgstr "Modifier l'article"
+
+#: lib/Directory.php:566
+msgid "Delete Listing"
+msgstr "Effacer l'article"
+
+#: lib/Directory.php:568 lib/Directory.php:858 lib/Directory/ContentType.php:19
+#: lib/DirectoryBuddyPress.php:46 lib/DirectoryBuddyPress.php:303
+msgid "Listings"
+msgid_plural "Listings"
+msgstr[0] "Idées"
+msgstr[1] "Idées"
+
+#: lib/Directory.php:570 lib/Directory.php:800
+#: lib/PaidDirectoryListings.php:174
+msgid "Contact Us"
+msgstr "Contactez nous"
+
+#: lib/Directory.php:572 lib/Directory.php:801 lib/Directory/Widget.php:24
+#: lib/Directory/Widget.php:52
+msgid "Related Listings"
+msgstr "Idées similaires"
+
+#: lib/Directory.php:574 lib/Directory.php:802 lib/Directory/Widget.php:26
+#: lib/Directory/Widget.php:54
+msgid "Nearby Listings"
+msgstr " Articles à proximité"
+
+#: lib/Directory.php:576
+msgctxt "dashboard"
+msgid "Messages"
+msgstr ""
+
+#: lib/Directory.php:578
+msgid "Rating Details"
+msgstr "Détails de la note"
+
+#: lib/Directory.php:580 lib/Directory/Controller/ListingPhotos.php:29
+msgid "Upload Photos"
+msgstr "Télécharger des photos"
+
+#: lib/Directory.php:680
+msgid "Claims"
+msgstr "Revendications"
+
+#: lib/Directory.php:684
+msgid "General"
+msgstr "Général"
+
+#: lib/Directory.php:684
+#, php-format
+msgctxt "Settings page title"
+msgid "%s Settings"
+msgstr "Paramètres %s"
+
+#: lib/Directory.php:686
+msgid "Access Control"
+msgstr "Contrôle d'accès"
+
+#: lib/Directory.php:688
+msgid "Emails"
+msgstr "Courriels"
+
+#: lib/Directory.php:690
+msgctxt "settings"
+msgid "Map"
+msgstr "Carte ( réglages)"
+
+#: lib/Directory.php:692
+msgctxt "settings"
+msgid "Search"
+msgstr "Chercher (réglages)"
+
+#: lib/Directory.php:694
+msgctxt "settings"
+msgid "Claims"
+msgstr "Revendications"
+
+#: lib/Directory.php:696
+msgid "Spam"
+msgstr "Spam"
+
+#: lib/Directory.php:797 lib/Directory.php:867 lib/Directory.php:1188
+#: lib/Directory/ContentType.php:205
+#: lib/Directory/Controller/Admin/ClaimsSettings.php:169
+#: lib/DirectoryBuddyPress.php:47 lib/DirectoryBuddyPress.php:304
+msgid "Reviews"
+msgid_plural "Reviews"
+msgstr[0] "Avis"
+msgstr[1] "Avis"
+
+#: lib/Directory.php:798 lib/Directory.php:871 lib/Directory.php:1192
+#: lib/Directory.php:1381 lib/Directory/ContentType.php:120
+#: lib/Directory/ContentType.php:243 lib/Directory/ContentType.php:291
+#: lib/Directory/Controller/Admin/SpamSettings.php:37
+#: lib/Directory/Controller/UploadPhotos.php:35
+#: lib/Directory/FieldWidget.php:70 lib/DirectoryBuddyPress.php:48
+#: lib/DirectoryBuddyPress.php:305
+#: lib/DirectoryCSVImport/Controller/Admin/Import.php:93
+#: lib/DirectoryCSVImport/Controller/Admin/Import.php:337
+#: lib/DirectoryCSVImport/Controller/Admin/Import.php:344
+#, fuzzy
+msgid "Photos"
+msgid_plural "Photos"
+msgstr[0] ""
+"#-#-#-#-#  2extracted.pot (PACKAGE VERSION)  #-#-#-#-#\n"
+"#-#-#-#-#  3extracted.pot (PACKAGE VERSION)  #-#-#-#-#\n"
+"#-#-#-#-#  5extracted.pot (PACKAGE VERSION)  #-#-#-#-#\n"
+"#-#-#-#-#  8extracted.pot (PACKAGE VERSION)  #-#-#-#-#\n"
+msgstr[1] "#-#-#-#-#  2extracted.pot (PACKAGE VERSION)  #-#-#-#-#\n"
+
+#: lib/Directory.php:803
+msgid "Custom Tab Sample"
+msgstr "Exemple Onglet Personnalisé"
+
+#: lib/Directory.php:875 lib/Directory.php:1196
+#: lib/Directory/ContentType.php:348
+msgid "Leads"
+msgid_plural "Leads"
+msgstr[0] "Prospects"
+msgstr[1] ""
+
+#: lib/Directory.php:879 lib/Directory.php:2168 lib/Directory/Taxonomy.php:20
+#, fuzzy
+msgid "Categories"
+msgstr ""
+"#-#-#-#-#  2extracted.pot (PACKAGE VERSION)  #-#-#-#-#\n"
+"#-#-#-#-#  7extracted.pot (PACKAGE VERSION)  #-#-#-#-#\n"
+
+#: lib/Directory.php:883
+msgid "Settings"
+msgstr "Paramètres"
+
+#: lib/Directory.php:1069 lib/Directory.php:1155
+msgid "Verified"
+msgstr "Idée acceptée"
+
+#: lib/Directory.php:1070 lib/Directory.php:1076
+msgid "This is an owner verified listing."
+msgstr "La direction à accepté que cet article soit étudié plus en détails"
+
+#: lib/Directory.php:1083 lib/Directory.php:1089 lib/Directory.php:1101
+#: lib/Directory.php:1133 lib/Directory.php:1140
+msgid "Edit"
+msgstr "Editer"
+
+#: lib/Directory.php:1083 lib/Directory.php:1089 lib/Directory.php:1101
+#: lib/Directory.php:1133 lib/Directory.php:1140
+#, php-format
+msgid "Edit this %s"
+msgstr "Modifier cette %s"
+
+#: lib/Directory.php:1086 lib/Directory.php:1090 lib/Directory.php:1106
+#: lib/Directory.php:1134 lib/Directory.php:1143 lib/Directory.php:1167
+#: lib/Directory/Controller/Admin/ListingClaims.php:27
+#: lib/Directory/Controller/Admin/ViewListingClaim.php:32
+#: lib/Directory/Controller/Leads.php:130
+msgid "Delete"
+msgstr "Effacer"
+
+#: lib/Directory.php:1086 lib/Directory.php:1090 lib/Directory.php:1106
+#: lib/Directory.php:1134 lib/Directory.php:1143 lib/Directory.php:1167
+#, php-format
+msgid "Delete this %s"
+msgstr "Supprimer cette %s"
+
+#: lib/Directory.php:1111
+#, php-format
+msgid "Claim this %s"
+msgstr "Revendiquer cette %s"
+
+#: lib/Directory.php:1156
+msgid "This is a photo uploaded by the listing owner."
+msgstr "C’est une photo téléchargée par l'auteur de l'article."
+
+#: lib/Directory.php:1200 lib/Directory/ContentType.php:108
+#: lib/DirectoryCSVImport/Controller/Admin/Import.php:83
+#: lib/DirectoryCSVImport/Controller/Admin/Import.php:84
+#: lib/DirectoryCSVImport/Controller/Admin/Import.php:259
+msgid "Owner"
+msgstr "Propriétaire"
+
+#: lib/Directory.php:1247 lib/Directory/ClaimFieldFilter.php:9
+#: lib/Directory/ContentType.php:113
+msgid "Claimed/Unclaimed"
+msgstr "Acceptée / Pas acceptée"
+
+#: lib/Directory.php:1248 lib/Directory/ClaimFieldFilter.php:15
+#: lib/Directory/Controller/Admin/Settings.php:24
+#: lib/Directory/Controller/Dashboard.php:50
+#: lib/Directory/Controller/Listings.php:338
+msgid "Claimed"
+msgstr "Acceptée"
+
+#: lib/Directory.php:1248 lib/Directory/ClaimFieldFilter.php:16
+#: lib/Directory/Controller/Admin/Settings.php:25
+#: lib/Directory/Controller/Listings.php:343
+msgid "Unclaimed"
+msgstr "Pas encore acceptée"
+
+#: lib/Directory.php:1248
+msgid "Claim expired"
+msgstr "Revendication expirée"
+
+#: lib/Directory.php:1248
+msgid "Claim expiring (7 days)"
+msgstr "Expiration de l’attribution (7 jours)"
+
+#: lib/Directory.php:1248
+msgid "Claim expiring (30 days)"
+msgstr "Expiration de l’Attribution (30 jours)"
+
+#: lib/Directory.php:1252
+msgid "Featured/Unfeatured"
+msgstr "Mis en avant/normal"
+
+#: lib/Directory.php:1253 lib/Directory/Controller/Dashboard.php:51
+msgid "Featured"
+msgstr "Promue"
+
+#: lib/Directory.php:1253
+msgid "Unfeatured"
+msgstr "Non promu(s)"
+
+#: lib/Directory.php:1280 lib/Directory/Taxonomy.php:48
+#: lib/DirectoryCSVImport/Controller/Admin/ImportCategories.php:75
+msgid "Thumbnail"
+msgstr "Vignette"
+
+#: lib/Directory.php:1287 lib/Directory/Taxonomy.php:56
+#: lib/DirectoryCSVImport/Controller/Admin/ImportCategories.php:76
+msgid "Map Marker"
+msgstr "Marqueur de carte"
+
+#: lib/Directory.php:1414 lib/Directory/ContentType.php:206
+#: lib/Directory/ContentType.php:262
+msgid "Review"
+msgid_plural "Review"
+msgstr[0] "Avis"
+msgstr[1] "Avis"
+
+#: lib/Directory.php:1432 lib/Directory/Controller/AllPhotos.php:86
+#: lib/Directory/Widget.php:204 lib/Directory/Widget.php:457
+msgid "All photos"
+msgstr "Toutes les photos"
+
+#: lib/Directory.php:1433
+msgid "Official photos"
+msgstr "Photos officielles"
+
+#: lib/Directory.php:1433
+msgid "Review photos"
+msgstr "Photos des commentaires"
+
+#: lib/Directory.php:1436
+msgid "Mark Official"
+msgstr "marque officielle"
+
+#: lib/Directory.php:1437
+msgid "Unmark Official"
+msgstr ""
+
+#: lib/Directory.php:1565
+#, php-format
+msgid "Deleted %d expired listing claims"
+msgstr ""
+
+#: lib/Directory.php:1568
+#, php-format
+msgid "Moved %d listings with expired claims to trash"
+msgstr ""
+
+#: lib/Directory.php:1590
+#, php-format
+msgid "Deleted %d spam posts (listings and/or reviews) from trash"
+msgstr ""
+
+#: lib/Directory.php:1892 lib/Directory.php:1923
+#, php-format
+msgid "%s listing"
+msgid_plural "%s listings"
+msgstr[0] " %s article"
+msgstr[1] " %s articles"
+
+#: lib/Directory.php:1904 lib/Directory.php:1935
+#, php-format
+msgid "%s photo"
+msgid_plural "%s photos"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/Directory.php:2060 lib/Directory/ContentType.php:71
+#: sabai-googlemaps/lib/GoogleMaps/LocationFieldFilter.php:9
+#: sabai-googlemaps/lib/GoogleMaps/LocationFieldType.php:7
+msgid "Location"
+msgstr "Lieu"
+
+#: lib/Directory.php:2080 lib/Directory.php:2096 lib/Directory.php:2102
+#: lib/Directory.php:2108
+msgid "Detailed view"
+msgstr "Vue détaillée"
+
+#: lib/Directory.php:2081 lib/Directory.php:2097
+msgid "Summary view"
+msgstr "Vue résumée"
+
+#: lib/Directory.php:2082 lib/Directory/Controller/Admin/Settings.php:46
+msgid "Map view"
+msgstr "Vue carte"
+
+#: lib/Directory.php:2083 lib/Directory/Controller/Admin/Settings.php:43
+msgid "Grid view"
+msgstr "Vue tableau"
+
+#: lib/Directory.php:2088
+#, php-format
+msgid "Tab view - %s"
+msgstr "Vue par onglet - %s"
+
+#: lib/Directory.php:2160
+msgid "Enable this field for unclaimed listings"
+msgstr "Activez ce champ pour les articles non revendiqués"
+
+#: lib/Directory.php:2169
+msgid ""
+"Select categories to which the field belongs. The field will then be enabled "
+"only when one of the following categories are selected."
+msgstr ""
+
+#: lib/Directory.php:2189
+msgid "Add More"
+msgstr "Ajouter plus"
+
+#: lib/Directory.php:2202
+#, php-format
+msgid "Select %s"
+msgstr "Sélectionner %s"
+
+#: lib/Directory/CarouselFieldRenderer.php:10 lib/Directory/Widget.php:423
+msgid "Photo size"
+msgstr "Dimension de la photo"
+
+#: lib/Directory/CarouselFieldRenderer.php:13
+#: lib/Directory/CarouselFieldRenderer.php:38
+#: lib/Directory/PhotosFieldRenderer.php:36 lib/Directory/Widget.php:426
+msgid "Thumbnail photo"
+msgstr ""
+
+#: lib/Directory/CarouselFieldRenderer.php:14
+#: lib/Directory/CarouselFieldRenderer.php:39
+#: lib/Directory/PhotosFieldRenderer.php:37
+#: lib/Directory/PhotosFieldRenderer.php:65 lib/Directory/Widget.php:427
+msgid "Medium size photo"
+msgstr ""
+
+#: lib/Directory/CarouselFieldRenderer.php:15
+#: lib/Directory/CarouselFieldRenderer.php:40
+#: lib/Directory/PhotosFieldRenderer.php:38
+#: lib/Directory/PhotosFieldRenderer.php:66 lib/Directory/Widget.php:428
+msgid "Large size photo"
+msgstr ""
+
+#: lib/Directory/CarouselFieldRenderer.php:16
+#: lib/Directory/CarouselFieldRenderer.php:41
+#: lib/Directory/PhotosFieldRenderer.php:39
+#: lib/Directory/PhotosFieldRenderer.php:67 lib/Directory/Widget.php:429
+msgid "Original size photo"
+msgstr ""
+
+#: lib/Directory/CarouselFieldRenderer.php:24
+#: lib/Directory/PhotosFieldRenderer.php:51
+msgid "Link photos to:"
+msgstr ""
+
+#: lib/Directory/CarouselFieldRenderer.php:26
+#: lib/Directory/PhotosFieldRenderer.php:53
+msgid "Do not link"
+msgstr "Ne pas lier"
+
+#: lib/Directory/CarouselFieldRenderer.php:27
+#: lib/Directory/PhotosFieldRenderer.php:54
+msgid "Single listing page"
+msgstr ""
+
+#: lib/Directory/CarouselFieldRenderer.php:28
+#: lib/Directory/PhotosFieldRenderer.php:55
+msgid "Single photo"
+msgstr ""
+
+#: lib/Directory/CarouselFieldRenderer.php:35
+#: lib/Directory/PhotosFieldRenderer.php:62
+msgid "Linked photo size"
+msgstr ""
+
+#: lib/Directory/ClaimFieldFilter.php:18
+msgid "Show claimed only"
+msgstr "Montrer les articles acceptés seulement"
+
+#: lib/Directory/ContactFieldRenderer.php:21
+msgid "Send E-mail"
+msgstr ""
+
+#: lib/Directory/ContactFieldRenderer.php:27
+#: lib/Directory/ContactFieldRenderer.php:46
+#: lib/Directory/ContactFieldRenderer.php:131 lib/Directory/FieldWidget.php:304
+#: lib/Directory/FieldWidget.php:679 lib/Directory/Helper/FieldOptions.php:30
+#: lib/DirectoryCSVImport/Controller/Admin/Import.php:89
+msgid "Website"
+msgstr ""
+
+#: lib/Directory/ContactFieldRenderer.php:39
+msgid "Hidden fields"
+msgstr ""
+
+#: lib/Directory/ContactFieldRenderer.php:42
+#: lib/Directory/ContactFieldRenderer.php:52 lib/Directory/FieldWidget.php:284
+#: lib/Directory/FieldWidget.php:666 lib/Directory/Helper/FieldOptions.php:26
+#: lib/DirectoryCSVImport/Controller/Admin/Import.php:85
+msgid "Phone Number"
+msgstr "Téléphone"
+
+#: lib/Directory/ContactFieldRenderer.php:43
+#: lib/Directory/ContactFieldRenderer.php:68 lib/Directory/FieldWidget.php:314
+#: lib/Directory/FieldWidget.php:669 lib/Directory/Helper/FieldOptions.php:27
+#: lib/DirectoryCSVImport/Controller/Admin/Import.php:86
+msgid "Mobile Number"
+msgstr "Numéro de téléphone portable"
+
+#: lib/Directory/ContactFieldRenderer.php:44
+#: lib/Directory/ContactFieldRenderer.php:84 lib/Directory/FieldWidget.php:324
+#: lib/Directory/FieldWidget.php:672 lib/Directory/Helper/FieldOptions.php:28
+#: lib/DirectoryCSVImport/Controller/Admin/Import.php:87
+msgid "Fax Number"
+msgstr "Numéro de fax"
+
+#: lib/Directory/ContactFieldRenderer.php:63
+#: lib/Directory/ContactFieldRenderer.php:79
+#: lib/Directory/ContactFieldRenderer.php:95
+#: lib/Directory/ContactFieldRenderer.php:126
+#: lib/Directory/ContactFieldRenderer.php:178
+msgid "Icon:"
+msgstr "Icône :"
+
+#: lib/Directory/ContactFieldRenderer.php:111
+msgid "Display e-mail address"
+msgstr "Afficher l’e-mail"
+
+#: lib/Directory/ContactFieldRenderer.php:111
+#: lib/Directory/ContactFieldRenderer.php:142
+msgid "Display custom label"
+msgstr "Afficher libellé personnalisé"
+
+#: lib/Directory/ContactFieldRenderer.php:142
+msgid "Display URL"
+msgstr "Afficher l’URL"
+
+#: lib/Directory/ContactFieldRenderer.php:148
+msgid "Maximum URL length (0 for unlimited):"
+msgstr "Longueur maximale d’URL (0 pour illimitée) :"
+
+#: lib/Directory/ContactFieldRenderer.php:171
+#: lib/Directory/SocialFieldRenderer.php:21
+msgid "Add rel=\"nofollow\""
+msgstr "Ajouter rel=« nofollow »"
+
+#: lib/Directory/ContactFieldRenderer.php:172
+#: lib/Directory/SocialFieldRenderer.php:22
+msgid "Add rel=\"external\""
+msgstr "Ajouter rel=« external »"
+
+#: lib/Directory/ContentType.php:20
+#: lib/Directory/Controller/Admin/ListingClaims.php:15
+#: lib/Directory/Controller/ClaimListing.php:79
+#: lib/Directory/Controller/Leads.php:49
+#: lib/Directory/Controller/UploadPhotos.php:18
+msgid "Listing"
+msgid_plural "Listing"
+msgstr[0] "Article"
+msgstr[1] "Articles"
+
+#: lib/Directory/ContentType.php:43
+msgid "Your Info"
+msgstr "Vos infos"
+
+#: lib/Directory/ContentType.php:49
+msgid "Essential Info"
+msgstr "Informations Essentielles"
+
+#: lib/Directory/ContentType.php:54 lib/Directory/ContentType.php:84
+#: lib/Directory/FieldWidget.php:27
+msgid "Contact Info"
+msgstr "Nos coordonnées"
+
+#: lib/Directory/ContentType.php:59 lib/Directory/ContentType.php:99
+#: lib/Directory/FieldWidget.php:49
+msgid "Social Accounts"
+msgstr "Compte des Réseaux sociaux"
+
+#: lib/Directory/ContentType.php:64
+msgid "Additional Info"
+msgstr "Renseignements supplémentaires"
+
+#: lib/Directory/ContentType.php:165
+msgid "Listing Description"
+msgstr "Description de l'article"
+
+#: lib/Directory/ContentType.php:185
+#, php-format
+msgid "Edit own unclaimed %1$s"
+msgstr "Modifier mes articles non revendiqués %1$s"
+
+#: lib/Directory/ContentType.php:186
+#, php-format
+msgid "Edit any unclaimed %2$s"
+msgstr "Modifier n’importe quel %2$s non revendiqué"
+
+#: lib/Directory/ContentType.php:187
+#, php-format
+msgid "Delete own unclaimed %1$s"
+msgstr "Supprimer mes articles non revendiqués %1$s"
+
+#: lib/Directory/ContentType.php:188
+#, php-format
+msgid "Delete own claimed %1$s"
+msgstr "Supprimer mes articles revendiqués %1$s"
+
+#: lib/Directory/ContentType.php:189
+#, php-format
+msgid "Delete any unclaimed %2$s"
+msgstr "Supprimez tout élément non revendiqué %2$s"
+
+#: lib/Directory/ContentType.php:190
+#, php-format
+msgid "Claim existing %1$s"
+msgstr "Revendiquer %1$s existant"
+
+#: lib/Directory/ContentType.php:232 lib/Directory/ContentType.php:237
+#: lib/Directory/Controller/Admin/Settings.php:31
+#: lib/Directory/Controller/Reviews.php:11
+msgid "Rating"
+msgstr "Classement"
+
+#: lib/Directory/ContentType.php:259 lib/Directory/ContentType.php:314
+#: lib/Directory/Controller/Photos.php:41
+msgid "Votes"
+msgstr "Votes"
+
+#: lib/Directory/ContentType.php:281
+#, php-format
+msgid "Delete any %2$s"
+msgstr "Supprimer toute %2$s"
+
+#: lib/Directory/ContentType.php:292 lib/Directory/ContentType.php:324
+msgid "Photo"
+msgid_plural "Photo"
+msgstr[0] "Photo"
+msgstr[1] ""
+
+#: lib/Directory/ContentType.php:338
+#, php-format
+msgid "Delete any non-official %2$s"
+msgstr "Supprimer chaque %2$s “non-officiels”"
+
+#: lib/Directory/ContentType.php:349
+msgid "Lead"
+msgid_plural "Lead"
+msgstr[0] "Lead"
+msgstr[1] ""
+
+#: lib/Directory/Controller/AddListing.php:81
+#: lib/Directory/Controller/ClaimListing.php:41
+msgid "Register now"
+msgstr "S’inscrire maintenant"
+
+#: lib/Directory/Controller/AddListing.php:90
+msgid "Proceed without registration"
+msgstr "Continuer sans s’identifier"
+
+#: lib/Directory/Controller/AddListing.php:97
+#: lib/Directory/Controller/ClaimListing.php:47
+msgid "Create an Account"
+msgstr "Créer un compte"
+
+#: lib/Directory/Controller/AddListing.php:101
+#: lib/Directory/Controller/ClaimListing.php:51
+#, php-format
+msgid ""
+"Already registered? Click <a href=\"%s\" class=\"sabai-login popup-login"
+"\">here</a> to login."
+msgstr ""
+"Déjà inscrit ? Cliquez <a href=« %s » class=« sabai-login popup-login »>ici</"
+"a> pour vous connecter."
+
+#: lib/Directory/Controller/AddListing.php:156
+#: lib/Directory/Controller/Dashboard.php:48
+msgid "Directory"
+msgstr "Répertoire"
+
+#: lib/Directory/Controller/AddListing.php:157
+msgid "Select the directory where you want to submit the new listing."
+msgstr ""
+"Sélectionnez la répertoire dans laquelle vous souhaitez voir apparaître le "
+"nouvel élément"
+
+#: lib/Directory/Controller/AddListing.php:185
+msgid "Submit Listing"
+msgstr "Publier l'article"
+
+#: lib/Directory/Controller/AddListing.php:311
+#, php-format
+msgid ""
+"Your listing has been submitted successfully and published. You can view the "
+"listing <a href=\"%s\" target=\"_blank\">here</a>."
+msgstr ""
+"Votre article a bien été envoyé et publié. Vous pouvez le découvrir <a href="
+"\"%s\" target=\"_blank\">ici</a>."
+
+#: lib/Directory/Controller/AddListing.php:312
+msgid ""
+"Your listing has been submitted successfully. We will review your submission "
+"and post it on this site if it is approved."
+msgstr ""
+"Votre article a bien été envoyée. Nous allons le vérifier et le publier sur "
+"le site si il est approuvé."
+
+#: lib/Directory/Controller/Admin/ClaimsSettings.php:9
+#: lib/Directory/Controller/ClaimListing.php:70
+msgid ""
+"If the listing is for your organisation, please complete the details below. "
+"Once we have confirmed your identity, we will give you full control over "
+"your listing and its contents."
+msgstr ""
+"Si vous souhaitez vous investir sur cette idée, veuillez compléter les "
+"champs ci-dessous. Si et une fois l'idée acceptée, vous pourrez participer à "
+"son développement."
+
+#: lib/Directory/Controller/Admin/ClaimsSettings.php:14
+msgid "Duration Settings"
+msgstr "Réglages de durée"
+
+#: lib/Directory/Controller/Admin/ClaimsSettings.php:18
+#: lib/PaidDirectoryListings/Feature.php:115
+#: lib/PaidDirectoryListings/Feature.php:218
+msgid "Duration"
+msgstr "Durée"
+
+#: lib/Directory/Controller/Admin/ClaimsSettings.php:19
+msgid ""
+"Enter the number of days claims are valid before they expire. Enter 0 for no "
+"expiration."
+msgstr ""
+"Entrez le nombre de jours valables avant expiration du statut Vérifié. "
+"Entrez 0 pour aucune date d’expiration."
+
+#: lib/Directory/Controller/Admin/ClaimsSettings.php:22
+#: lib/Directory/Controller/Admin/ClaimsSettings.php:33
+#: lib/Directory/Controller/Admin/SpamSettings.php:59
+msgid "days"
+msgstr "jours"
+
+#: lib/Directory/Controller/Admin/ClaimsSettings.php:29
+msgid "Grace period duration"
+msgstr "Durée Période d’Essai"
+
+#: lib/Directory/Controller/Admin/ClaimsSettings.php:30
+msgid ""
+"Enter the number of days after which expired claims are deleted from the "
+"database."
+msgstr ""
+"Entrez le nombre de jours après lequel les statuts Vérifié expirés sont "
+"supprimés de la base de données."
+
+#: lib/Directory/Controller/Admin/ClaimsSettings.php:39
+msgid "Move listings to trash when their claims expired"
+msgstr "Déplacer articles dans la Corbeille lorsque leur statut Vérifié expire"
+
+#: lib/Directory/Controller/Admin/ClaimsSettings.php:44
+msgid "Claim Listing Form Settings"
+msgstr "Revendiquer l’élément depuis les paramètres"
+
+#: lib/Directory/Controller/Admin/ClaimsSettings.php:48
+msgid "Claim listing form header"
+msgstr "Revendiquer l’élément depuis le header"
+
+#: lib/Directory/Controller/Admin/ClaimsSettings.php:49
+msgid ""
+"Enter the message displayed at the top of the form for claiming existing "
+"listings."
+msgstr ""
+"Entrez le message affiché au début du formulaire pour la revendication "
+"d’éléments existants."
+
+#: lib/Directory/Controller/Admin/ClaimsSettings.php:56
+msgid "Do not require comment"
+msgstr "Ne requiert pas de commentaire"
+
+#: lib/Directory/Controller/Admin/ClaimsSettings.php:61
+msgid "Approval Settings"
+msgstr "Paramètres de validation"
+
+#: lib/Directory/Controller/Admin/ClaimsSettings.php:66
+msgid "Automatically approve claims for new listings"
+msgstr ""
+"Approuver automatiquement les revendications/attributions des nouveaux "
+"articles"
+
+#: lib/Directory/Controller/Admin/ClaimsSettings.php:71
+msgid "Automatically approve claims for existing listings"
+msgstr ""
+
+#: lib/Directory/Controller/Admin/ClaimsSettings.php:76
+msgid "Delete claims that have been approved automatically"
+msgstr ""
+
+#: lib/Directory/Controller/Admin/ClaimsSettings.php:86
+msgid "Unclaimed Listing Settings"
+msgstr ""
+
+#: lib/Directory/Controller/Admin/ClaimsSettings.php:91
+msgid "Hide from the index page"
+msgstr ""
+
+#: lib/Directory/Controller/Admin/ClaimsSettings.php:95
+#: lib/PaidDirectoryListings/Feature.php:125
+msgid "Fields"
+msgstr ""
+
+#: lib/Directory/Controller/Admin/ClaimsSettings.php:96
+msgid "Select the fields allowed for unclaimed listings in the frontend."
+msgstr ""
+"Sélectionnez les champs autorisés pour les articles non revendiqués sur le "
+"site."
+
+#: lib/Directory/Controller/Admin/ClaimsSettings.php:121
+#: lib/PaidDirectoryListings/Feature.php:150
+#, php-format
+msgid "Limit the number of %s allowed in the frontend"
+msgstr ""
+
+#: lib/Directory/Controller/Admin/ClaimsSettings.php:139
+#: lib/PaidDirectoryListings/Feature.php:93
+#: lib/PaidDirectoryListings/Feature.php:607
+msgid "Contact Us Form"
+msgstr ""
+
+#: lib/Directory/Controller/Admin/ClaimsSettings.php:145
+#: lib/PaidDirectoryListings/Feature.php:263
+msgid "Allow users to send messages via contact us form"
+msgstr ""
+"Autoriser les utilisateurs à envoyer des messages via le formulaire de "
+"contact."
+
+#: lib/Directory/Controller/Admin/ClaimsSettings.php:150
+msgid "Send messages to author email address"
+msgstr ""
+
+#: lib/Directory/Controller/Admin/ClaimsSettings.php:160
+#: lib/PaidDirectoryListings/Feature.php:278
+#: lib/PaidDirectoryListings/Feature.php:521
+msgid "Send messages to contact info email address (if any)"
+msgstr ""
+
+#: lib/Directory/Controller/Admin/ClaimsSettings.php:174
+#: lib/PaidDirectoryListings/Feature.php:289
+#: lib/PaidDirectoryListings/Feature.php:321
+#: lib/PaidDirectoryListings/Feature.php:533
+msgid "Allow users to post reviews"
+msgstr ""
+
+#: lib/Directory/Controller/Admin/ClaimsSettings.php:179
+#: lib/Directory/Controller/Admin/Settings.php:170
+#: lib/PaidDirectoryListings/Feature.php:187
+msgid "Single listing page tabs"
+msgstr ""
+
+#: lib/Directory/Controller/Admin/EmailsSettings.php:10
+msgid ""
+"Enter the number of days before the expiration date on which this "
+"notification will be sent."
+msgstr ""
+
+#: lib/Directory/Controller/Admin/EmailsSettings.php:16
+#: lib/PaidDirectoryListings/Feature.php:120
+#: lib/PaidDirectoryListings/Feature.php:219
+msgid "day(s)"
+msgstr "jour(s)"
+
+#: lib/Directory/Controller/Admin/ListingClaims.php:12
+msgid "Claim ID"
+msgstr ""
+
+#: lib/Directory/Controller/Admin/ListingClaims.php:13
+msgid "Claim Date"
+msgstr "Date de revendication"
+
+#: lib/Directory/Controller/Admin/ListingClaims.php:14
+msgid "Claim Type"
+msgstr "Type de revendication"
+
+#: lib/Directory/Controller/Admin/ListingClaims.php:16
+msgid "User"
+msgstr "Utilisateur"
+
+#: lib/Directory/Controller/Admin/ListingClaims.php:17
+#: lib/Directory/Controller/Admin/ViewListingClaim.php:76
+#: lib/Directory/Controller/ClaimListing.php:97
+msgid "Comment"
+msgstr "Commentaire(s)"
+
+#: lib/Directory/Controller/Admin/ListingClaims.php:18
+#: lib/DirectoryCSVImport/Controller/Admin/Import.php:94
+msgid "Status"
+msgstr ""
+
+#: lib/Directory/Controller/Admin/ListingClaims.php:49
+#, php-format
+msgid "All (%d)"
+msgstr "Tous (%d)"
+
+#: lib/Directory/Controller/Admin/ListingClaims.php:74
+#, php-format
+msgid "Claim %s"
+msgstr "Demande %s"
+
+#: lib/Directory/Controller/Admin/ListingClaims.php:76
+msgid "New listing"
+msgstr "Nouvel article"
+
+#: lib/Directory/Controller/Admin/ListingClaims.php:76
+msgid "Existing listing"
+msgstr "Idées existantes"
+
+#: lib/Directory/Controller/Admin/MapSettings.php:11
+msgid "Disable map"
+msgstr "Désactiver la carte"
+
+#: lib/Directory/Controller/Admin/MapSettings.php:15
+msgid "Basic Settings"
+msgstr "Paramètres de base"
+
+#: lib/Directory/Controller/Admin/MapSettings.php:24
+#: sabai-googlemaps/lib/GoogleMaps/Helper/MapOptions.php:18
+msgid "Default map type"
+msgstr "Type de carte par défaut"
+
+#: lib/Directory/Controller/Admin/MapSettings.php:30
+#: lib/Directory/Controller/Admin/MapSettings.php:116
+#: sabai-googlemaps/lib/GoogleMaps/Helper/FieldWidgetSettings.php:30
+#: sabai-googlemaps/lib/GoogleMaps/Helper/MapOptions.php:41
+msgid "Map height"
+msgstr "Hauteur de la carte"
+
+#: lib/Directory/Controller/Admin/MapSettings.php:40
+#: sabai-googlemaps/lib/GoogleMaps/Helper/MapOptions.php:24
+msgid "Default style"
+msgstr "Style par défaut"
+
+#: lib/Directory/Controller/Admin/MapSettings.php:41
+#: sabai-googlemaps/lib/GoogleMaps/Helper/MapOptions.php:25
+msgid "Google map style"
+msgstr "Style de carte Google"
+
+#: lib/Directory/Controller/Admin/MapSettings.php:46
+msgid "Distance mode"
+msgstr "Mode de distance"
+
+#: lib/Directory/Controller/Admin/MapSettings.php:47
+msgid "Kilometers"
+msgstr "Kilometres"
+
+#: lib/Directory/Controller/Admin/MapSettings.php:47
+msgid "Miles"
+msgstr "Miles"
+
+#: lib/Directory/Controller/Admin/MapSettings.php:57
+#: sabai-googlemaps/lib/GoogleMaps/Helper/FieldWidgetSettings.php:40
+msgid "Default latitude"
+msgstr "Latitude par défaut"
+
+#: lib/Directory/Controller/Admin/MapSettings.php:68
+#: sabai-googlemaps/lib/GoogleMaps/Helper/FieldWidgetSettings.php:51
+msgid "Default longitude"
+msgstr "Longitude par défaut"
+
+#: lib/Directory/Controller/Admin/MapSettings.php:78
+msgid "Enable scrollwheel zooming on the map"
+msgstr ""
+
+#: lib/Directory/Controller/Admin/MapSettings.php:87
+#: sabai-googlemaps/lib/GoogleMaps/Helper/MapOptions.php:60
+msgid "Map infobox width"
+msgstr ""
+
+#: lib/Directory/Controller/Admin/MapSettings.php:92
+msgid "List View Settings"
+msgstr ""
+
+#: lib/Directory/Controller/Admin/MapSettings.php:101
+msgid "Display small map"
+msgstr ""
+
+#: lib/Directory/Controller/Admin/MapSettings.php:106
+msgid "Show a scroll bar when there are many listings to display"
+msgstr ""
+"Afficher une barre de défilement lorsqu’il y’a beaucoup de listes à afficher."
+
+#: lib/Directory/Controller/Admin/MapSettings.php:131
+msgid "Map width"
+msgstr ""
+
+#: lib/Directory/Controller/Admin/MapSettings.php:133
+msgid ""
+"The horizontal display ratio (12 being 100% wide) of the map in List view"
+msgstr ""
+
+#: lib/Directory/Controller/Admin/MapSettings.php:144
+msgid "Map infobox"
+msgstr ""
+
+#: lib/Directory/Controller/Admin/MapSettings.php:146
+msgid ""
+"Display map infobox on the map when hover overing listing titles or clicking "
+"map markers"
+msgstr ""
+
+#: lib/Directory/Controller/Admin/MapSettings.php:147
+msgid "Display map infobox on the map when clicking map markers"
+msgstr ""
+
+#: lib/Directory/Controller/Admin/MapSettings.php:148
+msgid "Never display map infobox on the map"
+msgstr ""
+
+#: lib/Directory/Controller/Admin/MapSettings.php:159
+msgid "Map Marker Settings"
+msgstr ""
+
+#: lib/Directory/Controller/Admin/MapSettings.php:168
+msgid "Custom marker icon URL"
+msgstr ""
+
+#: lib/Directory/Controller/Admin/MapSettings.php:174
+msgid "Custom marker icon size"
+msgstr ""
+
+#: lib/Directory/Controller/Admin/MapSettings.php:197
+msgid "Enable marker clusters"
+msgstr ""
+
+#: lib/Directory/Controller/Admin/MapSettings.php:202
+msgid "Custom marker cluster image directory URL"
+msgstr ""
+
+#: lib/Directory/Controller/Admin/MapSettings.php:203
+#, php-format
+msgid "Default: %s"
+msgstr ""
+
+#: lib/Directory/Controller/Admin/MapSettings.php:213
+msgid "Other Settings"
+msgstr ""
+
+#: lib/Directory/Controller/Admin/MapSettings.php:221
+msgid "Default zoom level for single listing"
+msgstr ""
+
+#: lib/Directory/Controller/Admin/MapSettings.php:227
+msgid "Show all listings in Map view"
+msgstr ""
+
+#: lib/Directory/Controller/Admin/MapSettings.php:235
+msgid "Draw radius search circle"
+msgstr ""
+
+#: lib/Directory/Controller/Admin/MapSettings.php:240
+msgid "Radius search circle stroke color"
+msgstr ""
+
+#: lib/Directory/Controller/Admin/MapSettings.php:255
+msgid "Radius search circle fill color"
+msgstr ""
+
+#: lib/Directory/Controller/Admin/SearchSettings.php:9
+#, php-format
+msgid "%d km/mi"
+msgstr ""
+
+#: lib/Directory/Controller/Admin/SearchSettings.php:12
+msgid "None"
+msgstr ""
+
+#: lib/Directory/Controller/Admin/SearchSettings.php:16
+msgid "Keyword Search Settings"
+msgstr ""
+
+#: lib/Directory/Controller/Admin/SearchSettings.php:22
+msgid "Disable keyword search"
+msgstr ""
+
+#: lib/Directory/Controller/Admin/SearchSettings.php:26
+#: sabai-googlemaps/lib/GoogleMaps/LocationFieldFilter.php:124
+msgid "Min. length of keywords in characters"
+msgstr ""
+
+#: lib/Directory/Controller/Admin/SearchSettings.php:40
+#: sabai-googlemaps/lib/GoogleMaps/LocationFieldFilter.php:133
+msgid "Match any or all"
+msgstr "Correspondance avec un ou tous  "
+
+#: lib/Directory/Controller/Admin/SearchSettings.php:42
+#: sabai-googlemaps/lib/GoogleMaps/LocationFieldFilter.php:135
+msgid "Match any"
+msgstr "Correspondance avec n’importe lequel"
+
+#: lib/Directory/Controller/Admin/SearchSettings.php:42
+#: sabai-googlemaps/lib/GoogleMaps/LocationFieldFilter.php:135
+msgid "Match all"
+msgstr "Correspondance avec tous"
+
+#: lib/Directory/Controller/Admin/SearchSettings.php:53
+#: lib/Directory/Controller/Admin/SearchSettings.php:322
+msgid "Enable auto suggestion"
+msgstr ""
+
+#: lib/Directory/Controller/Admin/SearchSettings.php:63
+msgid "Auto suggest listings"
+msgstr ""
+
+#: lib/Directory/Controller/Admin/SearchSettings.php:74
+msgid "Redirect to suggested listing page when clicked"
+msgstr ""
+
+#: lib/Directory/Controller/Admin/SearchSettings.php:85
+msgid "Number of auto suggested listings to display"
+msgstr ""
+
+#: lib/Directory/Controller/Admin/SearchSettings.php:101
+msgid "Suggested listings header text"
+msgstr ""
+
+#: lib/Directory/Controller/Admin/SearchSettings.php:114
+msgid "Suggested listing icon"
+msgstr ""
+
+#: lib/Directory/Controller/Admin/SearchSettings.php:126
+msgid "Auto suggest categories"
+msgstr ""
+
+#: lib/Directory/Controller/Admin/SearchSettings.php:137
+msgid "Redirect to suggested category page when clicked"
+msgstr ""
+
+#: lib/Directory/Controller/Admin/SearchSettings.php:148
+msgid "Number of auto suggested categories to display"
+msgstr ""
+
+#: lib/Directory/Controller/Admin/SearchSettings.php:164
+msgid "Suggested categories header text"
+msgstr ""
+
+#: lib/Directory/Controller/Admin/SearchSettings.php:177
+msgid "Suggested category icon"
+msgstr ""
+
+#: lib/Directory/Controller/Admin/SearchSettings.php:188
+msgid "Category Search Settings"
+msgstr ""
+
+#: lib/Directory/Controller/Admin/SearchSettings.php:194
+msgid "Disable category search"
+msgstr ""
+
+#: lib/Directory/Controller/Admin/SearchSettings.php:199
+#: lib/Directory/Widget.php:332
+msgid "Category depth (0 for unlimited)"
+msgstr ""
+
+#: lib/Directory/Controller/Admin/SearchSettings.php:210
+#: lib/Directory/Widget.php:349
+msgid "Hide if no posts"
+msgstr ""
+
+#: lib/Directory/Controller/Admin/SearchSettings.php:220
+msgid "Hide post count"
+msgstr ""
+
+#: lib/Directory/Controller/Admin/SearchSettings.php:230
+msgid "Search Filter Settings"
+msgstr ""
+
+#: lib/Directory/Controller/Admin/SearchSettings.php:235
+msgid "Disable filters"
+msgstr "Désactiver les filtres"
+
+#: lib/Directory/Controller/Admin/SearchSettings.php:240
+msgid "Always show filters"
+msgstr "Toujours montrer les filtres"
+
+#: lib/Directory/Controller/Admin/SearchSettings.php:251
+msgid "Display filter form above search results"
+msgstr ""
+
+#: lib/Directory/Controller/Admin/SearchSettings.php:261
+msgid "Auto submit filter form when value(s) changed"
+msgstr ""
+
+#: lib/Directory/Controller/Admin/SearchSettings.php:280
+msgid "Custom fields to include in search"
+msgstr ""
+
+#: lib/Directory/Controller/Admin/SearchSettings.php:293
+msgid "Location Search Settings"
+msgstr ""
+
+#: lib/Directory/Controller/Admin/SearchSettings.php:299
+msgid "Disable location search"
+msgstr ""
+
+#: lib/Directory/Controller/Admin/SearchSettings.php:303
+msgid "Default search radius"
+msgstr ""
+
+#: lib/Directory/Controller/Admin/SearchSettings.php:332
+msgid "Auto suggest location addresses"
+msgstr ""
+
+#: lib/Directory/Controller/Admin/SearchSettings.php:343
+msgid "Suggested location addresses header text"
+msgstr ""
+
+#: lib/Directory/Controller/Admin/SearchSettings.php:355
+msgid "Auto suggest cities"
+msgstr ""
+
+#: lib/Directory/Controller/Admin/SearchSettings.php:365
+msgid "Number of auto suggested cities to display"
+msgstr ""
+
+#: lib/Directory/Controller/Admin/SearchSettings.php:381
+#: lib/DirectoryCSVImport/Controller/Admin/Import.php:75
+#: sabai-googlemaps/lib/GoogleMaps/LocationFieldFilter.php:30
+msgid "City"
+msgstr ""
+
+#: lib/Directory/Controller/Admin/SearchSettings.php:382
+msgid "Suggested cities header text"
+msgstr ""
+
+#: lib/Directory/Controller/Admin/SearchSettings.php:395
+msgid "Suggested city icon"
+msgstr ""
+
+#: lib/Directory/Controller/Admin/SearchSettings.php:408
+msgid "Suggested location address icon"
+msgstr ""
+
+#: lib/Directory/Controller/Admin/SearchSettings.php:420
+msgid "Auto suggest states/provinces/regions"
+msgstr ""
+
+#: lib/Directory/Controller/Admin/SearchSettings.php:430
+msgid "Number of auto suggested states/provinces/regions to display"
+msgstr ""
+
+#: lib/Directory/Controller/Admin/SearchSettings.php:446
+#: lib/DirectoryCSVImport/Controller/Admin/Import.php:76
+#: sabai-googlemaps/lib/GoogleMaps/LocationFieldFilter.php:31
+msgid "State / Province / Region"
+msgstr ""
+
+#: lib/Directory/Controller/Admin/SearchSettings.php:447
+msgid "Suggested states/provinces/regions header text"
+msgstr ""
+
+#: lib/Directory/Controller/Admin/SearchSettings.php:460
+msgid "Suggested state/province/region icon"
+msgstr ""
+
+#: lib/Directory/Controller/Admin/SearchSettings.php:472
+msgid "Auto suggest zip/postal codes"
+msgstr ""
+
+#: lib/Directory/Controller/Admin/SearchSettings.php:482
+msgid "Number of auto suggested zip/postal codes to display"
+msgstr ""
+
+#: lib/Directory/Controller/Admin/SearchSettings.php:498
+#: sabai-googlemaps/lib/GoogleMaps/LocationFieldFilter.php:32
+msgid "Postal / Zip code"
+msgstr ""
+
+#: lib/Directory/Controller/Admin/SearchSettings.php:499
+msgid "Suggested zip/postal codes header text"
+msgstr ""
+
+#: lib/Directory/Controller/Admin/SearchSettings.php:512
+msgid "Suggested zip/postal code icon"
+msgstr ""
+
+#: lib/Directory/Controller/Admin/SearchSettings.php:524
+msgid "Auto suggest countries"
+msgstr ""
+
+#: lib/Directory/Controller/Admin/SearchSettings.php:534
+msgid "Number of auto suggested countries to display"
+msgstr "Nombre d'auto-suggestion pour l'affichage du pays"
+
+#: lib/Directory/Controller/Admin/SearchSettings.php:550
+#: lib/DirectoryCSVImport/Controller/Admin/Import.php:77
+#: sabai-googlemaps/lib/GoogleMaps/LocationFieldFilter.php:33
+msgid "Country"
+msgstr "Pays"
+
+#: lib/Directory/Controller/Admin/SearchSettings.php:551
+msgid "Suggested countries header text"
+msgstr "Pays suggérés en entête"
+
+#: lib/Directory/Controller/Admin/SearchSettings.php:564
+msgid "Suggested country icon"
+msgstr "Icône suggestion pays"
+
+#: lib/Directory/Controller/Admin/Settings.php:18
+#: lib/Directory/Controller/Admin/Settings.php:29
+#: lib/Directory/Controller/Admin/Settings.php:36 lib/Directory/Widget.php:105
+#: lib/Directory/Widget.php:149 lib/Directory/Widget.php:193
+#: lib/Directory/Widget.php:224 lib/Directory/Widget.php:264
+#: lib/Directory/Widget.php:446
+msgid "Newest First"
+msgstr "Plus récente en premier"
+
+#: lib/Directory/Controller/Admin/Settings.php:19
+#: lib/Directory/Controller/Admin/Settings.php:30
+#: lib/Directory/Controller/Admin/Settings.php:37
+msgid "Oldest First"
+msgstr "Plus ancien en premier"
+
+#: lib/Directory/Controller/Admin/Settings.php:20
+#: lib/Directory/Controller/Listings.php:327 lib/Directory/Widget.php:226
+#: lib/Directory/Widget.php:266
+msgid "Most Reviews"
+msgstr "Plus de commentaires"
+
+#: lib/Directory/Controller/Admin/Settings.php:21
+#: lib/Directory/Controller/Listings.php:333 lib/Directory/Widget.php:225
+#: lib/Directory/Widget.php:265
+msgid "Highest Rated"
+msgstr "Mieux notés"
+
+#: lib/Directory/Controller/Admin/Settings.php:22
+msgctxt "sort"
+msgid "Title"
+msgstr "Titre"
+
+#: lib/Directory/Controller/Admin/Settings.php:23
+#: lib/Directory/Controller/Admin/Settings.php:33
+#: lib/Directory/Controller/Admin/Settings.php:38 lib/Directory/Widget.php:106
+#: lib/Directory/Widget.php:150 lib/Directory/Widget.php:194
+#: lib/Directory/Widget.php:227 lib/Directory/Widget.php:267
+#: lib/Directory/Widget.php:447
+msgid "Random"
+msgstr "Aléatoire"
+
+#: lib/Directory/Controller/Admin/Settings.php:26
+#: lib/Directory/Controller/Listings.php:351
+#: lib/Directory/Controller/NearbyListings.php:32
+msgid "Distance"
+msgstr "Distance"
+
+#: lib/Directory/Controller/Admin/Settings.php:32
+msgid "Helpfullness"
+msgstr "Utilité"
+
+#: lib/Directory/Controller/Admin/Settings.php:39
+msgid "Most Voted"
+msgstr "Les plus votés"
+
+#: lib/Directory/Controller/Admin/Settings.php:42
+msgid "List view"
+msgstr "Vue Liste"
+
+#: lib/Directory/Controller/Admin/Settings.php:53
+msgid "Listings per page"
+msgstr "Idées par page"
+
+#: lib/Directory/Controller/Admin/Settings.php:61
+#: lib/Directory/Controller/Admin/Settings.php:73
+#: lib/Directory/Controller/Admin/Settings.php:85
+#, php-format
+msgid "(max. limit %d)"
+msgstr "(Limite max. %d)"
+
+#: lib/Directory/Controller/Admin/Settings.php:65
+msgid "Reviews per page"
+msgstr "Avis par page"
+
+#: lib/Directory/Controller/Admin/Settings.php:77
+msgid "Photos per page"
+msgstr "Photos par page"
+
+#: lib/Directory/Controller/Admin/Settings.php:90
+msgid "Listings sorting options"
+msgstr "Options de tri des articles"
+
+#: lib/Directory/Controller/Admin/Settings.php:99
+msgid "Listings default sorting order"
+msgstr "Ordre de tri par défaut des articles"
+
+#: lib/Directory/Controller/Admin/Settings.php:108
+msgid "Reviews sorting options"
+msgstr "Options de tri des commentaires"
+
+#: lib/Directory/Controller/Admin/Settings.php:117
+msgid "Reviews default sorting order"
+msgstr "Ordre de tri par défaut des commentaires"
+
+#: lib/Directory/Controller/Admin/Settings.php:126
+msgid "Photos sorting options"
+msgstr "Options de tri des photos"
+
+#: lib/Directory/Controller/Admin/Settings.php:135
+msgid "Photos default sorting order"
+msgstr "Ordre de tri par défaut des photos"
+
+#: lib/Directory/Controller/Admin/Settings.php:144
+msgid "Listings view options"
+msgstr "Options d’affichage des articles"
+
+#: lib/Directory/Controller/Admin/Settings.php:153
+msgid "Listings default view"
+msgstr "Vue par défaut des articles"
+
+#: lib/Directory/Controller/Admin/Settings.php:162
+msgid "Grid view column count"
+msgstr "Nombre de colonnes de la vue grille"
+
+#: lib/Directory/Controller/Admin/Settings.php:174
+#: lib/Directory/FieldWidget.php:92
+msgid "slug"
+msgstr ""
+
+#: lib/Directory/Controller/Admin/Settings.php:176
+#: lib/Directory/FieldWidget.php:94
+msgid ""
+"Slugs must consist of lowercase alphanumeric characters and underscores."
+msgstr ""
+
+#: lib/Directory/Controller/Admin/Settings.php:181
+msgid "Category list page column count"
+msgstr "Nombre de colonnes sur la Page qui Liste les Catégories"
+
+#: lib/Directory/Controller/Admin/Settings.php:189
+msgid "Hide empty categories on category list page"
+msgstr "Cacher les catégories vides sur la page de la liste des catégories"
+
+#: lib/Directory/Controller/Admin/Settings.php:194
+msgid "Hide child categories on category list page"
+msgstr "Cacher les sous-catégories sur la page des catégories"
+
+#: lib/Directory/Controller/Admin/Settings.php:199
+msgid "Disable photo comments"
+msgstr "Désactiver les commentaire des photos"
+
+#: lib/Directory/Controller/Admin/Settings.php:204
+msgid "Stick featured listings to the top of the directory index page"
+msgstr ""
+
+#: lib/Directory/Controller/Admin/Settings.php:209
+msgid "Stick featured listings to the top of single category pages"
+msgstr ""
+
+#: lib/Directory/Controller/Admin/Settings.php:217
+msgid "List claimed listings only in user profile"
+msgstr ""
+
+#: lib/Directory/Controller/Admin/Settings.php:222
+msgid "Show user registration form when guest user is submitting a listing"
+msgstr ""
+"Afficher le Formulaire d’Enregistrement quand un utilisateur invité propose "
+"une Fiche"
+
+#: lib/Directory/Controller/Admin/Settings.php:227
+msgid "Allow guest user to skip user registration"
+msgstr "Autoriser les utilisateurs invités à passer/éviter l’enregistrement"
+
+#: lib/Directory/Controller/Admin/SpamSettings.php:9
+msgid "Spam Score Threshold"
+msgstr "Seuil du score de spam"
+
+#: lib/Directory/Controller/Admin/SpamSettings.php:15
+msgid ""
+"When a post is flagged, the post is assigned a \"spam score\". Posts with "
+"spam scores exceeding the threshold value are marked as spam and moved to "
+"trash automatically by the system. Also, posts with higher number of votes "
+"will have higher threshold. For example, if the value set here is 11, and a "
+"post has 10 votes, then the spam score threshold for the post will be 14 (11 "
+"+ 0.3 x 10)."
+msgstr ""
+
+#: lib/Directory/Controller/Admin/SpamSettings.php:19
+msgid "Listings:"
+msgstr "Idées"
+
+#: lib/Directory/Controller/Admin/SpamSettings.php:20
+msgid "number of rating stars"
+msgstr "nombre d’étoiles d’évaluation"
+
+#: lib/Directory/Controller/Admin/SpamSettings.php:28
+msgid "Reviews:"
+msgstr "Avis :"
+
+#: lib/Directory/Controller/Admin/SpamSettings.php:29
+msgid "number of \"helpful\" votes"
+msgstr "nombre de votes “jugés utiles”"
+
+#: lib/Directory/Controller/Admin/SpamSettings.php:38
+msgid "number of votes"
+msgstr "Décompte des votes"
+
+#: lib/Directory/Controller/Admin/SpamSettings.php:46
+msgid "Auto-delete Settings"
+msgstr "Réglages Suppression Automatique"
+
+#: lib/Directory/Controller/Admin/SpamSettings.php:50
+msgid "Auto-delete spam"
+msgstr "Suppression automatique des spams"
+
+#: lib/Directory/Controller/Admin/SpamSettings.php:52
+msgid ""
+"When checked, posts that have been marked as spam will be deleted by the "
+"system after the period of time specified in the \"Delete Spam After\" "
+"option."
+msgstr ""
+"Quand elle est cochée, les publications qui ont été marquées comme spam "
+"seront supprimées par le système après la période de temps spécifiée dans "
+"le  \\\"Delete Spam After \\\" option."
+
+#: lib/Directory/Controller/Admin/SpamSettings.php:57
+msgid "Delete spam after:"
+msgstr ""
+
+#: lib/Directory/Controller/Admin/SpamSettings.php:58
+msgid ""
+"Enter the number of days the system will wait before auto-deleting posts "
+"marked as spam."
+msgstr ""
+
+#: lib/Directory/Controller/Admin/ViewListingClaim.php:10
+msgid "Reject"
+msgstr "Refus"
+
+#: lib/Directory/Controller/Admin/ViewListingClaim.php:16
+msgid "Approve"
+msgstr "Approuver"
+
+#: lib/Directory/Controller/Admin/ViewListingClaim.php:25
+msgid ""
+"This claim may not be approved because the listing has already been claimed "
+"by another user."
+msgstr ""
+"Cette demande ne peut être approuvée puisque l’article a déjà été "
+"revendiquée par un autre utilisateur."
+
+#: lib/Directory/Controller/Admin/ViewListingClaim.php:44
+#, php-format
+msgid "%s submitted %s for listing %s"
+msgstr "%s soumis %s pour la fiche %s"
+
+#: lib/Directory/Controller/Admin/ViewListingClaim.php:47
+msgid "Unknown"
+msgstr "Inconnu"
+
+#: lib/Directory/Controller/Admin/ViewListingClaim.php:52
+#: lib/Directory/Controller/ClaimListing.php:85
+msgid "Contact name"
+msgstr "Nom du contact"
+
+#: lib/Directory/Controller/Admin/ViewListingClaim.php:65
+msgid "Admin note"
+msgstr ""
+
+#: lib/Directory/Controller/Admin/ViewListingClaim.php:67
+msgid ""
+"This note may be used for administration purpose or embedded in notifcation "
+"mail using the {claim_admin_note} tag."
+msgstr ""
+
+#: lib/Directory/Controller/AllFeeds.php:33
+#, php-format
+msgid "The most recent %d listings"
+msgstr "Les %d articles les plus récents"
+
+#: lib/Directory/Controller/AllFeeds.php:36
+#, php-format
+msgid "The most recent %d reviews"
+msgstr "Les %d commentaires les plus récents"
+
+#: lib/Directory/Controller/AllFeeds.php:39
+#, php-format
+msgid "The most recent %d listings and reviews"
+msgstr "Les %d articles et commentaires les plus récents"
+
+#: lib/Directory/Controller/AllListings.php:302
+msgid "All listings"
+msgstr "Tous articles"
+
+#: lib/Directory/Controller/AllReviews.php:88
+msgid "All reviews"
+msgstr "Tous les commentaires"
+
+#: lib/Directory/Controller/ClaimListing.php:98
+msgid ""
+"Please provide additional information that will allow us to verify your "
+"claim."
+msgstr ""
+"Merci de fournir des informations supplémentaires qui nous permettront de "
+"vérifier votre revendication."
+
+#: lib/Directory/Controller/ClaimListing.php:105
+msgid "Submit Claim"
+msgstr "Envoyer la revendication"
+
+#: lib/Directory/Controller/ClaimListing.php:147
+msgid "Your claim has been submitted successfully and approved."
+msgstr "Votre revendication a été soumise avec succès et approuvée."
+
+#: lib/Directory/Controller/ClaimListing.php:148
+msgid ""
+"Your claim has been submitted successfully. We will review your claim "
+"details and notify you if it is approved."
+msgstr ""
+"Revendication envoyée. Nous allons la contrôler et vous informerons si elle "
+"est approuvée."
+
+#: lib/Directory/Controller/Dashboard.php:9
+msgid "Sort by Views"
+msgstr "Trier par nombre de vues"
+
+#: lib/Directory/Controller/Dashboard.php:9
+msgid "Sort by Leads"
+msgstr "Trier par Contacts"
+
+#: lib/Directory/Controller/Dashboard.php:47
+#: lib/DirectoryCSVImport/Controller/Admin/Import.php:71
+#: lib/DirectoryCSVImport/Controller/Admin/ImportCategories.php:71
+msgid "Title"
+msgstr "Titre"
+
+#: lib/Directory/Controller/Dashboard.php:49
+msgctxt "date created"
+msgid "Date"
+msgstr "Date"
+
+#: lib/Directory/Controller/Dashboard.php:80
+msgid "Untitled"
+msgstr "Sans titre"
+
+#: lib/Directory/Controller/Dashboard.php:85
+#: lib/Directory/Controller/Dashboard.php:103
+#: lib/Directory/Controller/Dashboard.php:110
+msgid "No"
+msgstr "Non"
+
+#: lib/Directory/Controller/Dashboard.php:89
+#: lib/Directory/Controller/Dashboard.php:101
+msgid "Yes"
+msgstr "Oui"
+
+#: lib/Directory/Controller/Dashboard.php:203
+msgid "View listing"
+msgstr "Voir l'article"
+
+#: lib/Directory/Controller/Dashboard.php:210
+msgid "Claim listing"
+msgstr "Revendiquer l'article"
+
+#: lib/Directory/Controller/Dashboard.php:217
+msgid "Delete listing"
+msgstr "Supprimer l'article"
+
+#: lib/Directory/Controller/EditListing.php:80
+msgid "The listing has been updated successfully."
+msgstr "Article mise à jour avec succès."
+
+#: lib/Directory/Controller/Feed.php:33
+#, php-format
+msgid "The most recent %d listings in %s"
+msgstr "Les %d articles les plus récentes dans %s"
+
+#: lib/Directory/Controller/Feed.php:36
+#, php-format
+msgid "The most recent %d reviews in %s"
+msgstr "Les %d commentaires les plus récents dans %s"
+
+#: lib/Directory/Controller/Feed.php:39
+#, php-format
+msgid "The most recent %d listings and reviews in %s"
+msgstr "Les %d articles et commentaires les plus récents dans %s"
+
+#: lib/Directory/Controller/Leads.php:48
+msgid "Date"
+msgstr "Date"
+
+#: lib/Directory/Controller/Leads.php:107
+msgid "View"
+msgstr "Vue"
+
+#: lib/Directory/Controller/Leads.php:107
+#, php-format
+msgid "Message by %s"
+msgstr "Message de %s"
+
+#: lib/Directory/Controller/Leads.php:129
+msgid "Bulk Actions"
+msgstr "Actions groupées"
+
+#: lib/Directory/Controller/Leads.php:135
+msgid "Apply"
+msgstr "﻿Appliquer"
+
+#: lib/Directory/Controller/ListingContact.php:8
+#: lib/Directory/Controller/UploadPhotos.php:10 lib/Directory/Widget.php:408
+msgid "Submit"
+msgstr "Envoyer"
+
+#: lib/Directory/Controller/ListingPhotos.php:33
+msgid "Add Photos"
+msgstr "Ajouter des photos"
+
+#: lib/Directory/Controller/ListingReviews.php:25
+#: lib/Directory/Controller/ListingReviews.php:29
+msgid "Write a Review"
+msgstr "Laissez un avis"
+
+#: lib/Directory/Controller/Listings.php:252
+msgid "List"
+msgstr "Liste"
+
+#: lib/Directory/Controller/Listings.php:254
+msgid "Switch to list view"
+msgstr "Basculer en vue en Liste"
+
+#: lib/Directory/Controller/Listings.php:257
+msgid "Grid"
+msgstr "Grille"
+
+#: lib/Directory/Controller/Listings.php:259
+msgid "Switch to grid view"
+msgstr "Passez en affichage « grille »"
+
+#: lib/Directory/Controller/Listings.php:264
+msgid "Switch to map view"
+msgstr "Basculer sur la vue carte"
+
+#: lib/Directory/Controller/Reviews.php:16
+msgid "Helpfulness"
+msgstr "Utilité"
+
+#: lib/Directory/FieldWidget.php:17
+msgid "Rating Stars"
+msgstr "Note étoiles"
+
+#: lib/Directory/FieldWidget.php:89
+msgid "Rating Criteria"
+msgstr "Critères d’Evaluation"
+
+#: lib/Directory/FieldWidget.php:96
+msgid ""
+"Note that changing the slug will reset the ratings of the criterion in all "
+"reviews. Also the overall ratings in both listings and reviews will stay the "
+"same even when a criterion is added or removed until the reviews are updated."
+msgstr ""
+
+#: lib/Directory/FieldWidget.php:100
+msgid "Rating Step"
+msgstr "Etapes d’évaluation"
+
+#: lib/Directory/FieldWidget.php:111
+msgid "Disable phone number field"
+msgstr "Désactiver le champ N° téléphone"
+
+#: lib/Directory/FieldWidget.php:116
+msgid "Disable e-mail field"
+msgstr "Désactiver le champ e-mail"
+
+#: lib/Directory/FieldWidget.php:121
+msgid "Disable mobile number field"
+msgstr "Désactiver le champ de téléphone mobile"
+
+#: lib/Directory/FieldWidget.php:126
+msgid "Disable fax number field"
+msgstr ""
+
+#: lib/Directory/FieldWidget.php:131
+msgid "Disable website field"
+msgstr ""
+
+#: lib/Directory/FieldWidget.php:136
+msgid "Require phone number"
+msgstr ""
+
+#: lib/Directory/FieldWidget.php:149
+msgid "Require mobile number"
+msgstr ""
+
+#: lib/Directory/FieldWidget.php:162
+msgid "Require fax number"
+msgstr ""
+
+#: lib/Directory/FieldWidget.php:175
+msgid "Require e-mail address"
+msgstr ""
+
+#: lib/Directory/FieldWidget.php:188
+msgid "Require website URL"
+msgstr ""
+
+#: lib/Directory/FieldWidget.php:201
+msgid ""
+"Auto-populate e-mail address field with the current user's e-mail address"
+msgstr ""
+
+#: lib/Directory/FieldWidget.php:214
+msgid "Auto-populate website URL field with the current user's website URL"
+msgstr ""
+
+#: lib/Directory/FieldWidget.php:230
+msgid "Require Twitter username"
+msgstr ""
+
+#: lib/Directory/FieldWidget.php:235
+msgid "Require Facebook URL"
+msgstr ""
+
+#: lib/Directory/FieldWidget.php:240
+msgid "Require Google+ URL"
+msgstr ""
+
+#: lib/Directory/FieldWidget.php:249
+msgid "Maximum photo upload size"
+msgstr ""
+
+#: lib/Directory/FieldWidget.php:250
+msgid ""
+"The maximum file size of uploaded files in kilobytes. Leave this field blank "
+"for no limit."
+msgstr ""
+
+#: lib/Directory/FieldWidget.php:340
+msgid "You must enter a Twitter username."
+msgstr "Vous devez entrer un nom d’utilisateur Twitter"
+
+#: lib/Directory/FieldWidget.php:341 lib/Directory/FieldWidget.php:698
+#: lib/Directory/Helper/FieldOptions.php:34
+#: lib/DirectoryCSVImport/Controller/Admin/Import.php:90
+msgid "Twitter"
+msgstr ""
+
+#: lib/Directory/FieldWidget.php:345
+msgid "@username"
+msgstr ""
+
+#: lib/Directory/FieldWidget.php:349 lib/Directory/FieldWidget.php:700
+#: lib/Directory/Helper/FieldOptions.php:35
+#: lib/DirectoryCSVImport/Controller/Admin/Import.php:91
+msgid "Facebook URL"
+msgstr ""
+
+#: lib/Directory/FieldWidget.php:355 lib/Directory/FieldWidget.php:702
+#: lib/Directory/Helper/FieldOptions.php:36
+#: lib/DirectoryCSVImport/Controller/Admin/Import.php:92
+msgid "Google+ URL"
+msgstr ""
+
+#: lib/Directory/FieldWidget.php:369
+#: lib/DirectoryCSVImport/Controller/Admin/Import.php:84
+msgid "End Date"
+msgstr "Date de fin"
+
+#: lib/Directory/Helper/ClaimStatusLabels.php:10
+#: lib/Directory/Model/Claim.php:17
+msgid "Approved"
+msgstr "Accepté"
+
+#: lib/Directory/Helper/ClaimStatusLabels.php:11
+#: lib/Directory/Model/Claim.php:15
+msgid "Rejected"
+msgstr "Refusé"
+
+#: lib/Directory/Helper/ClaimStatusLabels.php:12
+#: lib/Directory/Model/Claim.php:13
+msgid "Pending"
+msgstr "En attente"
+
+#: lib/Directory/Helper/NotificationSettings.php:11
+msgid "Listing Submitted Admin Notification Email"
+msgstr "Email à l’admin pour une fiche soumise"
+
+#: lib/Directory/Helper/NotificationSettings.php:12
+msgid ""
+"If enabled, a notification email is sent to administrators whenever a "
+"listing that requires approval is submitted."
+msgstr ""
+"Si activ&eacute;, un email de notification est envoy&eacute; aux "
+"administrateurs &agrave; chaque fois qu’une entr&eacute;e qui requiert "
+"l&rsquo;approbation est soumise."
+
+#: lib/Directory/Helper/NotificationSettings.php:16
+msgid "[{site_name}] A new listing (ID: {listing_id}) has been submitted"
+msgstr "[{site_name}] Un nouvel article (ID: {listing_id}) a été soumis"
+
+#: lib/Directory/Helper/NotificationSettings.php:17
+msgid ""
+"Hi {recipient_name},\n"
+"                \n"
+"A new listing \"{listing_title}\" has been submitted on {listing_date}.\n"
+"\n"
+"Submitted by {listing_author_name} ({listing_author_email}):\n"
+"\n"
+"------------------------------------\n"
+"{listing_summary}\n"
+"------------------------------------\n"
+"\n"
+"You can view the listing at {listing_url}.\n"
+"\n"
+"Regards,\n"
+"{site_name}\n"
+"{site_url}"
+msgstr ""
+"Une nouvel article \"{listing_title}\" à éte publié en date du "
+"{listing_date}.\n"
+"\n"
+"Soumis par {listing_author_name} ({listing_author_email}):\n"
+"\n"
+"------------------------------------\n"
+"{listing_summary}\n"
+"------------------------------------\n"
+"\n"
+"Vous pouvez visualiser l'article sur {listing_url}.\n"
+"\n"
+"Cordialement,\n"
+"{site_name}\n"
+"{site_url}"
+
+#: lib/Directory/Helper/NotificationSettings.php:36
+msgid "Review Submitted Admin Notification Email"
+msgstr ""
+
+#: lib/Directory/Helper/NotificationSettings.php:37
+msgid ""
+"If enabled, a notification email is sent to administrators whenever a review "
+"that requires approval is submitted."
+msgstr ""
+
+#: lib/Directory/Helper/NotificationSettings.php:41
+msgid "[{site_name}] A new review (ID: {review_id}) has been submitted"
+msgstr "[{site_name}] Un nouveau commentaire (ID: {review_id}) a été soumis"
+
+#: lib/Directory/Helper/NotificationSettings.php:42
+msgid ""
+"Hi {recipient_name},\n"
+"                \n"
+"A review of {listing_title} titled \"{review_title}\" has been submitted on "
+"{review_date}.\n"
+"\n"
+"Submitted by {review_author_name} ({review_author_email}):\n"
+"\n"
+"------------------------------------\n"
+"{review_summary}\n"
+"------------------------------------\n"
+"\n"
+"You can view the review at {review_url}.\n"
+"\n"
+"Regards,\n"
+"{site_name}\n"
+"{site_url}"
+msgstr ""
+"Bonjour {recipient_name},\n"
+"                \n"
+"Un commentaire sur {listing_title} titré \"{review_title}\" a été publié le "
+"{review_date}.\n"
+"\n"
+"Envoyé par {review_author_name} ({review_author_email}):\n"
+"\n"
+"------------------------------------\n"
+"{review_summary}\n"
+"------------------------------------\n"
+"\n"
+"Vous pouvez lire l’avis complet sur {review_url}.\n"
+"\n"
+"Cordialement,\n"
+"{site_name}\n"
+"{site_url}"
+
+#: lib/Directory/Helper/NotificationSettings.php:61
+msgid "Photo Submitted Admin Notification Email"
+msgstr ""
+
+#: lib/Directory/Helper/NotificationSettings.php:62
+msgid ""
+"If enabled, a notification email is sent to administrators whenever a photo "
+"that requires approval is submitted."
+msgstr ""
+"Si activ&eacute;, un email de notification est envoy&eacute; aux "
+"administrateurs &agrave; chaque fois qu’une entr&eacute;e qui requiert "
+"l&rsquo;approbation est soumise."
+
+#: lib/Directory/Helper/NotificationSettings.php:66
+msgid "[{site_name}] A new photo (ID: {photo_id}) has been submitted"
+msgstr "[{site_name}] Une nouvelle photo (ID: {photo_id}) a été soumise"
+
+#: lib/Directory/Helper/NotificationSettings.php:67
+msgid ""
+"Hi {recipient_name},\n"
+"\n"
+"A new photo has been added to {listing_title} on {photo_date}.\n"
+"\n"
+"Submitted by {photo_author_name} ({photo_author_email}):\n"
+"\n"
+"You can view the photo at {photo_url}.\n"
+"\n"
+"Regards,\n"
+"{site_name}\n"
+"{site_url}"
+msgstr ""
+"Bonjour {recipient_name},\n"
+"\n"
+"Une nouvelle photo a été ajoutée à {listing_title} le {photo_date}.\n"
+"\n"
+"Envoyée par {photo_author_name} ({photo_author_email}):\n"
+"\n"
+"Vous pouvez voir la photo sur {photo_url}.\n"
+"\n"
+"Cordialement,\n"
+"{site_name}\n"
+"{site_url}"
+
+#: lib/Directory/Helper/NotificationSettings.php:82
+msgid "Lead Submitted Admin Notification Email"
+msgstr "Email à l’admin pour un nouveau contact soumis"
+
+#: lib/Directory/Helper/NotificationSettings.php:83
+msgid ""
+"If enabled, a notification email is sent to administrators whenever a lead "
+"that requires approval is submitted."
+msgstr ""
+"Si activée, un email est envoyé aux admins chaque fois qu’un contact qui "
+"exige l&#39;approbation est soumis."
+
+#: lib/Directory/Helper/NotificationSettings.php:87
+msgid "[{site_name}] A new lead (ID: {lead_id}) has been submitted"
+msgstr "[{site_name}] Un nouveau contact (ID: {lead_id}) a été soumis"
+
+#: lib/Directory/Helper/NotificationSettings.php:88
+msgid ""
+"Hi {recipient_name},\n"
+"\n"
+"A new lead has been added to {listing_title} on {lead_date}.\n"
+"\n"
+"Submitted by {lead_author_name} ({lead_author_email}):\n"
+"\n"
+"You can view the lead at {lead_url}.\n"
+"\n"
+"Regards,\n"
+"{site_name}\n"
+"{site_url}"
+msgstr ""
+"Bonjour {recipient_name},\n"
+"                \n"
+"Un nouveau contact a été ajouté à {listing_title} le {lead_date}.\n"
+"\n"
+"Soumis par {lead_author_name} ({lead_author_email}): \n"
+"\n"
+"Vous pouvez consulter votre contact ICI: {lead_url}.\n"
+"\n"
+"Cordialement,\n"
+"{site_name} \n"
+"{site_url}"
+
+#: lib/Directory/Helper/NotificationSettings.php:104
+msgid "Listing Approved Notification Email"
+msgstr "Email à l’utilisateur pour un article approuvé"
+
+#: lib/Directory/Helper/NotificationSettings.php:105
+msgid ""
+"If enabled, a notification email is sent to the user when a listing the user "
+"has submitted is approved."
+msgstr ""
+"Si activé, un email est envoyé à l’utilisateur quand son article est approuvé"
+
+#: lib/Directory/Helper/NotificationSettings.php:109
+msgid "[{site_name}] Your listing has been published"
+msgstr "[{site_name}] Votre article a été publié"
+
+#: lib/Directory/Helper/NotificationSettings.php:110
+msgid ""
+"Hi {recipient_name},\n"
+"                \n"
+"The listing you have submitted has been approved and is now published.\n"
+"\n"
+"------------------------------------\n"
+"{listing_title}\n"
+"------------------------------------\n"
+"\n"
+"You can view the listing at {listing_url}.\n"
+"\n"
+"Regards,\n"
+"{site_name}\n"
+"{site_url}"
+msgstr ""
+"Bonjour {recipient_name},\n"
+"                \n"
+"L'article que vous avez publié a été validé et est publié.\n"
+"\n"
+"------------------------------------\n"
+"{listing_title}\n"
+"------------------------------------\n"
+"\n"
+"Vous pouvez voir l'idée sur {listing_url}.\n"
+"\n"
+"Cordialement,\n"
+"{site_name}\n"
+"{site_url}"
+
+#: lib/Directory/Helper/NotificationSettings.php:128
+msgid "Review Approved Notification Email"
+msgstr "Email à l’utilisateur pour un commentaire approuvée"
+
+#: lib/Directory/Helper/NotificationSettings.php:129
+msgid ""
+"If enabled, a notification email is sent to the user when a review the user "
+"has submitted is approved."
+msgstr ""
+"Si activé, envoie un mail à l’utilisateur quand son commentaire est approuvé "
+"et publié"
+
+#: lib/Directory/Helper/NotificationSettings.php:133
+msgid "[{site_name}] Your review has been published"
+msgstr "[{site_name}] Votre commentaire a été publié"
+
+#: lib/Directory/Helper/NotificationSettings.php:134
+msgid ""
+"Hi {recipient_name},\n"
+"                \n"
+"The review of {listing_title} you have submitted has been approved and is "
+"now published.\n"
+"\n"
+"------------------------------------\n"
+"{review_title}\n"
+"------------------------------------\n"
+"\n"
+"You can view the review at {review_url}.\n"
+"\n"
+"Regards,\n"
+"{site_name}\n"
+"{site_url}"
+msgstr ""
+"Bonjour {recipient_name},\n"
+"                \n"
+"Le commentaire sur {listing_title} que vous avez soumis a été approuvé et "
+"publié.\n"
+"\n"
+"——————————————————\n"
+"{review_title}\n"
+"——————————————————\n"
+"\n"
+"Vous pouvez voir votre avis sur {review_url}.\n"
+"\n"
+"Cordialement,\n"
+"{site_name}\n"
+"{site_url}"
+
+#: lib/Directory/Helper/NotificationSettings.php:152
+msgid "Photo Approved Notification Email"
+msgstr "Email à l’utilisateur pour une photo approuvée"
+
+#: lib/Directory/Helper/NotificationSettings.php:153
+msgid ""
+"If enabled, a notification email is sent to the user when a photo the user "
+"has submitted is approved."
+msgstr "Si activé, envoie un mail à l'utilisateur quand sa photo est approuvée"
+
+#: lib/Directory/Helper/NotificationSettings.php:157
+msgid "[{site_name}] Your photo has been published"
+msgstr "[{site_name}] Votre photo a été publiée"
+
+#: lib/Directory/Helper/NotificationSettings.php:158
+msgid ""
+"Hi {recipient_name},\n"
+"                \n"
+"The photo of {listing_title} you have submitted has been approved and is now "
+"published.\n"
+"\n"
+"You can view the photo at {photo_url}.\n"
+"\n"
+"Regards,\n"
+"{site_name}\n"
+"{site_url}"
+msgstr ""
+"Bonjour {recipient_name},\n"
+"                \n"
+"La photo sur {listing_title} que vous avez envoyé a été validée et est "
+"publiée.\n"
+"\n"
+"Vous pouvez voir la photo sur {photo_url}.\n"
+"\n"
+"Cordialement,\n"
+"{site_name}\n"
+"{site_url}"
+
+#: lib/Directory/Helper/NotificationSettings.php:172
+msgid "Comment Posted Notification Email"
+msgstr "Email à l’utilisateur pour ajout d’un commentaire"
+
+#: lib/Directory/Helper/NotificationSettings.php:173
+msgid ""
+"If enabled, a notification email is sent to the review author when a comment "
+"is submitted."
+msgstr ""
+"Si activée, un email est envoyée à l’utilisateur lorsqu’un commentaire est "
+"soumis."
+
+#: lib/Directory/Helper/NotificationSettings.php:177
+#: lib/Directory/Helper/NotificationSettings.php:203
+msgid "[{site_name}] You have a new comment"
+msgstr "[{site_name}] Vous avez un nouveau commentaire"
+
+#: lib/Directory/Helper/NotificationSettings.php:178
+msgid ""
+"Hi {recipient_name},\n"
+"                \n"
+"A comment has been added to your review \"{review_title}\".\n"
+"\n"
+"Comment by {comment_author_name}:\n"
+"\n"
+"------------------------------------\n"
+"{comment_summary}\n"
+"------------------------------------\n"
+"\n"
+"You can view the comment at {review_url}.\n"
+"\n"
+"Regards,\n"
+"{site_name}\n"
+"{site_url}"
+msgstr ""
+"Bonjour {recipient_name},\n"
+"                \n"
+"Un commentaire a été ajouté sur votre propre commentaire "
+"\"{review_title}\".\n"
+"\n"
+"Commentaire par {comment_author_name}:\n"
+"\n"
+"------------------------------------\n"
+"{comment_summary}\n"
+"------------------------------------\n"
+"\n"
+"Vous pouvez voir le commentaire sur {review_url}.\n"
+"\n"
+"Cordialement,\n"
+"{site_name}\n"
+"{site_url}"
+
+#: lib/Directory/Helper/NotificationSettings.php:198
+msgid "Comment Posted Notification Email (Photo)"
+msgstr ""
+
+#: lib/Directory/Helper/NotificationSettings.php:199
+msgid ""
+"If enabled, a notification email is sent to the photo author when a comment "
+"is submitted."
+msgstr ""
+"Si activée, un email est envoyé à l’auteur de la photo  lorsqu&#39;un "
+"commentaire est soumis."
+
+#: lib/Directory/Helper/NotificationSettings.php:204
+msgid ""
+"Hi {recipient_name},\n"
+"                \n"
+"A comment has been added to your photo.\n"
+"\n"
+"Comment by {comment_author_name}:\n"
+"\n"
+"------------------------------------\n"
+"{comment_summary}\n"
+"------------------------------------\n"
+"\n"
+"You can view the comment at {photo_url}.\n"
+"\n"
+"Regards,\n"
+"{site_name}\n"
+"{site_url}"
+msgstr ""
+"Intéressant, {recipient_name},\n"
+"                "
+
+#: lib/Directory/Helper/NotificationSettings.php:224
+msgid "Review Added Notification Email"
+msgstr "Email à l’utilisateur pour un commentaire ajouté"
+
+#: lib/Directory/Helper/NotificationSettings.php:225
+msgid ""
+"If enabled, a notification email is sent to the listing owner when a review "
+"is posted."
+msgstr ""
+
+#: lib/Directory/Helper/NotificationSettings.php:229
+msgid "[{site_name}] A new review has been posted"
+msgstr "[{site_name}] Un nouveau commentaire a été posté"
+
+#: lib/Directory/Helper/NotificationSettings.php:230
+msgid ""
+"Hi {recipient_name},\n"
+"                \n"
+"A review of {listing_title} titled \"{review_title}\" has been posted on "
+"{review_date}.\n"
+"\n"
+"Posted by {review_author_name} ({review_author_email}):\n"
+"\n"
+"------------------------------------\n"
+"{review_summary}\n"
+"------------------------------------\n"
+"\n"
+"You can read the full review at {review_url}.\n"
+"\n"
+"Regards,\n"
+"{site_name}\n"
+"{site_url}"
+msgstr ""
+"Bonjour {recipient_name},\n"
+"                \n"
+"Uncommentaire sur {listing_title} titré \"{review_title}\" a été posté le "
+"{review_date}.\n"
+"\n"
+"Posté par {review_author_name} ({review_author_email}):\n"
+"\n"
+"------------------------------------\n"
+"{review_summary}\n"
+"------------------------------------\n"
+"\n"
+"Vous pouvez lire l’avis complet sur {review_url}.\n"
+"\n"
+"Cordialement,\n"
+"{site_name}\n"
+"{site_url}"
+
+#: lib/Directory/Helper/NotificationSettings.php:249
+msgid "Photo Added Notification Email"
+msgstr ""
+
+#: lib/Directory/Helper/NotificationSettings.php:250
+msgid ""
+"If enabled, a notification email is sent to the listing owner when photos "
+"are added to the listing."
+msgstr ""
+"Si activé, un email est envoyé à l’utilisateur quand des photos sont ajoutées"
+
+#: lib/Directory/Helper/NotificationSettings.php:254
+msgid "[{site_name}] A new photo has been added"
+msgstr "[{site_name}] Une nouvelle photo a été ajoutée"
+
+#: lib/Directory/Helper/NotificationSettings.php:255
+msgid ""
+"Hi {recipient_name},\n"
+"                \n"
+"A new photo has been added to your listing {listing_title} on {photo_date} "
+"by {photo_author_name} ({photo_author_email}).\n"
+"\n"
+"You can view the photo at {photo_url}.\n"
+"\n"
+"Regards,\n"
+"{site_name}\n"
+"{site_url}"
+msgstr ""
+"Bonjour {recipient_name},\n"
+"\n"
+"Une nouvelle photo a été ajoutée à {listing_title} le {photo_date}.\n"
+"\n"
+"Envoyée par {photo_author_name} ({photo_author_email}):\n"
+"\n"
+"Vous pouvez voir la photo sur {photo_url}.\n"
+"\n"
+"Cordialement,\n"
+"{site_name}\n"
+"{site_url}"
+
+#: lib/Directory/Helper/NotificationSettings.php:268
+msgid "Lead Added Notification Email"
+msgstr ""
+
+#: lib/Directory/Helper/NotificationSettings.php:269
+msgid ""
+"If enabled, a notification email is sent to the listing owner when leads are "
+"added to the listing."
+msgstr ""
+
+#: lib/Directory/Helper/NotificationSettings.php:273
+msgid "[{site_name}] A new lead has been added"
+msgstr "[{site_name}] Une nouvelle photo a été ajoutée"
+
+#: lib/Directory/Helper/NotificationSettings.php:274
+msgid ""
+"Hi {recipient_name},\n"
+"                \n"
+"A new lead has been added to your listing {listing_title} on {lead_date} by "
+"{lead_author_name} ({lead_author_email}).\n"
+"\n"
+"You can view the lead at {lead_url}.\n"
+"\n"
+"Regards,\n"
+"{site_name}\n"
+"{site_url}"
+msgstr ""
+"Bonjour {recipient_name},\n"
+"                \n"
+"Un nouveau contact a été ajoutée à votre fiche {listing_title} le "
+"{lead_date} par {lead_author_name} ({lead_author_email}).\n"
+"\n"
+"Vous pouvez consulter l’entrée ici : {lead_url}.\n"
+"\n"
+"Cordialement,\n"
+"Ce mail est envoyé par {site_name}\n"
+"{site_url}"
+
+#: lib/Directory/Helper/NotificationSettings.php:287
+msgid "Listing Claim Expiration Notification Email"
+msgstr "Expiration prochaine du statut Vérifié [Email]"
+
+#: lib/Directory/Helper/NotificationSettings.php:288
+#, php-format
+msgid ""
+"If enabled, a notification email is sent to the listing owner from %d days "
+"before expiration of a claim until the claim expires."
+msgstr ""
+
+#: lib/Directory/Helper/NotificationSettings.php:292
+msgid "[{site_name}] Your listing claim will expire in {expiration_date_diff}"
+msgstr "[{site_name}] Votre revendication expire dans {expiration_date_diff}"
+
+#: lib/Directory/Helper/NotificationSettings.php:293
+msgid ""
+"Hi {recipient_name},\n"
+"                \n"
+"Your claim on listing {listing_title} will expire on {expiration_date}.\n"
+"\n"
+"You can renew the claim at {listing_renew_url}.\n"
+"\n"
+"Regards,\n"
+"{site_name}\n"
+"{site_url}"
+msgstr ""
+"Bonjour {recipient_name},\n"
+"                \n"
+"Votre demande de certification concernant l’annonce {listing_title} expirera "
+"le {expiration_date}.\n"
+"\n"
+"Vous pouvez renouveler votre demande de certification ICI: "
+"{listing_renew_url}.\n"
+"\n"
+"La certification permet entre autres d’avoir vos annonces certifiées par le "
+"site du DIY.\n"
+"\n"
+"Elle vous permet également de modifier librement vos articles. \n"
+"\n"
+"Cordialement, \n"
+"{site_name} \n"
+"{site_url}"
+
+#: lib/Directory/Helper/NotificationSettings.php:306
+msgid "Listing Claim Expired Notification Email"
+msgstr "Statut Vérifié a expiré [Email]"
+
+#: lib/Directory/Helper/NotificationSettings.php:307
+msgid ""
+"If enabled, a notification email is sent to the listing owner after a claim "
+"has expired."
+msgstr ""
+
+#: lib/Directory/Helper/NotificationSettings.php:311
+msgid "[{site_name}] Your listing claim has expired on {expiration_date}"
+msgstr "[{site_name}] Votre revendication a expiré le {expiration_date}"
+
+#: lib/Directory/Helper/NotificationSettings.php:312
+msgid ""
+"Hi {recipient_name},\n"
+"                \n"
+"Your claim on listing {listing_title} has expird {expiration_date_diff}.\n"
+"\n"
+"You can renew the claim at {listing_renew_url}.\n"
+"\n"
+"Regards,\n"
+"{site_name}\n"
+"{site_url}"
+msgstr ""
+"Bonjour {recipient_name},\n"
+"                \n"
+"Votre revendication de la fiche {listing_title} a expiré le "
+"{expiration_date_diff}.\n"
+"\n"
+"Vous pouvez a nouveau revendiquez la fiche sur {listing_renew_url}.\n"
+"\n"
+"Cordialement,\n"
+"{site_name}\n"
+"{site_url}"
+
+#: lib/Directory/Helper/NotificationSettings.php:326
+msgid "Listing Published Notification Email"
+msgstr ""
+
+#: lib/Directory/Helper/NotificationSettings.php:327
+msgid ""
+"If enabled, a notification email is sent to users of selected roles whenever "
+"a listing is published."
+msgstr ""
+
+#: lib/Directory/Helper/NotificationSettings.php:331
+msgid "[{site_name}] A new listing (ID: {listing_id}) has been published"
+msgstr "[{site_name}] Un nouvel article (ID: {listing_id}) a été publié"
+
+#: lib/Directory/Helper/NotificationSettings.php:332
+msgid ""
+"Hi {recipient_name},\n"
+"                \n"
+"A new listing \"{listing_title}\" has been published on {listing_date}.\n"
+"\n"
+"Submitted by {listing_author_name} ({listing_author_email}):\n"
+"\n"
+"------------------------------------\n"
+"{listing_summary}\n"
+"------------------------------------\n"
+"\n"
+"You can view the listing at {listing_url}.\n"
+"\n"
+"Regards,\n"
+"{site_name}\n"
+"{site_url}"
+msgstr ""
+"Hi {recipient_name},\n"
+"                \n"
+"Un nouvel article \"{listing_title}\" a éte publiée {listing_date}.\n"
+"\n"
+"Envoyé par {listing_author_name} ({listing_author_email}):\n"
+"\n"
+"------------------------------------\n"
+"{listing_summary}\n"
+"------------------------------------\n"
+"\n"
+"YVous pouvez voir l'ide sur  {listing_url}.\n"
+"\n"
+"Cordialement,\n"
+"{site_name}\n"
+"{site_url}"
+
+#: lib/Directory/Helper/NotificationSettings.php:351
+msgid "Review Published Notification Email"
+msgstr ""
+
+#: lib/Directory/Helper/NotificationSettings.php:352
+msgid ""
+"If enabled, a notification email is sent to users of selected roles whenever "
+"a review is published."
+msgstr ""
+
+#: lib/Directory/Helper/NotificationSettings.php:356
+msgid "[{site_name}] A new review (ID: {review_id}) has been published"
+msgstr "[{site_name}] Un nouveau commentaire (ID: {review_id}) a été publié"
+
+#: lib/Directory/Helper/NotificationSettings.php:357
+msgid ""
+"Hi {recipient_name},\n"
+"                \n"
+"A review of {listing_title} titled \"{review_title}\" has been published on "
+"{review_date}.\n"
+"\n"
+"Submitted by {review_author_name} ({review_author_email}):\n"
+"\n"
+"------------------------------------\n"
+"{review_summary}\n"
+"------------------------------------\n"
+"\n"
+"You can read the full review at {review_url}.\n"
+"\n"
+"Regards,\n"
+"{site_name}\n"
+"{site_url}"
+msgstr ""
+"Bonjour,{recipient_name},\n"
+"                \n"
+"Un commentiare sur {listing_title} titled \"{review_title}\" a té publié à "
+"la date du {review_date}.\n"
+"\n"
+"Soumis par {review_author_name} ({review_author_email}):\n"
+"\n"
+"------------------------------------\n"
+"{review_summary}\n"
+"------------------------------------\n"
+"\n"
+"Vous pouvez lire l'avis sur {review_url}.\n"
+"\n"
+"Cordialement,\n"
+"{site_name}\n"
+"{site_url}"
+
+#: lib/Directory/Helper/NotificationSettings.php:376
+msgid "Photo Published Notification Email"
+msgstr ""
+
+#: lib/Directory/Helper/NotificationSettings.php:377
+msgid ""
+"If enabled, a notification email is sent to users of selected roles whenever "
+"a photo is published."
+msgstr ""
+
+#: lib/Directory/Helper/NotificationSettings.php:381
+msgid "[{site_name}] A new photo (ID: {photo_id}) has been published"
+msgstr "[{site_name}] Une nouvelle photo (ID: {photo_id}) a été publiée"
+
+#: lib/Directory/Helper/NotificationSettings.php:382
+msgid ""
+"Hi {recipient_name},\n"
+"                \n"
+"A photo for {listing_title} titled \"{photo_title}\" has been published on "
+"{photo_date}.\n"
+"\n"
+"Submitted by {photo_author_name} ({photo_author_email}):\n"
+"\n"
+"------------------------------------\n"
+"{photo_summary}\n"
+"------------------------------------\n"
+"\n"
+"You can view the photo at {photo_url}.\n"
+"\n"
+"Regards,\n"
+"{site_name}\n"
+"{site_url}"
+msgstr ""
+
+#: lib/Directory/Helper/NotificationSettings.php:401
+msgid "Listing Flagged Notification Email"
+msgstr ""
+
+#: lib/Directory/Helper/NotificationSettings.php:402
+msgid ""
+"If enabled, a notification email is sent to users of selected roles whenever "
+"a listing is flagged."
+msgstr ""
+
+#: lib/Directory/Helper/NotificationSettings.php:406
+#: lib/Directory/Helper/NotificationSettings.php:458
+msgid "[{site_name}] Listing (ID: {listing_id}) has been flagged"
+msgstr "[{site_name}] L'article (ID: {listing_id}) a été signalé"
+
+#: lib/Directory/Helper/NotificationSettings.php:407
+msgid ""
+"Hi {recipient_name},\n"
+"                \n"
+"The following listing has been flagged on {flag_date} by {flag_user_name} "
+"({flag_user_email}):\n"
+"\n"
+"------------------------------------\n"
+"{listing_title}\n"
+"------------------------------------\n"
+"\n"
+"Reason: {flag_reason}\n"
+"Score: {flag_score} (total: {flag_score_total})\n"
+"\n"
+"You can view the listing at {listing_url}.\n"
+"\n"
+"Regards,\n"
+"{site_name}\n"
+"{site_url}"
+msgstr ""
+"Bonjour {recipient_name},\n"
+"                \n"
+"La fiche suivante a été signalisée le {flag_date} par {flag_user_name} "
+"({flag_user_email}):\n"
+"\n"
+"------------------------------------\n"
+"{listing_title}\n"
+"------------------------------------\n"
+"\n"
+"Raison : {flag_reason}\n"
+"Score: {flag_score} (total: {flag_score_total})\n"
+"\n"
+"Vous pouvez voir la fiche sur {listing_url}.\n"
+"\n"
+"Cordialement,\n"
+"{site_name}\n"
+"{site_url}"
+
+#: lib/Directory/Helper/NotificationSettings.php:427
+msgid "Review Flagged Notification Email"
+msgstr "Avis signalé [Email]"
+
+#: lib/Directory/Helper/NotificationSettings.php:428
+msgid ""
+"If enabled, a notification email is sent to users of selected roles whenever "
+"a review is flagged."
+msgstr ""
+"Si activé, un mail est envoyé aux profils sélectionnés à chaque fois qu’un "
+"avis/commentaire est signalé."
+
+#: lib/Directory/Helper/NotificationSettings.php:432
+msgid "[{site_name}] Review (ID: {review_id}) has been flagged"
+msgstr "[{site_name}] L’avis (ID: {review_id}) a été signalé"
+
+#: lib/Directory/Helper/NotificationSettings.php:433
+msgid ""
+"Hi {recipient_name},\n"
+"                \n"
+"The following review has been flagged on {flag_date} by {flag_user_name} "
+"({flag_user_email}):\n"
+"\n"
+"------------------------------------\n"
+"{review_title} (listing: {listing_title})\n"
+"------------------------------------\n"
+"\n"
+"Reason: {flag_reason}\n"
+"Score: {flag_score} (total: {flag_score_total})\n"
+"\n"
+"You can view the review at {review_url}.\n"
+"\n"
+"Regards,\n"
+"{site_name}\n"
+"{site_url}"
+msgstr ""
+"Bonjour {recipient_name},\n"
+"                \n"
+"Le commentaire suivant a été signalé le {flag_date} par {flag_user_name} "
+"({flag_user_email}):\n"
+"\n"
+"------------------------------------\n"
+"{review_title} (fiche: {listing_title})\n"
+"------------------------------------\n"
+"\n"
+"Raison : {flag_reason}\n"
+"Score: {flag_score} (total: {flag_score_total})\n"
+"\n"
+"Vous pouvez consulter l’avis sur {review_url}.\n"
+"\n"
+"Cordialement,\n"
+"{site_name}\n"
+"{site_url}"
+
+#: lib/Directory/Helper/NotificationSettings.php:453
+msgid "Photo Flagged Notification Email"
+msgstr ""
+
+#: lib/Directory/Helper/NotificationSettings.php:454
+msgid ""
+"If enabled, a notification email is sent to users of selected roles whenever "
+"a photo is flagged."
+msgstr ""
+
+#: lib/Directory/Helper/NotificationSettings.php:459
+msgid ""
+"Hi {recipient_name},\n"
+"                \n"
+"The following photo has been flagged on {flag_date} by {flag_user_name} "
+"({flag_user_email}):\n"
+"\n"
+"------------------------------------\n"
+"{photo_title} (listing: {listing_title})\n"
+"------------------------------------\n"
+"\n"
+"Reason: {flag_reason}\n"
+"Score: {flag_score} (total: {flag_score_total})\n"
+"\n"
+"You can view the photo at {photo_url}.\n"
+"\n"
+"Regards,\n"
+"{site_name}\n"
+"{site_url}"
+msgstr ""
+"Bonjour {recipient_name},\n"
+"                \n"
+"La photo suivante a été signalée le {flag_date} par {flag_user_name} "
+"({flag_user_email}):\n"
+"\n"
+"------------------------------------\n"
+"{photo_title} (fiche : {listing_title})\n"
+"------------------------------------\n"
+"\n"
+"Raison : {flag_reason}\n"
+"Score : {flag_score} (total: {flag_score_total})\n"
+"\n"
+"Vous pouvez voir la photo sur {photo_url}.\n"
+"\n"
+"Regards,\n"
+"{site_name}\n"
+"{site_url}"
+
+#: lib/Directory/Helper/NotificationSettings.php:479
+msgid "Listing Claim Approved Notification Email"
+msgstr ""
+
+#: lib/Directory/Helper/NotificationSettings.php:480
+msgid ""
+"If enabled, a notification email is sent to the user when a listing claim "
+"the user has submitted is approved."
+msgstr ""
+
+#: lib/Directory/Helper/NotificationSettings.php:484
+msgid "[{site_name}] Your claim has been approved"
+msgstr "[{site_name}] Votre revendication a expiré le {expiration_date}"
+
+#: lib/Directory/Helper/NotificationSettings.php:485
+msgid ""
+"Hi {recipient_name},\n"
+"                \n"
+"The ownership claim for {listing_title} you submitted on {claim_date} has "
+"been approved. You can view the listing at {listing_url}.\n"
+"\n"
+"{claim_admin_note}\n"
+"\n"
+"Regards,\n"
+"{site_name}\n"
+"{site_url}"
+msgstr ""
+"Bonjour {recipient_name},\n"
+"                \n"
+"Votre revendication pour {listing_title} que vous avez envoyé le "
+"{claim_date} a été approuvée. Vous pouvez voir la fiche sur {listing_url}.\n"
+"\n"
+"{claim_admin_note}\n"
+"\n"
+"Cordialement,\n"
+"{site_name}\n"
+"{site_url}"
+
+#: lib/Directory/Helper/NotificationSettings.php:498
+msgid "Listing Claim Rejected Notification Email"
+msgstr ""
+
+#: lib/Directory/Helper/NotificationSettings.php:499
+msgid ""
+"If enabled, a notification email is sent to the user when a listing claim "
+"the user has submitted is rejected."
+msgstr ""
+
+#: lib/Directory/Helper/NotificationSettings.php:503
+msgid "[{site_name}] Your claim was rejected"
+msgstr "[{site_name}] Votre revendication a été rejetée"
+
+#: lib/Directory/Helper/NotificationSettings.php:504
+msgid ""
+"Hi {recipient_name},\n"
+"                \n"
+"The ownership claim for {listing_title} you submitted on {claim_date} was "
+"rejected. You can view the listing at {listing_url}.\n"
+"\n"
+"{claim_admin_note}\n"
+"\n"
+"Regards,\n"
+"{site_name}\n"
+"{site_url}"
+msgstr ""
+"Bonjour {recipient_name},\n"
+"                \n"
+"Votre revendication pour {listing_title} envoyée le {claim_date} a été "
+"rejetée. Vous pouvez voir la fiche sur {listing_url}.\n"
+"\n"
+"{claim_admin_note}\n"
+"\n"
+"Cordialement,\n"
+"{site_name}\n"
+"{site_url}"
+
+#: lib/Directory/Helper/NotificationSettings.php:517
+msgid "Listing Claim Pending Admin Notification Email"
+msgstr ""
+
+#: lib/Directory/Helper/NotificationSettings.php:518
+msgid ""
+"If enabled, a notification email is sent to administrators whenever a "
+"listing claim that requires approval is submitted."
+msgstr ""
+
+#: lib/Directory/Helper/NotificationSettings.php:522
+msgid "[{site_name}] A new listing claim (ID: {claim_id}) has been submitted"
+msgstr ""
+"[{site_name}] Une nouvelle demande de revendication (ID: {claim_id}) a été "
+"soumise"
+
+#: lib/Directory/Helper/NotificationSettings.php:523
+msgid ""
+"Hi {recipient_name},\n"
+"\n"
+"A new listing claim has been submitted for {listing_title} on {claim_date}.\n"
+"\n"
+"Submitted by {claim_user_name} ({claim_user_email}):\n"
+"\n"
+"{claim_comment}\n"
+"\n"
+"To approve or reject the claim, go to {claim_admin_url}.\n"
+"\n"
+"Regards,\n"
+"{site_name}\n"
+"{site_url}"
+msgstr ""
+"Bonjour {recipient_name},\n"
+"                \n"
+"Une nouvelle  demande de revendication a été soumise pour {listing_title} le "
+"{claim_date}.\n"
+"\n"
+"Soumise par {claim_user_name} ({claim_user_email}):\n"
+"\n"
+"{claim_comment}\n"
+"\n"
+"Merci d’approuver ou de rejeter la demande, aller à {claim_admin_url}.\n"
+"\n"
+"Cordialement,\n"
+"{site_name}\n"
+"{site_url}"
+
+#: lib/Directory/Helper/RenderPhotoMeta.php:12
+#: lib/Directory/Helper/RenderPhotoMeta.php:21
+#, php-format
+msgid "%s by %s in %s"
+msgstr "%s par %s dans %s"
+
+#: lib/Directory/Helper/RenderPhotoMeta.php:28
+#, php-format
+msgid "%s by %s"
+msgstr "%s par %s"
+
+#: lib/Directory/Helper/RenderPhotoMeta.php:35
+#, php-format
+msgid "%s in %s"
+msgstr "%s dans %s"
+
+#: lib/Directory/PhotosFieldRenderer.php:28
+msgid "Show first photo as featured"
+msgstr "Mettre la photo en vedette en premier"
+
+#: lib/Directory/PhotosFieldRenderer.php:33
+msgid "Featured photo size"
+msgstr ""
+
+#: lib/Directory/PhotosFieldRenderer.php:82
+msgid "Show thumbnail photos"
+msgstr "Montrer les aperçus des photos"
+
+#: lib/Directory/PhotosFieldRenderer.php:87
+msgid "Number of thumbnail columns"
+msgstr ""
+
+#: lib/Directory/PhotosFieldRenderer.php:99
+msgid "Maximum number of thumbnails to display (0 for unlimited)"
+msgstr ""
+
+#: lib/Directory/PhotosFieldRenderer.php:113
+msgid "Hide thumbnails on small-screen devices"
+msgstr ""
+
+#: lib/Directory/RatingFieldRenderer.php:27
+msgid "Show sub-ratings if any"
+msgstr "Montrer les sous-évaluations s’il y en a"
+
+#: lib/Directory/RatingFieldRenderer.php:34
+msgid "Rating separator:"
+msgstr "Séparateur des évaluations:"
+
+#: lib/Directory/RatingFieldRenderer.php:46
+msgid "Prefix text:"
+msgstr ""
+
+#: lib/Directory/RatingFieldRenderer.php:58
+msgid "Suffix text:"
+msgstr ""
+
+#: lib/Directory/Taxonomy.php:21
+#: lib/DirectoryCSVImport/Controller/Admin/Import.php:73
+#: lib/DirectoryCSVImport/Controller/Admin/Import.php:183
+#: lib/DirectoryCSVImport/Controller/Admin/Import.php:222
+#: lib/DirectoryCSVImport/Controller/Admin/Import.php:233
+#, fuzzy
+msgid "Category"
+msgid_plural "Category"
+msgstr[0] ""
+"#-#-#-#-#  7extracted.pot (PACKAGE VERSION)  #-#-#-#-#\n"
+"#-#-#-#-#  8extracted.pot (PACKAGE VERSION)  #-#-#-#-#\n"
+msgstr[1] "#-#-#-#-#  7extracted.pot (PACKAGE VERSION)  #-#-#-#-#\n"
+
+#: lib/Directory/Taxonomy.php:25
+#: lib/DirectoryCSVImport/Controller/Admin/Import.php:72
+#: lib/DirectoryCSVImport/Controller/Admin/ImportCategories.php:73
+msgid "Description"
+msgstr "Description"
+
+#: lib/Directory/Taxonomy.php:36
+#: lib/DirectoryCSVImport/Controller/Admin/ImportCategories.php:74
+msgid "Parent Category"
+msgstr "Catégorie parente"
+
+#: lib/Directory/Widget.php:16
+msgid "Recent Listings"
+msgstr "Idées récentes"
+
+#: lib/Directory/Widget.php:18
+msgid "Recent Listing Reviews"
+msgstr "Avis récents"
+
+#: lib/Directory/Widget.php:20
+msgid "Recent Listing Photos"
+msgstr ""
+
+#: lib/Directory/Widget.php:22 lib/Directory/Widget.php:50
+msgid "Featured Listings"
+msgstr ""
+
+#: lib/Directory/Widget.php:28
+msgid "Listing Categories"
+msgstr "Catégories des articles"
+
+#: lib/Directory/Widget.php:32
+msgid "Listing Map"
+msgstr "Liste de cartes"
+
+#: lib/Directory/Widget.php:34
+msgid "Listing Photos"
+msgstr ""
+
+#: lib/Directory/Widget.php:36
+msgid "Contact Listing"
+msgstr "Contact des articles"
+
+#: lib/Directory/Widget.php:44
+msgid "Recently posted listings"
+msgstr ""
+
+#: lib/Directory/Widget.php:46
+msgid "Recently posted listing reviews"
+msgstr "Avis publiés récemment"
+
+#: lib/Directory/Widget.php:48
+msgid "Recently posted listing photos"
+msgstr "Photos récemment publiées"
+
+#: lib/Directory/Widget.php:56
+msgid "A list of categories"
+msgstr "Une liste de rubriques"
+
+#: lib/Directory/Widget.php:58
+msgid "A call to action button"
+msgstr "Un bouton d’appel à l’action"
+
+#: lib/Directory/Widget.php:60
+msgid "Location map of current listing"
+msgstr ""
+
+#: lib/Directory/Widget.php:62
+msgid "Photos of current listing"
+msgstr ""
+
+#: lib/Directory/Widget.php:64
+msgid "Contact us form for currently displayed listing"
+msgstr ""
+
+#: lib/Directory/Widget.php:73
+msgid "Do not cache output"
+msgstr ""
+
+#: lib/Directory/Widget.php:84 lib/Directory/Widget.php:215
+#: lib/Directory/Widget.php:255 lib/Directory/Widget.php:295
+msgid "Number of listings to show"
+msgstr ""
+
+#: lib/Directory/Widget.php:91 lib/Directory/Widget.php:135
+#: lib/Directory/Widget.php:233 lib/Directory/Widget.php:273
+#: lib/Directory/Widget.php:302
+msgid "Show summary"
+msgstr ""
+
+#: lib/Directory/Widget.php:96 lib/Directory/Widget.php:140
+#: lib/Directory/Widget.php:238 lib/Directory/Widget.php:278
+#: lib/Directory/Widget.php:307
+msgid "Number of characters in the summary"
+msgstr ""
+
+#: lib/Directory/Widget.php:103 lib/Directory/Widget.php:147
+#: lib/Directory/Widget.php:191 lib/Directory/Widget.php:222
+#: lib/Directory/Widget.php:262 lib/Directory/Widget.php:444
+msgid "Sort by"
+msgstr "Trier par"
+
+#: lib/Directory/Widget.php:112 lib/Directory/Widget.php:245
+#: lib/Directory/Widget.php:285 lib/Directory/Widget.php:314
+msgid "Show claimed listings only"
+msgstr "Montrer uniquement les articles revendiquées"
+
+#: lib/Directory/Widget.php:121 lib/Directory/Widget.php:169
+#: lib/Directory/Widget.php:325 lib/Directory/Widget.php:358
+msgid "Select directory"
+msgstr "Sélectionner un répertoire"
+
+#: lib/Directory/Widget.php:122 lib/Directory/Widget.php:170
+#: lib/Directory/Widget.php:354 lib/Directory/Widget.php:987
+msgid "All directories"
+msgstr "Tous les répertoires"
+
+#: lib/Directory/Widget.php:128
+msgid "Number of reviews to show"
+msgstr ""
+
+#: lib/Directory/Widget.php:156 lib/Directory/Widget.php:1008
+msgid "Show published date"
+msgstr ""
+
+#: lib/Directory/Widget.php:161
+msgid "Show author"
+msgstr ""
+
+#: lib/Directory/Widget.php:176
+msgid "Number of columns"
+msgstr ""
+
+#: lib/Directory/Widget.php:182
+msgid "Number of rows"
+msgstr ""
+
+#: lib/Directory/Widget.php:200 lib/Directory/Widget.php:453
+msgid "Photo type"
+msgstr ""
+
+#: lib/Directory/Widget.php:202 lib/Directory/Widget.php:455
+msgid "Official photos only"
+msgstr ""
+
+#: lib/Directory/Widget.php:203 lib/Directory/Widget.php:456
+msgid "Non-official photos only"
+msgstr ""
+
+#: lib/Directory/Widget.php:339
+msgid "Show post count"
+msgstr ""
+
+#: lib/Directory/Widget.php:344
+msgid "Show thumbnail"
+msgstr ""
+
+#: lib/Directory/Widget.php:364 lib/Directory/Widget.php:406
+msgid "Button label"
+msgstr ""
+
+#: lib/Directory/Widget.php:370
+msgid "Button size"
+msgstr ""
+
+#: lib/Directory/Widget.php:372
+msgid "Mini"
+msgstr ""
+
+#: lib/Directory/Widget.php:373
+msgid "Small"
+msgstr ""
+
+#: lib/Directory/Widget.php:374
+msgid "Medium"
+msgstr ""
+
+#: lib/Directory/Widget.php:375
+msgid "Large"
+msgstr ""
+
+#: lib/Directory/Widget.php:381
+msgid "Button color"
+msgstr ""
+
+#: lib/Directory/Widget.php:383
+msgid "White"
+msgstr ""
+
+#: lib/Directory/Widget.php:384
+msgid "Blue"
+msgstr ""
+
+#: lib/Directory/Widget.php:385
+msgid "Light blue"
+msgstr ""
+
+#: lib/Directory/Widget.php:386
+msgid "Green"
+msgstr ""
+
+#: lib/Directory/Widget.php:387
+msgid "Orange"
+msgstr ""
+
+#: lib/Directory/Widget.php:388
+msgid "Red"
+msgstr ""
+
+#: lib/Directory/Widget.php:412
+msgid "Button position"
+msgstr ""
+
+#: lib/Directory/Widget.php:414
+msgid "Align left"
+msgstr ""
+
+#: lib/Directory/Widget.php:415
+msgid "Align right"
+msgstr ""
+
+#: lib/Directory/Widget.php:436
+msgid "Number of photos"
+msgstr ""
+
+#: lib/Directory/Widget.php:663 lib/Directory/Widget.php:741
+msgid "More Listings"
+msgstr "Plus de résultats"
+
+#: lib/Directory/Widget.php:987
+msgid "All categories"
+msgstr ""
+
+#: lib/Directory/Widget.php:996
+msgid "Select directory or category"
+msgstr "Sélectionnez le répertoire ou la catégorie"
+
+#: lib/Directory/Widget.php:1013
+msgid "Show rating"
+msgstr "Afficher la note"
+
+#: lib/Directory/Widget.php:1018
+msgid "Show number of reviews"
+msgstr "Afficher le nombre de commentaires"
+
+#: lib/Directory/Widget.php:1023
+msgid "Show number of photos"
+msgstr ""
+
+#: lib/DirectoryBookmarks.php:54
+msgctxt "tab"
+msgid "Bookmarks"
+msgstr "Signets"
+
+#: lib/DirectoryBookmarks.php:66
+msgid "Bookmark"
+msgstr "Signet"
+
+#: lib/DirectoryBookmarks.php:78
+msgid "Number of bookmarks"
+msgstr "Nombre des signets"
+
+#: lib/DirectoryBookmarks.php:81
+msgid "Show number of bookmarks"
+msgstr "Afficher le nombre de favoris"
+
+#: lib/DirectoryBuddyPress.php:51
+msgid "Bookmarks"
+msgstr "Signets"
+
+#: lib/DirectoryBuddyPress.php:129
+#, php-format
+msgid "%s added a new listing to %s"
+msgstr "%s a ajouté une nouvel article sur %s"
+
+#: lib/DirectoryBuddyPress.php:159
+#, php-format
+msgid "%s wrote a review for %s"
+msgstr "%s a écrit un commentaire sur %s"
+
+#: lib/DirectoryBuddyPress.php:195
+#, php-format
+msgid "%s added a new photo to %s"
+msgstr "%s a ajouté une nouvel article à %s"
+
+#: lib/DirectoryBuddyPress.php:222
+#, php-format
+msgid "%1$s commented on a <a href=\"%2$s\">review</a>"
+msgstr "%1$s a commenté un <a href=“%2$s”>commentaire</a>"
+
+#: lib/DirectoryBuddyPress.php:225
+#, php-format
+msgid "%1$s commented on a <a href=\"%2$s\">photo</a>"
+msgstr "%1$s a commenté une <a href=“%2$s”>photo</a>"
+
+#: lib/DirectoryBuddyPress.php:279
+msgid "BuddyPress profile tab label"
+msgstr "Intitulé de l’Onglet BuddyPress"
+
+#: lib/DirectoryBuddyPress.php:285
+msgid "BuddyPress profile tab slug"
+msgstr "chemin de l’Onglet BuddyPress"
+
+#: lib/DirectoryBuddyPress.php:292
+msgid "BuddyPress profile tab position"
+msgstr "Emplacement de l’Onglet Profil BuddyPress"
+
+#: lib/DirectoryBuddyPress.php:300
+msgid "BuddyPress activities"
+msgstr "Activités BuddyPress"
+
+#: lib/DirectoryBuddyPress.php:306
+msgid "Comments"
+msgstr "Commentaires"
+
+#: lib/DirectoryCSVImport.php:62 lib/DirectoryCSVImport.php:99
+msgid "Import CSV"
+msgstr ""
+
+#: lib/DirectoryCSVImport/Controller/Admin/Import.php:14
+#: lib/DirectoryCSVImport/Controller/Admin/ImportCategories.php:14
+msgid "CSV file"
+msgstr ""
+
+#: lib/DirectoryCSVImport/Controller/Admin/Import.php:23
+#: lib/DirectoryCSVImport/Controller/Admin/ImportCategories.php:23
+msgid "CSV file field delimiter"
+msgstr ""
+
+#: lib/DirectoryCSVImport/Controller/Admin/Import.php:25
+#: lib/DirectoryCSVImport/Controller/Admin/ImportCategories.php:25
+msgid ""
+"Enter the character to be used as the field delimiter of CSV file fields."
+msgstr ""
+
+#: lib/DirectoryCSVImport/Controller/Admin/Import.php:33
+#: lib/DirectoryCSVImport/Controller/Admin/ImportCategories.php:33
+msgid "CSV file field enclosure"
+msgstr ""
+
+#: lib/DirectoryCSVImport/Controller/Admin/Import.php:35
+#: lib/DirectoryCSVImport/Controller/Admin/ImportCategories.php:35
+msgid ""
+"Enter the character to be used as the field enclosure of CSV file fields."
+msgstr ""
+
+#: lib/DirectoryCSVImport/Controller/Admin/Import.php:43
+#: lib/DirectoryCSVImport/Controller/Admin/ImportCategories.php:43
+msgid "Convert encoding of CSV file data to UTF-8"
+msgstr ""
+
+#: lib/DirectoryCSVImport/Controller/Admin/Import.php:48
+#: lib/DirectoryCSVImport/Controller/Admin/ImportCategories.php:48
+msgid "Convert line endings of CSV file to CR/LF"
+msgstr ""
+
+#: lib/DirectoryCSVImport/Controller/Admin/Import.php:69
+#: lib/DirectoryCSVImport/Controller/Admin/ImportCategories.php:69
+msgid "Do not import"
+msgstr ""
+
+#: lib/DirectoryCSVImport/Controller/Admin/Import.php:70
+#: lib/DirectoryCSVImport/Controller/Admin/ImportCategories.php:70
+msgid "ID"
+msgstr ""
+
+#: lib/DirectoryCSVImport/Controller/Admin/Import.php:74
+msgid "Street Address"
+msgstr ""
+
+#: lib/DirectoryCSVImport/Controller/Admin/Import.php:78
+msgid "Postal / Zip Code"
+msgstr "Code postal"
+
+#: lib/DirectoryCSVImport/Controller/Admin/Import.php:79
+#: sabai-googlemaps/lib/GoogleMaps/LocationFormField.php:88
+#: sabai-googlemaps/lib/GoogleMaps/MapFormField.php:56
+msgid "Latitude"
+msgstr ""
+
+#: lib/DirectoryCSVImport/Controller/Admin/Import.php:80
+#: sabai-googlemaps/lib/GoogleMaps/LocationFormField.php:102
+#: sabai-googlemaps/lib/GoogleMaps/MapFormField.php:69
+msgid "Longitude"
+msgstr ""
+
+#: lib/DirectoryCSVImport/Controller/Admin/Import.php:81
+#: lib/DirectoryCSVImport/Controller/Admin/Import.php:243
+msgid "Published Date"
+msgstr "Date de publication"
+
+#: lib/DirectoryCSVImport/Controller/Admin/Import.php:82
+#: lib/DirectoryCSVImport/Controller/Admin/Import.php:83
+#: lib/DirectoryCSVImport/Controller/Admin/Import.php:84
+#, php-format
+msgid "%s (%s)"
+msgstr "%s (%s)"
+
+#: lib/DirectoryCSVImport/Controller/Admin/Import.php:82
+#: lib/DirectoryCSVImport/Controller/Admin/Import.php:250
+msgid "Author"
+msgstr "Auteur"
+
+#: lib/DirectoryCSVImport/Controller/Admin/Import.php:82
+#: lib/DirectoryCSVImport/Controller/Admin/Import.php:83
+msgid "User ID"
+msgstr "ID d’utilisateur"
+
+#: lib/DirectoryCSVImport/Controller/Admin/Import.php:106
+#: lib/DirectoryCSVImport/Controller/Admin/Import.php:364
+#: lib/DirectoryCSVImport/Controller/Admin/ImportCategories.php:87
+#: lib/DirectoryCSVImport/Controller/Admin/ImportCategories.php:170
+#, php-format
+msgid "Custom field - %s"
+msgstr "Champ personnalisé - %s"
+
+#: lib/DirectoryCSVImport/Controller/Admin/Import.php:113
+msgid ""
+"Set up the associations between your CSV file data and directory listing "
+"fields. The \"Category\" field can be associated with more than one column "
+"if the field is configured to accept multiple values."
+msgstr ""
+
+#: lib/DirectoryCSVImport/Controller/Admin/Import.php:118
+#: lib/DirectoryCSVImport/Controller/Admin/ImportCategories.php:99
+msgid "CSV Column"
+msgstr ""
+
+#: lib/DirectoryCSVImport/Controller/Admin/Import.php:118
+#: lib/DirectoryCSVImport/Controller/Admin/ImportCategories.php:99
+msgid "Directory Listing Field"
+msgstr "Champ Listing/Annuaire"
+
+#: lib/DirectoryCSVImport/Controller/Admin/Import.php:147
+#: lib/DirectoryCSVImport/Controller/Admin/ImportCategories.php:128
+msgid "Please select a column for the \"Title\" field."
+msgstr "Sélectionnez une colonne pour le champ  “Titre”"
+
+#: lib/DirectoryCSVImport/Controller/Admin/Import.php:158
+#: lib/DirectoryCSVImport/Controller/Admin/ImportCategories.php:134
+#, php-format
+msgid "You may not associate multiple columns with the \"%s\" field."
+msgstr "Vous ne devez pas associer plusieurs colonnes avec le champ « %s »."
+
+#: lib/DirectoryCSVImport/Controller/Admin/Import.php:176
+#: lib/DirectoryCSVImport/Controller/Admin/ImportCategories.php:143
+msgid "Import"
+msgstr "Importer"
+
+#: lib/DirectoryCSVImport/Controller/Admin/Import.php:190
+msgid "No category"
+msgstr "Aucune catégorie"
+
+#: lib/DirectoryCSVImport/Controller/Admin/Import.php:191
+msgid "Select from existing categories"
+msgstr "Choisir parmi les catégories existantes"
+
+#: lib/DirectoryCSVImport/Controller/Admin/Import.php:192
+msgid "Create a new category"
+msgstr "Créer une nouvelle catégorie"
+
+#: lib/DirectoryCSVImport/Controller/Admin/Import.php:197
+msgid "Select Category"
+msgstr "Choisissez une catégorie"
+
+#: lib/DirectoryCSVImport/Controller/Admin/Import.php:215
+msgid "Enter a new category name"
+msgstr "Entrer un nouveau nom de catégorie"
+
+#: lib/DirectoryCSVImport/Controller/Admin/Import.php:228
+msgid "Create non-existent categories"
+msgstr "Créer catégories inexistantes"
+
+#: lib/DirectoryCSVImport/Controller/Admin/Import.php:231
+#: lib/DirectoryCSVImport/Controller/Admin/Import.php:342
+#: lib/DirectoryCSVImport/Controller/Admin/Import.php:369
+#: lib/DirectoryCSVImport/Controller/Admin/ImportCategories.php:175
+msgid "Delimiter"
+msgstr "Séparateur"
+
+#: lib/DirectoryCSVImport/Controller/Admin/Import.php:233
+#: lib/DirectoryCSVImport/Controller/Admin/Import.php:344
+#: lib/DirectoryCSVImport/Controller/Admin/Import.php:371
+#: lib/DirectoryCSVImport/Controller/Admin/ImportCategories.php:177
+#, php-format
+msgid ""
+"Enter the character to be used as delimiter if the %s column contains "
+"multiple values."
+msgstr ""
+"Entrez le caractère à utiliser comme séparateur si la colonne %s contient "
+"plusieurs valeurs."
+
+#: lib/DirectoryCSVImport/Controller/Admin/Import.php:281
+msgid "Latitude / Longitude"
+msgstr "Latitude & Longitude"
+
+#: lib/DirectoryCSVImport/Controller/Admin/Import.php:288
+msgid "Use Google geocoding service"
+msgstr "Utiliser Google Geocoding"
+
+#: lib/DirectoryCSVImport/Controller/Admin/Import.php:289
+msgid "Enter values manually"
+msgstr "Entrez les valeurs manuellement"
+
+#: lib/DirectoryCSVImport/Controller/Admin/Import.php:292
+msgid ""
+"Use the Google geocoding service to resolve the latitude/longitude "
+"coordinate from the address of each listing. This can be slow if the CSV "
+"data is large as well as there is a 2500 geocode request per day limit."
+msgstr ""
+"Utilisez le service geocoding de Google pour trouver les coordonnées de "
+"latitude / longitude à partir de l’adresse de chaque fiche. Peut être lent "
+"si les données CSV sont importantes. NB : les demandes de geocoding sont "
+"limitées à 2500 par jour."
+
+#: lib/DirectoryCSVImport/Controller/Admin/Import.php:293
+msgid ""
+"Manually enter the latitude/longitude coordinate that will be applied to all "
+"listings."
+msgstr ""
+"Entrer manuellement les coordonnées de latitude / longitude qui seront "
+"appliquées à tous les articles."
+
+#: lib/DirectoryCSVImport/Controller/Admin/Import.php:300
+msgid "Latitude:"
+msgstr "Latitude :"
+
+#: lib/DirectoryCSVImport/Controller/Admin/Import.php:314
+msgid "Longitude:"
+msgstr "Longitude :"
+
+#: lib/DirectoryCSVImport/Controller/Admin/Import.php:328
+msgid "Address Format"
+msgstr "Format de l’adresse"
+
+#: lib/DirectoryCSVImport/Controller/Admin/Import.php:351
+msgid "Photo archive file (.zip format)"
+msgstr "Fichier d’archive des Photos (format .zip)"
+
+#: lib/DirectoryCSVImport/Controller/Admin/Import.php:387
+#: lib/DirectoryCSVImport/Controller/Admin/ImportCategories.php:189
+msgid "Here you can set the default values and settings for the fields below."
+msgstr "Régler les valeurs par défaut des champs suivants."
+
+#: lib/DirectoryCSVImport/Controller/Admin/Import.php:603
+#: lib/DirectoryCSVImport/Controller/Admin/Import.php:715
+#, php-format
+msgid "Photo file %s could not be imported. Error: %s"
+msgstr "Ce fichier photo %s n’a pas pu être importé. Erreur : %s"
+
+#: lib/DirectoryCSVImport/Controller/Admin/Import.php:695
+#: lib/DirectoryCSVImport/Controller/Admin/ImportCategories.php:303
+#, php-format
+msgid "File %s could not be imported. Error: %s"
+msgstr "Le fichier %s n’a pas pu être importé. Erreur : %s"
+
+#: lib/DirectoryCSVImport/Controller/Admin/Import.php:728
+#: lib/DirectoryCSVImport/Controller/Admin/ImportCategories.php:354
+#, php-format
+msgid "%d row imported successfullly."
+msgid_plural "%d rows imported successfullly."
+msgstr[0] "emplacements de %d importés avec succès."
+msgstr[1] "emplacements de %d importés avec succès."
+
+#: lib/DirectoryCSVImport/Controller/Admin/Import.php:730
+#: lib/DirectoryCSVImport/Controller/Admin/ImportCategories.php:356
+#, php-format
+msgid "%d row updated successfullly."
+msgid_plural "%d rows updated successfullly."
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/DirectoryCSVImport/Controller/Admin/Import.php:736
+#: lib/DirectoryCSVImport/Controller/Admin/ImportCategories.php:363
+#, php-format
+msgid "CSV data on row number %d could not be imported: %s"
+msgstr ""
+
+#: lib/DirectoryCSVImport/Controller/Admin/Import.php:741
+#, php-format
+msgid "Address (%s) for CSV data on row number %d could not be geocoded: %s"
+msgstr ""
+"L’adresse (%s) pour les données CSV sur le numéro de ligne %d n’a pas pu "
+"être géocodée : %s"
+
+#: lib/DirectoryCSVImport/Controller/Admin/ImportCategories.php:72
+msgid "Slug"
+msgstr ""
+
+#: lib/DirectoryCSVImport/Controller/Admin/ImportCategories.php:94
+msgid ""
+"Set up the associations between your CSV file data and directory category "
+"fields."
+msgstr ""
+
+#: lib/DirectoryCSVImport/Controller/Admin/ImportCategories.php:150
+msgid "Thumbnail image archive file (.zip format)"
+msgstr ""
+
+#: lib/DirectoryCSVImport/Controller/Admin/ImportCategories.php:159
+msgid "Map marker icon archive file (.zip format)"
+msgstr ""
+
+#: lib/DirectoryCSVImport/Controller/Admin/ImportCategories.php:193
+msgid "Press the button below to import categories."
+msgstr ""
+
+#: lib/PaidDirectoryListings.php:184
+msgid "Orders"
+msgstr "Commandes"
+
+#: lib/PaidDirectoryListings.php:186
+msgid "Order Listing Add-on"
+msgstr ""
+
+#: lib/PaidDirectoryListings.php:188
+msgid "Renew Listing"
+msgstr "Renouveler la fiche"
+
+#: lib/PaidDirectoryListings.php:270
+msgid "Renew claim"
+msgstr "Renouveler la revendication"
+
+#: lib/PaidDirectoryListings.php:283
+msgid "Order add-ons"
+msgstr "Commande add-ons"
+
+#: lib/PaidDirectoryListings.php:292
+msgid "View orders"
+msgstr "Voir commandes"
+
+#: lib/PaidDirectoryListings.php:311
+msgid "Automatically approve claims for new listings when payment is complete"
+msgstr ""
+
+#: lib/PaidDirectoryListings.php:312
+msgid ""
+"Automatically approve claims for existing listings when payment is complete"
+msgstr ""
+
+#: lib/PaidDirectoryListings.php:323
+msgid "Order"
+msgstr "Commande"
+
+#: lib/PaidDirectoryListings.php:338
+msgid "View Orders"
+msgstr "Voir les commandes"
+
+#: lib/PaidDirectoryListings.php:492
+msgid "Enable this field for the following paid listing plans"
+msgstr ""
+
+#: lib/PaidDirectoryListings/Controller/AddListing.php:55
+#: lib/PaidDirectoryListings/Controller/AddListing.php:85
+#: lib/PaidDirectoryListings/Controller/ClaimListing.php:15
+msgid "There are no payment plans available in this directory."
+msgstr ""
+"Il n’y a pas de plan/pack/formule de paiement disponible dans ce listing/"
+"annuaire/répertoire."
+
+#: lib/PaidDirectoryListings/Controller/AddListing.php:188
+#, php-format
+msgid "%s (plan: %s)"
+msgstr "%s (plan: %s)"
+
+#: lib/PaidDirectoryListings/Controller/AddListing.php:282
+msgid "Thank you for your order!"
+msgstr ""
+
+#: lib/PaidDirectoryListings/Controller/Admin/ViewListingClaim.php:27
+msgid "Item delivered."
+msgstr ""
+
+#: lib/PaidDirectoryListings/Controller/Admin/ViewListingClaim.php:29
+msgid "Item delivery failed."
+msgstr ""
+
+#: lib/PaidDirectoryListings/Controller/Admin/ViewListingClaim.php:48
+msgid "Claim rejected."
+msgstr "Revendication rejetée."
+
+#: lib/PaidDirectoryListings/Feature.php:39
+msgid "Featured Listing"
+msgstr "Offres mis en avant"
+
+#: lib/PaidDirectoryListings/Feature.php:51
+msgid "Additional Locations"
+msgstr "Emplacements supplémentaires"
+
+#: lib/PaidDirectoryListings/Feature.php:62
+msgid "Additional Categories"
+msgstr "Catégories supplémentaires"
+
+#: lib/PaidDirectoryListings/Feature.php:73
+msgid "Additional Photos"
+msgstr "Photos supplémentaires"
+
+#: lib/PaidDirectoryListings/Feature.php:84
+#: lib/PaidDirectoryListings/Feature.php:609
+msgctxt "paid plan feature"
+msgid "Reviews"
+msgstr "Avis (plan tarifés)"
+
+#: lib/PaidDirectoryListings/Feature.php:112
+msgid "Basic Feature Settings"
+msgstr "Paramètres affichage vedette"
+
+#: lib/PaidDirectoryListings/Feature.php:116
+msgid ""
+"Enter the number of days listings will be claimed (0 = unlimited). This is "
+"applied to one-time payment only."
+msgstr ""
+"Entrer le nombre de jours où les articles seront revendiquées/vérifiées (0 = "
+"illimité). Ne s’applique que pour le paiement forfaitaire."
+
+#: lib/PaidDirectoryListings/Feature.php:197
+msgid "Featured Lisitng"
+msgstr "Idées en vedette"
+
+#: lib/PaidDirectoryListings/Feature.php:199
+msgid "Display as featured"
+msgstr "Afficher l’image à la une dans l’article ouvert"
+
+#: lib/PaidDirectoryListings/Feature.php:203
+msgid "Priority"
+msgstr "Priorité"
+
+#: lib/PaidDirectoryListings/Feature.php:205
+msgctxt "priority"
+msgid "High"
+msgstr "Haute (priorité)"
+
+#: lib/PaidDirectoryListings/Feature.php:206
+msgctxt "priority"
+msgid "Normal"
+msgstr "Normal"
+
+#: lib/PaidDirectoryListings/Feature.php:207
+msgctxt "priority"
+msgid "Low"
+msgstr "Faible"
+
+#: lib/PaidDirectoryListings/Feature.php:214
+msgid "Enter the number of days listings will be featured on homepage."
+msgstr ""
+"Entrez le nombre de jours pendant lesquels les annonces seront mises en "
+"avant."
+
+#: lib/PaidDirectoryListings/Feature.php:268
+#: lib/PaidDirectoryListings/Feature.php:511
+msgid "Send messages to owner email address"
+msgstr "Envoyer messages vers l’ adresse mail du propriétaire"
+
+#: lib/PaidDirectoryListings/Feature.php:306
+#, php-format
+msgid "Claim ownership of listing for %d days"
+msgstr "Revendication de la fiche pour %d jours"
+
+#: lib/PaidDirectoryListings/Feature.php:307
+msgid "Claim ownership of listing for unlimited number of days"
+msgstr "Revendiquer la fiche pour un nombre illimité de jours"
+
+#: lib/PaidDirectoryListings/Feature.php:310
+#, php-format
+msgid "Feature listing on homepage for %d days"
+msgstr ""
+
+#: lib/PaidDirectoryListings/Feature.php:311
+msgid "Feature listing on home page for unlimited number of days"
+msgstr ""
+
+#: lib/PaidDirectoryListings/Feature.php:313
+#, php-format
+msgid "Allow %d extra location addresses"
+msgstr ""
+
+#: lib/PaidDirectoryListings/Feature.php:315
+#, php-format
+msgid "Allow selection of %d extra categories"
+msgstr "Permettre la sélection de %d catégories supplémentaires"
+
+#: lib/PaidDirectoryListings/Feature.php:317
+#, php-format
+msgid "Allow upload of %d extra photos"
+msgstr ""
+
+#: lib/PaidDirectoryListings/Feature.php:319
+#: lib/PaidDirectoryListings/Feature.php:505
+msgid "Allow users to contact the owner via contact us form"
+msgstr ""
+"Autoriser les utilisateurs à contacter le propriétaire par le Formulaire de "
+"contact"
+
+#: lib/PaidDirectoryListings/Feature.php:559
+#, php-format
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/PaidDirectoryListings/Feature.php:563
+#: lib/PaidDirectoryListings/Feature.php:567
+#, php-format
+msgid "%d category"
+msgid_plural "%d categories"
+msgstr[0] " catégorie %d"
+msgstr[1] "%d categories"
+
+#: lib/PaidDirectoryListings/Feature.php:569
+msgid "Unlimited categories"
+msgstr ""
+
+#: lib/PaidDirectoryListings/Feature.php:574
+#: lib/PaidDirectoryListings/Feature.php:578
+#, php-format
+msgid "%d photo"
+msgid_plural "%d photos"
+msgstr[0] "%d photo"
+msgstr[1] "%d photos"
+
+#: lib/PaidDirectoryListings/Feature.php:580
+msgid "Unlimited photos"
+msgstr "Nombre illimité de photos"
+
+#: lib/PaidDirectoryListings/Feature.php:586
+#: lib/PaidDirectoryListings/Feature.php:590
+#, php-format
+msgid "%d location"
+msgid_plural "%d locations"
+msgstr[0] " emplacement %d"
+msgstr[1] "%d emplacements"
+
+#: lib/PaidDirectoryListings/Feature.php:592
+msgid "Unlimited locations"
+msgstr "Nombre illimité d'adresse"
+
+#: lib/PaidDirectoryListings/Feature.php:599
+#, php-format
+msgid "Featured %d day"
+msgid_plural "Featured %d days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/PaidDirectoryListings/Feature.php:601
+#, php-format
+msgid "Extra location"
+msgid_plural "Extra %d locations"
+msgstr[0] "Emplacement supplémentaire"
+msgstr[1] "Emplacement supplémentaire"
+
+#: lib/PaidDirectoryListings/Feature.php:603
+#, php-format
+msgid "Extra category"
+msgid_plural "Extra %d categories"
+msgstr[0] "Catégorie supplémentaire"
+msgstr[1] "Catégorie supplémentaires"
+
+#: lib/PaidDirectoryListings/Feature.php:605
+#, php-format
+msgid "Extra photo"
+msgid_plural "Extra %d photos"
+msgstr[0] "Photo supplémentaire"
+msgstr[1] "Photo supplémentaires"
+
+#: lib/PaidDirectoryListings/Helper/CreateDefaultPlans.php:8
+msgid "7-day Free Trial"
+msgstr "Essai gratuit pendant 7 jours"
+
+#: lib/PaidDirectoryListings/Helper/CreateDefaultPlans.php:9
+msgid "Try and see if listing on this site works for your business."
+msgstr ""
+
+#: lib/PaidDirectoryListings/Helper/CreateDefaultPlans.php:21
+msgid "30-day Basic Listing"
+msgstr "30 jours Listing de base"
+
+#: lib/PaidDirectoryListings/Helper/CreateDefaultPlans.php:22
+msgid "Claim your listing for 30 days."
+msgstr "Revendiquez votre fiche pendant 30 jours"
+
+#: lib/PaidDirectoryListings/Helper/CreateDefaultPlans.php:35
+msgid "30-day Featured Listing Add-on"
+msgstr "Option Mise en Avant (Statut « Recommandé ») 30 jours"
+
+#: lib/PaidDirectoryListings/Helper/CreateDefaultPlans.php:36
+msgid "Get your listing featured on homepage for 30 days."
+msgstr "Mettre en avant la fiche sur la page d’accueil pendant 30 jours"
+
+#: lib/PaidDirectoryListings/Helper/CreateDefaultPlans.php:48
+msgid "Contact Form Add-on"
+msgstr "Add-on Formulaire de contact"
+
+#: lib/PaidDirectoryListings/Helper/CreateDefaultPlans.php:49
+msgid "Add a contact form to your listing page to capture leads."
+msgstr ""
+"Ajouter un formulaire de contact sur votre fiche pour recevoir des demandes "
+"de contacts"
+
+#: sabai-googlemaps/lib/GoogleMaps.php:132
+msgid "Do not load Google Maps API"
+msgstr "Ne pas charger l’API Google Maps"
+
+#: sabai-googlemaps/lib/GoogleMaps.php:137
+msgid "Do not load Google Maps API in admin dashboard"
+msgstr ""
+
+#: sabai-googlemaps/lib/GoogleMaps.php:141
+msgid "Google Maps API type"
+msgstr "type API Google Maps"
+
+#: sabai-googlemaps/lib/GoogleMaps.php:143
+msgid "Google Maps API (free)"
+msgstr "Google Maps API (gratuit)"
+
+#: sabai-googlemaps/lib/GoogleMaps.php:143
+msgid "Google Maps API for Business"
+msgstr "Google Maps API for Business"
+
+#: sabai-googlemaps/lib/GoogleMaps.php:148
+msgid "Google Geocoding API key"
+msgstr "Google géocodage clé API"
+
+#: sabai-googlemaps/lib/GoogleMaps.php:149
+#, php-format
+msgid ""
+"The API key for the Google Geocoding service can be obtained from the "
+"following URL: %s"
+msgstr ""
+"La clé de l'API pour le service Google géocodage peut être obtenu à partir "
+"de l'URL suivante : %s"
+
+#: sabai-googlemaps/lib/GoogleMaps.php:159
+msgid "Google Maps API for Work client ID"
+msgstr ""
+
+#: sabai-googlemaps/lib/GoogleMaps.php:167
+#, php-format
+msgid ""
+"Enter the cliend ID provided by Google. Also add the following code to any "
+"line in wp-config.php: %s"
+msgstr ""
+
+#: sabai-googlemaps/lib/GoogleMaps/AddressFieldRenderer.php:20
+msgid "Icon"
+msgstr "Icône"
+
+#: sabai-googlemaps/lib/GoogleMaps/Helper/AutocompleteCountryFormField.php:7
+msgid "Country code"
+msgstr "Code de pays"
+
+#: sabai-googlemaps/lib/GoogleMaps/Helper/AutocompleteCountryFormField.php:8
+msgid ""
+"Enter one of the <a href=\"http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2\" "
+"target=\"_blank\">two-letter country codes</a> to restrict location "
+"autocomplete suggestions to a specific country."
+msgstr ""
+
+#: sabai-googlemaps/lib/GoogleMaps/Helper/FieldWidgetSettings.php:9
+msgid "Require a location on map if the address field is not empty"
+msgstr "Exiger un emplacement sur la carte si le champ adresse ne est pas vide"
+
+#: sabai-googlemaps/lib/GoogleMaps/Helper/FieldWidgetSettings.php:20
+msgid "Map type"
+msgstr "Type de carte"
+
+#: sabai-googlemaps/lib/GoogleMaps/Helper/FieldWidgetSettings.php:31
+msgid "Enter the height of map in pixels."
+msgstr "Entrez la hauteur de la carte en pixels."
+
+#: sabai-googlemaps/lib/GoogleMaps/Helper/FieldWidgetSettings.php:41
+msgid "Enter the latitude of the default map location in decimals."
+msgstr ""
+
+#: sabai-googlemaps/lib/GoogleMaps/Helper/FieldWidgetSettings.php:52
+msgid "Enter the longitude of the default map location in decimals."
+msgstr ""
+
+#: sabai-googlemaps/lib/GoogleMaps/Helper/FieldWidgetSettings.php:62
+#: sabai-googlemaps/lib/GoogleMaps/Helper/MapOptions.php:30
+msgid "Default zoom level"
+msgstr ""
+
+#: sabai-googlemaps/lib/GoogleMaps/Helper/MapOptions.php:46
+msgid "Enable scrollwheel zooming"
+msgstr ""
+
+#: sabai-googlemaps/lib/GoogleMaps/Helper/MapOptions.php:51
+msgid "Enable directions search"
+msgstr "Activer Recherche d'Itinéraire"
+
+#: sabai-googlemaps/lib/GoogleMaps/Helper/RenderMap.php:103
+msgid "Wakling"
+msgstr "A pied"
+
+#: sabai-googlemaps/lib/GoogleMaps/Helper/Types.php:7
+msgid "Google (roadmap)"
+msgstr "Google (plan)"
+
+#: sabai-googlemaps/lib/GoogleMaps/Helper/Types.php:8
+msgid "Google (satellite)"
+msgstr "Google (satellite)"
+
+#: sabai-googlemaps/lib/GoogleMaps/Helper/Types.php:9
+msgid "Google (hybrid)"
+msgstr "Google (mixte)"
+
+#: sabai-googlemaps/lib/GoogleMaps/Helper/Types.php:10
+msgid "OpenStreetMap"
+msgstr ""
+
+#: sabai-googlemaps/lib/GoogleMaps/LocationFieldFilter.php:28
+msgid "Filter by"
+msgstr "﻿Filtrer par"
+
+#: sabai-googlemaps/lib/GoogleMaps/LocationFieldFilter.php:41
+msgid "Form element type"
+msgstr ""
+
+#: sabai-googlemaps/lib/GoogleMaps/LocationFieldFilter.php:43
+msgid "Checkboxes"
+msgstr ""
+
+#: sabai-googlemaps/lib/GoogleMaps/LocationFieldFilter.php:43
+msgid "Select list"
+msgstr "Liste de Sélection"
+
+#: sabai-googlemaps/lib/GoogleMaps/LocationFieldFilter.php:57
+msgid "Display inline"
+msgstr ""
+
+#: sabai-googlemaps/lib/GoogleMaps/LocationFieldFilter.php:58
+msgid "Check this to align all options on the same line."
+msgstr ""
+
+#: sabai-googlemaps/lib/GoogleMaps/LocationFieldFilter.php:75
+msgid "Number of options to display"
+msgstr ""
+
+#: sabai-googlemaps/lib/GoogleMaps/LocationFieldFilter.php:76
+msgid ""
+"If there are more options than the number specified here, those options will "
+"be displayed in a popup window."
+msgstr ""
+"S’il y a plus d’options que le nombre spécifié ici, ces options seront "
+"affichées dans une fenêtre popup."
+
+#: sabai-googlemaps/lib/GoogleMaps/LocationFieldFilter.php:90
+msgid "Label for link to open popup window"
+msgstr ""
+
+#: sabai-googlemaps/lib/GoogleMaps/LocationFieldFilter.php:91
+#, php-format
+msgid "More %s"
+msgstr "Plus %s"
+
+#: sabai-googlemaps/lib/GoogleMaps/LocationFieldFilter.php:135
+msgid "Exact match"
+msgstr "Terme exact"
+
+#: sabai-googlemaps/lib/GoogleMaps/LocationFieldFilter.php:179
+#: sabai-googlemaps/lib/GoogleMaps/LocationFieldFilter.php:269
+msgctxt "option"
+msgid "Any"
+msgstr "Tout"
+
+#: sabai-googlemaps/lib/GoogleMaps/LocationFieldWidget.php:7
+msgid "Google Map"
+msgstr "Google Map"
+
+#: sabai-googlemaps/lib/GoogleMaps/LocationFormField.php:51
+msgid "Find on map"
+msgstr "Trouver sur la carte"
+
+#: sabai-googlemaps/lib/GoogleMaps/LocationFormField.php:52
+msgid "Get from map"
+msgstr "A partir de la carte"
+
+#: sabai-googlemaps/lib/GoogleMaps/LocationFormField.php:65
+msgid "Enter address details manually"
+msgstr "Entrez les détails d'adresse manuellement"
+
+#: sabai-googlemaps/lib/GoogleMaps/LocationFormField.php:140
+#: sabai-googlemaps/lib/GoogleMaps/LocationFormField.php:143
+#: sabai-googlemaps/lib/GoogleMaps/MapFormField.php:104
+msgid "Please select a valid location on map."
+msgstr "S'il vous plaît, sélectionnez un emplacement valide sur la carte."
+
+#: sabai-googlemaps/lib/GoogleMaps/MapFieldRenderer.php:7
+msgid "Map renderer"
+msgstr "Rendu de la carte"
+
+#: sabai-googlemaps/lib/GoogleMaps/MapFormField.php:48
+msgid "Enter coordinates manually"
+msgstr "Entrer les coordonnées manuellement"
+
+#. Plugin Name of the plugin/theme
+msgid "Sabai Directory"
+msgstr "Répertoire"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "http://codecanyon.net/user/onokazu/portfolio?ref=onokazu"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Business directory plugin for WordPress."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "onokazu"
+msgstr ""

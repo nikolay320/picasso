@@ -1,0 +1,4 @@
+Search (SR) addon for EventON Plugin
+====================================
+v0.1 (2015-3-25)
+Initial release

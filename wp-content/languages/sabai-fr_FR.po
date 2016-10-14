@@ -1,0 +1,5251 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Sabai\n"
+"POT-Creation-Date: 2015-08-30 18:12+0200\n"
+"PO-Revision-Date: 2016-01-21 09:48+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: sabai.php\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: assets/templates/content_admin_posts.html.php:37
+#: lib/Sabai/Addon/Entity/Controller/ListEntities.php:71
+msgid "Filter"
+msgstr "Filtrer"
+
+#: assets/templates/fieldui_admin_fields.html.php:2
+#: assets/templates/fieldui_admin_filter_fields.html.php:2
+msgid "This page requires JavaScript enabled in your browser."
+msgstr ""
+
+#: assets/templates/fieldui_admin_fields.html.php:16
+#: assets/templates/fieldui_admin_fields.html.php:72
+#: assets/templates/fieldui_admin_filter_fields.html.php:18
+#: assets/templates/fieldui_admin_filter_fields.html.php:78
+msgid "Edit field"
+msgstr "Édition de champ"
+
+#: assets/templates/fieldui_admin_fields.html.php:16
+#: assets/templates/fieldui_admin_fields.html.php:72
+#: assets/templates/fieldui_admin_filter_fields.html.php:18
+#: assets/templates/fieldui_admin_filter_fields.html.php:78
+msgid "Delete field"
+msgstr "Supprimer le champ"
+
+#: assets/templates/fieldui_admin_fields.html.php:35
+msgid "Available Fields"
+msgstr "Champs existants"
+
+#: assets/templates/fieldui_admin_fields.html.php:51
+#, php-format
+msgid "Existing Fields (%s)"
+msgstr "Champs existants (%s)"
+
+#: assets/templates/fieldui_admin_filter_fields.html.php:42
+msgid "Form Layout"
+msgstr "Mise en page"
+
+#: assets/templates/fieldui_admin_filter_fields.html.php:47
+#, php-format
+msgid "%d row"
+msgid_plural "%d rows"
+msgstr[0] "rangée %d"
+msgstr[1] ""
+
+#: assets/templates/fieldui_admin_filter_fields.html.php:52
+#, php-format
+msgid "%d column"
+msgid_plural "%d columns"
+msgstr[0] "Colonne %d"
+msgstr[1] ""
+
+#: assets/templates/fieldui_admin_filter_fields.html.php:63
+msgid "Filterable Fields"
+msgstr "Champs Filtrables"
+
+#: assets/templates/form_redirect.html.php:10
+#: lib/Sabai/Platform/WordPress/Shortcode.php:76
+msgid "If you are not redirected automatically, please click the button below:"
+msgstr ""
+"Si vous n'êtes pas redirigé automatiquement, cliquez sur le bouton ci-"
+"dessous:"
+
+#: assets/templates/form_redirect.html.php:12
+#: lib/Sabai/Platform/WordPress/Shortcode.php:77
+msgid "Continue"
+msgstr "Je continue !"
+
+#: assets/templates/wordpress_admin_content_post.html.php:4
+#: assets/templates/wordpress_admin_taxonomy_term.html.php:4
+msgid "There was an error processing the form."
+msgstr ""
+
+#: assets/templates/wordpress_admin_content_post.html.php:13
+#: assets/templates/wordpress_admin_taxonomy_term.html.php:12
+#, php-format
+msgid "%s Title: %s"
+msgstr "%s Titre : %s"
+
+#: assets/templates/wordpress_admin_content_post.html.php:22
+#, php-format
+msgid "%s Content: %s"
+msgstr "%s Contenu : %s"
+
+#: assets/templates/wordpress_admin_content_post.html.php:34
+msgid "Status:"
+msgstr "Statuts :"
+
+#: assets/templates/wordpress_admin_content_post.html.php:38
+#, php-format
+msgid "Status: %s"
+msgstr "Statut : %s"
+
+#: assets/templates/wordpress_admin_content_post.html.php:44
+msgid "Published on:"
+msgstr "Publié le :"
+
+#: assets/templates/wordpress_admin_content_post.html.php:49
+#, php-format
+msgid "Published on: %s"
+msgstr "Publié le : %s"
+
+#: assets/templates/wordpress_admin_content_post.html.php:77
+#: assets/templates/wordpress_admin_taxonomy_term.html.php:47
+#: lib/Sabai/Addon/Entity/Helper/Link.php:13
+#: lib/Sabai/Addon/Entity/Helper/Permalink.php:24
+msgid "Untitled"
+msgstr "Sans titre"
+
+#: assets/templates/wordpress_admin_content_post.html.php:95
+#: assets/templates/wordpress_admin_content_post.html.php:102
+#: assets/templates/wordpress_admin_taxonomy_term.html.php:66
+#: assets/templates/wordpress_admin_taxonomy_term.html.php:73
+#: lib/Sabai/Addon/Content/Controller/Admin/ListPosts.php:259
+#: lib/Sabai/Addon/Content/Controller/Admin/ListPosts.php:277
+msgid "Publish"
+msgstr "Publier"
+
+#: assets/templates/wordpress_admin_content_post.html.php:101
+#: lib/Sabai/Addon/Content/Controller/Admin/ListPosts.php:254
+#: lib/Sabai/Addon/Content/Controller/Admin/ListPosts.php:260
+#: lib/Sabai/Addon/Content/Controller/Admin/ListPosts.php:278
+#: lib/Sabai/Addon/Content/Controller/Admin/TrashPost.php:16
+msgid "Move to Trash"
+msgstr "Déplacer à la corbeille"
+
+#: assets/templates/wordpress_admin_content_post.html.php:101
+#: assets/templates/wordpress_admin_taxonomy_term.html.php:72
+msgid "Update"
+msgstr "Mettre à jour"
+
+#: assets/templates/wordpress_admin_content_post.html.php:102
+#: assets/templates/wordpress_admin_taxonomy_term.html.php:73
+#: lib/Sabai/Addon/WordPress/Helper/PostboxJs.php:77
+msgid "Cancel"
+msgstr "Annuler"
+
+#: assets/templates/wordpress_admin_content_post.html.php:124
+#: assets/templates/wordpress_admin_taxonomy_term.html.php:95
+msgid "Enter title here"
+msgstr "Entrez le titre ici"
+
+#: assets/templates/wordpress_admin_taxonomy_term.html.php:20
+#, php-format
+msgid "%s Description: %s"
+msgstr "%s Description: %s"
+
+#: assets/templates/wordpress_admin_taxonomy_term.html.php:72
+#: lib/Sabai/Addon/Comment/Controller/Admin/ListComments.php:168
+#: lib/Sabai/Addon/Comment/Controller/Admin/Votes.php:79
+#: lib/Sabai/Addon/Comment/Helper/Render.php:41
+#: lib/Sabai/Addon/Taxonomy.php:679
+#: lib/Sabai/Addon/Taxonomy/Controller/Admin/ListTerms.php:61
+#: lib/Sabai/Addon/Taxonomy/Controller/Admin/ListTerms.php:140
+#: lib/Sabai/Addon/Voting/Controller/Admin/Updown.php:84
+msgid "Delete"
+msgstr "Supprimer"
+
+#: assets/templates/wordpress_admin_taxonomy_term.html.php:72
+#: lib/Sabai/Addon/Taxonomy/Controller/Admin/ListTerms.php:61
+#, php-format
+msgctxt "Delete taxonomy term modal window title"
+msgid "Delete this %s"
+msgstr "Supprimer ce %s"
+
+#: assets/templates/wordpress_permalink.html.php:5
+msgid "Permalink:"
+msgstr "Permalien :"
+
+#: assets/templates/wordpress_permalink.html.php:6
+msgid "Click to edit this part of the permalink"
+msgstr "Cliquez pour modifier cette partie du permalien"
+
+#: assets/templates/wordpress_permalink.html.php:7
+#: lib/Sabai/Addon/Comment.php:198
+#: lib/Sabai/Addon/Comment/Controller/Admin/ListComments.php:59
+#: lib/Sabai/Addon/Comment/Helper/Render.php:17
+#: lib/Sabai/Addon/Content.php:881
+#: lib/Sabai/Addon/Content/Controller/Admin/ListPosts.php:136
+#: lib/Sabai/Addon/Taxonomy.php:212 lib/Sabai/Addon/Taxonomy.php:676
+#: lib/Sabai/Addon/Taxonomy/Controller/Admin/ListTerms.php:60
+msgid "Edit"
+msgstr "Modifier"
+
+#: lib/Sabai/Addon/Comment.php:120
+#, php-format
+msgid "Comments for \"%s\""
+msgstr "Signaler commentaires sur %s"
+
+#: lib/Sabai/Addon/Comment.php:124
+#: lib/Sabai/Addon/Comment/Controller/HideComment.php:27
+msgid "Unhide Comment"
+msgstr "Rendre visible le commentaire"
+
+#: lib/Sabai/Addon/Comment.php:124
+#: lib/Sabai/Addon/Comment/Controller/HideComment.php:25
+msgid "Hide Comment"
+msgstr "Masquer le commentaire"
+
+#: lib/Sabai/Addon/Comment.php:126
+#: lib/Sabai/Addon/Comment/Controller/AddComment.php:7
+msgid "Add Comment"
+msgstr "Ajouter un commentaire"
+
+#: lib/Sabai/Addon/Comment.php:128
+msgid "Edit Comment"
+msgstr "Éditer le commentaire"
+
+#: lib/Sabai/Addon/Comment.php:130
+#: lib/Sabai/Addon/Comment/Controller/DeleteComment.php:7
+msgid "Delete Comment"
+msgstr "Supprimer le commentaire"
+
+#: lib/Sabai/Addon/Comment.php:191 lib/Sabai/Addon/Comment.php:195
+#: lib/Sabai/Addon/Comment.php:263 lib/Sabai/Addon/Comment.php:339
+#: lib/Sabai/Addon/Comment/FieldType.php:7
+msgid "Comments"
+msgstr "Commentaires"
+
+#: lib/Sabai/Addon/Comment.php:195
+#, php-format
+msgid "Comments (%d)"
+msgstr "Commentaires (%d)"
+
+#: lib/Sabai/Addon/Comment.php:202
+#: lib/Sabai/Addon/Comment/Controller/Admin/ListComments.php:12
+#: lib/Sabai/Addon/Voting.php:277 lib/Sabai/Addon/Voting.php:306
+#: lib/Sabai/Addon/Voting.php:642 lib/Sabai/Addon/Voting.php:847
+#: lib/Sabai/Addon/Voting.php:904
+msgid "Votes"
+msgstr ""
+
+#: lib/Sabai/Addon/Comment.php:203 lib/Sabai/Addon/Comment.php:207
+#: lib/Sabai/Addon/Content/Controller/Admin/ListPosts.php:180
+#: lib/Sabai/Addon/Content/Controller/Admin/ListPosts.php:186
+#: lib/Sabai/Addon/Taxonomy/Controller/ChildTerms.php:16
+#: lib/Sabai/Addon/Taxonomy/FieldFilter.php:162
+#: lib/Sabai/Addon/Taxonomy/Helper/HtmlList.php:37
+#: lib/Sabai/Addon/Taxonomy/Helper/SelectList.php:55
+#: lib/Sabai/Addon/Taxonomy/Helper/Tree.php:40 lib/Sabai/Addon/Voting.php:160
+#, php-format
+msgid "%s (%d)"
+msgstr ""
+
+#: lib/Sabai/Addon/Comment.php:206
+#: lib/Sabai/Addon/Comment/Controller/Admin/ListComments.php:13
+#: lib/Sabai/Addon/Voting.php:398 lib/Sabai/Addon/Voting.php:650
+#: lib/Sabai/Addon/Voting.php:875 lib/Sabai/Addon/Voting.php:910
+msgid "Flags"
+msgstr "Drapeaux rouges"
+
+#: lib/Sabai/Addon/Comment.php:227
+#, php-format
+msgid "Add comment to %s"
+msgstr "Ajouter un commentaire à %s"
+
+#: lib/Sabai/Addon/Comment.php:228
+#, php-format
+msgid "Edit own comments on %s"
+msgstr ""
+
+#: lib/Sabai/Addon/Comment.php:229
+#, php-format
+msgid "Edit any comment on %s"
+msgstr ""
+
+#: lib/Sabai/Addon/Comment.php:230
+#, php-format
+msgid "Delete own comments on %s"
+msgstr ""
+
+#: lib/Sabai/Addon/Comment.php:231
+#, php-format
+msgid "Vote up comments on %s"
+msgstr ""
+
+#: lib/Sabai/Addon/Comment.php:232
+#, php-format
+msgid "Vote up own comments on %s"
+msgstr ""
+
+#: lib/Sabai/Addon/Comment.php:233
+#, php-format
+msgid "Flag comments on %s"
+msgstr "Signaler commentaires sur %s"
+
+#: lib/Sabai/Addon/Comment.php:341
+msgid "Clear comments"
+msgstr "Effacer les commentaires"
+
+#: lib/Sabai/Addon/Comment.php:390
+#, php-format
+msgid "Deleted %d comment spam(s)"
+msgstr ""
+
+#: lib/Sabai/Addon/Comment.php:400
+#: lib/Sabai/Addon/Comment/Controller/Admin/Settings.php:12
+msgid "Spam score threshold"
+msgstr ""
+
+#: lib/Sabai/Addon/Comment.php:401
+#: lib/Sabai/Addon/Comment/Controller/Admin/Settings.php:13
+msgid ""
+"When a comment is flagged, the comment is assigned a \"spam score\". "
+"Comments with spam scores exceeding the threshold value are marked as spam "
+"and become hidden from the public."
+msgstr ""
+"Lorsqu'un commentaire est signalé (drapeau), le commentaire se voit "
+"attribuer un «spam score».  Les commentaires dont le spam score dépasse la "
+"valeur de seuil sont marqués comme indésirables et deviennent cachés du "
+"public."
+
+#: lib/Sabai/Addon/Comment.php:409
+#: lib/Sabai/Addon/Comment/Controller/Admin/Settings.php:21
+msgid "Auto-delete spam"
+msgstr ""
+
+#: lib/Sabai/Addon/Comment.php:411
+#: lib/Sabai/Addon/Comment/Controller/Admin/Settings.php:23
+msgid ""
+"When checked, comments that are marked as spam will be deleted by the system."
+msgstr ""
+
+#: lib/Sabai/Addon/Comment.php:416
+#: lib/Sabai/Addon/Comment/Controller/Admin/Settings.php:28
+msgid "Delete spam after:"
+msgstr ""
+
+#: lib/Sabai/Addon/Comment.php:417
+#: lib/Sabai/Addon/Comment/Controller/Admin/Settings.php:29
+msgid ""
+"Enter the number of days the system will wait before auto-deleting comments "
+"marked as spam."
+msgstr ""
+
+#: lib/Sabai/Addon/Comment.php:418
+#: lib/Sabai/Addon/Comment/Controller/Admin/Settings.php:30
+msgid "days"
+msgstr ""
+
+#: lib/Sabai/Addon/Comment.php:430
+#: lib/Sabai/Addon/Comment/Controller/Admin/Settings.php:42
+msgid "Show login link to guest users"
+msgstr ""
+
+#: lib/Sabai/Addon/Comment.php:435
+msgid "Allow HTML block elements"
+msgstr ""
+
+#: lib/Sabai/Addon/Comment/Controller/Admin/EditComment.php:6
+#: lib/Sabai/Addon/Comment/Controller/EditComment.php:7
+#: lib/Sabai/Addon/Content/Controller/Admin/EditPost.php:8
+#: lib/Sabai/Addon/Content/Controller/EditPost.php:9
+#: lib/Sabai/Addon/FieldUI/Controller/Admin/EditField.php:37
+#: lib/Sabai/Addon/FieldUI/Controller/Admin/EditFieldWidget.php:46
+#: lib/Sabai/Addon/FieldUI/Controller/Admin/EditFilterField.php:35
+#: lib/Sabai/Addon/FieldUI/Controller/Admin/EditFilterFieldFilter.php:49
+#: lib/Sabai/Addon/System/Controller/Admin/AccessControl.php:9
+#: lib/Sabai/Addon/System/Controller/Admin/EmailSettings.php:7
+#: lib/Sabai/Addon/System/Controller/Admin/Settings.php:9
+#: lib/Sabai/Addon/Taxonomy/Controller/Admin/EditTerm.php:7
+#: lib/Sabai/Addon/Taxonomy/Controller/EditTerm.php:9
+msgid "Save Changes"
+msgstr "Sauvegarder les modifications"
+
+#: lib/Sabai/Addon/Comment/Controller/Admin/EditComment.php:17
+msgid "Disable voting on this comment"
+msgstr "Désactiver le vote sur ce commentaire"
+
+#: lib/Sabai/Addon/Comment/Controller/Admin/EditComment.php:22
+msgid "Disable flagging this comment"
+msgstr "Désactiver l'alerte sur ce commentaire"
+
+#: lib/Sabai/Addon/Comment/Controller/Admin/Flags.php:9
+#: lib/Sabai/Addon/Comment/Controller/Admin/Votes.php:91
+#: lib/Sabai/Addon/Voting/Controller/Admin/Favorite.php:7
+#: lib/Sabai/Addon/Voting/Controller/Admin/Flag.php:7
+#: lib/Sabai/Addon/Voting/Controller/Admin/Helpful.php:7
+#: lib/Sabai/Addon/Voting/Controller/Admin/Rating.php:7
+#: lib/Sabai/Addon/Voting/Controller/Admin/Updown.php:99
+msgid "User"
+msgstr ""
+
+#: lib/Sabai/Addon/Comment/Controller/Admin/Flags.php:10
+msgid "Submitted at"
+msgstr ""
+
+#: lib/Sabai/Addon/Comment/Controller/Admin/Flags.php:11
+#: lib/Sabai/Addon/Voting/Controller/Admin/Flag.php:9
+msgid "Spam score"
+msgstr ""
+
+#: lib/Sabai/Addon/Comment/Controller/Admin/Flags.php:12
+#: lib/Sabai/Addon/Voting/Controller/Admin/Flag.php:10
+msgid "Reason"
+msgstr "Raison"
+
+#: lib/Sabai/Addon/Comment/Controller/Admin/Flags.php:20
+#: lib/Sabai/Addon/Voting/Controller/Admin/Flag.php:33
+msgid "Offensive"
+msgstr "Offensant"
+
+#: lib/Sabai/Addon/Comment/Controller/Admin/Flags.php:23
+#: lib/Sabai/Addon/Content/Helper/StatusLabel.php:23
+#: lib/Sabai/Addon/Voting/Controller/Admin/Flag.php:36
+msgid "Spam"
+msgstr "Spam"
+
+#: lib/Sabai/Addon/Comment/Controller/Admin/Flags.php:26
+#: lib/Sabai/Addon/Content/Helper/StatusLabel.php:16
+#: lib/Sabai/Addon/Content/Helper/TrashPostOptions.php:8
+#: lib/Sabai/Addon/Voting/Controller/Admin/Flag.php:39
+msgid "Off topic"
+msgstr "Hors sujet"
+
+#: lib/Sabai/Addon/Comment/Controller/Admin/ListComments.php:11
+#: lib/Sabai/Addon/Content/Controller/TrashPost.php:44
+#: lib/Sabai/Addon/Voting/Controller/VoteEntityForm.php:39
+#: lib/Sabai/Addon/Voting/Controller/VoteEntityForm.php:63
+msgid "Comment"
+msgstr "Commentaire"
+
+#: lib/Sabai/Addon/Comment/Controller/Admin/ListComments.php:14
+#: lib/Sabai/Addon/Content/Controller/Admin/AddPost.php:39
+#: lib/Sabai/Addon/Content/Controller/Admin/EditPost.php:80
+#: lib/Sabai/Addon/Content/Controller/Admin/ListPosts.php:28
+#: lib/Sabai/Addon/Content/EntityType.php:47
+#: lib/Sabai/Addon/Taxonomy/EntityType.php:42
+msgid "Author"
+msgstr "Auteur"
+
+#: lib/Sabai/Addon/Comment/Controller/Admin/ListComments.php:15
+#: lib/Sabai/Addon/Content/Controller/Admin/EditPost.php:36
+#: lib/Sabai/Addon/Content/Controller/Admin/ListPosts.php:30
+#: lib/Sabai/Addon/Date/DatePickerFieldFilter.php:7
+#: lib/Sabai/Addon/Date/TimestampFieldType.php:7
+#: lib/Sabai/Addon/Taxonomy/Controller/Admin/ListTerms.php:15
+#: lib/Sabai/Addon/Voting/Controller/Admin/Helpful.php:9
+#: lib/Sabai/Addon/Voting/Controller/Admin/Rating.php:9
+#: lib/Sabai/Addon/Voting/Controller/Admin/Updown.php:101
+msgid "Date"
+msgstr "Date"
+
+#: lib/Sabai/Addon/Comment/Controller/Admin/ListComments.php:60
+#: lib/Sabai/Addon/Content.php:853 lib/Sabai/Addon/Taxonomy.php:195
+#, php-format
+msgid "View %s"
+msgstr ""
+
+#: lib/Sabai/Addon/Comment/Controller/Admin/ListComments.php:71
+#: lib/Sabai/Addon/Voting/Helper/RenderUpdown.php:58
+#, php-format
+msgid "%d vote"
+msgid_plural "%d votes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/Sabai/Addon/Comment/Controller/Admin/ListComments.php:79
+#: lib/Sabai/Addon/Voting.php:713 lib/Sabai/Addon/Voting.php:875
+#, php-format
+msgid "%d flag (spam score: %d)"
+msgid_plural "%d flags (spam score: %d)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/Sabai/Addon/Comment/Controller/Admin/ListComments.php:104
+#: lib/Sabai/Addon/Taxonomy/Controller/Admin/ListTerms.php:30
+#, php-format
+msgid "All (%d)"
+msgstr ""
+
+#: lib/Sabai/Addon/Comment/Controller/Admin/ListComments.php:104
+#: lib/Sabai/Addon/Content/Controller/Admin/ListPosts.php:186
+#: lib/Sabai/Addon/Taxonomy/Controller/Admin/ListTerms.php:30
+msgid "All"
+msgstr ""
+
+#: lib/Sabai/Addon/Comment/Controller/Admin/ListComments.php:105
+#, php-format
+msgid "Published (%d)"
+msgstr ""
+
+#: lib/Sabai/Addon/Comment/Controller/Admin/ListComments.php:105
+#: lib/Sabai/Addon/Content/Controller/Admin/AddPost.php:26
+#: lib/Sabai/Addon/Content/Controller/Admin/EditPost.php:21
+#: lib/Sabai/Addon/Content/Helper/StatusLabel.php:8
+#: lib/Sabai/Addon/Content/Helper/StatusOptions.php:7
+msgid "Published"
+msgstr ""
+
+#: lib/Sabai/Addon/Comment/Controller/Admin/ListComments.php:106
+#, php-format
+msgid "Hidden (%d)"
+msgstr ""
+
+#: lib/Sabai/Addon/Comment/Controller/Admin/ListComments.php:106
+msgid "Hidden"
+msgstr ""
+
+#: lib/Sabai/Addon/Comment/Controller/Admin/ListComments.php:165
+#: lib/Sabai/Addon/Comment/Controller/Admin/Votes.php:78
+#: lib/Sabai/Addon/Content/Controller/Admin/ListPosts.php:241
+#: lib/Sabai/Addon/Taxonomy/Controller/Admin/ListTerms.php:139
+#: lib/Sabai/Addon/Voting/Controller/Admin/Updown.php:83
+msgid "Bulk Actions"
+msgstr ""
+
+#: lib/Sabai/Addon/Comment/Controller/Admin/ListComments.php:166
+msgid "Mark as published"
+msgstr "Marqué comme publié"
+
+#: lib/Sabai/Addon/Comment/Controller/Admin/ListComments.php:167
+msgid "Mark as hidden"
+msgstr "Marquer comme caché"
+
+#: lib/Sabai/Addon/Comment/Controller/Admin/ListComments.php:172
+#: lib/Sabai/Addon/Comment/Controller/Admin/Votes.php:83
+#: lib/Sabai/Addon/Content/Controller/Admin/ListPosts.php:246
+#: lib/Sabai/Addon/Taxonomy/Controller/Admin/ListTerms.php:146
+#: lib/Sabai/Addon/Voting/Controller/Admin/Updown.php:89
+msgid "Apply"
+msgstr "﻿Appliquer"
+
+#: lib/Sabai/Addon/Comment/Controller/Admin/Votes.php:92
+msgid "Voted at"
+msgstr "Voté à"
+
+#: lib/Sabai/Addon/Comment/Controller/Admin/Votes.php:93
+#: lib/Sabai/Addon/Voting/Controller/Admin/Updown.php:102
+#: lib/Sabai/Addon/Voting/Controller/FlaggedPosts.php:37
+msgid "Score"
+msgstr ""
+
+#: lib/Sabai/Addon/Comment/Controller/DeleteComment.php:15
+msgid ""
+"Are you sure you want to <em>permanently</em> delete this comment? This "
+"cannot be undone."
+msgstr ""
+"Êtes-vous sûr de vouloir supprimer <em>définitivement</em> ce commentaire? "
+"Cela ne peut pas être annulé."
+
+#: lib/Sabai/Addon/Comment/Controller/FlagComment.php:9
+#: lib/Sabai/Addon/Comment/Controller/VoteComment.php:20
+msgid "You have already voted for or flagged this comment"
+msgstr "Vous avez déjà voté ou \"flaggé\" pour ce commentaire"
+
+#: lib/Sabai/Addon/Comment/Controller/FlagComment.php:18
+#: lib/Sabai/Addon/Voting/Helper/FlagOptions.php:7
+#: lib/Sabai/Addon/Voting/Model/Vote.php:8
+msgid "It is spam"
+msgstr "Déjà couvert dans la plateforme ..."
+
+#: lib/Sabai/Addon/Comment/Controller/FlagComment.php:19
+#: lib/Sabai/Addon/Voting/Helper/FlagOptions.php:8
+#: lib/Sabai/Addon/Voting/Model/Vote.php:10
+msgid "It contains offensive language or content"
+msgstr "Contient du langage ou contenu offensant"
+
+#: lib/Sabai/Addon/Comment/Controller/FlagComment.php:20
+#: lib/Sabai/Addon/Voting/Helper/FlagOptions.php:9
+#: lib/Sabai/Addon/Voting/Model/Vote.php:12
+msgid "It does not belong here"
+msgstr "est au mauvais endroit"
+
+#: lib/Sabai/Addon/Comment/Controller/FlagComment.php:22
+msgid "I am flagging this comment as"
+msgstr "Je signale que ce commentaire "
+
+#: lib/Sabai/Addon/Comment/Controller/FlagComment.php:27
+msgid "Flag Comment"
+msgstr "Alerte sur ce commentaire"
+
+#: lib/Sabai/Addon/Comment/Controller/HideComment.php:14
+msgid "Unhide this comment"
+msgstr "Rendre visible ce commentaire"
+
+#: lib/Sabai/Addon/Comment/Controller/HideComment.php:15
+msgid "Hide this comment"
+msgstr "Masquer ce commentaire"
+
+#: lib/Sabai/Addon/Comment/Controller/HideComment.php:21
+msgid "Are you sure you want to unhide this comment?"
+msgstr "Êtes-vous sûr de vouloir rendre visible ce commentaire?"
+
+#: lib/Sabai/Addon/Comment/Controller/HideComment.php:22
+msgid ""
+"Hidden comments will not be visible to users without the \"Moderate comments"
+"\" permission. Are you sure you want to hide this comment?"
+msgstr ""
+"Les commentaires masqués ne seront pas visibles des utilisateurs n'ayant pas "
+"l'autorisation de \"Modérer les commentaires\". Etes-vous sûr que vous "
+"voulez masquer ce commentaire?"
+
+#: lib/Sabai/Addon/Comment/Helper/Render.php:19
+msgid "Edit this Comment"
+msgstr "Modifier ce commentaire"
+
+#: lib/Sabai/Addon/Comment/Helper/Render.php:41
+msgid "Delete this Comment"
+msgstr "Supprimer ce commentaire"
+
+#: lib/Sabai/Addon/Comment/Helper/Render.php:46
+msgid "Unhide"
+msgstr "Rendre visible"
+
+#: lib/Sabai/Addon/Comment/Helper/Render.php:46
+msgid "Unhide this Comment"
+msgstr "Rendre visible ce commentaire"
+
+#: lib/Sabai/Addon/Comment/Helper/Render.php:68
+msgid "flag"
+msgstr "Signaler"
+
+#: lib/Sabai/Addon/Comment/Helper/Render.php:68
+msgid "Flag this comment"
+msgstr "Alerte sur ce commentaire"
+
+#: lib/Sabai/Addon/Comment/Helper/Render.php:77
+msgid "vote"
+msgstr "vote"
+
+#: lib/Sabai/Addon/Comment/Helper/Render.php:77
+msgid "Vote for this comment"
+msgstr "﻿Voter pour ce commentaire "
+
+#: lib/Sabai/Addon/Comment/Helper/Render.php:116
+#, php-format
+msgid "this comment was edited %1$s"
+msgid_plural "this comment was edited %2$d times, last edited %1$s"
+msgstr[0] "ce commentaire a été édité %1$s"
+msgstr[1] "ce commentaire a été édité %2$d fois, dernière édition %1$s"
+
+#: lib/Sabai/Addon/Comment/Helper/RenderComments.php:48
+#, php-format
+msgid "%d hidden comment"
+msgid_plural "%d hidden comments"
+msgstr[0] "%d commentaire caché"
+msgstr[1] "%d commentaires cachés"
+
+#: lib/Sabai/Addon/Comment/Helper/RenderComments.php:49
+#, php-format
+msgid "%d more comment"
+msgid_plural "%d more comments"
+msgstr[0] ""
+msgstr[1] "%d Commentaire"
+
+#: lib/Sabai/Addon/Comment/Helper/RenderComments.php:55
+msgid "Expand to show all comments on this post"
+msgstr "﻿Développer pour montrer tous les commentaires de cet article"
+
+#: lib/Sabai/Addon/Comment/Helper/RenderComments.php:62
+msgid "add comment"
+msgstr "Ajouter un commentaire"
+
+#: lib/Sabai/Addon/Comment/Helper/RenderComments.php:64
+msgid "Add a new comment"
+msgstr "Ajouter un nouveau commentaire"
+
+#: lib/Sabai/Addon/Comment/Helper/RenderComments.php:74
+#, php-format
+msgid ""
+"You must <a href=\"%s\" class=\"sabai-login popup-login\">login</a> to post "
+"comments"
+msgstr ""
+"Vous devez <a href=\"%s\" class=\"sabai-login popup-login\">vous identifier</"
+"a> pour effectuer l'action demandée."
+
+#: lib/Sabai/Addon/Content.php:92 lib/Sabai/Addon/Content.php:534
+#: lib/Sabai/Addon/Content.php:542 lib/Sabai/Addon/Content.php:845
+#: lib/Sabai/Addon/Content.php:887
+#: lib/Sabai/Addon/Content/Controller/Admin/AddPost.php:8
+#: lib/Sabai/Addon/Content/Controller/Admin/ListChildPosts.php:39
+#: lib/Sabai/Addon/Content/Controller/Admin/ListPosts.php:297
+#: lib/Sabai/Addon/Taxonomy.php:190 lib/Sabai/Addon/Taxonomy.php:216
+#: lib/Sabai/Addon/Taxonomy.php:237
+#: lib/Sabai/Addon/Taxonomy/Controller/Admin/AddTerm.php:7
+#: lib/Sabai/Addon/Taxonomy/Controller/Admin/ListTerms.php:197
+#, php-format
+msgid "Add %s"
+msgstr "Ajouter %s"
+
+#: lib/Sabai/Addon/Content.php:93
+#, php-format
+msgid "Add %s (without approval)"
+msgstr "﻿Ajouter %s (sans approbation)"
+
+#: lib/Sabai/Addon/Content.php:94
+#, php-format
+msgid "Edit own %s"
+msgstr ""
+
+#: lib/Sabai/Addon/Content.php:95
+#, php-format
+msgid "Edit any %2$s"
+msgstr ""
+
+#: lib/Sabai/Addon/Content.php:96
+#, php-format
+msgid "Delete own %s"
+msgstr ""
+
+#: lib/Sabai/Addon/Content.php:97
+#, php-format
+msgid "Delete any %2$s / Manage flagged %1$s"
+msgstr ""
+
+#: lib/Sabai/Addon/Content.php:536 lib/Sabai/Addon/Content.php:544
+#: lib/Sabai/Addon/Taxonomy.php:120 lib/Sabai/Addon/Taxonomy.php:238
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: lib/Sabai/Addon/Content.php:538 lib/Sabai/Addon/Content.php:546
+#: lib/Sabai/Addon/Content/Controller/TrashPost.php:55
+#: lib/Sabai/Addon/System.php:984 lib/Sabai/Addon/Taxonomy.php:122
+#: lib/Sabai/Addon/Taxonomy.php:239
+#: lib/Sabai/Addon/Taxonomy/Controller/DeleteTerm.php:13
+#: lib/Sabai/Addon/Voting/Helper/RenderFlags.php:37
+#, php-format
+msgid "Delete %s"
+msgstr ""
+
+#: lib/Sabai/Addon/Content.php:540
+#, php-format
+msgid "%s for \"%s\""
+msgstr ""
+
+#: lib/Sabai/Addon/Content.php:596
+#: lib/Sabai/Addon/System/Controller/Admin/EmailSettings.php:39
+#: lib/Sabai/Addon/Taxonomy.php:517
+msgid "Body"
+msgstr "Corps"
+
+#: lib/Sabai/Addon/Content.php:607 lib/Sabai/Addon/Field/Filter/Keyword.php:7
+msgid "Keyword"
+msgstr "Mot clef"
+
+#: lib/Sabai/Addon/Content.php:630
+#: lib/Sabai/Addon/Entity/FeaturedFieldFilter.php:15
+msgid "Featured/Unfeatured"
+msgstr "Mis en avant/normal"
+
+#: lib/Sabai/Addon/Content.php:655
+#: lib/Sabai/Addon/Entity/GuestAuthorFieldType.php:16
+msgid "Guest Author"
+msgstr "Auteur invité"
+
+#: lib/Sabai/Addon/Content.php:878 lib/Sabai/Addon/Taxonomy.php:209
+#, php-format
+msgctxt "tab"
+msgid "All %s"
+msgstr "Tous %s"
+
+#: lib/Sabai/Addon/Content.php:1090
+#, php-format
+msgid "Unfeatured %d content post(s)"
+msgstr "%d article(s) non mis en avant"
+
+#: lib/Sabai/Addon/Content/Controller/AddChildPost.php:9
+#: lib/Sabai/Addon/Content/Controller/AddPost.php:10
+#, php-format
+msgid "Post %s"
+msgstr "Publier %s"
+
+#: lib/Sabai/Addon/Content/Controller/AddChildPost.php:58
+msgid "Your post has been submitted successfully."
+msgstr "Votre article / message a été soumis avec succès."
+
+#: lib/Sabai/Addon/Content/Controller/AddChildPost.php:59
+#: lib/Sabai/Addon/Content/Controller/AddChildPost.php:65
+#, php-format
+msgid "Back to %s"
+msgstr "Retour vers %s"
+
+#: lib/Sabai/Addon/Content/Controller/AddChildPost.php:64
+#: lib/Sabai/Addon/Content/Controller/AddPost.php:38
+msgid "Thanks for your submission, we will review it and get back with you."
+msgstr "Merci pour votre message, nous allons l'examiner et revenir vers vous."
+
+#: lib/Sabai/Addon/Content/Controller/Admin/AddPost.php:24
+#: lib/Sabai/Addon/Content/Controller/Admin/EditPost.php:29
+#: lib/Sabai/Addon/Content/EntityType.php:27
+msgid "Status"
+msgstr "Statut"
+
+#: lib/Sabai/Addon/Content/Controller/Admin/AddPost.php:27
+#: lib/Sabai/Addon/Content/Controller/Admin/EditPost.php:22
+#: lib/Sabai/Addon/Content/Helper/StatusLabel.php:10
+#: lib/Sabai/Addon/Content/Helper/StatusOptions.php:8
+msgid "Draft"
+msgstr "Brouillon"
+
+#: lib/Sabai/Addon/Content/Controller/Admin/AddPost.php:33
+msgid "Published on"
+msgstr "Publié le"
+
+#: lib/Sabai/Addon/Content/Controller/Admin/AddPost.php:44
+#: lib/Sabai/Addon/Content/Controller/Admin/EditPost.php:44
+#: lib/Sabai/Addon/Entity/FeaturedFieldFilter.php:21
+#: lib/Sabai/Addon/Entity/Helper/RenderLabels.php:14
+msgid "Featured"
+msgstr "Promue"
+
+#: lib/Sabai/Addon/Content/Controller/Admin/AddPost.php:49
+#: lib/Sabai/Addon/Content/Controller/Admin/EditPost.php:50
+#, php-format
+msgid "This is a featured %s"
+msgstr "C'est une sélection recommandée %s"
+
+#: lib/Sabai/Addon/Content/Controller/Admin/AddPost.php:53
+#: lib/Sabai/Addon/Content/Controller/Admin/EditPost.php:55
+msgid "Priority"
+msgstr "Priorité"
+
+#: lib/Sabai/Addon/Content/Controller/Admin/AddPost.php:58
+#: lib/Sabai/Addon/Content/Controller/Admin/EditPost.php:60
+msgctxt "priority"
+msgid "High"
+msgstr "Haute (priorité)"
+
+#: lib/Sabai/Addon/Content/Controller/Admin/AddPost.php:59
+#: lib/Sabai/Addon/Content/Controller/Admin/EditPost.php:61
+msgctxt "priority"
+msgid "Normal"
+msgstr ""
+
+#: lib/Sabai/Addon/Content/Controller/Admin/AddPost.php:60
+#: lib/Sabai/Addon/Content/Controller/Admin/EditPost.php:62
+msgctxt "priority"
+msgid "Low"
+msgstr ""
+
+#: lib/Sabai/Addon/Content/Controller/Admin/AddPost.php:66
+#: lib/Sabai/Addon/Content/Controller/Admin/EditPost.php:68
+msgid "End Date"
+msgstr "Date de fin"
+
+#: lib/Sabai/Addon/Content/Controller/Admin/AddPost.php:87
+#, php-format
+msgid "%s posted successfully."
+msgstr "%s publié avec succès."
+
+#: lib/Sabai/Addon/Content/Controller/Admin/DeletePost.php:13
+msgid "Are you sure you want to permanently delete this post?"
+msgstr "﻿Êtes-vous sûr de vouloir supprimer cet article ?"
+
+#: lib/Sabai/Addon/Content/Controller/Admin/DeletePost.php:16
+#: lib/Sabai/Addon/Content/Controller/Admin/ListPosts.php:133
+#: lib/Sabai/Addon/Content/Controller/Admin/ListPosts.php:266
+msgid "Delete Permanently"
+msgstr "Supprimer définitivement"
+
+#: lib/Sabai/Addon/Content/Controller/Admin/EditPost.php:25
+#: lib/Sabai/Addon/Content/Helper/StatusLabel.php:12
+#: lib/Sabai/Addon/Content/Helper/StatusOptions.php:9
+msgid "Pending"
+msgstr "En attente"
+
+#: lib/Sabai/Addon/Content/Controller/Admin/EditPost.php:99
+#: lib/Sabai/Addon/Taxonomy/Controller/Admin/EditTerm.php:28
+#, php-format
+msgid "%s updated successfully."
+msgstr "%s mis à jour avec succès."
+
+#: lib/Sabai/Addon/Content/Controller/Admin/ListPosts.php:27
+#: lib/Sabai/Addon/Content/EntityType.php:22
+#: lib/Sabai/Addon/Content/FieldType.php:17
+#: lib/Sabai/Addon/Taxonomy/Controller/Admin/ListTerms.php:13
+#: lib/Sabai/Addon/Taxonomy/EntityType.php:21
+#: lib/Sabai/Addon/Taxonomy/FieldType.php:18
+#: lib/Sabai/Platform/WordPress/Widget.php:108
+msgid "Title"
+msgstr "Titre"
+
+#: lib/Sabai/Addon/Content/Controller/Admin/ListPosts.php:29
+#: lib/Sabai/Addon/Content/EntityType.php:37
+msgid "Views"
+msgstr "Vues"
+
+#: lib/Sabai/Addon/Content/Controller/Admin/ListPosts.php:62
+#: lib/Sabai/Addon/Content/Controller/Admin/ListPosts.php:75
+#, php-format
+msgid "%s posted for %s: %s"
+msgstr "%s publié pour %s: %s"
+
+#: lib/Sabai/Addon/Content/Controller/Admin/ListPosts.php:122
+#: lib/Sabai/Addon/Taxonomy/Controller/Admin/ListTerms.php:51
+msgid "(no title)"
+msgstr "(sans titre)"
+
+#: lib/Sabai/Addon/Content/Controller/Admin/ListPosts.php:131
+#: lib/Sabai/Addon/Content/Controller/Admin/ListPosts.php:265
+msgid "Restore"
+msgstr "Restaurer"
+
+#: lib/Sabai/Addon/Content/Controller/Admin/ListPosts.php:131
+msgid "Restore this Post"
+msgstr "Rétablir cet article"
+
+#: lib/Sabai/Addon/Content/Controller/Admin/ListPosts.php:133
+msgid "Delete this Post"
+msgstr "Supprimer cet article"
+
+#: lib/Sabai/Addon/Content/Controller/Admin/ListPosts.php:137
+msgid "Trash"
+msgstr "Corbeille"
+
+#: lib/Sabai/Addon/Content/Controller/Admin/ListPosts.php:137
+msgid "Trash this Post"
+msgstr "Mettre à la corbeille"
+
+#: lib/Sabai/Addon/Content/Controller/Admin/ListPosts.php:140
+#: lib/Sabai/Addon/Content/Controller/Admin/ListPosts.php:144
+msgid "Preview"
+msgstr "Aperçu"
+
+#: lib/Sabai/Addon/Content/Controller/Admin/ListPosts.php:148
+#: lib/Sabai/Addon/Taxonomy/Controller/Admin/ListTerms.php:62
+msgid "View"
+msgstr "Vue"
+
+#: lib/Sabai/Addon/Content/Controller/Admin/ListPosts.php:269
+msgid "Empty Trash"
+msgstr "Vider la corbeille"
+
+#: lib/Sabai/Addon/Content/Controller/Admin/RestorePost.php:13
+msgid "Are you sure you want to restore this post from trash?"
+msgstr "Etes-vous sûr de vouloir résupérer cet article de la corbeille?"
+
+#: lib/Sabai/Addon/Content/Controller/Admin/RestorePost.php:16
+msgid "Restore from Trash"
+msgstr "Récupérer à partir de la corbeille"
+
+#: lib/Sabai/Addon/Content/Controller/Admin/TrashPost.php:13
+msgid "Are you sure you want to move this post to trash?"
+msgstr "Etes-vous sûr de vouloir déplacer cet article dans la corbeille?"
+
+#: lib/Sabai/Addon/Content/Controller/FavoritePosts.php:15
+msgid "Active"
+msgstr "Toujours actives"
+
+#: lib/Sabai/Addon/Content/Controller/FavoritePosts.php:18
+msgid "Added"
+msgstr "Ajoutée(s)"
+
+#: lib/Sabai/Addon/Content/Controller/Feed.php:42
+msgid "Recent posts"
+msgstr "Articles récents"
+
+#: lib/Sabai/Addon/Content/Controller/Feed.php:69
+#, php-format
+msgid "The most %d recent posts"
+msgstr "Les %d messages les plus récents"
+
+#: lib/Sabai/Addon/Content/Controller/ListPosts.php:27
+msgid "Newest First"
+msgstr "Plus récent en premier"
+
+#: lib/Sabai/Addon/Content/Controller/ListPosts.php:32
+msgid "Oldest First"
+msgstr "Plus ancien en premier"
+
+#: lib/Sabai/Addon/Content/Controller/ListPosts.php:38
+msgctxt "sort"
+msgid "Title"
+msgstr "Titre (alphabétique)"
+
+#: lib/Sabai/Addon/Content/Controller/TrashPost.php:24
+msgid "Are you sure you want to delete this post?"
+msgstr "﻿Êtes-vous sûr de vouloir supprimer cet article ?"
+
+#: lib/Sabai/Addon/Content/Controller/TrashPost.php:37
+#: lib/Sabai/Addon/Content/Controller/TrashPost.php:44
+msgid "Reason for deletion"
+msgstr "Motif de la suppression"
+
+#: lib/Sabai/Addon/Content/EntityType.php:32
+msgid "Published date"
+msgstr "Date de publication"
+
+#: lib/Sabai/Addon/Content/EntityType.php:42
+#: lib/Sabai/Addon/Taxonomy/EntityType.php:27
+msgid "ID"
+msgstr "ID"
+
+#: lib/Sabai/Addon/Content/EntityType.php:52
+#: lib/Sabai/Addon/Content/EntityType.php:57
+msgid "Content type"
+msgstr "Type de contenu"
+
+#: lib/Sabai/Addon/Content/EntityType.php:62
+#: lib/Sabai/Addon/Taxonomy/Controller/Admin/ListTerms.php:14
+#: lib/Sabai/Addon/Taxonomy/EntityType.php:32
+msgid "Slug"
+msgstr ""
+
+#: lib/Sabai/Addon/Content/FieldWidget.php:25
+#: lib/Sabai/Addon/Field/Filter/Number.php:7
+#: lib/Sabai/Addon/Field/Widget/Textfield.php:7
+#: lib/Sabai/Addon/Taxonomy/FieldWidget.php:18
+#: lib/Sabai/Addon/Taxonomy/TaggingFieldWidget.php:7
+msgid "Text input field"
+msgstr ""
+
+#: lib/Sabai/Addon/Content/FieldWidget.php:36
+msgid "Hidden field"
+msgstr ""
+
+#: lib/Sabai/Addon/Content/FieldWidget.php:60
+#: lib/Sabai/Addon/Entity/GuestAuthorFieldWidget.php:35
+#: lib/Sabai/Addon/Field/Filter/Keyword.php:31
+#: lib/Sabai/Addon/Field/Filter/Number.php:26
+#: lib/Sabai/Addon/Field/Filter/Range.php:25
+#: lib/Sabai/Addon/Field/Widget/Link.php:23
+#: lib/Sabai/Addon/Field/Widget/Range.php:23
+#: lib/Sabai/Addon/Field/Widget/Slider.php:22
+#: lib/Sabai/Addon/Field/Widget/Textfield.php:56
+msgid "Field size"
+msgstr "﻿Taille du champ"
+
+#: lib/Sabai/Addon/Content/FieldWidget.php:62
+#: lib/Sabai/Addon/Entity/GuestAuthorFieldWidget.php:37
+#: lib/Sabai/Addon/Field/Filter/Keyword.php:33
+#: lib/Sabai/Addon/Field/Widget/Link.php:25
+#: lib/Sabai/Addon/Field/Widget/Slider.php:24
+#: lib/Sabai/Addon/Field/Widget/Textfield.php:58
+#: lib/Sabai/Addon/Social/FieldRenderer.php:23
+#: lib/Sabai/Addon/WordPress/CaptchaFieldWidget.php:24
+msgid "Small"
+msgstr ""
+
+#: lib/Sabai/Addon/Content/FieldWidget.php:63
+#: lib/Sabai/Addon/Entity/GuestAuthorFieldWidget.php:38
+#: lib/Sabai/Addon/Field/Filter/Keyword.php:34
+#: lib/Sabai/Addon/Field/Widget/Link.php:26
+#: lib/Sabai/Addon/Field/Widget/Slider.php:25
+#: lib/Sabai/Addon/Field/Widget/Textfield.php:59
+#: lib/Sabai/Addon/Social/FieldRenderer.php:23
+#: lib/Sabai/Addon/WordPress/CaptchaFieldWidget.php:25
+msgid "Medium"
+msgstr ""
+
+#: lib/Sabai/Addon/Content/FieldWidget.php:64
+#: lib/Sabai/Addon/Entity/GuestAuthorFieldWidget.php:39
+#: lib/Sabai/Addon/Field/Filter/Keyword.php:35
+#: lib/Sabai/Addon/Field/Widget/Link.php:27
+#: lib/Sabai/Addon/Field/Widget/Slider.php:26
+#: lib/Sabai/Addon/Field/Widget/Textfield.php:60
+msgid "Large (responsive)"
+msgstr ""
+
+#: lib/Sabai/Addon/Content/FieldWidget.php:69
+#: lib/Sabai/Addon/Field/Type/String.php:23
+msgid "Minimum length"
+msgstr ""
+
+#: lib/Sabai/Addon/Content/FieldWidget.php:72
+#: lib/Sabai/Addon/Field/Type/String.php:24
+msgid "The minimum length of value in characters."
+msgstr ""
+
+#: lib/Sabai/Addon/Content/FieldWidget.php:77
+#: lib/Sabai/Addon/Field/Type/String.php:31
+msgid "Maximum length"
+msgstr ""
+
+#: lib/Sabai/Addon/Content/FieldWidget.php:80
+#: lib/Sabai/Addon/Field/Type/String.php:32
+msgid "The maximum length of value in characters."
+msgstr ""
+
+#: lib/Sabai/Addon/Content/Helper/StatusLabel.php:19
+#: lib/Sabai/Addon/Content/Helper/TrashPostOptions.php:9
+msgid "Other reason"
+msgstr "Autre raison"
+
+#: lib/Sabai/Addon/Content/Helper/StatusOptions.php:10
+msgid "Trashed"
+msgstr "Mis à la Corbeille"
+
+#: lib/Sabai/Addon/Content/Helper/TrashPostOptions.php:7
+msgid "Spam or offensive"
+msgstr "Spam ou message offensant"
+
+#: lib/Sabai/Addon/Content/PostTitleFieldRenderer.php:17
+#: lib/Sabai/Addon/Field/Renderer/Text.php:48
+#: lib/Sabai/Addon/File/CarouselFieldRenderer.php:24
+#: lib/Sabai/Addon/File/FieldRenderer.php:54
+msgid "Link to post"
+msgstr ""
+
+#: lib/Sabai/Addon/Content/PostTitleFieldRenderer.php:22
+msgid "Add featured post icon"
+msgstr ""
+
+#: lib/Sabai/Addon/Date/DatePickerFieldFilter.php:20
+#: lib/Sabai/Addon/Date/DatePickerFieldWidget.php:28
+msgid "Number of months to show in date picker"
+msgstr ""
+
+#: lib/Sabai/Addon/Date/DatePickerFieldFilter.php:42
+#: lib/Sabai/Addon/Date/DatePickerFieldFilter.php:90
+#: lib/Sabai/Addon/Field/Filter/Range.php:11
+#: lib/Sabai/Addon/Field/Renderer/Default.php:35
+#: lib/Sabai/Addon/Field/Widget/Range.php:11
+#: lib/Sabai/Addon/Form/Field/Range.php:28
+msgctxt "range separator"
+msgid "to"
+msgstr ""
+
+#: lib/Sabai/Addon/Date/DatePickerFieldFilter.php:59
+msgid "The second date must be later than the first date."
+msgstr ""
+
+#: lib/Sabai/Addon/Date/DatePickerFieldWidget.php:7
+msgid "Date/Time picker"
+msgstr ""
+
+#: lib/Sabai/Addon/Date/DatePickerFieldWidget.php:23
+msgid "Set current date selected by default"
+msgstr ""
+
+#: lib/Sabai/Addon/Date/DatePickerFormField.php:172
+#: lib/Sabai/Addon/Time/FormField.php:197
+msgid "Hour"
+msgstr "Heure"
+
+#: lib/Sabai/Addon/Date/DatePickerFormField.php:173
+#: lib/Sabai/Addon/Time/FormField.php:198
+msgid "Minute"
+msgstr "Minute"
+
+#: lib/Sabai/Addon/Date/DatePickerFormField.php:174
+#: lib/Sabai/Addon/Time/FormField.php:199
+msgid "AM"
+msgstr ""
+
+#: lib/Sabai/Addon/Date/DatePickerFormField.php:175
+#: lib/Sabai/Addon/Time/FormField.php:200
+msgid "PM"
+msgstr ""
+
+#: lib/Sabai/Addon/Date/DatePickerFormField.php:176
+#: lib/Sabai/Addon/Time/FormField.php:201
+msgctxt "timepicker"
+msgid "Now"
+msgstr ""
+
+#: lib/Sabai/Addon/Date/DatePickerFormField.php:177
+#: lib/Sabai/Addon/Time/FormField.php:202
+msgid "Deselect"
+msgstr "Désélectionner"
+
+#: lib/Sabai/Addon/Date/Helper/ValidateDatePickerFormField.php:13
+#: lib/Sabai/Addon/Date/Helper/ValidateDatePickerFormField.php:23
+msgid "Please select a date."
+msgstr "Sélectionner une date SVP"
+
+#: lib/Sabai/Addon/Date/Helper/ValidateDatePickerFormField.php:33
+msgid "Invalid date."
+msgstr "Date non valide"
+
+#: lib/Sabai/Addon/Date/Helper/ValidateDatePickerFormField.php:84
+#, php-format
+msgid "Date must be between %s and %s."
+msgstr "﻿La date doit être comprise entre %s et %s."
+
+#: lib/Sabai/Addon/Date/Helper/ValidateDatePickerFormField.php:89
+#, php-format
+msgid "Date must be later than %s."
+msgstr "La date doit être postérieure à %s."
+
+#: lib/Sabai/Addon/Date/Helper/ValidateDatePickerFormField.php:94
+#, php-format
+msgid "Date must be earlier than %s."
+msgstr "La date doit être antérieure à %s."
+
+#: lib/Sabai/Addon/Date/TimestampFieldType.php:18
+#: lib/Sabai/Addon/Time/FieldType.php:16
+#, php-format
+msgid "%s (desc)"
+msgstr "﻿%s (décr)"
+
+#: lib/Sabai/Addon/Date/TimestampFieldType.php:29
+msgid "Enable time (hour and minute)"
+msgstr "Activer le temps (heures et minutes)"
+
+#: lib/Sabai/Addon/Date/TimestampFieldType.php:30
+msgid ""
+"Check this option to allow the user to enter the time (hour and minute) as "
+"well as the date."
+msgstr ""
+"Cochez cette option pour permettre à l'utilisateur de saisir le temps "
+"(heures et minutes) ainsi que la date."
+
+#: lib/Sabai/Addon/Date/TimestampFieldType.php:35
+msgid "Restrict dates"
+msgstr "Restreindre dates"
+
+#: lib/Sabai/Addon/Date/TimestampFieldType.php:36
+msgid "Check this option to set the range of allowed dates for this field."
+msgstr ""
+"Cochez cette option pour définir la plage de dates admises pour ce champ."
+
+#: lib/Sabai/Addon/Date/TimestampFieldType.php:42
+msgid "Minimum date:"
+msgstr "Date au plus tôt:"
+
+#: lib/Sabai/Addon/Date/TimestampFieldType.php:55
+msgid "Maximum date:"
+msgstr "Date au plus tard:"
+
+#: lib/Sabai/Addon/Date/TimestampFieldType.php:128
+msgid "The first date must be later than the second date."
+msgstr "La première date doit être postérieure à la seconde."
+
+#: lib/Sabai/Addon/Entity/Controller/ListEntities.php:71
+#, php-format
+msgid "Filter <span class=\"sabai-badge\">%d</span>"
+msgstr "Filtrer <span class=\"sabai-badge\"> %d</span>"
+
+#: lib/Sabai/Addon/Entity/Controller/ListEntities.php:88
+msgid "Clear all filters"
+msgstr "Effacer les filtres"
+
+#: lib/Sabai/Addon/Entity/Controller/ListEntities.php:262
+msgid "Random"
+msgstr "Aléatoire"
+
+#: lib/Sabai/Addon/Entity/FeaturedFieldFilter.php:22
+msgid "Unfeatured"
+msgstr "Non promue(s)"
+
+#: lib/Sabai/Addon/Entity/FeaturedFieldFilter.php:23
+#: lib/Sabai/Addon/Field/Filter/Boolean.php:90
+#: lib/Sabai/Addon/Field/Filter/Boolean.php:99
+#: lib/Sabai/Addon/Field/Filter/Boolean.php:159
+#: lib/Sabai/Addon/Field/Filter/Boolean.php:166
+#: lib/Sabai/Addon/Field/Filter/Option.php:16
+#: lib/Sabai/Addon/Field/Filter/Option.php:96
+#: lib/Sabai/Addon/Voting/Helper/RatingOptions.php:11
+#: lib/Sabai/Addon/Voting/Helper/RatingOptions.php:13
+#: lib/Sabai/Addon/Voting/RatingFieldFilter.php:68
+msgctxt "option"
+msgid "Any"
+msgstr "Tout"
+
+#: lib/Sabai/Addon/Entity/FeaturedFieldFilter.php:25
+msgid "Show featured only"
+msgstr "Montrer uniquement les mises en avant"
+
+#: lib/Sabai/Addon/Entity/GuestAuthorFieldWidget.php:15
+msgid "Guest author field"
+msgstr ""
+
+#: lib/Sabai/Addon/Entity/GuestAuthorFieldWidget.php:25
+msgid "visible to anonymous users only"
+msgstr "visible pour les utilisateurs anonymes seulement"
+
+#: lib/Sabai/Addon/Entity/GuestAuthorFieldWidget.php:45
+msgid "Hide the Website field"
+msgstr "﻿Cacher Champ Site"
+
+#: lib/Sabai/Addon/Entity/GuestAuthorFieldWidget.php:50
+msgid "Hide the header message"
+msgstr ""
+
+#: lib/Sabai/Addon/Entity/GuestAuthorFieldWidget.php:57
+#: lib/Sabai/Addon/Field/Widget/Email.php:24
+msgid "Check MX record of e-mail address"
+msgstr ""
+
+#: lib/Sabai/Addon/Entity/GuestAuthorFieldWidget.php:89
+#: lib/Sabai/Addon/Entity/GuestAuthorFieldWidget.php:125
+#: lib/Sabai/Addon/Entity/GuestAuthorFieldWidget.php:219
+#: lib/Sabai/Addon/Entity/GuestAuthorFieldWidget.php:234
+msgid "E-mail"
+msgstr "E-mail"
+
+#: lib/Sabai/Addon/Entity/GuestAuthorFieldWidget.php:96
+#: lib/Sabai/Addon/Entity/GuestAuthorFieldWidget.php:136
+#: lib/Sabai/Addon/Entity/GuestAuthorFieldWidget.php:218
+#: lib/Sabai/Addon/Entity/GuestAuthorFieldWidget.php:233
+#: lib/Sabai/Addon/System.php:806 lib/Sabai/Addon/System.php:815
+msgid "Name"
+msgstr "Nom"
+
+#: lib/Sabai/Addon/Entity/GuestAuthorFieldWidget.php:111
+#: lib/Sabai/Addon/Entity/GuestAuthorFieldWidget.php:145
+#: lib/Sabai/Addon/Entity/GuestAuthorFieldWidget.php:220
+msgid "Website"
+msgstr "Site web"
+
+#: lib/Sabai/Addon/Entity/GuestAuthorFieldWidget.php:157
+msgid "IP Address"
+msgstr "Adresse IP"
+
+#: lib/Sabai/Addon/Entity/GuestAuthorFieldWidget.php:165
+msgid "User Agent"
+msgstr "Utilisateur"
+
+#: lib/Sabai/Addon/Entity/GuestAuthorFieldWidget.php:177
+#, php-format
+msgid ""
+"Post as a guest by filling out the fields below or <a href=\"%s\" class="
+"\"sabai-login popup-login\">login</a> if you already have an account."
+msgstr ""
+"Publier en tant qu'invité en remplissant les champs ci-dessous ou <a href="
+"\"%s\" class=\"sabai-login popup-login\">identifiez vous</a> si vous avez "
+"déjà un compte."
+
+#: lib/Sabai/Addon/Entity/GuestAuthorFieldWidget.php:191
+msgid "The email address may not be used."
+msgstr "Cette adresse e-mail ne peut être utilisée."
+
+#: lib/Sabai/Addon/Entity/GuestAuthorFieldWidget.php:197
+#: lib/Sabai/Addon/Field/Widget/Email.php:57
+msgid "Invalid domain name."
+msgstr "Nom de domaine invalide."
+
+#: lib/Sabai/Addon/Entity/Helper/Form.php:260
+#: lib/Sabai/Addon/FieldUI/Helper/PreviewWidget.php:38
+msgid "Add More"
+msgstr "Ajouter plus"
+
+#: lib/Sabai/Addon/Entity/Helper/RenderActivity.php:7
+#, php-format
+msgid "%s posted %s"
+msgstr "%s publié %s"
+
+#: lib/Sabai/Addon/Entity/Helper/RenderActivity.php:10
+#, php-format
+msgid "last edited %s"
+msgstr "dernière modification %s"
+
+#: lib/Sabai/Addon/Entity/Helper/RenderActivity.php:11
+#, php-format
+msgid "last active %s"
+msgstr "dernière activité %s"
+
+#: lib/Sabai/Addon/Entity/Helper/RenderLabels.php:15
+#: lib/Sabai/Addon/Entity/Helper/RenderTitle.php:15
+msgid "This post is featured."
+msgstr "Cet article est mis en avant"
+
+#: lib/Sabai/Addon/Entity/ParentFieldWidget.php:16
+msgid "Autocomplete text field"
+msgstr "Saisie automatique pour le champs texte"
+
+#: lib/Sabai/Addon/Field.php:280
+msgid "reCAPTCHA Site Key"
+msgstr ""
+
+#: lib/Sabai/Addon/Field.php:285
+msgid "reCAPTCHA Secret Key"
+msgstr ""
+
+#: lib/Sabai/Addon/Field/Filter/Boolean.php:9
+#: lib/Sabai/Addon/Field/Type/Boolean.php:7
+msgid "ON/OFF"
+msgstr "ON/OFF"
+
+#: lib/Sabai/Addon/Field/Filter/Boolean.php:15
+#: lib/Sabai/Addon/Field/Filter/Boolean.php:53
+msgid "Checked"
+msgstr "Coché"
+
+#: lib/Sabai/Addon/Field/Filter/Boolean.php:16
+#: lib/Sabai/Addon/Field/Filter/Boolean.php:59
+msgid "Unchecked"
+msgstr "Décoché"
+
+#: lib/Sabai/Addon/Field/Filter/Boolean.php:27
+#: lib/Sabai/Addon/Field/Filter/Option.php:26
+#: lib/Sabai/Addon/FieldUI/Controller/Admin/CreateField.php:72
+#: lib/Sabai/Addon/FieldUI/Controller/Admin/EditFieldWidget.php:29
+#: lib/Sabai/Addon/Voting/RatingFieldFilter.php:23
+msgid "Form element type"
+msgstr ""
+
+#: lib/Sabai/Addon/Field/Filter/Boolean.php:29
+#: lib/Sabai/Addon/Field/Widget/Checkbox.php:7
+msgid "Single checkbox"
+msgstr ""
+
+#: lib/Sabai/Addon/Field/Filter/Boolean.php:29
+#: lib/Sabai/Addon/Field/Filter/Option.php:28
+#: lib/Sabai/Addon/Field/Widget/RadioButtons.php:7
+#: lib/Sabai/Addon/Voting/RatingFieldFilter.php:25
+msgid "Radio buttons"
+msgstr "Boutons radio"
+
+#: lib/Sabai/Addon/Field/Filter/Boolean.php:29
+#: lib/Sabai/Addon/Field/Filter/Option.php:28
+#: lib/Sabai/Addon/Field/Widget/Select.php:7
+#: lib/Sabai/Addon/Field/Widget/User.php:9
+#: lib/Sabai/Addon/Taxonomy/FieldFilter.php:9
+#: lib/Sabai/Addon/Taxonomy/FieldWidget.php:30
+#: lib/Sabai/Addon/Taxonomy/SelectFieldWidget.php:7
+#: lib/Sabai/Addon/Voting/RatingFieldFilter.php:25
+msgid "Select list"
+msgstr "Liste de Sélection"
+
+#: lib/Sabai/Addon/Field/Filter/Boolean.php:35
+#: lib/Sabai/Addon/Field/Filter/Option.php:36
+#: lib/Sabai/Addon/Field/Widget/Checkboxes.php:22
+#: lib/Sabai/Addon/Field/Widget/RadioButtons.php:21
+#: lib/Sabai/Addon/Voting/RatingFieldFilter.php:31
+msgid "Display inline"
+msgstr ""
+
+#: lib/Sabai/Addon/Field/Filter/Boolean.php:36
+#: lib/Sabai/Addon/Field/Filter/Option.php:37
+#: lib/Sabai/Addon/Field/Widget/Checkboxes.php:23
+#: lib/Sabai/Addon/Field/Widget/RadioButtons.php:22
+#: lib/Sabai/Addon/Voting/RatingFieldFilter.php:32
+msgid "Check this to align all options on the same line."
+msgstr ""
+
+#: lib/Sabai/Addon/Field/Filter/Boolean.php:45
+msgid "Option labels"
+msgstr ""
+
+#: lib/Sabai/Addon/Field/Filter/Boolean.php:69
+#: lib/Sabai/Addon/Field/Widget/Checkbox.php:21
+msgid "Checkbox label"
+msgstr ""
+
+#: lib/Sabai/Addon/Field/Filter/Boolean.php:70
+#: lib/Sabai/Addon/Field/Widget/Checkbox.php:22
+msgid "Enter the label displayed next to the checkbox."
+msgstr ""
+
+#: lib/Sabai/Addon/Field/Filter/Keyword.php:22
+msgid "Min. length of keywords in characters"
+msgstr "Longueur min. des mots clés en nb de caractères"
+
+#: lib/Sabai/Addon/Field/Filter/Keyword.php:41
+#: lib/Sabai/Addon/Field/Filter/Option.php:80
+msgid "Match any or all"
+msgstr "Correspondance avec un ou tous  "
+
+#: lib/Sabai/Addon/Field/Filter/Keyword.php:43
+#: lib/Sabai/Addon/Field/Filter/Keyword.php:66
+#: lib/Sabai/Addon/Field/Filter/Keyword.php:130
+#: lib/Sabai/Addon/Field/Filter/Option.php:82
+msgid "Match any"
+msgstr "Correspondance avec n’importe lequel"
+
+#: lib/Sabai/Addon/Field/Filter/Keyword.php:44
+#: lib/Sabai/Addon/Field/Filter/Keyword.php:66
+#: lib/Sabai/Addon/Field/Filter/Keyword.php:128
+#: lib/Sabai/Addon/Field/Filter/Option.php:82
+msgid "Match all"
+msgstr "Correspondance avec tous"
+
+#: lib/Sabai/Addon/Field/Filter/Option.php:9
+#: lib/Sabai/Addon/Field/Type/Choice.php:7
+msgid "Choice"
+msgstr ""
+
+#: lib/Sabai/Addon/Field/Filter/Option.php:28
+#: lib/Sabai/Addon/Field/Widget/Checkboxes.php:7
+msgid "Checkboxes"
+msgstr ""
+
+#: lib/Sabai/Addon/Field/Filter/Option.php:56
+msgid "Number of options to display"
+msgstr ""
+
+#: lib/Sabai/Addon/Field/Filter/Option.php:57
+msgid ""
+"If there are more options than the number specified here, those options will "
+"be displayed in a popup window."
+msgstr ""
+"S’il y a plus d’options que le nombre spécifié ici, ces options seront "
+"affichées dans une fenêtre popup."
+
+#: lib/Sabai/Addon/Field/Filter/Option.php:63
+msgid "Label for link to open popup window"
+msgstr ""
+
+#: lib/Sabai/Addon/Field/Filter/Option.php:64
+#, php-format
+msgid "More %s"
+msgstr "Plus %s"
+
+#: lib/Sabai/Addon/Field/Filter/Option.php:94
+#: lib/Sabai/Addon/Taxonomy/FieldFilter.php:29
+msgid "Default text"
+msgstr ""
+
+#: lib/Sabai/Addon/Field/Filter/Range.php:7
+#: lib/Sabai/Addon/Field/Widget/Range.php:7
+msgid "Range input field"
+msgstr ""
+
+#: lib/Sabai/Addon/Field/Filter/Range.php:33
+#: lib/Sabai/Addon/Field/Renderer/Default.php:121
+#: lib/Sabai/Addon/Field/Widget/Range.php:31
+msgid "Range separator"
+msgstr ""
+
+#: lib/Sabai/Addon/Field/Filter/Range.php:39
+#: lib/Sabai/Addon/Field/Widget/Range.php:37
+#: lib/Sabai/Addon/Field/Widget/Slider.php:32
+msgid "Range slider step"
+msgstr ""
+
+#: lib/Sabai/Addon/Field/Filter/Range.php:60
+#: lib/Sabai/Addon/Field/Widget/Range.php:59
+#: lib/Sabai/Addon/Field/Widget/Slider.php:54
+#, php-format
+msgid ""
+"The full specified value range of the slider (%s - %s) should be evenly "
+"divisible by the step"
+msgstr ""
+
+#: lib/Sabai/Addon/Field/Helper/Types.php:29
+#: lib/Sabai/Addon/Field/Helper/Types.php:30
+#: lib/Sabai/Addon/Field/Helper/Types.php:31
+msgid "Default"
+msgstr ""
+
+#: lib/Sabai/Addon/Field/Renderer/Carousel.php:10
+msgid "Carousel"
+msgstr ""
+
+#: lib/Sabai/Addon/Field/Renderer/Default.php:13
+#: lib/Sabai/Addon/Form/Field/YesNo.php:7
+#: lib/Sabai/Addon/Voting/Controller/Admin/Helpful.php:34
+#: lib/Sabai/Addon/Voting/Helper/RenderYesno.php:17
+msgid "Yes"
+msgstr "Oui"
+
+#: lib/Sabai/Addon/Field/Renderer/Default.php:14
+#: lib/Sabai/Addon/Form/Field/YesNo.php:7
+#: lib/Sabai/Addon/Voting/Controller/Admin/Helpful.php:34
+#: lib/Sabai/Addon/Voting/Helper/RenderYesno.php:18
+msgid "No"
+msgstr "Non"
+
+#: lib/Sabai/Addon/Field/Renderer/Default.php:63
+msgid "ON label"
+msgstr "Libellé ON"
+
+#: lib/Sabai/Addon/Field/Renderer/Default.php:69
+msgid "OFF label"
+msgstr ""
+
+#: lib/Sabai/Addon/Field/Renderer/Default.php:77
+msgid "Format"
+msgstr ""
+
+#: lib/Sabai/Addon/Field/Renderer/Default.php:80
+#: lib/Sabai/Addon/Field/Renderer/Default.php:164
+#: lib/Sabai/Addon/Field/Type/Link.php:7
+msgid "Link"
+msgstr ""
+
+#: lib/Sabai/Addon/Field/Renderer/Default.php:81
+msgid "Thumbnail (small)"
+msgstr ""
+
+#: lib/Sabai/Addon/Field/Renderer/Default.php:82
+msgid "Thumbnail (medium)"
+msgstr ""
+
+#: lib/Sabai/Addon/Field/Renderer/Default.php:83
+msgid "Thumbnail (large)"
+msgstr ""
+
+#: lib/Sabai/Addon/Field/Renderer/Default.php:84
+msgid "Thumbnail (small) with link"
+msgstr ""
+
+#: lib/Sabai/Addon/Field/Renderer/Default.php:85
+msgid "Thumbnail (medium) with link"
+msgstr ""
+
+#: lib/Sabai/Addon/Field/Renderer/Default.php:95
+#: lib/Sabai/Addon/Field/Renderer/Default.php:110
+msgid "Decimal point"
+msgstr ""
+
+#: lib/Sabai/Addon/Field/Renderer/Default.php:101
+#: lib/Sabai/Addon/Field/Renderer/Default.php:116
+msgid "Thousands separator"
+msgstr ""
+
+#: lib/Sabai/Addon/Field/Renderer/Default.php:130
+#: lib/Sabai/Addon/Social/FieldRenderer.php:27
+msgid "Open link in"
+msgstr ""
+
+#: lib/Sabai/Addon/Field/Renderer/Default.php:133
+#: lib/Sabai/Addon/Social/FieldRenderer.php:30
+msgid "Current window"
+msgstr ""
+
+#: lib/Sabai/Addon/Field/Renderer/Default.php:134
+#: lib/Sabai/Addon/Social/FieldRenderer.php:31
+msgid "New window"
+msgstr ""
+
+#: lib/Sabai/Addon/Field/Renderer/Default.php:141
+#: lib/Sabai/Addon/Social/FieldRenderer.php:37
+msgid "Add to rel attribute"
+msgstr ""
+
+#: lib/Sabai/Addon/Field/Renderer/Default.php:146
+#: lib/Sabai/Addon/Social/FieldRenderer.php:41
+msgid "Add \"nofollow\""
+msgstr ""
+
+#: lib/Sabai/Addon/Field/Renderer/Default.php:147
+#: lib/Sabai/Addon/Social/FieldRenderer.php:42
+msgid "Add \"external\""
+msgstr ""
+
+#: lib/Sabai/Addon/Field/Renderer/Default.php:152
+msgid "Show link as"
+msgstr ""
+
+#: lib/Sabai/Addon/Field/Renderer/Default.php:158
+msgid "Text link"
+msgstr ""
+
+#: lib/Sabai/Addon/Field/Renderer/Default.php:158
+msgid "Button"
+msgstr ""
+
+#: lib/Sabai/Addon/Field/Renderer/Text.php:19
+msgid "Trim text"
+msgstr ""
+
+#: lib/Sabai/Addon/Field/Renderer/Text.php:23
+msgid "Maximum number of characters:"
+msgstr ""
+
+#: lib/Sabai/Addon/Field/Renderer/Text.php:36
+msgid "Suffix text:"
+msgstr ""
+
+#: lib/Sabai/Addon/Field/Renderer/Video.php:19
+#: lib/Sabai/Addon/File/FieldRenderer.php:46
+msgid "Number of columns"
+msgstr "Nombre de colonnes"
+
+#: lib/Sabai/Addon/Field/Type/AbstractType.php:61
+msgid "The value must be greater than the first value."
+msgstr ""
+
+#: lib/Sabai/Addon/Field/Type/CAPTCHA.php:7
+msgid "CAPTCHA"
+msgstr ""
+
+#: lib/Sabai/Addon/Field/Type/Choice.php:21
+msgid "Options"
+msgstr ""
+
+#: lib/Sabai/Addon/Field/Type/Email.php:7
+msgid "Email"
+msgstr ""
+
+#: lib/Sabai/Addon/Field/Type/HTML.php:7
+#: lib/Sabai/Addon/Field/Widget/HTML.php:23
+msgid "HTML"
+msgstr ""
+
+#: lib/Sabai/Addon/Field/Type/Number.php:7
+msgid "Number"
+msgstr ""
+
+#: lib/Sabai/Addon/Field/Type/Number.php:26
+#: lib/Sabai/Addon/Field/Type/Range.php:26
+msgid "Minimum"
+msgstr ""
+
+#: lib/Sabai/Addon/Field/Type/Number.php:27
+#: lib/Sabai/Addon/Field/Type/Range.php:27
+msgid "The minimum value allowed in this field."
+msgstr ""
+
+#: lib/Sabai/Addon/Field/Type/Number.php:35
+#: lib/Sabai/Addon/Field/Type/Range.php:35
+msgid "Maximum"
+msgstr ""
+
+#: lib/Sabai/Addon/Field/Type/Number.php:36
+#: lib/Sabai/Addon/Field/Type/Range.php:36
+msgid "The maximum value allowed in this field."
+msgstr ""
+
+#: lib/Sabai/Addon/Field/Type/Number.php:44
+#: lib/Sabai/Addon/Field/Type/Range.php:44
+msgid "Decimals"
+msgstr ""
+
+#: lib/Sabai/Addon/Field/Type/Number.php:45
+#: lib/Sabai/Addon/Field/Type/Range.php:45
+msgid "The number of digits to the right of the decimal point."
+msgstr ""
+
+#: lib/Sabai/Addon/Field/Type/Number.php:46
+#: lib/Sabai/Addon/Field/Type/Range.php:46
+msgid "0 (no decimals)"
+msgstr ""
+
+#: lib/Sabai/Addon/Field/Type/Number.php:52
+#: lib/Sabai/Addon/Field/Type/Range.php:52
+#: lib/Sabai/Addon/Field/Widget/Textfield.php:38
+msgid "Field prefix"
+msgstr ""
+
+#: lib/Sabai/Addon/Field/Type/Number.php:53
+#: lib/Sabai/Addon/Field/Type/Range.php:53
+#: lib/Sabai/Addon/Field/Widget/Textfield.php:39
+msgid "Example: $, #, -"
+msgstr ""
+
+#: lib/Sabai/Addon/Field/Type/Number.php:60
+#: lib/Sabai/Addon/Field/Type/Range.php:60
+#: lib/Sabai/Addon/Field/Widget/Textfield.php:46
+msgid "Field suffix"
+msgstr ""
+
+#: lib/Sabai/Addon/Field/Type/Number.php:61
+#: lib/Sabai/Addon/Field/Type/Range.php:61
+#: lib/Sabai/Addon/Field/Widget/Textfield.php:47
+msgid "Example: km, %, g"
+msgstr ""
+
+#: lib/Sabai/Addon/Field/Type/Phone.php:7
+msgid "Phone Number"
+msgstr ""
+
+#: lib/Sabai/Addon/Field/Type/Range.php:7
+msgid "Range"
+msgstr ""
+
+#: lib/Sabai/Addon/Field/Type/SectionBreak.php:7
+#: lib/Sabai/Addon/Field/Widget/SectionBreak.php:7
+msgid "Section Break"
+msgstr ""
+
+#: lib/Sabai/Addon/Field/Type/String.php:7
+msgid "Single Line Text"
+msgstr ""
+
+#: lib/Sabai/Addon/Field/Type/String.php:39
+msgid "Character validation"
+msgstr ""
+
+#: lib/Sabai/Addon/Field/Type/String.php:41
+msgid "Allow only integer numbers"
+msgstr ""
+
+#: lib/Sabai/Addon/Field/Type/String.php:42
+msgid "Allow only alphabetic characters"
+msgstr ""
+
+#: lib/Sabai/Addon/Field/Type/String.php:43
+msgid "Allow only alphanumeric characters"
+msgstr ""
+
+#: lib/Sabai/Addon/Field/Type/String.php:44
+msgid "Allow only lowercase characters"
+msgstr ""
+
+#: lib/Sabai/Addon/Field/Type/String.php:45
+msgid "Allow only uppercase characters"
+msgstr ""
+
+#: lib/Sabai/Addon/Field/Type/String.php:46
+msgid "Must be a valid URL"
+msgstr ""
+
+#: lib/Sabai/Addon/Field/Type/String.php:47
+msgid "Must be a valid e-mail address"
+msgstr ""
+
+#: lib/Sabai/Addon/Field/Type/String.php:48
+msgid "Must match a regular expression"
+msgstr "Doit correspondre à une expression régulière"
+
+#: lib/Sabai/Addon/Field/Type/String.php:49
+msgid "No validation"
+msgstr ""
+
+#: lib/Sabai/Addon/Field/Type/String.php:55
+msgid "Regular Expression"
+msgstr ""
+
+#: lib/Sabai/Addon/Field/Type/String.php:56
+msgid "Example: /^[0-9a-z]+$/i"
+msgstr ""
+
+#: lib/Sabai/Addon/Field/Type/String.php:68
+msgid "Input mask"
+msgstr ""
+
+#: lib/Sabai/Addon/Field/Type/String.php:69
+msgid ""
+"Use \"a\" to mask letter inputs (A-Z,a-z), \"9\" for numbers (0-9) and \"*\" "
+"for both."
+msgstr ""
+
+#: lib/Sabai/Addon/Field/Type/Text.php:7
+msgid "Paragraph Text"
+msgstr ""
+
+#: lib/Sabai/Addon/Field/Type/User.php:7
+msgctxt "field type"
+msgid "User"
+msgstr ""
+
+#: lib/Sabai/Addon/Field/Type/Video.php:7
+msgid "Video"
+msgstr ""
+
+#: lib/Sabai/Addon/Field/Widget/Checkbox.php:27
+msgid "Make this field checked by default"
+msgstr ""
+
+#: lib/Sabai/Addon/Field/Widget/Email.php:18
+msgid ""
+"Auto-populate e-mail address field with the current user's e-mail address"
+msgstr ""
+
+#: lib/Sabai/Addon/Field/Widget/HTML.php:7
+msgid "HTML fragment"
+msgstr ""
+
+#: lib/Sabai/Addon/Field/Widget/Link.php:7
+msgid "Link field"
+msgstr ""
+
+#: lib/Sabai/Addon/Field/Widget/Link.php:32
+msgid "Default link title"
+msgstr "Titre du lien par défaut"
+
+#: lib/Sabai/Addon/Field/Widget/Link.php:40
+msgid "Do not allow custom link title"
+msgstr "Titre du lien non personnalisable"
+
+#: lib/Sabai/Addon/Field/Widget/Link.php:64
+#: lib/Sabai/Addon/Field/Widget/Link.php:93
+msgid "Link Title:"
+msgstr "Titre du lien :"
+
+#: lib/Sabai/Addon/Field/Widget/Select.php:35
+#: lib/Sabai/Addon/Field/Widget/Select.php:57
+msgid "- Select -"
+msgstr "- Sélectionner -"
+
+#: lib/Sabai/Addon/Field/Widget/Slider.php:7
+msgid "Slider input field"
+msgstr ""
+
+#: lib/Sabai/Addon/Field/Widget/Textarea.php:7
+msgid "Textarea field"
+msgstr ""
+
+#: lib/Sabai/Addon/Field/Widget/Textarea.php:22
+#: lib/Sabai/Addon/Markdown/FieldWidget.php:23
+#: lib/Sabai/Addon/WordPress/EditorFieldWidget.php:33
+msgid "Rows"
+msgstr ""
+
+#: lib/Sabai/Addon/Field/Widget/Textarea.php:29
+msgid "Preserve line breaks"
+msgstr ""
+
+#: lib/Sabai/Addon/Field/Widget/Textfield.php:26
+msgid "Auto-populate field"
+msgstr ""
+
+#: lib/Sabai/Addon/Field/Widget/Textfield.php:28
+msgid "Do not auto-populate"
+msgstr ""
+
+#: lib/Sabai/Addon/Field/Widget/Textfield.php:29
+msgid "E-mail address of current user"
+msgstr ""
+
+#: lib/Sabai/Addon/Field/Widget/Textfield.php:30
+msgid "Website URL of current user"
+msgstr ""
+
+#: lib/Sabai/Addon/Field/Widget/Textfield.php:31
+msgid "User name of current user"
+msgstr ""
+
+#: lib/Sabai/Addon/Field/Widget/Textfield.php:32
+msgid "Display name of current user"
+msgstr ""
+
+#: lib/Sabai/Addon/Field/Widget/User.php:28
+msgid "Set current user selected by default"
+msgstr "Réglez / Sélectionnez par défaut l'utilisateur actuel"
+
+#: lib/Sabai/Addon/Field/Widget/User.php:33
+msgid "Enable enhanced user interface (recommended)"
+msgstr ""
+
+#: lib/Sabai/Addon/Field/Widget/User.php:52
+#: lib/Sabai/Addon/Field/Widget/User.php:116
+#: lib/Sabai/Addon/Form/Field/User.php:23
+msgid "Select User"
+msgstr "Sélectionner un utilisateur"
+
+#: lib/Sabai/Addon/Field/Widget/Video.php:7
+msgid "Video field"
+msgstr ""
+
+#: lib/Sabai/Addon/Field/Widget/Video.php:28
+#: lib/Sabai/Addon/Field/Widget/Video.php:48
+msgid "Video ID:"
+msgstr ""
+
+#: lib/Sabai/Addon/Field/Widget/reCAPTCHA.php:25
+msgid "reCAPTCHA theme"
+msgstr ""
+
+#: lib/Sabai/Addon/Field/Widget/reCAPTCHA.php:27
+msgctxt "reCAPTCHA theme"
+msgid "Light"
+msgstr ""
+
+#: lib/Sabai/Addon/Field/Widget/reCAPTCHA.php:28
+msgctxt "reCAPTCHA theme"
+msgid "Dark"
+msgstr ""
+
+#: lib/Sabai/Addon/Field/Widget/reCAPTCHA.php:34
+msgid "reCAPTCHA type"
+msgstr ""
+
+#: lib/Sabai/Addon/Field/Widget/reCAPTCHA.php:36
+msgctxt "reCAPTCHA type"
+msgid "Image"
+msgstr ""
+
+#: lib/Sabai/Addon/Field/Widget/reCAPTCHA.php:37
+msgctxt "reCAPTCHA type"
+msgid "Audio"
+msgstr ""
+
+#: lib/Sabai/Addon/Field/Widget/reCAPTCHA.php:97
+#: lib/Sabai/Addon/Form/Field/Options.php:235
+#: lib/Sabai/Addon/Form/Field/Range.php:68
+#: lib/Sabai/Addon/Form/Field/Slider.php:60
+#: lib/Sabai/Addon/Form/Field/Text.php:87
+#: lib/Sabai/Addon/Form/Helper/ValidateText.php:26
+#: lib/Sabai/Addon/Voting/RatingFormField.php:91
+msgid "Please fill out this field."
+msgstr "Merci de remplir ce champ."
+
+#: lib/Sabai/Addon/Field/Widget/reCAPTCHA.php:114
+#, php-format
+msgid "Failed verifying reCAPTCHA input: %s"
+msgstr ""
+
+#: lib/Sabai/Addon/FieldUI.php:78
+msgctxt "sabai"
+msgid "Manage Form"
+msgstr ""
+
+#: lib/Sabai/Addon/FieldUI.php:78
+msgctxt "admin-tab"
+msgid "Fields"
+msgstr ""
+
+#: lib/Sabai/Addon/FieldUI.php:80
+msgctxt "sabai"
+msgid "Manage Filters"
+msgstr "Gérer les filtres"
+
+#: lib/Sabai/Addon/FieldUI.php:86 lib/Sabai/Addon/FieldUI.php:100
+msgid ""
+"One or more fields have not been saved. You must save or delete these fields "
+"first before submitting the form."
+msgstr ""
+
+#: lib/Sabai/Addon/FieldUI.php:87 lib/Sabai/Addon/FieldUI.php:101
+msgid ""
+"You have made changes but it has not been saved. You must submit the form "
+"for the changes to be saved permanently."
+msgstr ""
+
+#: lib/Sabai/Addon/FieldUI.php:88 lib/Sabai/Addon/FieldUI.php:102
+#: lib/Sabai/Addon/Form/Field/Options.php:96
+#: lib/Sabai/Addon/Form/Field/Options.php:115
+#: lib/Sabai/Addon/Form/Field/Options.php:136
+msgid "Are you sure?"
+msgstr "Êtes-vous sûr ?"
+
+#: lib/Sabai/Addon/FieldUI/Controller/Admin/CreateField.php:11
+#: lib/Sabai/Addon/FieldUI/Controller/Admin/CreateFilterField.php:11
+msgid "Add Field"
+msgstr "Ajouter un champ"
+
+#: lib/Sabai/Addon/FieldUI/Controller/Admin/CreateField.php:34
+#: lib/Sabai/Addon/FieldUI/Controller/Admin/CreateField.php:39
+#: lib/Sabai/Addon/FieldUI/Controller/Admin/CreateField.php:46
+#: lib/Sabai/Addon/FieldUI/Controller/Admin/CreateField.php:50
+#: lib/Sabai/Addon/FieldUI/Controller/Admin/CreateField.php:56
+#: lib/Sabai/Addon/FieldUI/Controller/Admin/CreateField.php:96
+#: lib/Sabai/Addon/FieldUI/Controller/Admin/CreateFilterField.php:32
+#: lib/Sabai/Addon/FieldUI/Controller/Admin/CreateFilterField.php:65
+#: lib/Sabai/Addon/FieldUI/Controller/Admin/EditField.php:31
+#: lib/Sabai/Addon/FieldUI/Controller/Admin/EditFilterField.php:30
+#: lib/Sabai/Addon/FieldUI/Controller/Admin/EditFilterFieldFilter.php:20
+msgid "Invalid field type."
+msgstr ""
+
+#: lib/Sabai/Addon/FieldUI/Controller/Admin/CreateField.php:68
+#: lib/Sabai/Addon/FieldUI/Controller/Admin/CreateFilterField.php:45
+msgid "Next"
+msgstr "Suiv"
+
+#: lib/Sabai/Addon/FieldUI/Controller/Admin/CreateField.php:73
+#: lib/Sabai/Addon/FieldUI/Controller/Admin/EditFieldWidget.php:30
+msgid ""
+"Select the type of form element you would like to present to the user when "
+"editing this field."
+msgstr ""
+
+#: lib/Sabai/Addon/FieldUI/Controller/Admin/CreateField.php:122
+#: lib/Sabai/Addon/FieldUI/Controller/Admin/CreateField.php:133
+#: lib/Sabai/Addon/FieldUI/Controller/Admin/CreateFilterField.php:87
+msgid "Field name"
+msgstr ""
+
+#: lib/Sabai/Addon/FieldUI/Controller/Admin/CreateField.php:134
+#: lib/Sabai/Addon/FieldUI/Controller/Admin/CreateFilterField.php:88
+msgid ""
+"Enter a machine readable name for this form field. Only lowercase "
+"alphanumeric characters and underscores are allowed."
+msgstr ""
+
+#: lib/Sabai/Addon/FieldUI/Controller/Admin/CreateField.php:148
+#: lib/Sabai/Addon/FieldUI/Controller/Admin/EditField.php:76
+msgid "Field Settings"
+msgstr "Enregistrer les paramètres du champ"
+
+#: lib/Sabai/Addon/FieldUI/Controller/Admin/CreateField.php:155
+#: lib/Sabai/Addon/FieldUI/Controller/Admin/EditField.php:83
+msgid "Display Settings"
+msgstr "Paramètres d’affichage"
+
+#: lib/Sabai/Addon/FieldUI/Controller/Admin/CreateField.php:162
+#: lib/Sabai/Addon/FieldUI/Controller/Admin/EditField.php:90
+msgid "Access Control Settings"
+msgstr ""
+
+#: lib/Sabai/Addon/FieldUI/Controller/Admin/CreateField.php:169
+#: lib/Sabai/Addon/FieldUI/Controller/Admin/EditField.php:97
+msgid "Advanced Settings"
+msgstr ""
+
+#: lib/Sabai/Addon/FieldUI/Controller/Admin/CreateField.php:177
+#: lib/Sabai/Addon/FieldUI/Controller/Admin/CreateFilterField.php:108
+#: lib/Sabai/Addon/FieldUI/Controller/Admin/EditField.php:116
+#: lib/Sabai/Addon/FieldUI/Controller/Admin/EditFilterField.php:89
+#: lib/Sabai/Addon/Form/Field/Options.php:42
+msgid "Label"
+msgstr ""
+
+#: lib/Sabai/Addon/FieldUI/Controller/Admin/CreateField.php:186
+#: lib/Sabai/Addon/FieldUI/Controller/Admin/CreateFilterField.php:117
+#: lib/Sabai/Addon/FieldUI/Controller/Admin/EditField.php:126
+#: lib/Sabai/Addon/FieldUI/Controller/Admin/EditFilterField.php:98
+msgid "Hide label"
+msgstr ""
+
+#: lib/Sabai/Addon/FieldUI/Controller/Admin/CreateField.php:193
+#: lib/Sabai/Addon/FieldUI/Controller/Admin/CreateFilterField.php:122
+#: lib/Sabai/Addon/FieldUI/Controller/Admin/EditField.php:145
+#: lib/Sabai/Addon/FieldUI/Controller/Admin/EditFilterField.php:104
+#: lib/Sabai/Addon/System.php:806 lib/Sabai/Addon/System.php:815
+msgid "Description"
+msgstr ""
+
+#: lib/Sabai/Addon/FieldUI/Controller/Admin/CreateField.php:194
+#: lib/Sabai/Addon/FieldUI/Controller/Admin/CreateFilterField.php:123
+#: lib/Sabai/Addon/FieldUI/Controller/Admin/EditField.php:146
+#: lib/Sabai/Addon/FieldUI/Controller/Admin/EditFilterField.php:105
+msgid "Enter a short description of the field displayed to the user."
+msgstr ""
+
+#: lib/Sabai/Addon/FieldUI/Controller/Admin/CreateField.php:203
+#: lib/Sabai/Addon/FieldUI/Controller/Admin/EditField.php:161
+msgid "Required"
+msgstr ""
+
+#: lib/Sabai/Addon/FieldUI/Controller/Admin/CreateField.php:212
+#: lib/Sabai/Addon/FieldUI/Controller/Admin/CreateFilterField.php:130
+#: lib/Sabai/Addon/FieldUI/Controller/Admin/EditField.php:175
+#: lib/Sabai/Addon/FieldUI/Controller/Admin/EditFilterField.php:112
+msgid "Disabled"
+msgstr ""
+
+#: lib/Sabai/Addon/FieldUI/Controller/Admin/CreateField.php:225
+#: lib/Sabai/Addon/FieldUI/Controller/Admin/CreateField.php:247
+#: lib/Sabai/Addon/FieldUI/Controller/Admin/EditField.php:193
+#: lib/Sabai/Addon/FieldUI/Controller/Admin/EditField.php:215
+msgid "Maximum number of values"
+msgstr ""
+
+#: lib/Sabai/Addon/FieldUI/Controller/Admin/CreateField.php:226
+#: lib/Sabai/Addon/FieldUI/Controller/Admin/CreateField.php:248
+#: lib/Sabai/Addon/FieldUI/Controller/Admin/EditField.php:194
+#: lib/Sabai/Addon/FieldUI/Controller/Admin/EditField.php:216
+msgid "Maximum number of values users can enter for this field."
+msgstr ""
+
+#: lib/Sabai/Addon/FieldUI/Controller/Admin/CreateField.php:307
+#: lib/Sabai/Addon/FieldUI/Controller/Admin/EditField.php:303
+#, php-format
+msgid "Display Settings (%s)"
+msgstr ""
+
+#: lib/Sabai/Addon/FieldUI/Controller/Admin/CreateField.php:313
+#: lib/Sabai/Addon/FieldUI/Controller/Admin/EditField.php:309
+msgid "Display this field"
+msgstr ""
+
+#: lib/Sabai/Addon/FieldUI/Controller/Admin/CreateField.php:320
+#: lib/Sabai/Addon/FieldUI/Controller/Admin/EditField.php:316
+msgid "Field renderer"
+msgstr ""
+
+#: lib/Sabai/Addon/FieldUI/Controller/Admin/CreateField.php:321
+#: lib/Sabai/Addon/FieldUI/Controller/Admin/EditField.php:317
+msgid "A field renderer determines how the value of a field will be displayed."
+msgstr ""
+
+#: lib/Sabai/Addon/FieldUI/Controller/Admin/CreateField.php:338
+#: lib/Sabai/Addon/FieldUI/Controller/Admin/EditField.php:338
+msgid "Field title"
+msgstr "Titre du champ"
+
+#: lib/Sabai/Addon/FieldUI/Controller/Admin/CreateField.php:344
+#: lib/Sabai/Addon/FieldUI/Controller/Admin/EditField.php:344
+msgid "Use the form label"
+msgstr ""
+
+#: lib/Sabai/Addon/FieldUI/Controller/Admin/CreateField.php:344
+#: lib/Sabai/Addon/FieldUI/Controller/Admin/EditField.php:344
+msgid "Custom"
+msgstr ""
+
+#: lib/Sabai/Addon/FieldUI/Controller/Admin/CreateField.php:344
+#: lib/Sabai/Addon/FieldUI/Controller/Admin/EditField.php:344
+msgid "None"
+msgstr ""
+
+#: lib/Sabai/Addon/FieldUI/Controller/Admin/CreateField.php:374
+#: lib/Sabai/Addon/FieldUI/Controller/Admin/EditField.php:375
+msgid "Field value separator"
+msgstr ""
+
+#: lib/Sabai/Addon/FieldUI/Controller/Admin/CreateField.php:395
+#: lib/Sabai/Addon/FieldUI/Controller/Admin/EditField.php:396
+#, php-format
+msgid "Inherit display settings from %s"
+msgstr ""
+
+#: lib/Sabai/Addon/FieldUI/Controller/Admin/CreateField.php:418
+msgid ""
+"Select user roles to which this field is visible when submitting the form."
+msgstr ""
+
+#: lib/Sabai/Addon/FieldUI/Controller/Admin/CreateField.php:428
+#: lib/Sabai/Addon/FieldUI/Controller/Admin/EditField.php:430
+msgid "Select user roles that can view this field."
+msgstr "Sélectionnez les rôles des utilisateurs qui peuvent voir ce champ."
+
+#: lib/Sabai/Addon/FieldUI/Controller/Admin/CreateField.php:440
+#: lib/Sabai/Addon/FieldUI/Controller/Admin/EditField.php:269
+msgid "Default value"
+msgstr ""
+
+#: lib/Sabai/Addon/FieldUI/Controller/Admin/CreateField.php:473
+#: lib/Sabai/Addon/FieldUI/Controller/Admin/EditField.php:458
+msgid "Unlimited"
+msgstr ""
+
+#: lib/Sabai/Addon/FieldUI/Controller/Admin/CreateField.php:600
+#: lib/Sabai/Addon/FieldUI/Controller/Admin/CreateFilterField.php:206
+msgid "The name is already in use by another field."
+msgstr ""
+
+#: lib/Sabai/Addon/FieldUI/Controller/Admin/CreateFilterField.php:49
+#: lib/Sabai/Addon/FieldUI/Controller/Admin/EditFilterFieldFilter.php:33
+msgid "Select filter"
+msgstr "Sélectionner un filtre :"
+
+#: lib/Sabai/Addon/FieldUI/Controller/Admin/CreateFilterField.php:101
+#: lib/Sabai/Addon/FieldUI/Controller/Admin/EditFilterField.php:70
+msgid "Filter Settings"
+msgstr "Paramètres du filtre"
+
+#: lib/Sabai/Addon/FieldUI/Controller/Admin/EditField.php:107
+msgid "Form element type:"
+msgstr ""
+
+#: lib/Sabai/Addon/FieldUI/Controller/Admin/EditField.php:419
+msgid "Select user roles that can edit this field."
+msgstr "Sélectionnez les rôles des utilisateurs qui peuvent éditer ce champ."
+
+#: lib/Sabai/Addon/FieldUI/Controller/Admin/EditFieldWidget.php:15
+msgid "Invalid field."
+msgstr ""
+
+#: lib/Sabai/Addon/FieldUI/Controller/Admin/EditFilterField.php:83
+msgid "Filter type:"
+msgstr "Type de filtre"
+
+#: lib/Sabai/Addon/FieldUI/Controller/Admin/EditFilterField.php:84
+#, php-format
+msgctxt "filter_type"
+msgid "%s (target field: %s)"
+msgstr ""
+
+#: lib/Sabai/Addon/FieldUI/Helper/PreviewFilter.php:26
+#: lib/Sabai/Addon/FieldUI/Helper/PreviewWidget.php:22
+#, php-format
+msgid "%s (hidden)"
+msgstr ""
+
+#: lib/Sabai/Addon/FieldUI/Helper/PreviewWidget.php:22
+msgid "(hidden)"
+msgstr ""
+
+#: lib/Sabai/Addon/File.php:139
+#, php-format
+msgid "Deleted %d expired file upload token(s)."
+msgstr ""
+
+#: lib/Sabai/Addon/File.php:195
+#, php-format
+msgid "Failed saving file %s to the upload directory."
+msgstr ""
+
+#: lib/Sabai/Addon/File.php:305
+#, php-format
+msgid "File %s does not exist."
+msgstr "Le fichier %s n'existe pas."
+
+#: lib/Sabai/Addon/File.php:309
+#, php-format
+msgid "Failed opening stream for file %s."
+msgstr ""
+
+#: lib/Sabai/Addon/File.php:361
+msgid "File Attachments"
+msgstr ""
+
+#: lib/Sabai/Addon/File.php:414
+msgid "This post has one or more files attached."
+msgstr "Cette question a un ou plusieurs fichiers joints."
+
+#: lib/Sabai/Addon/File.php:426
+msgid "This post has one or more images attached."
+msgstr "Cette question a une ou plusieurs images jointes."
+
+#: lib/Sabai/Addon/File.php:453
+msgid "File upload directory"
+msgstr "Répertoire de téléchargement du fichier"
+
+#: lib/Sabai/Addon/File.php:456
+#, php-format
+msgid ""
+"Enter the path to a directory where uploaded files are stored. Leave blank "
+"to use the system default (%s). This directory must be writeable by the "
+"server."
+msgstr ""
+
+#: lib/Sabai/Addon/File.php:463
+msgid "Temporary file upload directory"
+msgstr "Répertoire de téléchargement de fichier temporaire"
+
+#: lib/Sabai/Addon/File.php:466
+#, php-format
+msgid ""
+"Enter the path to a directory where temporary uploaded files are stored. "
+"Leave blank to use the system default (%s). This directory must be writeable "
+"by the server."
+msgstr ""
+"Entrez le chemin vers le répertoire où les fichiers temporaires sont "
+"stockés. Laissez vide pour utiliser la valeur par défaut du système (%s). Ce "
+"répertoire doit être accessible en écriture par le serveur."
+
+#: lib/Sabai/Addon/File.php:473
+msgid "Thumbnail directory"
+msgstr "Répertoire Miniature"
+
+#: lib/Sabai/Addon/File.php:476
+#, php-format
+msgid ""
+"Enter the path to a directory where thumbnail files are stored. Leave blank "
+"to use the system default (%s). This directory must be writeable by the "
+"server and accessible by the web browser."
+msgstr ""
+
+#: lib/Sabai/Addon/File.php:483
+msgid "Thumbnail size"
+msgstr "Taille de la miniature"
+
+#: lib/Sabai/Addon/File.php:484
+msgid "Enter the dimension of thumbnail files in pixels."
+msgstr ""
+
+#: lib/Sabai/Addon/File.php:503
+msgid "Thumbnail resize method"
+msgstr "Méthode de redimensionnement Miniature"
+
+#: lib/Sabai/Addon/File.php:505
+msgid "Crop"
+msgstr ""
+
+#: lib/Sabai/Addon/File.php:505
+msgid "Scale"
+msgstr ""
+
+#: lib/Sabai/Addon/File.php:511
+msgid "Disable pretty URLs"
+msgstr ""
+
+#: lib/Sabai/Addon/File.php:525
+msgid "The path must be different fom the other two."
+msgstr ""
+
+#: lib/Sabai/Addon/File/CarouselFieldRenderer.php:10
+msgid "Photo size"
+msgstr "Dimension de la photo"
+
+#: lib/Sabai/Addon/File/CarouselFieldRenderer.php:13
+msgid "Thumbnail photo"
+msgstr ""
+
+#: lib/Sabai/Addon/File/CarouselFieldRenderer.php:14
+msgid "Medium size photo"
+msgstr "Photo de Taille moyenne"
+
+#: lib/Sabai/Addon/File/CarouselFieldRenderer.php:15
+msgid "Large size photo"
+msgstr "Photo grand format"
+
+#: lib/Sabai/Addon/File/CarouselFieldRenderer.php:16
+msgid "Original size photo"
+msgstr "Taille de la photo originale"
+
+#: lib/Sabai/Addon/File/Controller/UploadFile.php:34
+msgid "You have already uploaded enough files!"
+msgstr ""
+
+#: lib/Sabai/Addon/File/Controller/UploadFile.php:49
+#, php-format
+msgid "Failed uploading file. Error code: %d"
+msgstr ""
+
+#: lib/Sabai/Addon/File/Controller/UploadFile.php:54
+#: lib/Sabai/Addon/File/Controller/UploadFile.php:61
+msgid "Failed creating temporary file"
+msgstr ""
+
+#: lib/Sabai/Addon/File/Controller/UploadFile.php:65
+msgid "Failed opening temporary file with write permission"
+msgstr ""
+
+#: lib/Sabai/Addon/File/Controller/UploadFile.php:69
+msgid "Failed reading php input stream"
+msgstr ""
+
+#: lib/Sabai/Addon/File/FieldRenderer.php:34
+msgid "Image size"
+msgstr "Taille de l’image"
+
+#: lib/Sabai/Addon/File/FieldRenderer.php:37
+msgid "Thumbnail"
+msgstr ""
+
+#: lib/Sabai/Addon/File/FieldRenderer.php:38
+msgid "Medium size"
+msgstr ""
+
+#: lib/Sabai/Addon/File/FieldRenderer.php:39
+msgid "Large size"
+msgstr ""
+
+#: lib/Sabai/Addon/File/FieldRenderer.php:40
+msgid "Original size"
+msgstr ""
+
+#: lib/Sabai/Addon/File/FieldType.php:17
+msgid "File"
+msgstr ""
+
+#: lib/Sabai/Addon/File/FieldType.php:25
+msgid "Image"
+msgstr ""
+
+#: lib/Sabai/Addon/File/FieldWidget.php:7
+msgid "File upload field"
+msgstr ""
+
+#: lib/Sabai/Addon/File/FieldWidget.php:26
+msgid "Maximum file size"
+msgstr "Taille maximale d’un fichier :"
+
+#: lib/Sabai/Addon/File/FieldWidget.php:27
+msgid ""
+"The maximum file size of uploaded files in kilobytes. Leave this field blank "
+"for no limit."
+msgstr ""
+
+#: lib/Sabai/Addon/File/FieldWidget.php:40
+msgid "Allowed file extensions"
+msgstr ""
+
+#: lib/Sabai/Addon/File/FieldWidget.php:41
+msgid ""
+"Enter a list of allowed file extensions separated by commas (i.e. jpg, gif, "
+"png, pdf)."
+msgstr ""
+
+#: lib/Sabai/Addon/File/Helper/Save.php:7
+#, php-format
+msgid "Failed fetching content of file %s."
+msgstr ""
+
+#: lib/Sabai/Addon/File/Helper/Save.php:10
+#, php-format
+msgid "Failed generating hash value for file %s."
+msgstr ""
+
+#: lib/Sabai/Addon/File/Model/File.php:6
+#, php-format
+msgid "%.1fMB"
+msgstr ""
+
+#: lib/Sabai/Addon/File/Model/File.php:7
+#, php-format
+msgid "%.1fKB"
+msgstr ""
+
+#: lib/Sabai/Addon/File/Model/File.php:8
+#, php-format
+msgid "%dB"
+msgstr ""
+
+#: lib/Sabai/Addon/File/UploadFormField.php:18
+#, php-format
+msgid "Supported file formats: %s"
+msgstr "Formats de fichiers pris en charge: %s"
+
+#: lib/Sabai/Addon/File/UploadFormField.php:97
+msgid "There are currently no files uploaded."
+msgstr "Il n’y a encore aucun fichier téléchargé."
+
+#: lib/Sabai/Addon/File/UploadFormField.php:103
+#, php-format
+msgid "Maximum number of files %d, maximum file size %s."
+msgstr ""
+
+#: lib/Sabai/Addon/File/UploadFormField.php:104
+#, php-format
+msgid "Maximum file size %s."
+msgstr "Taille maximum du fichier : %s."
+
+#: lib/Sabai/Addon/File/UploadFormField.php:119
+msgid "File Name"
+msgstr "Nom du fichier"
+
+#: lib/Sabai/Addon/File/UploadFormField.php:123
+msgid "Size"
+msgstr "Taille"
+
+#: lib/Sabai/Addon/File/UploadFormField.php:273
+#, php-format
+msgid "You may not upload more than %d files."
+msgstr ""
+
+#: lib/Sabai/Addon/File/UploadFormField.php:372
+#, php-format
+msgid "You may not upload more than %d files"
+msgstr ""
+
+#: lib/Sabai/Addon/Form/Controller.php:47
+#: lib/Sabai/Platform/WordPress/Shortcode.php:75
+msgid "Redirecting..."
+msgstr ""
+
+#: lib/Sabai/Addon/Form/Controller.php:151
+#: lib/Sabai/Addon/Form/Controller.php:182
+#: lib/Sabai/Addon/Form/Controller.php:187
+#: lib/Sabai/Addon/Form/Controller.php:192
+#: lib/Sabai/Addon/Form/Controller.php:202
+msgid "cancel"
+msgstr "Annuler"
+
+#: lib/Sabai/Addon/Form/Controller.php:273
+#, php-format
+msgid "Sort by %s"
+msgstr "Trier par %s"
+
+#: lib/Sabai/Addon/Form/Field/Address.php:32
+msgid "Address Line 1"
+msgstr ""
+
+#: lib/Sabai/Addon/Form/Field/Address.php:42
+msgid "Address Line 2"
+msgstr ""
+
+#: lib/Sabai/Addon/Form/Field/Address.php:58
+msgid "City"
+msgstr ""
+
+#: lib/Sabai/Addon/Form/Field/Address.php:94
+msgid "State / Province / Region"
+msgstr ""
+
+#: lib/Sabai/Addon/Form/Field/Address.php:131
+msgid "Postal / Zip Code"
+msgstr ""
+
+#: lib/Sabai/Addon/Form/Field/Address.php:168
+msgid "Country"
+msgstr ""
+
+#: lib/Sabai/Addon/Form/Field/Autocomplete.php:159
+msgid "This field may not be empty."
+msgstr ""
+
+#: lib/Sabai/Addon/Form/Field/Autocomplete.php:179
+#: lib/Sabai/Addon/Form/Field/Text.php:94
+#, php-format
+msgid "Maximum of %d items is allowed for this field."
+msgstr ""
+
+#: lib/Sabai/Addon/Form/Field/Autocomplete.php:260
+msgid "No matches found"
+msgstr "Aucune correspondance trouvée"
+
+#: lib/Sabai/Addon/Form/Field/Autocomplete.php:261
+#, php-format
+msgid "Please enter %d or more characters"
+msgstr "S'il vous plaît entrez %d caractères ou plus"
+
+#: lib/Sabai/Addon/Form/Field/Checkbox.php:17
+#: lib/Sabai/Addon/Form/Field/Radio.php:22
+#: lib/Sabai/Addon/Form/Field/Radios.php:70
+#: lib/Sabai/Addon/Form/Field/TableSelect.php:159
+msgid "Selection required."
+msgstr "Sélection requise"
+
+#: lib/Sabai/Addon/Form/Field/Checkbox.php:26
+#: lib/Sabai/Addon/Form/Field/Radio.php:29
+#: lib/Sabai/Addon/Form/Field/Radios.php:92
+#: lib/Sabai/Addon/Form/Field/Select.php:46
+#: lib/Sabai/Addon/Form/Field/TableSelect.php:175
+msgid "Invalid option selected."
+msgstr "Option sélectionnée invalide."
+
+#: lib/Sabai/Addon/Form/Field/Checkboxes.php:17
+#, php-format
+msgid "Maximum of %d selections allowed."
+msgstr "Maximum de %d sélections permis."
+
+#: lib/Sabai/Addon/Form/Field/File.php:22
+#: lib/Sabai/Addon/Form/Field/File.php:84
+#: lib/Sabai/Addon/Form/Field/File.php:97
+msgid "File must be uploaded."
+msgstr ""
+
+#: lib/Sabai/Addon/Form/Field/Grid.php:18
+#: lib/Sabai/Addon/Form/Field/TableSelect.php:11
+msgid "No records found."
+msgstr ""
+
+#: lib/Sabai/Addon/Form/Field/Options.php:43
+msgid "Value"
+msgstr ""
+
+#: lib/Sabai/Addon/Form/Field/Options.php:144
+msgid "Add from CSV"
+msgstr ""
+
+#: lib/Sabai/Addon/Form/Field/Options.php:223
+#: lib/Sabai/Addon/Form/Helper/ValidateText.php:135
+#, php-format
+msgid "The input value did not match the regular expression: %s"
+msgstr ""
+
+#: lib/Sabai/Addon/Form/Field/Options.php:241
+msgid "Please select at least one option."
+msgstr "Veuillez sélectionner au moins une option."
+
+#: lib/Sabai/Addon/Form/Field/Range.php:90
+#: lib/Sabai/Addon/Form/Field/Slider.php:69
+#, php-format
+msgid "The input range must be between %s and %s."
+msgstr ""
+
+#: lib/Sabai/Addon/Form/Field/Select.php:28
+#: lib/Sabai/Addon/Form/Field/Select.php:56
+msgid "Selection is required for this field."
+msgstr "La sélection est obligatoire pour ce champ."
+
+#: lib/Sabai/Addon/Form/Field/Select.php:66
+#, php-format
+msgid "Maximum of %d selections is allowed for this field."
+msgstr "Un maximum de %d sélections est autorisé pour ce champ."
+
+#: lib/Sabai/Addon/Form/Field/Submit.php:13
+#: lib/Sabai/Addon/Form/Helper/SubmitButtons.php:12
+#: lib/Sabai/Addon/Voting/Controller/VoteEntityForm.php:75
+msgid "Submit"
+msgstr "Envoyer"
+
+#: lib/Sabai/Addon/Form/Field/Token.php:19
+msgid "Invalid token"
+msgstr ""
+
+#: lib/Sabai/Addon/Form/Form.php:439 lib/Sabai/Addon/Form/Form.php:456
+#: lib/Sabai/Addon/Form/Form.php:488 lib/Sabai/Addon/Form/Form.php:611
+msgid "An error occurred while processing the form."
+msgstr "Une erreur s'est produite lors du traitement du formulaire."
+
+#: lib/Sabai/Addon/Form/Form.php:592
+msgid "Please correct the error(s) below."
+msgstr "Veuillez corriger le ou les erreur(s) ci-dessous."
+
+#: lib/Sabai/Addon/Form/Helper/ValidateText.php:35
+msgid "The input value must be an integer."
+msgstr ""
+
+#: lib/Sabai/Addon/Form/Helper/ValidateText.php:40
+msgid "The input value must be numeric."
+msgstr "Ce champ doit être un numérique"
+
+#: lib/Sabai/Addon/Form/Helper/ValidateText.php:45
+msgid "The input value must consist of alphabets only."
+msgstr "La valeur d'entrée doit être composé de lettres."
+
+#: lib/Sabai/Addon/Form/Helper/ValidateText.php:50
+msgid "The input value must consist of alphanumeric characters only."
+msgstr ""
+"La valeur d'entrée doit être composé de caractères alphanumériques "
+"uniquement."
+
+#: lib/Sabai/Addon/Form/Helper/ValidateText.php:55
+msgid "The input value must consist of lowercasae characters only."
+msgstr ""
+"La valeur saisie doit être composée de caractères minuscules uniquement."
+
+#: lib/Sabai/Addon/Form/Helper/ValidateText.php:60
+msgid "The input value must consist of uppercase characters only."
+msgstr ""
+"La valeur saisie doit être composée de caractères majuscules uniquement."
+
+#: lib/Sabai/Addon/Form/Helper/ValidateText.php:79
+msgid "The input value is not a valid URL."
+msgstr "La valeur saisie n'est pas une URL valide."
+
+#: lib/Sabai/Addon/Form/Helper/ValidateText.php:84
+msgid "The input value is not a valid E-mail address."
+msgstr "﻿saisissez une adresse e-mail valide"
+
+#: lib/Sabai/Addon/Form/Helper/ValidateText.php:96
+#, php-format
+msgid "The input value must be %d characters."
+msgstr "La valeur saisie doit avoir %d caractères."
+
+#: lib/Sabai/Addon/Form/Helper/ValidateText.php:101
+#, php-format
+msgid "The input value must be between %d and %d characters."
+msgstr "La valeur saisie doit être comprise entre %d et %d caractères."
+
+#: lib/Sabai/Addon/Form/Helper/ValidateText.php:107
+#, php-format
+msgid "The input value must be shorter than %d characters."
+msgstr "La valeur saisie doit être inférieure à %d caractères."
+
+#: lib/Sabai/Addon/Form/Helper/ValidateText.php:112
+#, php-format
+msgid "The input value must be longer than %d characters."
+msgstr "La valeur saisie doit être supérieure à %d caractères."
+
+#: lib/Sabai/Addon/Form/Helper/ValidateText.php:120
+#, php-format
+msgid "The value must be equal or greater than %s."
+msgstr "La valeur doit être supérieure ou égale à %s."
+
+#: lib/Sabai/Addon/Form/Helper/ValidateText.php:126
+#, php-format
+msgid "The value must not be greater than %s."
+msgstr "La valeur ne doit pas être supérieure à %s."
+
+#: lib/Sabai/Addon/Form/MultiStepController.php:52
+msgid "Next step"
+msgstr "Etape Suivante"
+
+#: lib/Sabai/Addon/Form/MultiStepController.php:52
+msgid "Save"
+msgstr "Sauvegarder"
+
+#: lib/Sabai/Addon/Form/MultiStepController.php:59
+msgid "Previous"
+msgstr "Précédent"
+
+#: lib/Sabai/Addon/Markdown.php:43
+msgid "Enable markdown help"
+msgstr ""
+
+#: lib/Sabai/Addon/Markdown.php:49
+msgid "Help URL"
+msgstr ""
+
+#: lib/Sabai/Addon/Markdown.php:50
+msgid ""
+"Enter the URL of a page that will open up in a popup window when the help "
+"button on the Markdown editor is clicked."
+msgstr ""
+
+#: lib/Sabai/Addon/Markdown.php:62
+msgid "Help window dimension"
+msgstr ""
+
+#: lib/Sabai/Addon/Markdown.php:63
+msgid "Enter the dimension of the popup help window in pixels."
+msgstr ""
+
+#: lib/Sabai/Addon/Markdown/FieldWidget.php:7
+msgid "Markdown editor"
+msgstr ""
+
+#: lib/Sabai/Addon/Markdown/FieldWidget.php:30
+msgid "Hide editor buttons"
+msgstr ""
+
+#: lib/Sabai/Addon/Markdown/FieldWidget.php:35
+msgid "Hide preview"
+msgstr "Masquer l'aperçu"
+
+#: lib/Sabai/Addon/Markdown/FormField.php:88
+msgid "Strong <strong> Ctrl+B  4"
+msgstr ""
+
+#: lib/Sabai/Addon/Markdown/FormField.php:89
+msgid "strong text"
+msgstr ""
+
+#: lib/Sabai/Addon/Markdown/FormField.php:90
+msgid "Emphasis <em> Ctrl+I"
+msgstr ""
+
+#: lib/Sabai/Addon/Markdown/FormField.php:91
+msgid "emphasized text"
+msgstr ""
+
+#: lib/Sabai/Addon/Markdown/FormField.php:92
+msgid "Hyperlink <a> Ctrl+L"
+msgstr ""
+
+#: lib/Sabai/Addon/Markdown/FormField.php:93
+msgid "enter link description here"
+msgstr ""
+
+#: lib/Sabai/Addon/Markdown/FormField.php:94
+msgid "<h2>Insert Hyperlink</h2><p>http://example.com/ \"optional title\"</p>"
+msgstr ""
+
+#: lib/Sabai/Addon/Markdown/FormField.php:95
+msgid "Blockquote <blockquote> Ctrl+Q"
+msgstr "Bloc de citation <blockquote> Ctrl+Q"
+
+#: lib/Sabai/Addon/Markdown/FormField.php:96
+msgid "Blockquote"
+msgstr "Citation"
+
+#: lib/Sabai/Addon/Markdown/FormField.php:97
+msgid "Code Sample <pre><code> Ctrl+K"
+msgstr "Exemple de code <pre> <code> Ctrl+K"
+
+#: lib/Sabai/Addon/Markdown/FormField.php:98
+msgid "enter code here"
+msgstr ""
+
+#: lib/Sabai/Addon/Markdown/FormField.php:99
+msgid "Image <img> Ctrl+G"
+msgstr ""
+
+#: lib/Sabai/Addon/Markdown/FormField.php:100
+msgid "enter image description here"
+msgstr "entrez la description de l'image ici"
+
+#: lib/Sabai/Addon/Markdown/FormField.php:101
+msgid ""
+"<h2>Insert Image</h2><p>http://example.com/images/diagram.jpg \"optional "
+"title\"</p>"
+msgstr ""
+
+#: lib/Sabai/Addon/Markdown/FormField.php:102
+msgid "Numbered List <ol> Ctrl+O"
+msgstr ""
+
+#: lib/Sabai/Addon/Markdown/FormField.php:103
+msgid "Bulleted List <ul> Ctrl+U"
+msgstr ""
+
+#: lib/Sabai/Addon/Markdown/FormField.php:104
+msgid "List item"
+msgstr ""
+
+#: lib/Sabai/Addon/Markdown/FormField.php:105
+msgid "Heading <h1>/<h2> Ctrl+H"
+msgstr ""
+
+#: lib/Sabai/Addon/Markdown/FormField.php:106
+msgid "Heading"
+msgstr ""
+
+#: lib/Sabai/Addon/Markdown/FormField.php:107
+msgid "Horizontal Rule <hr> Ctrl+R"
+msgstr ""
+
+#: lib/Sabai/Addon/Markdown/FormField.php:108
+msgid "Undo - Ctrl+Z"
+msgstr ""
+
+#: lib/Sabai/Addon/Markdown/FormField.php:109
+msgid "Redo - Ctrl+Y"
+msgstr ""
+
+#: lib/Sabai/Addon/Markdown/FormField.php:110
+msgid "Redo - Ctrl+Shift+Z"
+msgstr ""
+
+#: lib/Sabai/Addon/Markdown/FormField.php:111
+msgid "Markdown Editing Help"
+msgstr ""
+
+#: lib/Sabai/Addon/Social.php:40 lib/Sabai/Addon/Social.php:73
+msgid "Share"
+msgstr "Partager"
+
+#: lib/Sabai/Addon/Social.php:89
+#, php-format
+msgid "Share this %s"
+msgstr "Partager cela %s"
+
+#: lib/Sabai/Addon/Social.php:247
+msgid "Enable social sharing"
+msgstr ""
+
+#: lib/Sabai/Addon/Social.php:252 lib/Sabai/Addon/Social/FieldWidget.php:28
+msgid "Social medias"
+msgstr ""
+
+#: lib/Sabai/Addon/Social/FieldRenderer.php:21
+msgid "Icon size"
+msgstr ""
+
+#: lib/Sabai/Addon/Social/FieldRenderer.php:23
+#: lib/Sabai/Addon/WordPress/CaptchaFieldWidget.php:26
+msgid "Large"
+msgstr ""
+
+#: lib/Sabai/Addon/Social/FieldRenderer.php:23
+msgid "X-Large"
+msgstr ""
+
+#: lib/Sabai/Addon/Social/FieldType.php:7
+#: lib/Sabai/Addon/Social/FieldWidget.php:7
+msgid "Social Accounts"
+msgstr ""
+
+#: lib/Sabai/Addon/System.php:161
+msgid "General"
+msgstr ""
+
+#: lib/Sabai/Addon/System.php:161 lib/Sabai/Addon/System.php:740
+msgid "Sabai Settings"
+msgstr ""
+
+#: lib/Sabai/Addon/System.php:163 lib/Sabai/Addon/System.php:756
+msgid "System Settings"
+msgstr ""
+
+#: lib/Sabai/Addon/System.php:167
+#: lib/Sabai/Addon/System/Controller/Admin/InstallAddon.php:17
+msgid "Install Add-on"
+msgstr "Installer cet add-on"
+
+#: lib/Sabai/Addon/System.php:169
+#: lib/Sabai/Addon/System/Controller/Admin/DeleteAddon.php:18
+msgid "Delete Add-on"
+msgstr ""
+
+#: lib/Sabai/Addon/System.php:171
+#: lib/Sabai/Addon/System/Controller/Admin/UninstallAddon.php:19
+msgid "Uninstall Add-on"
+msgstr ""
+
+#: lib/Sabai/Addon/System.php:174
+#: lib/Sabai/Addon/System/Controller/Admin/UpgradeAddon.php:26
+msgid "Upgrade Add-on"
+msgstr ""
+
+#: lib/Sabai/Addon/System.php:176
+#: lib/Sabai/Addon/System/Controller/Admin/CloneAddon.php:19
+msgid "Clone Add-on"
+msgstr ""
+
+#: lib/Sabai/Addon/System.php:180 lib/Sabai/Addon/System.php:761
+#: lib/Sabai/Addon/System.php:764
+msgid "System Information"
+msgstr ""
+
+#: lib/Sabai/Addon/System.php:182 lib/Sabai/Addon/System.php:780
+#: lib/Sabai/Addon/System.php:783
+msgid "Run Cron"
+msgstr ""
+
+#: lib/Sabai/Addon/System.php:184 lib/Sabai/Addon/System.php:904
+#: lib/Sabai/Addon/System/Controller/Admin/AddonSettings.php:6
+#, php-format
+msgid "Configure %s Add-on"
+msgstr ""
+
+#: lib/Sabai/Addon/System.php:690 lib/Sabai/Addon/System/Helper/Roles.php:10
+#: lib/Sabai/Platform/WordPress.php:36
+#, fuzzy
+msgid "Guest"
+msgid_plural "Guest"
+msgstr[0] ""
+"#-#-#-#-#  32extracted.pot (PACKAGE VERSION)  #-#-#-#-#\n"
+"#-#-#-#-#  34extracted.pot (PACKAGE VERSION)  #-#-#-#-#\n"
+"#-#-#-#-#  51extracted.pot (PACKAGE VERSION)  #-#-#-#-#\n"
+msgstr[1] ""
+"#-#-#-#-#  32extracted.pot (PACKAGE VERSION)  #-#-#-#-#\n"
+"#-#-#-#-#  34extracted.pot (PACKAGE VERSION)  #-#-#-#-#\n"
+
+#: lib/Sabai/Addon/System.php:741
+msgid "Settings"
+msgstr ""
+
+#: lib/Sabai/Addon/System.php:770
+msgid "Clear Cache"
+msgstr "Nettoyer le cache"
+
+#: lib/Sabai/Addon/System.php:800
+msgid "Sabai Add-Ons"
+msgstr ""
+
+#: lib/Sabai/Addon/System.php:806 lib/Sabai/Addon/System.php:815
+msgid "Version"
+msgstr ""
+
+#: lib/Sabai/Addon/System.php:814
+msgid "Installable Add-ons"
+msgstr ""
+
+#: lib/Sabai/Addon/System.php:882
+msgid "Upgrade this add-on"
+msgstr ""
+
+#: lib/Sabai/Addon/System.php:882
+#, php-format
+msgid "Upgrade %s Add-on"
+msgstr ""
+
+#: lib/Sabai/Addon/System.php:895
+msgid "Uninstall this add-on"
+msgstr ""
+
+#: lib/Sabai/Addon/System.php:895
+#, php-format
+msgid "Uninstall %s Add-on"
+msgstr ""
+
+#: lib/Sabai/Addon/System.php:904 lib/Sabai/Addon/System.php:911
+msgid "Configure this add-on"
+msgstr ""
+
+#: lib/Sabai/Addon/System.php:920
+msgid "Clone this add-on"
+msgstr ""
+
+#: lib/Sabai/Addon/System.php:920
+#, php-format
+msgid "Clone %s Add-on"
+msgstr ""
+
+#: lib/Sabai/Addon/System.php:928
+msgid "Reload this add-on"
+msgstr ""
+
+#: lib/Sabai/Addon/System.php:928
+#, php-format
+msgid "Reload %s Add-on"
+msgstr ""
+
+#: lib/Sabai/Addon/System.php:933 lib/Sabai/Addon/System.php:989
+#, php-format
+msgid "<strong>%s</strong> by %s"
+msgstr ""
+
+#: lib/Sabai/Addon/System.php:937 lib/Sabai/Addon/System.php:993
+#, php-format
+msgid "%s addon for Sabai"
+msgstr ""
+
+#: lib/Sabai/Addon/System.php:977
+msgid "Install this add-on"
+msgstr ""
+
+#: lib/Sabai/Addon/System.php:977
+#, php-format
+msgid "Install %s"
+msgstr ""
+
+#: lib/Sabai/Addon/System.php:984
+msgid "Delete this add-on"
+msgstr ""
+
+#: lib/Sabai/Addon/System.php:994
+msgid "Unknown"
+msgstr ""
+
+#: lib/Sabai/Addon/System.php:1009
+msgctxt "Upgrade add-ons"
+msgid "Upgrade Checked"
+msgstr ""
+
+#: lib/Sabai/Addon/System.php:1009
+msgctxt "Reload add-ons"
+msgid "Reload Checked"
+msgstr ""
+
+#: lib/Sabai/Addon/System.php:1031
+msgid "\"No Image\" image URL"
+msgstr ""
+
+#: lib/Sabai/Addon/System.php:1033 lib/Sabai/Addon/System.php:1042
+#, php-format
+msgid "Leave blank to use the system default (%s)."
+msgstr ""
+
+#: lib/Sabai/Addon/System.php:1040
+msgid "\"No Image\" image URL (small)"
+msgstr ""
+
+#: lib/Sabai/Addon/System.php:1049
+msgid "Do not load jQuery UI CSS"
+msgstr ""
+
+#: lib/Sabai/Addon/System.php:1054
+msgid "Do not load bxslider javascript library on startup"
+msgstr ""
+
+#: lib/Sabai/Addon/System/Controller/Admin/AccessControl.php:8
+#: lib/Sabai/Addon/System/Controller/Admin/EmailSettings.php:8
+#: lib/Sabai/Addon/System/Controller/Admin/Settings.php:10
+msgid "Settings saved."
+msgstr ""
+
+#: lib/Sabai/Addon/System/Controller/Admin/AccessControl.php:22
+msgid "Permissions"
+msgstr ""
+
+#: lib/Sabai/Addon/System/Controller/Admin/CloneAddon.php:20
+#, php-format
+msgid "Press the button below to clone the <strong>%s</strong> add-on."
+msgstr ""
+
+#: lib/Sabai/Addon/System/Controller/Admin/CloneAddon.php:28
+msgid "Add-on Name"
+msgstr ""
+
+#: lib/Sabai/Addon/System/Controller/Admin/CloneAddon.php:40
+msgid "The name is already in use by another add-on."
+msgstr ""
+
+#: lib/Sabai/Addon/System/Controller/Admin/CloneAddon.php:42
+msgid "There is already a cloned add-on with that name."
+msgstr ""
+
+#: lib/Sabai/Addon/System/Controller/Admin/CloneAddon.php:50
+#, php-format
+msgid "Add-on %s could not be created."
+msgstr ""
+
+#: lib/Sabai/Addon/System/Controller/Admin/CloneAddon.php:54
+#, php-format
+msgid "Add-on %s has been created."
+msgstr ""
+
+#: lib/Sabai/Addon/System/Controller/Admin/DeleteAddon.php:19
+#, php-format
+msgid "Are you sure you want to delete <strong>%s</strong>?"
+msgstr "Voulez-vous vraiment supprimer <strong>%s</strong> ?"
+
+#: lib/Sabai/Addon/System/Controller/Admin/DeleteAddon.php:31
+#, php-format
+msgid "Add-on %s has been deleted."
+msgstr ""
+
+#: lib/Sabai/Addon/System/Controller/Admin/EmailSettings.php:23
+msgid "Enable this email notification"
+msgstr ""
+
+#: lib/Sabai/Addon/System/Controller/Admin/EmailSettings.php:30
+#, php-format
+msgid ""
+"Enter the message that should be sent with this notification. Available "
+"template tags: %s"
+msgstr ""
+
+#: lib/Sabai/Addon/System/Controller/Admin/EmailSettings.php:34
+msgid "Subject"
+msgstr ""
+
+#: lib/Sabai/Addon/System/Controller/Admin/EmailSettings.php:61
+#: lib/Sabai/Addon/System/Controller/Admin/EmailSettings.php:89
+msgid "User Roles"
+msgstr ""
+
+#: lib/Sabai/Addon/System/Controller/Admin/EmailSettings.php:62
+msgid "Select the user roles to which this email notification is sent."
+msgstr ""
+"Sélectionnez les profils d'utilisateur auxquels cette notification par email "
+"est envoyée."
+
+#: lib/Sabai/Addon/System/Controller/Admin/EmailSettings.php:75
+msgid "Send this notification to guest authors"
+msgstr ""
+
+#: lib/Sabai/Addon/System/Controller/Admin/EmailSettings.php:82
+msgid "Send a copy to users of selected roles"
+msgstr "Envoyer une copie aux utilisateurs de rôles sélectionnés"
+
+#: lib/Sabai/Addon/System/Controller/Admin/EmailSettings.php:90
+msgid ""
+"Select the user roles to which a copy of this email notification is sent."
+msgstr ""
+"Sélectionnez les profils d'utilisateur auxquels une copie de cette "
+"notification par email est envoyée."
+
+#: lib/Sabai/Addon/System/Controller/Admin/InstallAddon.php:21
+#, php-format
+msgid ""
+"You are about to install the <strong>%s</strong> (version: <strong>%s</"
+"strong>) add-on."
+msgstr ""
+
+#: lib/Sabai/Addon/System/Controller/Admin/InstallAddon.php:41
+#, php-format
+msgid "Add-on %s has been installed."
+msgstr ""
+
+#: lib/Sabai/Addon/System/Controller/Admin/ReloadAddon.php:15
+msgid "Reload Add-on"
+msgstr ""
+
+#: lib/Sabai/Addon/System/Controller/Admin/ReloadAddon.php:16
+#, php-format
+msgid ""
+"Press the button below to reload the current version of <strong>%s</strong>."
+msgstr ""
+
+#: lib/Sabai/Addon/System/Controller/Admin/ReloadAddon.php:44
+#: lib/Sabai/Addon/System/Controller/Admin/UpgradeAddon.php:59
+#, php-format
+msgid "Add-on %s has been upgraded."
+msgstr ""
+
+#: lib/Sabai/Addon/System/Controller/Admin/UninstallAddon.php:20
+#, php-format
+msgid ""
+"Are you sure you want to uninstall <strong>%s</strong>? All data of this "
+"addon will be deleted."
+msgstr ""
+"Etes-vous sûr que vous souhaitez désinstaller <strong>%s</strong>? Toutes "
+"les données de cet addon seront supprimées."
+
+#: lib/Sabai/Addon/System/Controller/Admin/UninstallAddon.php:40
+#, php-format
+msgid "Add-on %s has been uninstalled."
+msgstr "Add-on %s a été désinstallé."
+
+#: lib/Sabai/Addon/System/Controller/Admin/UpgradeAddon.php:27
+#, php-format
+msgid ""
+"Press the button below to upgrade <strong>%s</strong> to version <strong>%s</"
+"strong>."
+msgstr ""
+
+#: lib/Sabai/Addon/System/Helper/SendEmail.php:103
+msgid "---------- Forwarded message ----------"
+msgstr ""
+
+#: lib/Sabai/Addon/System/Helper/SendEmail.php:104
+#, php-format
+msgid "Sent From: %s"
+msgstr "Envoyé  de: %s"
+
+#: lib/Sabai/Addon/System/Helper/SendEmail.php:105
+#, php-format
+msgid "Sent to: %s <%s>"
+msgstr "Envoyé à : %s <%s>"
+
+#: lib/Sabai/Addon/System/Helper/SendEmail.php:105
+#, php-format
+msgid "Sent to: %s <%s> and %d other recipient(s)"
+msgstr "Envoyé à:%s <%s> et% d autre bénéficiaire (s)"
+
+#: lib/Sabai/Addon/System/Helper/SendEmail.php:106
+#, php-format
+msgid "Original Subject: %s"
+msgstr "Sujet : %s"
+
+#: lib/Sabai/Addon/System/Helper/SendEmail.php:110
+#, php-format
+msgid "FW: %s"
+msgstr ""
+
+#: lib/Sabai/Addon/Taxonomy.php:118
+msgid "Info"
+msgstr ""
+
+#: lib/Sabai/Addon/Taxonomy.php:218
+#, php-format
+msgctxt "Delete taxonomy term page title"
+msgid "Delete %s"
+msgstr ""
+
+#: lib/Sabai/Addon/Taxonomy.php:499
+#, php-format
+msgid "%s count"
+msgstr ""
+
+#: lib/Sabai/Addon/Taxonomy.php:676
+#, php-format
+msgid "Edit this %s"
+msgstr "Modifier cet %s"
+
+#: lib/Sabai/Addon/Taxonomy.php:679
+#, php-format
+msgid "Delete this %s"
+msgstr "Supprimer cet %s"
+
+#: lib/Sabai/Addon/Taxonomy.php:718
+#, php-format
+msgid "Assign %s"
+msgstr ""
+
+#: lib/Sabai/Addon/Taxonomy.php:719
+#, php-format
+msgid "Remove %s"
+msgstr ""
+
+#: lib/Sabai/Addon/Taxonomy.php:734
+#, php-format
+msgctxt "Filter"
+msgid "All %s"
+msgstr "Toutes %s"
+
+#: lib/Sabai/Addon/Taxonomy/Controller/Admin/AddTerm.php:28
+#, php-format
+msgid "%s created successfully."
+msgstr ""
+
+#: lib/Sabai/Addon/Taxonomy/Controller/Admin/DeleteTerm.php:14
+#, php-format
+msgid "Are you sure you want to delete this %s?"
+msgstr "Voulez-vous vraiment supprimer %s ?"
+
+#: lib/Sabai/Addon/Taxonomy/Controller/Admin/DeleteTerm.php:17
+#, php-format
+msgctxt "Delete taxonomy term form submit button"
+msgid "Delete %s"
+msgstr ""
+
+#: lib/Sabai/Addon/Taxonomy/Controller/Admin/ListTerms.php:141
+#, php-format
+msgid "Recount %s"
+msgstr "Recompter %s"
+
+#: lib/Sabai/Addon/Taxonomy/Controller/DeleteTerm.php:9
+msgid "Are you sure you want to <em>permanently</em> delete this item?"
+msgstr ""
+
+#: lib/Sabai/Addon/Taxonomy/Controller/TermFeed.php:11
+#, php-format
+msgid "Recent posts tagged %s"
+msgstr ""
+
+#: lib/Sabai/Addon/Taxonomy/Controller/TermFeed.php:17
+#, php-format
+msgid "The most recent %d posts tagged %s"
+msgstr "Les plus récents %d posts taggés %s"
+
+#: lib/Sabai/Addon/Taxonomy/EntityType.php:37
+msgid "Creation Date"
+msgstr "Création d'un compte"
+
+#: lib/Sabai/Addon/Taxonomy/EntityType.php:47
+#: lib/Sabai/Addon/Taxonomy/EntityType.php:52
+msgid "Taxonomy"
+msgstr ""
+
+#: lib/Sabai/Addon/Taxonomy/EntityType.php:57
+#: lib/Sabai/Addon/Taxonomy/FieldType.php:80
+msgid "Parent Term"
+msgstr ""
+
+#: lib/Sabai/Addon/Taxonomy/FieldFilter.php:32
+#: lib/Sabai/Addon/Taxonomy/FieldFilter.php:64
+#: lib/Sabai/Addon/Taxonomy/FieldFilter.php:225
+#: lib/Sabai/Addon/Taxonomy/FieldWidget.php:132
+#: lib/Sabai/Addon/Taxonomy/FieldWidget.php:149
+#: lib/Sabai/Addon/Taxonomy/SelectFieldWidget.php:19
+#: lib/Sabai/Addon/Taxonomy/SelectFieldWidget.php:100
+#: lib/Sabai/Addon/Taxonomy/SelectFieldWidget.php:117
+#: lib/Sabai/Addon/Taxonomy/TaggingFieldWidget.php:19
+#: lib/Sabai/Addon/Taxonomy/TaggingFieldWidget.php:100
+#: lib/Sabai/Addon/Taxonomy/TaggingFieldWidget.php:117
+#, php-format
+msgid "Select %s"
+msgstr "Sélectionner %s"
+
+#: lib/Sabai/Addon/Taxonomy/FieldFilter.php:39
+msgid "Number of term options"
+msgstr ""
+
+#: lib/Sabai/Addon/Taxonomy/FieldFilter.php:50
+msgid "Depth of term hierarchy tree"
+msgstr ""
+
+#: lib/Sabai/Addon/Taxonomy/FieldRenderer.php:25
+msgid "Icon"
+msgstr ""
+
+#: lib/Sabai/Addon/Taxonomy/FieldRenderer.php:34
+msgid "Maximum number of items to display (0 or unlimited)"
+msgstr ""
+
+#: lib/Sabai/Addon/Taxonomy/FieldRenderer.php:45
+#: lib/Sabai/Addon/Taxonomy/FieldWidget.php:62
+msgid "Separator"
+msgstr ""
+
+#: lib/Sabai/Addon/Taxonomy/FieldType.php:61
+msgid "Taxonomy Terms"
+msgstr ""
+
+#: lib/Sabai/Addon/Taxonomy/FieldWidget.php:50
+msgid "Enable enhanced user interface"
+msgstr ""
+
+#: lib/Sabai/Addon/Taxonomy/FieldWidget.php:51
+#, php-format
+msgid ""
+"Check this to apply the jQuery %s plugin to this field to enable ajax auto-"
+"suggestion and more user friendly input method."
+msgstr ""
+
+#: lib/Sabai/Addon/Taxonomy/FieldWidget.php:56
+msgid "Allow adding new items"
+msgstr ""
+
+#: lib/Sabai/Addon/Taxonomy/FieldWidget.php:57
+msgid ""
+"Check this to allow the user to add new items that do not currently exist in "
+"the list. This requires the \"Add XXX\" permission granted to the user, "
+"where XXX is the type of item such as Categories, Tags, and etc."
+msgstr ""
+
+#: lib/Sabai/Addon/Taxonomy/FieldWidget.php:63
+msgid "Enter a text string used to separate multiple terms."
+msgstr ""
+
+#: lib/Sabai/Addon/Taxonomy/FieldWidget.php:131
+#, php-format
+msgid "Parent %s"
+msgstr ""
+
+#: lib/Sabai/Addon/Taxonomy/FieldWidget.php:214
+#, php-format
+msgid "The following %s do not exist: %s"
+msgstr "Le dossier %s n'existe pas."
+
+#: lib/Sabai/Addon/Time/FieldFilter.php:7 lib/Sabai/Addon/Time/FieldType.php:7
+msgid "Time"
+msgstr ""
+
+#: lib/Sabai/Addon/Time/FieldType.php:26
+msgid "Enable day of week"
+msgstr "Activer jour de la semaine"
+
+#: lib/Sabai/Addon/Time/FieldType.php:31
+msgid "Enable end time"
+msgstr ""
+
+#: lib/Sabai/Addon/Time/FieldWidget.php:7
+msgid "Time picker"
+msgstr ""
+
+#: lib/Sabai/Addon/Time/FieldWidget.php:22
+msgid "Set current time selected by default"
+msgstr "Réglez / Sélectionnez le temps actuel par défaut"
+
+#: lib/Sabai/Addon/Time/FormField.php:109
+msgid "Invalid time."
+msgstr ""
+
+#: lib/Sabai/Addon/Time/FormField.php:118
+msgid "Please pick a time."
+msgstr "choisir le temps SVP."
+
+#: lib/Sabai/Addon/Time/FormField.php:124
+msgid "Please select a day of week."
+msgstr "Sélectionner un jour de la semaine."
+
+#: lib/Sabai/Addon/Time/FormField.php:128
+msgid "Please select an end time."
+msgstr "Sélectionnez une heure de fin."
+
+#: lib/Sabai/Addon/Time/Helper/Days.php:10
+msgid "Monday"
+msgstr ""
+
+#: lib/Sabai/Addon/Time/Helper/Days.php:11
+msgid "Tuesday"
+msgstr ""
+
+#: lib/Sabai/Addon/Time/Helper/Days.php:12
+msgid "Wednesday"
+msgstr ""
+
+#: lib/Sabai/Addon/Time/Helper/Days.php:13
+msgid "Thursday"
+msgstr ""
+
+#: lib/Sabai/Addon/Time/Helper/Days.php:14
+msgid "Friday"
+msgstr ""
+
+#: lib/Sabai/Addon/Time/Helper/Days.php:15
+msgid "Saturday"
+msgstr ""
+
+#: lib/Sabai/Addon/Time/Helper/Days.php:16
+msgid "Sunday"
+msgstr ""
+
+#: lib/Sabai/Addon/Time/OpeningHoursFieldRenderer.php:7
+msgid "Opening Hours"
+msgstr ""
+
+#: lib/Sabai/Addon/Time/OpeningHoursFieldRenderer.php:11
+msgctxt "opening hours"
+msgid "Closed"
+msgstr ""
+
+#: lib/Sabai/Addon/Time/OpeningHoursFieldRenderer.php:22
+msgid "Show days without any entry as closed"
+msgstr ""
+
+#: lib/Sabai/Addon/Time/OpeningHoursFieldRenderer.php:27
+msgid "Label for closed days"
+msgstr ""
+
+#: lib/Sabai/Addon/Voting.php:74 lib/Sabai/Addon/Voting.php:82
+#: lib/Sabai/Addon/Voting/Helper/CastVote.php:34
+#: lib/Sabai/Addon/Voting/Helper/CastVote.php:148
+msgid "You do not have the permission to perform this action."
+msgstr "Vous n'avez pas la permission d'effectuer ceci."
+
+#: lib/Sabai/Addon/Voting.php:104
+#, php-format
+msgid "Vote for \"%s\""
+msgstr "Voter pour cette %s"
+
+#: lib/Sabai/Addon/Voting.php:106
+#: lib/Sabai/Addon/Voting/Controller/IgnoreFlags.php:11
+#: lib/Sabai/Addon/Voting/Helper/RenderFlags.php:34
+msgid "Ignore Flags"
+msgstr "Ignorer Signalements"
+
+#: lib/Sabai/Addon/Voting.php:287
+#, php-format
+msgid "Vote up %s"
+msgid_plural "Vote up %s"
+msgstr[0] "Voter pour %s"
+msgstr[1] ""
+
+#: lib/Sabai/Addon/Voting.php:288
+#, php-format
+msgid "Vote up own %s"
+msgid_plural "Vote up own %s"
+msgstr[0] "Voter pour son %s"
+msgstr[1] ""
+
+#: lib/Sabai/Addon/Voting.php:289
+#, php-format
+msgid "Vote down %s"
+msgid_plural "Vote down %s"
+msgstr[0] "Voter contre %s"
+msgstr[1] ""
+
+#: lib/Sabai/Addon/Voting.php:316
+#, php-format
+msgid "Vote %s helpful"
+msgid_plural "Vote %s helpful"
+msgstr[0] "Voter %s utile"
+msgstr[1] ""
+
+#: lib/Sabai/Addon/Voting.php:317
+#, php-format
+msgid "Vote own %s helpful"
+msgid_plural "Vote own %s helpful"
+msgstr[0] ""
+msgstr[1] "Voter son %s utile"
+
+#: lib/Sabai/Addon/Voting.php:334 lib/Sabai/Addon/Voting.php:352
+#: lib/Sabai/Addon/Voting/Controller/Admin/Rating.php:10
+#: lib/Sabai/Addon/Voting/FieldType.php:35
+#: lib/Sabai/Addon/Voting/RatingFieldFilter.php:9
+#: lib/Sabai/Addon/Voting/RatingFieldFilter.php:11
+msgid "Rating"
+msgstr "Classement"
+
+#: lib/Sabai/Addon/Voting.php:344
+#, php-format
+msgid "Rate %s"
+msgid_plural "Rate %s"
+msgstr[0] "Noter %s"
+msgstr[1] "Noter %s"
+
+#: lib/Sabai/Addon/Voting.php:345
+#, php-format
+msgid "Rate own %s"
+msgid_plural "Rate own %s"
+msgstr[0] ""
+msgstr[1] "Noter son  propre %s"
+
+#: lib/Sabai/Addon/Voting.php:374 lib/Sabai/Addon/Voting.php:664
+#: lib/Sabai/Addon/Voting.php:861
+msgid "Favorites"
+msgstr "\"Coups de Coeur\""
+
+#: lib/Sabai/Addon/Voting.php:407 lib/Sabai/Addon/Voting.php:414
+#, php-format
+msgid "Flag %s"
+msgid_plural "Flag %s"
+msgstr[0] ""
+msgstr[1] "Signaler %s"
+
+#: lib/Sabai/Addon/Voting.php:408
+msgid "Reason for flagging"
+msgstr "Motif de l'alerte"
+
+#: lib/Sabai/Addon/Voting.php:412
+#, php-format
+msgid "You have already flagged this %s. Press the button to redo flagging."
+msgstr ""
+"Vous avez déjà signalé ce %s. Appuyez sur le bouton pour refaire signalement."
+
+#: lib/Sabai/Addon/Voting.php:413
+msgid "Redo Flagging"
+msgstr "Refaire Marquage"
+
+#: lib/Sabai/Addon/Voting.php:415
+msgid "Thanks, we will take a look at it."
+msgstr "Nous nous pencherons sur chaque incident, individuellement. Merci."
+
+#: lib/Sabai/Addon/Voting.php:499
+#, php-format
+msgid "Vote for this %s"
+msgstr "Voter pour cette %s"
+
+#: lib/Sabai/Addon/Voting.php:501
+#, php-format
+msgid "Unvote for this %s"
+msgstr "Ne pas voter pour ce %s"
+
+#: lib/Sabai/Addon/Voting.php:504 lib/Sabai/Addon/Voting/FieldType.php:17
+#: lib/Sabai/Addon/Voting/FieldType.php:23
+#: lib/Sabai/Addon/Voting/Helper/RenderVoteLink.php:9
+msgid "Vote"
+msgstr "Votez"
+
+#: lib/Sabai/Addon/Voting.php:515
+#, php-format
+msgid "Bookmark this %s"
+msgstr "Ajoutez %s à vos favoris"
+
+#: lib/Sabai/Addon/Voting.php:517 lib/Sabai/Addon/Voting.php:531
+#, php-format
+msgid "Unbookmark this %s"
+msgstr "Oter %s de vos favoris"
+
+#: lib/Sabai/Addon/Voting.php:521 lib/Sabai/Addon/Voting.php:530
+msgid "Bookmark"
+msgstr "Favori"
+
+#: lib/Sabai/Addon/Voting.php:547
+#, php-format
+msgid "Flag this %s"
+msgstr "Alerte sur %s"
+
+#: lib/Sabai/Addon/Voting.php:549 lib/Sabai/Addon/Voting/FieldType.php:49
+msgid "Flag"
+msgstr "Drapeau"
+
+#: lib/Sabai/Addon/Voting.php:562 lib/Sabai/Addon/Voting.php:659
+msgid "Flagged"
+msgstr "Signalé"
+
+#: lib/Sabai/Addon/Voting.php:563
+#, php-format
+msgid "This post has %d flags"
+msgstr "Ce poste a %d drapeaux"
+
+#: lib/Sabai/Addon/Voting.php:647 lib/Sabai/Addon/Voting.php:655
+#: lib/Sabai/Addon/Voting.php:671 lib/Sabai/Addon/Voting.php:679
+#, php-format
+msgid "Clear %s"
+msgstr "Effacer %s"
+
+#: lib/Sabai/Addon/Voting.php:658
+msgid "Flagged/Unflagged"
+msgstr "Signalé / Non signalé"
+
+#: lib/Sabai/Addon/Voting.php:659
+msgid "Unflagged"
+msgstr "Non signalé "
+
+#: lib/Sabai/Addon/Voting.php:674 lib/Sabai/Addon/Voting.php:889
+#: lib/Sabai/Addon/Voting.php:913
+msgid "Ratings"
+msgstr "Avis"
+
+#: lib/Sabai/Addon/Voting.php:693 lib/Sabai/Addon/Voting.php:847
+#, php-format
+msgid "%d vote (score: %d)"
+msgid_plural "%d votes (score: %d)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/Sabai/Addon/Voting.php:703 lib/Sabai/Addon/Voting.php:861
+#, php-format
+msgid "%d favorite"
+msgid_plural "%d favorites"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/Sabai/Addon/Voting.php:723 lib/Sabai/Addon/Voting.php:889
+#: lib/Sabai/Addon/Voting/Helper/RenderRating.php:26
+#, php-format
+msgid "%.2f out of 5 stars"
+msgstr ""
+
+#: lib/Sabai/Addon/Voting.php:761
+#, php-format
+msgid ""
+"Comment posted by %s on %s has been marked as spam (spam score: %d, flag "
+"count: %d)"
+msgstr ""
+"L'avis posté par %s sur %s a été marqué comme spam (spam score: %d, nb "
+"signalement: %d)"
+
+#: lib/Sabai/Addon/Voting.php:907
+msgid "Bookmarks"
+msgstr "Signets"
+
+#: lib/Sabai/Addon/Voting/Controller/Admin/Favorite.php:8
+msgid "Date added"
+msgstr ""
+
+#: lib/Sabai/Addon/Voting/Controller/Admin/Flag.php:8
+msgid "Date flagged"
+msgstr ""
+
+#: lib/Sabai/Addon/Voting/Controller/Admin/Helpful.php:8
+#: lib/Sabai/Addon/Voting/Controller/Admin/Rating.php:8
+#: lib/Sabai/Addon/Voting/Controller/Admin/Updown.php:100
+msgid "IP address"
+msgstr ""
+
+#: lib/Sabai/Addon/Voting/Controller/Admin/Helpful.php:10
+msgid "Yes / No"
+msgstr "Oui / Non"
+
+#: lib/Sabai/Addon/Voting/Controller/FlaggedPosts.php:32
+msgid "Recent"
+msgstr "Récents"
+
+#: lib/Sabai/Addon/Voting/Controller/FlaggedPosts.php:43
+msgctxt "sort"
+msgid "Flags"
+msgstr ""
+
+#: lib/Sabai/Addon/Voting/Controller/IgnoreFlags.php:7
+msgid "Are you sure you want to ignore all the flags submitted?"
+msgstr "Êtes-vous sûr que vous voulez ignorer tous les drapeaux présentés?"
+
+#: lib/Sabai/Addon/Voting/Controller/VoteEntityForm.php:50
+msgid "Redo Submit"
+msgstr ""
+
+#: lib/Sabai/Addon/Voting/FieldType.php:29
+msgid "Helpful"
+msgstr "Utile"
+
+#: lib/Sabai/Addon/Voting/FieldType.php:43
+msgid "Favorite"
+msgstr "Favori"
+
+#: lib/Sabai/Addon/Voting/Helper/FlagOptions.php:10
+msgid "Other reason (Enter comment below)"
+msgstr "Autre raison (Ecrire commentaire ci-dessous)"
+
+#: lib/Sabai/Addon/Voting/Helper/RatingOptions.php:9
+#, php-format
+msgid "%s & Up"
+msgstr "%s et plus"
+
+#: lib/Sabai/Addon/Voting/Helper/RatingOptions.php:13
+#, php-format
+msgid "%d stars"
+msgstr "%d étoiles"
+
+#: lib/Sabai/Addon/Voting/Helper/RatingOptions.php:15
+#, php-format
+msgid "%d stars & up"
+msgstr "%d étoiles et plus"
+
+#: lib/Sabai/Addon/Voting/Helper/RenderFavorite.php:24
+#: lib/Sabai/Addon/Voting/Helper/RenderFavorite.php:33
+msgid "Mark/unmark this post as favorite (click again to undo)"
+msgstr ""
+"Marquer / Démarquer ce post en tant que favori (cliquez à nouveau pour "
+"annuler)"
+
+#: lib/Sabai/Addon/Voting/Helper/RenderFavorite.php:24
+#: lib/Sabai/Addon/Voting/Helper/RenderFavorite.php:33
+msgid "Mark/unmark this post as favorite"
+msgstr "Marquer / Démarquer ceci en tant que favori"
+
+#: lib/Sabai/Addon/Voting/Helper/RenderFlags.php:24
+msgid "System Message"
+msgstr ""
+
+#: lib/Sabai/Addon/Voting/Helper/RenderUpdown.php:31
+msgid "This post is useful (click again to undo)"
+msgstr "Ce post est utile (cliquez à nouveau pour annuler)"
+
+#: lib/Sabai/Addon/Voting/Helper/RenderUpdown.php:31
+msgid "Mark this post as useful"
+msgstr "Marquer cela comme utile"
+
+#: lib/Sabai/Addon/Voting/Helper/RenderUpdown.php:42
+msgid "This post is not useful (click again to undo)"
+msgstr "Ce post n'est pas utile (cliquez à nouveau pour annuler)"
+
+#: lib/Sabai/Addon/Voting/Helper/RenderUpdown.php:42
+msgid "Unmark this post as useful"
+msgstr "Démarquer cela, d'utile à pas utile"
+
+#: lib/Sabai/Addon/Voting/RatingFieldRenderer.php:36
+msgid "Rating Details"
+msgstr "Détails de la note"
+
+#: lib/Sabai/Addon/Voting/RatingFormField.php:95
+#, php-format
+msgid "The input value must be between %d and %d."
+msgstr "La valeur saisie doit être comprise entre %d et %d."
+
+#: lib/Sabai/Addon/Voting/RatingFormField.php:99
+msgid "Invalid value."
+msgstr ""
+
+#: lib/Sabai/Addon/WordPress.php:66
+msgctxt "tab"
+msgid "Pages"
+msgstr "Pages"
+
+#: lib/Sabai/Addon/WordPress.php:239
+msgid "CodeCanyon.net Purchase Code Settings"
+msgstr ""
+
+#: lib/Sabai/Addon/WordPress.php:243
+msgid ""
+"Enter the item purchase code you received from CodeCanyon.net to enable "
+"automatic updates for each plugin. Make sure that you enter a valid purchase "
+"code here otherwise it will just slow your site down."
+msgstr ""
+
+#: lib/Sabai/Addon/WordPress.php:334
+msgid "User roles allowed to use shortcodes in content"
+msgstr ""
+
+#: lib/Sabai/Addon/WordPress/CaptchaFieldWidget.php:22
+msgid "CAPTCHA image size"
+msgstr ""
+
+#: lib/Sabai/Addon/WordPress/CaptchaFieldWidget.php:70
+msgid "You did not enter the correct characters."
+msgstr "Vous ne avez pas saisi les caractères corrects."
+
+#: lib/Sabai/Addon/WordPress/CaptchaFieldWidget.php:78
+msgid "The Really Simple CAPTCHA plugin must be installed and active."
+msgstr ""
+
+#: lib/Sabai/Addon/WordPress/Controller/Admin/PageSettings.php:31
+msgid "Use an existing page"
+msgstr ""
+
+#: lib/Sabai/Addon/WordPress/Controller/Admin/PageSettings.php:31
+msgid "Create a new page"
+msgstr "Créer une nouvelle page"
+
+#: lib/Sabai/Addon/WordPress/Controller/Admin/PageSettings.php:53
+msgid "Title:"
+msgstr "Titre:"
+
+#: lib/Sabai/Addon/WordPress/Controller/Admin/PageSettings.php:60
+#: lib/Sabai/Addon/WordPress/Controller/Admin/PageSettings.php:81
+msgid "Slug:"
+msgstr ""
+
+#: lib/Sabai/Addon/WordPress/Controller/Admin/PageSettings.php:69
+msgid "No page (use the parent page)"
+msgstr ""
+
+#: lib/Sabai/Addon/WordPress/Controller/Admin/PageSettings.php:118
+msgid "Page Settings"
+msgstr ""
+
+#: lib/Sabai/Addon/WordPress/Controller/Admin/PageSettings.php:127
+msgid "Slug Settings"
+msgstr ""
+
+#: lib/Sabai/Addon/WordPress/EditorFieldWidget.php:7
+msgid "WordPress editor"
+msgstr ""
+
+#: lib/Sabai/Addon/WordPress/EditorFieldWidget.php:23
+msgid "Disable Visual mode"
+msgstr ""
+
+#: lib/Sabai/Addon/WordPress/EditorFieldWidget.php:28
+msgid "Disable toolbar in Text mode"
+msgstr ""
+
+#: lib/Sabai/Addon/WordPress/Helper/PostboxJs.php:76
+msgid "OK"
+msgstr "OK"
+
+#: lib/Sabai/Addon/WordPress/TextFieldRenderer.php:21
+msgid "Process shortcode(s)"
+msgstr ""
+
+#: lib/Sabai/Addon/WordPress/TextFieldRenderer.php:24
+#, php-format
+msgid "User roles allowed to use shortcodes: %s"
+msgstr ""
+
+#: lib/Sabai/Controller.php:58
+msgid "Token has expired. Please reload the page and try again."
+msgstr ""
+"Jeton de Sécurité (token) expiré. Rechargez la page et essayez à nouveau."
+
+#: lib/Sabai/Helper/CarouselOptions.php:16
+msgid "Transition mode"
+msgstr ""
+
+#: lib/Sabai/Helper/CarouselOptions.php:19
+msgctxt "transition mode"
+msgid "Horizontal"
+msgstr ""
+
+#: lib/Sabai/Helper/CarouselOptions.php:20
+msgctxt "transition mode"
+msgid "Vertical"
+msgstr ""
+
+#: lib/Sabai/Helper/CarouselOptions.php:21
+msgctxt "transition mode"
+msgid "Fade"
+msgstr ""
+
+#: lib/Sabai/Helper/CarouselOptions.php:28
+msgid "Automatically cycle slides"
+msgstr ""
+
+#: lib/Sabai/Helper/CarouselOptions.php:33
+msgid "The amount of time to delay between automatically cycling slides."
+msgstr ""
+
+#: lib/Sabai/Helper/CarouselOptions.php:50
+msgid "Show captions"
+msgstr ""
+
+#: lib/Sabai/Helper/CarouselOptions.php:56
+msgid "Show prev/next controls"
+msgstr ""
+
+#: lib/Sabai/Helper/CarouselOptions.php:62
+msgid "Show indicator circles"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:7
+msgid "Afghanistan"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:8
+msgid "Albania"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:9
+msgid "Algeria"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:10
+msgid "American Samoa"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:11
+msgid "Andorra"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:12
+msgid "Angola"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:13
+msgid "Anguilla"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:14
+msgid "Antarctica"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:15
+msgid "Antigua and Barbuda"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:16
+msgid "Argentina"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:17
+msgid "Armenia"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:18
+msgid "Aruba"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:19
+msgid "Australia"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:20
+msgid "Austria"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:21
+msgid "Azerbaijan"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:22
+msgid "Bahamas"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:23
+msgid "Bahrain"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:24
+msgid "Bangladesh"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:25
+msgid "Barbados"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:26
+msgid "Belarus"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:27
+msgid "Belgium"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:28
+msgid "Belize"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:29
+msgid "Benin"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:30
+msgid "Bermuda"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:31
+msgid "Bhutan"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:32
+msgid "Bolivia"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:33
+msgid "Bosnia and Herzegovina"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:34
+msgid "Botswana"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:35
+msgid "Bouvet Island"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:36
+msgid "Brazil"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:37
+msgid "British Antarctic Territory"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:38
+msgid "British Indian Ocean Territory"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:39
+msgid "British Virgin Islands"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:40
+msgid "Brunei"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:41
+msgid "Bulgaria"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:42
+msgid "Burkina Faso"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:43
+msgid "Burundi"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:44
+msgid "Cambodia"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:45
+msgid "Cameroon"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:46
+msgid "Canada"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:47
+msgid "Canton and Enderbury Islands"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:48
+msgid "Cape Verde"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:49
+msgid "Cayman Islands"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:50
+msgid "Central African Republic"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:51
+msgid "Chad"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:52
+msgid "Chile"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:53
+msgid "China"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:54
+msgid "Christmas Island"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:55
+msgid "Cocos [Keeling] Islands"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:56
+msgid "Colombia"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:57
+msgid "Comoros"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:58
+msgid "Congo - Brazzaville"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:59
+msgid "Congo - Kinshasa"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:60
+msgid "Cook Islands"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:61
+msgid "Costa Rica"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:62
+msgid "Croatia"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:63
+msgid "Cuba"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:64
+msgid "Cyprus"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:65
+msgid "Czech Republic"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:66
+msgid "Côte d’Ivoire"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:67
+msgid "Denmark"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:68
+msgid "Djibouti"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:69
+msgid "Dominica"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:70
+msgid "Dominican Republic"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:71
+msgid "Dronning Maud Land"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:72
+msgid "East Germany"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:73
+msgid "Ecuador"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:74
+msgid "Egypt"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:75
+msgid "El Salvador"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:76
+msgid "Equatorial Guinea"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:77
+msgid "Eritrea"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:78
+msgid "Estonia"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:79
+msgid "Ethiopia"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:80
+msgid "Falkland Islands"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:81
+msgid "Faroe Islands"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:82
+msgid "Fiji"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:83
+msgid "Finland"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:84
+msgid "France"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:85
+msgid "French Guiana"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:86
+msgid "French Polynesia"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:87
+msgid "French Southern Territories"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:88
+msgid "French Southern and Antarctic Territories"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:89
+msgid "Gabon"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:90
+msgid "Gambia"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:91
+msgid "Georgia"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:92
+msgid "Germany"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:93
+msgid "Ghana"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:94
+msgid "Gibraltar"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:95
+msgid "Greece"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:96
+msgid "Greenland"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:97
+msgid "Grenada"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:98
+msgid "Guadeloupe"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:99
+msgid "Guam"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:100
+msgid "Guatemala"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:101
+msgid "Guernsey"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:102
+msgid "Guinea"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:103
+msgid "Guinea-Bissau"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:104
+msgid "Guyana"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:105
+msgid "Haiti"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:106
+msgid "Heard Island and McDonald Islands"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:107
+msgid "Honduras"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:108
+msgid "Hong Kong SAR China"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:109
+msgid "Hungary"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:110
+msgid "Iceland"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:111
+msgid "India"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:112
+msgid "Indonesia"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:113
+msgid "Iran"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:114
+msgid "Iraq"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:115
+msgid "Ireland"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:116
+msgid "Isle of Man"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:117
+msgid "Israel"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:118
+msgid "Italy"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:119
+msgid "Jamaica"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:120
+msgid "Japan"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:121
+msgid "Jersey"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:122
+msgid "Johnston Island"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:123
+msgid "Jordan"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:124
+msgid "Kazakhstan"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:125
+msgid "Kenya"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:126
+msgid "Kiribati"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:127
+msgid "Kuwait"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:128
+msgid "Kyrgyzstan"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:129
+msgid "Laos"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:130
+msgid "Latvia"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:131
+msgid "Lebanon"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:132
+msgid "Lesotho"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:133
+msgid "Liberia"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:134
+msgid "Libya"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:135
+msgid "Liechtenstein"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:136
+msgid "Lithuania"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:137
+msgid "Luxembourg"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:138
+msgid "Macau SAR China"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:139
+msgid "Macedonia"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:140
+msgid "Madagascar"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:141
+msgid "Malawi"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:142
+msgid "Malaysia"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:143
+msgid "Maldives"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:144
+msgid "Mali"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:145
+msgid "Malta"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:146
+msgid "Marshall Islands"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:147
+msgid "Martinique"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:148
+msgid "Mauritania"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:149
+msgid "Mauritius"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:150
+msgid "Mayotte"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:151
+msgid "Metropolitan France"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:152
+msgid "Mexico"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:153
+msgid "Micronesia"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:154
+msgid "Midway Islands"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:155
+msgid "Moldova"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:156
+msgid "Monaco"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:157
+msgid "Mongolia"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:158
+msgid "Montenegro"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:159
+msgid "Montserrat"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:160
+msgid "Morocco"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:161
+msgid "Mozambique"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:162
+msgid "Myanmar [Burma]"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:163
+msgid "Namibia"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:164
+msgid "Nauru"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:165
+msgid "Nepal"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:166
+msgid "Netherlands"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:167
+msgid "Netherlands Antilles"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:168
+msgid "Neutral Zone"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:169
+msgid "New Caledonia"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:170
+msgid "New Zealand"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:171
+msgid "Nicaragua"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:172
+msgid "Niger"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:173
+msgid "Nigeria"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:174
+msgid "Niue"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:175
+msgid "Norfolk Island"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:176
+msgid "North Korea"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:177
+msgid "North Vietnam"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:178
+msgid "Northern Mariana Islands"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:179
+msgid "Norway"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:180
+msgid "Oman"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:181
+msgid "Pacific Islands Trust Territory"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:182
+msgid "Pakistan"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:183
+msgid "Palau"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:184
+msgid "Palestinian Territories"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:185
+msgid "Panama"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:186
+msgid "Panama Canal Zone"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:187
+msgid "Papua New Guinea"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:188
+msgid "Paraguay"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:189
+msgid "People's Democratic Republic of Yemen"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:190
+msgid "Peru"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:191
+msgid "Philippines"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:192
+msgid "Pitcairn Islands"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:193
+msgid "Poland"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:194
+msgid "Portugal"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:195
+msgid "Puerto Rico"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:196
+msgid "Qatar"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:197
+msgid "Romania"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:198
+msgid "Russia"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:199
+msgid "Rwanda"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:200
+msgid "Réunion"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:201
+msgid "Saint Barthélemy"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:202
+msgid "Saint Helena"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:203
+msgid "Saint Kitts and Nevis"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:204
+msgid "Saint Lucia"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:205
+msgid "Saint Martin"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:206
+msgid "Saint Pierre and Miquelon"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:207
+msgid "Saint Vincent and the Grenadines"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:208
+msgid "Samoa"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:209
+msgid "San Marino"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:210
+msgid "Saudi Arabia"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:211
+msgid "Senegal"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:212
+msgid "Serbia"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:213
+msgid "Serbia and Montenegro"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:214
+msgid "Seychelles"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:215
+msgid "Sierra Leone"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:216
+msgid "Singapore"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:217
+msgid "Slovakia"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:218
+msgid "Slovenia"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:219
+msgid "Solomon Islands"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:220
+msgid "Somalia"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:221
+msgid "South Africa"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:222
+msgid "South Georgia and the South Sandwich Islands"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:223
+msgid "South Korea"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:224
+msgid "Spain"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:225
+msgid "Sri Lanka"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:226
+msgid "Sudan"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:227
+msgid "Suriname"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:228
+msgid "Svalbard and Jan Mayen"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:229
+msgid "Swaziland"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:230
+msgid "Sweden"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:231
+msgid "Switzerland"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:232
+msgid "Syria"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:233
+msgid "São Tomé and Príncipe"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:234
+msgid "Taiwan"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:235
+msgid "Tajikistan"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:236
+msgid "Tanzania"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:237
+msgid "Thailand"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:238
+msgid "Timor-Leste"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:239
+msgid "Togo"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:240
+msgid "Tokelau"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:241
+msgid "Tonga"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:242
+msgid "Trinidad and Tobago"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:243
+msgid "Tunisia"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:244
+msgid "Turkey"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:245
+msgid "Turkmenistan"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:246
+msgid "Turks and Caicos Islands"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:247
+msgid "Tuvalu"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:248
+msgid "U.S. Minor Outlying Islands"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:249
+msgid "U.S. Miscellaneous Pacific Islands"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:250
+msgid "U.S. Virgin Islands"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:251
+msgid "Uganda"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:252
+msgid "Ukraine"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:253
+msgid "Union of Soviet Socialist Republics"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:254
+msgid "United Arab Emirates"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:255
+msgid "United Kingdom"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:256
+msgid "United States"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:257
+msgid "Unknown or Invalid Region"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:258
+msgid "Uruguay"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:259
+msgid "Uzbekistan"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:260
+msgid "Vanuatu"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:261
+msgid "Vatican City"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:262
+msgid "Venezuela"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:263
+msgid "Vietnam"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:264
+msgid "Wake Island"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:265
+msgid "Wallis and Futuna"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:266
+msgid "Western Sahara"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:267
+msgid "Yemen"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:268
+msgid "Zambia"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:269
+msgid "Zimbabwe"
+msgstr ""
+
+#: lib/Sabai/Helper/Countries.php:270
+msgid "Åland Islands"
+msgstr ""
+
+#: lib/Sabai/Helper/Date.php:6
+msgid "F j, Y"
+msgstr ""
+
+#: lib/Sabai/Helper/DateTime.php:6
+msgid "F j, Y g:i a"
+msgstr ""
+
+#: lib/Sabai/Helper/ImportRoute.php:34
+msgid "Access denied."
+msgstr ""
+
+#: lib/Sabai/Helper/ImportRoute.php:58 lib/Sabai/Helper/ImportRoute.php:67
+#, php-format
+msgid "An error occurred while importing content. Error: %s"
+msgstr ""
+
+#: lib/Sabai/Helper/ImportRoute.php:62
+msgid "Could not import content."
+msgstr ""
+
+#: lib/Sabai/Helper/Split.php:8
+msgid " "
+msgstr ""
+
+#: lib/Sabai/Helper/Time.php:6
+msgid "g:i a"
+msgstr ""
+
+#: lib/Sabai/Helper/Trim.php:6
+msgctxt "whitspace"
+msgid " "
+msgstr ""
+
+#: lib/Sabai/Helper/Upload.php:56
+msgid "The uploaded file exceeds the upload_max_filesize directive in php.ini."
+msgstr ""
+
+#: lib/Sabai/Helper/Upload.php:59
+msgid ""
+"The uploaded file exceeds the MAX_FILE_SIZE directive specified in the HTML "
+"form."
+msgstr ""
+
+#: lib/Sabai/Helper/Upload.php:62
+msgid "The uploaded file was only partially uploaded."
+msgstr ""
+
+#: lib/Sabai/Helper/Upload.php:65
+msgid "No file was uploaded."
+msgstr "Aucun fichier téléchargé"
+
+#: lib/Sabai/Helper/Upload.php:68
+msgid "Missing a temporary folder."
+msgstr ""
+
+#: lib/Sabai/Helper/Upload.php:71
+msgid "Failed to write file to disk."
+msgstr "Écriture sur le disque à échouée"
+
+#: lib/Sabai/Helper/Upload.php:74
+msgid "File upload stopped by PHP extension."
+msgstr ""
+
+#: lib/Sabai/Helper/Upload.php:86
+msgid "No valid file was uploaded."
+msgstr "Pas de fichier valide téléchargé."
+
+#: lib/Sabai/Helper/Upload.php:100
+msgid "Only image files are allowed."
+msgstr "Seuls les image sont autorisées."
+
+#: lib/Sabai/Helper/Upload.php:122
+#, php-format
+msgid "Could not get unique file name for file %s."
+msgstr "Impossible d'obtenir le nom de fichier unique pour le fichier %s."
+
+#: lib/Sabai/Helper/Upload.php:127
+#, php-format
+msgid "File %s (%s) already exists."
+msgstr "Fichier %s (%s) existe déjà."
+
+#: lib/Sabai/Helper/Upload.php:132
+msgid "Failed saving file to the upload directory."
+msgstr "Échec enregistrement de fichier vers le répertoire de téléchargement."
+
+#: lib/Sabai/Helper/Upload.php:145
+msgid "Allowed file extensions may not be empty."
+msgstr "Extensions de fichiers autorisés peuvent pas être vide."
+
+#: lib/Sabai/Helper/Upload.php:150
+msgid "Invalid file extension."
+msgstr ""
+
+#: lib/Sabai/Helper/Upload.php:154
+#, php-format
+msgid "File with file extension %s is not allowed."
+msgstr "Fichier avec l'extension de fichier %s n'est pas autorisé."
+
+#: lib/Sabai/Helper/Upload.php:161
+msgid "No matching mime types for the file were found."
+msgstr ""
+
+#: lib/Sabai/Helper/Upload.php:172
+#, php-format
+msgid "Image file with file extension %s is not allowed."
+msgstr ""
+
+#: lib/Sabai/Helper/Upload.php:213
+#, php-format
+msgid ""
+"File type associated with file extension %s (%s) was not found or is not "
+"allowed."
+msgstr ""
+
+#: lib/Sabai/Helper/Upload.php:225
+#, php-format
+msgid "File size may not exceed %s KB."
+msgstr "Taille du fichier ne peut excéder %s KB."
+
+#: lib/Sabai/Helper/Upload.php:234
+msgid "Failed detecting image dimensions."
+msgstr ""
+
+#: lib/Sabai/Helper/Upload.php:241
+#, php-format
+msgid "Image size must not be larger than W%d x H%d pixels."
+msgstr ""
+
+#: lib/Sabai/Helper/Upload.php:251
+#, php-format
+msgid "Image size must be larger than W%d x H%d pixels."
+msgstr ""
+
+#: lib/Sabai/Helper/ValidateDirectory.php:8
+#, php-format
+msgid "Directory %s does not exist."
+msgstr "Le dossier %s n'existe pas."
+
+#: lib/Sabai/Helper/ValidateDirectory.php:11
+#, php-format
+msgid "Directory %s is not writeable by the server."
+msgstr "Répertoire %s ne est pas accessible en écriture par le serveur."
+
+#: lib/Sabai/Platform/WordPress.php:191
+msgid "Username"
+msgstr "Nom d’utilisateur"
+
+#: lib/Sabai/Platform/WordPress.php:196
+msgid "E-mail Address"
+msgstr "Adresse e-mail"
+
+#: lib/Sabai/Platform/WordPress.php:214
+msgid "The username is already taken."
+msgstr "Désolé, ce nom d'utilisateur est déjà pris"
+
+#: lib/Sabai/Platform/WordPress.php:217
+msgid "The e-mail address is already taken."
+msgstr "L'adresse e-mail est déjà prise."
+
+#: lib/Sabai/Platform/WordPress.php:550
+#, php-format
+msgid "%s ago"
+msgstr "il y a %s"
+
+#: lib/Sabai/Platform/WordPress.php:948
+msgid ""
+"You must <a href=\"options-permalink.php\">change your permalink structure</"
+"a> for Sabai plugins to work properly."
+msgstr ""
+
+#: lib/Sabai/Platform/WordPress.php:967
+#, php-format
+msgid ""
+"There are %1$d upgradable Sabai add-on(s). Please go to the <a href=\"%2$s"
+"\">add-on listing section</a> and upgrade all add-ons."
+msgstr ""
+"Il y a %1$d mise(s) à jour disponible(s) pour les add-ons Sabai. Aller au <a "
+"href=\"%2$s\">listing des add-ons Sabai</a> pour les mettre à niveau."
+
+#: lib/Sabai/Platform/WordPress.php:1015
+msgid ""
+"IMPORTANT! Always bulk update all Sabai plugins to the same version to "
+"prevent errors."
+msgstr ""
+
+#: lib/Sabai/Platform/WordPress.php:1824
+msgid "View profile"
+msgstr "Voir profil"
+
+#: lib/Sabai/RoutingController.php:135 lib/Sabai/RoutingController.php:226
+msgid "Top"
+msgstr "En haut"
+
+#: lib/Sabai/WebResponse.php:66
+msgid "Your browser sent a request that this server could not understand."
+msgstr ""
+"Votre navigateur a envoyé une demande que ce serveur n'a pas pu comprendre."
+
+#: lib/Sabai/WebResponse.php:76
+#, php-format
+msgid ""
+"You must <a href=\"%s\" class=\"sabai-login popup-login\">login</a> to "
+"perform the requested action."
+msgstr ""
+"Vous devez <a href=\"%s\" class=\"sabai-login popup-login\">vous identifier</"
+"a> pour effectuer l'action demandée."
+
+#: lib/Sabai/WebResponse.php:85
+msgid "Your request may not be processed."
+msgstr "Votre demande ne peut être traitée."
+
+#: lib/Sabai/WebResponse.php:88
+msgid "The requested page was not found."
+msgstr "La page demandée n'a pas été trouvée."
+
+#: lib/Sabai/WebResponse.php:91
+msgid "The requested method is not allowed."
+msgstr "La méthode demandée n'est pas autorisée."
+
+#: lib/Sabai/WebResponse.php:94
+msgid "The requested page is not acceptable by the browser."
+msgstr "La page demandée n'est pas acceptable par le navigateur."
+
+#: lib/Sabai/WebResponse.php:97
+msgid "The requested method is not implemented."
+msgstr "La méthode demandée n'est pas implémentée."
+
+#: lib/Sabai/WebResponse.php:100
+msgid ""
+"The server is currently unable to handle the request. Please try again later."
+msgstr ""
+"Le serveur est actuellement incapable de traiter la demande. Merci de "
+"réessayer plus tard."
+
+#: lib/Sabai/WebResponse.php:104 lib/Sabai/WebResponse.php:146
+msgid "The server encountered an error processing your request."
+msgstr "Le serveur a rencontré une erreur lors du traitement de votre demande."
+
+#. Plugin Name of the plugin/theme
+msgid "Sabai"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Sabai is a web application framework for WordPress."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "onokazu"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://codecanyon.net/user/onokazu/portfolio?ref=onokazu"
+msgstr ""

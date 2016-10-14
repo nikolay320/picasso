@@ -1,0 +1,287 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: BuddyPress Compliments\n"
+"POT-Creation-Date: 2015-07-21 17:55+0200\n"
+"PO-Revision-Date: 2015-08-10 23:56+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: bp-compliments.php\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: bp-compliments-core.php:44 includes/bp-compliments-activity.php:108
+#: includes/bp-compliments-activity.php:117
+#: includes/bp-compliments-notifications.php:277
+#: includes/bp-compliments-taxonomies.php:19
+#: includes/bp-compliments-taxonomies.php:20
+msgid "Compliments"
+msgstr "Compliments"
+
+#: bp-compliments-core.php:171
+#, php-format
+msgid "Compliments <span>%d</span>"
+msgstr "<span>TOP %d</span>"
+
+#: bp-compliments.php:64
+msgid "Hey! BP Compliments requires BuddyPress 1.5 or higher."
+msgstr "Hey! BP Compliments nécessite BuddyPress 1.5 ou supérieur."
+
+#: includes/bp-compliments-actions.php:50
+#, php-format
+msgid ""
+"There was a problem when trying to send compliment to %s, please contact "
+"administrator."
+msgstr ""
+"Il y avait un problème en essayant d'envoyer compliment à%s, s'il vous plaît "
+"contacter l'administrateur."
+
+#: includes/bp-compliments-actions.php:52
+#, php-format
+msgid "Your compliment sent to %s."
+msgstr "Votre compliment envoyé à %s."
+
+#: includes/bp-compliments-activity.php:106
+msgid "Compliment Received"
+msgstr "Compliment reçu"
+
+#: includes/bp-compliments-activity.php:115
+msgid "Compliment Sent"
+msgstr "Compliment envoyé"
+
+#: includes/bp-compliments-activity.php:147
+#: includes/bp-compliments-activity.php:180
+msgid "compliment"
+msgstr "Compliment"
+
+#: includes/bp-compliments-activity.php:149
+#, php-format
+msgid "%1$s has received a %2$s from %3$s"
+msgstr "%1$s a reçu un %2$s de %3$s"
+
+#: includes/bp-compliments-activity.php:182
+#, php-format
+msgid "%1$s has sent a %2$s to %3$s"
+msgstr "%1$s a envoyé un %2$s à %3$s"
+
+#: includes/bp-compliments-forms.php:23
+msgid "Choose Your Compliment Type:"
+msgstr "Choisissez votre type de compliment:"
+
+#: includes/bp-compliments-forms.php:60
+msgid "Send"
+msgstr "Envoyer"
+
+#: includes/bp-compliments-forms.php:61
+msgid "Cancel"
+msgstr "Annuler"
+
+#: includes/bp-compliments-notifications.php:49
+#: includes/bp-compliments-notifications.php:185
+#, php-format
+msgid "%s has sent you a compliment"
+msgstr "%s vous a envoyé un compliment"
+
+#: includes/bp-compliments-notifications.php:188
+#, php-format
+msgid ""
+"%s has sent you a compliment.\n"
+"\n"
+"To view %s's compliment: %s"
+msgstr ""
+"%s vous a envoyé un compliment.\n"
+"\n"
+"Pour afficher le compliment de %s : %s"
+
+#: includes/bp-compliments-notifications.php:195
+#, php-format
+msgid ""
+"\n"
+"\n"
+"---------------------\n"
+"To disable these notifications please log in and go to:\n"
+"%s"
+msgstr ""
+"Pour désactiver ces notifications, veuillez vous connecter et vous rendre "
+"sur : %s"
+
+#: includes/bp-compliments-notifications.php:278
+#: includes/bp-compliments-taxonomies.php:266
+msgid "Yes"
+msgstr "Oui"
+
+#: includes/bp-compliments-notifications.php:279
+#: includes/bp-compliments-taxonomies.php:267
+msgid "No"
+msgstr "Non"
+
+#: includes/bp-compliments-notifications.php:286
+msgid "A member sends you a compliment"
+msgstr "Un membre vous envoie un compliment"
+
+#: includes/bp-compliments-taxonomies.php:29
+#: includes/bp-compliments-taxonomies.php:30
+msgid "Compliment Types"
+msgstr "Types de compliment"
+
+#: includes/bp-compliments-taxonomies.php:47
+msgctxt "taxonomy general name"
+msgid "Compliments"
+msgstr "Compliments [taxonomie de terme général]"
+
+#: includes/bp-compliments-taxonomies.php:48
+msgctxt "taxonomy singular name"
+msgid "Compliment"
+msgstr "Compliments [taxonomie de terme simple]"
+
+#: includes/bp-compliments-taxonomies.php:49
+msgid "Search Compliments"
+msgstr "Recherche Compliments"
+
+#: includes/bp-compliments-taxonomies.php:50
+msgid "All Compliments"
+msgstr "Tous les compliments"
+
+#: includes/bp-compliments-taxonomies.php:51
+msgid "Parent Compliment"
+msgstr "Compliment parent"
+
+#: includes/bp-compliments-taxonomies.php:52
+msgid "Parent Compliment:"
+msgstr "Compliment parent"
+
+#: includes/bp-compliments-taxonomies.php:53
+msgid "Edit Compliment"
+msgstr "Modifier le Compliment"
+
+#: includes/bp-compliments-taxonomies.php:54
+msgid "Update Compliment"
+msgstr "Mise à jour de Compliment"
+
+#: includes/bp-compliments-taxonomies.php:55
+msgid "Add New Compliment"
+msgstr "Ajouter nouveau Compliment"
+
+#: includes/bp-compliments-taxonomies.php:56
+msgid "New Compliment Name"
+msgstr "Nouveau nom de Compliment"
+
+#: includes/bp-compliments-taxonomies.php:57
+msgid "Compliment"
+msgstr "Compliment"
+
+#: includes/bp-compliments-taxonomies.php:96
+#: includes/bp-compliments-taxonomies.php:120
+msgid "Compliment Icon"
+msgstr "Icône compliment"
+
+#: includes/bp-compliments-taxonomies.php:99
+#: includes/bp-compliments-taxonomies.php:125
+msgid "Upload Icon"
+msgstr "Télécharger l'icône"
+
+#: includes/bp-compliments-taxonomies.php:99
+#: includes/bp-compliments-taxonomies.php:125
+msgid "Use Icon"
+msgstr "Utiliser une icône"
+
+#: includes/bp-compliments-taxonomies.php:99
+#: includes/bp-compliments-taxonomies.php:125
+msgid "Upload new Icon"
+msgstr "Envoyer une nouvelle ic&ocirc;ne"
+
+#: includes/bp-compliments-taxonomies.php:100
+#: includes/bp-compliments-taxonomies.php:126
+msgid "Remove Icon"
+msgstr "Supprimer l’icône"
+
+#: includes/bp-compliments-taxonomies.php:102
+#: includes/bp-compliments-taxonomies.php:128
+msgid "Recommended icon size: 20px x 20px"
+msgstr "Taille de l'icône recommandée : 20px 20px de x"
+
+#: includes/bp-compliments-taxonomies.php:174
+msgid "Name"
+msgstr "Nom"
+
+#: includes/bp-compliments-taxonomies.php:175
+msgid "Icon"
+msgstr "Icône"
+
+#: includes/bp-compliments-taxonomies.php:247
+msgid "BuddyPress Compliments - Settings"
+msgstr "BuddyPress Compliments - paramètres"
+
+#: includes/bp-compliments-taxonomies.php:263
+msgid "Members can delete compliments received?"
+msgstr "Membres peuvent supprimer des compliments reçus ?"
+
+#: includes/bp-compliments-taxonomies.php:271
+msgid "Number of Compliments to display per page?"
+msgstr "Nombre de Compliments à afficher par page ?"
+
+#: includes/bp-compliments-taxonomies.php:275
+msgid "Custom CSS styles"
+msgstr "styles CSS personnalisées"
+
+#: includes/bp-compliments-templatetags.php:83
+msgctxt "Button"
+msgid "Send Compliment"
+msgstr "Complimenter"
+
+#: includes/templates/buddypress/members/single/compliments.php:70
+msgid "Delete"
+msgstr "Supprimer"
+
+#: includes/templates/buddypress/members/single/compliments.php:102
+#, php-format
+msgid "1 of 1"
+msgid_plural "%1$s to %2$s of %3$s"
+msgstr[0] "1 sur 1"
+msgstr[1] ""
+
+#: includes/templates/buddypress/members/single/compliments.php:105
+msgid "Go to Page"
+msgstr "Aller à la page"
+
+#: includes/templates/buddypress/members/single/compliments.php:122
+msgid ""
+"Aw, you have no compliments yet. To get some try sending compliments to "
+"others."
+msgstr ""
+"Oh, vous n'avez aucun compliments encore. Pour obtenir  des compliments, "
+"essayer de leur en envoyer en premier lieu..."
+
+#: includes/templates/buddypress/members/single/compliments.php:128
+msgid "Sorry, no compliments just yet."
+msgstr "Désolé, aucun compliment à ce jour."
+
+#. Plugin Name of the plugin/theme
+msgid "BuddyPress Compliments"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://wpgeodirectory.com/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Compliments module for BuddyPress."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "GeoDirectory"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://wpgeodirectory.com"
+msgstr ""

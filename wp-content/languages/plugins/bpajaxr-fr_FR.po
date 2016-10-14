@@ -1,0 +1,197 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: BP Ajax registration\n"
+"POT-Creation-Date: 2015-10-02 21:54+0200\n"
+"PO-Revision-Date: 2015-10-02 22:00+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: bp-ajax-registration.php\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: admin.php:26
+msgid "BP Ajax Registration Settings"
+msgstr "Paramètres de surimpression BP Ajax"
+
+#: admin.php:28
+msgid "Registration Form"
+msgstr "Formulaire d'enregistrement"
+
+#: admin.php:29
+msgid "Default User Role"
+msgstr "Utilisateur par défaut"
+
+#: admin.php:44
+msgid "Enable Ajax Loading of Form "
+msgstr "Activer le formulaire de contact"
+
+#: admin.php:45
+msgid "When a user clicks registration link, the form is loaded via ajax"
+msgstr ""
+"Lorsqu'un utilisateur clique sur le lien d'inscription, le formulaire est "
+"chargé via ajax"
+
+#: admin.php:59
+msgid "The role setting only applies on multisite!"
+msgstr "Le paramètre de rôle s'applique uniquement aux multisite !"
+
+#: ajax-register-form.php:5
+msgid "Create Account!"
+msgstr "Créer un compte"
+
+#: ajax-register-form.php:21
+msgid "Account Details"
+msgstr "Détails du compte"
+
+#: ajax-register-form.php:23
+msgid "Username"
+msgstr "Nom d’utilisateur"
+
+#: ajax-register-form.php:23 ajax-register-form.php:27
+#: ajax-register-form.php:31 ajax-register-form.php:35
+#: ajax-register-form.php:95 ajax-register-form.php:104
+msgid "(required)"
+msgstr "(obligatoire)"
+
+#: ajax-register-form.php:27
+msgid "Email Address"
+msgstr "Adresse e-mail"
+
+#: ajax-register-form.php:31
+msgid "Choose a Password"
+msgstr "Choisissez un mot de passe"
+
+#: ajax-register-form.php:35
+msgid "Confirm Password"
+msgstr "Confirmez le nouveau mot de passe"
+
+#: ajax-register-form.php:90
+msgid "Do you need a blog?"
+msgstr "Avez-vous besoin d'un blog ?"
+
+#: ajax-register-form.php:91
+msgid "Yes, I'd like to create a new site"
+msgstr "﻿Oui, j'aimerais créer un nouveau site"
+
+#: ajax-register-form.php:95
+msgid "Blog URL"
+msgstr "URL du Blog"
+
+#: ajax-register-form.php:104
+msgid "Site Title"
+msgstr "Titre du Site"
+
+#: ajax-register-form.php:108
+msgid ""
+"I would like my site to appear in search engines, and in public listings "
+"around this network."
+msgstr ""
+"Je souhaite que mon blog apparaisse dans les moteurs de recherche et sur les "
+"listes disponibles sur ce site."
+
+#: ajax-register-form.php:111
+msgid "Yes"
+msgstr "Oui"
+
+#: ajax-register-form.php:112
+msgid "No"
+msgstr "Non"
+
+#: ajax-register-form.php:125
+msgid "Register"
+msgstr "S'enregistrer"
+
+#: ajax-register-form.php:135
+msgid "Sign Up Complete!"
+msgstr "Inscription terminée !"
+
+#: ajax-register-form.php:141
+msgid "Welcome abroad!"
+msgstr "Bienvenue à l'étranger !"
+
+#: ajax-register-form.php:145
+msgid ""
+"Thank you for taking time to register. We hope you will enjoy our Community!"
+msgstr ""
+"Merci d'avoir pris le temps de vous inscrire. Nous espérons que vous "
+"apprécierez notre communauté !"
+
+#: ajax-register-form.php:150
+msgid ""
+"You have successfully created your account! To begin using this site you "
+"will need to activate your account via the email we have just sent to your "
+"address."
+msgstr ""
+"Vous venez de créer votre compte. Vous devez maintenant l'activer en "
+"utilisant le lien qui se trouve dans le mail que nous venons de vous envoyer."
+
+#: ajax-register-form.php:152
+msgid ""
+"You have successfully created your account! Please log in using the username "
+"and password you have just created."
+msgstr ""
+"Votre compte est activ&eacute;. Vous pouvez vous connecter en utilisant les "
+"identifiants que vous avez indiqué lors de votre inscription."
+
+#: core/registration-handler.php:99
+msgid "Please make sure you enter your password twice"
+msgstr "Assurez-vous d'avoir bien indiqué votre mot de passe deux fois."
+
+#: core/registration-handler.php:103
+msgid "The passwords you entered do not match."
+msgstr "Les mots de passe ne correspondent pas."
+
+#: core/registration-handler.php:126
+msgid "This is a required field"
+msgstr "Ce champ est requis"
+
+#: core/registration-handler.php:264 core/registration-handler.php:404
+#: core/registration-handler.php:457
+msgid "Your account is now active!"
+msgstr "Votre compte est activé !"
+
+#: core/registration-handler.php:277
+msgid "There was a problem logging you in. Please login with your password!"
+msgstr ""
+"Il y avait un problème, vous connecter. Veuillez vous connecter avec votre "
+"mot de passe !"
+
+#: core/registration-handler.php:350 core/registration-handler.php:366
+msgid "Could not create your account. Please try again later!"
+msgstr "Pas pu créer votre compte. Veuillez réessayer ultérieurement !"
+
+#: core/registration-handler.php:380
+msgid "Account already activated!"
+msgstr "Le compte a déjà été activé"
+
+#: core/registration-handler.php:433
+msgid "There was an error activating your account, please try again."
+msgstr ""
+"Une erreur est survenue à l'activation de votre compte. Veuillez recommencer."
+
+#. Plugin Name of the plugin/theme
+msgid "BP Ajax registration"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://buddydev.com/plugins/bp-ajax-registration/"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Brajesh Singh"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://buddydev.com/members/sbrajesh"
+msgstr ""

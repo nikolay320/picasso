@@ -1,0 +1,653 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: GEO Job Manager\n"
+"POT-Creation-Date: 2015-07-16 08:32+0200\n"
+"PO-Revision-Date: 2015-07-16 08:35+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: geo-job-manager.php\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: geo-job-manager.php:148
+msgid "Provides GeoLocation features to WP Job Manager plugin."
+msgstr ""
+"Fournit des fonctionnalités de géolocalisation pour plugin WP gestionnaire "
+"de tâches."
+
+#: geo-job-manager.php:269
+#, php-format
+msgid ""
+"requires <a %s>WP Job Manager</a> plugin version 1.21.3 or higher in order "
+"to work."
+msgstr ""
+"nécessite <a %s>WP Job Manager</a> Plugin Version 1.21.3 ou plus afin de "
+"travailler."
+
+#: includes/admin/gjm-admin-settings.php:50
+msgid "No locations to import were found."
+msgstr "Pas de lieux à l'importation ont été trouvées."
+
+#: includes/admin/gjm-admin-settings.php:51
+msgid "No locations were imported."
+msgstr "Pas de lieux ont été importés."
+
+#: includes/admin/gjm-admin-settings.php:52
+#, php-format
+msgid "%d Locations successfully imported."
+msgstr "emplacements de %d importés avec succès."
+
+#: includes/admin/gjm-admin-settings.php:69
+msgid "Import"
+msgstr "Importer"
+
+#: includes/admin/gjm-admin-settings.php:248
+msgid "jobs"
+msgstr "annonces"
+
+#: includes/admin/gjm-admin-settings.php:248
+msgid "resumes"
+msgstr "CV"
+
+#: includes/admin/gjm-admin-settings.php:252
+msgid "GEO General Settings"
+msgstr "Paramètres Généraux"
+
+#: includes/admin/gjm-admin-settings.php:257
+msgid "Import Locations"
+msgstr "Importer les lieux"
+
+#: includes/admin/gjm-admin-settings.php:258
+#: includes/admin/gjm-admin-settings.php:267
+#: includes/admin/gjm-admin-settings.php:276
+#: includes/admin/gjm-admin-settings.php:365
+#: includes/admin/gjm-admin-settings.php:392
+#: includes/admin/gjm-admin-settings.php:417
+#: includes/admin/gjm-admin-settings.php:455
+#: includes/admin/gjm-admin-settings.php:464
+#: includes/admin/gjm-admin-settings.php:473
+#: includes/admin/gjm-admin-settings.php:489
+#: includes/admin/gjm-admin-settings.php:527
+msgid "Yes"
+msgstr "Oui"
+
+#: includes/admin/gjm-admin-settings.php:259
+#, php-format
+msgid ""
+"Import %s location to %s database. You should do if you have created %s "
+"previously the installation of %s plugin."
+msgstr ""
+"Importez l'emplacement% de la base de données de%. Vous devriez faire si "
+"vous avez précédemment créé l'installation de% du plugin%s."
+
+#: includes/admin/gjm-admin-settings.php:266
+msgid "Google address autocomplete (admin)"
+msgstr "Google saisie automatique"
+
+#: includes/admin/gjm-admin-settings.php:268
+#, php-format
+msgid ""
+"Disply suggested results by Google when typing an address in the location "
+"field of the new/edit %s screen"
+msgstr ""
+
+#: includes/admin/gjm-admin-settings.php:275
+msgid "Google address autocomplete (front-end) - new/edit job form"
+msgstr ""
+"Google adresse saisie semi-automatique (frontal) - formulaire d'emploi "
+"nouveau/édition"
+
+#: includes/admin/gjm-admin-settings.php:277
+#, php-format
+msgid ""
+"Disply suggested results by Google when typing an address in the location "
+"field of the new/edit %s form in the front end"
+msgstr ""
+
+#: includes/admin/gjm-admin-settings.php:285
+msgid "Autocomplete country restriction"
+msgstr ""
+
+#: includes/admin/gjm-admin-settings.php:286
+msgid ""
+"Enter the country code of the country which you would like to restrict the "
+"autocomplete results to. Leave it empty to show all countries"
+msgstr ""
+"Entrez l'indicatif du pays dont vous souhaitez restreindre les résultats de "
+"saisie semi-automatique pour. Laisser vide pour afficher tous les pays"
+
+#: includes/admin/gjm-admin-settings.php:301
+msgid "Google API language"
+msgstr "Google langage API"
+
+#: includes/admin/gjm-admin-settings.php:302
+msgid ""
+"This feature controls the language of the autocomplete results and Google "
+"map. Enter the language code of the langauge you would like to use. List of "
+"avaliable langauges can be found"
+msgstr ""
+"Cette fonction contrôle la langue des résultats d'auto-complétion et Google "
+"map. Entrez le code de langue de la langue que vous souhaitez utiliser. "
+"Liste des langues disponibles peut être trouvé"
+
+#: includes/admin/gjm-admin-settings.php:302
+msgid "here"
+msgstr "ici"
+
+#: includes/admin/gjm-admin-settings.php:309
+msgid "Google API default region"
+msgstr "Région par défaut de l'API Google"
+
+#: includes/admin/gjm-admin-settings.php:310
+#, php-format
+msgid ""
+"This feature controls the regions of Goole API. Enter a country code; for "
+"example for United States enter US. you can find your country code <a "
+"%s>here</a>"
+msgstr ""
+"Cette fonction contrôle les régions de Google API. Entrez un code de pays ; "
+"par exemple, pour les États-Unis entrer États-Unis. vous pouvez trouver le "
+"code de votre pays <a %s=\"\">ici</a>"
+
+#: includes/admin/gjm-admin-settings.php:321
+msgid "Geo Search Form Settings"
+msgstr "Réglages Geo formulaire de recherche"
+
+#: includes/admin/gjm-admin-settings.php:326
+msgid "Usage"
+msgstr "Utilisation"
+
+#: includes/admin/gjm-admin-settings.php:327
+#, php-format
+msgid ""
+"Using the GEO features is as simple as adding an attribute to the already "
+"exists %s shortcode. There are two ways you can use the shortcode:"
+msgstr ""
+
+#: includes/admin/gjm-admin-settings.php:329
+msgid "Show more"
+msgstr "Voir plus"
+
+#: includes/admin/gjm-admin-settings.php:332
+#, php-format
+msgid ""
+"Add the attribute %s_use with the value 2 to the %s shortcode ( ex. %s ). "
+"This way the search form will use the settings on this page in order to add "
+"%s features to the %s search form."
+msgstr ""
+"Ajoutez l'attribut %s_use avec la valeur 2 au shortcode %s (ex. %s). De "
+"cette façon, le moteur de recherche utilise les paramètres sur cette page "
+"afin d'ajouter des fonctionnalités de %s à %s votre recherche."
+
+#: includes/admin/gjm-admin-settings.php:333
+#, php-format
+msgid ""
+"Add the attribute %s_use with the value 1 to the %s shortcode ( ex. %s ). "
+"This way you can define each of your %s search forms ( when you have more "
+"than one ) with different Geolocation features. You can do so by using the "
+"other shotcode attributes that %s provides:"
+msgstr ""
+"Ajoutez l'attribut %s_use avec la valeur 1 au shortcode %s (ex. %s). De "
+"cette façon vous pouvez définir chacun de vos formulaires de recherche de %s "
+"(si vous avez plus d'un) avec des caractéristiques différentes de "
+"géolocalisation. Vous pouvez faire ainsi avec les autres attributs shotcode "
+"que %s fournit :"
+
+#: includes/admin/gjm-admin-settings.php:335
+msgid "value 1 to display map or 0 to hide map"
+msgstr "la valeur 1 pour afficher la carte ou 0 pour masquer la carte"
+
+#: includes/admin/gjm-admin-settings.php:336
+msgid "map width in percentage or pixels"
+msgstr "carte largeur en pourcentage ou en pixels"
+
+#: includes/admin/gjm-admin-settings.php:337
+msgid "map height in percentage or pixels"
+msgstr "carte hauteur en pourcentage ou en pixels"
+
+#: includes/admin/gjm-admin-settings.php:338
+msgid "values comma separated"
+msgstr "Etiquettes (séparées par des virgules):"
+
+#: includes/admin/gjm-admin-settings.php:339
+msgid "1 to enable Google autocomplete on the address field"
+msgstr ""
+"1 pour activer la saisie semi-automatique Google sur le champ d'adresse"
+
+#: includes/admin/gjm-admin-settings.php:340
+msgid ""
+"multiple values comma separated to display as dropdown or single value to be "
+"default. ex \"5,10,25,50\""
+msgstr ""
+"séparées par une virgule de valeurs multiples pour afficher sous forme de "
+"liste déroulante ou de la seule valeur d'être par défaut. ex « 5,10,25,50 »"
+
+#: includes/admin/gjm-admin-settings.php:341
+msgid "1 to display the distance in each of the results"
+msgstr "1 pour afficher la distance dans chacune des résultats"
+
+#: includes/admin/gjm-admin-settings.php:342
+msgid "1 to scroll down to job listing when clicking on its marker on the map"
+msgstr ""
+"1 à l'annonce d'emploi faites défiler en cliquant sur son marqueur sur la "
+"carte"
+
+#: includes/admin/gjm-admin-settings.php:343
+msgid "1 to enable locator button"
+msgstr "1 pour activer le bouton de localisation"
+
+#: includes/admin/gjm-admin-settings.php:344
+#: includes/admin/gjm-admin-settings.php:402
+msgid "Type the title for the locator button"
+msgstr "Tapez le titre du bouton de localisateur"
+
+#: includes/admin/gjm-admin-settings.php:346
+msgid "Custom shortcode example"
+msgstr "exemple de shortcode personnalisé"
+
+#: includes/admin/gjm-admin-settings.php:364
+msgid "Google address autocomplete"
+msgstr "Google saisie automatique"
+
+#: includes/admin/gjm-admin-settings.php:366
+#, php-format
+msgid ""
+"Disply suggested results by Google when typing an address in the location "
+"field of the %s search form"
+msgstr ""
+"Résultats d'affichage proposés par Google lorsque vous tapez une adresse "
+"dans le champ emplacement du formulaire de recherche %s"
+
+#: includes/admin/gjm-admin-settings.php:374
+msgid "Radius"
+msgstr "Rayon"
+
+#: includes/admin/gjm-admin-settings.php:375
+msgid ""
+"Enter single value to be the default or multiple values comma separated to "
+"be displaed as a dropdown"
+msgstr ""
+"Entrez une valeur unique pour la valeur par défaut ou plusieurs valeurs "
+"séparées par des virgules à créneau comme une liste déroulante"
+
+#: includes/admin/gjm-admin-settings.php:382
+msgid "Units"
+msgstr "Unités"
+
+#: includes/admin/gjm-admin-settings.php:383
+msgid ""
+"Choose a single unit value to be used as the default or choose \"Both\" to "
+"let the user choose using a dropdown select menu"
+msgstr ""
+"Choisissez une valeur seule unité à être utilisé comme valeur par défaut ou "
+"choisissez « Both » de laisser l'utilisateur choisir à l'aide d'un menu de "
+"sélection de liste déroulante"
+
+#: includes/admin/gjm-admin-settings.php:391
+msgid "Display locator button"
+msgstr "Afficher le bouton de localisation"
+
+#: includes/admin/gjm-admin-settings.php:393
+msgid "Disply button that will get the user's current location."
+msgstr ""
+"Bouton Display qui permet l'obtention l'emplacement actuel de l'utilisateur."
+
+#: includes/admin/gjm-admin-settings.php:400
+#: includes/admin/gjm-admin-settings.php:401
+msgid "Locator button title"
+msgstr "Titre du bouton de localisation"
+
+#: includes/admin/gjm-admin-settings.php:409
+msgid "Order By"
+msgstr "Trier par"
+
+#: includes/admin/gjm-admin-settings.php:410
+msgid ""
+"Enter the values you want to use in the \"Sort by\" dropdown select box. "
+"Enter, comma separated, in the order that you want the values to appear any "
+"of the values: distance, title, date and featured."
+msgstr ""
+"Entrez les valeurs que vous souhaitez utiliser dans la \"Trier par\" "
+"déroulant, sélectionnez la boîte. Entrez, séparées par des virgules, dans "
+"l'ordre que vous voulez que les valeurs apparaissent l'une des valeurs: "
+"distance, titre, date et présenté."
+
+#: includes/admin/gjm-admin-settings.php:416
+#: includes/admin/gjm-admin-settings.php:488
+msgid "Display map"
+msgstr "Afficher la carte"
+
+#: includes/admin/gjm-admin-settings.php:418
+msgid "Disply map with "
+msgstr "Carte Disply avec"
+
+#: includes/admin/gjm-admin-settings.php:426
+#: includes/admin/gjm-admin-settings.php:498
+msgid "Map Width"
+msgstr "Largeur de carte"
+
+#: includes/admin/gjm-admin-settings.php:427
+#: includes/admin/gjm-admin-settings.php:499
+#, php-format
+msgid "Map width in pixels or percentage (ex. 100% or 250px)"
+msgstr "la largeur de la carte en pixels ou en pourcentage (ex. 100% ou 250px)"
+
+#: includes/admin/gjm-admin-settings.php:434
+#: includes/admin/gjm-admin-settings.php:506
+msgid "Map height"
+msgstr "Hauteur de la carte"
+
+#: includes/admin/gjm-admin-settings.php:435
+#: includes/admin/gjm-admin-settings.php:507
+#, php-format
+msgid "Map height in pixels or percentage (ex. 100% or 250px)"
+msgstr "hauteur de la carte en pixels ou en pourcentage (ex. 100% ou 250px)"
+
+#: includes/admin/gjm-admin-settings.php:441
+#: includes/admin/gjm-admin-settings.php:513
+msgid "Map Type"
+msgstr "Type de carte"
+
+#: includes/admin/gjm-admin-settings.php:442
+#: includes/admin/gjm-admin-settings.php:514
+msgid "Choose the map type"
+msgstr "Choisir type de carte"
+
+#: includes/admin/gjm-admin-settings.php:445
+#: includes/admin/gjm-admin-settings.php:517
+msgid "ROADMAP"
+msgstr "Feuille de route"
+
+#: includes/admin/gjm-admin-settings.php:446
+#: includes/admin/gjm-admin-settings.php:518
+msgid "SATELLITE"
+msgstr ""
+
+#: includes/admin/gjm-admin-settings.php:447
+#: includes/admin/gjm-admin-settings.php:519
+msgid "HYBRID"
+msgstr "HYBRIDE"
+
+#: includes/admin/gjm-admin-settings.php:448
+#: includes/admin/gjm-admin-settings.php:520
+msgid "TERRAIN"
+msgstr "TERRAIN"
+
+#: includes/admin/gjm-admin-settings.php:454
+msgid "Enable Maps scrollwheel control?"
+msgstr "Activer Plans contrôle de molette?"
+
+#: includes/admin/gjm-admin-settings.php:456
+#: includes/admin/gjm-admin-settings.php:528
+msgid "Zoom map in/out using mouse wheel?"
+msgstr "Zoom Carte entrée/sortie à l'aide de la molette de la souris ?"
+
+#: includes/admin/gjm-admin-settings.php:463
+msgid "Scroll on Marker Click"
+msgstr "Faites le Marker Cliquez"
+
+#: includes/admin/gjm-admin-settings.php:465
+msgid ""
+"On map's marker click, scroll down to the job associate with the marker in "
+"the list of results."
+msgstr ""
+"Le marqueur sur la carte cliquez, faites défiler jusqu'à l'emploi associé "
+"avec le marqueur dans la liste des résultats."
+
+#: includes/admin/gjm-admin-settings.php:472
+msgid "Display distance"
+msgstr "la distance d'affichage"
+
+#: includes/admin/gjm-admin-settings.php:474
+#, php-format
+msgid "Display the distance to each %s in the list of results"
+msgstr "Afficher la distance à chaque%s dans la liste des résultats"
+
+#: includes/admin/gjm-admin-settings.php:483
+msgid "Geo Single Page Settings"
+msgstr "Paramètres simple page"
+
+#: includes/admin/gjm-admin-settings.php:490
+#, php-format
+msgid "Display map showing the %s location in a single %s page"
+msgstr "Visualiser la carte localisant dans une page unique %s %s"
+
+#: includes/admin/gjm-admin-settings.php:526
+msgid "Enable maps scrollwheel control?"
+msgstr "Activer Plans contrôle de molette?"
+
+#: includes/gjm-functions.php:18
+msgid "Miles"
+msgstr "Miles"
+
+#: includes/gjm-functions.php:19
+msgid "Kilometers"
+msgstr "Kilometres"
+
+#: includes/gjm-functions.php:20
+msgid "Within"
+msgstr "jusqu'à"
+
+#: includes/gjm-functions.php:21
+msgid "Distance"
+msgstr "Distance"
+
+#: includes/gjm-functions.php:22
+msgid "Title"
+msgstr "Titre"
+
+#: includes/gjm-functions.php:23
+msgid "Featured"
+msgstr "Tête de liste"
+
+#: includes/gjm-functions.php:24
+msgid "Date"
+msgstr "Date"
+
+#: includes/gjm-functions.php:25
+msgid "Sort by"
+msgstr "Tri par"
+
+#: includes/gjm-functions.php:26
+msgid "Resize map"
+msgstr "Redimensionner la carte"
+
+#: includes/gjm-functions.php:27
+msgid "Company:"
+msgstr "Société :"
+
+#: includes/gjm-functions.php:28
+msgid "Address:"
+msgstr "Adresse :"
+
+#: includes/gjm-functions.php:29
+msgid "Job Type:"
+msgstr "Type d’emploi :"
+
+#: includes/gjm-functions.php:30
+#, php-format
+msgid "Posted %s ago"
+msgstr "Ajouté il y a %s"
+
+#: includes/gjm-functions.php:31
+msgid "mi"
+msgstr "mi"
+
+#: includes/gjm-functions.php:32
+msgid "km"
+msgstr "km"
+
+#: includes/gjm-geocode.php:106
+msgid "No location found for the entered address."
+msgstr "Aucun lieu trouvé pour l'adresse entrée."
+
+#: includes/gjm-geocode.php:108
+msgid "Invalid request. Did you enter an address?"
+msgstr "Requête non valide. Avez-vous saisi une adresse ?"
+
+#: includes/gjm-geocode.php:110 includes/gjm-geocode.php:112
+msgid "Something went wrong while retrieving your location."
+msgstr ""
+"Quelque chose a mal tourné lors de la récupération de votre emplacement."
+
+#: includes/gjm-geocode.php:116
+msgid "Unable to contact Google API service."
+msgstr "Impossible de contacter le service Google API."
+
+#: updater/geo-my-wp-license-handler.php:78
+msgid "Please deactivate the license key before deactivating the plugin"
+msgstr ""
+"S'il vous plaît désactiver la clé de licence avant de désactiver le plugin"
+
+#: updater/geo-my-wp-license-handler.php:170
+#: updater/geo-my-wp-license-handler.php:214
+msgid "License Key:"
+msgstr "Clé de licence:"
+
+#: updater/geo-my-wp-license-handler.php:189
+#: updater/geo-my-wp-license-handler.php:190
+msgid "Deactivate License Key"
+msgstr "Désactiver la licence"
+
+#: updater/geo-my-wp-license-handler.php:222
+msgid "Enter license key"
+msgstr "Entrer la clé de licence !"
+
+#: updater/geo-my-wp-license-handler.php:229
+msgid "Activate License Key"
+msgstr "Activer la licence"
+
+#: updater/geo-my-wp-license-handler.php:231
+msgid "Activate License"
+msgstr "Activer la licence"
+
+#: updater/geo-my-wp-license-handler.php:273
+msgid ""
+"Please enter your license key and click \"Activate License\". The license "
+"key is required in order to receive automatic updated for the plugin."
+msgstr ""
+"S'il vous plaît entrer votre clé de licence et cliquez sur \"Activer la "
+"licence\". La clé de licence est requise afin de recevoir automatiquement "
+"mis à jour pour le plugin."
+
+#: updater/geo-my-wp-license-handler.php:274
+#, php-format
+msgid ""
+"Your license for %s plugin successfully activated. Thank you for your "
+"support!"
+msgstr ""
+"Votre licence pour %s plugin activé avec succès. Je vous remercie pour votre "
+"soutien !"
+
+#: updater/geo-my-wp-license-handler.php:275
+#, php-format
+msgid "Your license for %s plugin successfully deactivated."
+msgstr "Votre licence pour %s plugin désactivée avec succès."
+
+#: updater/geo-my-wp-license-handler.php:276
+msgid "License is activated. Thank you for your support!"
+msgstr "Licence est activée. Je vous remercie pour votre soutien !"
+
+#: updater/geo-my-wp-license-handler.php:277
+msgid "No license key entered. Please enter the license key and try again."
+msgstr ""
+"Aucune clé de licence est renseignée. Veuillez entrer la clé de licence, "
+"puis réessayez."
+
+#: updater/geo-my-wp-license-handler.php:278
+msgid ""
+"Your license has expired. Please renew your license in order to keep getting "
+"its updates and support."
+msgstr ""
+"Votre licence a expiré. Veuillez renouveler votre licence afin de continuer "
+"à obtenir ses mises à jour et soutien."
+
+#: updater/geo-my-wp-license-handler.php:279
+#, php-format
+msgid ""
+"Your license has no activations left. Click <a %s>here</a> to manager your "
+"license activations."
+msgstr ""
+"Votre licence n'a plus d'acrtivation possible. Cliquez <a %s=\"\">ici</a> "
+"pour manager votre activation de licence."
+
+#: updater/geo-my-wp-license-handler.php:280
+msgid ""
+"Something is wrong with the key you entered. Please verify the key and try "
+"again."
+msgstr ""
+"Quelque chose ne va pas avec la clé que vous avez entré. S'il vous plaît "
+"vérifier la clé, puis réessayez."
+
+#: updater/geo-my-wp-license-handler.php:281
+#, php-format
+msgid "Lost or forgot your license key? <a %s >Retrieve it here.</a>"
+msgstr ""
+"Perdu ou oublié votre clé de licence ? <a %s=\"\">Récupérez-le ici.</a>"
+
+#: updater/geo-my-wp-license-handler.php:282
+#, php-format
+msgid ""
+"Your license for %s plugin could not be activated. See error message below!"
+msgstr ""
+"Votre licence pour %s plugin ne peut pas être activée. Voir le message "
+"d'erreur ci-dessous !"
+
+#: updater/geo-my-wp-updater.php:180
+#, php-format
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">View version %3$s details</a>."
+msgstr ""
+"Il y a une nouvelle version de %1$s disponible. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">Voir les détails de la version %3$s </a>."
+
+#: updater/geo-my-wp-updater.php:187
+#, php-format
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a href=\"%4$s"
+"\">update now</a>."
+msgstr ""
+"Il y a une nouvelle version de %1$s disponible. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">Voir les %3$s détails de la version</a> or <a "
+"href=\"%4$s »>mettez à jour maintenant</a>."
+
+#: updater/geo-my-wp-updater.php:327
+msgid "You do not have permission to install plugin updates"
+msgstr "Vous n’avez pas la permission d’installer des mises à jour d’extension"
+
+#: updater/geo-my-wp-updater.php:327
+msgid "Error"
+msgstr "Erreur"
+
+#. Plugin Name of the plugin/theme
+msgid "GEO Job Manager"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.geomywp.com/add-ons/geo-job-manager"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Add Geo-location search functionality to WP Job Manager plugin"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Eyal Fitoussi"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.geomywp.com"
+msgstr ""

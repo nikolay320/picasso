@@ -1,0 +1,55 @@
+<?php 
+
+add_action('template_redirect', 'marylinkcustom_the_notify_sabai');
+
+
+function marylinkcustom_the_notify_sabai() {
+
+	$post_type = $_GET;
+
+	$isNoti = (int) $post_type['noti'];
+
+
+	if (empty($isNoti) || $isNoti !== 1)
+		return 0;
+
+	//$path = $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
+
+?>
+<script>
+ 
+var query = location.href.split('#');
+ 
+document.cookie = 'anchor=' + query[1];
+ 
+<?php if (!$_COOKIE['anchor']) : ?>
+ 
+window.location.reload();
+ 
+<?php endif; ?>
+</script>
+
+<?php
+ 
+$anchor = $_COOKIE['anchor'];
+
+
+$get_ID = (int) preg_replace("/sabai-entity-content-/", "", $anchor);
+
+var_dump($get_ID);
+
+$get_comment = get_post( $get_ID );
+
+var_dump($get_comment);
+ global $wpdb;
+$lastid = $wpdb->insert_id;
+
+var_dump($lastid);
+
+	die();
+
+
+}
+
+
+ ?>

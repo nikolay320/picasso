@@ -1,0 +1,52 @@
+.bpqa-floating-left {
+    position:fixed;
+    left:0px;
+    z-index: 9999999999;
+}
+
+.bpqa-floating-right {
+    position:fixed;
+    right:0px;
+    z-index: 9999999999;
+}
+
+.bpqa-floating-button-wrapper img {
+    max-width:40px;
+    height:auto;
+}
+
+.bpqa-floating-button-wrapper img:hover {
+    opacity: 0.8
+}
+
+img.bpqa-form-trigger.bpqa-image-trigger {
+    cursor: pointer;
+}
+
+div#bpqa-popup-ajax-loader {
+	display:none;
+	position: fixed;
+	width:100%;
+	height:100%;
+	background: white;
+	text-align: center;
+	z-index: 999999;
+	opacity: 0.90;
+	padding: 20%;
+	box-sizing: border-box;
+	top:0px;
+	left:0px;
+}
+
+div#bpqa-popup-ajax-loader p {
+	font-size: 18px;
+	padding:10px;
+}
+
+div#bpqa-popup-ajax-loader img {
+	max-height:28px;
+}
+
+.atwho-view {
+	z-index: 999999;
+}

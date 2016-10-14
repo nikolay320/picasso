@@ -1,0 +1,1 @@
+<?php $this->displayTemplate('questions_searchbox', array('bundle' => null, 'bundles' => @$bundles, 'action_url' => $action_url, 'search' => $search, 'keywords' => '', 'current_category' => null, 'category' => 0, 'category_bundle' => $category_bundle, 'button' => $button, 'no_ajax_submit' => true, 'mini' => !empty($mini)));?>

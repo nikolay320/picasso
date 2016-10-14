@@ -1,0 +1,182 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: BuddyPress Message Attachment\n"
+"POT-Creation-Date: 2015-07-16 09:16+0200\n"
+"PO-Revision-Date: 2015-07-16 09:19+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: loader.php\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/actions.php:68
+msgid "Allowed Files"
+msgstr "Fichiers autorisés"
+
+#: includes/actions.php:80
+#, php-format
+msgid "Uploaded file must not be more than %s mb"
+msgstr "Fichier téléchargé ne doit pas être plus de%s mb"
+
+#: includes/actions.php:81
+#, php-format
+msgid ""
+"Selected file not allowed to be uploaded. It must be one of the following: %s"
+msgstr ""
+"Fichier sélectionné pas autorisé à être transféré. Il doit être l'un des "
+"suivants:%s"
+
+#: includes/actions.php:82
+msgid "Error! File could not be uploaded."
+msgstr "Erreur! Le fichier ne peut être téléchargé."
+
+#: includes/actions.php:84
+msgid "Remove"
+msgstr "Ôter"
+
+#: includes/actions.php:85
+msgid "Uploading..."
+msgstr "Téléchargement ..."
+
+#: includes/admin.php:106 includes/admin.php:113
+msgid "BP Message Attachments"
+msgstr "Pièces jointes du message"
+
+#: includes/admin.php:106
+msgid "Message Attachments"
+msgstr "Pièces jointes du message"
+
+#: includes/admin.php:118
+msgid "Settings updated."
+msgstr "Paramètres mis à jour."
+
+#: includes/admin.php:126
+msgid "Save Changes"
+msgstr "Enregistrer les modifications"
+
+#: includes/admin.php:136
+msgid "Attachment Settings"
+msgstr "Paramètres de la pièce jointe"
+
+#: includes/admin.php:137
+msgid "File Types"
+msgstr "Types de fichier"
+
+#: includes/admin.php:138
+msgid "Maximum Size"
+msgstr "dimension maximale"
+
+#: includes/admin.php:140
+msgid "Miscellaneous"
+msgstr "Divers"
+
+#: includes/admin.php:141
+msgid "Load CSS"
+msgstr "Charge CSS"
+
+#: includes/admin.php:225
+msgid "Maximum size(in MB) allowed per file."
+msgstr "La taille maximale (en Mo) autorisés par fichier."
+
+#: includes/admin.php:233
+#, php-format
+msgid ""
+"Based on your php configuration, maximum file size can not exceed %s MB."
+msgstr ""
+"Basé sur votre configuration de PHP, la taille maximale d'un fichier ne peut "
+"pas dépasser% de MB."
+
+#: includes/admin.php:240
+msgid "Yes"
+msgstr "Oui"
+
+#: includes/admin.php:241
+msgid ""
+"Whether to load plugin's css file or not. If you have overriden plugins' css "
+"rules in your theme, you can uncheck this."
+msgstr ""
+"Que ce soit pour charger le fichier css de plugin ou pas. Si vous avez "
+"surchargé les règles CSS de plugins dans votre thème, vous pouvez décocher "
+"cette."
+
+#: includes/admin.php:274
+msgid "Settings"
+msgstr "Paramètres"
+
+#: includes/main-class.php:161
+msgid "Images"
+msgstr "Images"
+
+#: includes/main-class.php:165
+msgid "Documents"
+msgstr "Documents"
+
+#: includes/main-class.php:169
+msgid "Archives"
+msgstr "Archives"
+
+#: includes/main-class.php:173
+msgid "Audio"
+msgstr "Audio"
+
+#: includes/main-class.php:177
+msgid "Video"
+msgstr "Vidéo"
+
+#: includes/main-class.php:226 includes/main-class.php:228
+msgid "BuddyPress Settings"
+msgstr "Paramètres de 'BuddyPress Docs'"
+
+#: includes/main-class.php:230
+#, php-format
+msgid ""
+"Hey! BuddyPress Message Attachment requires messages component enabled. "
+"Please enable it by going under %s."
+msgstr ""
+"Hey! BuddyPress Message Attachement nécessite composante messages activé. "
+"S'il vous plaît activer en passant sous%s."
+
+#: templates/form.php:3
+msgid "Add an attachment"
+msgstr "Ajouter une pièce jointe"
+
+#: templates/form.php:5
+msgid "Allowed file types : "
+msgstr "Types de fichiers autorisés  :"
+
+#: templates/form.php:6
+msgid "Choose file"
+msgstr "Parcourir"
+
+#. Plugin Name of the plugin/theme
+msgid "BuddyPress Message Attachment"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://webdeveloperswall.com/buddypress/buddypress-message-attachment"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Extend BuddyPress' private message feature by enabling attachments. This "
+"plugin enables users to send attachments in private messages."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "ckchaudhary"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://webdeveloperswall.com/author/ckchaudhary"
+msgstr ""

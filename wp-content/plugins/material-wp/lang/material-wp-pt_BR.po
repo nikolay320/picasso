@@ -1,0 +1,425 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the material-wp package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: material-wp 0.0.16\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-01-08 00:20-0200\n"
+"PO-Revision-Date: 2016-01-08 01:20-0200\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.5\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Language: pt_BR\n"
+
+#: ../material-wp.php:70
+msgid ""
+"You are about to permanently delete the selected items.\n"
+"  'Cancel' to stop, 'OK' to delete."
+msgstr ""
+"Você está quase excluindo permanentemente os itens selecionados. \n"
+" ‘Cancelar’ para parar, ‘OK’ para continuar"
+
+#: ../material-wp.php:71
+msgid "Dismiss this notice."
+msgstr "Descartar essa notificação"
+
+#: ../material-wp.php:148 ../material-wp.php:149
+msgid "Material WP"
+msgstr "Material WP"
+
+#: ../material-wp.php:150
+msgid ""
+"The badges in each tab represents the number of new options in this version!"
+"<br>Also, check the \"Activate Material WP\" tab to join our "
+"<strong>CodeCanyon Happy Buyers Club</strong>!"
+msgstr ""
+"Os números em cada guia representam o número de novas opções nesta versão!"
+"<br>Além disso, verifique na guia “Ativar Material WP” para entrar no nosso "
+"<strong>Clube de compradores felizes do CodeCanyon</strong>!"
+
+#: ../material-wp.php:162
+msgid "Styling Settings"
+msgstr "Configuração de Estilo"
+
+#: ../material-wp.php:162
+#, php-format
+msgid "%s new options!"
+msgstr "%s novas opções!"
+
+#: ../material-wp.php:168
+msgid "Functionality"
+msgstr "Funcionalidade"
+
+#: ../material-wp.php:173
+msgid "Custom CSS"
+msgstr "CSS Personalizado"
+
+#: ../material-wp.php:184
+msgid "Custom CSS Code"
+msgstr "CSS Personalizado"
+
+#: ../material-wp.php:185
+msgid ""
+"Enter your custom CSS code to be applied to the dashboard! SCSS syntax is "
+"supported!"
+msgstr ""
+"Coloque o seu código CSS personalizado a ser aplicado ao painel de "
+"administração!  Sintaxe SCSS é aceita!"
+
+#: ../material-wp.php:199
+msgid "Primary Color"
+msgstr "Cor Primária"
+
+#: ../material-wp.php:200
+msgid ""
+"This color will be used in the admin bar adn in the parallax block effect."
+msgstr "Esta cor será usada na barra de admin e no efeito de paralaxe."
+
+#: ../material-wp.php:208
+msgid "Accent Color"
+msgstr "Cor de Destaque"
+
+#: ../material-wp.php:209
+msgid "This color will be used in the buttons and links across the admin."
+msgstr ""
+"Esta cor será usada nos botões e links em toda a interface de admonistração."
+
+#: ../material-wp.php:217
+msgid "Menu Icons Radom Colors"
+msgstr "Cores aleatórias nos Ícones do Menu"
+
+#: ../material-wp.php:218
+msgid ""
+"Use this option to enable/disable the random colors for the admin links."
+msgstr ""
+"Use esta opção para habilitar/desabilitar as cores aleatórias para os ícones "
+"do menu."
+
+#: ../material-wp.php:226
+msgid "Menu Icons Custom Color"
+msgstr "Cor personalizada de ícones de menu"
+
+#: ../material-wp.php:227
+msgid ""
+"Select your own color to the admin menu icons. Note: this only works for the "
+"icon-font icons and this options is only user if the \"Menu Icons Random\n"
+"      Colors\" option is disabled."
+msgstr ""
+"Selecione sua própria cor para os ícones do menu admin. Nota: isto só "
+"funciona para os ícones-fonte e esta opções é usada somente se a opção "
+"“Cores aleatórias nos Ícones de Menu” estiver desativada."
+
+#: ../material-wp.php:236
+msgid "Admin Menu Width"
+msgstr "Largura do Menu"
+
+#: ../material-wp.php:237
+msgid "Change the width of the sidemenu."
+msgstr "Mude o tamanho do menu lateral."
+
+#: ../material-wp.php:248
+msgid "Parallax Block Height"
+msgstr "Altura do Bloco Paralaxe"
+
+#: ../material-wp.php:249
+msgid "Change the height of the parallax block."
+msgstr "Altere a altura do bloco de paralaxe."
+
+#: ../material-wp.php:262
+msgid "Adminbar Height"
+msgstr "Altura da Adminbar"
+
+#: ../material-wp.php:263
+msgid "Change the height of the adminbar."
+msgstr "Altere a altura da Adminbar."
+
+#: ../material-wp.php:276
+msgid "Adminbar Subitem Height"
+msgstr "Altura dos Subitems da Adminbar"
+
+#: ../material-wp.php:277
+msgid "Change the height of the items of the adminbar submenu."
+msgstr "Altere a altura dos itens de submenu da Adminbar."
+
+#: ../material-wp.php:288
+msgid "Parallax Block Settings"
+msgstr "Bloco Paralaxe"
+
+#: ../material-wp.php:289
+msgid ""
+"Here you can select the style of the display of the parallax block. You can "
+"choose to use a solid color, the parallax with the opacity effect or just "
+"the parallax effect."
+msgstr ""
+"Aqui você pode selecionar o estilo de visualização do bloco paralaxe. Você "
+"pode optar por usar uma cor sólida, a paralaxe com o efeito de opacidade ou "
+"apenas o efeito de paralaxe."
+
+#: ../material-wp.php:293
+msgid "Parallax + Opacity Effect"
+msgstr "Paralaxe + efeito de opacidade"
+
+#: ../material-wp.php:294
+msgid "Only Parallax Effect"
+msgstr "Apenas Efeito de Paralaxe"
+
+#: ../material-wp.php:295
+msgid "Solid Color"
+msgstr "Cor Sólida"
+
+#: ../material-wp.php:302
+msgid "Parallax BG Color"
+msgstr "Cor de fundo do bloco paralaxe"
+
+#: ../material-wp.php:303
+msgid "Select the background color of the parallax block."
+msgstr "Selecione a cor de fundo do bloco paralaxe."
+
+#: ../material-wp.php:311
+msgid "Preset Parallax Block BG"
+msgstr "Fundos pré-definidos do Bloco Paralaxe"
+
+#: ../material-wp.php:312
+msgid ""
+"Select the background image of the parallax block from one of our preset "
+"images. You you prefer, you can choose your own image using the field bellow."
+msgstr ""
+"Selecione a imagem de fundo do bloco de paralaxe de uma das nossas imagens "
+"predefinidas. Se você preferir, você pode escolher sua própria imagem usando "
+"o campo abaixo."
+
+#: ../material-wp.php:327
+msgid "Custom Parallax Block BG"
+msgstr "Imagem de fundo personalizada"
+
+#: ../material-wp.php:328
+msgid "Select your custom Parallax Block BG."
+msgstr ""
+"Selecione sua própria imagem de fundo personalizada para o bloco paralaxe."
+
+#: ../material-wp.php:330
+msgid "Select your custom parallax block BG."
+msgstr ""
+"Selecione sua própria imagem de fundo personalizada para o bloco paralaxe."
+
+#: ../material-wp.php:337
+msgid "Custom Logo"
+msgstr "Logotipo Personalizado"
+
+#: ../material-wp.php:338
+msgid ""
+"Select the custom Logo you want to use. It will be displayed in the admin "
+"bar and in the login page as well."
+msgstr ""
+"Selecione o logotipo personalizado que você deseja usar. Ele será exibido na "
+"barra de admin e também nas página de Login."
+
+#: ../material-wp.php:340
+msgid "Select your custom logo image."
+msgstr "Selecione seu logotipo personalizado."
+
+#: ../material-wp.php:356
+msgid "Admin Menu"
+msgstr "Menu da Administração"
+
+#: ../material-wp.php:357
+msgid "Use this block to change the settings regarding the admin menu"
+msgstr ""
+"Use este bloco para alterar as configurações em relação ao menu de "
+"administração"
+
+#: ../material-wp.php:364
+msgid "Menu Reordering"
+msgstr "Reordenação de menu"
+
+#: ../material-wp.php:365
+msgid ""
+"If enabled, the reordering functionality will be presented to the backend "
+"users."
+msgstr ""
+"Se habilitada, a funcionalidade de reordenação será apresentada aos usuários."
+
+#: ../material-wp.php:373
+msgid "Menu Label"
+msgstr "Título do Menu"
+
+#: ../material-wp.php:374
+msgid ""
+"Select the little text that appears ontop of the admin menu. Leave blank to "
+"display nothing."
+msgstr ""
+"Selecione o pequeno que aparece encima do menu de administração. Deixe em "
+"branco para não exibir nada."
+
+#: ../material-wp.php:377
+msgid "Main Menu"
+msgstr "Menu Principal"
+
+#: ../material-wp.php:383
+msgid "Menu Position"
+msgstr "Posição do Menu"
+
+#: ../material-wp.php:384
+msgid "You can position the admin menu in either side of the screen."
+msgstr "Você pode posicionar o menu admin em ambos os lados da tela."
+
+#: ../material-wp.php:388
+msgid "Left"
+msgstr "Esquerda"
+
+#: ../material-wp.php:389
+msgid "Right"
+msgstr "Direita"
+
+#: ../material-wp.php:402
+msgid "Admin Bar"
+msgstr "Admin Bar"
+
+#: ../material-wp.php:403
+msgid "Use this block to change the settings regarding the admin bar"
+msgstr "Use este bloco para alterar as configurações da Adminbar"
+
+#: ../material-wp.php:409
+msgid "Admin Bar in the Frontend"
+msgstr "Adminbar no Front-end"
+
+#: ../material-wp.php:410
+msgid ""
+"You can choose to use the default WordPress admin bar styles in the frontend "
+"by disabling our custom styles."
+msgstr ""
+"Você pode optar por usar os estilos-padrão do WordPress para a adminbar no "
+"front-end, desativando nossos estilos personalizados."
+
+#: ../material-wp.php:424
+msgid "Login Page"
+msgstr "Página de Login"
+
+#: ../material-wp.php:425
+msgid "Use this block to change some options of the login page."
+msgstr "Use este bloco para alterar algumas opções da página de login."
+
+#: ../material-wp.php:431
+msgid "Link in the Logo"
+msgstr "Link do logotipo"
+
+#: ../material-wp.php:432
+msgid ""
+"Change the link in the logo displayed above the login form. Leave blank to "
+"link to your site's homepage."
+msgstr ""
+"Mude o link do logotipo exibido acima do formulário de login. Deixe em "
+"branco para usar o link da página inicial do seu site."
+
+#: ../material-wp.php:434
+msgid "Defaults to your site's homepage"
+msgstr "A URL da página inicial do seu site."
+
+#: ../material-wp.php:439
+msgid "Display \"Back to Blog\" link?"
+msgstr "Mostrar bloco “Volta ao Blog”?"
+
+#: ../material-wp.php:440
+msgid ""
+"Using this option you can choose to display or hide the back to blog link in "
+"the admin form."
+msgstr ""
+"Usando esta opção você pode exibir ou ocultar o bloco “Voltar para o blog”, "
+"no formulário de login."
+
+#: ../material-wp.php:601
+msgid ""
+"Something in your Material WP options may be causing SCSS compiling errors. "
+"Please verify if all of your options have correct values (a color field, for "
+"example, can not contain a value different of a hex code (#fff))"
+msgstr ""
+"Alguma coisa em suas configurações do Material WP está causando erros de "
+"compilação SCSS. Por favor, verifique se todas as opções têm valores "
+"corretos (um campo de cor, por exemplo, pode não conter um valor diferente "
+"de um código hexadecimal (#fff))"
+
+#: ../material-wp.php:628
+msgid "Your custom CSS (with SCSS) code has some syntax error. Please verify."
+msgstr ""
+"Seu código personalizado do CSS (com SCSS) tem algum erro de sintaxe. Por "
+"favor verifique."
+
+#: ../material-wp.php:739
+msgid "Help"
+msgstr "Ajuda"
+
+#: ../material-wp.php:751
+msgid "Settings"
+msgstr "Configurações"
+
+#: ../material-wp.php:763
+msgid "Logout"
+msgstr "Sair"
+
+#: ../modules/login-customizer/login-customizer.php:11
+msgid "Background"
+msgstr "Fundo"
+
+#: ../modules/login-customizer/login-customizer.php:12
+#: ../modules/login-customizer/login-customizer.php:18
+#: ../modules/login-customizer/login-customizer.php:24
+msgid "Material WP Login"
+msgstr "Material WP Login"
+
+#: ../modules/login-customizer/login-customizer.php:17
+msgid "Login Block"
+msgstr "Bloco de login"
+
+#: ../modules/login-customizer/login-customizer.php:23
+msgid "Inputs"
+msgstr "Campos de texto"
+
+#: ../modules/login-customizer/login-customizer.php:32
+msgid "Block Padding"
+msgstr ""
+
+#: ../modules/login-customizer/login-customizer.php:33
+msgid "Select the padding to be applied to the login block."
+msgstr ""
+
+#: ../modules/login-customizer/login-customizer.php:42
+msgid "Block Background Color"
+msgstr ""
+
+#: ../modules/login-customizer/login-customizer.php:43
+msgid "Select the background color to be applied to the login block."
+msgstr ""
+
+#: ../modules/menu-editing/views/actions.php:6
+#: ../modules/menu-editing/views/actions.php:8
+msgid "Edit Menu"
+msgstr "Editar Menu"
+
+#: ../modules/menu-editing/views/actions.php:13
+#: ../modules/menu-editing/views/actions.php:15
+msgid "Save Menu"
+msgstr "Salvar Menu"
+
+#: ../modules/menu-editing/views/actions.php:16
+msgid "Saving..."
+msgstr "Salvando…"
+
+#: ../modules/menu-editing/views/actions.php:17
+msgid "Saved!"
+msgstr "Salvo!"
+
+#: ../modules/menu-editing/views/actions.php:22
+#: ../modules/menu-editing/views/actions.php:24
+msgid "Restore Menu"
+msgstr "Restaurar Menu"
+
+#: ../views/parallax-block.php:44
+msgid "Edit your profile"
+msgstr "Editar Perfil"

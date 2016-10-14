@@ -1,0 +1,87 @@
+.kleo_ajax_results {
+	overflow-y: scroll;
+	overflow-x: hidden;
+	max-height: 500px;
+}
+
+.kleo_ajax_results .scrollbar
+{
+	margin-left: 30px;
+	float: left;
+	height: 300px;
+	width: 65px;
+	background: #F5F5F5;
+	overflow-y: scroll;
+	margin-bottom: 25px;
+}
+
+.kleo_ajax_results::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #f7f7f7;
+}
+
+.kleo_ajax_results::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: #3f93db;
+}
+
+.kleo_ajax_results::-webkit-scrollbar-thumb
+{
+	background-color: #bbb;
+	border: 1px solid #ccc;
+}
+
+.kleo-ajax-part h4 span {
+	color: #ffffff;
+}
+
+#ajax_searchform input::-webkit-input-placeholder {
+	color: #ffffff;
+}
+#ajax_searchform input::-moz-placeholder { /* Firefox 19+ */
+  color: #ffffff;
+}
+#ajax_searchform input:-ms-input-placeholder { /* IE 10+ */
+  color: #ffffff;
+}
+#ajax_searchform input:-moz-placeholder { /* Firefox 18- */
+  color: #ffffff;
+}
+
+.kleo-ajax-type-idea .ajax_search_image .icon:before , .kleo-ajax-type-ideas .ajax_search_image .icon:before {
+	content: '\e88a';
+}
+
+.kleo-ajax-type-bp_doc .ajax_search_image .icon:before {
+	content: '\e870';
+}
+
+.kleo-ajax-type-sabai-question .ajax_search_image .icon:before {
+	content: '\e862';
+}
+
+/*
+.kleo-ajax-type-sabai-theme .ajax_search_image .icon:before {
+	content: '\e8cc';
+}
+.kleo-ajax-type-sabai-answer .ajax_search_image .icon:before {
+	content: '\e845';
+}
+
+.kleo-ajax-type-sabai-event .ajax_search_image .icon:before {
+	content: '\e87f';
+}
+*/
+.ajax_search_image .icon:before {
+    font-size: 18px !important;
+}
+
+.header-color .kleo_ajax_entry .search_excerpt, .kleo_ajax_entry.ajax_not_found .ajax_search_content {
+	color: #999 !important;
+}
+
+.kleo-ajax-type-activity-notes .ajax_search_image img, .kleo-ajax-type-members .ajax_search_image img {
+	border-radius: 100%;
+}

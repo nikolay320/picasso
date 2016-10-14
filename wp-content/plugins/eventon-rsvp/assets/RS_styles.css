@@ -1,0 +1,585 @@
+/**
+ * 	RSVP Events Calendar styles
+ * 	@version 0.2
+*/
+
+/* general */
+	.evoRS_top{
+		margin-top: 10px;
+	}
+	.evoRS_top p{margin-bottom: 5px;padding: 0;}
+	p.evors_rsvp_option_selector span:hover, div.evors_count span:hover{
+		background-color: #8f8f8f;
+		color: #fff
+	}
+	p.evors_rsvp_option_selector span.select, div.evors_count span.select{
+		color: #fff; background-color: #ecba78;
+	}
+	.evoRS_top .evors_rsvp_choices span.inactive{
+		pointer-events: none;
+	}
+	p.evors_rsvp_option_selector span, div.evors_count span, p.evors_rsvp_option_selector em.evors_001{
+		background-color: #fff;
+		padding:5px 8px;
+		margin-right: 5px;
+		color: #6b6b6b;
+		display: inline-block;
+		cursor: pointer;
+		position: relative;
+		border-radius: 4px;
+	}
+	p.evors_rsvp_option_selector span em{
+		position: absolute;
+		background-color: #e18080;
+		color: #fff;
+		font-size: 9px;
+		text-align: center;
+		border-radius:50%;
+		height: 18px; width: 18px;
+		top: 0;left: 0;
+		margin: -9px 0 0 -7px;
+	}
+	.evors_001{cursor: pointer;}
+	p.evors_rsvp_option_selector em.evors_001{background-color: #D6D6D6; margin-right: 0; float: right;}
+	p.evors_rsvp_option_selector em.evors_001:hover{background-color: #fff;}
+
+	.evoRS_form .evors_subtitle{
+		font-size: 16px; padding-bottom: 10px;display: block; margin: 0;
+	}
+	body .evcal_eventcard .evoRS_status_option_selection p{padding: 15px 0 10px;	}
+	.evoRS_status_option_selection span, .evors_rsvped_status_user, .evors_change_rsvp span.change{
+		border:1px solid #cdcdcd;
+		padding: 4px 10px;
+		font-style: normal;
+		margin-right: -1px;
+		text-transform: uppercase;
+		cursor: pointer;
+	}
+	.evors_rsvped_status_user{cursor: default; background-color: #F9F9F9}
+	.evoRS_status_option_selection span:last-child{
+		border-radius:0 5px 5px 0;
+	}
+	.evoRS_status_option_selection span:first-child{
+		border-radius: 5px 0 0 5px;
+	}
+	.evoRS_status_option_selection span:hover, .evoRS_status_option_selection span.set, .evors_change_rsvp span.change:hover{
+		background-color: #fff;
+	}
+	.evoRS_status_option_selection p{
+		margin: 0; padding: 0;
+	}
+/* event top */	
+	body .evcal_desc .evcal_desc3 .evors_eventtop_data em{
+		font-style: normal;
+		padding: 5px 8px;		
+		border-radius: 5px;
+		font-size: 13px;
+		text-transform: uppercase;
+		margin: 2px 0;		
+	}
+	body #evcal_list .eventon_list_event .evcal_desc .evcal_desc3 .evors_eventtop_data em,
+	body .evo_pop_body .evcal_desc .evcal_desc3 .evors_eventtop_data em
+	{
+		background-color: #F7EBD6;
+		border:1px solid #E4D6BE;
+	}
+	.widget .evcal_desc .evcal_desc3 .evors_eventtop_data em{font-size: 11px;}
+
+	.evcal_desc3_rsvp{padding-top: 5px;}
+	
+	body .eventon_list_event .evcal_list_a .evors_eventtop_rsvp em.evors_rsvped_status_user, 
+	body .evo_pop_body .evors_eventtop_rsvp em.evors_rsvped_status_user{cursor: default;}
+	
+	.eventon_events_list .eventon_list_event .evcal_desc .evcal_desc3_rsvp span.evors_eventtop_section,
+	.evo_pop_body .evcal_desc .evcal_desc3_rsvp span.evors_eventtop_section
+	{
+	 	display: inline-block;
+	 	font-size: 13px;
+	 	opacity: 0.8;
+	 	position: relative;
+	 	line-height: 130%;
+	 	margin-right: 15px;
+	 	margin-bottom: 5px;
+	}
+		.evortl .eventon_events_list .eventon_list_event .evcal_desc .evcal_desc3_rsvp span.evors_eventtop_section,
+		.evo_pop_body .evcal_desc .evcal_desc3_rsvp span.evors_eventtop_section{
+			margin-right: 0; margin-left: 15px;
+		}
+	body .eventon_list_event .evcal_list_a .evors_eventtop_rsvp span:first-child, body .evo_pop_body .evors_eventtop_rsvpspan:first-child{margin-left: 8px;}
+	body .eventon_list_event .evcal_list_a .evors_eventtop_rsvp span, 
+	body .eventon_list_event .evcal_list_a .evors_eventtop_rsvp em, 
+	body .evo_pop_body .evors_eventtop_rsvp span, 
+	body .evo_pop_body .evors_eventtop_rsvp em{
+		border: 1px solid #cdcdcd;
+		padding: 4px 10px;
+		font-style: normal;
+		 	margin-right: -1px;
+		text-transform: uppercase;
+		cursor: pointer;
+		display: inline-block;
+		font-size: 12px;
+		position: relative;
+	}
+	body .eventon_list_event .evcal_list_a .evors_eventtop_rsvp.loading:before, body .evo_pop_body .evors_eventtop_rsvp.loading:before{
+		background: #FAFAFA url(evo-loader.gif) left center no-repeat;
+		position: absolute;
+		height: 100%; width: 100%;
+		content:"";
+		top: 0; z-index: 5;
+		opacity: 0.5;
+	}
+	body .eventon_list_event .evcal_list_a .evors_eventtop_rsvp span:hover, body .evo_pop_body .evors_eventtop_rsvp span:hover{background-color: #fff}
+	body .eventon_list_event .evcal_list_a .evors_eventtop_rsvp em, body .evo_pop_body .evors_eventtop_rsvp em{
+		float: none;
+		display: inline-block;
+		font-size: 13px;
+		cursor: pointer;
+	}
+	
+	body .evcal_desc .evcal_desc3_rsvp .evors_eventtop_data em{margin-right: 10px;margin-top: -4px}
+
+/* captcha */
+	.evors_captcha span.captcha{
+		background: url(captcha.png) top left no-repeat;
+		width: 167px; height: 20px;
+		display: block;
+	}
+	.evors_captcha span.captcha.code1{background-position: 0 0px;}
+	.evors_captcha span.captcha.code2{background-position: 0 -25px;}
+	.evors_captcha span.captcha.code3{background-position: 0 -50px;}
+	.evors_captcha span.captcha.code4{background-position: 0 -75px;}
+	.evors_captcha span.captcha.code5{background-position: 0 -100px;}
+	.evors_captcha span.captcha.code6{background-position: 0 -125px;}
+	.evors_captcha span.captcha.code7{background-position: 0 -145px;}
+
+/* form style */
+	.evcal_btn{cursor: pointer;}
+	.evoRS_row{
+		margin-bottom: 5px;
+		padding: 0;
+	}
+	.evoRS_row_names{min-height:48px;overflow: hidden;}
+	.evoRS_row span{
+		width: 50%;
+		float: left;
+		display: block;
+		margin-bottom: 8px;
+		box-sizing:border-box;
+		-moz-box-sizing:border-box;
+	}
+	.evoRS_row span:first-child{
+		padding-right: 10px;
+	}
+	.evoRS_row i{clear: both;}
+
+	.evoRS_form .evoRS_row input.required{
+		border:1px solid #dea3a3;
+	}
+	.evoRS_row input[type='text']{
+		height: auto;
+		display: block;
+		border:none;
+		box-sizing:border-box;
+		-moz-box-sizing:border-box;
+		width: 100%;
+		border:1px solid transparent;
+		margin-bottom: 2px;
+		padding-bottom: 4px;
+	}
+	.evoRS_row label{
+		display: block;
+		font-size: 10px;
+	}
+	.evoRS_bottom p{margin-bottom: 5px;padding: 0;}
+	.evoRS_bottom p.evors_changersvp{margin-bottom: 10px;}
+	.evoRS_bottom{
+		margin-bottom: 10px;
+		margin-top: 15px;
+	}
+	div.evors_count{min-height: 35px;}
+	div.evors_count span{width: auto;}
+	div.evors_count label{margin-top: 4px;}
+
+	div.evoRS_row.evors_count em.countspans{
+		display: block;		
+	}
+	div.evors_count {margin-bottom: 10px;}
+	div.evors_count span{margin-bottom: 2px;	}
+
+
+	.evoRS_row.evors_chk label, div.evors_count label{
+		display: inline-block;
+		margin-left: 0px;
+		font-size: 14px;
+	} 
+	
+	#evcal_list .eventon_list_event .evcal_evdata_row .evoRS_form p.evors_msg, .evo_popin .evcal_evdata_row .evoRS_form p.evors_msg{
+		padding: 3px 6px; background-color: #B3D89A;color: #fff;
+		margin-top: 4px;
+	}
+	#evcal_list .eventon_list_event .evcal_evdata_row .evoRS_form p.evors_msg.err,.evo_popin .evcal_evdata_row .evoRS_form p.evors_msg.err{
+		background-color: #dea3a3; color:#fff;
+		padding: 3px 6px
+	}
+
+/* lightbox form */
+	.evors_popup{
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		z-index: 98000;
+		top: 0;
+		left: 0;
+	}
+	.evors_popup:before{
+		content:"";
+		background-color: #9AB37F;
+		position: fixed;
+		height: 100%;
+		width: 100%;
+		top: 0;
+		left: 0;
+		-webkit-transition: background-color 0.3s linear;
+    	-moz-transition: background-color 0.3s linear;
+    	-o-transition: background-color 0.3s linear;
+    	-ms-transition: background-color 0.3s linear;
+    	transition: background-color 0.3s linear;
+	}
+	.evors_popup.error:before{background-color: #CF7A64}
+	.evors_popbg{
+		background-color: #9AB37F;
+		position: fixed;
+		height: 100%;
+		width: 100%;
+		top: 0;
+		left: 0;
+		z-index: 97000;
+	}
+	#evors_form_section{
+		color: #fff;
+		padding: 50px 0;
+	}
+	#evorsvp_form{
+		width: 500px;
+		margin: 0 auto;
+		text-align: center;
+		position: relative;
+		min-height: 300px
+	}
+	#evorsvp_form #evors_form_close{
+		position: absolute;
+		top: 0; right: 0;
+		border:1px solid #fff;
+		font-family: 'open sans', arial;
+		width: 35px; height: 35px;
+		border-radius: 50%;
+		text-align: center;
+		opacity: 0.3;
+		margin-top: -40px;
+		line-height: 35px;
+		cursor:pointer;
+	}
+	#evorsvp_form.loading:before{
+		background: url(evo-loader.gif) center center no-repeat;
+		position: absolute;
+		height: 100%; width: 100%;
+		content:"";
+		top: 0; left: 0;
+		opacity: 0.5;
+	}
+		#evorsvp_form.loading{opacity: 0.4}
+		#evorsvp_form.error{background-color: }
+
+	#evorsvp_form #evors_form_close:hover{opacity: 1;}
+	
+	#evorsvp_form p{margin: 0;padding: 0;}
+	#evorsvp_form h3{
+		margin: 0; padding: 0 0 20px 0;
+		color: #fff;
+	}
+	/* checkmark for success message */
+		#evorsvp_form .rsvp_confirmation b{
+			position: relative;
+			display: block;
+			margin: 20px auto 20px;
+		  	width: 45px;
+		  	height: 45px;
+		  	border: 2px solid #BDD39F;
+		  	border-radius: 50%;
+		}
+		#evorsvp_form .rsvp_confirmation b:before{
+			content: '';
+		  	display: block;
+		  	position: absolute;
+		  	top: 50%;
+		  	left: 50%;
+		  	margin: -9px 0 0 -9px;
+		  	height: 8px;
+		  	width: 16px;
+		  	border: solid #BDD39F;
+		  	border-width: 0 0 4px 4px;
+		  	-webkit-transform: rotate(-45deg);
+		  	-moz-transform: rotate(-45deg);
+		  	-ms-transform: rotate(-45deg);
+		  	-o-transform: rotate(-45deg);
+		  	transform: rotate(-45deg);
+		}
+	#evorsvp_form .form_row.rsvp_status{padding-bottom: 20px;}
+	#evorsvp_form .rsvp_status span:first-child{
+		border-radius:5px 0 0 5px;
+	}
+	#evorsvp_form .rsvp_status span:last-child{
+		border-radius:0 5px 5px 0;
+	}
+	#evorsvp_form .rsvp_status span{
+		display: inline-block;
+		text-transform: uppercase;
+		border:1px solid #fff;
+		padding:4px 10px;
+		margin-right: -1px;
+		font: bold 14px arial;
+		cursor: pointer;
+		opacity: 0.6;
+	}
+	#evorsvp_form .rsvp_status span:hover{
+		background-color: rgba(255, 255, 255, 0.21);
+		opacity: 1;
+	}
+	#evorsvp_form .rsvp_status span.set{
+		background-color: #fff;
+		color: #9AB37F;
+	}
+	#evorsvp_form .rsvp_status span.one{border-radius: 5px}
+	#evorsvp_form .form_row{
+		padding-bottom: 15px;
+	}	
+		#evorsvp_form .form_row input.name, #evorsvp_form .form_row input.regular, #evorsvp_form .form_row input.count, #evorsvp_form .form_row input.regular_a, #evorsvp_form .form_row select, #evorsvp_form .form_row textarea{
+			border:none;
+			background-color: rgba(255, 255, 255, 0.25);
+			color: #fff;
+			padding: 10px 8px;
+			border-radius: 5px;
+			display: inline-block;
+			margin: 0;
+			box-sizing:border-box;
+		}
+		#evorsvp_form .form_row select option{color:#3d3d3d;}
+		.evors_popup #evorsvp_form .form_row .err{
+			border:1px solid red;
+		}
+		#evorsvp_form .form_row input.name{
+			width: 240px; display: inline-block;
+		}
+		#evorsvp_form .form_row input.name[name=last_name]{
+			margin-left: 10px;
+		}
+		#evorsvp_form .form_row input.regular, #evorsvp_form .form_row textarea{
+			width: 100%;
+		}
+
+		#evorsvp_form .form_row input.captcha{ width: 70px; text-align: center;}
+		#evorsvp_form .form_row input.count{
+			width: 50px; text-align: center;
+		}
+		#evorsvp_form .form_row.additional_field label, #evorsvp_form .form_row.count label{
+			display: block;
+		}
+		#evorsvp_form .form_row input:focus{
+			background-color: rgba(255, 255, 255, 0.5);
+		}
+		#evorsvp_form .form_row input::-webkit-input-placeholder{color: #5A5A5A;}
+		#evorsvp_form .form_row input:-moz-placeholder{color: #5A5A5A;}
+		#evorsvp_form .form_row input::-moz-placeholder{color: #5A5A5A;}
+		#evorsvp_form .form_row input:-ms-input-placeholder{color: #5A5A5A;}
+
+	#evorsvp_form a.evors_submit{
+		font: bold 14px arial;
+		display: inline-block;
+		padding: 8px 12px!important;
+		margin-top: 4px;
+		text-transform: uppercase;
+		text-decoration: none;
+		border-radius: 4px;
+		border-bottom: none;
+		background-color: #fff;
+		color: #9AB37F;
+	}
+	#evorsvp_form a.evors_submit:hover{
+		opacity: 0.6;
+	}
+
+	#evorsvp_form .notification.err p{display: inline-block; background-color: #BD5B41;
+		padding: 3px 8px;
+		border-radius: 5px
+	}	
+	#evorsvp_form .notification.err{		
+		padding: 5px 0; margin-bottom: 10px;
+		text-transform: uppercase;
+	}
+	#evorsvp_form .notification{
+		font-size: 18px;
+		border-radius: 4px;		
+	}
+/* eventCard elements */
+	.evoRS_status_option_selection{padding-bottom: 5px;}
+	.evors_guests_list{padding: 3px 0 8px 0;}
+	#evcal_list .eventon_list_event .evcal_eventcard p.evors_whos_coming, .evo_popin .evcal_eventcard p.evors_whos_coming{
+		padding: 10px 0 0px;
+		margin: 0;	
+	}
+	#evcal_list .eventon_list_event .evcal_eventcard p.evors_whos_coming_title, .evo_popin .evcal_eventcard p.evors_whos_coming_title{
+		padding: 0px;
+		font-size: 14px;
+		font-style: normal;
+		font-family: oswald, 'arial narrow';		
+		margin: 0;
+		text-transform: uppercase;
+	}	
+	.evors_whos_coming_title em{font-style: normal; opacity: 0.6;}
+	.evors_whos_coming span{
+		display: inline-block;
+		border-radius: 50%;
+		height:30px;
+		min-width: 30px;
+		background-color: #A7A7A7;
+		text-align: center;
+		line-height: 30px;
+		color: #fff;
+		opacity: 0.6;
+		margin-right: 5px; margin-bottom: 5px;
+		font-style: normal;
+		text-transform: uppercase;
+		cursor: pointer;
+		transition:all 0.2s;
+	    -webkit-transition:all .2s;
+	    -moz-transition: all 0.2s;
+	}
+	.evors_whos_coming span.hover, .evors_whos_coming span.fullname{	border-radius: 8px; padding:0px 8px;}
+	.evors_whos_coming span:hover{opacity: 1}
+	.event_description .evcal_evdata_cell h3.additional_info{
+		padding: 0px; padding-bottom: 5px;
+	}
+	.evors_additional_data{
+		background-color: #D8D8D8;
+		border-radius: 5px;
+		padding:15px;
+		margin-top: 5px;
+	}
+	.evcal_evdata_row .evors_section{
+		border-bottom:1px solid #DCDBDB;
+		padding-bottom: 8px; margin-bottom: 8px;
+	}
+	.evors_change_rsvp.evors_section{border-bottom: none;}
+	.evors_additional_data >*{margin: 0;}
+
+	.evcal_evdata_row .evors_remaining_spots{
+		border-top:1px solid #DCDBDB;
+		padding: 13px 0px;
+	}
+
+	.evors_remaining_spots p{margin: 0; padding: 0;}
+	.evcal_evdata_row .evors_remaining_spots p em, .evcal_evdata_row .evors_mincap p em{
+		border-radius: 8px;
+		padding: 4px 8px;
+		background-color: #95D27F;
+		color: #fff;
+		margin-right: 10px;
+	}
+	.evcal_evdata_row .evors_mincap p em{margin-right: 0;}
+	.evors_section.evors_subtext p,.evors_section.evors_mincap p{margin: 0;}
+
+	.evors_change_rsvp.evors_section{padding: 2px 0 12px; margin-top: 10px;}
+	.evors_change_rsvp span.change{
+		font-family: 'open sans',georgia;
+		font-size: 13px;
+		border-radius: 5px;
+		margin-left: 10px;
+	}
+
+/* user RSVP manager */
+	.evcal_btn.evors{
+		border-radius: 4px;
+  		border: none;
+  		color: #ffffff;
+  		background: #237ebd;
+  		text-transform: uppercase;
+  		text-decoration: none;
+  		border-radius: 4px;
+  		border-bottom: none;
+  		font: bold 14px arial;
+  		display: inline-block;
+  		padding: 8px 12px;
+  		margin-top: 4px
+	}
+	.evcal_btn.evors:hover{color: #fff; opacity: 0.6;}
+	.eventon_rsvp_rsvplist{
+		border:1px solid #E2E2E2;
+		border-radius:5px;
+	}
+	.eventon_rsvp_rsvplist p{
+		padding:10px 15px; margin: 0;
+		border-bottom:1px solid #E2E2E2;
+	}
+	.eventon_rsvp_rsvplist p:hover{
+		background-color: #FCF7F3;
+	}
+	.eventon_rsvp_rsvplist p span{
+		opacity: 0.7;
+		font-style: italic;	
+		display: block;
+		font-size: 11px;
+		text-transform: uppercase;		
+	}
+	.eventon_rsvp_rsvplist p span.rsvpstatus{
+		display: inline-block;
+		border: 1px solid #cdcdcd;
+   	 	padding: 1px 5px;
+   	 	text-transform: uppercase;
+   	 	font-style: normal;
+   	 	margin: 0;
+   	 	margin-left: 5px;
+   	 	line-height: 130%;
+	}
+	.eventon_rsvp_rsvplist p em{font-style: normal;}
+	.eventon_rsvp_rsvplist p em.event_data{font-size: 13px; font-style: italic;}
+	.eventon_rsvp_rsvplist p a.update_rsvp:hover{color:#fff; border-color: #848484; background-color: #848484;}
+	.eventon_rsvp_rsvplist p a.update_rsvp{
+		border: 1px solid #cdcdcd;
+	    padding: 4px 10px;
+	    margin:5px 0;
+	    cursor: pointer;
+	    text-decoration: none;	
+	    font-style: normal;
+	    display: inline-block;    
+	}
+	.eventon_rsvp_rsvplist p em.checkin_status{
+		float: right;
+		opacity: 0.4;
+		text-transform: uppercase;
+		font-size: 12px;
+	}
+	.eventon_rsvp_rsvplist p em.count{
+		float: right;
+		font-size: 20px;
+	}
+
+/* mobile or smaller view */
+	@media (max-width: 600px){
+		.evoRS_top p em.evors_001{margin-top: 8px;}
+		.evoRS_row.evors_count span{margin-bottom: 5px;}
+		.evoRS_row.evors_chk label, div.evors_count label{font-size: 12px;}
+
+		.evoRS_top p em.evors_001{float:none; clear: both; margin-right:50px;}
+
+		/* form */
+		#evorsvp_form{	width: 100%;		}
+		#evorsvp_form .form_row input.name{width: 90%; margin-bottom: 5px;}
+		#evorsvp_form .form_row input.name[name=last_name]{margin-left: 0;}
+		#evorsvp_form .form_row input.regular{width: 90%;}
+		.evoRS_status_option_selection span{display: inline-block;}
+		.evcal_desc .evcal_desc3 .evors_eventtop_data em{font-size: 11px;}
+
+		.eventon_events_list .eventon_list_event .evcal_desc .evcal_desc3_rsvp span.evors_eventtop_section, .evo_pop_body .evcal_desc .evcal_desc3_rsvp span.evors_eventtop_section{font-size: 12px;}
+		body .evcal_desc .evcal_desc3 .evors_eventtop_data em{padding: 3px 5px;}
+		.eventon_events_list .eventon_list_event .evcal_desc .evcal_desc3_rsvp span.evors_eventtop_section, .evo_pop_body .evcal_desc .evcal_desc3_rsvp span.evors_eventtop_section{margin-bottom: 1px;}
+	}

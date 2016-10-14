@@ -1,0 +1,43 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Buddypress Activity Stream for Events\n"
+"POT-Creation-Date: 2016-07-03 21:59+0600\n"
+"PO-Revision-Date: 2016-07-03 22:21+0600\n"
+"Last-Translator: Mahibul hasan <hyde.sohag@gmail.com>\n"
+"Language-Team: Mahibul Marry\n"
+"Language: French\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-Basepath: ../\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: eventon-bp-activity-initiator.php:67 eventon-bp-activity-initiator.php:77
+#, php-format
+msgid "%s published a new event"
+msgstr "%s publié un nouvel événement"
+
+#: eventon-bp-activity-initiator.php:134
+msgid "Published a new event"
+msgstr "Publié un nouvel événement"
+
+#: eventon-bp-activity-initiator.php:134 eventon-bp-activity-initiator.php:136
+msgid "Events"
+msgstr "Événements"
+
+#: eventon-bp-activity-initiator.php:136
+msgid "Updated an event"
+msgstr "Mise à jour d'un événement"
+
+#: eventon-bp-activity-initiator.php:155
+#, php-format
+msgid "%s updated an event"
+msgstr "%s un événement mis à jour"
+
+#: eventon-bp-activity-initiator.php:176
+#, php-format
+msgid "%s published a new event %s on %s from %s to %s"
+msgstr "%s a publié un nouvel événement %s qui aura lieu le %s de %s à %s"

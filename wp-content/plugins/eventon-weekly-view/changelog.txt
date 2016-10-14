@@ -1,0 +1,31 @@
+Weekly View (WV) addon for EventON Plugin
+====================================
+v 0.7 (2015-7-10)
+FIXED: event type filter values not working when swithing weeks
+FIXED: event_count not working
+FIXED: setting sort options values reset the days to first week
+FIXED: events load ordered by date initially
+FIXED: switch to first week when switching months
+
+v 0.6 (2015-2-16)
+FIXED: Correct week not focusing on the calendar
+FIXED: Month Jumper not working
+FIXED: Widget CSS styles
+
+v 0.5 (2015-2-12)
+FIXED: Compatibility with eventon 2.2.23
+FIXED: Empty boxes showing for week starting on sunday
+UPDATE: front-end styles
+
+v 0.4 (2015-1-6)
+FIXED: Sorting events push days to first week
+
+v 0.3 (2014-11-25)
+FIXED: Filters not passing through correct for months
+
+v 0.2 (2014-10-21)
+FIXED: Month name not changing
+FIXED: Correct events not showing for new months
+
+v 0.1 (2014-10-22)
+Initial release

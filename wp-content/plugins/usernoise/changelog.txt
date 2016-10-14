@@ -1,0 +1,12 @@
+# Usernoise changelog
+
+----
+## 4.5.0.2
+* Fix for screenshot feature
+
+## 4.5
+* React.js instead of vue.js for better stability
+* Popup UI fixed on mobiles
+
+## 4.1.7
+* Norwegian translation added

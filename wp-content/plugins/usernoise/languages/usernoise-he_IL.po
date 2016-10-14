@@ -1,0 +1,913 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Usernoise v4.0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2015-08-14 08:02:05+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: admin/feedback-list.php:58
+#: admin/feedback-types.php:39
+#@ usernoise
+#@ usernoise-pro
+msgid "All feedback types"
+msgstr "כל סוגי המשובים"
+
+#: admin/settings.php:59
+#@ usernoise
+msgid "Button"
+msgstr "כפתור"
+
+#: admin/admin-bar.php:23
+#: html/reply-meta-box.php:5
+#: inc/integration.php:47
+#: inc/integration.php:73
+#: inc/template.php:139
+#@ usernoise
+msgid "Feedback"
+msgstr "משוב"
+
+#: admin/feedback-types.php:63
+#: admin/feedback-types.php:85
+#: admin/settings.php:61
+#@ usernoise-pro
+#@ usernoise
+msgid "Position"
+msgstr "מיקום"
+
+#: admin/feedback-list.php:34
+#: inc/model.php:275
+#@ usernoise
+msgid "Type"
+msgstr "סוג"
+
+#: admin/admin-bar.php:17
+#, php-format
+#@ default
+msgid "Usernoise %s"
+msgstr ""
+
+#: admin/admin-bar.php:30
+#: admin/menu.php:16
+#: vendor/plugin-options-framework/plugin-options-framework.php:110
+#@ usernoise
+#@ default
+msgid "Settings"
+msgstr ""
+
+#: admin/dashboard.php:16
+#: inc/model.php:48
+#@ usernoise
+msgid "New feedback"
+msgstr ""
+
+#: admin/dashboard.php:33
+#@ default
+msgid "by"
+msgstr ""
+
+#: admin/dashboard.php:43
+#@ usernoise
+msgid "View all feedback"
+msgstr ""
+
+#: admin/dashboard.php:46
+#@ usernoise
+msgid "No new feedback now."
+msgstr ""
+
+#: admin/editor-page.php:29
+#: html/publish-meta-box.php:61
+#@ default
+msgid "Publish"
+msgstr ""
+
+#: admin/editor-page.php:80
+#@ usernoise
+msgid "Feedback was marked as reviewed"
+msgstr ""
+
+#: admin/editor-page.php:45
+#@ default
+msgid "Author"
+msgstr ""
+
+#: admin/menu.php:14
+#: inc/model.php:53
+#@ usernoise
+msgid "Usernoise"
+msgstr ""
+
+#: admin/settings.php:30
+#@ usernoise
+msgid "Usernoise settings"
+msgstr ""
+
+#: admin/settings.php:47
+#@ usernoise
+msgid "Left"
+msgstr ""
+
+#: admin/settings.php:48
+#@ usernoise
+msgid "Right"
+msgstr ""
+
+#: admin/settings.php:50
+#@ usernoise
+msgid "Top"
+msgstr ""
+
+#: admin/settings.php:49
+#@ usernoise
+msgid "Bottom"
+msgstr ""
+
+#: admin/settings.php:16
+#@ usernoise
+msgid "General"
+msgstr ""
+
+#: admin/settings.php:53
+#: admin/settings.php:54
+#@ usernoise
+msgid "Publish feedback directly without approval"
+msgstr ""
+
+#: admin/settings.php:56
+#: admin/settings.php:57
+#@ usernoise
+msgid "Disable on mobile devices"
+msgstr ""
+
+#: admin/settings.php:64
+#@ usernoise
+msgid "Text"
+msgstr ""
+
+#: admin/settings.php:65
+#@ usernoise
+msgctxt "button"
+msgid "Feedback"
+msgstr ""
+
+#: admin/settings.php:66
+#@ usernoise
+msgid "Button Icon"
+msgstr ""
+
+#: admin/settings.php:67
+#@ usernoise
+msgid "No icon"
+msgstr ""
+
+#: admin/settings.php:68
+#@ usernoise
+msgid "Icon used on the button. <strong>May conflict with Twitter Bootstrap-based themes</strong>"
+msgstr ""
+
+#: admin/settings.php:72
+#@ usernoise
+msgid "Text color"
+msgstr ""
+
+#: admin/settings.php:75
+#@ usernoise
+msgid "Background color"
+msgstr ""
+
+#: admin/settings.php:21
+#: admin/settings.php:82
+#@ usernoise
+msgid "Form"
+msgstr ""
+
+#: inc/template.php:148
+#@ usernoise
+msgid "Please tell us what do you think, any kind of feedback is highly appreciated."
+msgstr ""
+
+#: admin/settings.php:84
+#: admin/settings.php:85
+#@ usernoise
+msgid "Ask for feedback type"
+msgstr ""
+
+#: admin/settings.php:88
+#: admin/settings.php:89
+#@ usernoise
+msgid "Ask for a summary"
+msgstr ""
+
+#: inc/template.php:277
+#@ usernoise
+msgid "Short summary"
+msgstr ""
+
+#: admin/settings.php:92
+#: admin/settings.php:93
+#@ usernoise
+msgid "Ask for an email"
+msgstr ""
+
+#: admin/settings.php:96
+#: admin/settings.php:97
+#@ usernoise
+msgid "Ask for name"
+msgstr ""
+
+#: inc/integration.php:96
+#: inc/template.php:269
+#@ usernoise
+msgid "Your name"
+msgstr ""
+
+#: inc/template.php:143
+#@ usernoise
+msgid "Submit feedback"
+msgstr ""
+
+#: admin/settings.php:26
+#@ usernoise
+msgid "Notifications"
+msgstr ""
+
+#: admin/settings.php:105
+#@ usernoise
+msgid "New feedback received admin notification"
+msgstr ""
+
+#: admin/settings.php:106
+#@ usernoise
+msgid "Enable"
+msgstr ""
+
+#: admin/settings.php:109
+#, php-format
+#@ usernoise
+msgid "Notification emails will be sent to: <a href=\"mailto:%s\">%s</a>"
+msgstr ""
+
+#: admin/settings.php:112
+#, php-format
+#@ usernoise
+msgid "(you can change it at <a href=\"%s\">%s</a> page)."
+msgstr ""
+
+#: admin/settings.php:113
+#@ default
+msgid "General Options"
+msgstr ""
+
+#: admin/settings.php:122
+#@ usernoise
+msgid "Notifications do not work right?"
+msgstr ""
+
+#: admin/settings.php:123
+#@ usernoise
+msgid "Check out <a href='http://codecanyon.net/item/all-in-one-email-for-wordpress/1290390'>All in One Email plugin</a>. It adds email options missing in WordPress natively."
+msgstr ""
+
+#: html/publish-meta-box.php:9
+#: html/publish-meta-box.php:42
+#@ default
+msgid "Status:"
+msgstr ""
+
+#: html/publish-meta-box.php:14
+#@ default
+msgid "Published"
+msgstr ""
+
+#: html/publish-meta-box.php:17
+#@ default
+msgid "Hidden"
+msgstr ""
+
+#: html/publish-meta-box.php:27
+#@ default
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: html/publish-meta-box.php:28
+#, php-format
+#@ default
+msgid "Sent on: <b>%1$s</b>"
+msgstr ""
+
+#: html/publish-meta-box.php:51
+#@ default
+msgid "Delete Permanently"
+msgstr ""
+
+#: html/publish-meta-box.php:53
+#@ default
+msgid "Move to Trash"
+msgstr ""
+
+#: html/publish-meta-box.php:62
+#@ usernoise
+msgid "PublishSave"
+msgstr ""
+
+#: html/publish-meta-box.php:64
+#: html/publish-meta-box.php:65
+#@ default
+msgid "Update"
+msgstr ""
+
+#: html/reply-meta-box.php:4
+#@ usernoise
+msgid "Subject"
+msgstr ""
+
+#: html/reply-meta-box.php:8
+#@ usernoise
+msgid "Send"
+msgstr ""
+
+#: inc/integration.php:85
+#@ usernoise
+msgid "Close"
+msgstr ""
+
+#: inc/db-upgrade.php:9
+#@ usernoise
+msgid "Ideas"
+msgstr ""
+
+#: inc/db-upgrade.php:9
+#@ usernoise
+msgid "Questions"
+msgstr ""
+
+#: inc/db-upgrade.php:9
+#@ usernoise
+msgid "Problems"
+msgstr ""
+
+#: inc/db-upgrade.php:9
+#@ usernoise
+msgid "Praises"
+msgstr ""
+
+#: inc/db-upgrade.php:27
+#@ usernoise
+msgid "Idea"
+msgstr ""
+
+#: inc/db-upgrade.php:27
+#@ usernoise
+msgid "Question"
+msgstr ""
+
+#: inc/db-upgrade.php:27
+#@ usernoise
+msgid "Problem"
+msgstr ""
+
+#: inc/db-upgrade.php:28
+#@ usernoise
+msgid "Praise"
+msgstr ""
+
+#: inc/model.php:41
+#: inc/model.php:43
+#: inc/model.php:44
+#@ usernoise
+msgctxt "admin"
+msgid "Feedback"
+msgstr ""
+
+#: inc/model.php:45
+#@ usernoise
+msgid "Add new"
+msgstr ""
+
+#: inc/model.php:46
+#@ usernoise
+msgid "Add new feedback"
+msgstr ""
+
+#: inc/model.php:47
+#: inc/model.php:49
+#@ usernoise
+msgid "View feedback"
+msgstr ""
+
+#: inc/model.php:50
+#@ usernoise
+msgid "Search feedback"
+msgstr ""
+
+#: inc/model.php:51
+#@ usernoise
+msgid "Feedback not found"
+msgstr ""
+
+#: inc/model.php:52
+#@ usernoise
+msgid "Feedback not found in Trash"
+msgstr ""
+
+#: inc/model.php:55
+#@ usernoise
+msgid "Feedback left by users using a form in a lightbox"
+msgstr ""
+
+#: inc/model.php:74
+#@ usernoise
+msgid "Please enter a summary."
+msgstr ""
+
+#: inc/model.php:77
+#@ usernoise
+msgid "Please enter the feedback."
+msgstr ""
+
+#: inc/model.php:82
+#@ usernoise
+msgid "Please enter a valid email address."
+msgstr ""
+
+#: inc/model.php:84
+#@ usernoise
+msgid "Please enter your name."
+msgstr ""
+
+#: inc/model.php:138
+#@ default
+msgid "feedback"
+msgstr ""
+
+#: inc/model.php:139
+#, php-format
+#@ usernoise
+msgid "A new %s has been submitted. View it: %s."
+msgstr ""
+
+#: inc/model.php:146
+#, php-format
+#@ default
+msgid "New %s submitted at %s"
+msgstr ""
+
+#: inc/template.php:79
+#@ usernoise
+msgid "or"
+msgstr ""
+
+#: vendor/plugin-options-framework/plugin-options-framework.php:157
+#@ default
+msgid "Please provide some settings fields when creating an options framework instance"
+msgstr ""
+
+#: vendor/plugin-options-framework/plugin-options-framework.php:176
+#@ default
+msgid "This page requires JavaScript to be enabled in your browser. Please enable JavaScript."
+msgstr ""
+
+#: vendor/plugin-options-framework/plugin-options-framework.php:222
+#@ usernoise
+msgid "Save Options"
+msgstr ""
+
+#: vendor/plugin-options-framework/plugin-options-framework.php:223
+#@ usernoise
+msgid "Restore Defaults"
+msgstr ""
+
+#: vendor/plugin-options-framework/plugin-options-framework.php:223
+#@ default
+msgid "Click OK to reset. All the settings will be reset to defaults!"
+msgstr ""
+
+#: vendor/plugin-options-framework/plugin-options-framework.php:306
+#@ usernoise
+msgid "Select a Color"
+msgstr ""
+
+#: vendor/plugin-options-framework/plugin-options-framework.php:348
+#@ default
+msgid "Upgrade to WordPress 3.3 or later to enable WYSIWYG editor"
+msgstr ""
+
+#: admin/editor-page.php:34
+#@ usernoise
+msgid "Screenshot"
+msgstr ""
+
+#: admin/editor-page.php:36
+#: inc/integration.php:80
+#@ usernoise
+msgid "Details"
+msgstr ""
+
+#: admin/editor-page.php:37
+#@ usernoise
+msgid "Reply"
+msgstr ""
+
+#: admin/editor-page.php:50
+#@ usernoise
+msgid "Page"
+msgstr ""
+
+#: admin/feedback-types.php:37
+#: inc/model.php:38
+#@ usernoise-pro
+#@ usernoise
+msgid "Feedback types"
+msgstr ""
+
+#: admin/feedback-types.php:38
+#: inc/template.php:285
+#@ usernoise-pro
+#@ usernoise
+msgid "Feedback type"
+msgstr ""
+
+#: admin/feedback-types.php:40
+#@ usernoise-pro
+msgid "Edit feedback type"
+msgstr ""
+
+#: admin/feedback-types.php:41
+#@ usernoise-pro
+msgid "View feedback type"
+msgstr ""
+
+#: admin/feedback-types.php:42
+#@ usernoise-pro
+msgid "Update feedback type"
+msgstr ""
+
+#: admin/feedback-types.php:43
+#@ usernoise-pro
+msgid "Add new feedback type"
+msgstr ""
+
+#: admin/feedback-types.php:44
+#@ usernoise-pro
+msgid "New feedback type name"
+msgstr ""
+
+#: admin/feedback-types.php:50
+#@ usernoise-pro
+msgid "Feedback Types"
+msgstr ""
+
+#: admin/feedback-types.php:58
+#: admin/feedback-types.php:80
+#@ usernoise-pro
+msgid "Icon"
+msgstr ""
+
+#: admin/feedback-types.php:60
+#: admin/feedback-types.php:82
+#@ usernoise-pro
+msgid "Icon used for this feedback type"
+msgstr ""
+
+#: admin/feedback-types.php:65
+#: admin/feedback-types.php:87
+#@ usernoise-pro
+msgid "Type position among other feedback types"
+msgstr ""
+
+#: admin/feedback-types.php:68
+#: admin/feedback-types.php:90
+#@ usernoise-pro
+msgid "Name in plural form"
+msgstr ""
+
+#: admin/feedback-types.php:70
+#: admin/feedback-types.php:92
+#@ usernoise-pro
+msgid "Plural form used by some of the UI"
+msgstr ""
+
+#: html/headers-meta-box.php:2
+#@ default
+msgid "URL:"
+msgstr ""
+
+#: html/headers-meta-box.php:6
+#@ default
+msgid "Browser:"
+msgstr ""
+
+#: html/headers-meta-box.php:11
+#@ default
+msgid "Client IP:"
+msgstr ""
+
+#: html/headers-meta-box.php:18
+#@ default
+msgid "X-Forwarded-For:"
+msgstr ""
+
+#: html/headers-meta-box.php:25
+#@ default
+msgid "View page snapshot"
+msgstr ""
+
+#: inc/controller.php:86
+#: inc/controller.php:129
+#@ usernoise
+msgid "ago"
+msgstr ""
+
+#: inc/controller.php:177
+#@ default
+msgid "Hackin, huh?"
+msgstr ""
+
+#: inc/controller.php:188
+#: inc/model.php:271
+#@ default
+#@ usernoise
+msgid "Name"
+msgstr ""
+
+#: inc/controller.php:239
+#@ usernoise
+msgid "No Responses"
+msgstr ""
+
+#: inc/controller.php:239
+#@ usernoise
+msgid "One Response"
+msgstr ""
+
+#: inc/controller.php:240
+#@ usernoise
+msgid "% Responses"
+msgstr ""
+
+#: inc/integration.php:74
+#@ usernoise
+msgid "Enter your feedback here"
+msgstr ""
+
+#: inc/integration.php:75
+#@ usernoise
+msgid "Next"
+msgstr ""
+
+#: inc/integration.php:76
+#@ usernoise
+msgid "Taking screenshot"
+msgstr ""
+
+#: inc/integration.php:77
+#@ usernoise
+msgid "Take a screenshot"
+msgstr ""
+
+#: inc/integration.php:78
+#@ usernoise
+msgid "screenshot.png"
+msgstr ""
+
+#: inc/integration.php:79
+#@ usernoise
+msgid "Cancel"
+msgstr ""
+
+#: inc/integration.php:81
+#@ usernoise
+msgid "Back"
+msgstr ""
+
+#: inc/integration.php:82
+#@ usernoise
+msgid "Submit"
+msgstr ""
+
+#: inc/integration.php:83
+#@ usernoise
+msgid "Submitting"
+msgstr ""
+
+#: inc/integration.php:84
+#@ usernoise
+msgid "Error sending feedback"
+msgstr ""
+
+#: inc/integration.php:87
+#: inc/model.php:450
+#@ usernoise
+msgid "Done"
+msgstr ""
+
+#: inc/integration.php:88
+#@ usernoise
+msgid "Please enter a valid email address"
+msgstr ""
+
+#: inc/integration.php:89
+#@ usernoise
+msgid "This field is required"
+msgstr ""
+
+#: inc/integration.php:90
+#@ usernoise
+msgid "My feedback"
+msgstr ""
+
+#: inc/integration.php:91
+#@ usernoise
+msgid "No feedback matching the criteria"
+msgstr ""
+
+#: inc/integration.php:92
+#@ usernoise
+msgid "Comments:"
+msgstr ""
+
+#: inc/integration.php:93
+#@ usernoise
+msgid "Leave a comment"
+msgstr ""
+
+#: inc/integration.php:94
+#@ usernoise
+msgid "Like"
+msgstr ""
+
+#: inc/integration.php:95
+#@ usernoise
+msgid "Your email"
+msgstr ""
+
+#: inc/integration.php:97
+#@ usernoise
+msgid "Comment text"
+msgstr ""
+
+#: inc/integration.php:98
+#@ usernoise
+msgid "All feedback"
+msgstr ""
+
+#: inc/model.php:269
+#@ usernoise
+msgid "From:"
+msgstr ""
+
+#: inc/model.php:279
+#@ usernoise
+msgid "Summary:"
+msgstr ""
+
+#: inc/model.php:318
+#, php-format
+#@ usernoise
+msgid "Your feedback \"%s\" has been published by admin. Thanks for your feedback!"
+msgstr ""
+
+#: inc/model.php:319
+#, php-format
+#@ usernoise
+msgid "You can view it at %s"
+msgstr ""
+
+#: inc/model.php:320
+#, php-format
+#@ default
+msgid "Feedback approved at %s"
+msgstr ""
+
+#: inc/model.php:364
+#: inc/model.php:381
+#: inc/model.php:398
+#@ default
+msgid "Hacking, huh?"
+msgstr ""
+
+#: inc/model.php:446
+#@ usernoise
+msgid "New"
+msgstr ""
+
+#: inc/model.php:447
+#@ usernoise
+msgid "Rejected"
+msgstr ""
+
+#: inc/model.php:448
+#@ usernoise
+msgid "Planned"
+msgstr ""
+
+#: inc/model.php:449
+#@ usernoise
+msgid "In progress"
+msgstr ""
+
+#: inc/model.php:472
+#, php-format
+#@ usernoise
+msgid "Your feedback \"%s\" was changed from %s to %s."
+msgstr ""
+
+#: inc/model.php:473
+#, php-format
+#@ usernoise
+msgid "You can view your feedback at %s"
+msgstr ""
+
+#: inc/model.php:474
+#@ usernoise
+msgid "Original feedback was:"
+msgstr ""
+
+#: inc/model.php:476
+#, php-format
+#@ usernoise
+msgid "Feedback status changed at %s"
+msgstr ""
+
+#: inc/model.php:506
+#, php-format
+#@ default
+msgid "[%1$s] Comment: \"%2$s\""
+msgstr ""
+
+#: inc/model.php:507
+#, php-format
+#@ usernoise
+msgid "New comment on your feedback \"%s\" at %s"
+msgstr ""
+
+#. translators: 1: comment author, 2: author IP, 3: author domain
+#: inc/model.php:511
+#@ default
+msgid "Comment: "
+msgstr ""
+
+#: inc/template.php:231
+#, php-format
+#@ usernoise
+msgid "%s week"
+msgid_plural "%s weeks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/template.php:233
+#, php-format
+#@ usernoise
+msgid "%s month"
+msgid_plural "%s months"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/template.php:235
+#, php-format
+#@ usernoise
+msgid "%s year"
+msgid_plural "%s years"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/template.php:261
+#@ usernoise
+msgid "Email address"
+msgstr ""
+
+#: inc/template.php:262
+#@ usernoise
+msgid "you@example.com"
+msgstr ""
+
+#: inc/template.php:270
+#@ usernoise
+msgid "John Smith"
+msgstr ""
+
+#: inc/template.php:276
+#@ usernoise
+msgid "Summary"
+msgstr ""
+
+#: inc/template.php:287
+#@ usernoise
+msgid "Please select"
+msgstr ""
+

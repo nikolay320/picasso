@@ -1,0 +1,110 @@
+.cmb-row {}
+.cmb-row::before,
+.cmb-row::after {
+	clear: both;
+	content: '';
+	display: table;
+}
+.cmb-row .cmb-th {
+	margin: 0 0 5px;
+}
+.cmb-row .cmb-td {
+	margin: 0 0 20px;
+}
+.cmb-row .cmb-td .regular-text,
+.cmb-row .cmb-td .regular-textarea {
+	width: 100%;
+	border: 1px solid #e5e5e5;
+	color: #777;
+}
+.cmb-row .cmb-td select.regular-text {
+	background-color: #fff;
+}
+.cmb-row .cmb-td .regular-textarea {
+	resize: vertical;
+}
+.cmb-row .cmb-td .cmb2-upload-button {
+	background-color: #fff;
+	color: #777;
+	border: 1px solid #e5e5e5;
+	border-radius: 2px;
+	padding: 6px 12px;
+	line-height: 1.7;
+	min-width: 80px;
+	margin: 0 0 1em;
+}
+.cmb-row .idea-button {
+	background-color: #fff;
+	border: none;
+	border-radius: 2px;
+	padding: 6px 12px;
+	line-height: 1.428571429;
+	min-width: 80px;
+	color: #555;
+}
+.cmb-row .button-primary {
+	background-color: #367bb7;
+	color: #fff;
+}
+.cmb-td .button-group .idea-button {
+	margin: 0 5px 0 0;
+}
+.cmb-td .button-group .idea-button:last-child {
+	margin-right: 0;
+}
+.cmb-row .cmb-td .cmb2-upload-button:focus,
+.cmb-row .idea-button:focus {
+	outline: none;
+}
+.cmb2-media-status {
+	clear: left;
+}
+.cmb2-media-status .img-status {
+	display: inline-block;
+	position: relative;
+	border: 1px solid #ccc;
+}
+.cmb2-media-status .image-src {
+	max-width: 150px;
+	height: auto;
+}
+.cmb2-media-status .remvoe-image {
+	display: inline-block;
+	position: absolute;
+	right: -6px;
+	top: -8px;
+	color: #ff0000;
+	font-size: 20px;
+}
+@media(min-width: 992px) {
+	.cmb-row .cmb-td .cmb2-upload-file.regular-text {
+		width: 70%;
+		float: left;
+		margin-right: 20px;
+	}
+	.cmb-row .cmb-td .cmb2-upload-button {
+		float: left;
+	}
+	.cmb2-media-status {}
+	.cmb-td .button-group {
+		float: right;
+	}
+}
+
+.cmb-td .loader {
+	display: none;
+}
+.cmb-td .loader.active {
+	display: inline-block;
+}
+
+.cmb-td .error-message {
+	border-radius: 2px;
+	padding: 5px 10px;
+}
+.cmb-td .error-message {
+	display: none;
+}
+.cmb-td .error-message.active {
+	display: block;
+}

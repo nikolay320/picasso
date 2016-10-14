@@ -1,0 +1,276 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: marylink-custom-plugin\n"
+"POT-Creation-Date: 2016-10-13 16:02+0700\n"
+"PO-Revision-Date: 2016-10-13 16:02+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: E:\\server\\htdocs\\marilink\\picasso\\wp-content"
+"\\plugins\\marylink-custom-plugin\n"
+
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\marylink-custom-plugin/bp-func.php:25
+#, php-format
+msgid "%1$s posted a new idea %2$s"
+msgstr ""
+
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\marylink-custom-plugin/bp-func.php:35
+#, php-format
+msgid "%1$s posted a new idea %2$s in campaign %3$s"
+msgstr ""
+
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\marylink-custom-plugin/bp-func.php:62
+#, php-format
+msgid "%1$s has made a comment on idea %2$s which is part of campaign %3$s"
+msgstr ""
+
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\marylink-custom-plugin/bp-func.php:69
+#, php-format
+msgid "%1$s has made a comment on idea %2$s"
+msgstr ""
+
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\marylink-custom-plugin/bp-func.php:147
+msgid "Published a new idea"
+msgstr ""
+
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\marylink-custom-plugin/bp-func.php:148
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\marylink-custom-plugin/bp-func.php:165
+msgid "Ideas"
+msgstr ""
+
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\marylink-custom-plugin/bp-func.php:149
+#, php-format
+msgid "%1$s posted a new <a href=\"%2$s\">idea</a>"
+msgstr ""
+
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\marylink-custom-plugin/bp-func.php:150
+#, php-format
+msgid "%1$s posted a new <a href=\"%2$s\">idea</a>, on the site %3$s"
+msgstr ""
+
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\marylink-custom-plugin/bp-func.php:153
+msgid "Commented a page"
+msgstr ""
+
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\marylink-custom-plugin/bp-func.php:154
+msgid "Pages Comments"
+msgstr ""
+
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\marylink-custom-plugin/bp-func.php:155
+#, php-format
+msgid "%1$s commented on the <a href=\"%2$s\">page</a>"
+msgstr ""
+
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\marylink-custom-plugin/bp-func.php:156
+#, php-format
+msgid "%1$s commented on the <a href=\"%2$s\">page</a>, on the site %3$s"
+msgstr ""
+
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\marylink-custom-plugin/bp-func.php:255
+msgid "My Ideas"
+msgstr ""
+
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\marylink-custom-plugin/bp-func.php:256
+msgid "My Comments"
+msgstr ""
+
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\marylink-custom-plugin/bp-func.php:257
+msgid "My Bookmarks"
+msgstr ""
+
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\marylink-custom-plugin/bp-func.php:258
+msgid "My User Reviews"
+msgstr ""
+
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\marylink-custom-plugin/bp-func.php:259
+msgid "My Expert Reviews"
+msgstr ""
+
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\marylink-custom-plugin/bp-func.php:261
+msgid "User Ideas"
+msgstr ""
+
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\marylink-custom-plugin/bp-func.php:262
+msgid "User Comments"
+msgstr ""
+
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\marylink-custom-plugin/bp-func.php:263
+msgid "User Bookmarks"
+msgstr ""
+
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\marylink-custom-plugin/bp-func.php:264
+msgid "User User Reviews"
+msgstr ""
+
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\marylink-custom-plugin/bp-func.php:265
+msgid "User Expert Reviews"
+msgstr ""
+
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\marylink-custom-plugin/idea_temp.php:13
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\marylink-custom-plugin/idea_temp_bookmarks.php:13
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\marylink-custom-plugin/idea_temp_comments.php:45
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\marylink-custom-plugin/idea_temp_expertreview.php:52
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\marylink-custom-plugin/idea_temp_userreview.php:51
+msgid "Newest First"
+msgstr ""
+
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\marylink-custom-plugin/idea_temp.php:14
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\marylink-custom-plugin/idea_temp_bookmarks.php:14
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\marylink-custom-plugin/idea_temp_comments.php:47
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\marylink-custom-plugin/idea_temp_expertreview.php:53
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\marylink-custom-plugin/idea_temp_userreview.php:52
+msgid "Oldest First"
+msgstr ""
+
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\marylink-custom-plugin/idea_temp.php:15
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\marylink-custom-plugin/idea_temp_bookmarks.php:15
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\marylink-custom-plugin/idea_temp_expertreview.php:54
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\marylink-custom-plugin/idea_temp_userreview.php:53
+msgid "Recently Active"
+msgstr ""
+
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\marylink-custom-plugin/idea_temp.php:16
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\marylink-custom-plugin/idea_temp_bookmarks.php:16
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\marylink-custom-plugin/idea_temp_expertreview.php:55
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\marylink-custom-plugin/idea_temp_userreview.php:54
+msgid "Most Votes"
+msgstr ""
+
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\marylink-custom-plugin/idea_temp.php:17
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\marylink-custom-plugin/idea_temp_bookmarks.php:17
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\marylink-custom-plugin/idea_temp_expertreview.php:56
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\marylink-custom-plugin/idea_temp_userreview.php:55
+msgid "Most Answers"
+msgstr ""
+
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\marylink-custom-plugin/idea_temp.php:72
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\marylink-custom-plugin/idea_temp_bookmarks.php:72
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\marylink-custom-plugin/idea_temp_comments.php:81
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\marylink-custom-plugin/idea_temp_expertreview.php:167
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\marylink-custom-plugin/idea_temp_userreview.php:164
+msgid "Views"
+msgstr ""
+
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\marylink-custom-plugin/idea_temp.php:116
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\marylink-custom-plugin/idea_temp_bookmarks.php:117
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\marylink-custom-plugin/idea_temp_expertreview.php:212
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\marylink-custom-plugin/idea_temp_userreview.php:210
+msgid "posted"
+msgstr ""
+
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\marylink-custom-plugin/idea_temp.php:119
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\marylink-custom-plugin/idea_temp.php:126
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\marylink-custom-plugin/idea_temp_bookmarks.php:120
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\marylink-custom-plugin/idea_temp_bookmarks.php:127
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\marylink-custom-plugin/idea_temp_expertreview.php:215
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\marylink-custom-plugin/idea_temp_expertreview.php:222
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\marylink-custom-plugin/idea_temp_userreview.php:213
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\marylink-custom-plugin/idea_temp_userreview.php:220
+msgid "ago"
+msgstr ""
+
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\marylink-custom-plugin/idea_temp.php:124
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\marylink-custom-plugin/idea_temp_bookmarks.php:125
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\marylink-custom-plugin/idea_temp_expertreview.php:220
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\marylink-custom-plugin/idea_temp_userreview.php:218
+msgid "last active"
+msgstr ""
+
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\marylink-custom-plugin/idea_temp_comments.php:76
+msgid "comments"
+msgstr ""
+
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\marylink-custom-plugin/idea_temp_comments.php:88
+msgid "In reply to: "
+msgstr ""
+
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\marylink-custom-plugin/idea_temp_comments.php:98
+msgid "time "
+msgstr ""
+
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\marylink-custom-plugin/idea_temp_comments.php:119
+msgid "No comments found"
+msgstr ""
+
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\marylink-custom-plugin/notification.php:47
+msgid " commented on the idea "
+msgstr ""
+
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\marylink-custom-plugin/notification.php:49
+msgid " a commenté votre idée "
+msgstr ""
+
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\marylink-custom-plugin/notification.php:83
+msgid " a répondu à votre question "
+msgstr ""
+
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\marylink-custom-plugin/notification.php:84
+msgid " répondu à la question "
+msgstr ""
+
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\marylink-custom-plugin/notification.php:88
+msgid " a examiné votre répertoire après "
+msgstr ""
+
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\marylink-custom-plugin/notification.php:89
+msgid " examiné votre répertoire après "
+msgstr ""
+
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\marylink-custom-plugin/notification.php:93
+msgid " a commented on your directory post "
+msgstr ""
+
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\marylink-custom-plugin/notification.php:94
+msgid " commented on directory post "
+msgstr ""
+
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\marylink-custom-plugin/notification.php:98
+msgid " a un commentaire sur votre réponse à "
+msgstr ""
+
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\marylink-custom-plugin/notification.php:99
+msgid " un commentaire sur votre réponse à "
+msgstr ""
+
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\marylink-custom-plugin/notification.php:103
+msgid " a accepted your answer "
+msgstr ""
+
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\marylink-custom-plugin/notification.php:104
+msgid " accepted the answer "
+msgstr ""
+
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\marylink-custom-plugin/notification.php:108
+msgid " a reacted on "
+msgstr ""
+
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\marylink-custom-plugin/notification.php:109
+msgid " has reacted on "
+msgstr ""
+
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\marylink-custom-plugin/notification.php:277
+msgid "A member replies to an idea you've posted"
+msgstr ""
+
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\marylink-custom-plugin/notification.php:278
+msgid "Yes, send email"
+msgstr ""
+
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\marylink-custom-plugin/notification.php:279
+msgid "No, do not send email"
+msgstr ""
+
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\marylink-custom-plugin/notification.php:310
+msgid "<div id='author_link' data-author_link='"
+msgstr ""
+
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\marylink-custom-plugin/notification.php:311
+msgid "<div id='postID_class' data-postID_class='"
+msgstr ""

@@ -1,0 +1,236 @@
+# Translation of Filter Bar in French (France)
+# This file is distributed under the same license as the Filter Bar package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2015-08-31 14:34+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Poedit 1.8.2\n"
+"Project-Id-Version: Filter Bar\n"
+"POT-Creation-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+
+#: ../src/Tribe/Filter.php:182
+msgid "Select"
+msgstr "Selectionner"
+
+#: ../src/Tribe/Filter.php:216
+msgid "No items match"
+msgstr "Aucun élément ne correspond"
+
+#: ../src/Tribe/Filter.php:217
+msgid "Select an Item"
+msgstr "Choisissez un élément"
+
+#: ../src/Tribe/Filter.php:471
+msgid "Title: %s"
+msgstr "Titre: %s"
+
+#: ../src/Tribe/Filters/Category.php:17 ../src/Tribe/Filters/Organizer.php:17
+#: ../src/Tribe/Filters/Tag.php:31 ../src/Tribe/Filters/Venue.php:17
+msgid "Type: %s %s %s"
+msgstr "Type: %s %s %s"
+
+#: ../src/Tribe/Filters/Category.php:21 ../src/Tribe/Filters/Organizer.php:21
+#: ../src/Tribe/Filters/Tag.php:35 ../src/Tribe/Filters/Venue.php:21
+msgid "Dropdown"
+msgstr "Menu-déroulant"
+
+#: ../src/Tribe/Filters/Category.php:26 ../src/Tribe/Filters/Cost.php:63
+#: ../src/Tribe/Filters/Organizer.php:26 ../src/Tribe/Filters/Tag.php:40
+#: ../src/Tribe/Filters/Venue.php:26
+msgid "Checkboxes"
+msgstr "Cases à cocher"
+
+#: ../src/Tribe/Filters/Category.php:31 ../src/Tribe/Filters/Organizer.php:31
+#: ../src/Tribe/Filters/Tag.php:45 ../src/Tribe/Filters/Venue.php:31
+msgid "Autocomplete"
+msgstr "Saisie automatique"
+
+#: ../src/Tribe/Filters/Cost.php:54
+msgid "Type: %s %s"
+msgstr "Type: %s %s"
+
+#: ../src/Tribe/Filters/Cost.php:58
+msgid "Range Slider"
+msgstr "Glissière"
+
+#: ../src/Tribe/Filters/Cost.php:68
+msgid "Events are considered free when cost field is: %s %s"
+msgstr "Les événements sont considérés gratuit quand le champ Coût est: %s %s"
+
+#: ../src/Tribe/Filters/Cost.php:72
+msgid "Empty or set to zero"
+msgstr "Vide ou mettre à zéro"
+
+#: ../src/Tribe/Filters/Cost.php:77
+msgid "Only when set to zero"
+msgstr "Seulement si mit à zéro"
+
+#: ../src/Tribe/Filters/Cost.php:93
+msgid "Free"
+msgstr "Gratuit"
+
+#: ../src/Tribe/Filters/Day_Of_Week.php:12
+msgid "Sunday"
+msgstr "Dimanche"
+
+#: ../src/Tribe/Filters/Day_Of_Week.php:13
+msgid "Monday"
+msgstr "Lundi"
+
+#: ../src/Tribe/Filters/Day_Of_Week.php:14
+msgid "Tuesday"
+msgstr "Mardi"
+
+#: ../src/Tribe/Filters/Day_Of_Week.php:15
+msgid "Wednesday"
+msgstr "Mercredi"
+
+#: ../src/Tribe/Filters/Day_Of_Week.php:16
+msgid "Thursday"
+msgstr "Jeudi"
+
+#: ../src/Tribe/Filters/Day_Of_Week.php:17
+msgid "Friday"
+msgstr "Vendredi"
+
+#: ../src/Tribe/Filters/Day_Of_Week.php:18
+msgid "Saturday"
+msgstr "Samedi"
+
+#: ../src/Tribe/Filters/Time_Of_Day.php:12
+msgid "All Day"
+msgstr "Toute la journée"
+
+#: ../src/Tribe/Filters/Time_Of_Day.php:13
+msgid "Morning"
+msgstr "Matin"
+
+#: ../src/Tribe/Filters/Time_Of_Day.php:14
+msgid "Afternoon"
+msgstr "Après-midi"
+
+#: ../src/Tribe/Filters/Time_Of_Day.php:15
+msgid "Evening"
+msgstr "Soir"
+
+#: ../src/Tribe/Filters/Time_Of_Day.php:16
+msgid "Night"
+msgstr "Nuit"
+
+#: ../src/Tribe/Settings.php:39 ../src/Tribe/Settings.php:97
+msgid "Filters"
+msgstr "Filtres"
+
+#: ../src/Tribe/Settings.php:101
+msgid "The settings below allow you to enable or disable front-end event filters. Uncheck the box to hide the filter. Drag and drop active filters to re-arrange them."
+msgstr "Les paramètres ci-dessous vous permette d'activer ou de désactiver les filtres de la face-avant. Décochez la case pour cacher le filtre. Cliquez et déplacez les filtres pour les réarranger."
+
+#: ../src/Tribe/Settings.php:102
+msgid "Expand an active filter to edit the label and choose from a subset of input types (dropdown, select, range slider, checkbox and radio)."
+msgstr "Agrandir un filtre actif pour modifier son nom et choisir son type (menu déroulant, selection, glissière, case à cocher et bouton radio)."
+
+#: ../src/Tribe/Settings.php:114
+msgid "Filters Layout"
+msgstr "Apparence Des Filtres"
+
+#: ../src/Tribe/Settings.php:117
+msgid "Vertical"
+msgstr "Vertical"
+
+#: ../src/Tribe/Settings.php:118
+msgid "Horizontal"
+msgstr "Horizontal"
+
+#: ../src/Tribe/Settings.php:124
+msgid "Filters Default State"
+msgstr "État Par Défaut Des Filtres"
+
+#: ../src/Tribe/Settings.php:127
+msgid "Closed"
+msgstr "Fermé"
+
+#: ../src/Tribe/Settings.php:128
+msgid "Open"
+msgstr "Ouvert"
+
+#: ../src/Tribe/Settings.php:151
+msgid "Filter Bar"
+msgstr "Barre des filtres"
+
+#: ../src/Tribe/View.php:309
+msgid "%s Category"
+msgstr " Catégorie %s"
+
+#: ../src/Tribe/View.php:310
+msgid "Cost (%s)"
+msgstr "Coût (%s)"
+
+#: ../src/Tribe/View.php:311
+msgid "Tags"
+msgstr "Libellés"
+
+#: ../src/Tribe/View.php:314
+msgid "Day"
+msgstr "Jour"
+
+#: ../src/Tribe/View.php:315
+msgid "Time"
+msgstr "Heure"
+
+#: ../src/admin-views/settings-field-active-filters.php:7
+msgid "Active Filters"
+msgstr "Filtres Actifs"
+
+#: ../src/admin-views/settings-field-available-filters.php:8
+msgid "Available Filters"
+msgstr "Filtres Disponible"
+
+#: ../src/views/filter-bar/filter-view-horizontal.php:20
+#: ../src/views/filter-bar/filter-view-vertical.php:24
+msgid "Narrow Your Results"
+msgstr "Réduisez Vos Résultats"
+
+#: ../src/views/filter-bar/filter-view-horizontal.php:22
+#: ../src/views/filter-bar/filter-view-horizontal.php:34
+#: ../src/views/filter-bar/filter-view-vertical.php:20
+msgid "Show Advanced Filters"
+msgstr "Afficher les filtres avancés"
+
+#: ../src/views/filter-bar/filter-view-horizontal.php:22
+#: ../src/views/filter-bar/filter-view-horizontal.php:34
+#: ../src/views/filter-bar/filter-view-vertical.php:20
+#: ../src/views/filter-bar/filter-view-vertical.php:35
+msgid "Collapse Filters"
+msgstr "Réduire les filtres"
+
+#: ../src/views/filter-bar/filter-view-horizontal.php:23
+#: ../src/views/filter-bar/filter-view-horizontal.php:35
+#: ../src/views/filter-bar/filter-view-vertical.php:21
+msgid "Show Filters"
+msgstr "Afficher les filtres"
+
+#: ../src/views/filter-bar/filter-view-horizontal.php:24
+#: ../src/views/filter-bar/filter-view-horizontal.php:36
+#: ../src/views/filter-bar/filter-view-vertical.php:32
+#: ../src/views/filter-bar/filter-view-vertical.php:36
+msgid "Reset Filters"
+msgstr "Remettre à zéro les filtres"
+
+#: ../src/views/filter-bar/filter-view-horizontal.php:30
+#: ../src/views/filter-bar/filter-view-vertical.php:30
+msgid "Submit"
+msgstr "Soumettre"
+
+#: ../the-events-calendar-filter-view.php:67
+msgid "The Events Calendar"
+msgstr "The Events Calendar"
+
+#: ../the-events-calendar-filter-view.php:68
+msgid "To begin using The Events Calendar: Filter Bar, please install the latest version of <a href=\"%s\" class=\"thickbox\" title=\"%s\">The Events Calendar</a>."
+msgstr "Pour commencer à utiliser le calendrier des événements: barre de filtre, s'il vous plaît installer la dernière version de <a href=\"%s\" class=\"thickbox\" title=\"%s\">Le calendrier des événements.</a>"

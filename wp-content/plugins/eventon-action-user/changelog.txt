@@ -1,0 +1,227 @@
+ActionUser (AU) addon for EventON Plugin
+====================================
+v 2.0.1 (2016-5-3)
+FIXED: Taxonomy filter interfering with main calendar filter incorrectly
+
+v 2.0 (2016-4-26)
+REQUIRED: Eventon 2.3.21
+ADDED: if user has permission to publish events override default event publish type
+ADDED: support tags for event start and end time and date in notification email body
+ADDED: Ability to hide repeating fields from submission form
+ADDED: Appearance for forms
+ADDED: Event manager to show properly formatted event time
+ADDED: Ability to assign all users to an event
+ADDED: Event organizer field as dropdown or create new in submission form
+FIXED: missing strings in translation on form
+FIXED: default primary event color not passing to submitted events
+FIXED: loggedin user display name and email passed in the form
+FIXED: submitter-name and submitted-email not working in notification email body
+FIXED: lightbox form datepicker showing behind the form
+FIXED: Unused user permissions removed
+FIXED: All day value not showing in event edit for event manager
+FIXED: Missing/not working translation text in event manager
+FIXED: when no fields are selected submission form to show default fields
+FIXED: {event-start-date} passing start event time
+FIXED: Subheader for submission form not working
+FIXED: Assets url to support https
+UPDATED: Event Manager styles and to load them on page 
+UPDATED: learn more link to be converted to proper links if not submitted
+UPDATED: Location field in submission form converted as one field
+UPDATED: Removed rsvp enabled option for form, this will be intergrated to RSVP addon
+
+v 1.9.4 (2016-2-26)
+FIXED: Styles for form fields going outside form
+FIXED: Some text in event manager not translatable
+FIXED: All day not saving value in event submission form
+FIXED: Event details content empty to pass no values if not set
+FIXED: Date picker JQ UI theme not loading on https urls
+
+v 1.9.3 (2016-1-24)
+FIXED: Lightbox submission form not showing on mobile
+
+v 1.9.2 (2016-1-8)
+ADDED: Language translation support for event manager from language settings
+ADDED: Intergration with event reviewer addon for submitted events
+FIXED: UX val to support open as single event page with single event addon
+FIXED: frontend yes no button not working
+FIXED: edit event link not working in event manager
+TESTED: event manager and submission form on same page works
+
+v 1.9.1 (2015-12-22)
+FIXED: custom fields not translating in submision form
+FIXED: syntax error on class_functions.php 19
+
+v 1.9 (2015-12-15)
+ADDED: Support for submitting repeat event information
+ADDED: Template customization support from child themes
+ADDED: Option to disable form nonce checking
+ADDED: Option to switch to basic textbox instead of WYSIWYG editor for event details
+ADDED: Ability to set default image for submitted events
+ADDED: Additional HTML field to support shortcodes
+ADDED: The ability to delete events from event manager
+FIXED: Missing ttanslation on location drop down menu
+FIXED: tinymce error on form submissoin
+FIXED: previously saved locations not saving all location data
+FIXED: multiple event submission form not clearing data
+UPDATED: term ids to category select field rows
+UPDATED: Front end edit events for event manager need turned on in settings now
+REQUIRED: EventON 2.3.13
+NOTE: Be sure to update event manager template if using child theme
+
+v 1.8.6 (2015-10-10)
+ADDED: Learn more link open in new window option
+ADDED: ability to select previously saved locations
+ADDED: Missing translation for login and register
+FIXED: Page content showing up inside event details in event submission form
+
+v 1.8.5 (2015-9-27)
+UODATED: continued issue with event details section for the form
+
+v 1.8.4 (2015-9-9)
+FIXED: event description not working on event manager edit event
+
+v 1.8.3 (2015-8-26)
+FIXED: user role permissions not working for some people
+
+v 1.8.2 (2015-7-19)
+FIXED: assign users popup not working correctly
+
+v 1.8.1 (2015-7-14)
+FIXED: AJAX form submissions not working
+
+v 1.8 (2015-7-12)
+ADDED: 2 new permissions for users to be able to assign users to events and view private notes
+ADDED: Lightbox form with submit button
+ADDED: Front-end editing capabilities with event manager [evo_event_manager]
+ADDED: Location cordinated field to form
+ADDED: Ability to create new categories for all 5 event types
+ADDED: Support for extra additional private notes field
+ADDED: Ability to order form fields
+ADDED: Missing language translations to settings
+ADDED: New user registration button on form
+ADDED: form title and subtitle support via shortcode variables
+ADDED: Ability to set to redirect form after submission
+ADDED: Organizer contact field support
+ADDED: Ability to submit another event w/o refreshing page
+ADDED: Assigned users column for events page (wp-admin)
+ADDED: support for dynamic current logged in user events only
+ADDED: Ability to set default UX for submitted events
+ADDED: Ability to add custom HTML text field into the form
+ADDED: Restrict one event submission per user option
+ADDED: Ability to create child templates for event manger template
+FIXED: Custom fields set as buttons to support link & text field
+FIXED: Organizer information saving properly
+FIXED: all day no end time events not saving correct
+FIXED: Location information saving properly
+FIXED: Event color not saving correct from submission form
+FIXED: Organizer field not saving correct
+UPDATED: Category field to have scrollbars for long category lists
+UPDATED: Better way for sending emails with event edit link and other data
+UPDATED: Captcha validation to a better method
+UPDATED: UI for Action User box for event edit page
+UPDATED: Event color to reflect real time changes
+UPDATED: AJAX driven form submission
+UPDATED: Language not working on submission form
+TESTED: Lang variable works fine on submission form
+
+v 1.7.3 (2015-5-22)
+UPDATED: Compatibility to eventon 2.2.30
+UPDATED: users value intergration to calendar
+
+v 1.7.2 (2015-3-31)
+FIXED: Shortcode missing argument 2
+
+v 1.7.1 (2015-1-11)
+ADDED: Settings link to plugins page
+FIXED: Form submissions not working from last update
+
+v1.7 (2015-1-6)
+ADDED: Compatibility with RSVP addon to allow RSVP on submitted events
+FIXED: Event Details text interfering with eventon language translation
+FIXED: Users variable support issues solved
+FIXED: Captcha feild not tested before form submission
+FIXED: Missing language translations
+
+v1.6(2014-9-18)
+FIXED: Addon initial check and compatibility with eventon 2.2.18 up
+
+v1.5 (2014-9-10)
+ADDED: Learn more link to the submission form
+ADDED: Ability to customize the link in the notification email
+FIXED: All day events not saving correct on submission form
+FIXED: Logged in user assign to submitted events not working
+FIXED: Sub titles with aphostrophe not saving correct
+FIXED: Custom data fields multilines to support that on front-end
+UPDATED: Compatibility with eventon 2.2.17
+
+v1.4.1(2014-8-22)
+FIXED: form submission not going through with all fields filled
+FIXED: Captcha field missing translation
+
+v1.4 (2014-8-19)
+ADDED: Event Subtitle form field
+ADDED: User Interaction field to the front form
+ADDED: Guide to user capabilities list
+ADDED: All event categories be able to be selected for submission form
+ADDED: Missing event details text to language translations
+ADDED: Select image file field language customization
+ADDED: Captcha validation to submission form
+ADDED: Ability set default category tag for category #1 and #2 for form submissions
+FIXED: SUbmissions with google map generation on bug
+UPDATED: User capabilities functionality
+UPDATED: User be able to edit submitted event from wp-admin
+UPDATED: Authors of events can now be set to edit only their events
+
+v1.3 (2014-7-16)
+FIXED: Yes no buttons in capacibilties page
+
+v1.2 (2014-6-1)
+FIXED: Yes no buttons styles not working
+FIXED: Edit event link in email notification
+FIXED: Compatibility with eventon 2.2.12
+FIXED: form not showing on front-end
+FIXED: user capabilities buttons not showing correct status
+
+v1.1(2014-5-20)
+FIXED: Slowness in wp-admin
+
+v1.0 (2014-5-12)
+ADDED: Ability to select all day or no end date/time as options in the form
+ADDED: Ability to assign event type #2 category tags to submitted events by default
+ADDED: Send email notification when event submitted and approved for publish
+ADDED: Admin only email notification, when new events are received
+ADDED: Admin notification email to accept multiple email addresses to receive notifications
+ADDED: Notification email to have a link to published event or to edit event on wp-admin
+ADDED: Logged in users can now receive notification when they submit events
+ADDED: Date and time field placeholder text translation to languages
+ADDED: You can now allow logged in users to be assigned to submitted events
+ADDED: Allow google maps to be generated from submitted event location address
+UPDATED: to use eventON new email templates for notification emails
+UPDATED: converted form validation to a semi AJAX and php method
+FIXED: field values to show again in form upon failed submission
+
+v0.7 (2014-3-4)
+FIXED: submit event text missing from language conversion settings
+FIXED: image not attaching for event submission form
+
+v0.6 (2014-2-13)
+FIXED: EventON auto update error caused by addons and compatibility to eventON 2.2.7
+
+v0.5 (2014-1-30)
+ADDED: several new form fields
+ADDED: support for image update from form
+UPDATED: compatibility with new eventON v2.2.6
+UPDATED: Front-end form look and UI
+
+v0.4 (2013-11-24)
+FIXED: capabilities not showing correctly due to ajax error
+
+v0.3 (2013-11-21)
+UPDATED: touch up on the form UI
+UPDATED: compatibility to eventON 2.2
+
+v0.2 (2013-10-14)
+FIXED: missing function error on eventon_JQ_dateformat()
+
+v 0.1 (2013-9-16)
+Initial release

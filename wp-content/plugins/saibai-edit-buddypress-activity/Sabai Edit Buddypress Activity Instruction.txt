@@ -1,0 +1,18 @@
+
+Instruction:
+
+After install and activate this plugin,
+Go to Sabai Directory and Sabai Discuss to create these fields:
+for each Articles, Reviews, Questions and Answers.
+With these setting:
+	TYPE: ON/OFF
+	field name: 
+		field_article_update_activity
+		field_review_update_activity
+		field_question_update_activity
+		field_answer_update_activity
+	label: Buddypress update activity
+	hide label: check
+	checkbox label: Buddypress update activity (or your language string)
+	make this field checked by default: check
+	display setting: UNCHECK

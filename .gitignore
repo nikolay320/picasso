@@ -1,0 +1,10 @@
+*.log
+wp-config.php
+wp-content/uploads/
+wp-content/sabai/File/
+wp-content/sabai/file/files/
+wp-content/updraft/backup*
+wp-content/updraft/log*
+.htaccess
+.*swp
+

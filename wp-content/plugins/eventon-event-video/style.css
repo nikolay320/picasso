@@ -1,0 +1,12 @@
+.evo_metarow_video .fp-ratio,
+.evo_metarow_video .fp-ui,
+.evo_metarow_video .fp-help,
+.evo_metarow_video .fp-subtitle,
+.evo_metarow_video .fp-context-menu,
+.event_video .fp-ratio,
+.event_video .fp-ui,
+.event_video .fp-help,
+.event_video .fp-subtitle,
+.event_video .fp-context-menu {
+	display: none;
+}

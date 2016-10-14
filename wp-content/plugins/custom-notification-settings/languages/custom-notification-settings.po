@@ -1,0 +1,111 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: custom-notification-settings\n"
+"POT-Creation-Date: 2016-08-30 13:38+0700\n"
+"PO-Revision-Date: 2016-08-30 13:38+0700\n"
+"Last-Translator: \n"
+"Language-Team: custom-notification-settings <phandung122@gmail.com>\n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: E:\\server\\htdocs\\marilink\\picasso\\wp-content"
+"\\plugins\\custom-notification-settings\n"
+
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\custom-notification-settings/custom-notification-settings.php:56
+msgid "I want to receive mails on the following publications :"
+msgstr ""
+
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\custom-notification-settings/custom-notification-settings.php:57
+msgid "Yes"
+msgstr ""
+
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\custom-notification-settings/custom-notification-settings.php:58
+msgid "No"
+msgstr ""
+
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\custom-notification-settings/custom-notification-settings.php:66
+msgid "New themes"
+msgstr ""
+
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\custom-notification-settings/custom-notification-settings.php:67
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\custom-notification-settings/custom-notification-settings.php:74
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\custom-notification-settings/custom-notification-settings.php:81
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\custom-notification-settings/custom-notification-settings.php:88
+msgid "Yes, send email"
+msgstr ""
+
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\custom-notification-settings/custom-notification-settings.php:68
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\custom-notification-settings/custom-notification-settings.php:75
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\custom-notification-settings/custom-notification-settings.php:82
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\custom-notification-settings/custom-notification-settings.php:89
+msgid "No, do not send email"
+msgstr ""
+
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\custom-notification-settings/custom-notification-settings.php:73
+msgid "New questions"
+msgstr ""
+
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\custom-notification-settings/custom-notification-settings.php:80
+msgid "New ideas"
+msgstr ""
+
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\custom-notification-settings/custom-notification-settings.php:87
+msgid "New events"
+msgstr ""
+
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\custom-notification-settings/custom-notification-settings.php:121
+msgid "New publication: theme."
+msgstr ""
+
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\custom-notification-settings/custom-notification-settings.php:122
+msgid "theme"
+msgstr ""
+
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\custom-notification-settings/custom-notification-settings.php:125
+msgid "New publication: question."
+msgstr ""
+
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\custom-notification-settings/custom-notification-settings.php:126
+msgid "question"
+msgstr ""
+
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\custom-notification-settings/custom-notification-settings.php:129
+msgid "New publication: idea."
+msgstr ""
+
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\custom-notification-settings/custom-notification-settings.php:130
+msgid "idea"
+msgstr ""
+
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\custom-notification-settings/custom-notification-settings.php:133
+msgid "New publication: event."
+msgstr ""
+
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\custom-notification-settings/custom-notification-settings.php:134
+msgid "event"
+msgstr ""
+
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\custom-notification-settings/custom-notification-settings.php:137
+msgid "New publication."
+msgstr ""
+
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\custom-notification-settings/custom-notification-settings.php:138
+msgid "publication"
+msgstr ""
+
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\custom-notification-settings/custom-notification-settings.php:142
+#, php-format
+msgid ""
+"Hello, \n"
+"A new %s \"%s\" has been published.  You can click <a href=\"%s\">here</a> "
+"to read it.\n"
+"Have a great day on Picasso !\n"
+"PS : you are receiving these notifications because your profile is currently "
+"set to receive it. If you wish not to receive this kind of mails anymore, "
+"you can set options at <a href=\"%s\">your profile's setting</a>."
+msgstr ""

@@ -1,0 +1,17 @@
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /picasso-test/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /picasso-test/index.php [L]
+</IfModule>
+
+# END WordPress
+# BEGIN WP-HUMMINGBIRD-CACHING
+
+# END WP-HUMMINGBIRD-CACHING
+# BEGIN WP-HUMMINGBIRD-GZIP
+
+# END WP-HUMMINGBIRD-GZIP

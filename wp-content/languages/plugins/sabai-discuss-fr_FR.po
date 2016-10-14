@@ -1,0 +1,1996 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Sabai Discuss\n"
+"POT-Creation-Date: 2015-08-30 00:27+0200\n"
+"PO-Revision-Date: 2016-01-22 15:52+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: sabai-discuss.php\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: assets/templates/questions_answers.html.php:9
+#: assets/templates/questions_answers_list.html.php:10
+#: assets/templates/questions_categories_list.html.php:3
+#: assets/templates/questions_favorites.html.php:6
+#: assets/templates/questions_nav.html.php:32
+#: assets/templates/questions_tagcloud.html.php:3
+#, php-format
+msgid "Sort by: <strong>%s</strong>"
+msgstr "Trier par : <strong>%s</strong>"
+
+#: assets/templates/questions_answers.html.php:16
+#: assets/templates/questions_answers.html.php:18
+#: assets/templates/questions_answers.html.php:21 lib/Questions.php:442
+#: lib/Questions/Controller/QuestionAnswers.php:17
+msgid "Post Answer"
+msgstr "Publier la réponse"
+
+#: assets/templates/questions_answers.html.php:42
+#: assets/templates/questions_answers_list.html.php:34
+#: assets/templates/questions_favorites.html.php:23
+#: assets/templates/questions_pager.html.php:8
+#, php-format
+msgid "Showing %d - %d of %s results"
+msgstr "Affichage% d -% d sur % s résultats"
+
+#: assets/templates/questions_answers.html.php:49
+#: assets/templates/questions_answers_list.html.php:41
+#: assets/templates/questions_favorites.html.php:30
+#: assets/templates/questions_pager.html.php:15
+#, php-format
+msgid "Showing %s result"
+msgid_plural "Showing %s results"
+msgstr[0] "Afficher les %s résultats"
+msgstr[1] "Afficher tous les %s"
+
+#: assets/templates/questions_answers.html.php:57
+#: assets/templates/questions_answers.html.php:60
+msgid "Your Answer"
+msgstr "Votre réponse"
+
+#: assets/templates/questions_answers.html.php:61
+#, php-format
+msgid ""
+"Please <a href=\"%s\" class=\"sabai-login popup-login\">login</a> first to "
+"submit."
+msgstr ""
+"Veuillez <a href=\"%s\" class=\"sabai-login popup-login\">vous identifier</"
+"a> en premier pour continuer."
+
+#: assets/templates/questions_answers_single_favorited.html.php:8
+#: assets/templates/questions_answers_single_flagged.html.php:5
+#: assets/templates/questions_answers_single_summary.html.php:5
+#: assets/templates/questions_single_favorited.html.php:8
+#: assets/templates/questions_single_flagged.html.php:5
+#: assets/templates/questions_single_summary.html.php:5
+#, php-format
+msgid "%s vote"
+msgid_plural "%s votes"
+msgstr[0] "%s vote"
+msgstr[1] "%s votes"
+
+#: assets/templates/questions_answers_single_favorited.html.php:13
+#: assets/templates/questions_answers_single_flagged.html.php:10
+#: assets/templates/questions_answers_single_summary.html.php:10
+#: lib/Questions/Controller/Feed.php:14
+#, php-format
+msgid "In reply to: %s"
+msgstr "En réponse à: %s"
+
+#: assets/templates/questions_answers_single_favorited.html.php:19
+#: assets/templates/questions_answers_single_flagged.html.php:16
+#: assets/templates/questions_answers_single_full.html.php:23
+#: assets/templates/questions_answers_single_preview.html.php:11
+#: assets/templates/questions_answers_single_summary.html.php:16
+#, php-format
+msgid "%s answered %s"
+msgstr "%s a répondu %s"
+
+#: assets/templates/questions_answers_single_flagged.html.php:19
+#: assets/templates/questions_single_flagged.html.php:37
+#, php-format
+msgid "%d flag (spam score: %d)"
+msgid_plural "%d flags (spam score: %d)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: assets/templates/questions_categories.html.php:10
+#: assets/templates/questions_categories.html.php:20
+#: assets/templates/questions_categories_list.html.php:18
+#: assets/templates/questions_categories_list.html.php:28
+#: assets/templates/questions_categories_single_full.html.php:18
+#: lib/Questions.php:629 lib/Questions/Widget.php:662
+#, php-format
+msgid "%s (%d)"
+msgstr "%s (%d)"
+
+#: assets/templates/questions_nav.html.php:3
+msgid "Browse Category:"
+msgstr "Parcourir les catégories :"
+
+#: assets/templates/questions_nav.html.php:9
+msgid "Keywords:"
+msgstr "Mots-clés :"
+
+#: assets/templates/questions_questions_none.html.php:3
+msgid "No results were found"
+msgstr "Aucun résultat disponible"
+
+#: assets/templates/questions_searchbox.html.php:1
+#: assets/templates/questions_searchbox.html.php:16
+#: lib/Questions/Widget.php:710
+msgid "Select category"
+msgstr "Choisissez une catégorie"
+
+#: assets/templates/questions_searchbox.html.php:8
+#: assets/templates/questions_searchbox.html.php:18
+msgid "Search..."
+msgstr "Chercher..."
+
+#: assets/templates/questions_single_favorited.html.php:12
+#: assets/templates/questions_single_favorited.html.php:14
+#: assets/templates/questions_single_flagged.html.php:9
+#: assets/templates/questions_single_flagged.html.php:11
+#: assets/templates/questions_single_summary.html.php:9
+#: assets/templates/questions_single_summary.html.php:11
+#: lib/Questions.php:1452
+#, php-format
+msgid "%s answer"
+msgid_plural "%s answers"
+msgstr[0] "%s réponse"
+msgstr[1] " Réponses %s"
+
+#: assets/templates/questions_single_favorited.html.php:18
+#: assets/templates/questions_single_flagged.html.php:15
+#: assets/templates/questions_single_summary.html.php:15
+#, php-format
+msgid "%s view"
+msgid_plural "%s views"
+msgstr[0] "%s vue"
+msgstr[1] "%s vues"
+
+#: assets/templates/questions_single_favorited.html.php:37
+#: assets/templates/questions_single_flagged.html.php:34
+#: assets/templates/questions_single_full.html.php:39
+#: assets/templates/questions_single_preview.html.php:19
+#: assets/templates/questions_single_summary.html.php:37
+#, php-format
+msgid "%s asked %s"
+msgstr " %s a demandé %s"
+
+#: lib/CubePoints.php:73
+msgid "Accepted an answer"
+msgstr "A accepté une réponse"
+
+#: lib/CubePoints.php:73
+msgid "Unaccepted an answer"
+msgstr "A refusé une réponse"
+
+#: lib/CubePoints.php:76
+msgid "Answer was accepted"
+msgstr "La réponse a été acceptée"
+
+#: lib/CubePoints.php:76
+msgid "Answer was unaccepted"
+msgstr "La réponse a été refusée"
+
+#: lib/CubePoints.php:79
+msgid "Voted a question up"
+msgstr "Voté une question positivement"
+
+#: lib/CubePoints.php:79
+msgid "Voted a question down"
+msgstr "Voté une question comme négative"
+
+#: lib/CubePoints.php:82
+msgid "Question was voted up"
+msgstr "La question a été votée positive"
+
+#: lib/CubePoints.php:82
+msgid "Question was voted down"
+msgstr "La question a été votée négative"
+
+#: lib/CubePoints.php:85
+msgid "Voted an answer up"
+msgstr "A voté une réponse comme positive"
+
+#: lib/CubePoints.php:85
+msgid "Voted an answer down"
+msgstr "A voté une réponse comme négative"
+
+#: lib/CubePoints.php:88
+msgid "Answer was voted up"
+msgstr " Réponse notée comme positive"
+
+#: lib/CubePoints.php:88
+msgid "Answer was voted down"
+msgstr " Réponse votée comme négative"
+
+#: lib/CubePoints.php:91
+msgid "A question or an answer was deleted as being spam"
+msgstr "Une question ou une réponse a été supprimée comme étant du spam"
+
+#: lib/Questions.php:74
+msgid "Questions Index Page"
+msgstr "Page d'Index des Discussions"
+
+#: lib/Questions.php:81
+msgid "Ask Question Slug"
+msgstr ""
+
+#: lib/Questions.php:84
+msgid "Category Index Page"
+msgstr "Index Catégorie page"
+
+#: lib/Questions.php:86
+#, php-format
+msgid "%s Categories"
+msgstr "%s de Catégories"
+
+#: lib/Questions.php:89
+msgid "Tag Cloud Page"
+msgstr "Nuage d’étiquettes"
+
+#: lib/Questions.php:91
+#, php-format
+msgid "%s Tags"
+msgstr "Mots-clés %s "
+
+#: lib/Questions.php:94
+msgid "Single Question Page"
+msgstr "Page de détail"
+
+#: lib/Questions.php:96
+#, php-format
+msgid "%s Question"
+msgstr "Question %s"
+
+#: lib/Questions.php:99
+msgid "Flags Page"
+msgstr "Page des drapeaux"
+
+#: lib/Questions.php:101
+#, php-format
+msgid "%s Flags"
+msgstr "%s de Drapeaux rouges"
+
+#: lib/Questions.php:104
+msgid "Answers Slug"
+msgstr "Réponses Slug"
+
+#: lib/Questions.php:107
+msgid "Question Category Slug"
+msgstr ""
+
+#: lib/Questions.php:110
+msgid "Question Tag Slug"
+msgstr ""
+
+#: lib/Questions.php:392
+#, php-format
+msgid "Posts by %s"
+msgstr "Publiées par %s"
+
+#: lib/Questions.php:417
+msgctxt "tab"
+msgid "Questions"
+msgstr ""
+
+#: lib/Questions.php:420 lib/Questions/Controller/AskQuestion.php:9
+#: lib/Questions/Controller/Questions.php:180 lib/Questions/Widget.php:317
+msgid "Ask Question"
+msgstr "Publiez la Question"
+
+#: lib/Questions.php:423
+#, php-format
+msgid "Answers (%d)"
+msgstr "Réponses (%d)"
+
+#: lib/Questions.php:424 lib/Questions.php:438 lib/Questions.php:660
+#: lib/Questions.php:1110 lib/Questions/ContentType.php:144
+#: lib/QuestionsBuddyPress.php:47 lib/QuestionsBuddyPress.php:244
+msgid "Answers"
+msgid_plural "Answers"
+msgstr[0] "Réponse"
+msgstr[1] "Réponses"
+
+#: lib/Questions.php:426 lib/QuestionsBuddyPress.php:48
+msgid "Favorites"
+msgstr "Favoris"
+
+#: lib/Questions.php:432 lib/Questions.php:632
+msgid "Flags"
+msgstr "Drapeaux rouges"
+
+#: lib/Questions.php:434 lib/Questions/Controller/CloseQuestion.php:16
+msgid "Close Question"
+msgstr "Fermer la question"
+
+#: lib/Questions.php:436 lib/Questions.php:651
+#: lib/Questions/ContentType.php:19 lib/QuestionsBuddyPress.php:46
+#: lib/QuestionsBuddyPress.php:243
+#, fuzzy
+msgid "Questions"
+msgid_plural "Questions"
+msgstr[0] ""
+"#-#-#-#-#  1extracted.pot (PACKAGE VERSION)  #-#-#-#-#\n"
+"#-#-#-#-#  4extracted.pot (PACKAGE VERSION)  #-#-#-#-#\n"
+msgstr[1] "#-#-#-#-#  1extracted.pot (PACKAGE VERSION)  #-#-#-#-#\n"
+
+#: lib/Questions.php:440 lib/Questions/Controller/AcceptAnswer.php:70
+msgid "Accept Answer"
+msgstr "Accepter la réponse"
+
+#: lib/Questions.php:444
+msgid "All Answers"
+msgstr "Toutes les réponses"
+
+#: lib/Questions.php:498
+msgid "General"
+msgstr "Général"
+
+#: lib/Questions.php:498
+#, php-format
+msgctxt "Settings page title"
+msgid "%s Settings"
+msgstr "Paramètres %s"
+
+#: lib/Questions.php:500
+msgid "Access Control"
+msgstr "Contrôle d'accès"
+
+#: lib/Questions.php:502
+msgid "Emails"
+msgstr "Courriels"
+
+#: lib/Questions.php:504
+msgctxt "settings"
+msgid "Search"
+msgstr "Rechercher"
+
+#: lib/Questions.php:579
+#, php-format
+msgid "Category: %s"
+msgstr "Catégorie: %s"
+
+#: lib/Questions.php:580
+#, php-format
+msgid "Tag: %s"
+msgstr "Tag : %s"
+
+#: lib/Questions.php:583 lib/Questions/Controller/Admin/Settings.php:222
+#: lib/Questions/Controller/Admin/Settings.php:223
+#: lib/Questions/Taxonomy.php:38
+#, fuzzy
+msgid "Categories"
+msgstr ""
+"#-#-#-#-#  1extracted.pot (PACKAGE VERSION)  #-#-#-#-#\n"
+"#-#-#-#-#  2extracted.pot (PACKAGE VERSION)  #-#-#-#-#\n"
+"#-#-#-#-#  4extracted.pot (PACKAGE VERSION)  #-#-#-#-#\n"
+
+#: lib/Questions.php:584 lib/Questions/Controller/Admin/Settings.php:230
+#: lib/Questions/Controller/Admin/Settings.php:231
+#: lib/Questions/Taxonomy.php:39
+#, fuzzy
+msgid "Category"
+msgstr ""
+"#-#-#-#-#  1extracted.pot (PACKAGE VERSION)  #-#-#-#-#\n"
+"#-#-#-#-#  2extracted.pot (PACKAGE VERSION)  #-#-#-#-#\n"
+"#-#-#-#-#  4extracted.pot (PACKAGE VERSION)  #-#-#-#-#\n"
+
+#: lib/Questions.php:585 lib/Questions/Controller/Admin/Settings.php:238
+#: lib/Questions/Controller/Admin/Settings.php:239
+#: lib/Questions/Taxonomy.php:20
+#, fuzzy
+msgid "Tags"
+msgstr ""
+"#-#-#-#-#  1extracted.pot (PACKAGE VERSION)  #-#-#-#-#\n"
+"#-#-#-#-#  2extracted.pot (PACKAGE VERSION)  #-#-#-#-#\n"
+"#-#-#-#-#  4extracted.pot (PACKAGE VERSION)  #-#-#-#-#\n"
+
+#: lib/Questions.php:586 lib/Questions/Controller/Admin/Settings.php:246
+#: lib/Questions/Controller/Admin/Settings.php:247
+#: lib/Questions/Taxonomy.php:21
+#, fuzzy
+msgid "Tag"
+msgstr ""
+"#-#-#-#-#  1extracted.pot (PACKAGE VERSION)  #-#-#-#-#\n"
+"#-#-#-#-#  2extracted.pot (PACKAGE VERSION)  #-#-#-#-#\n"
+"#-#-#-#-#  4extracted.pot (PACKAGE VERSION)  #-#-#-#-#\n"
+
+#: lib/Questions.php:630
+#, php-format
+msgid "Flags (%d)"
+msgstr "Drapeaux (%d)"
+
+#: lib/Questions.php:656
+msgid "Add Question"
+msgstr "Ajouter une question"
+
+#: lib/Questions.php:672
+msgid "Settings"
+msgstr "Réglages"
+
+#: lib/Questions.php:745
+#, php-format
+msgid "Re: %s"
+msgstr "Re : %s"
+
+#: lib/Questions.php:768
+msgid "Answered"
+msgstr "Résolue"
+
+#: lib/Questions.php:769 lib/Questions.php:808
+msgid "This question has been resolved."
+msgstr "La question a été résolue"
+
+#: lib/Questions.php:775 lib/Questions.php:1152
+#: lib/Questions/OpenFieldFilter.php:16
+msgid "Closed"
+msgstr "Fermée"
+
+#: lib/Questions.php:776 lib/Questions.php:814
+msgid "This question is closed to new answers."
+msgstr "Cette question est fermée à de nouvelles réponses."
+
+#: lib/Questions.php:784 lib/Questions.php:792 lib/Questions.php:881
+#: lib/Questions.php:888
+msgid "Edit"
+msgstr "Modifier"
+
+#: lib/Questions.php:784 lib/Questions.php:792
+msgid "Edit this Question"
+msgstr "Modifier la question"
+
+#: lib/Questions.php:785 lib/Questions.php:795 lib/Questions.php:882
+#: lib/Questions.php:891
+msgid "Delete"
+msgstr "Supprimer"
+
+#: lib/Questions.php:785 lib/Questions.php:795
+msgid "Delete this Question"
+msgstr "Supprimer cette question"
+
+#: lib/Questions.php:830 lib/Questions.php:1133
+msgid "Close"
+msgstr "Fermer"
+
+#: lib/Questions.php:831
+msgid "Close this Question"
+msgstr "Fermer la question"
+
+#: lib/Questions.php:834 lib/Questions.php:1134
+msgid "Reopen"
+msgstr "Réouvrir"
+
+#: lib/Questions.php:835
+msgid "Reopen this Question"
+msgstr "Rouvrir cette question"
+
+#: lib/Questions.php:866 lib/Questions/Controller/AcceptAnswer.php:35
+msgid "Best Answer"
+msgstr "La meilleure réponse"
+
+#: lib/Questions.php:868 lib/Questions/Controller/AcceptAnswer.php:36
+msgid "Great Answer"
+msgstr "Très bonne réponse"
+
+#: lib/Questions.php:870 lib/Questions/Controller/AcceptAnswer.php:37
+msgid "Good Answer"
+msgstr "Bonne Réponse"
+
+#: lib/Questions.php:874 lib/Questions.php:911
+msgid "This answer has been accepted."
+msgstr "Cette réponse a été acceptée."
+
+#: lib/Questions.php:881 lib/Questions.php:888
+msgid "Edit this Answer"
+msgstr "Modifier cette réponse"
+
+#: lib/Questions.php:882 lib/Questions.php:891
+msgid "Delete this Answer"
+msgstr "Supprimer cette question"
+
+#: lib/Questions.php:901
+msgid "Unaccept"
+msgstr "Ne pas accepter"
+
+#: lib/Questions.php:901
+msgid "Accept"
+msgstr "Accepter"
+
+#: lib/Questions.php:904
+msgid "Unaccept this Answer"
+msgstr "Refuser la réponse"
+
+#: lib/Questions.php:904
+msgid "Accept this Answer"
+msgstr "Valider la réponse"
+
+#: lib/Questions.php:1141 lib/Questions/ContentType.php:43
+#: lib/Questions/ResolvedFieldFilter.php:7
+msgid "Resolved/Unresolved"
+msgstr "﻿Résolues / non résolues"
+
+#: lib/Questions.php:1142 lib/Questions/ResolvedFieldFilter.php:13
+msgid "Resolved"
+msgstr "Résolue"
+
+#: lib/Questions.php:1142 lib/Questions/ResolvedFieldFilter.php:14
+msgid "Unresolved"
+msgstr "Non résolue"
+
+#: lib/Questions.php:1146
+msgid "Featured/Unfeatured"
+msgstr "Vedette/normal"
+
+#: lib/Questions.php:1147
+msgid "Featured"
+msgstr "Promue"
+
+#: lib/Questions.php:1147
+msgid "Unfeatured"
+msgstr "Non promue(s)"
+
+#: lib/Questions.php:1151 lib/Questions/ContentType.php:55
+#: lib/Questions/OpenFieldFilter.php:9
+msgid "Open/Closed"
+msgstr "﻿Ouvert/Fermé"
+
+#: lib/Questions.php:1152 lib/Questions/OpenFieldFilter.php:15
+msgid "Open"
+msgstr "Ouvrir"
+
+#: lib/Questions.php:1210 lib/Questions/ContentType.php:145
+msgid "Answer"
+msgid_plural "Answer"
+msgstr[0] "Réponse"
+msgstr[1] "Réponses"
+
+#: lib/Questions.php:1222
+msgid "Show accepted/unaccepted"
+msgstr "Afficher accepté / refusé"
+
+#: lib/Questions.php:1223
+msgid "Show accepted"
+msgstr "Afficher acceptée"
+
+#: lib/Questions.php:1223
+msgid "Show unaccepted"
+msgstr "Afficher non acceptée"
+
+#: lib/Questions.php:1231
+#, php-format
+msgid ""
+"Posts <span class=\"sabai-tr-error\">highlighted</span> are marked as SPAM. "
+"Authors of these posts will lose %d reputation points when the posts are "
+"removed from trash."
+msgstr ""
+"Messages <span class=\"sabai-tr-error\">en surbrillance</span> sont marqués "
+"comme SPAM. Les auteurs de ces messages perdront %d points de réputation "
+"lorsque les messages sont supprimés de la corbeille."
+
+#: lib/Questions.php:1355
+#, php-format
+msgid "Deleted %d spam posts (questions and/or answers) from trash"
+msgstr "Supprimés% d messages de spam (questions et / ou réponses) de poubelle"
+
+#: lib/Questions.php:1446
+#, php-format
+msgid "%s question"
+msgid_plural "%s questions"
+msgstr[0] "Questions %s"
+msgstr[1] "Questions de %s"
+
+#: lib/Questions.php:1457 lib/Questions/Widget.php:410
+#, php-format
+msgid "%s reputation"
+msgstr "Réputation %s "
+
+#: lib/Questions.php:1531 lib/Questions.php:1537 lib/Questions.php:1544
+msgid "Detailed view"
+msgstr "Vue détaillée"
+
+#: lib/Questions.php:1532
+msgid "Summary view"
+msgstr "Vue résumée"
+
+#: lib/Questions/AnswerAcceptedFieldFilter.php:9
+#: lib/Questions/ContentType.php:167
+msgid "Accepted/Unaccepted"
+msgstr "Accepté / Refusé"
+
+#: lib/Questions/AnswerAcceptedFieldFilter.php:15
+msgid "Accepted"
+msgstr "Accepté"
+
+#: lib/Questions/AnswerAcceptedFieldFilter.php:16
+msgid "Unaccepted"
+msgstr "Refusé"
+
+#: lib/Questions/AnswerAcceptedFieldFilter.php:18
+msgid "Show accepted answers only"
+msgstr "Afficher les réponses acceptées uniquement"
+
+#: lib/Questions/ContentType.php:20
+msgid "Question"
+msgid_plural "Question"
+msgstr[0] "Question"
+msgstr[1] ""
+
+#: lib/Questions/ContentType.php:63
+msgid ""
+"Tags are words and phrases that you assign to questions to help keep the "
+"site well organized. Maximum of 5 tags may be assigned to each question."
+msgstr ""
+"Les tags sont des mots et des phrases que vous attribuez aux questions pour "
+"aider à garder le site bien organisé. Un maximum de 5 tags peut être "
+"attribué à chaque question."
+
+#: lib/Questions/ContentType.php:102
+msgid "Close own questions"
+msgstr "Fermez vos propres questions"
+
+#: lib/Questions/ContentType.php:107
+msgid "Close any question"
+msgstr "Clôturer toute question"
+
+#: lib/Questions/ContentType.php:111
+msgid "Delete own questions (if unresolved and has no more than 1 answer)"
+msgstr ""
+"Supprimer vos propres questions (si non résolues et si pas plus de 1 réponse)"
+
+#: lib/Questions/ContentType.php:179
+msgid "Delete own answers (if not yet accepted by the question author)"
+msgstr ""
+"Supprimer vos propres réponses (si pas encore accepté par la question de "
+"l'auteur)"
+
+#: lib/Questions/ContentType.php:183
+msgid "Accept any answer"
+msgstr "Accepter les réponses"
+
+#: lib/Questions/Controller/AcceptAnswer.php:32
+msgid "Rate the answer to accept"
+msgstr "Noter cette réponse pour accepter"
+
+#: lib/Questions/Controller/AcceptAnswer.php:48
+#, php-format
+msgid "Answer by %s posted %s"
+msgstr "Réponse par %s affichée %s"
+
+#: lib/Questions/Controller/AcceptAnswer.php:52
+msgid ""
+"There are already 3 accepted answers accepted. You must unaccept one of them "
+"to accept the current answer."
+msgstr ""
+"Il y a déjà trois réponses acceptées. Vous devez accepter l'une d'elle pour "
+"pouvoir accepter la réponse actuelle."
+
+#: lib/Questions/Controller/AcceptAnswer.php:55
+msgid "Unaccept existing answer"
+msgstr "Refuser la réponse existante"
+
+#: lib/Questions/Controller/AcceptAnswer.php:75
+msgid "Do you really want to unaccept this answer?"
+msgstr "Voulez-vous vraiment refuser cette réponse?"
+
+#: lib/Questions/Controller/AcceptAnswer.php:77
+msgid "Unaccept Answer"
+msgstr "Refuser la réponse"
+
+#: lib/Questions/Controller/AcceptAnswer.php:102
+msgid "Answer to unaccept must be a valid answer"
+msgstr "La réponse à refuser doit être valide"
+
+#: lib/Questions/Controller/Admin/AccessControl.php:16
+msgid "Restrict Access"
+msgstr "Accès limité"
+
+#: lib/Questions/Controller/Admin/AccessControl.php:21
+msgid "Public"
+msgstr "Public"
+
+#: lib/Questions/Controller/Admin/AccessControl.php:22
+msgid "Private"
+msgstr "Privé"
+
+#: lib/Questions/Controller/Admin/AccessControl.php:23
+msgctxt "access control"
+msgid "Closed"
+msgstr "Fermé"
+
+#: lib/Questions/Controller/Admin/AccessControl.php:26
+msgid "Everyone including non-registered users are allowed access."
+msgstr ""
+"Tout le monde y compris les utilisateurs non enregistrés sont autorisés à "
+"accéder."
+
+#: lib/Questions/Controller/Admin/AccessControl.php:27
+msgid "Only members of selected roles are allowed access."
+msgstr "Seuls les membres de rôles sélectionnés sont autorisés à accéder."
+
+#: lib/Questions/Controller/Admin/AccessControl.php:28
+msgid "Closed or disabled. No one is allowed access."
+msgstr "Fermé ou désactivé. Accès non autorisé."
+
+#: lib/Questions/Controller/Admin/AccessControl.php:33
+msgid "Only accessible by:"
+msgstr "Seulement accessible par :"
+
+#: lib/Questions/Controller/Admin/AccessControl.php:46
+msgid "Redirect to:"
+msgstr "Redirection vers :"
+
+#: lib/Questions/Controller/Admin/AccessControl.php:47
+msgid "Enter the path to URL that users denied access are redirected to."
+msgstr ""
+"Entrez le chemin de l'URL vers lequel redirigé les utilisateurs qui ont un "
+"accès refusé."
+
+#: lib/Questions/Controller/Admin/AccessControl.php:61
+msgid "Permissions granted based on reputation points"
+msgstr "Autorisations accordées basées sur les points de réputation"
+
+#: lib/Questions/Controller/Admin/AccessControl.php:62
+msgid "Check this option to switch to reputation based user permission system."
+msgstr ""
+"Cochez cette option pour passer à la réputation basée système d'autorisation "
+"de l'utilisateur."
+
+#: lib/Questions/Controller/Admin/SearchSettings.php:9
+msgid "Keyword Search Settings"
+msgstr "Paramètres de recherche Mots-clés"
+
+#: lib/Questions/Controller/Admin/SearchSettings.php:14
+msgid "Disable keyword search"
+msgstr "Désactiver la recherche par mots clés"
+
+#: lib/Questions/Controller/Admin/SearchSettings.php:18
+msgid "Min. length of keywords in characters"
+msgstr "Longueur min. des mots clés en nb de caractères"
+
+#: lib/Questions/Controller/Admin/SearchSettings.php:31
+msgid "Match any or all"
+msgstr "Chercher correspondance avec l’un ou tous les termes"
+
+#: lib/Questions/Controller/Admin/SearchSettings.php:33
+msgid "Match any"
+msgstr "Chercher n’importe lequel"
+
+#: lib/Questions/Controller/Admin/SearchSettings.php:33
+msgid "Match all"
+msgstr "Chercher tous"
+
+#: lib/Questions/Controller/Admin/SearchSettings.php:44
+msgid "Enable auto suggestion"
+msgstr "Activer la suggestion automatique"
+
+#: lib/Questions/Controller/Admin/SearchSettings.php:54
+msgid "Auto suggest questions"
+msgstr "Auto suggérer des questions"
+
+#: lib/Questions/Controller/Admin/SearchSettings.php:65
+msgid "Redirect to suggested question page when clicked"
+msgstr "Rediriger à la page de questions proposées lorsque vous cliquez dessus"
+
+#: lib/Questions/Controller/Admin/SearchSettings.php:76
+msgid "Number of auto suggested questions to display"
+msgstr "Nombre de questions automatiques à afficher"
+
+#: lib/Questions/Controller/Admin/SearchSettings.php:92
+msgid "Auto suggest categories"
+msgstr "Auto-suggérer les catégories"
+
+#: lib/Questions/Controller/Admin/SearchSettings.php:103
+msgid "Redirect to suggested category page when clicked"
+msgstr "Rediriger vers la page de la catégorie auto-suggérée lorsque cliqué"
+
+#: lib/Questions/Controller/Admin/SearchSettings.php:114
+msgid "Number of auto suggested categories to display"
+msgstr "Nombre de catégories auto-suggérées à afficher"
+
+#: lib/Questions/Controller/Admin/SearchSettings.php:131
+msgid "Suggested category icon"
+msgstr "Icône de la catégorie suggérée"
+
+#: lib/Questions/Controller/Admin/SearchSettings.php:142
+msgid "Category Search Settings"
+msgstr "Réglages de recherche de Catégorie"
+
+#: lib/Questions/Controller/Admin/SearchSettings.php:147
+msgid "Disable category search"
+msgstr "Désactiver Recherche par Catégorie"
+
+#: lib/Questions/Controller/Admin/SearchSettings.php:152
+#: lib/Questions/Widget.php:282
+msgid "Category depth (0 for unlimited)"
+msgstr "Profondeur Catégorie (0 pour illimité)"
+
+#: lib/Questions/Controller/Admin/SearchSettings.php:158
+#: lib/Questions/Widget.php:293
+msgid "Hide if no posts"
+msgstr "Masquer si aucun post"
+
+#: lib/Questions/Controller/Admin/SearchSettings.php:163
+msgid "Hide post count"
+msgstr "Masquer le nombre de post"
+
+#: lib/Questions/Controller/Admin/SearchSettings.php:173
+msgid "Search Filter Settings"
+msgstr "Paramètres du filtre de recherche"
+
+#: lib/Questions/Controller/Admin/SearchSettings.php:177
+msgid "Disable filters"
+msgstr "Désactiver les filtres"
+
+#: lib/Questions/Controller/Admin/SearchSettings.php:182
+msgid "Always show filters"
+msgstr "Toujours montrer les filtres"
+
+#: lib/Questions/Controller/Admin/SearchSettings.php:193
+msgid "Display filter form above search results"
+msgstr "Afficher le formulaire de filtres au-dessus des résultats de recherche"
+
+#: lib/Questions/Controller/Admin/SearchSettings.php:203
+msgid "Auto submit filter form when value(s) changed"
+msgstr "Auto-envoi du  Filtre du formulaire lorsqu’une valeur est modifiée"
+
+#: lib/Questions/Controller/Admin/SearchSettings.php:222
+msgid "Custom fields to include in search"
+msgstr "Champs Personnalisés à inclure dans la recherche"
+
+#: lib/Questions/Controller/Admin/Settings.php:8
+msgid "Save Changes"
+msgstr "Sauvegarder les modifications"
+
+#: lib/Questions/Controller/Admin/Settings.php:9
+msgid "Settings saved."
+msgstr "Réglages enregistrés."
+
+#: lib/Questions/Controller/Admin/Settings.php:11
+#: lib/Questions/Controller/Admin/Settings.php:20
+#: lib/Questions/Controller/Tags.php:21
+msgid "Newest First"
+msgstr "Plus récente en premier"
+
+#: lib/Questions/Controller/Admin/Settings.php:12
+#: lib/Questions/Controller/Admin/Settings.php:21
+msgid "Oldest First"
+msgstr "Plus ancienne en premier"
+
+#: lib/Questions/Controller/Admin/Settings.php:13
+#: lib/Questions/Controller/Admin/Settings.php:22
+#: lib/Questions/Controller/Answers.php:16
+#: lib/Questions/Controller/Questions.php:81
+msgid "Recently Active"
+msgstr "Récemment active"
+
+#: lib/Questions/Controller/Admin/Settings.php:14
+#: lib/Questions/Controller/Admin/Settings.php:23
+#: lib/Questions/Controller/Answers.php:11
+#: lib/Questions/Controller/Questions.php:86
+msgid "Most Votes"
+msgstr "Le plus de Votes"
+
+#: lib/Questions/Controller/Admin/Settings.php:15
+#: lib/Questions/Controller/Questions.php:99
+msgid "Most Viewed"
+msgstr "Les plus vus"
+
+#: lib/Questions/Controller/Admin/Settings.php:16
+msgctxt "sort"
+msgid "Most Answered"
+msgstr "Les plus de réponses"
+
+#: lib/Questions/Controller/Admin/Settings.php:17
+#: lib/Questions/Controller/Admin/Settings.php:24 lib/Questions/Widget.php:140
+#: lib/Questions/Widget.php:163
+msgid "Random"
+msgstr "Aléatoire"
+
+#: lib/Questions/Controller/Admin/Settings.php:28
+msgid "Display Settings"
+msgstr "Paramètres d’affichage"
+
+#: lib/Questions/Controller/Admin/Settings.php:31
+msgid "Number of posts per page"
+msgstr "Nombre de publications par page"
+
+#: lib/Questions/Controller/Admin/Settings.php:38
+#: lib/Questions/Controller/Admin/Settings.php:50
+#, php-format
+msgid "(max. limit %d)"
+msgstr "(Limite max. %d)"
+
+#: lib/Questions/Controller/Admin/Settings.php:42
+msgid "Answers per page"
+msgstr "Réponses par page"
+
+#: lib/Questions/Controller/Admin/Settings.php:55
+msgid "Questions sorting options"
+msgstr "Questions options de tri"
+
+#: lib/Questions/Controller/Admin/Settings.php:64
+msgid "Questions default sorting order"
+msgstr "Questions défaut ordre de tri"
+
+#: lib/Questions/Controller/Admin/Settings.php:73
+msgid "Answers sorting options"
+msgstr "Réponses options de tri"
+
+#: lib/Questions/Controller/Admin/Settings.php:82
+msgid "Answers default sorting order"
+msgstr "Réponses défaut ordre de tri"
+
+#: lib/Questions/Controller/Admin/Settings.php:90
+msgid "Stick featured posts to the top"
+msgstr "Placer les publications en vedette en haut"
+
+#: lib/Questions/Controller/Admin/Settings.php:95
+msgid "Reputation Settings"
+msgstr "Paramètres de réputation"
+
+#: lib/Questions/Controller/Admin/Settings.php:99
+msgid ""
+"Reputation is a rough measurement of how much the community trusts you; it "
+"is earned by convincing your peers that you know what you're talking about. "
+"Here you can configure reputation users gain or lose on certain events or "
+"actions."
+msgstr ""
+"La réputation est une mesure approximative de combien la communauté a "
+"confiance en vous; il est gagné par convaincre vos pairs que vous savez ce "
+"que vous parlez. Ici vous pouvez configurer les utilisateurs de réputation "
+"gagnent ou perdent sur certains événements ou actions."
+
+#: lib/Questions/Controller/Admin/Settings.php:107
+msgid "One of your questions is voted up:"
+msgstr "Une de vos questions a reçu un vote positif"
+
+#: lib/Questions/Controller/Admin/Settings.php:115
+msgid "One of your questions is voted down:"
+msgstr "Une de vos questions a reçu un vote négatif"
+
+#: lib/Questions/Controller/Admin/Settings.php:123
+msgid "One of your answers is voted up:"
+msgstr "Une de vos réponses a reçu un vote positif"
+
+#: lib/Questions/Controller/Admin/Settings.php:131
+msgid "One of your answers is voted down:"
+msgstr "Une de vos questions a reçu un vote négatif"
+
+#: lib/Questions/Controller/Admin/Settings.php:139
+msgid "One of your answers become accepted:"
+msgstr "Une de vos réponses a été acceptée :"
+
+#: lib/Questions/Controller/Admin/Settings.php:147
+msgid "You accept an answer posted to your question:"
+msgstr "Vous acceptez une réponse à votre question:"
+
+#: lib/Questions/Controller/Admin/Settings.php:155
+msgid "You vote an answer down:"
+msgstr "Vous avez donné un vote négatif :"
+
+#: lib/Questions/Controller/Admin/Settings.php:163
+msgid "You unvote a question:"
+msgstr "Vous ôtez votre vote pour cette question :"
+
+#: lib/Questions/Controller/Admin/Settings.php:171
+msgid "You cancel an upvote on an answer:"
+msgstr "Vous annulez un vote positif sur une réponse:"
+
+#: lib/Questions/Controller/Admin/Settings.php:179
+msgid "One of your questions or answers is deleted as being spam:"
+msgstr "L'une de vos questions ou réponses a été détectée comme du spam :"
+
+#: lib/Questions/Controller/Admin/Settings.php:187
+msgid "Spam Settings"
+msgstr "Paramètres de prévention anti-spam"
+
+#: lib/Questions/Controller/Admin/Settings.php:190
+msgid "Spam score threshold"
+msgstr "Seuil du spam score"
+
+#: lib/Questions/Controller/Admin/Settings.php:191
+msgid "number of votes"
+msgstr "Décompte des votes"
+
+#: lib/Questions/Controller/Admin/Settings.php:192
+msgid ""
+"When a post is flagged, the post is assigned a \"spam score\". Posts with "
+"spam scores exceeding the threshold value are marked as spam and moved to "
+"trash automatically by the system. Also, posts with higher number of votes "
+"will have higher threshold. For example, if the value set here is 11, and a "
+"post has 10 votes, then the spam score threshold for the post will be 14 (11 "
+"+ 0.3 x 10)."
+msgstr ""
+"Quand une publication est signalée, un « spam score » lui est assignée. Les "
+"publications avec des spams score supérieurs au seuil sont marquées comme "
+"spam et mises automatiquement à la poubelle par le système. De plus, les "
+"publications avec le plus grand nombre de votes auront un seuil plus haut. "
+"Par exemple si la valeur réglée est de 11 et qu’une publication a 10 votes, "
+"alors le seuil de spam score pour cette publication sera de 14 soit 11 + 0,3 "
+"X 10."
+
+#: lib/Questions/Controller/Admin/Settings.php:200
+msgid "Auto-delete spam"
+msgstr "Suppression automatique des spams"
+
+#: lib/Questions/Controller/Admin/Settings.php:202
+msgid ""
+"When checked, posts that have been marked as spam will be deleted by the "
+"system after the period of time specified in the \"Delete Spam After\" "
+"option."
+msgstr ""
+"Quand elle est cochée, les publications qui ont été marquées comme spam "
+"seront supprimées par le système après la période de temps spécifiée dans "
+"le  \\\"Delete Spam After \\\" option."
+
+#: lib/Questions/Controller/Admin/Settings.php:207
+msgid "Delete spam after:"
+msgstr "Supprimer les indésirables après :"
+
+#: lib/Questions/Controller/Admin/Settings.php:208
+msgid ""
+"Enter the number of days the system will wait before auto-deleting posts "
+"marked as spam."
+msgstr ""
+"Entrer le nombre de jours que le système doit attendre avant de supprimer "
+"automatiquement les publications marquées comme indésirables."
+
+#: lib/Questions/Controller/Admin/Settings.php:209
+msgid "days"
+msgstr "jours"
+
+#: lib/Questions/Controller/Admin/Settings.php:220
+msgid "Labels"
+msgstr "Libellés"
+
+#: lib/Questions/Controller/Admin/Settings.php:223
+#: lib/Questions/Controller/Admin/Settings.php:231
+#: lib/Questions/Controller/Admin/Settings.php:239
+#: lib/Questions/Controller/Admin/Settings.php:247
+#, php-format
+msgid "Enter the label to be used for \"%s\""
+msgstr "Entrez le nom à utiliser pour \"%s\""
+
+#: lib/Questions/Controller/Admin/Settings.php:255
+msgid "Page Title Settings"
+msgstr "Paramètres du titre de page"
+
+#: lib/Questions/Controller/Admin/Settings.php:257
+msgid "Single category page"
+msgstr "Page de catégorie simple"
+
+#: lib/Questions/Controller/Admin/Settings.php:264
+msgid "Single tag page"
+msgstr "Page d'étiquette simple"
+
+#: lib/Questions/Controller/AllAnswers.php:101
+msgid "All answers"
+msgstr "Toutes les réponses"
+
+#: lib/Questions/Controller/AllQuestions.php:212
+msgid "All questions"
+msgstr "Toutes les questions"
+
+#: lib/Questions/Controller/CloseQuestion.php:10
+msgid "Do you really want to reopen this question?"
+msgstr "Voulez-vous vraiment rouvrir cette question?"
+
+#: lib/Questions/Controller/CloseQuestion.php:11
+msgid ""
+"Closing this question will prevent new answers to be posted. Are you sure "
+"you want to do this?"
+msgstr ""
+"La clôture de cette question permettra d'éviter de nouvelles réponses à "
+"afficher. Êtes-vous sûr de vouloir faire cela?"
+
+#: lib/Questions/Controller/CloseQuestion.php:16
+msgid "Reopen Question"
+msgstr "Rouvrir la question"
+
+#: lib/Questions/Controller/Feed.php:26
+#, php-format
+msgid "The most recent %d questions and answers"
+msgstr "La plus récente  %d des questions et réponses"
+
+#: lib/Questions/Controller/Questions.php:91
+msgid "Most Answers"
+msgstr "Le plus de réponses"
+
+#: lib/Questions/Controller/Tags.php:15 lib/Questions/Widget.php:265
+msgid "Name"
+msgstr "Nom"
+
+#: lib/Questions/Controller/Tags.php:18
+msgid "Most Popular"
+msgstr "Les plus populaires"
+
+#: lib/Questions/Controller/UserFeed.php:14
+#, php-format
+msgid "Recent posts by %s"
+msgstr "Derniers messages par %s"
+
+#: lib/Questions/Controller/UserFeed.php:22
+#, php-format
+msgid "The most recent %d questions and answers by %s"
+msgstr "La plus récente des questions %d et réponses par %s"
+
+#: lib/Questions/FieldType.php:25
+msgid "Closed Question"
+msgstr "question fermée"
+
+#: lib/Questions/Helper/CreateSampleData.php:12
+#: lib/Questions/Helper/CreateSampleData.php:20
+msgid "SabaiDiscuss is a premium questions and answers plugin for WordPress"
+msgstr ""
+
+#: lib/Questions/Helper/CreateSampleData.php:28
+msgid "Congratulations! You have successfully installed SabaiDiscuss"
+msgstr ""
+
+#: lib/Questions/Helper/CreateSampleData.php:29
+msgid ""
+"Thank you for choosing SabaiDiscuss as your preferred discussion tool for "
+"your WordPress website. We hope you find it useful in achieving your needs."
+msgstr ""
+
+#: lib/Questions/Helper/CreateSampleData.php:39
+msgid ""
+"Thanks again for choosing SabaiDiscuss as your preferred discussion tool!"
+msgstr ""
+
+#: lib/Questions/Helper/CreateSampleData.php:56
+#: lib/Questions/Helper/CreateSampleData.php:65
+msgid "Hi, this is a comment."
+msgstr "Bonjour, voici un commentaire."
+
+#: lib/Questions/Helper/NotificationSettings.php:10
+msgid "Question Answered Notification Email"
+msgstr "Email de notification de réponse à une question"
+
+#: lib/Questions/Helper/NotificationSettings.php:11
+msgid ""
+"If enabled, a notification email is sent to the author of a question when an "
+"answer is posted to the question."
+msgstr ""
+"Si activé, un email de notification est envoyé à l'auteur d'une question "
+"quand une réponse est publiée."
+
+#: lib/Questions/Helper/NotificationSettings.php:15
+msgid "[{site_name}] Your question has been answered"
+msgstr "[{Site_name}] Vous avez reçu une réponse"
+
+#: lib/Questions/Helper/NotificationSettings.php:16
+msgid ""
+"Hi {recipient_name},\n"
+"                \n"
+"A new answer has been posted to your question \"{question_title}\".\n"
+"\n"
+"Answer by {answer_author_name}:\n"
+"\n"
+"------------------------------------\n"
+"{answer_summary}\n"
+"------------------------------------\n"
+"\n"
+"You can view the answer at {answer_url}.\n"
+"\n"
+"Regards,\n"
+"{site_name}\n"
+"{site_url}"
+msgstr ""
+"Salut {recipient_name},\n"
+"\n"
+" Une nouvelle réponse a été postée en réponse à  votre question "
+"\"{question_title}\". Réponse de {answer_author_name}:\n"
+"\n"
+"----------------------------\n"
+" {answer_summary}\n"
+" ----- ------------------------------- \n"
+"Vous pouvez voir la réponse à  {answer_url}.\n"
+"\n"
+"Cordialement, \n"
+"{site_name} \n"
+"{site_url}"
+
+#: lib/Questions/Helper/NotificationSettings.php:36
+msgid "Answer Accepted Notification Email"
+msgstr "E-mail de notification de réponse approuvée"
+
+#: lib/Questions/Helper/NotificationSettings.php:37
+msgid ""
+"If enabled, a notification email is sent to the author of an answer when the "
+"answer is accepted by the question author."
+msgstr ""
+"Si activé, un email de notification est envoyé à l'auteur d'une réponse "
+"quand elle est approuvée par l'auteur de la question."
+
+#: lib/Questions/Helper/NotificationSettings.php:41
+msgid "[{site_name}] Your answer has been accepted"
+msgstr "[{site_name}] Votre réponse a été acceptée"
+
+#: lib/Questions/Helper/NotificationSettings.php:42
+msgid ""
+"Hi {recipient_name},\n"
+"                \n"
+"Your answer to the question \"{question_title}\" has been accepted by the "
+"question owner on {acceptance_date}.\n"
+"\n"
+"You can view the answer at {answer_url}.\n"
+"\n"
+"Regards,\n"
+"{site_name}\n"
+"{site_url}"
+msgstr ""
+"Salut {recipient_name}, \n"
+"\n"
+"Votre réponse à la question \"{question_title}\" a été acceptée par le "
+"propriétaire de la question sur {acceptance_date}. \n"
+"\n"
+"Vous pouvez voir la réponse à {answer_url}.\n"
+" Cordialement,\n"
+" {site_name}\n"
+" {site_url}"
+
+#: lib/Questions/Helper/NotificationSettings.php:56
+msgid "Comment Posted Notification Email"
+msgstr "Email à l’utilisateur pour ajout d’un commentaire"
+
+#: lib/Questions/Helper/NotificationSettings.php:57
+msgid ""
+"If enabled, a notification email is sent to the content author when a "
+"comment is submitted for the content."
+msgstr ""
+"Si activé, une notification par email est envoyée à l'utilisateur quand son "
+"commentaire est approuvé."
+
+#: lib/Questions/Helper/NotificationSettings.php:61
+msgid "[{site_name}] You have a new comment"
+msgstr "[{site_name}] Vous avez un nouvel avis"
+
+#: lib/Questions/Helper/NotificationSettings.php:62
+msgid ""
+"Hi {recipient_name},\n"
+"                \n"
+"A comment has been added to your post \"{content_title}\".\n"
+"\n"
+"Comment by {comment_author_name}:\n"
+"\n"
+"------------------------------------\n"
+"{comment_summary}\n"
+"------------------------------------\n"
+"\n"
+"You can view the comment at {content_url}.\n"
+"\n"
+"Regards,\n"
+"{site_name}\n"
+"{site_url}"
+msgstr ""
+"Bonjour {recipient_name},\n"
+"                \n"
+"Un commentaire a été ajouté sur votre question \"{content_title}\".\n"
+" \n"
+"\n"
+"Commentaire par {comment_author_name}:\n"
+"\n"
+"------------------------------------\n"
+"{comment_summary}\n"
+"------------------------------------\n"
+"\n"
+"Vous pouvez voir le commentaire sur {content_url}.\n"
+"\n"
+"Cordialement,\n"
+"{site_name}\n"
+"{site_url}"
+
+#: lib/Questions/Helper/NotificationSettings.php:82
+msgid "Published Post Notification Email"
+msgstr "Email de notification de publication de message"
+
+#: lib/Questions/Helper/NotificationSettings.php:83
+msgid ""
+"If enabled, a notification email is sent to the author of a content when the "
+"content is approved and published by an administrator."
+msgstr ""
+"Si activé, une notification par email est envoyée à l'auteur du commentaire "
+"quand son contenu est approuvé et publié par l'administrateur."
+
+#: lib/Questions/Helper/NotificationSettings.php:87
+msgid "[{site_name}] Your post has been published"
+msgstr "[{site_name}] Vous avez un nouvel avis"
+
+#: lib/Questions/Helper/NotificationSettings.php:88
+msgid ""
+"Hi {recipient_name},\n"
+"                \n"
+"Your post \"{content_title}\" has been approved and is now published.\n"
+"\n"
+"You can view your post at {content_url}.\n"
+"\n"
+"Regards,\n"
+"{site_name}\n"
+"{site_url}"
+msgstr ""
+"Salut {recipient_name},\n"
+"\n"
+" Votre message \"{content_title}\" a été approuvé et est maintenant "
+"publié. \n"
+"\n"
+"Vous pouvez afficher votre poste à {content_url}. \n"
+"Cordialement, \n"
+"{site_name}\n"
+" {site_url}"
+
+#: lib/Questions/Helper/NotificationSettings.php:101
+msgid "Question Posted Notification Email"
+msgstr "Email de notification de question postée"
+
+#: lib/Questions/Helper/NotificationSettings.php:102
+msgid ""
+"If enabled, a notification email is sent to users of selected roles whenever "
+"a question is posted."
+msgstr ""
+"Si activé, une notification par email est envoyée aux utilisateurs des rôles "
+"sélectionnés chaque fois qu'une question est affichée."
+
+#: lib/Questions/Helper/NotificationSettings.php:106
+msgid "[{site_name}] A new question (ID: {question_id}) has been posted"
+msgstr "[{site_name}] Une nouvelle question (ID: {question_id}) a été publiée"
+
+#: lib/Questions/Helper/NotificationSettings.php:107
+#: lib/Questions/Helper/NotificationSettings.php:157
+msgid ""
+"Hi {recipient_name},\n"
+"                \n"
+"A new question titled \"{question_title}\" has been posted on "
+"{question_date}.\n"
+"\n"
+"Posted by {question_author_name} ({question_author_email}):\n"
+"\n"
+"------------------------------------\n"
+"{question_summary}\n"
+"------------------------------------\n"
+"\n"
+"You can view the question at {question_url}.\n"
+"\n"
+"Regards,\n"
+"{site_name}\n"
+"{site_url}"
+msgstr ""
+"Salut {recipient_name}, \n"
+"Une nouvelle question intitulée \"{question_title}\" a été postée sur "
+"{question_date}.\n"
+" Publiée par {question_author_name} ({question_author_email}): \n"
+"------------------------------------ {question_summary}\n"
+" Vous pouvez voir la question à {question_url}.\n"
+"\n"
+" Cordialement, \n"
+"{site_name} \n"
+"{site_url}"
+
+#: lib/Questions/Helper/NotificationSettings.php:126
+msgid "Answer Posted Notification Email"
+msgstr "Email de notification de réponse postée"
+
+#: lib/Questions/Helper/NotificationSettings.php:127
+msgid ""
+"If enabled, a notification email is sent to users of selected roles whenever "
+"an answer is posted."
+msgstr ""
+"Si activé, une notification par email est envoyée aux utilisateurs des rôles "
+"sélectionnés chaque fois qu'une réponse est postée."
+
+#: lib/Questions/Helper/NotificationSettings.php:131
+msgid "[{site_name}] A new answer (ID: {answer_id}) has been posted"
+msgstr "[{site_name}] Une nouvelle réponse (ID: {answer_id}) a été publiée"
+
+#: lib/Questions/Helper/NotificationSettings.php:132
+#: lib/Questions/Helper/NotificationSettings.php:182
+msgid ""
+"Hi {recipient_name},\n"
+"                \n"
+"A new answer to the question \"{question_title}\" has been posted on "
+"{answer_date}.\n"
+"\n"
+"Posted by {answer_author_name} ({answer_author_email}):\n"
+"\n"
+"------------------------------------\n"
+"{answer_summary}\n"
+"------------------------------------\n"
+"\n"
+"You can view the answer at {answer_url}.\n"
+"\n"
+"Regards,\n"
+"{site_name}\n"
+"{site_url}"
+msgstr ""
+"Salut {recipient_name},\n"
+"\n"
+"Une nouvelle réponse à la question \"{question_title}\" a été postée sur "
+"{answer_date}. Publié par {answer_author_name} ({answer_author_email}):\n"
+" ------------------------------------ {answer_summary}\n"
+" ------------------------------------ Vous pouvez voir la réponse à "
+"{answer_url}. \n"
+"Cordialement,\n"
+" {site_name} \n"
+"{site_url}"
+
+#: lib/Questions/Helper/NotificationSettings.php:151
+msgid "Question Posted Admin Notification Email"
+msgstr "Email de notification de question postée"
+
+#: lib/Questions/Helper/NotificationSettings.php:152
+msgid ""
+"If enabled, a notification email is sent to administrators whenever a "
+"question that requires approval is posted."
+msgstr ""
+"Si activé, une notification par email est envoyée à l' administrateur chaque "
+"fois qu'une question requiert son approbation"
+
+#: lib/Questions/Helper/NotificationSettings.php:156
+msgid ""
+"[{site_name}] A new question (ID: {question_id}) that requires approval has "
+"been posted"
+msgstr ""
+"[{site_name}] Une nouvelle question (ID: {question_id}) qui nécessite une "
+"validation a été publiée"
+
+#: lib/Questions/Helper/NotificationSettings.php:176
+msgid "Answer Posted Admin Notification Email"
+msgstr "Email de notification de réponse postée"
+
+#: lib/Questions/Helper/NotificationSettings.php:177
+msgid ""
+"If enabled, a notification email is sent to administrators whenever an "
+"answer that requires approval is posted."
+msgstr ""
+"Si activé, une notification par email est envoyée à l' administrateur chaque "
+"fois qu'une réponse requiert son approbation"
+
+#: lib/Questions/Helper/NotificationSettings.php:181
+msgid ""
+"[{site_name}] A new answer (ID: {answer_id}) that requires approval has been "
+"posted"
+msgstr ""
+"[{site_name}] Une nouvelle réponse (ID: {answer_id}) qui requiert une "
+"validation a été publiée"
+
+#: lib/Questions/Helper/NotificationSettings.php:201
+msgid "Question Flagged Notification Email"
+msgstr "Email de notification de question signalée"
+
+#: lib/Questions/Helper/NotificationSettings.php:202
+msgid ""
+"If enabled, a notification email is sent to users of selected roles whenever "
+"a question is flagged."
+msgstr ""
+"Si activé, une notification par email est envoyée aux utilisateurs des rôles "
+"sélectionnés chaque fois qu'une question est signalée."
+
+#: lib/Questions/Helper/NotificationSettings.php:206
+msgid "[{site_name}] Question (ID: {question_id}) has been flagged"
+msgstr "[{site_name}] Question (ID: {question_id}) a été signalée"
+
+#: lib/Questions/Helper/NotificationSettings.php:207
+msgid ""
+"Hi {recipient_name},\n"
+"                \n"
+"The following question has been flagged on {flag_date} by {flag_user_name} "
+"({flag_user_email}):\n"
+"\n"
+"------------------------------------\n"
+"{question_title}\n"
+"------------------------------------\n"
+"\n"
+"Reason: {flag_reason}\n"
+"Score: {flag_score} (total: {flag_score_total})\n"
+"\n"
+"You can view the question at {question_url}.\n"
+"\n"
+"Regards,\n"
+"{site_name}\n"
+"{site_url}"
+msgstr ""
+"Bonjour {recipient_name},\n"
+"                \n"
+"La fiche suivante a été signalisée le {flag_date} par {flag_user_name} "
+"({flag_user_email}):\n"
+"\n"
+"------------------------------------\n"
+"{listing_title}\n"
+"------------------------------------\n"
+"\n"
+"Raison : {flag_reason}\n"
+"Score: {flag_score} (total: {flag_score_total})\n"
+"\n"
+"Vous pouvez voir la fiche sur {listing_url}.\n"
+"\n"
+"Cordialement,\n"
+"{site_name}\n"
+"{site_url}"
+
+#: lib/Questions/Helper/NotificationSettings.php:227
+msgid "Answer Flagged Notification Email"
+msgstr "Email de notification de réponse signalée"
+
+#: lib/Questions/Helper/NotificationSettings.php:228
+msgid ""
+"If enabled, a notification email is sent to users of selected roles whenever "
+"an answer is flagged."
+msgstr ""
+"Si activé, une notification par email est envoyée aux utilisateurs des rôles "
+"sélectionnés chaque fois qu'une réponse est postée."
+
+#: lib/Questions/Helper/NotificationSettings.php:232
+msgid "[{site_name}] Answer (ID: {answer_id}) has been flagged"
+msgstr "[{site_name}] Une nouvelle réponse (ID: {answer_id}) a été signalée"
+
+#: lib/Questions/Helper/NotificationSettings.php:233
+msgid ""
+"Hi {recipient_name},\n"
+"                \n"
+"The following answer has been flagged on {flag_date} by {flag_user_name} "
+"({flag_user_email}):\n"
+"\n"
+"------------------------------------\n"
+"{answer_summary} (question: {question_title})\n"
+"------------------------------------\n"
+"\n"
+"Reason: {flag_reason}\n"
+"Score: {flag_score} (total: {flag_score_total})\n"
+"\n"
+"You can view the answer at {answer_url}.\n"
+"\n"
+"Regards,\n"
+"{site_name}\n"
+"{site_url}"
+msgstr ""
+"Bonjour {recipient_name},\n"
+"                \n"
+"La réponse suivante à été signalée le {flag_date} par {flag_user_name} "
+"({flag_user_email}):\n"
+"\n"
+"------------------------------------\n"
+"{answer_summary} (question: {question_title})\n"
+"------------------------------------\n"
+"\n"
+"Motif: {flag_reason}\n"
+"Score: {flag_score} (total: {flag_score_total})\n"
+"\n"
+"Vous pouvez voir la réponse ICI: {answer_url}.\n"
+"\n"
+"Cordialement,\n"
+"{site_name}\n"
+"{site_url}"
+
+#: lib/Questions/OpenFieldFilter.php:18
+msgid "Show open questions only"
+msgstr "Voir les questions ouvertes seulement"
+
+#: lib/Questions/ResolvedFieldFilter.php:16
+msgid "Show resolved only"
+msgstr "Afficher les résolues uniquement"
+
+#: lib/Questions/Taxonomy.php:24 lib/Questions/Taxonomy.php:43
+msgid "Description"
+msgstr "Description"
+
+#: lib/Questions/Taxonomy.php:49
+msgid "Parent Category"
+msgstr "Catégorie parente"
+
+#: lib/Questions/Widget.php:16
+msgid "Recent Questions & Answers"
+msgstr "Questions récentes & réponses"
+
+#: lib/Questions/Widget.php:18
+msgid "Popular Questions"
+msgstr "Questions populaires"
+
+#: lib/Questions/Widget.php:20
+msgid "Featured Questions"
+msgstr "Questions mises en avant"
+
+#: lib/Questions/Widget.php:22
+msgid "Related Questions"
+msgstr "Questions liées"
+
+#: lib/Questions/Widget.php:24
+msgid "Unanswered Questions"
+msgstr "Questions sans réponse"
+
+#: lib/Questions/Widget.php:26
+msgid "Accepted Answers"
+msgstr "Réponses acceptées"
+
+#: lib/Questions/Widget.php:28
+msgid "Question Tags"
+msgstr "Question Tags"
+
+#: lib/Questions/Widget.php:30
+msgid "Question Categories"
+msgstr "Rubriques des questions"
+
+#: lib/Questions/Widget.php:32
+msgid "Search Questions & Answers"
+msgstr "Questions de recherche & réponses"
+
+#: lib/Questions/Widget.php:34
+msgid "Ask Button"
+msgstr "Bouton Question"
+
+#: lib/Questions/Widget.php:36
+msgid "Leader Board"
+msgstr "Tableau des meilleurs scores"
+
+#: lib/Questions/Widget.php:44
+msgid "Recently posted questions and answers"
+msgstr "Questions et réponses récemment postées"
+
+#: lib/Questions/Widget.php:46
+msgid "Questions that reach all of the threshold criteria set for the widget"
+msgstr ""
+"Questions qui atteignent tous les critères de seuil fixé pour le widget"
+
+#: lib/Questions/Widget.php:48
+msgid "Questions that are marked as featured"
+msgstr "Questions qui sont marqués comme mises en avant"
+
+#: lib/Questions/Widget.php:50
+msgid "Related questions"
+msgstr "Questions liées"
+
+#: lib/Questions/Widget.php:52
+msgid "Questions without any accepted answer"
+msgstr "Questions sans réponse acceptée"
+
+#: lib/Questions/Widget.php:54
+msgid "Answers that were recently accepted"
+msgstr "Réponses récemment acceptés"
+
+#: lib/Questions/Widget.php:56
+msgid "A list of tags used"
+msgstr "Une liste des mots clés utilisées"
+
+#: lib/Questions/Widget.php:58
+msgid "A list of categories"
+msgstr "Une liste de rubriques"
+
+#: lib/Questions/Widget.php:60
+msgid "Search questions and answers form"
+msgstr "Formulaires recherche questions et réponses "
+
+#: lib/Questions/Widget.php:62
+msgid "A call to action button"
+msgstr "Un bouton d’appel à l’action"
+
+#: lib/Questions/Widget.php:64
+msgid "A list of users with highest reputation points"
+msgstr "Une liste d'utilisateurs avec des points de réputation plus élevés"
+
+#: lib/Questions/Widget.php:73
+msgid "Do not cache output"
+msgstr "Ne pas mettre en cache"
+
+#: lib/Questions/Widget.php:82 lib/Questions/Widget.php:97
+#: lib/Questions/Widget.php:224 lib/Questions/Widget.php:250
+#: lib/Questions/Widget.php:275 lib/Questions/Widget.php:300
+#: lib/Questions/Widget.php:309
+msgid "Select add-on"
+msgstr "Selectionner des ajouts"
+
+#: lib/Questions/Widget.php:89
+msgid "Number of users to show"
+msgstr "Nombre d'utilisateurs à afficher"
+
+#: lib/Questions/Widget.php:98 lib/Questions/Widget.php:225
+#: lib/Questions/Widget.php:251 lib/Questions/Widget.php:276
+#: lib/Questions/Widget.php:301 lib/Questions/Widget.php:310
+msgid "All add-ons"
+msgstr "Tous les ajouts"
+
+#: lib/Questions/Widget.php:104 lib/Questions/Widget.php:126
+#: lib/Questions/Widget.php:149 lib/Questions/Widget.php:203
+#: lib/Questions/Widget.php:231
+msgid "Number of posts to show"
+msgstr "Nombre d’articles à afficher"
+
+#: lib/Questions/Widget.php:110 lib/Questions/Widget.php:237
+msgid "Show summary"
+msgstr "Afficher la page du sommaire"
+
+#: lib/Questions/Widget.php:115 lib/Questions/Widget.php:242
+msgid "Number of characters in the summary"
+msgstr "Nombre de caractères dans le résumé"
+
+#: lib/Questions/Widget.php:132 lib/Questions/Widget.php:155
+#: lib/Questions/Widget.php:209
+msgid "Sort posts by"
+msgstr "Trier les messages par"
+
+#: lib/Questions/Widget.php:134 lib/Questions/Widget.php:157
+#: lib/Questions/Widget.php:211
+msgid "Date posted"
+msgstr "Date de publication"
+
+#: lib/Questions/Widget.php:135 lib/Questions/Widget.php:158
+#: lib/Questions/Widget.php:212
+msgid "Number of votes"
+msgstr "Nombre de votes"
+
+#: lib/Questions/Widget.php:136 lib/Questions/Widget.php:159
+#: lib/Questions/Widget.php:213
+msgid "Total vote score"
+msgstr "Score total"
+
+#: lib/Questions/Widget.php:137 lib/Questions/Widget.php:160
+#: lib/Questions/Widget.php:214
+msgid "Number of answers"
+msgstr "Nombre de réponses"
+
+#: lib/Questions/Widget.php:138 lib/Questions/Widget.php:161
+#: lib/Questions/Widget.php:215
+msgid "Number of favorites"
+msgstr "Nombre de favoris"
+
+#: lib/Questions/Widget.php:139 lib/Questions/Widget.php:162
+#: lib/Questions/Widget.php:216
+msgid "Number of views"
+msgstr "Nombre de vues"
+
+#: lib/Questions/Widget.php:174
+msgid "Minimum number of answers"
+msgstr "Le nombre minimum de réponses"
+
+#: lib/Questions/Widget.php:180
+msgid "Minimum number of votes"
+msgstr "Le nombre minimum de votes"
+
+#: lib/Questions/Widget.php:186
+msgid "Minimum total vote score"
+msgstr "Score minimum de vote total"
+
+#: lib/Questions/Widget.php:192
+msgid "Minimum number of favorites"
+msgstr "Nombre minimum de favoris"
+
+#: lib/Questions/Widget.php:198
+msgid "Minimum number of views"
+msgstr "Le nombre minimum de vues"
+
+#: lib/Questions/Widget.php:257
+msgid "Number of tags to show"
+msgstr "Nombre de balises pour montrer"
+
+#: lib/Questions/Widget.php:263
+msgid "Sort tags by"
+msgstr "Trier les tags par"
+
+#: lib/Questions/Widget.php:266
+msgid "Date created"
+msgstr "Date de création"
+
+#: lib/Questions/Widget.php:267
+msgid "Number of posts"
+msgstr "Nombre de messages:"
+
+#: lib/Questions/Widget.php:288
+msgid "Show post count"
+msgstr "Afficher le compteur d’articles"
+
+#: lib/Questions/Widget.php:315
+msgid "Button label"
+msgstr "Étiquette du bouton"
+
+#: lib/Questions/Widget.php:321
+msgid "Button size"
+msgstr "Taille du bouton"
+
+#: lib/Questions/Widget.php:323
+msgid "Mini"
+msgstr "Mini"
+
+#: lib/Questions/Widget.php:324
+msgid "Small"
+msgstr "Petit"
+
+#: lib/Questions/Widget.php:325
+msgid "Medium"
+msgstr "Moyen"
+
+#: lib/Questions/Widget.php:326
+msgid "Large"
+msgstr "Large"
+
+#: lib/Questions/Widget.php:332
+msgid "Button color"
+msgstr "Couleur du bouton"
+
+#: lib/Questions/Widget.php:334
+msgid "White"
+msgstr "Blanc"
+
+#: lib/Questions/Widget.php:335
+msgid "Blue"
+msgstr "Bleu"
+
+#: lib/Questions/Widget.php:336
+msgid "Light blue"
+msgstr "Bleu clair"
+
+#: lib/Questions/Widget.php:337
+msgid "Green"
+msgstr "Vert"
+
+#: lib/Questions/Widget.php:338
+msgid "Orange"
+msgstr "Orange"
+
+#: lib/Questions/Widget.php:339
+msgid "Red"
+msgstr "Rouge"
+
+#: lib/Questions/Widget.php:432
+#, php-format
+msgid "answered %s"
+msgstr "résolue(s) %s"
+
+#: lib/Questions/Widget.php:436
+#, php-format
+msgid "asked %s"
+msgstr "demandées %s"
+
+#: lib/Questions/Widget.php:679
+msgid "Search"
+msgstr "Rechercher"
+
+#: lib/Questions/Widget.php:698
+msgid "All categories"
+msgstr "Toutes les catégories"
+
+#: lib/QuestionsBuddyPress.php:111
+#, php-format
+msgid "%s posted a new question to %s"
+msgstr "%s a posté une nouvelle question sur la %s"
+
+#: lib/QuestionsBuddyPress.php:140
+#, php-format
+msgid "%s answered to question %s"
+msgstr "%s a répondu à une question sur %s"
+
+#: lib/QuestionsBuddyPress.php:167
+#, php-format
+msgid "%1$s commented on a <a href=\"%2$s\">question</a>"
+msgstr "%1$s a commenté une <a href=\"%2$s\">question</a>"
+
+#: lib/QuestionsBuddyPress.php:170
+#, php-format
+msgid "%1$s commented on an <a href=\"%2$s\">answer</a>"
+msgstr "%1$s a commenté une <a href=\"%2$s\">réponse</a>"
+
+#: lib/QuestionsBuddyPress.php:219
+msgid "BuddyPress profile tab label"
+msgstr "Intitulé de l’Onglet BuddyPress"
+
+#: lib/QuestionsBuddyPress.php:225
+msgid "BuddyPress profile tab slug"
+msgstr "chemin de l’Onglet BuddyPress"
+
+#: lib/QuestionsBuddyPress.php:232
+msgid "BuddyPress profile tab position"
+msgstr "Emplacement de l’Onglet Profil BuddyPress"
+
+#: lib/QuestionsBuddyPress.php:240
+msgid "BuddyPress activities"
+msgstr "Activités BuddyPress"
+
+#: lib/QuestionsBuddyPress.php:245
+msgid "Comments"
+msgstr "Commentaires"
+
+#: lib/QuestionsMyCRED.php:28
+msgctxt "MyCRED title"
+msgid "Sabai Discuss"
+msgstr ""
+
+#: lib/QuestionsMyCRED.php:29
+msgctxt "MyCRED desc"
+msgid "Awards %_plural% for variosu actions in Sabai Discuss."
+msgstr "Récompenses % _plural% pour les actions diverses dans Sabai Discus."
+
+#: lib/QuestionsMyCRED.php:38
+msgid "Voting Up Question"
+msgstr "Voté une question positivement"
+
+#: lib/QuestionsMyCRED.php:39
+msgid "Voting Down Question"
+msgstr "Vote une question négativement"
+
+#: lib/QuestionsMyCRED.php:40
+msgid "Unvoting Question"
+msgstr "Oter le vote sur une question"
+
+#: lib/QuestionsMyCRED.php:41
+msgid "Question Voted Up"
+msgstr "La question a été votée positive"
+
+#: lib/QuestionsMyCRED.php:42
+msgid "Question Voted Down"
+msgstr "La question a été votée négative"
+
+#: lib/QuestionsMyCRED.php:43
+msgid "Voting Up Answer"
+msgstr "Noter comme positive"
+
+#: lib/QuestionsMyCRED.php:44
+msgid "Voting Down Answer"
+msgstr "Vote une réponse négativement"
+
+#: lib/QuestionsMyCRED.php:45
+msgid "Unvoting Answer"
+msgstr "Oter le vote"
+
+#: lib/QuestionsMyCRED.php:46
+msgid "Answer Voted Up"
+msgstr "Réponse notée comme positive"
+
+#: lib/QuestionsMyCRED.php:47
+msgid "Answer Voted Down"
+msgstr "Réponse votée comme négative"
+
+#: lib/QuestionsMyCRED.php:48
+msgid "Accepting Answer"
+msgstr "Accepter réponse"
+
+#: lib/QuestionsMyCRED.php:49
+msgid "Unaccepting Answer"
+msgstr "Refuser la réponse"
+
+#: lib/QuestionsMyCRED.php:50
+msgid "Answer Accepted"
+msgstr "La réponse a été acceptée"
+
+#: lib/QuestionsMyCRED/Hook.php:332
+msgid "Limit"
+msgstr "Limite"
+
+#: lib/QuestionsMyCRED/Hook.php:337
+msgid "Log template"
+msgstr ""
+
+#: lib/QuestionsMyCRED/Hook.php:346
+msgid "Log template (reversal)"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Sabai Discuss"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://sabaidiscuss.com/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Questions and Answers plugin for WordPress."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "onokazu"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://codecanyon.net/user/onokazu/portfolio?ref=onokazu"
+msgstr ""

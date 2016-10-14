@@ -1,0 +1,155 @@
+.bootstart-admin-container{
+	float: unset;
+	margin: 0px auto;
+	margin-right: 12px;
+	padding: 0px;
+}
+
+.bootstart-admin-header{
+	font-size: 1.8em;
+	text-align: center;
+}
+
+.bootstart-admin-header h2{
+	color: #43EBCC;
+}
+
+.bootstart-admin-navigation{
+	text-align: center;
+}
+
+.bootstart-admin-navigation ul li{
+	display: inline-block;
+	font-size: 1.2em;
+	margin: 5px;
+	padding:10px;
+}
+
+.bootstart-admin-navigation ul li:hover{
+	border-bottom: 2px solid #43EBCC;
+}
+
+.bootstart-admin-active-page{
+	border-bottom: 2px solid #43EBCC;
+}
+
+.bootstart-admin-navigation ul li a{
+	text-decoration: none;
+}
+
+.bootstart-admin-footer{
+	text-align: center;
+	font-size: 130%;
+	padding: 5px;
+	margin: 5px;
+}
+
+.bootstart-admin-content{
+	margin: 10px;
+	padding: 10px;
+}
+
+.bootstart-admin-content input{
+	display: inline;
+}
+
+.bootstart-admin-content label{
+	font-size: 120%;
+	font-weight: bold;
+	margin-right: 10px;
+}
+
+.form-blokc{
+	display: block;
+	margin: 10px;
+	padding: 10px;
+}
+
+.form-blokc small{
+	color: gray;
+}
+
+.bootstart-admin-content input[type='submit']{
+	padding: 10px;
+	border-radius: 10px;
+	font-size: 120%;
+	background-color: #31A6CB;
+	color: white;
+	font-weight: bold;
+	box-shadow: unset;
+}
+
+.bootstart-admin-footer{
+	border-top: 2px solid gray;
+	margin-top: 20px;
+	padding: 10px;
+	padding-top: 20px;
+}
+
+.bootstart-admin-footer span a{
+	text-decoration: none;
+	color: white;
+}
+
+.file-manager-shortcode-table{
+	margin: 10px;
+	padding: 10px;
+}
+
+.file-manager-shortcode-table td{
+	margin: 5px;
+	padding: 5px;
+}
+
+.file-manager-shortcode-table-shortcode{
+	font-weight: bold;
+	font-size: 120%;
+}
+
+.bootstart-admin-footer ul li{
+	display: inline-block;
+	margin: 5px;
+	padding: 15px;
+}
+
+.bootstart-admin-footer ul li a{
+	text-decoration: none;
+}
+
+.fmp_extend{
+	background-color: #31A6CB;
+	color: white;
+}
+
+.fmp_extend a{
+	color: white;
+}
+
+.fm_permission_system_advert img{
+	width: 25%;
+	border: 2px solid cyan;
+	display: inline-block;
+	margin: 5px;
+	padding: 5px;
+	margin-bottom: 0px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.fm_permission_system_advert span{
+	width: 100%;
+	display: inline-block;
+	margin: 10px;
+	padding: 10px;
+	text-align: center;
+}
+input[type=checkbox]
+{
+  -webkit-appearance:checkbox !important;
+}
+
+input[type=radio]
+{
+  -webkit-appearance:radio !important;
+}

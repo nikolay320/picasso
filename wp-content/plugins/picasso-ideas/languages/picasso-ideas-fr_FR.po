@@ -1,0 +1,1403 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Picasso Ideas\n"
+"POT-Creation-Date: 2016-09-08 22:24+0600\n"
+"PO-Revision-Date: 2016-09-08 22:24+0600\n"
+"Last-Translator: Shamim Al Mamun <shamim.moeen@gmail.com>\n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: ideas.php\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: templates/frontend-submisssion/edit-idea.php:33
+#: templates/frontend-submisssion/create-idea.php:23
+msgid ""
+"The Idea you are trying to access does not exist or is not available for "
+"you, or it may have been deleted. Please contact the site administrator for "
+"more information."
+msgstr ""
+"L’idée que vous tentez d’accéder n’existe pas ou n’est pas disponible pour "
+"vous, ou il a peut-être été supprimé. Pour plus d’informations, veuillez "
+"communiquer avec l’administrateur du site."
+
+#: templates/frontend-submisssion/sumitted-idea.php:19
+#: templates/frontend-submisssion/submit-idea-form.php:83
+#: templates/partials/tabs/idea-details.php:12 includes/idea-metaboxes.php:20
+msgid "Images"
+msgstr "Images"
+
+#: templates/frontend-submisssion/sumitted-idea.php:41
+#: templates/frontend-submisssion/submit-idea-form.php:92
+#: templates/partials/tabs/idea-details.php:34 includes/idea-metaboxes.php:30
+msgid "Attachments"
+msgstr "Pièces jointes"
+
+#: templates/frontend-submisssion/sumitted-idea.php:79
+#: templates/frontend-submisssion/submit-idea-form.php:101
+#: templates/partials/tabs/idea-details.php:72 includes/idea-metaboxes.php:40
+msgid "Videos"
+msgstr "Vidéos"
+
+#: templates/frontend-submisssion/sumitted-idea.php:102
+#: templates/frontend-submisssion/submit-idea-form.php:110
+#: templates/partials/tabs/idea-details.php:95 includes/idea-metaboxes.php:50
+msgid "Youtube Video"
+msgstr "Vidéo YouTube"
+
+#: templates/frontend-submisssion/create-idea.php:59
+msgid "Similar Ideas"
+msgstr "Rechercher dans les idées"
+
+#: templates/frontend-submisssion/create-idea.php:83
+#: includes/idea-functions.php:636
+msgid "No similar idea found!"
+msgstr "Pas d'idée similaire trouvée"
+
+#: templates/frontend-submisssion/create-idea.php:88
+msgid "Waiting for your input"
+msgstr "Nous attendons vos données"
+
+#: templates/frontend-submisssion/upload-file.php:18
+#: includes/idea-functions.php:834
+#, php-format
+msgid "Exceeded filesize limit. Maximum size should be %dMB."
+msgstr "A dépassé la taille limite. Taille maximale devrait être de %d Mo."
+
+#: templates/frontend-submisssion/upload-file.php:24
+#: includes/idea-functions.php:756
+msgid "Upload"
+msgstr "Télécharger"
+
+#: templates/frontend-submisssion/submit-idea-form.php:13
+msgid "Update Idea"
+msgstr "Mettre à jour "
+
+#: templates/frontend-submisssion/submit-idea-form.php:25
+#: templates/partials/idea-search-box.php:35
+msgid "Add Idea"
+msgstr "Ajouter une idée"
+
+#: templates/frontend-submisssion/submit-idea-form.php:47
+msgid "Idea Title"
+msgstr "Titre de l'idée"
+
+#: templates/frontend-submisssion/submit-idea-form.php:56
+msgid "Idea Content"
+msgstr "Contenu de l'idée"
+
+#: templates/frontend-submisssion/submit-idea-form.php:65
+#: includes/idea-metaboxes.php:83
+msgid "Campaign"
+msgstr "Challenges"
+
+#: templates/frontend-submisssion/submit-idea-form.php:86
+msgid "Browse Image"
+msgstr "Parcourir vos images"
+
+#: templates/frontend-submisssion/submit-idea-form.php:95
+msgid "Browse Attachment"
+msgstr "Parcourir vos documents"
+
+#: templates/frontend-submisssion/submit-idea-form.php:104
+msgid "Browse Video"
+msgstr "Parcourir vos vidéos"
+
+#: templates/frontend-submisssion/submit-idea-form.php:120
+#: includes/idea-functions.php:531 includes/idea-functions.php:581
+msgid "Cancel"
+msgstr "Annuler"
+
+#: templates/partials/content-single-idea.php:60
+msgid "Time left"
+msgstr "Temps restant"
+
+#: templates/partials/content-single-idea.php:63
+msgid "Ideas count"
+msgstr "Nombre d'idées"
+
+#: templates/partials/content-single-idea.php:100
+#: templates/partials/content-idea.php:57
+msgid "views"
+msgstr "vues"
+
+#: templates/partials/content-single-idea.php:101
+#: templates/partials/content-idea.php:58
+msgid "Put in favorites"
+msgstr "Mettre en favoris"
+
+#: templates/partials/content-single-idea.php:122
+#: templates/partials/content-idea.php:80
+#, php-format
+msgid "%d expert review"
+msgid_plural "%d expert reviews"
+msgstr[0] "%d avis d'expert"
+msgstr[1] "%d avis d'experts"
+
+#: templates/partials/content-single-idea.php:135
+#: templates/partials/content-idea.php:93
+#, php-format
+msgid "%d user review"
+msgid_plural "%d user reviews"
+msgstr[0] "%d avis utilisateur"
+msgstr[1] "%d avis d'utilisateurs"
+
+#: templates/partials/content-single-idea.php:150
+msgid "See More"
+msgstr "Lire la suite"
+
+#: templates/partials/content-single-idea.php:167
+#: templates/partials/content-single-idea.php:168
+#: templates/partials/content-idea.php:131
+#: templates/partials/content-idea.php:132
+#, php-format
+msgctxt "%s = human-readable time difference"
+msgid "%s ago"
+msgstr "Il y a %s"
+
+#: templates/partials/content-single-idea.php:173
+#: templates/partials/content-single-idea.php:175
+#: templates/partials/content-idea.php:137
+#: templates/partials/content-idea.php:139
+msgid "Posted"
+msgstr "publié"
+
+#: templates/partials/content-single-idea.php:177
+#: templates/partials/content-idea.php:141
+msgid "Updated"
+msgstr "Mis à jour "
+
+#: templates/partials/content-single-idea.php:185
+#: templates/partials/content-idea.php:149
+msgid "Edit"
+msgstr "Editer"
+
+#: templates/partials/idea-actions.php:17
+#: templates/partials/idea-experts-table.php:9
+msgid "Experts"
+msgstr "Experts"
+
+#: templates/partials/idea-actions.php:56
+msgid "Add experts"
+msgstr "Nommer des experts"
+
+#: templates/partials/idea-actions.php:65
+msgid "Edit your expert review"
+msgstr "Editer votre avis d'expert"
+
+#: templates/partials/idea-actions.php:67
+msgid "Post your expert review now!"
+msgstr "Publier un avis d'expert maintenant !"
+
+#: templates/partials/idea-actions.php:83
+msgid "Edit your review"
+msgstr "Editer votre avis"
+
+#: templates/partials/idea-actions.php:85
+#: templates/partials/idea-post-review.php:92
+#: templates/partials/idea-post-review.php:125
+#: templates/partials/tabs/idea-reviews.php:98
+#: templates/partials/tabs/idea-reviews.php:131
+msgid "Post your review now!"
+msgstr "Publier votre avis maintenant !"
+
+#: templates/partials/idea-actions.php:100
+msgid "Edit your update"
+msgstr "Editer votre mise à jour"
+
+#: templates/partials/idea-actions.php:102
+msgid "Post idea update"
+msgstr "Publier l'idée éditée"
+
+#: templates/partials/idea-post-update.php:8
+#: templates/partials/idea-add-experts.php:9
+msgid "Back to details"
+msgstr "Retour vers détails"
+
+#: templates/partials/idea-post-update.php:11
+#: templates/partials/idea-tabs.php:21
+msgid "Idea Update"
+msgstr "Suivi idée"
+
+#: templates/partials/idea-post-update.php:21
+#: templates/partials/idea-post-review.php:161
+#: templates/partials/tabs/idea-reviews.php:167
+msgid "Submit"
+msgstr "Envoyer"
+
+#: templates/partials/idea-add-experts.php:12
+msgid "Add Expert"
+msgstr "Ajouter un expert"
+
+#: templates/partials/idea-add-experts.php:17
+msgid "Search expert"
+msgstr "Chercher un expert"
+
+#: templates/partials/idea-add-experts.php:32
+msgid "Idea deadline"
+msgstr "Date limite sur l'idée"
+
+#: templates/partials/idea-add-experts.php:39 includes/idea-functions.php:532
+msgid "Add"
+msgstr "Ajouter"
+
+#: templates/partials/idea-experts-table.php:2
+msgid "Idea Experts"
+msgstr "Experts d'idées"
+
+#: templates/partials/idea-experts-table.php:12
+msgid "Action"
+msgstr "Action"
+
+#: templates/partials/idea-experts-table.php:42
+msgid "Remove"
+msgstr "Retirer"
+
+#: templates/partials/idea-tabs.php:10
+msgid "Idea Details"
+msgstr "Détails de l’idée"
+
+#: templates/partials/idea-tabs.php:11
+msgid "Comments"
+msgstr "Commentaires"
+
+#: templates/partials/idea-tabs.php:13
+msgid "Expert Reviews"
+msgstr "Avis d'experts"
+
+#: templates/partials/idea-tabs.php:17
+msgid "User Reviews"
+msgstr "Avis utilisateurs"
+
+#: templates/partials/idea-post-review.php:97
+#: templates/partials/tabs/idea-reviews.php:103
+msgid "Rating"
+msgstr "Evaluation"
+
+#: templates/partials/idea-post-review.php:143
+#: templates/partials/tabs/idea-reviews.php:149
+msgid "Comment"
+msgstr "Commentaire(s)"
+
+#: templates/partials/idea-search-box.php:21
+msgid "Keyword..."
+msgstr "Mot clé..."
+
+#: templates/partials/tabs/idea-updates.php:32
+msgid "No update found!"
+msgstr "Pas d'update trouvé!"
+
+#: templates/partials/tabs/idea-reviews.php:22
+msgid "Average Expert Rating"
+msgstr "Note moyenne des experts"
+
+#: templates/partials/tabs/idea-reviews.php:24
+msgid "Average User Rating"
+msgstr "Note moyenne"
+
+#: templates/partials/tabs/idea-reviews.php:51
+msgid "No review found!"
+msgstr "Pas d'avis trouvé !"
+
+#: includes/class-picasso-ideas-submission.php:59
+#: includes/class-picasso-ideas-review.php:30
+#: includes/class-picasso-ideas-review.php:186
+#: includes/class-picasso-ideas-review.php:257
+#: includes/class-picasso-ideas-review.php:378
+msgid "Nonce mismatched"
+msgstr ""
+
+#: includes/class-picasso-ideas-submission.php:76
+msgid "Idea requires a title"
+msgstr "Cette nouvelle idée nécessite un titre."
+
+#: includes/class-picasso-ideas-submission.php:107
+msgid "Permission denied"
+msgstr "Autorisation refusée"
+
+#: includes/class-picasso-ideas-submission.php:143
+#, php-format
+msgid "Your new idea has been submitted successfully. %s"
+msgstr "Votre nouvelle idée a été soumise avec succès. %s"
+
+#: includes/class-picasso-ideas-submission.php:143
+#: includes/class-picasso-ideas-submission.php:145
+msgid "Go to idea"
+msgstr "Voir l'idée..."
+
+#: includes/class-picasso-ideas-submission.php:145
+#, php-format
+msgid "Your idea has been updated successfully. %s"
+msgstr "Votre idée a  bien été enregistrée. %s"
+
+#: includes/idea-functions.php:421
+msgid "posted today"
+msgstr " a publié ce jour"
+
+#: includes/idea-functions.php:423
+msgid "posted yesterday"
+msgstr " a publié hier"
+
+#: includes/idea-functions.php:425
+#, php-format
+msgid "posted %s %s ago"
+msgstr "a publié il y a %s %s "
+
+#: includes/idea-functions.php:425
+msgid "day"
+msgid_plural "days"
+msgstr[0] "jour"
+msgstr[1] "jours"
+
+#: includes/idea-functions.php:451
+msgid "Average"
+msgstr "Moyenne"
+
+#: includes/idea-functions.php:456
+msgid "Ratings"
+msgstr "Notes"
+
+#: includes/idea-functions.php:490
+msgid "Rating distribution"
+msgstr "Distribution des notes"
+
+#: includes/idea-functions.php:495
+msgid "Rating summary"
+msgstr "Résumé des notes"
+
+#: includes/idea-functions.php:523
+msgid "Add your comment"
+msgstr "Ajouter votrecommentaire"
+
+#: includes/idea-functions.php:573
+msgid "Edit your comment"
+msgstr "Éditer votre commentaire"
+
+#: includes/idea-functions.php:582
+msgid "Save"
+msgstr "Sauvegarder"
+
+#: includes/idea-functions.php:806
+msgid "Please choose a file."
+msgstr "Veuillez choisir un type de fichier"
+
+#: includes/idea-functions.php:828
+msgid "Invalid file format."
+msgstr "Type de fichier invalide"
+
+#: includes/idea-functions.php:839
+msgid "Something went worng."
+msgstr "Quelque chose s’est mal passé."
+
+#: includes/helper-functions.php:71
+msgid "No campaign"
+msgstr "Hors challenge"
+
+#: includes/helper-functions.php:90
+msgid "Newest First"
+msgstr "Plus récente en premier"
+
+#: includes/helper-functions.php:91
+msgid "Oldest First"
+msgstr "Plus ancien en premier"
+
+#: includes/helper-functions.php:92
+msgid "Recently Active"
+msgstr "Récemment actives"
+
+#: includes/helper-functions.php:93
+msgid "Most Votes"
+msgstr "Les plus votées"
+
+#: includes/helper-functions.php:94
+msgid "Most Answers"
+msgstr "Le plus de réponses"
+
+#: includes/helper-functions.php:95
+msgid "My Ideas"
+msgstr "Mes idées"
+
+#: includes/helper-functions.php:108
+msgid "NO STATUS"
+msgstr "SANS STATUT"
+
+#: includes/helper-functions.php:109
+msgid "VOTES"
+msgstr "VOTES"
+
+#: includes/helper-functions.php:110
+msgid "SELECTED"
+msgstr "SELECTIONNEE"
+
+#: includes/helper-functions.php:111
+msgid "NOT SELECTED"
+msgstr "NON RETENUE"
+
+#: includes/helper-functions.php:112
+msgid "REVIEW"
+msgstr "AVIS"
+
+#: includes/helper-functions.php:113
+msgid "NO GO"
+msgstr "NO GO"
+
+#: includes/helper-functions.php:114
+msgid "IN PROJECT"
+msgstr "EN PROJET"
+
+#: includes/class-picasso-ideas-post-types.php:10
+msgctxt "post type general name"
+msgid "Ideas"
+msgstr "Idées"
+
+#: includes/class-picasso-ideas-post-types.php:11
+msgctxt "post type singular name"
+msgid "Idea"
+msgstr "Idée"
+
+#: includes/class-picasso-ideas-post-types.php:12
+msgctxt "admin menu"
+msgid "Ideas"
+msgstr "Idées"
+
+#: includes/class-picasso-ideas-post-types.php:13
+msgctxt "add new on admin bar"
+msgid "Idea"
+msgstr "Idée"
+
+#: includes/class-picasso-ideas-post-types.php:14
+msgctxt "book"
+msgid "Add New"
+msgstr "Ajouter nouveau"
+
+#: includes/class-picasso-ideas-post-types.php:15
+msgid "Add New Idea"
+msgstr "Ajouter nouvelle idée"
+
+#: includes/class-picasso-ideas-post-types.php:16
+msgid "New Idea"
+msgstr "Nouvelle Idée"
+
+#: includes/class-picasso-ideas-post-types.php:17
+msgid "Edit Idea"
+msgstr "Modifier l'dée"
+
+#: includes/class-picasso-ideas-post-types.php:18
+msgid "View Idea"
+msgstr "Voir l'idée"
+
+#: includes/class-picasso-ideas-post-types.php:19
+msgid "All Ideas"
+msgstr "Toutes les idées"
+
+#: includes/class-picasso-ideas-post-types.php:20
+msgid "Search Ideas"
+msgstr "Rechercher dans les idées"
+
+#: includes/class-picasso-ideas-post-types.php:21
+msgid "Parent Ideas:"
+msgstr "Idées parents :"
+
+#: includes/class-picasso-ideas-post-types.php:22
+msgid "No idea found."
+msgstr "Pas d'idée trouvée !"
+
+#: includes/class-picasso-ideas-post-types.php:23
+msgid "No idea found in Trash."
+msgstr "Aucune idée trouvée dans la corbeille."
+
+#: includes/class-picasso-ideas-post-types.php:43
+msgctxt "post type general name"
+msgid "Reviews"
+msgstr "Avis "
+
+#: includes/class-picasso-ideas-post-types.php:44
+msgctxt "post type singular name"
+msgid "Review"
+msgstr "Avis"
+
+#: includes/class-picasso-ideas-post-types.php:45
+msgctxt "admin menu"
+msgid "Reviews"
+msgstr "Avis "
+
+#: includes/class-picasso-ideas-post-types.php:46
+msgctxt "add new on admin bar"
+msgid "Review"
+msgstr "Avis"
+
+#: includes/class-picasso-ideas-post-types.php:47
+msgctxt "review"
+msgid "Add New"
+msgstr "Ajouter nouvel avis"
+
+#: includes/class-picasso-ideas-post-types.php:48
+msgid "Add New Review"
+msgstr "Ajouter un nouvel avis"
+
+#: includes/class-picasso-ideas-post-types.php:49
+msgid "New Review"
+msgstr "Nouvel avis"
+
+#: includes/class-picasso-ideas-post-types.php:50
+msgid "Edit Review"
+msgstr "Editer l’avis"
+
+#: includes/class-picasso-ideas-post-types.php:51
+msgid "View Review"
+msgstr "Afficher l'avis"
+
+#: includes/class-picasso-ideas-post-types.php:52
+msgid "All Reviews"
+msgstr "Tous les avis"
+
+#: includes/class-picasso-ideas-post-types.php:53
+msgid "Search Reviews"
+msgstr "Chercher dans les avis"
+
+#: includes/class-picasso-ideas-post-types.php:54
+msgid "Parent Reviews:"
+msgstr "Avis parents :"
+
+#: includes/class-picasso-ideas-post-types.php:55
+msgid "No review found."
+msgstr "Pas d'avis trouvés !"
+
+#: includes/class-picasso-ideas-post-types.php:56
+msgid "No review found in Trash."
+msgstr "Aucune critique trouvée dans la corbeille."
+
+#: includes/class-picasso-ideas-post-types.php:167
+msgid "You must be logged in to comment"
+msgstr "Vous devez être loggé pour commenter..."
+
+#: includes/class-picasso-ideas-post-types.php:171
+msgid "Post id is required"
+msgstr "Ce champs est requis"
+
+#: includes/class-picasso-ideas-post-types.php:175
+#: includes/class-picasso-ideas-post-types.php:223
+#: includes/class-picasso-ideas-review.php:397
+msgid "Comment is required"
+msgstr "Un commentaire est requis"
+
+#: includes/class-picasso-ideas-post-types.php:193
+#, php-format
+msgid "You comment has been posted successfully! %s"
+msgstr "Votre commentaire a été publié avec succès ! %s"
+
+#: includes/class-picasso-ideas-post-types.php:193
+msgid "See your comment"
+msgstr "Visualiser votre commentaire"
+
+#: includes/class-picasso-ideas-post-types.php:196
+#: includes/class-picasso-ideas-post-types.php:240
+msgid "Something went wrong."
+msgstr "Quelque chose s’est mal passé."
+
+#: includes/class-picasso-ideas-post-types.php:219
+msgid "Comment id is required"
+msgstr "Ce champs est requis"
+
+#: includes/class-picasso-ideas-post-types.php:236
+msgid "You comment has been updated successfully!"
+msgstr "Votre commentaire a été publié avec succès"
+
+#: includes/class-picasso-ideas-review.php:35
+msgid "You can't assign expert"
+msgstr "Vous ne pouvez pas nommer expert"
+
+#: includes/class-picasso-ideas-review.php:45
+#: includes/class-picasso-ideas-review.php:198
+#: includes/class-picasso-ideas-review.php:266
+#: includes/class-picasso-ideas-review.php:393
+msgid "Idea id is required"
+msgstr "Ce champs est requis"
+
+#: includes/class-picasso-ideas-review.php:49
+msgid "Deadline is required"
+msgstr "Une date limite est requise"
+
+#: includes/class-picasso-ideas-review.php:127
+#, php-format
+msgid "[%s] You are an expert"
+msgstr "[%s] Vous avez invité pour expertiser une idée."
+
+#: includes/class-picasso-ideas-review.php:144
+msgid "(no campaign assigned)"
+msgstr "(Pas de campagne assignée)"
+
+#: includes/class-picasso-ideas-review.php:148
+msgid "Hello,"
+msgstr "Bonjour,"
+
+#: includes/class-picasso-ideas-review.php:149
+#, php-format
+msgid "You have been invited by %1$s to review the %2$s in the challenge %3$s."
+msgstr ""
+"Vous avez été invités par %1$s pour examiner la %2$s dans le défi %3$s."
+
+#: includes/class-picasso-ideas-review.php:150
+#, php-format
+msgid "You have until %1$s to review the idea."
+msgstr "Vous avez jusqu’au %1$s pour examiner l’idée."
+
+#: includes/class-picasso-ideas-review.php:151
+msgid ""
+"Your individual review and grades will only be seen by admin and your "
+"inviter."
+msgstr "Vos commentaires et notes seront visibles seulement par l'admin."
+
+#: includes/class-picasso-ideas-review.php:152
+msgid "Thanks for support!"
+msgstr "Merci de votre soutien !"
+
+#: includes/class-picasso-ideas-review.php:159
+msgid "Expert added successfully"
+msgstr "Expert ajouté  avec succès"
+
+#: includes/class-picasso-ideas-review.php:161
+msgid "Idea deadline updated successfully"
+msgstr "Date limite mise à jour avec succès"
+
+#: includes/class-picasso-ideas-review.php:191
+msgid "You can't remove expert"
+msgstr "Vous ne pouvez pas retirer un expert."
+
+#: includes/class-picasso-ideas-review.php:202
+msgid "Expert id is required"
+msgstr "le nom de l'expert est requis"
+
+#: includes/class-picasso-ideas-review.php:229
+msgid "Expert was not found for this idea"
+msgstr "L'expert n'a pas été trouvé pour cette idée."
+
+#: includes/class-picasso-ideas-review.php:240
+msgid "Expert removed successfully"
+msgstr "Expert supprimé !"
+
+#: includes/class-picasso-ideas-review.php:270
+msgid "Idea update is required"
+msgstr "Ce champs est requis"
+
+#: includes/class-picasso-ideas-review.php:347
+msgid "Idea update was not found"
+msgstr "Mise à jour de l’idée n’a pas été trouvée."
+
+#: includes/class-picasso-ideas-review.php:351
+msgid "Idea update posted successfully"
+msgstr "Votre mise à jour d'idée a été publié avec succès"
+
+#: includes/class-picasso-ideas-review.php:353
+msgid "Idea update updated successfully"
+msgstr "Idée mise à jour avec succès"
+
+#: includes/class-picasso-ideas-review.php:364
+msgid "You can't post idea update"
+msgstr "Vous ne pouvez pas publier de mise à jour de cette idée"
+
+#: includes/class-picasso-ideas-review.php:389
+msgid "Something went wrong"
+msgstr "Quelque chose s’est mal passé "
+
+#: includes/class-picasso-ideas-review.php:413
+#: includes/class-picasso-ideas-review.php:457
+msgid "Review deadline has already passed"
+msgstr "Le délai d'examen de l'idée est expiré."
+
+#: includes/class-picasso-ideas-review.php:437
+msgid "You don't have the permission"
+msgstr "Vous n'avez pas l'autorisation "
+
+#: includes/class-picasso-ideas-review.php:441
+#: includes/class-picasso-ideas-review.php:538
+msgid "Review updated successfully"
+msgstr "Avis mis à jour avec succès"
+
+#: includes/class-picasso-ideas-review.php:443
+#: includes/class-picasso-ideas-review.php:540
+msgid "Review posted successfully"
+msgstr "Avis mis à jour avec succès"
+
+#: includes/class-picasso-ideas-review.php:449
+msgid "Reviewer id is required"
+msgstr "Ce champs est requis"
+
+#: includes/idea-metaboxes.php:11
+msgid "Idea Attachments"
+msgstr "Pièces jointes de l'idée"
+
+#: includes/idea-metaboxes.php:25
+msgid "Add or Upload Images"
+msgstr "Envoyer image(s)"
+
+#: includes/idea-metaboxes.php:35
+msgid "Add or Upload Attachments"
+msgstr "Envoyer pièce(s) jointe(s)"
+
+#: includes/idea-metaboxes.php:45
+msgid "Add or Upload Videos"
+msgstr "Envoyer vidéo(s)"
+
+#: includes/idea-metaboxes.php:51
+msgid "Enter a youtube video link."
+msgstr "Entrez le lien en entier de la vidéo YouTube "
+
+#: includes/idea-metaboxes.php:67 includes/plugin-options-panel.php:30
+#: includes/plugin-options-panel.php:39
+msgid "Idea Settings"
+msgstr "Paramètres de l'idée"
+
+#: includes/idea-metaboxes.php:76
+msgid "Status"
+msgstr "statut"
+
+#: includes/idea-metaboxes.php:90
+msgid "Enable User Reviews"
+msgstr "permettre les avis d'u"
+
+#: includes/idea-metaboxes.php:91
+msgid "Check it to enable user reviews."
+msgstr "cochez ici-la pour activer les avis utilisateurs."
+
+#: includes/idea-metaboxes.php:97
+msgid "User Reviews Deadline"
+msgstr "Délai de commentaires de l’utilisateur"
+
+#: includes/idea-metaboxes.php:104
+msgid "Enable Expert Reviews"
+msgstr "Désactiver les évaluations des experts"
+
+#: includes/idea-metaboxes.php:105
+msgid "Check it to enable expert reviews."
+msgstr "Cocher ici pour activer les évaluations des experts."
+
+#: includes/idea-metaboxes.php:111
+msgid "Expert Reviews Deadline"
+msgstr "Delai maximum de revue des experts"
+
+#: includes/idea-metaboxes.php:118
+msgid "Enable Idea Updates"
+msgstr "Suivi idée"
+
+#: includes/idea-metaboxes.php:119
+msgid "Check it to enable idea updates."
+msgstr "Cocher ici pour activer les mises à jours sur les idées."
+
+#: includes/idea-metaboxes.php:125
+msgid "Idea Owners"
+msgstr "Propriétaires de l’idée"
+
+#: includes/idea-metaboxes.php:126
+msgid "Assign idea owners who can post idea update."
+msgstr ""
+"Assigner les propriétaires d’idée qui peuvent poster idée une mise à jour."
+
+#: includes/plugin-options-panel.php:38 includes/plugin-options-panel.php:166
+msgid "Settings"
+msgstr "Configuration"
+
+#: includes/plugin-options-panel.php:140
+msgid "User Roles"
+msgstr "Rôles des utilisateurs"
+
+#: includes/plugin-options-panel.php:149
+msgid "Idea Modifier Roles"
+msgstr "Rôles de modificateur d’idée"
+
+#: includes/plugin-options-panel.php:150
+msgid "Who can assign experts and deadline for ideas?."
+msgstr "Qui peut affecter experts et délai d’idées ?."
+
+#: includes/plugin-options-panel.php:157
+msgid "Idea Expert Roles"
+msgstr "rôles Expert d'idées"
+
+#: includes/plugin-options-panel.php:158
+msgid "Who can give review for ideas?."
+msgstr "Qui peut examiner les idées ?"
+
+#: includes/plugin-options-panel.php:174
+msgid "Create Idea Page"
+msgstr "Créer une page d'idée"
+
+#: includes/plugin-options-panel.php:175
+msgid "Choose the page that will be used to create idea."
+msgstr "Choisir la page qui sera utilisée pour créer l’idée."
+
+#: includes/plugin-options-panel.php:181
+msgid "Edit Idea Page"
+msgstr "Editer la page de l'idée"
+
+#: includes/plugin-options-panel.php:182
+msgid "Choose the page that will be used to edit idea."
+msgstr "Choisir la page qui sera utilisée pour modifier l’idée."
+
+#: includes/plugin-options-panel.php:187
+msgid "Modify Reviews"
+msgstr "Modifier des avis"
+
+#: includes/plugin-options-panel.php:188
+msgid "Do the modifiers can edit reviews?"
+msgstr "Les modificateurs peuvent modifier des commentaires ?"
+
+#: includes/plugin-options-panel.php:196
+msgid "Modifier User Reviews"
+msgstr "Modifier les avis des utilisateurs."
+
+#: includes/plugin-options-panel.php:197
+msgid "Do the modifiers can post user reviews?"
+msgstr "Les modificateurs peuvent modifier des commentaires ?"
+
+#: includes/plugin-options-panel.php:205
+msgid "Receive Reminder"
+msgstr "Recevoir le rappel"
+
+#: includes/plugin-options-panel.php:206
+msgid "Do the experts will receive reminder before ending the deadline?"
+msgstr ""
+"Les experts recevront  ils un rappel avant de mettre fin à la date limite ?"
+
+#: includes/plugin-options-panel.php:214
+msgid "Reminder Buffer"
+msgstr "Tampon de rappel"
+
+#: includes/plugin-options-panel.php:215
+msgid "How many days before do your experts will receive alert?"
+msgstr "Combien de jours avant que vos experts reçoivent une alerte?"
+
+#: includes/plugin-options-panel.php:226
+msgid "Review Criteria"
+msgstr "Critère d’évaluation"
+
+#: includes/plugin-options-panel.php:233
+msgid "Criteria"
+msgstr "Critère"
+
+#: includes/plugin-options-panel.php:234
+msgid "You can assign as many criteria as you want."
+msgstr "Vous pouvez affecter autant de critères que vous le souhaitez."
+
+#: includes/cmb2-custom-fields/users-with-avatar.php:19
+msgid "Search user"
+msgstr "Chercher un utilisateur"
+
+#~ msgid "Idea Files"
+#~ msgstr "Fichiers de l'idée"
+
+#~ msgid "Idea Videos"
+#~ msgstr "Vidéos de l'idée"
+
+#~ msgid "Idea Youtube Video"
+#~ msgstr "Vidéo YouTube de l'idée"
+
+#~ msgid "There was an error in the submission: %s"
+#~ msgstr "Le téléchargement a échoué. L'erreur indique: %s"
+
+#~ msgid "Save Idea"
+#~ msgstr "Enregistrer l'idée"
+
+#~ msgid "Security check failed."
+#~ msgstr "Le contrôle de sécurité a échoué."
+
+#~ msgid "Idea in discussion"
+#~ msgstr "Idée en discussion"
+
+#~ msgid "Idea selected"
+#~ msgstr "Idée sélectionnée"
+
+#~ msgid "Idea rejected"
+#~ msgstr "Idée non sélectionnée"
+
+#~ msgid "Idea in project"
+#~ msgstr "Idée en projet"
+
+#~ msgid "Idea in review"
+#~ msgstr "Idées en examen"
+
+#~ msgid "Idea already reviewed"
+#~ msgstr "Idées déjà examinées"
+
+#~ msgid "in discussion"
+#~ msgstr "En discussion"
+
+#~ msgid "selected"
+#~ msgstr "sélectionné"
+
+#~ msgid "rejected"
+#~ msgstr "Non sélectionné"
+
+#~ msgid "in project"
+#~ msgstr "En projet"
+
+#~ msgid "in review"
+#~ msgstr "en examen"
+
+#~ msgid "already reviewed"
+#~ msgstr "déjà passé en revue"
+
+#~ msgid "Select campaign"
+#~ msgstr "Sélectionnez votre challenge"
+
+#~ msgid "Install Required Plugins"
+#~ msgstr "Installer les plugins requis"
+
+#~ msgid "Install Plugins"
+#~ msgstr "Installer les modules"
+
+#~ msgid "Installing Plugin: %s"
+#~ msgstr "Installation des plugins : %s"
+
+#~ msgid "Updating Plugin: %s"
+#~ msgstr "Mise à jour du plugin %s"
+
+#~ msgid "This theme requires the following plugin: %1$s."
+#~ msgid_plural "This theme requires the following plugins: %1$s."
+#~ msgstr[0] "Ce thème nécessite le plugin suivant: %1$s."
+#~ msgstr[1] ""
+
+#~ msgid "This theme recommends the following plugin: %1$s."
+#~ msgid_plural "This theme recommends the following plugins: %1$s."
+#~ msgstr[0] "Ce thème recommande le plugin suivant: %1$s."
+#~ msgstr[1] ""
+
+#~ msgid ""
+#~ "The following plugin needs to be updated to its latest version to ensure "
+#~ "maximum compatibility with this theme: %1$s."
+#~ msgid_plural ""
+#~ "The following plugins need to be updated to their latest version to "
+#~ "ensure maximum compatibility with this theme: %1$s."
+#~ msgstr[0] ""
+#~ "Le plugin doit être mis à jour dans sa dernière version afin d’assurer "
+#~ "une compatibilité maximale avec ce thème : %1$s."
+#~ msgstr[1] ""
+
+#~ msgid "There is an update available for: %1$s."
+#~ msgid_plural "There are updates available for the following plugins: %1$s."
+#~ msgstr[0] "Il y a une mise à jour disponible pour: %1$s."
+#~ msgstr[1] ""
+
+#~ msgid "The following required plugin is currently inactive: %1$s."
+#~ msgid_plural "The following required plugins are currently inactive: %1$s."
+#~ msgstr[0] "Le plugin requis est actuellement inactif : %1$s."
+#~ msgstr[1] ""
+
+#~ msgid "The following recommended plugin is currently inactive: %1$s."
+#~ msgid_plural ""
+#~ "The following recommended plugins are currently inactive: %1$s."
+#~ msgstr[0] "Le plugin recommandé est actuellement inactif: %1$s."
+#~ msgstr[1] ""
+
+#~ msgid "Begin installing plugin"
+#~ msgid_plural "Begin installing plugins"
+#~ msgstr[0] "Commencer l’installation du plugin"
+#~ msgstr[1] ""
+
+#~ msgid "Begin updating plugin"
+#~ msgid_plural "Begin updating plugins"
+#~ msgstr[0] "Commencer à mettre à jour les extensions"
+#~ msgstr[1] ""
+
+#~ msgid "Begin activating plugin"
+#~ msgid_plural "Begin activating plugins"
+#~ msgstr[0] "Commencez l'activation du plugin"
+#~ msgstr[1] ""
+
+#~ msgid "Return to Required Plugins Installer"
+#~ msgstr "Retour à l'installateur des extensions obligatoires"
+
+#~ msgid "Return to the Dashboard"
+#~ msgstr "Revenir au Tableau de Bord"
+
+#~ msgid "Plugin activated successfully."
+#~ msgstr "L’extension a correctement été activée."
+
+#~ msgid "The following plugin was activated successfully:"
+#~ msgid_plural "The following plugins were activated successfully:"
+#~ msgstr[0] "L’extension suivant a été activée avec succès"
+#~ msgstr[1] ""
+
+#~ msgid "No action taken. Plugin %1$s was already active."
+#~ msgstr "Pas d’action requise. L’extension %1$s était déjà active."
+
+#~ msgid ""
+#~ "Plugin not activated. A higher version of %s is needed for this theme. "
+#~ "Please update the plugin."
+#~ msgstr ""
+#~ "Le plugin n’est pas activé. Une version plus récente du plugin %s est "
+#~ "nécessaire pour ce thème. Veuillez mettre à jour votre extension."
+
+#~ msgid "All plugins installed and activated successfully. %1$s"
+#~ msgstr "Tous les plugins ont été installés et activés avec succés. %1$s"
+
+#~ msgid "Dismiss this notice"
+#~ msgstr "Ignorer la recommandation"
+
+#~ msgid ""
+#~ "There are one or more required or recommended plugins to install, update "
+#~ "or activate."
+#~ msgstr ""
+#~ "Il y a une ou plusieurs extensions requise ou recommandées à installer, "
+#~ "mettez-les à jour ou activez-les."
+
+#~ msgid "Please contact the administrator of this site for help."
+#~ msgstr ""
+#~ "Veuillez contacter l'administrateur de ce site pour obtenir de l'aide."
+
+#~ msgid "This plugin needs to be updated to be compatible with your theme."
+#~ msgstr ""
+#~ "Ce plugin a besoin d’être mis-à-jour pour être compatible avec votre "
+#~ "thème."
+
+#~ msgid "Update Required"
+#~ msgstr "Mise à jour nécessaire"
+
+#~ msgid "Set the parent_slug config variable instead."
+#~ msgstr ""
+#~ "Définissez la variable de configuration en remplacement de parent_slug."
+
+#~ msgid ""
+#~ "The remote plugin package does not contain a folder with the desired slug "
+#~ "and renaming did not work."
+#~ msgstr ""
+#~ "Le pack d’extension à distance ne contient pas le dossier avec le tag "
+#~ "souhaité et le renommage ne fonctionne pas."
+
+#~ msgid ""
+#~ "Please contact the plugin provider and ask them to package their plugin "
+#~ "according to the WordPress guidelines."
+#~ msgstr ""
+#~ "Veuillez contacter le développeur de l’extension et lui demander "
+#~ "d’empaqueter son extension en respectant les instructions de WordPress."
+
+#~ msgid ""
+#~ "The remote plugin package consists of more than one file, but the files "
+#~ "are not packaged in a folder."
+#~ msgstr ""
+#~ "Le paquet de l’extension contient plus d’un fichier, mais les fichiers ne "
+#~ "sont pas empaquetés dans un dossier."
+
+#~ msgctxt "plugin A *and* plugin B"
+#~ msgid "and"
+#~ msgstr "et [ plugin A *et* plugin B ]"
+
+#~ msgid "Required"
+#~ msgstr "Obligatoire"
+
+#~ msgid "Recommended"
+#~ msgstr "Recommandé(e)."
+
+#~ msgid "WordPress Repository"
+#~ msgstr "Dépôt de WordPress"
+
+#~ msgid "External Source"
+#~ msgstr "Lien externe"
+
+#~ msgid "Pre-Packaged"
+#~ msgstr "Pré-installé"
+
+#~ msgid "Not Installed"
+#~ msgstr "Non installé "
+
+#~ msgid "Installed But Not Activated"
+#~ msgstr "Installée Mais Désactivée"
+
+#~ msgid "Active"
+#~ msgstr "Actif"
+
+#~ msgid "Required Update not Available"
+#~ msgstr ""
+#~ "\n"
+#~ "Mise à jour requise non disponible"
+
+#~ msgid "Requires Update"
+#~ msgstr "Mise à jour requise"
+
+#~ msgid "Update recommended"
+#~ msgstr "Mise à jour Recommandée"
+
+#~ msgctxt "Install/Update Status"
+#~ msgid "%1$s, %2$s"
+#~ msgstr "%1$s à %2$s"
+
+#~ msgctxt "plugins"
+#~ msgid "All <span class=\"count\">(%s)</span>"
+#~ msgid_plural "All <span class=\"count\">(%s)</span>"
+#~ msgstr[0] "Tous <span class=“count”>(%s)</span>"
+#~ msgstr[1] ""
+
+#~ msgid "To Install <span class=\"count\">(%s)</span>"
+#~ msgid_plural "To Install <span class=\"count\">(%s)</span>"
+#~ msgstr[0] "À installer <span class=\"count\">(%s)</span>"
+#~ msgstr[1] ""
+
+#~ msgid "Update Available <span class=\"count\">(%s)</span>"
+#~ msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+#~ msgstr[0] "Mise à jour disponible <span class=\"count\">(%s)</span>"
+#~ msgstr[1] ""
+
+#~ msgid "To Activate <span class=\"count\">(%s)</span>"
+#~ msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+#~ msgstr[0] "À activer <span class=\"count\">(%s)</span>"
+#~ msgstr[1] ""
+
+#~ msgctxt "as in: \"version nr unknown\""
+#~ msgid "unknown"
+#~ msgstr ""
+#~ "\n"
+#~ "Inconnu"
+
+#~ msgid "Installed version:"
+#~ msgstr "Version Installée :"
+
+#~ msgid "Minimum required version:"
+#~ msgstr "Aucun minimum"
+
+#~ msgid "Available version:"
+#~ msgstr "Version disponible: "
+
+#~ msgid "No plugins to install, update or activate."
+#~ msgstr "Aucune extensions à installer, à mettre à jour ou à activer."
+
+#~ msgid "Plugin"
+#~ msgstr "Plugin"
+
+#~ msgid "Source"
+#~ msgstr "Source "
+
+#~ msgid "Type"
+#~ msgstr "Type"
+
+#~ msgid "Version"
+#~ msgstr "Version"
+
+#~ msgid "Install %2$s"
+#~ msgstr "Installation de %2$s"
+
+#~ msgid "Update %2$s"
+#~ msgstr "Mise à jour de %2$s"
+
+#~ msgid "Activate %2$s"
+#~ msgstr "Activation de %2$s"
+
+#~ msgid "Upgrade message from the plugin author:"
+#~ msgstr "Améliorez message de l'auteur du plugin :"
+
+#~ msgid "Install"
+#~ msgstr "Installer"
+
+#~ msgid "Activate"
+#~ msgstr "Activation"
+
+#~ msgid "No plugins were selected to be installed. No action taken."
+#~ msgstr ""
+#~ "Aucune extension n’a été sélectionnée pour être installée.  Aucune action "
+#~ "effectuée."
+
+#~ msgid "No plugins were selected to be updated. No action taken."
+#~ msgstr ""
+#~ "Aucune extension n’a été sélectionnée pour être mise à jour. Aucune "
+#~ "action n'a été effectuée."
+
+#~ msgid "No plugins are available to be installed at this time."
+#~ msgstr "Aucune extension n’est disponible à l’installation pour le moment."
+
+#~ msgid "No plugins are available to be updated at this time."
+#~ msgstr ""
+#~ "Aucune extension n’est disponible pour être mise à jour à l’heure "
+#~ "actuelle."
+
+#~ msgid "No plugins were selected to be activated. No action taken."
+#~ msgstr ""
+#~ "Aucune extension n’a été sélectionnée pour être activée. Aucune action "
+#~ "effectuée."
+
+#~ msgid "No plugins are available to be activated at this time."
+#~ msgstr "Aucun extension n’est disponible à être activée pour le moment."
+
+#~ msgid "Plugin activation failed."
+#~ msgstr "Extension activée sans succès."
+
+#~ msgid "Updating Plugin %1$s (%2$d/%3$d)"
+#~ msgstr "Mise à jour extension(s) %1$s (%2$d/%3$d)"
+
+#~ msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+#~ msgstr "Une erreur est survenue en installant %1$s : <strong>%2$s</strong>."
+
+#~ msgid "The installation of %1$s failed."
+#~ msgstr "L’installation de %1$s a échoué. "
+
+#~ msgid ""
+#~ "The installation and activation process is starting. This process may "
+#~ "take a while on some hosts, so please be patient."
+#~ msgstr ""
+#~ "Le processus d’installation et d’activation démarre. Ce processus peut "
+#~ "prendre quelques instants chez certains hébergeurs, merci de patienter."
+
+#~ msgid "%1$s installed and activated successfully."
+#~ msgstr "%1$s installé et activé avec succès. "
+
+#~ msgid "Show Details"
+#~ msgstr "Voir les détails"
+
+#~ msgid "Hide Details"
+#~ msgstr "Cacher les détails"
+
+#~ msgid "All installations and activations have been completed."
+#~ msgstr ""
+#~ "Toutes les installations et les activations ont été effectuées avec "
+#~ "succès."
+
+#~ msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+#~ msgstr "Installation et activation du Plugin %1$s ( %2$d / %3$d )"
+
+#~ msgid ""
+#~ "The installation process is starting. This process may take a while on "
+#~ "some hosts, so please be patient."
+#~ msgstr ""
+#~ "Le processus d’installation commence. Cela peut prendre un peu de temps "
+#~ "selon l’hébergeur, merci de patienter."
+
+#~ msgid "%1$s installed successfully."
+#~ msgstr "%1$s installé et activé avec succès."
+
+#~ msgid "All installations have been completed."
+#~ msgstr "Toutes les installations ont été effectuées avec succès."
+
+#~ msgid "Installing Plugin %1$s (%2$d/%3$d)"
+#~ msgstr "L'extension %1$s (%2$d/%3$d) est en cours d'installation"
+
+#~ msgid "Idea Settings Extended"
+#~ msgstr "paramètres étendus"
+
+#~ msgid "Nothing found in the Database."
+#~ msgstr "Rien trouvé dans la base de données."
+
+#~ msgid "Nothing found in Trash"
+#~ msgstr "Aucun élément trouvé dans la Corbeille"
+
+#~ msgid "Comments about ideas"
+#~ msgstr "Commentaires récents à propos des idées"
+
+#~ msgid "Idea Comments"
+#~ msgstr "Commentaires de l'idée"
+
+#~ msgid "%1$s a commenté l'idée <a href=\"%2$s\">item</a>"
+#~ msgstr "%1$s a commenté l'idée <a href=\"%2$s\">item</a>"
+
+#~ msgid "%1$s commented on the <a href=\"%2$s\">Idea</a>, on the site %3$s"
+#~ msgstr "%1$s a commenté l'idée <a href=\"%2$s\"></a>, sur le site %3$s"
+
+#~ msgid "Homepage Ideas for "
+#~ msgstr "Page d'accueil idées pour"
+
+#~ msgid "Idea settings"
+#~ msgstr "Paramètres de l'idée"
+
+#~ msgid "Enter a URL or upload an image"
+#~ msgstr "Entrez une URL ou téléchargez une image"
+
+#~ msgid "Clear"
+#~ msgstr "Effacer"
+
+#~ msgid "Add File"
+#~ msgstr "Ajouter un Fichier"
+
+#~ msgid "No Status"
+#~ msgstr "Aucun statut."
+
+#~ msgid "Video (youtube)"
+#~ msgstr "Vidéo (youtube)"
+
+#~ msgid "Thank you. Idea will appear after moderation."
+#~ msgstr "Merci. Votre Idée apparaîtra après modération."
+
+#~ msgid "Thank you. Idea successfully added."
+#~ msgstr "Merci. Idée ajoutée. Cliquez pour la voir."
+
+#~ msgid "Comment successfully added!"
+#~ msgstr "Commentaire ajouté avec succès !"
+
+#~ msgid "Ideas Plugin. Any info here."
+#~ msgstr "Plugin d'idées. Des infos ici."
+
+#~ msgid ""
+#~ "You have been invited by %1$s to review the idea named %2$s in the "
+#~ "campaign %3$s. You will have until the date of deadline to post your "
+#~ "review. Your review will only be seen by your invite and site admin."
+#~ msgstr ""
+#~ "Vous avez été invité par %1$s pour examiner l'idée nommée  %2$s dans la "
+#~ "campagne%3$s. Vous avez jusqu'à la date limite pour poster votre avis. "
+#~ "Votre commentaire sera vu uniquement par la personne qui vous a invité et "
+#~ "les administrateurs du site."
+
+#~ msgid "Please see the idea to review here: "
+#~ msgstr "S'il-vous-plaît donner votre avis sur cette idée ici :"
+
+#~ msgid "Idea link: %1$s"
+#~ msgstr "lien Idée : %1$s"
+
+#~ msgid "Deadline: %1$s"
+#~ msgstr "Dernier délai pour laisser votre avis : %1$s"
+
+#~ msgid "Thank you"
+#~ msgstr "Merci."
+
+#~ msgid "[%s] You have pending review requiring attention"
+#~ msgstr ""
+#~ "[%s] Votre attention est requise. Vous devez donner votre avis sur une "
+#~ "idée."
+
+#~ msgid ""
+#~ "You will have until the date of deadline to post your review. Your review "
+#~ "will only be seen by your invite and site admin."
+#~ msgstr ""
+#~ "Vous aurez jusqu'à la date de la date limite pour poster votre avis. "
+#~ "Votre commentaire ne sera vu par votre invitation et administrateur du "
+#~ "site."
+
+#~ msgid "Comment text"
+#~ msgstr "Texte de commentaire"
+
+#~ msgid "To post a comment please login"
+#~ msgstr "Pour poster un commentaire s'il vous plaît, connecter vous..."
+
+#~ msgid "Close"
+#~ msgstr "Fermer"
+
+#~ msgid "Assign Experts"
+#~ msgstr "Nommer des experts"
+
+#~ msgid "updated"
+#~ msgstr "mis à jour"
+
+#~ msgid "Successfully updated"
+#~ msgstr "Mis à jour avec succès"
+
+#~ msgid "Expert Rating Details"
+#~ msgstr "Détails de l'avis d'expert"
+
+#~ msgid "Successfully removed"
+#~ msgstr "Supprimé avec succès"
+
+#~ msgid "Please wait"
+#~ msgstr "Merci de patienter"
+
+#~ msgid "Max file size"
+#~ msgstr "Taille max. du fichier"
+
+#~ msgid "Add review"
+#~ msgstr "Ajouter un avis"
+
+#~ msgid "Sort by"
+#~ msgstr "Trier par"

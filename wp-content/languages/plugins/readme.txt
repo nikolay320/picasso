@@ -1,0 +1,1 @@
+Please use a translator tool(I recomment poedit) and translate the po file in the /languages directory of this plugin. Once you are done translating, save the mo file as yourLocale.mo(e.g en_US.mo if your locale is en_US) and it will load that automatically.

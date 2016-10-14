@@ -1,0 +1,309 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Buddypress Quick Activity\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-11-05 20:17-1000\n"
+"PO-Revision-Date: Fri Jul 29 2016 21:58:22 GMT+0600\n"
+"Last-Translator: Eyal Fitoussi <info@geomywp.com>\n"
+"Language-Team: Eyal Fitoussi\n"
+"Language: fr-FR\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Loco-Source-Locale: ru_KZ\n"
+"X-Generator: Loco - https://localise.biz/\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Loco-Parser: loco_parse_po"
+
+#: buddypress-quick-activity.php:58
+msgid "Loading..."
+msgstr "Chargement..."
+
+#: buddypress-quick-activity.php:59
+msgid "Update successfully posted."
+msgstr "Note rapide postée avec succès."
+
+#: buddypress-quick-activity.php:189
+msgid "Post something to activity..."
+msgstr "Poster quelque chose à l'activité ..."
+
+#: buddypress-quick-activity.php:211 buddypress-quick-activity.php:252
+msgid "characters remaining."
+msgstr "caractères restants."
+
+#: buddypress-quick-activity.php:212 buddypress-quick-activity.php:253
+msgid "Post in"
+msgstr "Diffusez en"
+
+#: buddypress-quick-activity.php:213 buddypress-quick-activity.php:254
+msgid "My profile"
+msgstr "Mon profil"
+
+#: buddypress-quick-activity.php:214 buddypress-quick-activity.php:255
+msgid "Submit"
+msgstr "Envoyer"
+
+#: buddypress-quick-activity.php:215 buddypress-quick-activity.php:256
+msgid "cancel"
+msgstr "Annuler"
+
+#: buddypress-quick-activity.php:293
+#, php-format
+msgid "%1$s Posted an update"
+msgstr "%1$s a publié une note"
+
+#: buddypress-quick-activity.php:312
+#, php-format
+msgid "%1$s Posted an update in the group %2$s"
+msgstr "%1$s Publié une mise à jour dans le groupe %2$s"
+
+#: includes/bpqa-admin.php:15
+msgid "Quick Activity"
+msgstr "Activité rapide"
+
+#: includes/bpqa-admin.php:60
+msgid "Buddypress Quick Activity Settings Page"
+msgstr "Buddypress rapide Activité Page Paramètres"
+
+#: includes/bpqa-admin.php:67
+msgid "Save Settings"
+msgstr "Enregistrer les paramètres"
+
+#: includes/bpqa-admin.php:72
+msgid "Shortcodes usage"
+msgstr "Shortcodes utilisation."
+
+#: includes/bpqa-admin.php:74
+msgid "Quick Activity button shortcode</h4>"
+msgstr "Rapide bouton Activité shortcode"
+
+#: includes/bpqa-admin.php:75 includes/bpqa-admin.php:101
+msgid "use in the content area of a post or page."
+msgstr "utiliser dans la zone de contenu d'un poste ou d'une page."
+
+#: includes/bpqa-admin.php:76 includes/bpqa-admin.php:102
+msgid "Use anywhere in a template files."
+msgstr ""
+
+#: includes/bpqa-admin.php:77 includes/bpqa-admin.php:103
+msgid "Shorcode attributes:"
+msgstr ""
+
+#: includes/bpqa-admin.php:79
+msgid ""
+"Excepts the values button, link or image. The \"type\" attribute controls "
+"the way the \"Quick Activity\" button will be displayed."
+msgstr ""
+
+#: includes/bpqa-admin.php:81
+msgid "The value \"button\" will create an HTML input type button."
+msgstr ""
+
+#: includes/bpqa-admin.php:82
+msgid "The value \"Link\" will create an hyperlink"
+msgstr ""
+
+#: includes/bpqa-admin.php:83
+msgid ""
+"The value \"Image\" will display the \"Quick Activity\" button as an image"
+msgstr ""
+
+#: includes/bpqa-admin.php:88
+msgid ""
+"the attribute img will only work when choosing \"image\" as a value for the "
+"attribute \"type\". Using the attribute \"img\" you can choose the image "
+"that will be displayed as the \"Quick Activity\" button."
+msgstr ""
+
+#: includes/bpqa-admin.php:89
+msgid ""
+"In order to use the \"img\" attribute its value needs to be the name of the "
+"image that you want to use. The image must exist in the plugin\\'s directory "
+"under \"buttons\" folder."
+msgstr ""
+
+#: includes/bpqa-admin.php:94
+msgid ""
+"The \"title\" attribute will work when the \"type\" attributes gets either "
+"\"button\" or \"link\" values. Using the \"title\" attribute you can define "
+"the label of the  \"Quick activity\" button or link."
+msgstr ""
+
+#: includes/bpqa-admin.php:96
+msgid "give the \"Quick Activity\" button a custom CLASS tag"
+msgstr ""
+
+#: includes/bpqa-admin.php:97
+msgid "give the \"Quick Activity\" button a custom ID tag"
+msgstr ""
+
+#: includes/bpqa-admin.php:100
+msgid "Quick Activity in-page form shortcode</h4>"
+msgstr ""
+
+#: includes/bpqa-admin.php:108
+msgid ""
+"Set the form template. The value needs to be the name of the template's "
+"folder. The templates can be found in "
+msgstr ""
+
+#: includes/bpqa-admin.php:113
+msgid "Set the value to 1 to allow users to post activity to groups."
+msgstr ""
+
+#: includes/bpqa-admin.php:117
+msgid ""
+"Use this attribute if you'd like to limit the number of characters that can "
+"be used in the textarea."
+msgstr ""
+
+#: includes/bpqa-admin.php:123
+msgid "Shortcodes examples:"
+msgstr ""
+
+#: includes/bpqa-admin.php:126
+msgid "Create \"Quick Activity\" form with the lightblue template"
+msgstr ""
+
+#: includes/bpqa-admin.php:130
+msgid ""
+"Create \"Quick Activity\" form with the green template, allow posting to "
+"groups and set the max characters to 50"
+msgstr ""
+
+#: includes/bpqa-admin.php:134
+msgid ""
+"BuddyPress Quick Activity developed by <a style=\"text-decoration:none;\" "
+"href=\"http://geomywp.com\" target=\"_blank\">Eyal Fitoussi</a>"
+msgstr ""
+
+#: includes/bpqa-admin.php:149
+msgid "Quick Activity Admin-bar Button"
+msgstr ""
+
+#: includes/bpqa-admin.php:150
+msgid "Admin-bar button"
+msgstr ""
+
+#: includes/bpqa-admin.php:151
+msgid "Title"
+msgstr ""
+
+#: includes/bpqa-admin.php:154
+msgid "Quick Activity Floating Button "
+msgstr ""
+
+#: includes/bpqa-admin.php:155
+msgid "Floating button"
+msgstr ""
+
+#: includes/bpqa-admin.php:156
+msgid "Top offset"
+msgstr ""
+
+#: includes/bpqa-admin.php:157
+msgid "Location"
+msgstr ""
+
+#: includes/bpqa-admin.php:158
+msgid "Image"
+msgstr ""
+
+#: includes/bpqa-admin.php:161
+msgid "Quick Activity Pop-up Form Options "
+msgstr ""
+
+#: includes/bpqa-admin.php:162
+msgid "Form template"
+msgstr ""
+
+#: includes/bpqa-admin.php:163
+msgid "Textarea placeholder"
+msgstr ""
+
+#: includes/bpqa-admin.php:164
+msgid "Maximum characters"
+msgstr ""
+
+#: includes/bpqa-admin.php:165
+msgid "Post to groups"
+msgstr ""
+
+#: includes/bpqa-admin.php:168
+msgid "Styling"
+msgstr ""
+
+#: includes/bpqa-admin.php:169
+msgid "Add custom CSS"
+msgstr ""
+
+#: includes/bpqa-admin.php:176
+msgid "Add \"Quick Activity\" button to the admin-bar."
+msgstr ""
+
+#: includes/bpqa-admin.php:185
+msgid "Enable Quick Activity button in the toolbar"
+msgstr ""
+
+#: includes/bpqa-admin.php:194
+msgid "Button's label"
+msgstr ""
+
+#: includes/bpqa-admin.php:201
+msgid ""
+"Display a floating \"Quick Activity\" button in the left or right side of "
+"the screen"
+msgstr ""
+
+#: includes/bpqa-admin.php:210
+msgid "Enable floating button"
+msgstr ""
+
+#: includes/bpqa-admin.php:219
+msgid "Define the \"Top\" attribute for the button in pixels"
+msgstr ""
+
+#: includes/bpqa-admin.php:228
+msgid "Left"
+msgstr ""
+
+#: includes/bpqa-admin.php:229
+msgid "Right"
+msgstr ""
+
+#: includes/bpqa-admin.php:231
+msgid "In which side of the screen would you like to display the button?"
+msgstr ""
+
+#: includes/bpqa-admin.php:253
+msgid "Setup the Quick Activity pop-up form."
+msgstr ""
+
+#: includes/bpqa-admin.php:266
+msgid "Choose the pop-up form template"
+msgstr ""
+
+#: includes/bpqa-admin.php:274
+msgid ""
+"Type the default ( placeholder ) text that will be displayed in the textarea."
+msgstr ""
+
+#: includes/bpqa-admin.php:283
+msgid ""
+"Enter the maximum number of characters to be used in the text area ( leave "
+"blank for unlimited )."
+msgstr ""
+
+#: includes/bpqa-admin.php:292
+msgid "Allow posting activity to groups"
+msgstr ""
+
+#: includes/bpqa-admin.php:298
+msgid "add custom css"
+msgstr ""

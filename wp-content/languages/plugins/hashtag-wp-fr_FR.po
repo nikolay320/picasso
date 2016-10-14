@@ -1,0 +1,219 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: hashtag-wp\n"
+"POT-Creation-Date: 2016-03-12 13:44-0500\n"
+"PO-Revision-Date: 2016-03-12 14:02-0500\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-KeywordsList: __;_e;_d;_x;esc_attr_e\n"
+"Last-Translator: \n"
+"Language: fr_FR\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: assets\n"
+
+#: inc/templates/options.inc.php:5 src/Glcdesign/HashtagWp/Customizer.php:40
+#: src/Glcdesign/HashtagWp/Plugin.php:159
+#: src/Glcdesign/HashtagWp/Plugin.php:160
+msgid "Hashtag WP"
+msgstr ""
+
+#: inc/templates/options.inc.php:11
+msgid "Settings saved."
+msgstr "Configurations sauvegardées."
+
+#: inc/templates/options.inc.php:37
+msgid "Options"
+msgstr "Paramètres"
+
+#: inc/templates/options.inc.php:42
+msgid "You can configure Hashtag WP using this page."
+msgstr "Vous pouvez configurer Hashtag WP en utilisant cette page."
+
+#: inc/templates/options.inc.php:49
+msgid "Enable hashtags in comments"
+msgstr "Activer les hashtags dans les commentaires"
+
+#: inc/templates/options.inc.php:56
+msgid "Enable BuddyPress support"
+msgstr "Activer le support BuddyPress"
+
+#: inc/templates/options.inc.php:63
+msgid "Enable hashtag widget"
+msgstr "Activer le widget hashtag"
+
+#: inc/templates/options.inc.php:74
+msgid "Save"
+msgstr "Sauvegarder"
+
+#: inc/templates/options.inc.php:79
+msgid "Thank your for choosing Glcdesign!"
+msgstr "Merci d'avoir choisi Glcdesign"
+
+#: inc/templates/options.inc.php:83
+msgid "You are using the Full version and have premium support!"
+msgstr "Vous utilisez la version complète et avez accès au support premium!"
+
+#: inc/templates/options.inc.php:88
+msgid "I need support"
+msgstr "J'ai besoin d'aide"
+
+#: src/Glcdesign/HashtagWp/Customizer.php:62
+msgid "Background Enabled"
+msgstr ""
+
+#: src/Glcdesign/HashtagWp/Customizer.php:91
+msgid "Background Color"
+msgstr ""
+
+#: src/Glcdesign/HashtagWp/Customizer.php:118
+msgid "Border Enabled"
+msgstr ""
+
+#: src/Glcdesign/HashtagWp/Customizer.php:146
+msgid "Border Color"
+msgstr ""
+
+#: src/Glcdesign/HashtagWp/Customizer.php:173
+msgid "Hash Color"
+msgstr ""
+
+#: src/Glcdesign/HashtagWp/Customizer.php:200
+msgid "Text Color Enabled"
+msgstr ""
+
+#: src/Glcdesign/HashtagWp/Customizer.php:228
+msgid "Text Color"
+msgstr ""
+
+#: src/Glcdesign/HashtagWp/Customizer.php:255
+msgid "Font Size"
+msgstr ""
+
+#: src/Glcdesign/HashtagWp/Customizer.php:288
+msgid "Hash Spacing"
+msgstr ""
+
+#: src/Glcdesign/HashtagWp/Customizer.php:321
+msgid "Hash Font Size"
+msgstr ""
+
+#: src/Glcdesign/HashtagWp/Customizer.php:354
+msgid "Padding"
+msgstr ""
+
+#: src/Glcdesign/HashtagWp/Plugin.php:335
+#, php-format
+msgid "Activities for %s"
+msgstr "Activités pour %s"
+
+#: src/Glcdesign/HashtagWp/Plugin.php:345
+msgid "BuddyPress Hashtags"
+msgstr "Hashtags BuddyPress"
+
+#: src/Glcdesign/HashtagWp/Plugin.php:346
+#: src/Glcdesign/HashtagWp/Plugin.php:355
+msgid "BuddyPress Hashtag"
+msgstr "Hashtag BuddyPress"
+
+#: src/Glcdesign/HashtagWp/Plugin.php:347
+msgid "Search BuddyPress Hashtags"
+msgstr "Rechercher Hashtags BuddyPress"
+
+#: src/Glcdesign/HashtagWp/Plugin.php:348
+msgid "All BuddyPress Hashtags"
+msgstr "Tous les hashtags BuddyPress"
+
+#: src/Glcdesign/HashtagWp/Plugin.php:349
+msgid "Parent BuddyPress Hashtag"
+msgstr "Hashtag BuddyPress Parent"
+
+#: src/Glcdesign/HashtagWp/Plugin.php:350
+msgid "Parent BuddyPress Hashtag:"
+msgstr "Hashtag BuddyPress Parent:"
+
+#: src/Glcdesign/HashtagWp/Plugin.php:351
+msgid "Edit BuddyPress Hashtag"
+msgstr "Modifier Hashtag BuddyPress"
+
+#: src/Glcdesign/HashtagWp/Plugin.php:352
+msgid "Update BuddyPress Hashtag"
+msgstr "Mettre à jour Hashtag BuddyPress"
+
+#: src/Glcdesign/HashtagWp/Plugin.php:353
+msgid "Add New BuddyPress Hashtag"
+msgstr "Ajouter nouveau Hashtag BuddyPress"
+
+#: src/Glcdesign/HashtagWp/Plugin.php:354
+msgid "New BuddyPress Hashtag Name"
+msgstr "Nom nouveau Hashtag BuddyPress"
+
+#: src/Glcdesign/HashtagWp/Plugin.php:381 src/Glcdesign/HashtagWp/Widget.php:15
+#: src/Glcdesign/HashtagWp/Widget.php:75 src/Glcdesign/HashtagWp/Widget.php:116
+msgid "Hashtags"
+msgstr ""
+
+#: src/Glcdesign/HashtagWp/Plugin.php:382
+#: src/Glcdesign/HashtagWp/Plugin.php:391
+msgid "Hashtag"
+msgstr ""
+
+#: src/Glcdesign/HashtagWp/Plugin.php:383
+msgid "Search Hashtags"
+msgstr "Rechercher Hashtags"
+
+#: src/Glcdesign/HashtagWp/Plugin.php:384
+msgid "All Hashtags"
+msgstr "Tous les hashtags"
+
+#: src/Glcdesign/HashtagWp/Plugin.php:385
+msgid "Parent Hashtag"
+msgstr "Hashtag Parent"
+
+#: src/Glcdesign/HashtagWp/Plugin.php:386
+msgid "Parent Hashtag:"
+msgstr "Hashtag Parent:"
+
+#: src/Glcdesign/HashtagWp/Plugin.php:387
+msgid "Edit Hashtag"
+msgstr "Modifier Hashtag"
+
+#: src/Glcdesign/HashtagWp/Plugin.php:388
+msgid "Update Hashtag"
+msgstr "Mettre à jour Hashtag"
+
+#: src/Glcdesign/HashtagWp/Plugin.php:389
+msgid "Add New Hashtag"
+msgstr "Ajouter nouveau Hashtag"
+
+#: src/Glcdesign/HashtagWp/Plugin.php:390
+msgid "New Hashtag Name"
+msgstr "Nom nouveau Hashtag"
+
+#: src/Glcdesign/HashtagWp/Plugin.php:577
+msgid "Nonce not valid. Operation not-permitted!"
+msgstr "Clé invalide. Opération non-permise!"
+
+#: src/Glcdesign/HashtagWp/Widget.php:134
+msgid "Title"
+msgstr "Titre"
+
+#: src/Glcdesign/HashtagWp/Widget.php:151
+msgid "Feed"
+msgstr "Fil"
+
+#: src/Glcdesign/HashtagWp/Widget.php:155
+msgid "Both"
+msgstr "Les deux"
+
+#: src/Glcdesign/HashtagWp/Widget.php:157
+msgid "BuddyPress"
+msgstr ""
+
+#: src/Glcdesign/HashtagWp/Widget.php:159
+msgid "Posts and Pages"
+msgstr "Pages et Articles"

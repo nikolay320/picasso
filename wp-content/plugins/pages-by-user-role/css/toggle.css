@@ -1,0 +1,91 @@
+#pur-options-cont {
+	width: 814px;
+}
+
+#pur-options-cont .option-content {
+	display:none;
+}
+
+#pur-options-cont .toggle-option h3.option-title.open {
+	-moz-border-radius:6px 6px 0 0;
+	-webkit-border-radius:6px 6px 0 0;
+	-html-border-radius:6px 6px 0 0;
+	border-radius:6px 6px 0 0;
+	background-position:10px -27px;
+}
+
+#pur-options-cont .toggle-option h3.option-title {
+	-moz-border-radius:6px 6px 6px 6px;
+	-webkit-border-radius:6px;
+	-html-border-radius:6px;
+	border-radius:6px;
+	background:url("images/toggle.png") no-repeat scroll 10px 13px #F1F1F1;
+	border:1px solid #E6E6E6;
+	color:#4E4C41;
+	cursor:pointer;
+	font-size:1.2em;
+	margin:15px 0 0;
+	padding:15px 15px 15px 40px;
+}
+
+#pur-options-cont .toggle-option h3.option-title span{
+	color:#AAAAAA;
+	float:right;
+	font-size:0.9em;
+	font-weight:normal;
+}
+#pur-options-cont .options-table {
+	width: 100%;
+}
+#pur-options-cont .option-content {
+	-moz-border-radius:0 0 6px 6px;
+	-webkit-border-radius:8px;
+	-html-border-radius:8px;
+	border-radius:8px;
+	background:none repeat scroll 0 0 #FBFBFA;
+	border-color:-moz-use-text-color #E6E6E6 #E6E6E6;
+	border-color:#E6E6E6;
+	border-right:1px solid #E6E6E6;
+	border-style:none solid solid;
+	border-width:medium 1px 1px;
+	margin:0;
+	padding:15px;
+}
+
+#pur-options-cont .bottom-controls {
+	padding: 20px 0 0 0;
+}
+
+#pur-options-cont .options-table tr.tabs-subtitle th {
+	border-bottom: none !important;
+}
+
+#pur-options-cont .options-table th p {
+	font-weight: normal !important;
+}
+
+#pur-options-cont .tabs-create_sidebar th,#pur-options-cont .tabs-list_sidebar .desc-cell {
+	vertical-align:top;
+}
+
+#pur-options-cont .description{
+	-moz-border-radius:8px 8px 8px 8px;
+	-webkit-border-radius:8px 8px 8px 8px;
+	-html-border-radius:8px 8px 8px 8px;
+	border-radius:8px 8px 8px 8px;
+	background:none repeat scroll 0 0 #F1F1F1;
+	color:#777777;
+	padding:15px;
+	display:block;
+	float:right;
+	max-width:350px;
+	margin:10px 0 10px 5px;
+}
+
+.pur-options-main .save-button {
+	margin-top: 10px;
+}
+
+.pur-inline-cont .inline-edit-col-right {
+	margin-top: 0px !important;
+}

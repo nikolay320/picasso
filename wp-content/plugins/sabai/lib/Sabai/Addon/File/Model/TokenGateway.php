@@ -1,0 +1,4 @@
+<?php
+class Sabai_Addon_File_Model_TokenGateway extends Sabai_Addon_File_Model_Base_TokenGateway
+{
+}

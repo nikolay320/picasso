@@ -1,0 +1,61 @@
+Version 1.3.1
+------------------------------------------------------------
+FIX - Increased priority on styling to try and override theme styling that conflicts with notifications.
+NEW - Added missing uninstall function to delete the notifications database when the plugin is uninstalled.
+NEW - Updated translation files.
+
+Version 1.3
+------------------------------------------------------------
+NEW - Added option to show a messages when a user earns a new badge.
+NEW - Added option to show a message when a user is promoted or demoted.
+
+Version 1.2.2
+------------------------------------------------------------
+FIX – Instant notifications do not disappear if a timeout is set.
+
+Version 1.2.1
+------------------------------------------------------------
+FIX – Template tags are not parsed correctly with Multiple Point Types.
+NEW – Added Swedish translation.
+
+Version 1.2
+------------------------------------------------------------
+NEW – Select which point types that generates a notice.
+FIX – Instant Notifications not working in localhost.
+FIX – PHP Warning for missing variable.
+
+Version 1.1.2
+------------------------------------------------------------
+FIX – Translations not working.
+FIX – No option to remove stuck notifications without reloading the page.
+
+Version 1.1.1
+------------------------------------------------------------
+FIX – Styling not loaded with instant notifications.
+
+Version 1.1
+------------------------------------------------------------
+NEW – Added option to color positive and negative values.
+NEW – Added instant notifications feature.
+
+Version 1.0.4
+------------------------------------------------------------
+FIX – Missing conditional check to make sure myCRED is installed.
+
+Version 1.0.3
+------------------------------------------------------------
+NEW – Adjusted plugin for myCRED 1.3
+
+Version 1.0.2
+------------------------------------------------------------
+FIX – Incorrect variable return.
+FIX – Removed color picker styling enqueue.
+FIX – Adjusted the template to allow ” and new lines.
+
+Version 1.0.1
+------------------------------------------------------------
+FIX – Notifications lack support for post related template tags.
+
+Version 1.0
+------------------------------------------------------------
+Initial release

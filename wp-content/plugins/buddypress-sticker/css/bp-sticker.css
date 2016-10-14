@@ -1,0 +1,80 @@
+
+
+.smiley{
+display: inline !important;
+border: medium none !important;
+box-shadow: none !important;
+height: 4em !important;
+cursor: pointer;
+margin: 0px 0.07em !important;
+vertical-align: middle !important;
+background: none repeat scroll 0% 0% transparent !important;
+padding: 3px;
+
+}
+.st-smiley{
+display: inline-block!important;
+border: medium none !important;
+box-shadow: none !important;
+height: 2em !important;
+margin: 0px 0.07em !important;
+vertical-align:middle!important;
+background: none repeat scroll 0% 0% transparent !important;
+padding: 3px;
+
+}
+.bp-smiley-button a,.bp-smiley-no a,.bp-smiley-button-comment ,.bp-smiley-no-comment {	
+  border: 1px solid #FE5815;
+  border-radius: 50%;
+  float: right; 
+  cursor: pointer;
+  margin-left:5px;
+  padding: 2px;
+  width: 28px;
+  height:28px;
+  
+}
+.bp-smiley-button-comment  .dashicons,.bp-smiley-no-comment .dashicons{
+  width:25px;
+  height:25px;
+  text-decoration: none !important;
+  line-height: 1.2;
+}
+
+
+.bp-smiley-no,.bp-smiley-no-comment{
+display:none;
+}
+.divsti{
+  background-color:rgba(183, 197, 231, 0.1);
+  padding: 5px 5px 5px 5px;
+}
+.smiley-buttons {
+margin:10px auto;
+padding: 2px 2px 2px 2px;
+max-height: 150px !important;  
+overflow-y: auto !important;
+  border:1px solid #ddd;
+}
+
+
+.smiley-buttons a {
+-webkit-transition: color .2s;
+-moz-transition: color .2s;
+-o-transition: color .2s;
+transition: color .2s;
+font-size: 26px !important;
+overflow: hidden;
+line-height: 1.5 !important;
+padding: 0px !important;
+margin-right: 5px;
+text-decoration: none;
+}
+
+.smiley-buttons a:hover  {
+-webkit-transition: color .2s;
+-moz-transition: color .2s;
+-o-transition: color .2s;
+transition: color .2s;
+text-decoration: none;
+}

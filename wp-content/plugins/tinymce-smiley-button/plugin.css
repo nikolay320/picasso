@@ -1,0 +1,27 @@
+.mce-toolbar .mce-i-smiley {
+    background: url(../../../wp-includes/images/smilies/simple-smile.png) no-repeat 50% 50%;
+    background-size: contain;
+}
+
+.mce-smily .mce-grid div {
+    font-size: 24px;
+    line-height: 1;
+    text-align: center;
+    width: 1em;
+    height: 1em;
+    padding: 3px;
+    border: 0;
+    border-radius: 1px;
+    cursor: pointer;
+}
+
+.mce-smily .mce-grid div:hover {
+    background: #b4b9be;
+}
+
+.mce-smily .mce-grid img {
+    font-size: inherit;
+    width: 1em;
+    height: 1em;
+    vertical-align: top;
+}

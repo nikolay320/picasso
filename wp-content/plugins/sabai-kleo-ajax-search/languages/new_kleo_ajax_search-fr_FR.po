@@ -1,0 +1,109 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: new_kleo_ajax_search\n"
+"POT-Creation-Date: 2016-09-12 13:30+0700\n"
+"PO-Revision-Date: 2016-09-12 13:30+0700\n"
+"Last-Translator: \n"
+"Language-Team: new_kleo_ajax_search <phandung122@gmail.com>\n"
+"Language: French\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: E:\\server\\htdocs\\marilink\\picasso\\wp-content"
+"\\plugins\\sabai-kleo-ajax-search\n"
+
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\sabai-kleo-ajax-search/bp-activity-as-shortcode.php:124
+msgid "Load More"
+msgstr ""
+
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\sabai-kleo-ajax-search/bp-activity-as-shortcode.php:145
+msgid "Sorry, there was no activity found. Please try a different filter."
+msgstr ""
+
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\sabai-kleo-ajax-search/sabai-kleo-ajax-search.php:148
+msgid "Sorry, we haven't found anything based on your criteria."
+msgstr ""
+
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\sabai-kleo-ajax-search/sabai-kleo-ajax-search.php:150
+msgid "Please try searching by different terms."
+msgstr ""
+
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\sabai-kleo-ajax-search/sabai-kleo-ajax-search.php:161
+msgid "Members"
+msgstr ""
+
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\sabai-kleo-ajax-search/sabai-kleo-ajax-search.php:181
+msgid "View member results"
+msgstr ""
+
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\sabai-kleo-ajax-search/sabai-kleo-ajax-search.php:189
+msgid "Groups"
+msgstr ""
+
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\sabai-kleo-ajax-search/sabai-kleo-ajax-search.php:201
+msgid "View group results"
+msgstr ""
+
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\sabai-kleo-ajax-search/sabai-kleo-ajax-search.php:207
+msgid "Theme"
+msgstr "Thèmes"
+
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\sabai-kleo-ajax-search/sabai-kleo-ajax-search.php:256
+msgid "View all themes"
+msgstr "Voir tous les thèmes"
+
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\sabai-kleo-ajax-search/sabai-kleo-ajax-search.php:261
+msgid "Review"
+msgstr "Avis"
+
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\sabai-kleo-ajax-search/sabai-kleo-ajax-search.php:310
+msgid "View all reviews"
+msgstr "Voir tous les avis"
+
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\sabai-kleo-ajax-search/sabai-kleo-ajax-search.php:315
+msgid "Question"
+msgstr "Questions"
+
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\sabai-kleo-ajax-search/sabai-kleo-ajax-search.php:364
+msgid "View all questions"
+msgstr "Voir toutes les questions"
+
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\sabai-kleo-ajax-search/sabai-kleo-ajax-search.php:369
+msgid "Answer"
+msgstr "Réponses"
+
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\sabai-kleo-ajax-search/sabai-kleo-ajax-search.php:418
+msgid "View all answers"
+msgstr "Voir toutes les réponses"
+
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\sabai-kleo-ajax-search/sabai-kleo-ajax-search.php:423
+msgid "Events"
+msgstr "Événements"
+
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\sabai-kleo-ajax-search/sabai-kleo-ajax-search.php:479
+msgid "View all events"
+msgstr "Voir tous les événements"
+
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\sabai-kleo-ajax-search/sabai-kleo-ajax-search.php:484
+msgid "Notes"
+msgstr "Notes"
+
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\sabai-kleo-ajax-search/sabai-kleo-ajax-search.php:531
+msgid "View all notes"
+msgstr "Voir toutes les notes"
+
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\sabai-kleo-ajax-search/sabai-kleo-ajax-search.php:599
+msgid "View all results"
+msgstr ""
+
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\sabai-kleo-ajax-search/sabai-kleo-ajax-search.php:605
+msgid "Forums"
+msgstr ""
+
+#: E:\server\htdocs\marilink\picasso\wp-content\plugins\sabai-kleo-ajax-search/sabai-kleo-ajax-search.php:627
+msgid "View forum results"
+msgstr ""

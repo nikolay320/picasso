@@ -1,0 +1,1325 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: sabai-discuss\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-06-16 17:48+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#, php-format
+msgid "Sort by: <strong>%s</strong>"
+msgstr ""
+
+msgid "Post Answer"
+msgstr ""
+
+#, php-format
+msgid "Showing %d - %d of %s results"
+msgstr ""
+
+#, php-format
+msgid "Showing %s result"
+msgid_plural "Showing %s results"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "Your Answer"
+msgstr ""
+
+#, php-format
+msgid ""
+"Please <a href=\"%s\" class=\"sabai-login popup-login\">login</a> first to "
+"submit."
+msgstr ""
+
+#, php-format
+msgid "%s vote"
+msgid_plural "%s votes"
+msgstr[0] ""
+msgstr[1] ""
+
+#, php-format
+msgid "In reply to: %s"
+msgstr ""
+
+#, php-format
+msgid "%s answered %s"
+msgstr ""
+
+#, php-format
+msgid "%d flag (spam score: %d)"
+msgid_plural "%d flags (spam score: %d)"
+msgstr[0] ""
+msgstr[1] ""
+
+#, php-format
+msgid "%s (%d)"
+msgstr ""
+
+msgid "Browse Category:"
+msgstr ""
+
+msgid "Keywords:"
+msgstr ""
+
+msgid "No results were found"
+msgstr ""
+
+msgid "Select category"
+msgstr ""
+
+msgid "Search..."
+msgstr ""
+
+#, php-format
+msgid "%s answer"
+msgid_plural "%s answers"
+msgstr[0] ""
+msgstr[1] ""
+
+#, php-format
+msgid "%s view"
+msgid_plural "%s views"
+msgstr[0] ""
+msgstr[1] ""
+
+#, php-format
+msgid "%s asked %s"
+msgstr ""
+
+msgid "Accepted an answer"
+msgstr ""
+
+msgid "Unaccepted an answer"
+msgstr ""
+
+msgid "Answer was accepted"
+msgstr ""
+
+msgid "Answer was unaccepted"
+msgstr ""
+
+msgid "Voted a question up"
+msgstr ""
+
+msgid "Voted a question down"
+msgstr ""
+
+msgid "Question was voted up"
+msgstr ""
+
+msgid "Question was voted down"
+msgstr ""
+
+msgid "Voted an answer up"
+msgstr ""
+
+msgid "Voted an answer down"
+msgstr ""
+
+msgid "Answer was voted up"
+msgstr ""
+
+msgid "Answer was voted down"
+msgstr ""
+
+msgid "A question or an answer was deleted as being spam"
+msgstr ""
+
+msgid "Accepted/Unaccepted"
+msgstr ""
+
+msgid "Accepted"
+msgstr ""
+
+msgid "Unaccepted"
+msgstr ""
+
+msgid "Show accepted answers only"
+msgstr ""
+
+msgid "Questions"
+msgstr ""
+
+msgid "Question"
+msgstr ""
+
+msgid "Resolved/Unresolved"
+msgstr ""
+
+msgid "Open/Closed"
+msgstr ""
+
+msgid ""
+"Tags are words and phrases that you assign to questions to help keep the "
+"site well organized. Maximum of 5 tags may be assigned to each question."
+msgstr ""
+
+msgid "Close own questions"
+msgstr ""
+
+msgid "Close any question"
+msgstr ""
+
+msgid "Delete own questions (if unresolved and has no more than 1 answer)"
+msgstr ""
+
+msgid "Answers"
+msgstr ""
+
+msgid "Answer"
+msgstr ""
+
+msgid "Delete own answers (if not yet accepted by the question author)"
+msgstr ""
+
+msgid "Accept any answer"
+msgstr ""
+
+msgid "Rate the answer to accept"
+msgstr ""
+
+msgid "Best Answer"
+msgstr ""
+
+msgid "Great Answer"
+msgstr ""
+
+msgid "Good Answer"
+msgstr ""
+
+#, php-format
+msgid "Answer by %s posted %s"
+msgstr ""
+
+msgid ""
+"There are already 3 accepted answers accepted. You must unaccept one of them "
+"to accept the current answer."
+msgstr ""
+
+msgid "Unaccept existing answer"
+msgstr ""
+
+msgid "Accept Answer"
+msgstr ""
+
+msgid "Do you really want to unaccept this answer?"
+msgstr ""
+
+msgid "Unaccept Answer"
+msgstr ""
+
+msgid "Answer to unaccept must be a valid answer"
+msgstr ""
+
+msgid "Restrict Access"
+msgstr ""
+
+msgid "Public"
+msgstr ""
+
+msgid "Private"
+msgstr ""
+
+msgctxt "access control"
+msgid "Closed"
+msgstr ""
+
+msgid "Everyone including non-registered users are allowed access."
+msgstr ""
+
+msgid "Only members of selected roles are allowed access."
+msgstr ""
+
+msgid "Closed or disabled. No one is allowed access."
+msgstr ""
+
+msgid "Only accessible by:"
+msgstr ""
+
+msgid "Redirect to:"
+msgstr ""
+
+msgid "Enter the path to URL that users denied access are redirected to."
+msgstr ""
+
+msgid "Permissions granted based on reputation points"
+msgstr ""
+
+msgid "Check this option to switch to reputation based user permission system."
+msgstr ""
+
+msgid "Keyword Search Settings"
+msgstr ""
+
+msgid "Disable keyword search"
+msgstr ""
+
+msgid "Min. length of keywords in characters"
+msgstr ""
+
+msgid "Match any or all"
+msgstr ""
+
+msgid "Match any"
+msgstr ""
+
+msgid "Match all"
+msgstr ""
+
+msgid "Enable auto suggestion"
+msgstr ""
+
+msgid "Auto suggest questions"
+msgstr ""
+
+msgid "Redirect to suggested question page when clicked"
+msgstr ""
+
+msgid "Number of auto suggested questions to display"
+msgstr ""
+
+msgid "Auto suggest categories"
+msgstr ""
+
+msgid "Redirect to suggested category page when clicked"
+msgstr ""
+
+msgid "Number of auto suggested categories to display"
+msgstr ""
+
+msgid "Suggested category icon"
+msgstr ""
+
+msgid "Category Search Settings"
+msgstr ""
+
+msgid "Disable category search"
+msgstr ""
+
+msgid "Category depth (0 for unlimited)"
+msgstr ""
+
+msgid "Hide if no posts"
+msgstr ""
+
+msgid "Hide post count"
+msgstr ""
+
+msgid "Search Filter Settings"
+msgstr ""
+
+msgid "Disable filters"
+msgstr ""
+
+msgid "Always show filters"
+msgstr ""
+
+msgid "Display filter form above search results"
+msgstr ""
+
+msgid "Auto submit filter form when value(s) changed"
+msgstr ""
+
+msgid "Custom fields to include in search"
+msgstr ""
+
+msgid "Save Changes"
+msgstr ""
+
+msgid "Settings saved."
+msgstr ""
+
+msgid "Newest First"
+msgstr ""
+
+msgid "Oldest First"
+msgstr ""
+
+msgid "Recently Active"
+msgstr ""
+
+msgid "Most Votes"
+msgstr ""
+
+msgid "Most Viewed"
+msgstr ""
+
+msgctxt "sort"
+msgid "Most Answered"
+msgstr ""
+
+msgid "Random"
+msgstr ""
+
+msgid "Display Settings"
+msgstr ""
+
+msgid "Number of posts per page"
+msgstr ""
+
+#, php-format
+msgid "(max. limit %d)"
+msgstr ""
+
+msgid "Answers per page"
+msgstr ""
+
+msgid "Questions sorting options"
+msgstr ""
+
+msgid "Questions default sorting order"
+msgstr ""
+
+msgid "Answers sorting options"
+msgstr ""
+
+msgid "Answers default sorting order"
+msgstr ""
+
+msgid "Stick featured posts to the top"
+msgstr ""
+
+msgid "Reputation Settings"
+msgstr ""
+
+msgid ""
+"Reputation is a rough measurement of how much the community trusts you; it "
+"is earned by convincing your peers that you know what you're talking about. "
+"Here you can configure reputation users gain or lose on certain events or "
+"actions."
+msgstr ""
+
+msgid "One of your questions is voted up:"
+msgstr ""
+
+msgid "One of your questions is voted down:"
+msgstr ""
+
+msgid "One of your answers is voted up:"
+msgstr ""
+
+msgid "One of your answers is voted down:"
+msgstr ""
+
+msgid "One of your answers become accepted:"
+msgstr ""
+
+msgid "You accept an answer posted to your question:"
+msgstr ""
+
+msgid "You vote an answer down:"
+msgstr ""
+
+msgid "You unvote a question:"
+msgstr ""
+
+msgid "You cancel an upvote on an answer:"
+msgstr ""
+
+msgid "One of your questions or answers is deleted as being spam:"
+msgstr ""
+
+msgid "Spam Settings"
+msgstr ""
+
+msgid "Spam score threshold"
+msgstr ""
+
+msgid "number of votes"
+msgstr ""
+
+msgid ""
+"When a post is flagged, the post is assigned a \"spam score\". Posts with "
+"spam scores exceeding the threshold value are marked as spam and moved to "
+"trash automatically by the system. Also, posts with higher number of votes "
+"will have higher threshold. For example, if the value set here is 11, and a "
+"post has 10 votes, then the spam score threshold for the post will be 14 (11 "
+"+ 0.3 x 10)."
+msgstr ""
+
+msgid "Auto-delete spam"
+msgstr ""
+
+msgid ""
+"When checked, posts that have been marked as spam will be deleted by the "
+"system after the period of time specified in the \"Delete Spam After\" "
+"option."
+msgstr ""
+
+msgid "Delete spam after:"
+msgstr ""
+
+msgid ""
+"Enter the number of days the system will wait before auto-deleting posts "
+"marked as spam."
+msgstr ""
+
+msgid "days"
+msgstr ""
+
+msgid "Labels"
+msgstr ""
+
+msgid "Categories"
+msgstr ""
+
+#, php-format
+msgid "Enter the label to be used for \"%s\""
+msgstr ""
+
+msgid "Category"
+msgstr ""
+
+msgid "Tags"
+msgstr ""
+
+msgid "Tag"
+msgstr ""
+
+msgid "Page Title Settings"
+msgstr ""
+
+msgid "Single category page"
+msgstr ""
+
+msgid "Single tag page"
+msgstr ""
+
+msgid "All answers"
+msgstr ""
+
+msgid "All questions"
+msgstr ""
+
+msgid "Ask Question"
+msgstr ""
+
+msgid "Do you really want to reopen this question?"
+msgstr ""
+
+msgid ""
+"Closing this question will prevent new answers to be posted. Are you sure "
+"you want to do this?"
+msgstr ""
+
+msgid "Reopen Question"
+msgstr ""
+
+msgid "Close Question"
+msgstr ""
+
+#, php-format
+msgid "The most recent %d questions and answers"
+msgstr ""
+
+msgid "Most Answers"
+msgstr ""
+
+msgid "Name"
+msgstr ""
+
+msgid "Most Popular"
+msgstr ""
+
+#, php-format
+msgid "Recent posts by %s"
+msgstr ""
+
+#, php-format
+msgid "The most recent %d questions and answers by %s"
+msgstr ""
+
+msgid "Closed Question"
+msgstr ""
+
+msgid "SabaiDiscuss is a premium questions and answers plugin for WordPress"
+msgstr ""
+
+msgid "Congratulations! You have successfully installed SabaiDiscuss"
+msgstr ""
+
+msgid ""
+"Thank you for choosing SabaiDiscuss as your preferred discussion tool for "
+"your WordPress website. We hope you find it useful in achieving your needs."
+msgstr ""
+
+msgid ""
+"Thanks again for choosing SabaiDiscuss as your preferred discussion tool!"
+msgstr ""
+
+msgid "Hi, this is a comment."
+msgstr ""
+
+msgid "Question Answered Notification Email"
+msgstr ""
+
+msgid ""
+"If enabled, a notification email is sent to the author of a question when an "
+"answer is posted to the question."
+msgstr ""
+
+msgid "[{site_name}] Your question has been answered"
+msgstr ""
+
+msgid ""
+"Hi {recipient_name},\n"
+"                \n"
+"A new answer has been posted to your question \"{question_title}\".\n"
+"\n"
+"Answer by {answer_author_name}:\n"
+"\n"
+"------------------------------------\n"
+"{answer_summary}\n"
+"------------------------------------\n"
+"\n"
+"You can view the answer at {answer_url}.\n"
+"\n"
+"Regards,\n"
+"{site_name}\n"
+"{site_url}"
+msgstr ""
+
+msgid "Answer Accepted Notification Email"
+msgstr ""
+
+msgid ""
+"If enabled, a notification email is sent to the author of an answer when the "
+"answer is accepted by the question author."
+msgstr ""
+
+msgid "[{site_name}] Your answer has been accepted"
+msgstr ""
+
+msgid ""
+"Hi {recipient_name},\n"
+"                \n"
+"Your answer to the question \"{question_title}\" has been accepted by the "
+"question owner on {acceptance_date}.\n"
+"\n"
+"You can view the answer at {answer_url}.\n"
+"\n"
+"Regards,\n"
+"{site_name}\n"
+"{site_url}"
+msgstr ""
+
+msgid "Comment Posted Notification Email"
+msgstr ""
+
+msgid ""
+"If enabled, a notification email is sent to the content author when a "
+"comment is submitted for the content."
+msgstr ""
+
+msgid "[{site_name}] You have a new comment"
+msgstr ""
+
+msgid ""
+"Hi {recipient_name},\n"
+"                \n"
+"A comment has been added to your post \"{content_title}\".\n"
+"\n"
+"Comment by {comment_author_name}:\n"
+"\n"
+"------------------------------------\n"
+"{comment_summary}\n"
+"------------------------------------\n"
+"\n"
+"You can view the comment at {content_url}.\n"
+"\n"
+"Regards,\n"
+"{site_name}\n"
+"{site_url}"
+msgstr ""
+
+msgid "Published Post Notification Email"
+msgstr ""
+
+msgid ""
+"If enabled, a notification email is sent to the author of a content when the "
+"content is approved and published by an administrator."
+msgstr ""
+
+msgid "[{site_name}] Your post has been published"
+msgstr ""
+
+msgid ""
+"Hi {recipient_name},\n"
+"                \n"
+"Your post \"{content_title}\" has been approved and is now published.\n"
+"\n"
+"You can view your post at {content_url}.\n"
+"\n"
+"Regards,\n"
+"{site_name}\n"
+"{site_url}"
+msgstr ""
+
+msgid "Question Posted Notification Email"
+msgstr ""
+
+msgid ""
+"If enabled, a notification email is sent to users of selected roles whenever "
+"a question is posted."
+msgstr ""
+
+msgid "[{site_name}] A new question (ID: {question_id}) has been posted"
+msgstr ""
+
+msgid ""
+"Hi {recipient_name},\n"
+"                \n"
+"A new question titled \"{question_title}\" has been posted on "
+"{question_date}.\n"
+"\n"
+"Posted by {question_author_name} ({question_author_email}):\n"
+"\n"
+"------------------------------------\n"
+"{question_summary}\n"
+"------------------------------------\n"
+"\n"
+"You can view the question at {question_url}.\n"
+"\n"
+"Regards,\n"
+"{site_name}\n"
+"{site_url}"
+msgstr ""
+
+msgid "Answer Posted Notification Email"
+msgstr ""
+
+msgid ""
+"If enabled, a notification email is sent to users of selected roles whenever "
+"an answer is posted."
+msgstr ""
+
+msgid "[{site_name}] A new answer (ID: {answer_id}) has been posted"
+msgstr ""
+
+msgid ""
+"Hi {recipient_name},\n"
+"                \n"
+"A new answer to the question \"{question_title}\" has been posted on "
+"{answer_date}.\n"
+"\n"
+"Posted by {answer_author_name} ({answer_author_email}):\n"
+"\n"
+"------------------------------------\n"
+"{answer_summary}\n"
+"------------------------------------\n"
+"\n"
+"You can view the answer at {answer_url}.\n"
+"\n"
+"Regards,\n"
+"{site_name}\n"
+"{site_url}"
+msgstr ""
+
+msgid "Question Posted Admin Notification Email"
+msgstr ""
+
+msgid ""
+"If enabled, a notification email is sent to administrators whenever a "
+"question that requires approval is posted."
+msgstr ""
+
+msgid ""
+"[{site_name}] A new question (ID: {question_id}) that requires approval has "
+"been posted"
+msgstr ""
+
+msgid "Answer Posted Admin Notification Email"
+msgstr ""
+
+msgid ""
+"If enabled, a notification email is sent to administrators whenever an "
+"answer that requires approval is posted."
+msgstr ""
+
+msgid ""
+"[{site_name}] A new answer (ID: {answer_id}) that requires approval has been "
+"posted"
+msgstr ""
+
+msgid "Question Flagged Notification Email"
+msgstr ""
+
+msgid ""
+"If enabled, a notification email is sent to users of selected roles whenever "
+"a question is flagged."
+msgstr ""
+
+msgid "[{site_name}] Question (ID: {question_id}) has been flagged"
+msgstr ""
+
+msgid ""
+"Hi {recipient_name},\n"
+"                \n"
+"The following question has been flagged on {flag_date} by {flag_user_name} "
+"({flag_user_email}):\n"
+"\n"
+"------------------------------------\n"
+"{question_title}\n"
+"------------------------------------\n"
+"\n"
+"Reason: {flag_reason}\n"
+"Score: {flag_score} (total: {flag_score_total})\n"
+"\n"
+"You can view the question at {question_url}.\n"
+"\n"
+"Regards,\n"
+"{site_name}\n"
+"{site_url}"
+msgstr ""
+
+msgid "Answer Flagged Notification Email"
+msgstr ""
+
+msgid ""
+"If enabled, a notification email is sent to users of selected roles whenever "
+"an answer is flagged."
+msgstr ""
+
+msgid "[{site_name}] Answer (ID: {answer_id}) has been flagged"
+msgstr ""
+
+msgid ""
+"Hi {recipient_name},\n"
+"                \n"
+"The following answer has been flagged on {flag_date} by {flag_user_name} "
+"({flag_user_email}):\n"
+"\n"
+"------------------------------------\n"
+"{answer_summary} (question: {question_title})\n"
+"------------------------------------\n"
+"\n"
+"Reason: {flag_reason}\n"
+"Score: {flag_score} (total: {flag_score_total})\n"
+"\n"
+"You can view the answer at {answer_url}.\n"
+"\n"
+"Regards,\n"
+"{site_name}\n"
+"{site_url}"
+msgstr ""
+
+msgid "Open"
+msgstr ""
+
+msgid "Closed"
+msgstr ""
+
+msgid "Show open questions only"
+msgstr ""
+
+msgid "Resolved"
+msgstr ""
+
+msgid "Unresolved"
+msgstr ""
+
+msgid "Show resolved only"
+msgstr ""
+
+msgid "Description"
+msgstr ""
+
+msgid "Parent Category"
+msgstr ""
+
+msgid "Recent Questions & Answers"
+msgstr ""
+
+msgid "Popular Questions"
+msgstr ""
+
+msgid "Featured Questions"
+msgstr ""
+
+msgid "Related Questions"
+msgstr ""
+
+msgid "Unanswered Questions"
+msgstr ""
+
+msgid "Accepted Answers"
+msgstr ""
+
+msgid "Question Tags"
+msgstr ""
+
+msgid "Question Categories"
+msgstr ""
+
+msgid "Search Questions & Answers"
+msgstr ""
+
+msgid "Ask Button"
+msgstr ""
+
+msgid "Leader Board"
+msgstr ""
+
+msgid "Recently posted questions and answers"
+msgstr ""
+
+msgid "Questions that reach all of the threshold criteria set for the widget"
+msgstr ""
+
+msgid "Questions that are marked as featured"
+msgstr ""
+
+msgid "Related questions"
+msgstr ""
+
+msgid "Questions without any accepted answer"
+msgstr ""
+
+msgid "Answers that were recently accepted"
+msgstr ""
+
+msgid "A list of tags used"
+msgstr ""
+
+msgid "A list of categories"
+msgstr ""
+
+msgid "Search questions and answers form"
+msgstr ""
+
+msgid "A call to action button"
+msgstr ""
+
+msgid "A list of users with highest reputation points"
+msgstr ""
+
+msgid "Do not cache output"
+msgstr ""
+
+msgid "Select add-on"
+msgstr ""
+
+msgid "Number of users to show"
+msgstr ""
+
+msgid "All add-ons"
+msgstr ""
+
+msgid "Number of posts to show"
+msgstr ""
+
+msgid "Show summary"
+msgstr ""
+
+msgid "Number of characters in the summary"
+msgstr ""
+
+msgid "Sort posts by"
+msgstr ""
+
+msgid "Date posted"
+msgstr ""
+
+msgid "Number of votes"
+msgstr ""
+
+msgid "Total vote score"
+msgstr ""
+
+msgid "Number of answers"
+msgstr ""
+
+msgid "Number of favorites"
+msgstr ""
+
+msgid "Number of views"
+msgstr ""
+
+msgid "Minimum number of answers"
+msgstr ""
+
+msgid "Minimum number of votes"
+msgstr ""
+
+msgid "Minimum total vote score"
+msgstr ""
+
+msgid "Minimum number of favorites"
+msgstr ""
+
+msgid "Minimum number of views"
+msgstr ""
+
+msgid "Number of tags to show"
+msgstr ""
+
+msgid "Sort tags by"
+msgstr ""
+
+msgid "Date created"
+msgstr ""
+
+msgid "Number of posts"
+msgstr ""
+
+msgid "Show post count"
+msgstr ""
+
+msgid "Button label"
+msgstr ""
+
+msgid "Button size"
+msgstr ""
+
+msgid "Mini"
+msgstr ""
+
+msgid "Small"
+msgstr ""
+
+msgid "Medium"
+msgstr ""
+
+msgid "Large"
+msgstr ""
+
+msgid "Button color"
+msgstr ""
+
+msgid "White"
+msgstr ""
+
+msgid "Blue"
+msgstr ""
+
+msgid "Light blue"
+msgstr ""
+
+msgid "Green"
+msgstr ""
+
+msgid "Orange"
+msgstr ""
+
+msgid "Red"
+msgstr ""
+
+#, php-format
+msgid "%s reputation"
+msgstr ""
+
+#, php-format
+msgid "answered %s"
+msgstr ""
+
+#, php-format
+msgid "asked %s"
+msgstr ""
+
+msgid "Search"
+msgstr ""
+
+msgid "All categories"
+msgstr ""
+
+msgid "Questions Index Page"
+msgstr ""
+
+msgid "Ask Question Slug"
+msgstr ""
+
+msgid "Category Index Page"
+msgstr ""
+
+#, php-format
+msgid "%s Categories"
+msgstr ""
+
+msgid "Tag Cloud Page"
+msgstr ""
+
+#, php-format
+msgid "%s Tags"
+msgstr ""
+
+msgid "Single Question Page"
+msgstr ""
+
+#, php-format
+msgid "%s Question"
+msgstr ""
+
+msgid "Flags Page"
+msgstr ""
+
+#, php-format
+msgid "%s Flags"
+msgstr ""
+
+msgid "Answers Slug"
+msgstr ""
+
+msgid "Question Category Slug"
+msgstr ""
+
+msgid "Question Tag Slug"
+msgstr ""
+
+#, php-format
+msgid "Posts by %s"
+msgstr ""
+
+msgctxt "tab"
+msgid "Questions"
+msgstr ""
+
+#, php-format
+msgid "Answers (%d)"
+msgstr ""
+
+msgid "Favorites"
+msgstr ""
+
+msgid "Flags"
+msgstr ""
+
+msgid "All Answers"
+msgstr ""
+
+msgid "General"
+msgstr ""
+
+#, php-format
+msgctxt "Settings page title"
+msgid "%s Settings"
+msgstr ""
+
+msgid "Access Control"
+msgstr ""
+
+msgid "Emails"
+msgstr ""
+
+msgctxt "settings"
+msgid "Search"
+msgstr ""
+
+#, php-format
+msgid "Category: %s"
+msgstr ""
+
+#, php-format
+msgid "Tag: %s"
+msgstr ""
+
+#, php-format
+msgid "Flags (%d)"
+msgstr ""
+
+msgid "Add Question"
+msgstr ""
+
+msgid "Settings"
+msgstr ""
+
+#, php-format
+msgid "Re: %s"
+msgstr ""
+
+msgid "Answered"
+msgstr ""
+
+msgid "This question has been resolved."
+msgstr ""
+
+msgid "This question is closed to new answers."
+msgstr ""
+
+msgid "Edit"
+msgstr ""
+
+msgid "Edit this Question"
+msgstr ""
+
+msgid "Delete"
+msgstr ""
+
+msgid "Delete this Question"
+msgstr ""
+
+msgid "Close"
+msgstr ""
+
+msgid "Close this Question"
+msgstr ""
+
+msgid "Reopen"
+msgstr ""
+
+msgid "Reopen this Question"
+msgstr ""
+
+msgid "This answer has been accepted."
+msgstr ""
+
+msgid "Edit this Answer"
+msgstr ""
+
+msgid "Delete this Answer"
+msgstr ""
+
+msgid "Unaccept"
+msgstr ""
+
+msgid "Accept"
+msgstr ""
+
+msgid "Unaccept this Answer"
+msgstr ""
+
+msgid "Accept this Answer"
+msgstr ""
+
+msgid "Featured/Unfeatured"
+msgstr ""
+
+msgid "Featured"
+msgstr ""
+
+msgid "Unfeatured"
+msgstr ""
+
+msgid "Show accepted/unaccepted"
+msgstr ""
+
+msgid "Show accepted"
+msgstr ""
+
+msgid "Show unaccepted"
+msgstr ""
+
+#, php-format
+msgid ""
+"Posts <span class=\"sabai-tr-error\">highlighted</span> are marked as SPAM. "
+"Authors of these posts will lose %d reputation points when the posts are "
+"removed from trash."
+msgstr ""
+
+#, php-format
+msgid "Deleted %d spam posts (questions and/or answers) from trash"
+msgstr ""
+
+#, php-format
+msgid "%s question"
+msgid_plural "%s questions"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "Detailed view"
+msgstr ""
+
+msgid "Summary view"
+msgstr ""
+
+#, php-format
+msgid "%s posted a new question to %s"
+msgstr ""
+
+#, php-format
+msgid "%s answered to question %s"
+msgstr ""
+
+#, php-format
+msgid "%1$s commented on a <a href=\"%2$s\">question</a>"
+msgstr ""
+
+#, php-format
+msgid "%1$s commented on an <a href=\"%2$s\">answer</a>"
+msgstr ""
+
+msgid "BuddyPress profile tab label"
+msgstr ""
+
+msgid "BuddyPress profile tab slug"
+msgstr ""
+
+msgid "BuddyPress profile tab position"
+msgstr ""
+
+msgid "BuddyPress activities"
+msgstr ""
+
+msgid "Comments"
+msgstr ""
+
+msgid "Limit"
+msgstr ""
+
+msgid "Log template"
+msgstr ""
+
+msgid "Log template (reversal)"
+msgstr ""
+
+msgctxt "MyCRED title"
+msgid "Sabai Discuss"
+msgstr ""
+
+msgctxt "MyCRED desc"
+msgid "Awards %_plural% for variosu actions in Sabai Discuss."
+msgstr ""
+
+msgid "Voting Up Question"
+msgstr ""
+
+msgid "Voting Down Question"
+msgstr ""
+
+msgid "Unvoting Question"
+msgstr ""
+
+msgid "Question Voted Up"
+msgstr ""
+
+msgid "Question Voted Down"
+msgstr ""
+
+msgid "Voting Up Answer"
+msgstr ""
+
+msgid "Voting Down Answer"
+msgstr ""
+
+msgid "Unvoting Answer"
+msgstr ""
+
+msgid "Answer Voted Up"
+msgstr ""
+
+msgid "Answer Voted Down"
+msgstr ""
+
+msgid "Accepting Answer"
+msgstr ""
+
+msgid "Unaccepting Answer"
+msgstr ""
+
+msgid "Answer Accepted"
+msgstr ""
+
+msgid "No entries were found."
+msgstr ""

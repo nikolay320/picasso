@@ -1,0 +1,4 @@
+<?php
+class Sabai_Addon_System_Model_AdminrouteGateway extends Sabai_Addon_System_Model_Base_AdminrouteGateway
+{
+}

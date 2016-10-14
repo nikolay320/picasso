@@ -1,0 +1,8 @@
+<?php
+class Sabai_Addon_Entity_Model_FieldCache extends Sabai_Addon_Entity_Model_Base_FieldCache
+{
+}
+
+class Sabai_Addon_Entity_Model_FieldCacheRepository extends Sabai_Addon_Entity_Model_Base_FieldCacheRepository
+{
+}

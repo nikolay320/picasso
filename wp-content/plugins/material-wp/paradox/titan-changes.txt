@@ -1,0 +1,5 @@
+class-admin-panel.php :
+
+// Hook 'tf_pre_save_options_{namespace}' - action pre-saving
+// WPBD Custom modification
+do_action( 'tf_pre_save_options_' . $this->getOptionNamespace(), $this );
